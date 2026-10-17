@@ -1,0 +1,28 @@
+name: Pages
+on:
+  workflow_run: { workflows: [CI], types: [completed], branches: [main] }
+  workflow_dispatch:
+permissions: { contents: read, pages: write, id-token: write }
+concurrency: { group: pages, cancel-in-progress: false }
+jobs:
+  deploy:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    environment: { name: github-pages, url: '${{ steps.d.outputs.page_url }}' }
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: '${{ github.event.workflow_run.head_sha || github.sha }}' }
+      - name: Copiar só o que é publicável e carimbar a versão do app
+        run: |
+          mkdir site
+          cp -r index.html app.js styles.css sw.js manifest.json config.json reset.html content-manifest.json icons src content site/
+          if [ -d assets ]; then cp -r assets site/; fi
+          # versão = hash dos arquivos do app (só muda quando o app muda; troca de conteúdo não gera aviso de atualização)
+          H=$(cat index.html app.js styles.css src/*.js manifest.json reset.html icons/*.png | sha256sum | cut -c1-8)
+          sed -i "s/__SHELL_HASH__/$H/g" site/sw.js site/app.js
+          grep -q "$H" site/sw.js
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: site }
+      - id: d
+        uses: actions/deploy-pages@v4

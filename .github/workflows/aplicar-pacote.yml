@@ -1,0 +1,89 @@
+name: aplicar-pacote
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/aplicar-pacote.yml"
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: aplicar-pacote
+  cancel-in-progress: false
+jobs:
+  aplicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Aplicar o pacote (confere checksums, apaga o que é antigo, grava os arquivos)
+        run: |
+          if [ ! -f tarefa-final.txt ]; then echo "sem tarefa-final.txt: nada a fazer"; exit 0; fi
+          touch .aplicando
+          python3 -I - <<'PY'
+          import re, os, sys, shutil, hashlib
+          PACOTE = os.environ.get('PACOTE', 'tarefa-final.txt')
+          t = open(PACOTE, encoding='utf8', newline='').read()
+          t = t.split('==================== ARQUIVOS ====================\n', 1)[1]
+          import base64
+          bins = {m.group(1): base64.b64decode(m.group(2)) for m in re.finditer(r'^<<<BIN (\S+)>>>\n(.*?)^<<<END>>>\n', t, re.S | re.M)}
+          files = {m.group(1): m.group(2) for m in re.finditer(r'^<<<FILE (\S+)>>>\n(.*?)^<<<END>>>\n', t, re.S | re.M)}
+          sums = {}
+          for ln in re.search(r'^<<<CHECKSUMS>>>\n(.*?)^<<<END>>>', t, re.S | re.M).group(1).splitlines():
+              if ln.strip():
+                  h, p = ln.split('  ', 1); sums[p] = h
+          assert files and set(files) | set(bins) == set(sums), 'lista de arquivos e checksums não conferem'
+          bad = []
+          for p, c in files.items():
+              if hashlib.sha256(c.encode('utf8')).hexdigest() != sums[p]: bad.append('pacote: ' + p)
+              if p.startswith('.github/workflows/'):   # workflows foram enviados à mão: conferir o que está no repositório
+                  if not os.path.exists(p) or hashlib.sha256(open(p, 'rb').read()).hexdigest() != sums[p]: bad.append('workflow diferente do pacote: ' + p)
+          for p, b in bins.items():
+              if hashlib.sha256(b).hexdigest() != sums[p]: bad.append('binario: ' + p)
+          if bad: print('\n'.join(bad)); sys.exit(1)
+          for d in ('biblia', 'camada1', 'camada2', 'camada3', 'content', 'content-src'):
+              shutil.rmtree(d, ignore_errors=True)
+          for f in ('storage.js', 'content-manifest.json'):
+              if os.path.exists(f): os.remove(f)
+          keep = set(files)
+          for d in ('tests', 'scripts', 'schemas'):
+              for r, _, fs in os.walk(d):
+                  for f in fs:
+                      p = os.path.join(r, f).replace(os.sep, '/')
+                      if p not in keep: os.remove(p)
+          for p, c in files.items():
+              if p.startswith('.github/workflows/'): continue
+              os.makedirs(os.path.dirname(p) or '.', exist_ok=True)
+              open(p, 'w', encoding='utf8', newline='').write(c)
+          for p, b in bins.items():
+              os.makedirs(os.path.dirname(p), exist_ok=True)
+              open(p, 'wb').write(b)
+          for p in ('icons/icon-192.png', 'icons/icon-512.png'):
+              if not os.path.exists(p): print('falta', p); sys.exit(1)
+          for p, h in sums.items():
+              if p.startswith('.github/workflows/'): continue
+              assert hashlib.sha256(open(p, 'rb').read()).hexdigest() == h, 'gravado diferente: ' + p
+          print('pacote aplicado:', len(files), 'arquivos e', len(bins), 'binarios')
+          PY
+      - name: Montar manifesto, validar e testar
+        run: |
+          [ -f .aplicando ] || exit 0
+          node scripts/build-manifest.mjs
+          node scripts/validate-content.mjs
+          node --test tests/*.test.mjs
+      - name: Gravar no repositório e continuar (importar a Bíblia)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ -f .aplicando ] || exit 0
+          rm -f .aplicando tarefa-final.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Substitui o app: visual do Robusto, estudo em camadas, busca e offline"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          gh workflow run importar-biblia.yml --ref main

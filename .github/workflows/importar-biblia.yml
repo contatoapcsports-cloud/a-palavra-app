@@ -1,0 +1,41 @@
+name: importar-biblia
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: importar-biblia
+  cancel-in-progress: false
+jobs:
+  importar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Baixar a Bíblia Livre 2018 (eBible.org)
+        run: |
+          mkdir -p /tmp/usfm
+          curl -fL --retry 3 -o /tmp/porbr2018.zip https://ebible.org/Scriptures/porbr2018_usfm.zip
+          unzip -tq /tmp/porbr2018.zip
+          unzip -q /tmp/porbr2018.zip -d /tmp/usfm
+      - name: Converter, validar e montar o manifesto
+        run: |
+          python3 -I scripts/import-ebible.py /tmp/usfm --producao
+          node scripts/build-manifest.mjs
+          node scripts/validate-content.mjs
+          node --test tests/*.test.mjs
+      - name: Gravar no repositório e publicar
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A content-src content content-manifest.json docs
+          git diff --cached --quiet && { echo "nada mudou"; exit 0; }
+          git commit -m "conteúdo: Bíblia Livre 2018 (66 livros, 1189 capítulos)"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          gh workflow run pages.yml --ref main

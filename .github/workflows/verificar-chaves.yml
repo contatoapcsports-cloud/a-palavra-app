@@ -1,0 +1,61 @@
+name: verificar-chaves
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/verificar-chaves.yml"
+permissions:
+  contents: write
+concurrency:
+  group: verificar-chaves
+  cancel-in-progress: false
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Testar cada chave (só consulta; nunca imprime a chave)
+        run: |
+          mkdir -p docs
+          out=docs/chaves.txt
+          echo "Teste das chaves em $(date -u +%F' '%T) UTC" > $out
+          chk() { if [ -n "$2" ]; then echo "$1: preenchido (${#2} caracteres)" >> $out; else echo "$1: AUSENTE (nome do segredo errado ou vazio)" >> $out; fi; }
+          chk GROQ_API_KEY "$GROQ_API_KEY"; chk GEMINI_API_KEY "$GEMINI_API_KEY"
+          chk CLOUDFLARE_API_TOKEN "$CLOUDFLARE_API_TOKEN"; chk CLOUDFLARE_ACCOUNT_ID "$CLOUDFLARE_ACCOUNT_ID"
+          if [ -n "$GROQ_API_KEY" ]; then
+            c=$(curl -s -o /tmp/g.json -w '%{http_code}' -H "Authorization: Bearer $GROQ_API_KEY" https://api.groq.com/openai/v1/models)
+            echo "Groq: HTTP $c $( [ "$c" = 200 ] && echo OK || echo FALHA )" >> $out
+            [ "$c" = 200 ] && python3 -c "import json;print('Groq modelos:',', '.join(sorted(m['id'] for m in json.load(open('/tmp/g.json'))['data'])))" >> $out
+          fi
+          if [ -n "$GEMINI_API_KEY" ]; then
+            c=$(curl -s -o /tmp/m.json -w '%{http_code}' -H "x-goog-api-key: $GEMINI_API_KEY" https://generativelanguage.googleapis.com/v1beta/models)
+            echo "Gemini: HTTP $c $( [ "$c" = 200 ] && echo OK || echo FALHA )" >> $out
+            [ "$c" = 200 ] && python3 -c "import json;print('Gemini modelos:',', '.join(sorted(m['name'].split('/')[-1] for m in json.load(open('/tmp/m.json'))['models'] if 'generateContent' in m.get('supportedGenerationMethods',[]))))" >> $out
+          fi
+          if [ -n "$CLOUDFLARE_API_TOKEN" ]; then
+            c=$(curl -s -o /tmp/c.json -w '%{http_code}' -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" https://api.cloudflare.com/client/v4/user/tokens/verify)
+            if [ "$c" != 200 ] && [ -n "$CLOUDFLARE_ACCOUNT_ID" ]; then
+              c=$(curl -s -o /tmp/c.json -w '%{http_code}' -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/tokens/verify")
+            fi
+            echo "Cloudflare token: HTTP $c $( [ "$c" = 200 ] && echo OK || echo FALHA )" >> $out
+          fi
+          if [ -n "$CLOUDFLARE_API_TOKEN" ] && [ -n "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            c=$(curl -s -o /tmp/w.json -w '%{http_code}' -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" -d '{"messages":[{"role":"user","content":"Responda apenas: ok"}],"max_tokens":8}' "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/ai/run/@cf/meta/llama-3.1-8b-instruct")
+            echo "Cloudflare Workers AI (chamada de teste): HTTP $c $( [ "$c" = 200 ] && echo OK || echo FALHA )" >> $out
+          fi
+          cat $out
+      - name: Gravar o resultado
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/chaves.txt
+          git diff --cached --quiet || git commit -m "docs: resultado do teste das chaves"
+          git pull --rebase origin main || true
+          git push origin HEAD:main || true
