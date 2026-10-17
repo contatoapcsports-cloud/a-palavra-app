@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Limpar cache — Palavra Viva</title><link rel="stylesheet" href="styles.css"></head>
+<body><main>
+<h1>Limpar cache do app</h1>
+<p>Isso apaga os arquivos guardados para uso sem internet e recarrega o app. Suas notas e destaques <strong>não</strong> são apagados, a menos que você marque a opção abaixo.</p>
+<p><label><input type="checkbox" id="also-data"> Apagar também minhas notas, destaques e onde parei</label></p>
+<p><button class="tap primary" id="go" type="button">Limpar cache</button> <a class="tap" href="./">Voltar</a></p>
+<p id="msg" role="status"></p>
+</main>
+<script>
+document.getElementById('go').addEventListener('click', async function () {
+  var msg = document.getElementById('msg');
+  try {
+    var regs = await navigator.serviceWorker.getRegistrations();
+    await Promise.all(regs.map(function (r) { return r.unregister(); }));
+    var names = await caches.keys();
+    await Promise.all(names.filter(function (n) { return n.indexOf('pv4-') === 0; }).map(function (n) { return caches.delete(n); }));
+    if (document.getElementById('also-data').checked) { await new Promise(function (res) { var q = indexedDB.deleteDatabase('pv4-reader'); q.onsuccess = q.onerror = q.onblocked = res; }); }
+    msg.textContent = 'Pronto. Abrindo o app…';
+    setTimeout(function () { location.href = './'; }, 800);
+  } catch (e) { msg.textContent = 'Não foi possível limpar: ' + e.message; }
+});
+</script></body></html>
