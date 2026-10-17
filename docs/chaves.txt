@@ -1,0 +1,11 @@
+Teste das chaves em 2026-10-17 00:59:25 UTC
+GROQ_API_KEY: preenchido (56 caracteres)
+GEMINI_API_KEY: preenchido (53 caracteres)
+CLOUDFLARE_API_TOKEN: preenchido (53 caracteres)
+CLOUDFLARE_ACCOUNT_ID: preenchido (32 caracteres)
+Groq: HTTP 200 OK
+Groq modelos: allam-2-7b, canopylabs/orpheus-arabic-saudi, canopylabs/orpheus-v1-english, meta-llama/llama-prompt-guard-2-22m, meta-llama/llama-prompt-guard-2-86m, openai/gpt-oss-120b, openai/gpt-oss-20b, openai/gpt-oss-safeguard-20b, qwen/qwen3.8-27b, whisper-large-v3, whisper-large-v3-turbo
+Gemini: HTTP 200 OK
+Gemini modelos: antigravity-preview-05-2026, antigravity-preview-09-2026, antigravity-preview-latest, deep-research-max-preview-04-2026, deep-research-preview-04-2026, deep-research-pro-preview-12-2025, gemini-2.5-computer-use-preview-10-2025, gemini-2.5-flash, gemini-2.5-flash-image, gemini-2.5-flash-lite, gemini-2.5-flash-preview-tts, gemini-2.5-pro, gemini-2.5-pro-preview-tts, gemini-3-flash-preview, gemini-3-pro-image, gemini-3-pro-image-preview, gemini-3.1-flash-image, gemini-3.1-flash-image-preview, gemini-3.1-flash-lite, gemini-3.1-flash-lite-image, gemini-3.1-flash-lite-preview, gemini-3.1-flash-tts-preview, gemini-3.1-pro-preview, gemini-3.1-pro-preview-customtools, gemini-3.5-flash, gemini-3.5-flash-lite, gemini-3.5-transcribe, gemini-3.6-flash, gemini-3.7-flash, gemini-3.8-flash, gemini-3.8-flash-lite-tts, gemini-3.8-flash-tts, gemini-4-argon, gemini-flash-latest, gemini-flash-lite-latest, gemini-nano-banana-2.1, gemini-omni-1.1-flash, gemini-omni-flash-preview, gemini-pro-latest, gemini-robotics-er-2-preview, gemma-4-26b-a4b-it, gemma-4-31b-it, lyria-3-clip-preview, lyria-3-pro-preview, lyria-3.5, nano-banana-pro-preview
+Cloudflare token: HTTP 200 OK
+Cloudflare Workers AI (chamada de teste): HTTP 200 OK
