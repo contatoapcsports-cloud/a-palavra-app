@@ -1,0 +1,137 @@
+{
+ "id": "43-1-42-51",
+ "ref": "João 1:42-51",
+ "book": "43",
+ "chapter": 1,
+ "verses": [
+  {
+   "n": 42,
+   "t": "E levou-o a Jesus. E Jesus, olhando para ele, disse: Tu és Simão, filho de Jonas; tu serás chamado Cefas. (que se traduz Pedro)."
+  },
+  {
+   "n": 43,
+   "t": "O dia seguinte Jesus quis ir à Galileia, achou Filipe, e disse-lhe: Segue-me."
+  },
+  {
+   "n": 44,
+   "t": "E Filipe era de Betsaida, da cidade de André e de Pedro."
+  },
+  {
+   "n": 45,
+   "t": "Filipe achou Natanael, e disse-lhe: Achamos aquele de quem Moisés escreveu na Lei, e os Profetas: a Jesus, o filho de José, de Nazaré."
+  },
+  {
+   "n": 46,
+   "t": "E disse-lhe Natanael: Pode haver alguma coisa boa de Nazaré? Filipe lhe disse: Vem, e vê."
+  },
+  {
+   "n": 47,
+   "t": "Jesus viu Natanael vir, e disse dele: Eis verdadeiramente um israelita, em quem não há engano!"
+  },
+  {
+   "n": 48,
+   "t": "Natanael lhe disse: De onde tu me conheces? Respondeu Jesus, e disse-lhe: Antes que Filipe te chamasse, estando tu debaixo da figueira, eu te vi."
+  },
+  {
+   "n": 49,
+   "t": "Natanael respondeu, e disse-lhe: Rabi, tu és o Filho de Deus, tu és o Rei de Israel!"
+  },
+  {
+   "n": 50,
+   "t": "Jesus respondeu, e disse-lhe: Porque te disse: Debaixo da figueira te vi, crês? Tu verás coisas maiores que estas."
+  },
+  {
+   "n": 51,
+   "t": "E disse-lhe: Em verdade, em verdade vos digo, que daqui em diante vereis o céu aberto, e aos anjos de Deus subir e descer sobre o Filho do homem."
+  }
+ ],
+ "titulo": "Jesus te viu antes de você saber",
+ "temas": [
+  "conhecimento",
+  "fé",
+  "chamado",
+  "verdade"
+ ],
+ "pergunta": "O que significaria para você saber que Jesus o conhece antes mesmo que você O busque?",
+ "entender": "Neste trecho, vemos como Jesus chama seus seguidores com uma intimidade surpreendente. Ele olha para Simão e diz: \"Tu és Simão, filho de Jonas; tu serás chamado Cefas\". O nome Cefas, que significa Pedro, indica uma mudança de identidade: não mais apenas um pescador, mas uma rocha sólida na fé. Jesus não apenas os chama, mas os renomeia, mostrando que Ele vê o potencial e o caráter real de cada pessoa.\n\nDepois, Jesus encontra Filipe e depois Natanael. Natanael é cético e pergunta se pode vir algo bom de Nazaré. Mas Jesus responde: \"Eis verdadeiramente um israelita, em quem não há engano\". Ele revela que viu Natanael debaixo da figueira antes mesmo que Filipe o chamasse. Isso mostra que Jesus conhece nossas lutas, nossos momentos de oração e nossas dúvidas profundas.\n\nA reação de Natanael é imediata: \"Rabi, tu és o Filho de Deus, tu és o Rei de Israel!\". Ele reconhece a autoridade divina de Jesus não por milagres visíveis, mas pelo conhecimento íntimo que Jesus demonstrou. Jesus então o convida a ver \"coisas maiores\", prometendo que o céu se abrirá e os anjos subirão e descerão sobre o Filho do homem, apontando para a conexão eterna entre Deus e a humanidade através de Cristo.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a divindade de Jesus. Natanael, um homem sincero e estudioso da Lei, reconhece Jesus como o Filho de Deus e o Rei de Israel após perceber que Jesus o conhecia profundamente. Isso nos mostra que a fé não vem apenas de sinais externos, mas do reconhecimento de que Jesus é quem Ele diz ser. O evangelho é revelado aqui: Jesus nos conhece, nos chama pelo nome e nos transforma, oferecendo-nos acesso ao céu através dEle, o Filho do homem.",
+  "selo": true
+ },
+ "viver": "Talvez você sinta que Deus está distante ou que não sabe o que você vive. Este texto nos lembra de que Jesus nos vê em nossos momentos mais íntimos, como Natanael sob a figueira. Ele não nos julga por nossas dúvidas, mas nos conhece com verdade. Hoje, pare por um momento e pense: em qual área da sua vida você tem escondido dúvidas ou lutas? Confie em que Jesus já as conhece. Abra seu coração a Ele, não como um estranho, mas como um amigo que já sabe seu nome. Permita que esse conhecimento transforme sua identidade, assim como Simão se tornou Pedro, e viva a certeza de que você é visto e amado por Deus.",
+ "guarde": "Jesus te vê em sua intimidade e te chama para uma nova identidade em Ele.",
+ "ore": "Senhor Jesus, obrigado por me conhecer tão profundamente. Ajuda-me a confiar no Teu olhar verdadeiro sobre mim. Transforma meu coração, assim como transformaste Simão em Pedro. Que eu reconheça a Ti como Filho de Deus e viva a segurança de ser visto e amado por Ti. Amém.",
+ "quiz": {
+  "pergunta": "O que Jesus disse a Natanael que o levou a reconhecê-lo como o Filho de Deus?",
+  "opcoes": [
+   "Que ele havia curado sua doença no passado",
+   "Que ele seria o líder da nova comunidade",
+   "Que o viu debaixo da figueira antes de Filipe o chamar"
+  ],
+  "certa": 2,
+  "explicacao": "O texto diz explicitamente que Jesus viu Natanael debaixo da figueira antes do chamado de Filipe, o que demonstrou seu conhecimento sobrenatural e levou Natanael a confessar a divindade de Jesus."
+ },
+ "refs": [
+  "João 1:41-42",
+  "Gênesis 28:12",
+  "Mateus 16:17-18"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T09:39:41.329Z",
+  "rounds": 1
+ }
+}

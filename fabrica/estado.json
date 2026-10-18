@@ -13,8 +13,9 @@
    "titulo": "Quem é a Luz que veio ao mundo?"
   },
   "43-1-21-31": {
-   "execucoes": 2,
-   "ultimo": "automático: abertura_repetida:ore:43-2-1-8"
+   "execucoes": 3,
+   "ultimo": "automático: viver:citacao_fora_do_texto",
+   "estado": "travado"
   },
   "43-1-32-41": {
    "execucoes": 0,
@@ -24,7 +25,9 @@
   },
   "43-1-42-51": {
    "execucoes": 2,
-   "ultimo": "automático: entender:menos_de_2_paragrafos, entender:citacao_longa"
+   "ultimo": "automático: entender:menos_de_2_paragrafos, viver:citacao_fora_do_texto, refs:quantidade",
+   "estado": "pronto",
+   "titulo": "Jesus te viu antes de você saber"
   },
   "43-2-1-8": {
    "execucoes": 1,
@@ -51,11 +54,15 @@
   },
   "43-3-13-24": {
    "execucoes": 1,
-   "ultimo": "automático: entender:citacao_longa"
+   "ultimo": "automático: entender:citacao_fora_do_texto, abertura_repetida:ore:43-2-1-8",
+   "estado": "pronto",
+   "titulo": "A serpente de bronze e o céu"
   },
   "43-3-25-36": {
    "execucoes": 1,
-   "ultimo": "automático: entender:citacao_longa"
+   "ultimo": "automático: entender:citacao_longa",
+   "estado": "pronto",
+   "titulo": "Alegria de ver Jesus crescer na minha vida"
   },
   "43-4-1-11": {
    "execucoes": 0,
@@ -65,7 +72,7 @@
   },
   "43-4-12-22": {
    "execucoes": 1,
-   "ultimo": "automático: entender:citacao_longa, entender:citacao_fora_do_texto"
+   "ultimo": "gemini: OVERINTERPRETATION: O ensino deduz sem base no texto que o pedido de Jesus para chamar o marido era um convite para levar a água a outros, extrapolando o sentido da passagem."
   },
   "43-4-23-32": {
    "execucoes": 0,
@@ -75,7 +82,7 @@
   },
   "43-4-33-43": {
    "execucoes": 1,
-   "ultimo": "gemini: REFERENCE_BOUNDARY: A seção Entender cita o versículo 41 para afirmar que a palavra da mulher levou muitos a crer, quando isso ocorre no versículo 39 (o versículo 41 refere-se à palavra do próprio Jesus). | CROSS_SECTION_CONSISTENCY: O teste possui duas respostas biblicamente corretas (opções B e C,"
+   "ultimo": "automático: abertura_repetida:ore:43-6-1-12"
   },
   "43-4-44-54": {
    "execucoes": 1,
@@ -167,24 +174,24 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 78,
-   "entrada": 159792,
-   "saida": 77250
+   "chamadas": 85,
+   "entrada": 174860,
+   "saida": 83564
   },
   "groq-qwen": {
-   "chamadas": 20,
-   "entrada": 36969,
-   "saida": 15481
+   "chamadas": 32,
+   "entrada": 61514,
+   "saida": 24677
   },
   "gemini": {
-   "chamadas": 36,
-   "entrada": 114489,
-   "saida": 58135
+   "chamadas": 40,
+   "entrada": 127446,
+   "saida": 65697
   },
   "cloudflare": {
-   "chamadas": 22,
-   "entrada": 75486,
-   "saida": 8162
+   "chamadas": 25,
+   "entrada": 86041,
+   "saida": 9275
   }
  }
 }

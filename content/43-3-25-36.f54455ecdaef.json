@@ -1,0 +1,146 @@
+{
+ "id": "43-3-25-36",
+ "ref": "João 3:25-36",
+ "book": "43",
+ "chapter": 3,
+ "verses": [
+  {
+   "n": 25,
+   "t": "Houve pois uma discussão dos Discípulos de João com os judeus sobre a purificação."
+  },
+  {
+   "n": 26,
+   "t": "E vieram a João, e disseram-lhe: Rabi, aquele que estava contigo dalém do Jordão, ao qual tu deste testemunho, eis que batiza, e todos vem a ele."
+  },
+  {
+   "n": 27,
+   "t": "João respondeu, e disse: O ser humano não pode receber coisa alguma, se não lhe for dada do céu."
+  },
+  {
+   "n": 28,
+   "t": "Vós mesmos me sois testemunhas, que disse: Eu não sou o Cristo; mas que sou enviado diante dele."
+  },
+  {
+   "n": 29,
+   "t": "Aquele que tem a esposa, é o esposo; mas o amigo do esposo, que o apoia, e lhe ouve, alegra-se muito pela voz do esposo. Assim pois já este meu gozo é cumprido."
+  },
+  {
+   "n": 30,
+   "t": "A ele convém crescer, porém a mim diminuir."
+  },
+  {
+   "n": 31,
+   "t": "Aquele que vem de cima, é sobre todos; aquele que vem da terra, da terra é, e da terra fala. Aquele que vem do céu é sobre todos."
+  },
+  {
+   "n": 32,
+   "t": "E daquilo que viu e ouviu, isto testemunha; e ninguém aceita seu testemunho."
+  },
+  {
+   "n": 33,
+   "t": "Aquele que aceitou seu testemunho, esse selou que Deus é verdadeiro."
+  },
+  {
+   "n": 34,
+   "t": "Porque aquele que Deus enviou, as palavras de Deus fala; porque não lhe dá Deus o Espírito por medida."
+  },
+  {
+   "n": 35,
+   "t": "O Pai ama ao Filho, e todas as coisas lhe deu em sua mão."
+  },
+  {
+   "n": 36,
+   "t": "Aquele que crê no Filho tem vida eterna; porém aquele que é desobediente ao Filho não verá a vida eterna , mas a ira de Deus continua sobre ele."
+  }
+ ],
+ "titulo": "Alegria de ver Jesus crescer na minha vida",
+ "temas": [
+  "humildade",
+  "testemunho",
+  "cristo",
+  "fé",
+  "vida eterna"
+ ],
+ "pergunta": "O que João Batista sentiu quando viu as pessoas deixando seu ministério para seguir Jesus?",
+ "entender": "João Batista estava batizando em Enom, e seus discípulos ficaram preocupados porque Jesus estava ganhando mais seguidores. Eles foram a João e perguntaram sobre a situação. João respondeu com uma lição profunda: ninguém recebe nada se não vier do céu. Ele lembrou a todos que não era o Cristo, mas apenas o enviado para preparar o caminho. A imagem usada é a do amigo do noivo, que se alegra ao ouvir a voz do noivo. Para João, ver Jesus crescer e a si mesmo diminuir não era derrota, mas a realização da sua missão e a fonte de sua alegria.\n\nJoão explica que Jesus, que vem do céu, está acima de todos, enquanto ele, que vem da terra, fala da terra. O testemunho de Jesus é aceito por aqueles que reconhecem a verdade de Deus. O texto destaca que Jesus fala as palavras de Deus e recebe o Espírito sem medida. No final, João afirma a centralidade de Cristo: o Pai ama o Filho e colocou todas as coisas em suas mãos. Aquele que crê no Filho tem vida eterna, mas quem não obedece permanece sob a ira de Deus.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para a divindade e a autoridade de Jesus. João, o maior profeta de sua época, reconhece que Jesus é superior a ele e que tudo o que Jesus faz tem origem no céu. A frase \"a ele convém crescer, porém a mim diminuir\" resume o coração do evangelho: nós existimos para que Cristo seja exaltado. A promessa de vida eterna para quem crê no Filho é o núcleo da mensagem de salvação, mostrando que a fé em Jesus é a única porta para escapar da ira de Deus e receber a vida que Ele oferece.",
+  "selo": true
+ },
+ "viver": "Talvez você sinta ciúmes quando alguém recebe mais reconhecimento do que você, ou quando seu esforço não parece dar frutos. Este texto nos convida a mudar a régua de nossa satisfação. Em vez de medir nosso valor pela atenção que recebemos, podemos nos alegrar quando Jesus é honrado em nossa vida, mesmo que isso signifique que nosso papel fique em segundo plano. Pergunte-se: onde eu preciso \"diminuir\" para que Jesus \"cresça\"? Pode ser no controle das decisões, no orgulho ou na busca por aprovação humana. A verdadeira alegria vem de ver o coração de Deus sendo cumprido através de Cristo.",
+ "guarde": "Minha alegria não está em ser o centro, mas em ver Jesus crescer e ser adorado.",
+ "ore": "Pai, ensina-me a humildade de João Batista. Ajuda-me a não me importar com o reconhecimento humano, mas a me alegrar quando Jesus é exaltado. Que eu diminua para que Ele cresça em cada área da minha vida. Amém.",
+ "quiz": {
+  "pergunta": "Por que João Batista disse que sua alegria estava cumprida?",
+  "opcoes": [
+   "Porque seus discípulos o elogiaram por seu trabalho.",
+   "Porque via Jesus crescer e seu próprio papel diminuir, cumprindo sua missão.",
+   "Porque ele sabia que seria libertado da prisão em breve."
+  ],
+  "certa": 1,
+  "explicacao": "João se comparou ao amigo do noivo, que se alegra com a voz do noivo. Sua alegria vinha de ver Jesus, o Cristo, sendo reconhecido, o que era o propósito de sua vida."
+ },
+ "refs": [
+  "Mateus 11:11-13",
+  "Lucas 3:21-22",
+  "Atos 10:42"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T09:42:36.021Z",
+  "rounds": 1
+ }
+}
