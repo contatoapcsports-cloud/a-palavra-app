@@ -51,17 +51,10 @@
       "limite_tpm": 5000
     },
     {
-      "id": "cerebras-gpt",
-      "provedor": "cerebras",
-      "modelo": "gpt-oss-120b",
-      "familia": "openai",
-      "esforco": "low"
-    },
-    {
-      "id": "cerebras-qwen",
-      "provedor": "cerebras",
-      "modelo": "qwen-3-235b-a22b-instruct-2507",
-      "familia": "alibaba"
+      "id": "mistral",
+      "provedor": "mistral",
+      "modelo": "mistral-medium-latest",
+      "familia": "mistral"
     }
   ],
   "auditores_1": [
@@ -78,10 +71,7 @@
       "familia": "google"
     },
     {
-      "id": "cerebras-gpt"
-    },
-    {
-      "id": "cerebras-qwen"
+      "id": "mistral"
     },
     {
       "id": "groq-gpt"
@@ -102,10 +92,7 @@
       "familia": "meta"
     },
     {
-      "id": "cerebras-gpt"
-    },
-    {
-      "id": "cerebras-qwen"
+      "id": "mistral"
     },
     {
       "id": "groq-gpt"
