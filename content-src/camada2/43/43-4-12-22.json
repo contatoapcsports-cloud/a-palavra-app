@@ -1,0 +1,142 @@
+{
+ "id": "43-4-12-22",
+ "ref": "João 4:12-22",
+ "book": "43",
+ "chapter": 4,
+ "verses": [
+  {
+   "n": 12,
+   "t": "És tu maior que nosso pai Jacó, que nos deu o poço? E ele mesmo dele bebeu, e seus filhos, e seu gado?"
+  },
+  {
+   "n": 13,
+   "t": "Jesus respondeu, e disse-lhe: Todo aquele que beber desta água voltará a ter sede;"
+  },
+  {
+   "n": 14,
+   "t": "Porém aquele que beber da água que eu lhe der, para sempre não terá sede, mas a água que eu lhe der se fará nele fonte de água, que salte para vida eterna."
+  },
+  {
+   "n": 15,
+   "t": "Disse-lhe a mulher: Senhor, dá-me desta água, para que eu não tenha mais sede, nem venha aqui para tirar."
+  },
+  {
+   "n": 16,
+   "t": "Disse-lhe Jesus: Vai, chama a teu marido, e vem cá."
+  },
+  {
+   "n": 17,
+   "t": "A mulher respondeu, e disse: Não tenho marido. Disse-lhe Jesus: Bem disseste: Marido não tenho."
+  },
+  {
+   "n": 18,
+   "t": "Porque cinco maridos tiveste, e o que agora tens não é teu marido; isto com verdade disseste."
+  },
+  {
+   "n": 19,
+   "t": "Disse-lhe a mulher: Senhor, vejo que és profeta."
+  },
+  {
+   "n": 20,
+   "t": "Nossos pais adoraram neste monte, e vós dizeis que em Jerusalém é o lugar onde se deve adorar."
+  },
+  {
+   "n": 21,
+   "t": "Disse-lhe Jesus: Mulher, crê em mim, que a hora vem, quando nem neste monte, nem em Jerusalém, adorareis ao Pai."
+  },
+  {
+   "n": 22,
+   "t": "Vós adorais o que não sabeis; nós adoramos o que sabemos, porque a salvação vem dos judeus."
+  }
+ ],
+ "titulo": "A água que transforma a sede em fonte",
+ "temas": [
+  "água viva",
+  "adoração",
+  "verdade",
+  "graça",
+  "identidade"
+ ],
+ "pergunta": "O que você está buscando para saciar a sua sede interior?",
+ "entender": "Jesus conversa com uma mulher samaritana perto de um poço. Ela pergunta se Ele é maior que Jacó, o patriarca que cavou aquele poço. Jesus responde que a água comum traz sede de novo, mas a água que Ele oferece se torna uma \"fonte de água, que salte para vida eterna\".\n\nA mulher pede dessa água, mas Jesus muda o assunto e a confronta com a verdade sobre sua vida: ela teve cinco maridos e o atual não é seu marido. Ela reconhece que Jesus é profeta. Então, a conversa sobe para o tema da adoração: os samaritanos adoravam naquele monte, os judeus em Jerusalém. Jesus anuncia que vem o tempo em que a adoração não dependerá de um lugar físico, mas do conhecimento da verdade.\n\nO sentido é que Jesus oferece algo que satisfaz a alma profundamente, revelando quem somos diante Dele e apontando para uma adoração verdadeira, baseada em conhecer a Deus, não apenas em rituais ou locais.",
+ "ligar": {
+  "texto": "Jesus se apresenta como a fonte da vida eterna. Ele não oferece apenas um bem-estar momentâneo, mas uma transformação interior que elimina a sede espiritual. Ao revelar a história da mulher, Jesus mostra que Ele conhece o coração humano e oferece graça, não condenação. A adoração verdadeira que Ele descreve aponta para a pessoa de Cristo, que é a verdade e a vida.",
+  "selo": true
+ },
+ "viver": "Pense em uma área da sua vida onde você sente uma \"sede\" constante: ansiedade, vazio ou necessidade de aprovação. Reconheça que as coisas deste mundo não saciam essa sede. Converse com Deus sobre isso, pedindo que Ele te mostre a verdade sobre sua situação, assim como fez com a mulher. Aceite a oferta de Jesus de ser a fonte da sua vida, confiando que Ele conhece quem você é e ainda assim oferece vida eterna.",
+ "guarde": "A verdadeira adoração nasce do conhecimento da verdade que vem de Jesus.",
+ "ore": "Senhor Jesus, eu reconheço que minhas buscas passageiras não saciam minha alma. Dá-me desta água da vida, para que eu tenha sede apenas de Ti. Ajuda-me a adorar em espírito e em verdade, conhecendo Teu coração.",
+ "quiz": {
+  "pergunta": "O que Jesus disse que aconteceria com a água que Ele ofereceria?",
+  "opcoes": [
+   "A pessoa nunca mais teria sede física",
+   "Se faria fonte de água que salta para vida eterna",
+   "A água se tornaria vinho no poço"
+  ],
+  "certa": 1,
+  "explicacao": "O texto afirma que a água que Jesus der se fará nele \"fonte de água, que salte para vida eterna\", indicando uma transformação espiritual interna."
+ },
+ "refs": [
+  "João 6:35",
+  "João 7:37-38",
+  "Atos 17:24-25"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T12:38:38.822Z",
+  "rounds": 1
+ }
+}

@@ -72,7 +72,9 @@
   },
   "43-4-12-22": {
    "execucoes": 1,
-   "ultimo": "automático: titulo_repetido:43-4-1-11"
+   "ultimo": "automático: entender:menos_de_2_paragrafos, entender:citacao_longa, entender:citacao_fora_do_texto, abertura_repetida:entender:43-4-23-32",
+   "estado": "pronto",
+   "titulo": "A água que transforma a sede em fonte"
   },
   "43-4-23-32": {
    "execucoes": 0,
@@ -88,7 +90,7 @@
   },
   "43-4-44-54": {
    "execucoes": 1,
-   "ultimo": "automático: viver:citacao_fora_do_texto, abertura_repetida:ore:43-2-1-8"
+   "ultimo": "automático: abertura_repetida:ore:43-7-22-32"
   },
   "43-5-1-12": {
    "execucoes": 0,
@@ -171,7 +173,7 @@
   },
   "43-7-43-53": {
    "execucoes": 0,
-   "ultimo": "automático: viver:citacao_fora_do_texto"
+   "ultimo": "gemini: PERSON_ENTITY_CONSISTENCY: O ensino afirma que os fariseus desprezaram Nicodemos 'por ser da Galileia', confundindo a identidade do personagem, que era fariseu e líder em Jerusalém, alvo apenas de uma pergunta irônica/retórica dos outros líderes."
   },
   "43-8-1-12": {
    "execucoes": 0
@@ -179,24 +181,24 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 93,
-   "entrada": 190151,
-   "saida": 90648
+   "chamadas": 94,
+   "entrada": 191842,
+   "saida": 91489
   },
   "groq-qwen": {
-   "chamadas": 32,
-   "entrada": 61514,
-   "saida": 24677
+   "chamadas": 38,
+   "entrada": 72654,
+   "saida": 29210
   },
   "gemini": {
-   "chamadas": 42,
-   "entrada": 134228,
-   "saida": 68927
+   "chamadas": 44,
+   "entrada": 140470,
+   "saida": 71657
   },
   "cloudflare": {
-   "chamadas": 27,
-   "entrada": 93381,
-   "saida": 10017
+   "chamadas": 28,
+   "entrada": 96873,
+   "saida": 10388
   }
  }
 }
