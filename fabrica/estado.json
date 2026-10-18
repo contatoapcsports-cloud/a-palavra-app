@@ -72,7 +72,7 @@
   },
   "43-4-12-22": {
    "execucoes": 1,
-   "ultimo": "gemini: OVERINTERPRETATION: O ensino deduz sem base no texto que o pedido de Jesus para chamar o marido era um convite para levar a água a outros, extrapolando o sentido da passagem."
+   "ultimo": "automático: titulo_repetido:43-4-1-11"
   },
   "43-4-23-32": {
    "execucoes": 0,
@@ -82,11 +82,13 @@
   },
   "43-4-33-43": {
    "execucoes": 1,
-   "ultimo": "automático: abertura_repetida:ore:43-6-1-12"
+   "ultimo": "automático: abertura_repetida:ore:43-6-1-12",
+   "estado": "pronto",
+   "titulo": "A colheita que Deus nos chama a participar"
   },
   "43-4-44-54": {
    "execucoes": 1,
-   "ultimo": "automático: abertura_repetida:ore:43-2-1-8"
+   "ultimo": "automático: viver:citacao_fora_do_texto, abertura_repetida:ore:43-2-1-8"
   },
   "43-5-1-12": {
    "execucoes": 0,
@@ -163,10 +165,13 @@
    "titulo": "A hora de Deus para Jesus"
   },
   "43-7-33-42": {
-   "execucoes": 0
+   "execucoes": 0,
+   "estado": "pronto",
+   "titulo": "Quem encontrará Jesus na sede da fé?"
   },
   "43-7-43-53": {
-   "execucoes": 0
+   "execucoes": 0,
+   "ultimo": "automático: viver:citacao_fora_do_texto"
   },
   "43-8-1-12": {
    "execucoes": 0
@@ -174,9 +179,9 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 85,
-   "entrada": 174860,
-   "saida": 83564
+   "chamadas": 93,
+   "entrada": 190151,
+   "saida": 90648
   },
   "groq-qwen": {
    "chamadas": 32,
@@ -184,14 +189,14 @@
    "saida": 24677
   },
   "gemini": {
-   "chamadas": 40,
-   "entrada": 127446,
-   "saida": 65697
+   "chamadas": 42,
+   "entrada": 134228,
+   "saida": 68927
   },
   "cloudflare": {
-   "chamadas": 25,
-   "entrada": 86041,
-   "saida": 9275
+   "chamadas": 27,
+   "entrada": 93381,
+   "saida": 10017
   }
  }
 }

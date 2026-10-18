@@ -1,0 +1,136 @@
+{
+ "id": "43-7-33-42",
+ "ref": "João 7:33-42",
+ "book": "43",
+ "chapter": 7,
+ "verses": [
+  {
+   "n": 33,
+   "t": "Disse-lhes pois Jesus: Ainda um pouco de tempo estou convosco, e então me irei para aquele que me enviou."
+  },
+  {
+   "n": 34,
+   "t": "Vós me buscareis, mas não me achareis; e onde eu estou vós não podeis vir."
+  },
+  {
+   "n": 35,
+   "t": "Disseram, pois, os judeus uns aos outros: Para onde este se irá, que não o acharemos? Por acaso ele irá aos dispersos entre os gregos, e a ensinar aos gregos?"
+  },
+  {
+   "n": 36,
+   "t": "Que palavra é esta que disse: Vós me buscareis, mas não me achareis; e onde eu estou vós não podeis vir?"
+  },
+  {
+   "n": 37,
+   "t": "E no último e grande dia da festa se pôs Jesus em pé, e exclamou, dizendo: Se alguém tem sede, venha a mim, e beba."
+  },
+  {
+   "n": 38,
+   "t": "Quem crê em mim, como diz a Escritura, rios de água viva correrão do interior de seu corpo."
+  },
+  {
+   "n": 39,
+   "t": "(E ele disse isto do Espírito que receberiam aqueles que nele cressem; pois o Espírito Santo ainda não era vindo ,porque Jesus ainda não havia sido glorificado)."
+  },
+  {
+   "n": 40,
+   "t": "Então muitos da multidão, ouvindo esta palavra, diziam: Verdadeiramente este é o Profeta."
+  },
+  {
+   "n": 41,
+   "t": "Outros diziam: Este é o Cristo; e outros diziam: Por acaso vem o Cristo da Galileia?"
+  },
+  {
+   "n": 42,
+   "t": "Não diz a Escritura que o Cristo virá da semente de Davi, e da aldeia de Belém, de onde era Davi?"
+  }
+ ],
+ "titulo": "Quem encontrará Jesus na sede da fé?",
+ "temas": [
+  "fé",
+  "esperança",
+  "espírito",
+  "cristianismo"
+ ],
+ "pergunta": "Você já se perguntou onde está a água viva que sacia a sede da alma?",
+ "entender": "Jesus fala à multidão que ainda vai ficar um pouco com eles e depois voltará ao Pai: \"Ainda um pouco de tempo estou convosco, e então me irei para aquele que me enviou\" (João 7.33). Ele anuncia que quem o buscar não o encontrará porque ainda não está pronto para compreender, e que onde Ele está, eles não podem ir (v.34). No último dia da festa, Ele convida quem tem sede a vir a Ele e beber, prometendo que \"rios de água viva\" fluirão do interior do crente (v.37‑38). A reação da multidão varia: alguns o reconhecem como profeta, outros como o Cristo, mas ainda questionam se o Messias poderia vir da Galileia (v.40‑42). O contexto mostra que a festa era a Festa dos Tabernáculos, um tempo de lembrança da presença de Deus no deserto, e a expectativa messiânica estava alta. Jesus usa a imagem da sede para apontar ao Espírito Santo que seria derramado depois de sua glorificação.\n\nA palavra “água viva” remete ao Salmo 42, onde o salmista clama por Deus como fonte de água viva. No Novo Testamento, Jesus cumpre essa promessa ao oferecer o Espírito que sacia a alma. O convite não é apenas para um momento de curiosidade, mas para uma confiança que produz uma mudança interior, como rios que brotam do coração do crente.",
+ "ligar": {
+  "texto": "O convite de Jesus à sede espiritual aponta diretamente ao evangelho: Ele oferece a água viva que só pode ser recebida por fé. Quando alguém crê, o Espírito Santo habita nele, trazendo vida abundante (cf. João 3.5‑6). Assim, a busca por Jesus não termina em encontrar um mestre humano, mas em receber o Espírito que nos conduz a Deus. O texto mostra que a verdadeira sede só é saciada por Cristo, que vem do céu para dar vida eterna, cumprindo a promessa de que o Messias traria o Espírito Santo ao seu povo.",
+  "selo": true
+ },
+ "viver": "Hoje, quando sentimos um vazio ou uma sede interior, podemos responder ao convite de Jesus: \"Venha a mim e beba\". Isso significa buscar a presença de Deus em oração, leitura da Bíblia e, se ainda não o fizemos, aceitar a fé em Cristo, permitindo que o Espírito Santo nos preencha. Essa água viva transforma nossos desejos egoístas em amor e serviço ao próximo, refletindo a vida que Jesus quer nos dar.\n\nPratique reconhecer os momentos de sede – seja por ansiedade, solidão ou busca de sentido – e, ao invés de buscar soluções temporárias, volte-se a Cristo, pedindo que o Espírito renove seu interior.",
+ "guarde": "A água viva que sacia a sede da alma só vem de quem enviou Jesus.",
+ "ore": "Senhor, reconheço minha sede profunda. Ajuda-me a buscar‑Te de todo o coração, a beber da água viva que só Tu podes dar, e a viver cheio do Teu Espírito. Amém.",
+ "quiz": {
+  "pergunta": "O que Jesus prometeu que fluiria do interior do crente?",
+  "opcoes": [
+   "pão da vida",
+   "rios de água viva",
+   "luz do mundo"
+  ],
+  "certa": 1,
+  "explicacao": "Em João 7.38‑39 Jesus diz que quem crê nele terá rios de água viva correndo do interior, referindo‑se ao Espírito Santo."
+ },
+ "refs": [
+  "Isaías 55:1",
+  "Atos 2:38"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T12:24:57.209Z",
+  "rounds": 1
+ }
+}

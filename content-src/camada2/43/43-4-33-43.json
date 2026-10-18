@@ -1,0 +1,141 @@
+{
+ "id": "43-4-33-43",
+ "ref": "João 4:33-43",
+ "book": "43",
+ "chapter": 4,
+ "verses": [
+  {
+   "n": 33,
+   "t": "Diziam, pois, os discípulos uns aos outros: Por acaso alguém lhe trouxe de comer?"
+  },
+  {
+   "n": 34,
+   "t": "Disse-lhes Jesus: Minha comida é fazer a vontade daquele que me enviou, e cumprir sua obra."
+  },
+  {
+   "n": 35,
+   "t": "Não dizeis vós, que ainda há quatro meses até que venha a ceifa? Eis que vos digo: Levantai vossos olhos, e vede as terras; porque já estão brancas para a ceifa."
+  },
+  {
+   "n": 36,
+   "t": "E o que ceifa, recebe recompensa, e junta fruto para vida eterna; para que ambos se alegrem, tanto o que semeia, quanto o que ceifa."
+  },
+  {
+   "n": 37,
+   "t": "Porque nisto é verdadeiro o ditado, que: Um é o que semeia, e outro o que ceifa."
+  },
+  {
+   "n": 38,
+   "t": "Eu vos enviei para ceifar onde vós não trabalhastes; outros trabalharam, e vós entrastes no trabalho deles."
+  },
+  {
+   "n": 39,
+   "t": "E muitos dos samaritanos daquela cidade creram nele pela palavra da mulher, que testemunhava, dizendo: Ele me disse tudo quanto eu tenho feito."
+  },
+  {
+   "n": 40,
+   "t": "Vindo pois os samaritanos a ele, suplicaram-lhe que ficasse com eles; e ele ficou ali dois dias."
+  },
+  {
+   "n": 41,
+   "t": "E creram ainda muitos mais pela palavra dele."
+  },
+  {
+   "n": 42,
+   "t": "E diziam à mulher: Já não cremos por teu dito; porque nós mesmos temos o ouvido, e sabemos que verdadeiramente este é o Cristo, o Salvador do mundo."
+  },
+  {
+   "n": 43,
+   "t": "E depois de dois dias partiu dali, e foi-se para a Galileia."
+  }
+ ],
+ "titulo": "A colheita que Deus nos chama a participar",
+ "temas": [
+  "missão",
+  "fé",
+  "testemunho"
+ ],
+ "pergunta": "Você já percebeu que a missão de Jesus inclui você na colheita?",
+ "entender": "Neste trecho, Jesus conversa com os discípulos que estavam preocupados com a fome física. Ele responde: \"Minha comida é fazer a vontade daquele que me enviou, e cumprir sua obra\" (João 4:34). Em seguida, usa a metáfora da ceifa para ensinar que o tempo da colheita já chegou: \"Levantai vossos olhos, e vede as terras; porque já estão brancas para a ceifa\" (v.35). Ele explica que quem semeia e quem ceifa recebem recompensa, e que os discípulos foram enviados para colher onde não trabalharam, entrando no trabalho de outros (vv.36‑38). O relato continua mostrando como a mulher samaritana, ao ouvir Jesus, testifica a outros; muitos samaritanos creem por sua palavra (vv.39‑41) e reconhecem Jesus como \"o Cristo, o Salvador do mundo\" (v.42). O contexto imediato mostra Jesus cansado, mas focado em sua missão, enquanto os discípulos ainda pensam em necessidades humanas. O texto revela a prioridade da vontade de Deus sobre necessidades físicas e a responsabilidade dos crentes de participar da colheita espiritual que já está madura.\n\nA passagem ocorre após o encontro de Jesus com a mulher no poço (João 4:1‑30) e antes de sua volta à Galileia (João 4:44‑46). Essa sequência destaca como o testemunho de um simples encontro pode gerar uma grande comunidade de crentes, mostrando que a obra de Deus se expande através de pessoas comuns que obedecem ao chamado de Jesus.",
+ "ligar": {
+  "texto": "Jesus declara que sua \"comida\" é obedecer ao Pai, apontando para a missão salvadora que culmina em sua morte e ressurreição. A colheita de frutos eternos simboliza a resposta humana ao evangelho: crer e receber vida eterna. Quando os samaritanos reconhecem \"este é o Cristo, o Salvador do mundo\", eles reconhecem o Messias que traz a salvação para todos, cumprindo a promessa de que o Filho de Deus viria para buscar e salvar os que estavam perdidos (cf. Lucas 19:10). Assim, a chamada à colheita nos leva a entender que participar da missão de Jesus é participar da obra de Cristo que traz vida eterna.",
+  "selo": true
+ },
+ "viver": "Hoje, ao perceber que Deus já preparou oportunidades ao nosso redor, podemos responder ao chamado para compartilhar a boa nova. Assim como os discípulos foram enviados para colher onde outros já trabalharam, podemos usar nossos relacionamentos, trabalhos e comunidades para falar de Jesus, confiando que Ele recompensará quem semeia. Quando alguém nos perguntar por que nos importamos, podemos dizer que nossa \"comida\" é fazer a vontade de Deus, e isso nos traz alegria e propósito.\n\nPratique ouvir as necessidades ao seu redor e, em vez de oferecer apenas soluções temporárias, compartilhe a esperança que vem de Cristo, lembrando que a colheita já está pronta para ser colhida.",
+ "guarde": "A colheita está pronta; Deus nos chama a participar do seu trabalho eterno.",
+ "ore": "Senhor, ajuda-me a ver além das minhas necessidades e a reconhecer as oportunidades que colocas ao meu redor para semear a tua palavra. Dá-me coragem para falar de Ti, confiando que a tua colheita já está madura. Amém.",
+ "quiz": {
+  "pergunta": "O que Jesus disse que era sua comida?",
+  "opcoes": [
+   "Descansar na sombra",
+   "Fazer a vontade do Pai",
+   "Comer o pão da vida"
+  ],
+  "certa": 1,
+  "explicacao": "Jesus afirma que sua comida é \"fazer a vontade daquele que me enviou\" (João 4:34), indicando que obedecer a Deus é sua maior satisfação."
+ },
+ "refs": [
+  "Mateus 9:37-38",
+  "2 Coríntios 9:6-7",
+  "Lucas 10:2",
+  "João 12:32"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T12:24:30.482Z",
+  "rounds": 1
+ }
+}

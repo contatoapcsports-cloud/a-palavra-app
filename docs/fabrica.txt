@@ -1,47 +1,29 @@
-Fábrica de ensinos — execução de 2026-10-18T09:49:17.002Z
-Fila: 3058 trechos; prontos: 22; limite desta execução: 150 ensinos / 170 min; 3 em paralelo.
-> João 1:21-31 (43-1-21-31)
-  [43-1-21-31] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-> João 1:42-51 (43-1-42-51)
-  [43-1-42-51] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-> João 3:13-24 (43-3-13-24)
-  [43-3-13-24] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-  [43-1-21-31] rodada 1: verificação automática recusou: entender:citacao_fora_do_texto, viver:citacao_fora_do_texto
-  [43-1-42-51] rodada 1: verificação automática recusou: entender:longo:1546, viver:citacao_fora_do_texto
-  [43-3-13-24] rodada 1: verificação automática recusou: entender:menos_de_2_paragrafos, abertura_repetida:ore:43-2-1-8
-  [43-1-21-31] rodada 2: verificação automática recusou: entender:citacao_fora_do_texto, viver:citacao_fora_do_texto
-  [43-1-21-31] rodada 3: verificação automática recusou: entender:citacao_fora_do_texto, viver:citacao_fora_do_texto
-  [43-1-42-51] rodada 2: verificação automática recusou: entender:menos_de_2_paragrafos, viver:citacao_fora_do_texto, refs:quantidade
-  [43-3-13-24] rodada 2: verificação automática recusou: entender:citacao_fora_do_texto, abertura_repetida:ore:43-2-1-8
-  LIMITE DIÁRIO [43-1-21-31]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199230, Requested 3394. Please try again in 18m53.568s. Need more tokens? Up — troca de modelo, se houver outro permitido.
-  [43-1-21-31] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  [43-1-21-31] rodada 1: verificação automática recusou: viver:citacao_fora_do_texto
-  LIMITE DIÁRIO [43-1-42-51]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199230, Requested 3394. Please try again in 18m53.568s. Need more tokens? Up — troca de modelo, se houver outro permitido.
-  [43-1-42-51] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  PRONTO [43-1-42-51]: "Jesus te viu antes de você saber" (aprovado pelos dois auditores em 1 rodada(s))
-> João 3:25-36 (43-3-25-36)
-  [43-3-25-36] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  LIMITE DIÁRIO [43-3-13-24]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199230, Requested 3394. Please try again in 18m53.568s. Need more tokens? Up — troca de modelo, se houver outro permitido.
-  [43-3-13-24] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  PRONTO [43-3-13-24]: "A serpente de bronze e o céu" (aprovado pelos dois auditores em 1 rodada(s))
+Fábrica de ensinos — execução de 2026-10-18T12:30:31.879Z
+Fila: 3058 trechos; prontos: 25; limite desta execução: 6 ensinos / 40 min; 3 em paralelo.
 > João 4:12-22 (43-4-12-22)
-  [43-4-12-22] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  [43-1-21-31] rodada 2: verificação automática recusou: viver:citacao_fora_do_texto
-  PRONTO [43-3-25-36]: "Alegria de ver Jesus crescer na minha vida" (aprovado pelos dois auditores em 1 rodada(s))
+  [43-4-12-22] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
 > João 4:33-43 (43-4-33-43)
-  [43-4-33-43] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  [43-4-12-22] rodada 1: gemini recusou: OVERINTERPRETATION: O ensino deduz sem base no texto que o pedido de Jesus para chamar o marido era um convite para levar a água a outros, extrapolando o sentido da passagem.
-  LIMITE DIÁRIO [43-4-12-22]: gemini: limite diário atingido ({ "error": { "code": 429, "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/ra — troca de modelo, se houver outro permitido.
+  [43-4-33-43] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+> João 4:44-54 (43-4-44-54)
+  [43-4-44-54] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  [43-4-12-22] rodada 1: verificação automática recusou: entender:menos_de_2_paragrafos, entender:citacao_fora_do_texto
+  PRONTO [43-4-33-43]: "A colheita que Deus nos chama a participar" (aprovado pelos dois auditores em 1 rodada(s))
+> João 7:33-42 (43-7-33-42)
+  [43-7-33-42] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-7-33-42]: "Quem encontrará Jesus na sede da fé?" (aprovado pelos dois auditores em 1 rodada(s))
+> João 7:43-53 (43-7-43-53)
+  [43-7-43-53] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  [43-7-43-53] rodada 1: verificação automática recusou: entender:menos_de_2_paragrafos
+  [43-4-44-54] rodada 1: verificação automática recusou: viver:citacao_fora_do_texto, abertura_repetida:ore:43-2-1-8
+  [43-7-43-53] rodada 2: verificação automática recusou: viver:citacao_fora_do_texto
+  [43-4-12-22] rodada 2: verificação automática recusou: titulo_repetido:43-4-1-11
+  LIMITE DIÁRIO [43-4-44-54]: gemini: limite diário atingido ({ "error": { "code": 429, "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/ra — troca de modelo, se houver outro permitido.
   Nenhuma combinação válida de gerador e auditores com limite livre; parando. Continua no próximo horário.
-  [43-1-21-31] rodada 3: verificação automática recusou: viver:citacao_fora_do_texto
-  [43-4-33-43] rodada 1: verificação automática recusou: pergunta:vazio, abertura_repetida:ore:43-2-1-8
-  [43-4-33-43] rodada 2: verificação automática recusou: abertura_repetida:ore:43-6-1-12
-  [43-1-21-31] rodada 4: verificação automática recusou: viver:citacao_fora_do_texto
-  TRAVADO [43-1-21-31] após 3 execuções sem aprovação; precisa de olhar humano: automático: viver:citacao_fora_do_texto
-  LIMITE DIÁRIO [43-4-33-43]: gemini: limite diário atingido ({ "error": { "code": 429, "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/ra — troca de modelo, se houver outro permitido.
-Resumo: 3 novos ensinos, 1 não aprovados, 0 travados ignorados. Total pronto: 25 de 3058 trechos.
+  LIMITE DIÁRIO [43-7-43-53]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 197311, Requested 3284. Please try again in 4m17.04s. Need more tokens? Upgr — troca de modelo, se houver outro permitido.
+  LIMITE DIÁRIO [43-4-12-22]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 197311, Requested 3284. Please try again in 4m17.04s. Need more tokens? Upgr — troca de modelo, se houver outro permitido.
+Resumo: 2 novos ensinos, 0 não aprovados, 1 travados ignorados. Total pronto: 27 de 3058 trechos.
 
-groq-gpt (openai/gpt-oss-120b): 7 chamadas, 15068 tokens entrada, 6314 saída [LIMITE DIÁRIO ATINGIDO]
-groq-qwen (qwen/qwen3.8-27b): 12 chamadas, 24545 tokens entrada, 9196 saída
-gemini (gemini-3.8-flash): 4 chamadas, 12957 tokens entrada, 7562 saída [LIMITE DIÁRIO ATINGIDO]
-cloudflare (@cf/meta/llama-3.3-70b-instruct-fp8-fast): 3 chamadas, 10555 tokens entrada, 1113 saída
+groq-gpt (openai/gpt-oss-120b): 8 chamadas, 15291 tokens entrada, 7084 saída [LIMITE DIÁRIO ATINGIDO]
+groq-qwen (qwen/qwen3.8-27b): 0 chamadas, 0 tokens entrada, 0 saída
+gemini (gemini-3.8-flash): 2 chamadas, 6782 tokens entrada, 3230 saída [LIMITE DIÁRIO ATINGIDO]
+cloudflare (@cf/meta/llama-3.3-70b-instruct-fp8-fast): 2 chamadas, 7340 tokens entrada, 742 saída
