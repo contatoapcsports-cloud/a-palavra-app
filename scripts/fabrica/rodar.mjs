@@ -59,8 +59,8 @@ function obter(id) {
   const d = defs.get(id); if (!d) { console.error('Modelo sem definição na configuração: ' + id); process.exit(1); }
   const comum = { nome: id, tipo: d.provedor, familia: d.familia, semEspera: rapido };
   let o;
-  if (d.provedor === 'groq') o = new Groq({ ...comum, modelo: d.modelo, esforco: d.esforco, chave: env.GROQ_API_KEY, ...(env.GROQ_BASE_URL ? { base: env.GROQ_BASE_URL } : {}) });
-  else if (d.provedor === 'gemini') o = new Gemini({ ...comum, modelo: env.GEMINI_MODEL || d.modelo, chave: env.GEMINI_API_KEY, ...(env.GEMINI_BASE_URL ? { base: env.GEMINI_BASE_URL } : {}) });
+  if (d.provedor === 'groq') o = new Groq({ ...comum, modelo: d.modelo, esforco: d.esforco, limiteTpm: d.limite_tpm, chave: env.GROQ_API_KEY, ...(env.GROQ_BASE_URL ? { base: env.GROQ_BASE_URL } : {}) });
+  else if (d.provedor === 'gemini') o = new Gemini({ ...comum, modelos: env.GEMINI_MODEL ? [env.GEMINI_MODEL] : (d.modelos || [d.modelo]), chave: env.GEMINI_API_KEY, ...(env.GEMINI_BASE_URL ? { base: env.GEMINI_BASE_URL } : {}) });
   else o = new Cloudflare({ ...comum, modelos: d.modelos, chave: env.CLOUDFLARE_API_TOKEN, conta_id: env.CLOUDFLARE_ACCOUNT_ID, ...(env.CLOUDFLARE_BASE_URL ? { base: env.CLOUDFLARE_BASE_URL } : {}) });
   objs.set(id, o); return o;
 }
@@ -192,7 +192,7 @@ async function main() {
         if (err instanceof QuotaError || err.quota) { log('  LIMITE DIÁRIO [' + u.id + ']: ' + err.message.slice(0, 300) + ' — troca de modelo, se houver outro permitido.'); continue; }
         falhasSeguidas++; e.ultimo = 'erro: ' + String(err.message).slice(0, 200);
         log('  ERRO [' + u.id + ']: ' + String(err.message).slice(0, 300));
-        if (falhasSeguidas >= 4) { log('Quatro erros seguidos; parando para não gastar à toa.'); parar = true; }
+        if (falhasSeguidas >= 8) { log('Oito erros seguidos; parando para não gastar à toa.'); parar = true; }
         return;
       }
     }

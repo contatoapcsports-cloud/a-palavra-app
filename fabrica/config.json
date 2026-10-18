@@ -40,20 +40,28 @@
       "provedor": "groq",
       "modelo": "openai/gpt-oss-120b",
       "familia": "openai",
-      "esforco": "medium"
+      "esforco": "low",
+      "limite_tpm": 7000
     },
     {
       "id": "groq-qwen",
       "provedor": "groq",
       "modelo": "qwen/qwen3.8-27b",
-      "familia": "alibaba"
+      "familia": "alibaba",
+      "limite_tpm": 5000
     }
   ],
   "auditores_1": [
     {
       "id": "gemini",
       "provedor": "gemini",
-      "modelo": "gemini-2.5-flash",
+      "modelos": [
+        "gemini-3.8-flash",
+        "gemini-3.7-flash",
+        "gemini-3.5-flash",
+        "gemini-3.1-flash-lite",
+        "gemini-flash-latest"
+      ],
       "familia": "google"
     }
   ],
