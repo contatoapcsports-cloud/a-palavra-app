@@ -27,15 +27,12 @@ html,body{height:100%}
 .screen{position:absolute;inset:0;overflow-y:auto;padding-bottom:96px;display:none}
 .screen.on{display:block}
 /* abertura */
-#splash{position:absolute;inset:0;z-index:50;background:radial-gradient(120% 90% at 50% 40%,#17483e 0%,#0e2f28 70%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:#F1E2B9;transition:opacity .5s,visibility .5s;cursor:pointer}
+#splash{position:absolute;inset:0;z-index:50;background:radial-gradient(70% 45% at 50% 45%,rgba(30,110,84,.32) 0%,rgba(6,32,26,0) 70%),#06201a;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:34px;transition:opacity .5s,visibility .5s;cursor:pointer}
 #splash.off{opacity:0;visibility:hidden}
-#splash .tile{width:84px;height:84px;border-radius:22px;background:#1b4a40;border:1px solid rgba(227,185,111,.35);display:grid;place-items:center;box-shadow:0 10px 30px rgba(0,0,0,.3);margin-bottom:14px}
-#splash .tile svg{width:52px;height:52px}
-#splash b{letter-spacing:.2em;font-size:12px;font-weight:700}
-#splash .n{font:600 20px var(--serif);letter-spacing:.12em;text-transform:uppercase;color:#FCF8EE}
-#splash small{letter-spacing:.22em;font-size:11px;color:#E3B96F}
-#splash .ln{width:92px;height:2px;margin-top:18px;background:linear-gradient(90deg,transparent,#E3B96F,transparent);animation:ln 2.4s ease-in-out 3}
-@keyframes ln{50%{opacity:.35}}
+#splash .logo{width:min(56vw,230px);height:auto;border-radius:22.5%;display:block;filter:drop-shadow(0 0 26px rgba(227,185,111,.22))}
+#splash .load{width:min(60vw,230px);height:4px;border-radius:2px;background:rgba(143,224,184,.18);overflow:hidden;position:relative}
+#splash .load i{position:absolute;top:0;bottom:0;width:42%;border-radius:2px;background:linear-gradient(90deg,#b9792f,#f6e2b0);animation:ld 1.4s ease-in-out infinite}
+@keyframes ld{0%{left:-45%}100%{left:103%}}
 /* vitrine */
 .hero{position:relative}
 .slides{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
@@ -160,7 +157,7 @@ html,body{height:100%}
 .panelx .eyebrow{margin-bottom:8px}
 .toast{position:absolute;left:50%;bottom:84px;transform:translateX(-50%);background:var(--text);color:var(--paper);padding:10px 16px;border-radius:14px;font-weight:600;font-size:14px;opacity:0;pointer-events:none;transition:opacity .2s;z-index:60;white-space:nowrap}
 .toast.on{opacity:1}
-@media (prefers-reduced-motion:reduce){#splash .ln{animation:none}*{transition:none!important;scroll-behavior:auto!important}}
+@media (prefers-reduced-motion:reduce){#splash .load i{animation:none;left:29%}*{transition:none!important;scroll-behavior:auto!important}}
 
 .arow{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;font-size:12.5px;line-height:1.4}
 .sw{flex:none;width:48px;height:28px;border-radius:14px;background:var(--line);position:relative;transition:background .2s}
@@ -219,3 +216,24 @@ mark{background:var(--gold-soft);color:inherit;border-radius:4px;box-shadow:0 0 
 .empty button{margin-top:10px}
 a.srow{color:inherit;text-decoration:none}
 .rights{font-size:12px;line-height:1.4;color:var(--soft);text-align:center;padding:18px 8px 4px}
+
+/* ensinos: título, viver, teste, lista */
+#studyHead .stitle{font:700 1.35rem/1.25 var(--serif);padding:6px 0 2px;text-wrap:balance}
+#studyHead .sref{font-size:12.5px;color:var(--soft);font-weight:600;letter-spacing:.04em}
+.viver .sub{font-size:10.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--tagink);margin:0 0 6px}
+.viver p{font-family:var(--serif);font-size:1.06rem;line-height:1.65}
+.viver .box{display:flex;flex-direction:column;gap:4px}
+.guarde{border-radius:22px;padding:16px;background:var(--gold-soft)}
+.guarde p{font:600 1.15rem/1.5 var(--serif)}
+.quiz{display:flex;flex-direction:column;gap:10px}
+.quiz .q{font:600 1.12rem/1.45 var(--serif)}
+.quiz .opt{display:block;width:100%;text-align:left;min-height:52px;padding:12px 16px;border-radius:16px;background:var(--card);box-shadow:var(--shadow);font-size:1rem;line-height:1.4;border:2px solid transparent}
+.quiz .opt.ok{border-color:#2f8f6a;background:var(--card-2)}
+.quiz .opt.no{border-color:var(--gospel);background:var(--gospel-soft)}
+.quiz .fb{border-radius:16px;padding:14px 16px;background:var(--card-2);font-size:.98rem;line-height:1.55}
+.chapgrid button.has{position:relative}
+.chapgrid button.has::after{content:"";position:absolute;right:8px;top:8px;width:8px;height:8px;border-radius:50%;background:var(--gold)}
+.ensgroup{margin:6px 0 18px}
+.ensgroup h3{font:700 1.1rem var(--serif);margin:0 0 8px;color:var(--accent)}
+.ensgroup .list{display:flex;flex-direction:column;gap:8px}
+.lead{font-size:.95rem;color:var(--soft);margin:2px 0 14px}

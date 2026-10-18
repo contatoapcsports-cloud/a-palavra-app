@@ -1,0 +1,80 @@
+{
+  "contrato": "pv-ensino-1",
+  "max_versiculos": 12,
+  "ordem_livros": [
+    "43",
+    "41",
+    "42",
+    "40",
+    "44",
+    "45",
+    "19",
+    "20",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "1",
+    "2"
+  ],
+  "geradores": [
+    {
+      "id": "groq-gpt",
+      "provedor": "groq",
+      "modelo": "openai/gpt-oss-120b",
+      "familia": "openai",
+      "esforco": "medium"
+    },
+    {
+      "id": "groq-qwen",
+      "provedor": "groq",
+      "modelo": "qwen/qwen3.8-27b",
+      "familia": "alibaba"
+    }
+  ],
+  "auditores_1": [
+    {
+      "id": "gemini",
+      "provedor": "gemini",
+      "modelo": "gemini-2.5-flash",
+      "familia": "google"
+    }
+  ],
+  "auditores_2": [
+    {
+      "id": "cloudflare",
+      "provedor": "cloudflare",
+      "modelos": [
+        "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "@cf/meta/llama-4-scout-17b-16e-instruct",
+        "@cf/meta/llama-3.1-70b-instruct"
+      ],
+      "familia": "meta"
+    },
+    {
+      "id": "groq-gpt"
+    },
+    {
+      "id": "groq-qwen"
+    }
+  ],
+  "rodadas_por_unidade": 4,
+  "execucoes_ate_travar": 3
+}

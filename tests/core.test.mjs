@@ -58,3 +58,10 @@ test('baixar tudo calcula só o que falta', () => {
   assert.deepEqual(core.missingPackages(m, ['b']).map(p => p.path), ['a', 'c']);
   assert.deepEqual(core.missingPackages(m, ['a', 'b', 'c']), []);
 });
+test('abas Viver e Testar só aparecem com conteúdo válido', () => {
+  const base = { verses: [1], entender: 'a', ligar: { texto: 'b' }, refs: ['c'] };
+  assert.ok(!core.visibleTabs(base).includes('viver') && !core.visibleTabs(base).includes('testar'));
+  const t = core.visibleTabs({ ...base, viver: 'x', quiz: { pergunta: 'p?', opcoes: ['a', 'b', 'c'], certa: 1 } });
+  assert.deepEqual(t, ['ler', 'entender', 'ligar', 'viver', 'testar', 'aprofundar']);
+  assert.ok(!core.visibleTabs({ ...base, quiz: { pergunta: 'p?', opcoes: ['a', 'b', 'c'], certa: 5 } }).includes('testar'));
+});

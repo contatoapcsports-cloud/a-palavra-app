@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#1F4D43">
+<meta name="theme-color" content="#06201a">
+<style>html,body{margin:0;background:#06201a}#splash{position:absolute;inset:0;z-index:50;background:#06201a;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:34px}#splash .logo{width:min(56vw,230px);height:auto;border-radius:22.5%;display:block}#splash .load{width:min(60vw,230px);height:4px;border-radius:2px;background:rgba(143,224,184,.18)}</style>
 <meta name="author" content="Anderson Pereira Cabral">
 <meta name="description" content="Palavra Viva: Bíblia em português, gratuita e sem internet, com ensino em camadas.">
 <title>Palavra Viva</title>
@@ -15,9 +16,9 @@
 <body>
 <noscript><p style="padding:20px;font-family:sans-serif">O Palavra Viva precisa do JavaScript ligado para funcionar.</p></noscript>
 <div id="app">
-  <div id="splash" role="button" tabindex="0" aria-label="Tocar para continuar">
-    <div class="tile"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 6c5 7 9 11 9 18a9 9 0 0 1-18 0c0-4 2-6 4-9 1 3 2 4 3 4 0-5-1-9 2-13Z" fill="#E3B96F"/><path d="M8 40c8-3 16-3 24 2 8-5 16-5 24-2v13c-8-3-16-3-24 2-8-5-16-5-24-2Z" fill="#F1E2B9" opacity=".95"/><path d="M32 42v13" stroke="#1b4a40" stroke-width="1.5"/></svg></div>
-    <b>PALAVRA VIVA</b><span class="n">Bíblia de Estudos</span><small>LEIA. ENTENDA. VIVA.</small><div class="ln"></div>
+  <div id="splash" role="button" tabindex="0" aria-label="Palavra Viva, carregando. Toque para continuar">
+    <img class="logo" src="icons/icon-512.png" width="220" height="220" alt="A Palavra: aprendendo as Escrituras">
+    <div class="load" aria-hidden="true"><i></i></div>
   </div>
 
   <div id="update" class="banner" hidden role="status"><span>Há uma versão nova do app.</span><button type="button" id="do-update">Atualizar</button></div>
@@ -33,11 +34,13 @@
       <div class="ctrl"><button id="prev" type="button" aria-label="Anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 6-6 6 6 6"/></svg></button><div class="dots" id="dots"><i class="on"></i><i></i><i></i></div><button id="next" type="button" aria-label="Próximo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></button></div>
     </div>
     <div class="testbar" id="testbar" role="note" hidden>Modo teste: texto e ensino são exemplos fictícios. O conteúdo real chega em pacotes revisados.</div>
+    <button class="resume" type="button" id="ensBanner" data-act="ensinos" hidden><span class="t"><span class="eyebrow">Ensinos prontos</span><strong id="ensBannerTxt"></strong></span><span class="ler">Abrir</span></button>
     <div class="sec" id="railSec">
       <span class="eyebrow">Escolha seu momento</span>
       <div class="sechead"><h2>Continue no Palavra Viva</h2><span>Deslize &#8594;</span></div>
       <div class="rail">
-        <button class="pcard" type="button" style="--img:url(assets/hero-dawn.jpg)" data-act="study" id="cardStudy"><span class="st"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3c1 4 5 5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 .2 1 .6 1.5 1 1.5C10 7 11 6 12 3Z"/></svg></span><span class="eb">Entender a passagem</span><strong>Quatro profundidades</strong><small>Ler, entender, ligar e aprofundar</small></button>
+        <button class="pcard" type="button" style="--img:url(assets/hero-dawn.jpg)" data-act="study" id="cardStudy"><span class="st"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3c1 4 5 5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 .2 1 .6 1.5 1 1.5C10 7 11 6 12 3Z"/></svg></span><span class="eb">Entender a passagem</span><strong>Quatro profundidades</strong><small>Ler, entender, ligar ao evangelho e viver</small></button>
+        <button class="pcard" type="button" style="--img:url(assets/hero-bible.jpg)" data-act="ensinos" id="cardEns" hidden><span class="st"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3c1 4 5 5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 .2 1 .6 1.5 1 1.5C10 7 11 6 12 3Z"/></svg></span><span class="eb">Ensinos prontos</span><strong id="ensTitle">Aprenda a Palavra</strong><small id="ensSmall"></small></button>
         <button class="pcard" type="button" style="--img:url(assets/hero-reading.jpg)" data-act="marks"><span class="st"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.8 6.8 19.6l1-5.8L3.5 9.7l5.9-.9L12 3.5Z"/></svg></span><span class="eb">Minha Palavra</span><strong>Guarde o que falou com você</strong><small>Seus versículos destacados</small></button>
       </div>
     </div>
@@ -71,9 +74,15 @@
   <section class="screen" id="s-study" aria-label="Estudo">
     <div class="topbar"><button class="back" type="button" data-back><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>Voltar</button><h2 id="studyTitle"></h2></div>
     <div class="pad" style="padding-top:4px">
+      <div id="studyHead"></div>
       <div class="depth" role="tablist" aria-label="Profundidade" id="depth"></div>
       <div id="panels" style="display:flex;flex-direction:column;gap:16px"></div>
     </div>
+  </section>
+
+  <section class="screen" id="s-ens" aria-label="Ensinos">
+    <div class="topbar"><button class="back" type="button" data-back><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>Voltar</button><h2>Ensinos prontos</h2></div>
+    <div class="pad" id="ensBody"></div>
   </section>
 
   <section class="screen" id="s-search" aria-label="Busca">

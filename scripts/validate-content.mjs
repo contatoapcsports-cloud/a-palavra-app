@@ -27,7 +27,9 @@ export function validate(rootDir = root) {
     if (isTest !== (p.teste === true)) errs.push('marca de teste incoerente: ' + p.path);
     if (isTest && m.production) errs.push('produção com conteúdo de teste: ' + p.path);
     if (p.kind === 'biblia') errs.push(...check(J('schemas/chapter.schema.json'), d, p.path));
-    else {
+    else if (p.kind === 'busca') {
+      if (!Array.isArray(d.rows) || !d.rows.length || d.rows.some(r => !Array.isArray(r) || r.length !== 4)) errs.push('índice de busca inválido: ' + p.path);
+    } else {
       errs.push(...check(J('schemas/passage.schema.json'), d, p.path));
       if (!isTest) {
         const a = d.audit;
@@ -41,6 +43,7 @@ export function validate(rootDir = root) {
       }
     }
   }
+  if (m.busca && !seen.has(m.busca)) errs.push('índice de busca sem pacote: ' + m.busca);
   for (const b of m.bible) for (const c of b.chapters) if (!seen.has(c.path)) errs.push('capítulo sem pacote: ' + c.path);
   const ids = new Set();
   for (const ps of m.passages || []) { if (ids.has(ps.id)) errs.push('id repetido: ' + ps.id); ids.add(ps.id); if (!seen.has(ps.path)) errs.push('passagem sem pacote: ' + ps.id); }

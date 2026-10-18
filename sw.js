@@ -8,7 +8,7 @@ const VERSION = '__SHELL_HASH__';
 const SHELL = 'pv4-shell-' + VERSION;
 const CONTENT = 'pv4-content';
 const MEDIA = 'pv4-media';
-const SHELL_FILES = ['./', 'index.html', 'app.js', 'styles.css', 'src/core.js', 'src/books.js', 'manifest.json', 'reset.html', 'icons/icon-192.png', 'icons/icon-512.png'];
+const SHELL_FILES = ['./', 'index.html', 'app.js', 'styles.css', 'src/core.js', 'src/books.js', 'manifest.json', 'reset.html', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable-192.png', 'icons/icon-maskable-512.png'];
 /* opcionais: se faltarem no servidor, a instalação NÃO falha */
 const OPTIONAL_FILES = ['config.json', 'assets/hero-bible.jpg', 'assets/hero-dawn.jpg', 'assets/hero-reading.jpg', 'assets/abencoe.jpg'];
 
@@ -66,6 +66,14 @@ async function networkFirst(req, cacheName, key) {
   }
 }
 
+async function staleWhileRevalidate(event, req, cacheName, key) {
+  const c = await caches.open(cacheName);
+  const hit = await c.match(key);
+  const net = fetch(req, { cache: 'no-store' }).then(async function (r) { if (r.ok) await c.put(key, r.clone()); return r; });
+  if (hit) { event.waitUntil(net.catch(function () { /* sem internet: fica o guardado */ })); return hit; }
+  return net;
+}
+
 self.addEventListener('fetch', function (event) {
   const req = event.request;
   if (req.method !== 'GET') return;
@@ -74,7 +82,7 @@ self.addEventListener('fetch', function (event) {
   const file = url.pathname.split('/').pop();
   if (file === 'sw.js') return; // sempre da rede, nunca interceptado
   if (file === 'content-manifest.json') { event.respondWith(networkFirst(req, CONTENT, 'content-manifest.json')); return; }
-  if (file === 'config.json') { event.respondWith(networkFirst(req, SHELL, 'config.json')); return; }
+  if (file === 'config.json') { event.respondWith(staleWhileRevalidate(event, req, SHELL, 'config.json')); return; }
   event.respondWith((async function () {
     const hit = await caches.match(req, { ignoreSearch: true });
     if (hit) return hit;

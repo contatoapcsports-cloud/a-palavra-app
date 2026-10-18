@@ -31,5 +31,13 @@ Passagens reais exigem auditoria: 2 auditores de famílias diferentes entre si e
 ## Voltar atrás (rollback)
 Restaure em `content-src/` a versão boa e rode o build: a geração sobe de novo (nunca desce), então os aparelhos aceitam.
 
-## Fábrica de conteúdo (APIs gratuitas)
-Sem GPU e sem custo: um modelo gera e dois auditores de famílias diferentes avaliam os 36 critérios. Chaves só nos Secrets do repositório: `GROQ_API_KEY` (gerador), `GEMINI_API_KEY` e `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID` (auditores). A fábrica será adicionada depois de importar o texto bíblico (`importar-biblia`).
+## Fábrica de ensinos (APIs gratuitas, sem custo)
+Um modelo gera e dois de famílias diferentes auditam os 36 critérios (`scripts/fabrica/criterios.mjs`); os DOIS precisam aprovar tudo, senão o ensino volta ao gerador com os motivos (até 4 rodadas) e, se não passar, fica para outro dia. Nada é publicado sem os dois aprovarem e sem passar nas verificações automáticas (tamanho, idioma, citações que existem no texto, repetição, referências cruzadas que existem na Bíblia instalada).
+- **Quem faz o quê** (`fabrica/config.json`): gera o Groq `openai/gpt-oss-120b` (OpenAI), ou o Groq Qwen (Alibaba) quando o primeiro atinge o limite do dia; audita 1 o Gemini `gemini-2.5-flash` (Google); audita 2 o Cloudflare Llama (Meta), ou o Groq gpt-oss/Qwen quando o limite do Cloudflare acaba. Em cada ensino, gerador e os dois auditores são de três famílias diferentes. Chaves só nos Secrets: `GROQ_API_KEY`, `GEMINI_API_KEY`, `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`. Três ensinos andam em paralelo.
+- **Linha doutrinária** (`fabrica/doutrina.md`): lida pelo gerador e pelos auditores; o responsável pode editar.
+- **Rodar**: workflow `fabrica` (de 3 em 3 horas, e manualmente em Actions → fabrica → Run workflow; o piloto gera 6). Quando o limite diário de qualquer provedor acaba, a execução para e continua no próximo horário. O relatório de cada execução fica em `docs/fabrica.txt` (inclui tokens e chamadas gastos) e o andamento em `fabrica/estado.json`.
+- **Ordem**: João, Marcos, Lucas, Mateus, Atos, Romanos, Salmos, Provérbios e demais livros (`ordem_livros`). Cada ensino é um trecho de até 12 versículos, em `content-src/camada2/<livro>/<id>.json`.
+- **Publicação**: ensinos aprovados entram no manifesto (`build-manifest`), passam em `validate-content` e nos testes, são gravados no repositório e o site é publicado de novo.
+
+## Busca
+`src/core.js`: busca por palavra inteira (acento e caixa não importam), com plural, feminino e conjugações regulares; verbo e substantivo da mesma ideia (orar/oração, perdoar/perdão) vêm depois da palavra exata. Várias palavras: todas precisam estar no versículo; aspas = frase exata. O índice de todos os versículos é o pacote `busca.*.json`.

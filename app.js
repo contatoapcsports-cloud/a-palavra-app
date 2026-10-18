@@ -53,6 +53,7 @@
   }
 
   /* ---------- aparência ---------- */
+  var splashOn = true, appReady = function () { /* definido em bindStatic */ };
   function applyAppearance() {
     var s = parseFloat(lsGet('pv4-fs', '1.125')); if (!(s >= 1 && s <= 1.5)) s = 1.125;
     document.documentElement.style.setProperty('--fs', s + 'rem');
@@ -61,7 +62,7 @@
     if (m === 'light' || m === 'dark') document.documentElement.setAttribute('data-theme', m); else { m = 'auto'; document.documentElement.removeAttribute('data-theme'); }
     $$('#thm button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.m === m)); });
     var dark = m === 'dark' || (m === 'auto' && matchMedia('(prefers-color-scheme: dark)').matches);
-    var meta = $('meta[name="theme-color"]'); if (meta) meta.setAttribute('content', dark ? '#12191A' : '#1F4D43');
+    var meta = $('meta[name="theme-color"]'); if (meta) meta.setAttribute('content', splashOn ? '#06201a' : (dark ? '#12191A' : '#1F4D43'));
   }
 
   /* ---------- IndexedDB: destaques, anotações, onde parei (prefixo pv4-) ---------- */
@@ -180,7 +181,7 @@
 
   /* ---------- navegação (o botão voltar do Android funciona dentro do app) ---------- */
   var curState = { v: 'home', d: 0 }, overlay = null;
-  var SCREENS = ['home', 'chap', 'read', 'study', 'search', 'marks', 'menu', 'err'];
+  var SCREENS = ['home', 'chap', 'read', 'study', 'ens', 'search', 'marks', 'menu', 'err'];
   function showScreen(v) {
     SCREENS.forEach(function (x) { var s = $('#s-' + x); if (s) s.classList.toggle('on', x === v); });
     var el = $('#s-' + v); if (el) el.scrollTop = 0;
@@ -203,7 +204,7 @@
     curState = s;
     try {
       if (s.v === 'chap') viewChap(s); else if (s.v === 'read') viewRead(s); else if (s.v === 'study') viewStudy(s);
-      else if (s.v === 'search') viewSearch(); else if (s.v === 'marks') viewMarks(); else if (s.v === 'menu') viewMenu(); else viewHome();
+      else if (s.v === 'ens') viewEnsinos(); else if (s.v === 'search') viewSearch(); else if (s.v === 'marks') viewMarks(); else if (s.v === 'menu') viewMenu(); else viewHome();
     } catch (e) { fail(e); }
   }
   function fail(e) {
@@ -248,6 +249,8 @@
     else if (first) { var fb = bookOf(first.book); r.hidden = false; $('#resumeEb').textContent = 'Começar a leitura'; $('#resumeTxt').textContent = fb.name + ' ' + first.chapter; r.onclick = function () { go({ v: 'read', b: first.book, c: first.chapter }); }; }
     else r.hidden = true;
     var f = featured(); $('#cardStudy').hidden = !f; $('#railSec').hidden = false;
+    var np = (manifest.passages || []).length; $('#cardEns').hidden = !np; $('#ensBanner').hidden = !np; if (np) $('#ensBannerTxt').textContent = 'Aprenda a Palavra: ' + np + (np === 1 ? ' ensino pronto' : ' ensinos prontos');
+    if (np) { $('#ensTitle').textContent = 'Aprenda a Palavra'; $('#ensSmall').textContent = np + (np === 1 ? ' ensino pronto' : ' ensinos prontos') + ' · toque para ver'; }
     if (f) {
       try {
         var p = await loadPackage(pkgBy[f.path]);
@@ -264,8 +267,8 @@
     showScreen('chap'); $('#chapTitle').textContent = b.name;
     var g = clear($('#chapgrid'));
     for (var n = 1; n <= b.total; n++) (function (n) {
-      var ok = b.chapters.indexOf(n) >= 0;
-      g.appendChild(h('button', { type: 'button', text: String(n), 'aria-label': 'Capítulo ' + n + (ok ? '' : ', sem conteúdo'), 'aria-disabled': ok ? 'false' : 'true',
+      var ok = b.chapters.indexOf(n) >= 0, ens = passagesOf(b.id, n).length > 0;
+      g.appendChild(h('button', { type: 'button', class: ens ? 'has' : null, text: String(n), 'aria-label': 'Capítulo ' + n + (ok ? '' : ', sem conteúdo') + (ens ? ', com ensino' : ''), 'aria-disabled': ok ? 'false' : 'true',
         onclick: function () { if (ok) go({ v: 'read', b: b.id, c: n }); else toast('Este capítulo ainda não foi incluído no app.'); } }));
     })(n);
   }
@@ -310,20 +313,39 @@
     if (s.verse) { var t = $('.v[data-n="' + s.verse + '"]', box); if (t) { t.scrollIntoView({ block: 'center' }); t.classList.add('flash'); } }
   }
 
+  /* ---------- ensinos prontos (lista por livro) ---------- */
+  function viewEnsinos() {
+    showScreen('ens');
+    var body = clear($('#ensBody')), ps = manifest.passages || [];
+    if (!ps.length) { body.appendChild(h('p', { class: 'empty', text: 'Os primeiros ensinos ainda estão sendo preparados.' })); return; }
+    body.appendChild(h('p', { class: 'lead', text: 'Cada ensino ajuda você a ler, entender, ver Cristo no texto e viver a Palavra. Toque para abrir.' }));
+    var order = {}; catalog().forEach(function (b, i) { order[b.id] = i; });
+    var by = {};
+    ps.forEach(function (p) { (by[p.book] = by[p.book] || []).push(p); });
+    Object.keys(by).sort(function (x, y) { return (order[x] - order[y]); }).forEach(function (bid) {
+      var bk = bookOf(bid), grp = h('div', { class: 'ensgroup' }, [h('h3', { text: bk ? bk.name : bid })]), list = h('div', { class: 'list' });
+      by[bid].sort(function (x, y) { return (x.chapter - y.chapter) || String(x.id).localeCompare(String(y.id), undefined, { numeric: true }); }).forEach(function (p) {
+        list.appendChild(h('button', { class: 'hit', type: 'button', onclick: function () { go({ v: 'study', id: p.id }); } }, [h('strong', { text: p.titulo || p.ref }), h('span', { class: 'ref-mini', text: p.ref })]));
+      });
+      grp.appendChild(list); body.appendChild(grp);
+    });
+  }
+
   /* ---------- estudo em camadas ---------- */
   async function viewStudy(s) {
     var meta = (manifest.passages || []).filter(function (p) { return p.id === s.id; })[0];
     if (!meta) return go({ v: 'home' }, true);
     showScreen('study'); $('#studyTitle').textContent = meta.ref;
-    var tabs = clear($('#depth')), panels = clear($('#panels'));
+    var tabs = clear($('#depth')), panels = clear($('#panels')), head = clear($('#studyHead'));
     panels.appendChild(h('p', { class: 'empty', text: 'Carregando…' }));
     var p;
     try { p = await loadPackage(pkgBy[meta.path]); }
     catch (e) { clear(panels); panels.appendChild(h('div', { class: 'err' }, [h('p', { text: e.message }), h('button', { class: 'btn', type: 'button', text: 'Tentar de novo', onclick: function () { viewStudy(s); } })])); return; }
     if (curState !== s) return;
     var refs = (p.refs || []).map(function (r) { return { text: r, to: resolveRef(r) }; }).filter(function (r) { return r.to; });
-    var shown = core.visibleTabs({ verses: p.verses, entender: p.entender, ligar: p.ligar, refs: refs });
-    var NAMES = { ler: 'Ler', entender: 'Entender', ligar: 'Ligar ao evangelho', aprofundar: 'Aprofundar' };
+    var shown = core.visibleTabs({ verses: p.verses, entender: p.entender, ligar: p.ligar, viver: p.viver, guarde: p.guarde, ore: p.ore, quiz: p.quiz, refs: refs });
+    if (p.titulo) { head.appendChild(h('div', { class: 'sref', text: meta.ref })); head.appendChild(h('h2', { class: 'stitle', text: p.titulo })); }
+    var NAMES = { ler: 'Ler', entender: 'Entender', ligar: 'Ligar ao evangelho', viver: 'Viver', testar: 'Testar', aprofundar: 'Aprofundar' };
     var stamp = function () {
       var ic = h('span', { 'aria-hidden': 'true' }); ic.innerHTML = SHIELD; /* SVG fixo do próprio app, sem dados externos */
       return h('div', { class: 'stamp' }, [ic, h('span', { text: core.stampText(p) })]);
@@ -344,6 +366,27 @@
         return [h('span', { class: 'tag app', text: 'Ensino do app' }),
           h('div', { class: 'seal' }, [h('b', { text: p.ligar.selo === true ? 'Cristo neste texto' : 'Ligar ao evangelho' }), h('p', { text: p.ligar.texto })]), stamp()];
       },
+      viver: function () {
+        var n = [h('span', { class: 'tag app', text: 'Ensino do app' })];
+        if (p.viver) n.push(h('div', { class: 'cardx study viver' }, [h('div', { class: 'sub', text: 'Como viver' })].concat(String(p.viver).split(/\n\s*\n/).map(function (t) { return h('p', { text: t.trim(), style: 'margin-bottom:8px' }); }))));
+        if (p.guarde) n.push(h('div', { class: 'guarde' }, [h('div', { class: 'mtag', style: 'margin:0 0 6px', text: 'Guarde no coração' }), h('p', { text: p.guarde })]));
+        if (p.ore) n.push(h('div', { class: 'cardx study viver' }, [h('div', { class: 'sub', text: 'Ore' }), h('p', { text: p.ore })]));
+        n.push(stamp()); return n;
+      },
+      testar: function () {
+        var qz = p.quiz, wrap = h('div', { class: 'quiz' }), fb = h('div', { class: 'fb', hidden: true, role: 'status' }), done = false;
+        wrap.appendChild(h('p', { class: 'q', text: qz.pergunta }));
+        var btns = qz.opcoes.map(function (o, i) {
+          var b = h('button', { class: 'opt', type: 'button', text: o, onclick: function () {
+            if (done) return;
+            if (i === qz.certa) { done = true; b.classList.add('ok'); fb.hidden = false; fb.textContent = 'Isso mesmo! ' + (qz.explicacao || ''); }
+            else { b.classList.add('no'); b.disabled = true; fb.hidden = false; fb.textContent = 'Quase. Releia o texto na aba Ler e tente de novo.'; }
+          } });
+          wrap.appendChild(b); return b;
+        });
+        wrap.appendChild(fb);
+        return [h('span', { class: 'tag app', text: 'Teste o que você aprendeu' }), h('div', { class: 'cardx study' }, [wrap]), stamp()];
+      },
       aprofundar: function () {
         return [h('span', { class: 'tag', text: 'Texto bíblico' }),
           h('div', { class: 'cardx study' }, [h('p', { text: 'Toque para ler a outra passagem. O botão voltar traz você de volta aqui.', style: 'margin-bottom:12px' }),
@@ -363,45 +406,71 @@
   }
 
   /* ---------- busca ---------- */
-  var searchToken = 0;
+  var searchToken = 0, sidx = null, sidxPath = '', pidx = null, pidxKey = '';
   function viewSearch() { showScreen('search'); var q = $('#q'); setTimeout(function () { q.focus(); }, 60); if (q.value) runSearch(q.value); }
-  function snippet(text, m) {
-    var from = Math.max(0, m.start - 40), to = Math.min(text.length, m.end + 60), out = [];
-    if (from > 0) out.push('…');
-    out.push(text.slice(from, m.start)); out.push(h('mark', { text: text.slice(m.start, m.end) })); out.push(text.slice(m.end, to));
-    if (to < text.length) out.push('…');
+  async function ensureIndex() {
+    if (!manifest.busca) return null;
+    if (sidx && sidxPath === manifest.busca) return sidx;
+    var pkg = await loadPackage(pkgBy[manifest.busca]);
+    sidx = core.searchPrepare(pkg.rows); sidxPath = manifest.busca;
+    return sidx;
+  }
+  function passageIndex() {
+    var ps = manifest.passages || [], key = manifest.generation + ':' + ps.length;
+    if (pidx && pidxKey === key) return pidx;
+    pidx = core.searchPrepare(ps.map(function (p) { return [p.id, 0, 0, (p.titulo || '') + ' ' + p.ref + ' ' + (p.temas || []).join(' ')]; })); pidxKey = key;
+    return pidx;
+  }
+  function snippet(text, ranges) {
+    var m = ranges[0] || { start: 0, end: 0 }, from = Math.max(0, m.start - 70), to = Math.min(text.length, Math.max(m.end, m.start) + 110), out = [], pos = from;
+    if (from > 0) { var sp = text.indexOf(' ', from); if (sp >= 0 && sp < m.start) from = pos = sp + 1; out.push('…'); }
+    if (to < text.length) { var sp2 = text.lastIndexOf(' ', to); if (sp2 > m.end) to = sp2; }
+    ranges.forEach(function (r) { if (r.start < pos || r.start >= to) return; out.push(text.slice(pos, r.start)); out.push(h('mark', { text: text.slice(r.start, r.end) })); pos = r.end; });
+    out.push(text.slice(pos, to)); if (to < text.length) out.push('…');
     return out;
   }
   async function runSearch(raw) {
     var token = ++searchToken, q = raw.trim(), box = clear($('#results'));
     if (q.length < 2) return;
-    var list = h('div', { class: 'list' });
-    var nq = core.normalize(q);
-    catalog().filter(function (b) { return core.normalize(b.name).indexOf(nq) >= 0 || core.normalize(b.abbr) === nq; }).slice(0, 8).forEach(function (b) {
+    var nq = core.normalize(q), list = h('div', { class: 'list' });
+    /* 1) referência direta: "João 3:16" */
+    var ref = core.parseRef(q), to = ref ? resolveRef(q) : null;
+    if (to) { var rb = bookOf(to.book); list.appendChild(h('button', { class: 'item', type: 'button', onclick: function () { go({ v: 'read', b: to.book, c: to.chapter, verse: to.verse }); } }, [h('strong', { text: 'Abrir ' + rb.name + ' ' + to.chapter + (to.verse ? ':' + to.verse : '') }), h('small', { text: 'Ir direto' })])); }
+    /* 2) livros */
+    catalog().filter(function (b) { return core.normalize(b.name).indexOf(nq) === 0 || core.normalize(b.abbr) === nq || (nq.length >= 3 && core.normalize(b.name).split(' ').some(function (w) { return w.indexOf(nq) === 0; })); }).slice(0, 6).forEach(function (b) {
       list.appendChild(h('button', { class: 'item', type: 'button', onclick: function () { if (b.chapters.length) go({ v: 'chap', b: b.id }); else toast('O texto de ' + b.name + ' ainda não foi incluído no app.'); } }, [h('strong', { text: b.name }), h('small', { text: b.chapters.length ? 'Livro' : 'Sem conteúdo neste aparelho' })]));
     });
-    var info = h('p', { class: 'count', text: 'Buscando…' });
-    box.appendChild(list); box.appendChild(info);
-    var hits = h('div', { class: 'list', style: 'margin-top:8px' }); box.appendChild(hits);
-    var chapters = [];
-    catalog().forEach(function (b) { b.chapters.slice().sort(function (x, y) { return x - y; }).forEach(function (n) { var e = chapterEntry(b, n); if (e) chapters.push({ b: b, n: n, e: e }); }); });
-    var searched = 0, found = 0, LIMIT = 40;
-    for (var i = 0; i < chapters.length && found < LIMIT; i++) {
-      if (token !== searchToken) return;
-      var c = chapters[i], pkg;
-      try { pkg = await loadPackage(c.e, true); } catch (e) { continue; }
-      searched++;
-      for (var k = 0; k < pkg.verses.length && found < LIMIT; k++) {
-        var m = core.findMatch(pkg.verses[k].t, q);
-        if (m) { found++; (function (c, v, m) {
-          hits.appendChild(h('button', { class: 'hit', type: 'button', onclick: function () { go({ v: 'read', b: c.b.id, c: c.n, verse: v.n }); } }, [h('strong', { text: c.b.name + ' ' + c.n + ':' + v.n }), h('span', {}, snippet(v.t, m))]));
-        })(c, pkg.verses[k], m); }
-      }
+    if (list.children.length) box.appendChild(list);
+    /* 3) ensinos do app */
+    var pr = core.searchRun(passageIndex(), q).hits.slice(0, 6), ps = manifest.passages || [];
+    if (pr.length) {
+      box.appendChild(h('p', { class: 'count', text: 'Ensinos sobre "' + q + '"' }));
+      var pl = h('div', { class: 'list' });
+      pr.forEach(function (x) { var p = ps[x.i]; pl.appendChild(h('button', { class: 'hit', type: 'button', onclick: function () { go({ v: 'study', id: p.id }); } }, [h('strong', { text: p.titulo || p.ref }), h('span', { text: p.titulo ? p.ref : '' })])); });
+      box.appendChild(pl);
     }
+    /* 4) versículos: palavra inteira (e suas formas), não pedaços de outras palavras */
+    var info = h('p', { class: 'count', text: 'Buscando…' }); box.appendChild(info);
+    var hitsBox = h('div', { class: 'list' }); box.appendChild(hitsBox);
+    var idx;
+    try { idx = await ensureIndex(); } catch (e) { idx = null; }
     if (token !== searchToken) return;
-    var total = chapters.length;
-    info.textContent = found ? found + (found >= LIMIT ? '+ resultados no texto' : ' resultado(s) no texto') + '. Capítulos pesquisados neste aparelho: ' + searched + ' de ' + total + '.'
-      : (list.children.length ? '' : 'Nada encontrado para "' + q + '". ') + 'Capítulos pesquisados neste aparelho: ' + searched + ' de ' + total + '.' + (searched < total ? ' Use "Baixar para ler sem internet" para pesquisar em tudo.' : '');
+    if (!idx) { info.textContent = 'A busca no texto ainda não está neste aparelho. Conecte-se à internet uma vez e abra o app de novo.'; return; }
+    var res = core.searchRun(idx, q), shown = 0, PAGE = 30, more = h('button', { class: 'btn', type: 'button', style: 'margin:12px auto 0' });
+    function names(id) { var b = BK.byId(id); return b ? b.name : id; }
+    function draw() {
+      var end = Math.min(res.hits.length, shown + PAGE);
+      for (var k = shown; k < end; k++) (function (row) {
+        var t = row[3];
+        hitsBox.appendChild(h('button', { class: 'hit', type: 'button', onclick: function () { go({ v: 'read', b: row[0], c: row[1], verse: row[2] }); } },
+          [h('strong', { text: names(row[0]) + ' ' + row[1] + ':' + row[2] }), h('span', {}, snippet(t, core.highlightRanges(t, q)))]));
+      })(idx.rows[res.hits[k].i]);
+      shown = end; more.style.display = shown >= res.hits.length ? 'none' : 'block'; more.textContent = 'Mostrar mais ' + Math.min(PAGE, res.hits.length - shown);
+    }
+    more.onclick = draw;
+    info.textContent = res.hits.length ? res.hits.length + (res.hits.length === 1 ? ' versículo' : ' versículos') + ' com "' + q + '"' + (res.q.tokens.length > 1 && !res.q.phrase ? ' (todas as palavras)' : '') + '.'
+      : (list.children.length || pr.length ? '' : 'Nada encontrado para "' + q + '". Tente outra palavra ou escreva entre aspas uma frase exata.');
+    draw(); box.appendChild(more);
   }
 
   /* ---------- minha palavra (destaques) ---------- */
@@ -517,7 +586,7 @@
       row('Projeto', 'Palavra Viva, Bíblia de Estudos. Gratuito, sem anúncios e sem coleta de dados.'),
       cfg.ownerName ? row('Responsável', cfg.ownerName) : null,
       row('Texto bíblico e referências', lic.text || ''),
-      row('Ensino do app', 'Não é a Bíblia. Gerado por IA e conferido por outras IAs; só o selo "Revisado por pessoa" indica revisão humana.'),
+      row('Ensino do app', 'Gerado por IA e conferido por outras IAs; selo "Revisado por pessoa" indica revisão humana.'),
       row('Direitos', '© ' + yr + ' ' + owner + '. Todos os direitos reservados ao ensino e ao aplicativo; o texto bíblico segue a licença acima.'),
       row('Versão', 'App ' + APP_VERSION + ' · conteúdo ' + manifest.contentVersion + ' (geração ' + manifest.generation + ')')
     ]);
@@ -621,9 +690,12 @@
 
   /* ---------- ligações dos elementos fixos ---------- */
   function bindStatic() {
-    var splash = $('#splash');
-    function hideSplash() { splash.classList.add('off'); ssSet('pv4-splash', '1'); }
-    if (ssGet('pv4-splash')) splash.classList.add('off'); else { setTimeout(hideSplash, 2400); splash.addEventListener('click', hideSplash); splash.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') hideSplash(); }); }
+    var splash = $('#splash'), t0 = Date.now();
+    function hideSplash() { if (!splashOn) return; splashOn = false; splash.classList.add('off'); ssSet('pv4-splash', '1'); applyAppearance(); }
+    /* a abertura fica na tela, em verde-escuro, até o app terminar de carregar (mínimo 0,7 s) */
+    appReady = function () { setTimeout(hideSplash, Math.max(0, 700 - (Date.now() - t0))); };
+    if (ssGet('pv4-splash')) { splashOn = false; splash.classList.add('off'); applyAppearance(); }
+    else { setTimeout(hideSplash, 8000); splash.addEventListener('click', hideSplash); splash.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') hideSplash(); }); }
 
     $('#menuBtn').addEventListener('click', openDrawer);
     $('#dClose').addEventListener('click', closeOverlay);
@@ -637,7 +709,7 @@
     sl.addEventListener('scroll', function () { var i = cur(); dots.forEach(function (d, k) { d.classList.toggle('on', k === i); }); });
     $('#prev').addEventListener('click', function () { sl.scrollTo({ left: Math.max(0, cur() - 1) * sl.clientWidth, behavior: 'smooth' }); });
     $('#next').addEventListener('click', function () { sl.scrollTo({ left: Math.min(dots.length - 1, cur() + 1) * sl.clientWidth, behavior: 'smooth' }); });
-    $$('[data-act]').forEach(function (b) { b.addEventListener('click', function () { var a = b.dataset.act; if (a === 'read') actRead(); else if (a === 'study') actStudy(); else go({ v: 'marks' }); }); });
+    $$('[data-act]').forEach(function (b) { b.addEventListener('click', function () { var a = b.dataset.act; if (a === 'read') actRead(); else if (a === 'study') actStudy(); else if (a === 'ensinos') go({ v: 'ens' }); else go({ v: 'marks' }); }); });
     $$('.tt button').forEach(function (c) { c.addEventListener('click', function () { testament = c.dataset.t; $$('.tt button').forEach(function (x) { x.setAttribute('aria-pressed', String(x === c)); }); drawBooks(); }); });
     $('#goSearch').addEventListener('click', function () { go({ v: 'search' }); });
     var qt = null; $('#q').addEventListener('input', function (e) { clearTimeout(qt); var v = e.target.value; qt = setTimeout(function () { runSearch(v); }, 250); });
@@ -684,17 +756,28 @@
   /* ---------- partida ---------- */
   (async function start() {
     applyAppearance(); bindStatic(); refreshInstall();
-    await loadConfig();
-    fillRights();
-    $('#blessItem').hidden = !cfg.pixKey;
     setupSW();
-    try {
-      manifest = await syncManifest();
-      if (!manifest) throw new Error('Sem conexão e sem conteúdo guardado. Abra o app uma vez com internet.');
+    /* abre na hora com o que já está guardado no aparelho; a internet só atualiza por trás */
+    var stored = null;
+    try { var cc = await caches.open(CONTENT), sm = await cc.match('content-manifest.json'); if (sm) stored = await sm.json(); } catch (e) { stored = null; }
+    var cfgDone = loadConfig().then(function () { fillRights(); $('#blessItem').hidden = !cfg.pixKey; });
+    function showFirst() {
       indexManifest();
       var s = history.state;
       if (s && s.v && !s.o) curState = s; else { curState = { v: 'home', d: Math.max(0, ((s && s.d) || 1) - 1) }; history.replaceState(curState, ''); }
       render(curState);
+    }
+    try {
+      if (stored && stored.bible) {
+        manifest = stored; showFirst();
+        syncManifest().then(function (m) { if (m && manifest && m.generation !== manifest.generation) { manifest = m; indexManifest(); if (curState && curState.v === 'home') render(curState); } }, function () { /* sem internet: segue com o guardado */ });
+      } else {
+        await cfgDone;
+        manifest = await syncManifest();
+        if (!manifest) throw new Error('Sem conexão e sem conteúdo guardado. Abra o app uma vez com internet.');
+        showFirst();
+      }
     } catch (e) { fail(e); }
+    appReady();
   })();
 })();
