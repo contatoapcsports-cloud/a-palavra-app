@@ -1,0 +1,134 @@
+{
+ "id": "43-15-10-18",
+ "ref": "João 15:10-18",
+ "book": "43",
+ "chapter": 15,
+ "verses": [
+  {
+   "n": 10,
+   "t": "Se guardardes meus mandamentos, estareis em meu amor. Como eu tenho guardado os mandamentos de meu Pai, e estou em seu amor."
+  },
+  {
+   "n": 11,
+   "t": "Estas coisas eu tenho vos dito para que minha alegria esteja em vós, e vossa alegria seja completa."
+  },
+  {
+   "n": 12,
+   "t": "Este é meu mandamento: que vos ameis uns aos outros, assim como eu vos amei."
+  },
+  {
+   "n": 13,
+   "t": "Ninguém tem maior amor que este: que alguém ponha sua vida por seus amigos."
+  },
+  {
+   "n": 14,
+   "t": "Vós sois meus amigos, se fizerdes o que eu vos mando."
+  },
+  {
+   "n": 15,
+   "t": "Já não vos chamo mais servos; porque o servo não sabe o que faz seu senhor; mas eu tenho vos chamado de amigos, porque tudo quanto ouvi de meu Pai eu tenho vos feito conhecer."
+  },
+  {
+   "n": 16,
+   "t": "Não fostes vós que me escolhestes, porém eu vos escolhi, e tenho vos posto para que vades, e deis fruto, e vosso fruto permaneça; para que tudo quanto pedirdes ao Pai em meu nome, ele vos dê."
+  },
+  {
+   "n": 17,
+   "t": "Isto vos mando, para que vos ameis uns aos outros."
+  },
+  {
+   "n": 18,
+   "t": "Se o mundo vos odeia, sabei que odiou a mim antes que a vós."
+  }
+ ],
+ "titulo": "Amizade que transforma: o chamado de Jesus",
+ "temas": [
+  "amor",
+  "amizade",
+  "obediência",
+  "fruto"
+ ],
+ "pergunta": "Você já se sente chamado a amar como Jesus amou?",
+ "entender": "Jesus fala aos seus discípulos sobre a relação entre obedecer aos seus mandamentos e permanecer no seu amor. Ele afirma: \"Se guardardes meus mandamentos, estareis em meu amor\" (João 15:10) e destaca que a verdadeira amizade depende da obediência. O mandamento central que ele dá é amar uns aos outros como ele nos amou, chegando ao ponto máximo de amar ao ponto de dar a vida pelos amigos (v.12‑13). Ele lembra que não somos mais servos, mas amigos, porque ele revelou tudo o que ouviu do Pai (v.15). Essa amizade tem objetivo: que cada um dê fruto que permaneça, e que, pedindo ao Pai em seu nome, recebamos o que precisamos (v.16). O texto encerra com a realidade de que o mundo odiará quem segue a Jesus, assim como odiou a ele antes (v.18). O contexto imediato mostra que quem está em Jesus e tem suas palavras nele pode pedir ao Pai e receber, e que o fruto glorifica o Pai (v.7‑9). Assim, a passagem liga a obediência, o amor mútuo e a missão de dar fruto à identidade de amigo de Cristo.\n\nNo discurso de Jesus, a amizade não é apenas um sentimento, mas um compromisso que se demonstra em ação concreta: amar, servir e, se necessário, sacrificar a própria vida pelos irmãos. Essa amizade traz alegria completa e nos coloca em comunhão com o amor do Pai, que nos escolheu antes de tudo.",
+ "ligar": {
+  "texto": "O convite de Jesus a amar como ele amou aponta diretamente ao evangelho: o amor que salva nasce da cruz, onde ele deu a sua vida por nós, amigos. Ao obedecer ao mandamento de amar, participamos do mesmo amor que o Pai demonstrou ao enviar o Filho. Pedir ao Pai em seu nome (v.16) revela que a confiança no evangelho abre acesso ao Pai, e o fruto que permanece é a vida transformada pelo Espírito. Assim, a passagem nos leva a reconhecer que a amizade com Cristo se vive na prática do amor sacrificial, que é a essência do evangelho.",
+  "selo": true
+ },
+ "viver": "Hoje, coloque em prática o mandamento de amar: procure alguém que precise de apoio e ofereça ajuda sem esperar recompensa. Seja intencional em perdoar e servir, lembrando que amar como Jesus amou pode significar sacrificar seu tempo ou recursos por quem está ao seu redor. Ao fazer isso, você demonstra que está seguindo o convite de ser amigo de Cristo e produz fruto que permanece na vida das pessoas.\n\nQuando enfrentar a hostilidade do mundo, lembre‑se de que Jesus já enfrentou ódio antes de vocês. Confie que o amor de Deus lhe sustenta e que, ao permanecer em seus mandamentos, você permanece no seu amor, mesmo diante das dificuldades.",
+ "guarde": "Amar como Jesus amou transforma amizade em missão de dar vida.",
+ "ore": "Senhor, ajuda-me a amar como Tu amaste, a ser amigo fiel e a dar fruto que dure, mesmo quando o mundo me rejeitar. Capacita-me a obedecer aos Teus mandamentos e a viver em Teu amor. Amém.",
+ "quiz": {
+  "pergunta": "Qual é o mandamento central que Jesus dá aos seus discípulos em João 15?",
+  "opcoes": [
+   "Fazer muitos milagres",
+   "Guardar os mandamentos do Pai",
+   "Amar uns aos outros como Ele nos amou"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus declara: \"Este é meu mandamento: que vos ameis uns aos outros, assim como eu vos amei\" (v.12). Essa é a instrução central da passagem."
+ },
+ "refs": [
+  "1 João 4:7-12",
+  "Mateus 22:37-40",
+  "João 13:34-35",
+  "Gálatas 5:13"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T18:42:01.660Z",
+  "rounds": 1
+ }
+}

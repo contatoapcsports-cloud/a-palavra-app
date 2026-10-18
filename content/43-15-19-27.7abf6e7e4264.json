@@ -1,0 +1,133 @@
+{
+ "id": "43-15-19-27",
+ "ref": "João 15:19-27",
+ "book": "43",
+ "chapter": 15,
+ "verses": [
+  {
+   "n": 19,
+   "t": "Se vós fôsseis do mundo, o mundo amaria ao seu; mas porque não sois do mundo, antes eu vos escolhi do mundo, por isso o mundo vos odeia."
+  },
+  {
+   "n": 20,
+   "t": "Lembrai-vos da palavra que vos tenho dito: não é o servo maior que seu senhor. Se me perseguiram, também vos perseguirão; se guardaram minha palavra, também guardarão a vossa."
+  },
+  {
+   "n": 21,
+   "t": "Mas tudo isto vos farão por causa do meu nome; porque não conhecem a aquele que me enviou."
+  },
+  {
+   "n": 22,
+   "t": "Se eu não tivesse vindo, nem lhes houvesse falado, não teriam pecado; mas agora já não têm pretexto pelo seu pecado."
+  },
+  {
+   "n": 23,
+   "t": "Quem me odeia, também odeia a meu Pai."
+  },
+  {
+   "n": 24,
+   "t": "Se eu entre eles não tivesse feito obras, que nenhum outro fizera, não teriam pecado; mas agora as viram, e contudo odiaram a mim, e a meu Pai."
+  },
+  {
+   "n": 25,
+   "t": "Mas isto é para que se cumpra a palavra que está escrita em sua Lei: Sem causa me odiaram."
+  },
+  {
+   "n": 26,
+   "t": "Mas quando vier o Consolador, que eu do Pai vos enviarei, aquele Espírito de verdade, que sai do Pai, ele testemunhará de mim."
+  },
+  {
+   "n": 27,
+   "t": "E também vós testemunhareis, pois estivestes comigo desde o princípio."
+  }
+ ],
+ "titulo": "Por que o mundo rejeita quem segue Jesus?",
+ "temas": [
+  "perseguição",
+  "testemunho",
+  "identidade",
+  "consolador"
+ ],
+ "pergunta": "Se você não pertence ao mundo, o que esperar das pessoas ao seu redor?",
+ "entender": "Jesus fala aqui com seus discípulos momentos antes de sua morte. Ele explica uma realidade dura: o mundo odeia quem segue a Cristo. Por quê? Não porque os discípulos são piores, mas porque eles foram tirados do padrão do mundo. Jesus diz: \"porque não sois do mundo, antes eu vos escolhi do mundo\". Essa separação gera conflito. O mundo ama o que é seu, e quem vive para Deus vive de forma diferente, o que provoca rejeição.\n\nJesus também avisa que a perseguição a Ele se estenderá a eles. Isso não é um acidente, mas consequência de não conhecerem a Deus. Ele lembra que, se não tivesse vindo e falado, não teriam pecado; mas, vendo as obras e ouvindo a mensagem, escolheram odiar. Para consolar, Jesus promete o envio do Consolador, o Espírito de verdade, que testificará dEle, e os discípulos também serão testemunhas porque estiveram com Jesus desde o início.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para a identidade de Jesus como aquele que foi enviado pelo Pai e rejeitado. A perseguição aos discípulos é um reflexo da rejeição a Cristo. O evangelho é claro: a salvação vem pela fé em Jesus, e aceitar essa verdade nos separa do sistema de valores do mundo, que não conhece a Deus. O ódio do mundo não é sinal de fracasso, mas de fidelidade a Cristo, que também foi odiado sem causa.",
+  "selo": true
+ },
+ "viver": "Se você segue Jesus e sente resistência ou rejeição no trabalho, na família ou entre amigos, saiba que isso faz parte do caminho. Não é hora de se amoldar ao mundo, mas de confiar no Consolador, o Espírito Santo, que nos dá força e clareza. Vivamos com coragem, mas sem amargura, lembrando que nossa lealdade é a Cristo, e que nossa testemunha é o que vivemos e cremos desde o início.",
+ "guarde": "O mundo odeia quem pertence a Jesus, mas o Espírito Santo nos dá força para testemunhar com verdade.",
+ "ore": "Pai, obrigado por me escolher para ser teu. Dá-me coragem para viver fiel a Cristo, mesmo quando o mundo rejeitar. Enche-me do teu Espírito de verdade, para que eu testemunhe dEle com amor e clareza. Em nome de Jesus, amém.",
+ "quiz": {
+  "pergunta": "Por que Jesus diz que o mundo odeia seus discípulos?",
+  "opcoes": [
+   "Porque Jesus mandou que eles odiassem o mundo.",
+   "Porque os discípulos são mais ricos que os outros.",
+   "Porque eles não são do mundo, mas foram escolhidos por Ele."
+  ],
+  "certa": 2,
+  "explicacao": "O texto afirma que o ódio vem do fato de os discípulos não pertencerem ao mundo, mas terem sido escolhidos por Jesus, o que gera conflito com os valores mundanos."
+ },
+ "refs": [
+  "Mateus 10:22",
+  "1 Pedro 2:12",
+  "Atos 4:13"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T18:42:22.996Z",
+  "rounds": 1
+ }
+}

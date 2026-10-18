@@ -180,8 +180,8 @@
    "titulo": "Por que ninguém ousou prender Jesus?"
   },
   "43-8-1-12": {
-   "execucoes": 1,
-   "ultimo": "automático: abertura_repetida:ore:43-1-1-10"
+   "execucoes": 2,
+   "ultimo": "automático: entender:menos_de_2_paragrafos"
   },
   "43-8-13-24": {
    "execucoes": 0,
@@ -259,7 +259,7 @@
   },
   "43-11-12-23": {
    "execucoes": 1,
-   "ultimo": "automático: abertura_repetida:ore:43-8-13-24"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   },
   "43-11-24-34": {
    "execucoes": 0,
@@ -301,7 +301,7 @@
   },
   "43-12-41-50": {
    "execucoes": 1,
-   "ultimo": "automático: abertura_repetida:viver:43-4-12-22"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   },
   "43-13-1-10": {
    "execucoes": 0,
@@ -347,11 +347,15 @@
   },
   "43-15-10-18": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Amizade que transforma: o chamado de Jesus"
   },
   "43-15-19-27": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Por que o mundo rejeita quem segue Jesus?"
   },
   "43-16-1-11": {
    "execucoes": 0,
@@ -388,24 +392,24 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 103,
-   "entrada": 210948,
-   "saida": 99242
+   "chamadas": 112,
+   "entrada": 229419,
+   "saida": 107183
   },
   "groq-qwen": {
-   "chamadas": 99,
-   "entrada": 195172,
-   "saida": 77758
+   "chamadas": 105,
+   "entrada": 206243,
+   "saida": 82382
   },
   "gemini": {
-   "chamadas": 84,
-   "entrada": 267572,
-   "saida": 120900
+   "chamadas": 87,
+   "entrada": 277181,
+   "saida": 125459
   },
   "cloudflare": {
-   "chamadas": 58,
-   "entrada": 199277,
-   "saida": 21518
+   "chamadas": 60,
+   "entrada": 206243,
+   "saida": 22260
   },
   "mistral": {
    "chamadas": 0,
