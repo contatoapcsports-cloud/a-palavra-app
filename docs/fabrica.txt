@@ -1,0 +1,33 @@
+Fábrica de ensinos — execução de 2026-10-18T04:49:47.956Z
+Fila: 3058 trechos; prontos: 0; limite desta execução: 6 ensinos / 40 min; 3 em paralelo.
+> João 1:1-10 (43-1-1-10)
+  [43-1-1-10] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+> João 1:11-20 (43-1-11-20)
+  [43-1-11-20] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+> João 1:21-31 (43-1-21-31)
+  [43-1-21-31] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  [43-1-1-10] rodada 1: verificação automática recusou: ligar:citacao_fora_do_texto
+  [43-1-11-20] rodada 1: verificação automática recusou: viver:citacao_fora_do_texto
+  [43-1-21-31] rodada 1: verificação automática recusou: entender:citacao_fora_do_texto
+  ERRO [43-1-1-10]: gemini: 404 { "error": { "code": 404, "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/do
+> João 1:32-41 (43-1-32-41)
+  [43-1-32-41] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  ERRO [43-1-11-20]: groq-gpt: 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5046, Requested 3784. Please try again in 6.225s. Need more tokens? Upgrade to Dev Tier today a
+> João 1:42-51 (43-1-42-51)
+  [43-1-42-51] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  [43-1-42-51] rodada 1: verificação automática recusou: entender:citacao_longa
+  ERRO [43-1-21-31]: groq-gpt: 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 3379, Requested 4678. Please try again in 427.5ms. Need more tokens? Upgrade to Dev Tier today 
+> João 2:1-8 (43-2-1-8)
+  [43-2-1-8] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  ERRO [43-2-1-8]: gemini: 404 { "error": { "code": 404, "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/do
+Quatro erros seguidos; parando para não gastar à toa.
+  ERRO [43-1-32-41]: groq-gpt: 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5181, Requested 3799. Please try again in 7.35s. Need more tokens? Upgrade to Dev Tier today at
+Quatro erros seguidos; parando para não gastar à toa.
+  ERRO [43-1-42-51]: gemini: 404 { "error": { "code": 404, "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/do
+Quatro erros seguidos; parando para não gastar à toa.
+Resumo: 0 novos ensinos, 0 não aprovados, 0 travados ignorados. Total pronto: 0 de 3058 trechos.
+
+groq-gpt (openai/gpt-oss-120b): 7 chamadas, 11012 tokens entrada, 15566 saída
+groq-qwen (qwen/qwen3.8-27b): 0 chamadas, 0 tokens entrada, 0 saída
+gemini (gemini-2.5-flash): 0 chamadas, 0 tokens entrada, 0 saída
+cloudflare (@cf/meta/llama-3.3-70b-instruct-fp8-fast): 0 chamadas, 0 tokens entrada, 0 saída

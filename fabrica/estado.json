@@ -1,0 +1,50 @@
+{
+ "unidades": {
+  "43-1-1-10": {
+   "execucoes": 0,
+   "ultimo": "erro: gemini: 404 { \"error\": { \"code\": 404, \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features"
+  },
+  "43-1-11-20": {
+   "execucoes": 0,
+   "ultimo": "erro: groq-gpt: 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per minute (TPM): Limit 8000, "
+  },
+  "43-1-21-31": {
+   "execucoes": 0,
+   "ultimo": "erro: groq-gpt: 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per minute (TPM): Limit 8000, "
+  },
+  "43-1-32-41": {
+   "execucoes": 0,
+   "ultimo": "erro: groq-gpt: 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per minute (TPM): Limit 8000, "
+  },
+  "43-1-42-51": {
+   "execucoes": 0,
+   "ultimo": "erro: gemini: 404 { \"error\": { \"code\": 404, \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features"
+  },
+  "43-2-1-8": {
+   "execucoes": 0,
+   "ultimo": "erro: gemini: 404 { \"error\": { \"code\": 404, \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features"
+  }
+ },
+ "uso": {
+  "groq-gpt": {
+   "chamadas": 7,
+   "entrada": 11012,
+   "saida": 15566
+  },
+  "groq-qwen": {
+   "chamadas": 0,
+   "entrada": 0,
+   "saida": 0
+  },
+  "gemini": {
+   "chamadas": 0,
+   "entrada": 0,
+   "saida": 0
+  },
+  "cloudflare": {
+   "chamadas": 0,
+   "entrada": 0,
+   "saida": 0
+  }
+ }
+}
