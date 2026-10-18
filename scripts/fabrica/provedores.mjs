@@ -109,8 +109,9 @@ export class Gemini extends Provedor {
         if (c0.finishReason === 'MAX_TOKENS') throw new ProvError(this.nome, 'resposta cortada (max tokens)');
         return extrairJson(c0.content.parts.filter(p => !p.thought).map(p => p.text || '').join(''));
       } catch (e) {
-        if (e.quota) throw e;
         ultimo = e;
+        if (e.quota && i < this.modelos.length - 1) { this.bloqueado = null; continue; } // cota diária é por modelo: tenta o próximo
+        if (e.quota) throw e;
         if (e.status === 404 && i < this.modelos.length - 1) continue; // modelo indisponível: próximo da lista
         throw e;
       }
@@ -141,8 +142,8 @@ export class Cloudflare extends Provedor {
         if (!resp) throw new ProvError(this.nome, 'resposta vazia');
         return extrairJson(resp);
       } catch (e) {
-        if (e.quota) throw e;
         ultimo = e;
+        if (e.quota) throw e;
         if (e.status === 404 || (e.status === 400 && /model|no route|not found/i.test(e.message))) continue; // modelo indisponível: próximo da lista
         throw e;
       }
