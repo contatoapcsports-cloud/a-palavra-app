@@ -1,0 +1,66 @@
+name: fabrica
+on:
+  workflow_dispatch:
+    inputs:
+      max_itens:
+        description: "Quantos ensinos gerar nesta execução (piloto: 6)"
+        default: "6"
+      max_minutos:
+        description: "Tempo máximo da execução, em minutos"
+        default: "40"
+  schedule:
+    - cron: "5 */3 * * *"
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: fabrica
+  cancel-in-progress: false
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    env:
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      MAX_ITENS: ${{ github.event.inputs.max_itens || '150' }}
+      MAX_MINUTOS: ${{ github.event.inputs.max_minutos || '170' }}
+      CONCURRENCIA: "3"
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Gerar e auditar ensinos (Groq gera; Gemini e Cloudflare auditam; os dois precisam aprovar)
+        id: fab
+        continue-on-error: true
+        run: node scripts/fabrica/rodar.mjs
+      - name: Montar manifesto, validar e testar (só se houve ensino novo)
+        id: build
+        continue-on-error: true
+        run: |
+          if [ -z "$(git status --porcelain content-src/camada2)" ]; then echo "sem ensino novo"; exit 0; fi
+          node scripts/build-manifest.mjs
+          node scripts/validate-content.mjs
+          node --test tests/*.test.mjs
+          echo novo > /tmp/publicar
+      - name: Se a validação falhou, descartar os ensinos novos (o registro fica)
+        if: steps.build.outcome == 'failure'
+        run: |
+          git checkout -- content content-manifest.json 2>/dev/null || true
+          git clean -fdq content-src/camada2 content
+          echo "A validação falhou; os ensinos novos desta execução foram descartados." >> docs/fabrica.txt
+      - name: Gravar no repositório e publicar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A docs/fabrica.txt fabrica/estado.json
+          [ -f /tmp/publicar ] && git add -A content-src/camada2 content content-manifest.json
+          git diff --cached --quiet && { echo "nada mudou"; exit 0; }
+          N=$(git diff --cached --name-only -- content-src/camada2 | wc -l)
+          git commit -m "fábrica: $N ensinos novos aprovados pelos dois auditores"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          [ -f /tmp/publicar ] && gh workflow run pages.yml --ref main || true

@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]
     paths:
+      - "tarefa-final.txt"
       - ".github/workflows/aplicar-pacote.yml"
 permissions:
   contents: write
@@ -19,16 +20,14 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
-      - name: Aplicar o pacote (confere checksums, apaga o que é antigo, grava os arquivos)
+      - name: Aplicar o pacote (confere checksums e grava os arquivos; não apaga conteúdo)
         run: |
           if [ ! -f tarefa-final.txt ]; then echo "sem tarefa-final.txt: nada a fazer"; exit 0; fi
           touch .aplicando
           python3 -I - <<'PY' 2>&1 | tee -a "$RUNNER_TEMP/inst.log"
-          import re, os, sys, shutil, hashlib
-          PACOTE = os.environ.get('PACOTE', 'tarefa-final.txt')
-          t = open(PACOTE, encoding='utf8', newline='').read()
+          import re, os, sys, hashlib, base64
+          t = open('tarefa-final.txt', encoding='utf8', newline='').read()
           t = t.split('==================== ARQUIVOS ====================\n', 1)[1]
-          import base64
           bins = {m.group(1): base64.b64decode(m.group(2)) for m in re.finditer(r'^<<<BIN (\S+)>>>\n(.*?)^<<<END>>>\n', t, re.S | re.M)}
           files = {m.group(1): m.group(2) for m in re.finditer(r'^<<<FILE (\S+)>>>\n(.*?)^<<<END>>>\n', t, re.S | re.M)}
           sums = {}
@@ -39,29 +38,21 @@ jobs:
           bad = []
           for p, c in files.items():
               if hashlib.sha256(c.encode('utf8')).hexdigest() != sums[p]: bad.append('pacote: ' + p)
-              if p.startswith('.github/workflows/') and p != '.github/workflows/aplicar-pacote.yml':   # workflows foram enviados à mão: conferir o que está no repositório
-                  if not os.path.exists(p) or hashlib.sha256(open(p, 'rb').read()).hexdigest() != sums[p]: bad.append('workflow diferente do pacote: ' + p)
           for p, b in bins.items():
               if hashlib.sha256(b).hexdigest() != sums[p]: bad.append('binario: ' + p)
           if bad: print('\n'.join(bad)); sys.exit(1)
-          for d in ('biblia', 'camada1', 'camada2', 'camada3', 'content', 'content-src'):
-              shutil.rmtree(d, ignore_errors=True)
-          for f in ('storage.js', 'content-manifest.json'):
-              if os.path.exists(f): os.remove(f)
-          keep = set(files)
-          for d in ('tests', 'scripts', 'schemas'):
-              for r, _, fs in os.walk(d):
-                  for f in fs:
-                      p = os.path.join(r, f).replace(os.sep, '/')
-                      if p not in keep: os.remove(p)
           for p, c in files.items():
-              if p.startswith('.github/workflows/'): continue
+              if p.startswith('.github/workflows/'):
+                  # workflows só podem ser enviados à mão; aqui apenas avisamos se o do repositório for diferente do pacote
+                  if p != '.github/workflows/aplicar-pacote.yml' and (not os.path.exists(p) or hashlib.sha256(open(p, 'rb').read()).hexdigest() != sums[p]):
+                      print('AVISO: workflow diferente do pacote (envie o arquivo certo em .github/workflows): ' + p)
+                  continue
               os.makedirs(os.path.dirname(p) or '.', exist_ok=True)
               open(p, 'w', encoding='utf8', newline='').write(c)
           for p, b in bins.items():
               os.makedirs(os.path.dirname(p), exist_ok=True)
               open(p, 'wb').write(b)
-          for p in ('icons/icon-192.png', 'icons/icon-512.png'):
+          for p in ('icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable-512.png'):
               if not os.path.exists(p): print('falta', p); sys.exit(1)
           for p, h in sums.items():
               if p.startswith('.github/workflows/'): continue
@@ -72,19 +63,21 @@ jobs:
         run: |
           [ -f .aplicando ] || exit 0
           { node scripts/build-manifest.mjs && node scripts/validate-content.mjs && node --test tests/*.test.mjs; } 2>&1 | tee -a "$RUNNER_TEMP/inst.log"
-      - name: Gravar no repositório e continuar (importar a Bíblia)
+      - name: Gravar no repositório e publicar o app
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           [ -f .aplicando ] || exit 0
           rm -f .aplicando tarefa-final.txt
+          mkdir -p docs; { echo "Instalação concluída em $(date -u)"; grep -E "pacote aplicado|AVISO|manifesto geração|^# (tests|pass|fail)" "$RUNNER_TEMP/inst.log"; } > docs/instalacao.txt
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "Substitui o app: visual do Robusto, estudo em camadas, busca e offline"
+          git commit -m "Atualiza o app: busca precisa, ensinos, abertura em verde, fábrica de ensinos"
           git pull --rebase origin main
           git push origin HEAD:main
-          gh workflow run importar-biblia.yml --ref main
+          gh workflow run pages.yml --ref main
+          gh workflow run fabrica.yml --ref main -f max_itens=6 -f max_minutos=40 || echo "fabrica.yml ainda não está no repositório"
       - name: Registrar o erro no repositório (para eu poder ler)
         if: failure()
         env:
