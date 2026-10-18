@@ -1,0 +1,137 @@
+{
+ "id": "43-9-1-10",
+ "ref": "João 9:1-10",
+ "book": "43",
+ "chapter": 9,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E indo Jesus passando, viu a um homem cego desde o nascimento."
+  },
+  {
+   "n": 2,
+   "t": "E seus discípulos lhe perguntaram, dizendo: Rabi, quem pecou? Este, ou seus pais, para que nascesse cego?"
+  },
+  {
+   "n": 3,
+   "t": "Respondeu Jesus: Nem este pecou, nem seus pais; mas sim para que as obras de Deus nele se manifestem."
+  },
+  {
+   "n": 4,
+   "t": "A mim me convém trabalhar as obras daquele que me enviou, enquanto é dia; a noite vem, quando ninguém pode trabalhar."
+  },
+  {
+   "n": 5,
+   "t": "Enquanto estiver no mundo, eu sou a luz do mundo."
+  },
+  {
+   "n": 6,
+   "t": "Dito isto, cuspiu em terra, e fez lama do cuspe, e untou com aquela lama os olhos do cego."
+  },
+  {
+   "n": 7,
+   "t": "E disse-lhe: Vai, lava-te no tanque de Siloé (que se traduz Enviado). Foi pois, e lavou-se; e voltou vendo."
+  },
+  {
+   "n": 8,
+   "t": "Então os vizinhos, e os que de antes o viram que era cego, diziam: Não é este aquele que estava sentado, e mendigava?"
+  },
+  {
+   "n": 9,
+   "t": "Outros diziam: É este. E outros: Parece-se com ele. Ele dizia: Sou eu."
+  },
+  {
+   "n": 10,
+   "t": "Então lhe diziam: Como teus olhos se abriram?"
+  }
+ ],
+ "titulo": "A lama que trouxe a visão",
+ "temas": [
+  "milagre",
+  "fé",
+  "luz",
+  "cura"
+ ],
+ "pergunta": "Por que Jesus usou lama e cuspe para curar os olhos de um homem cego de nascença?",
+ "entender": "O texto mostra Jesus passando e vendo um homem cego desde o nascimento. Seus discípulos, com uma lógica comum da época, perguntam quem pecou: o homem ou seus pais, achando que a cegueira era castigo. Jesus corrige essa ideia imediatamente: nem o homem nem os pais pecaram; a situação existe para que \"as obras de Deus nele se manifestem\". Ele não veio para julgar a origem do sofrimento, mas para agir no presente.\n\nJesus então faz algo inesperado: cuspem na terra, faz lama e unge os olhos do cego. Depois, manda o homem lavar-se no tanque de Siloé. O homem obedece, lava-se e volta vendo. A reação dos vizinhos é de confusão: alguns dizem que é o mendigo, outros que se parece com ele, mas o homem afirma com clareza: \"Sou eu\". A cura não é apenas física; é uma transformação que muda a identidade social dele, tirando-o da invisibilidade da mendicância.",
+ "ligar": {
+  "texto": "Jesus se declara \"a luz do mundo\" (v. 5). A cegueira física aqui reflete a cegueira espiritual da humanidade. Assim como Jesus abriu os olhos físicos do homem, Ele abre os nossos para a verdade. A cura não veio por mérito, mas pela ação de Jesus enquanto \"é dia\". O evangelho é a luz que nos permite ver quem somos e quem Ele é, tirando-nos da escuridão do pecado.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, quando enfrentamos dificuldades, buscamos culpados: nós mesmos, nossa família ou o acaso. Esse texto nos convida a parar de investigar o passado e olhar para Jesus agora. Ele não está ocupado explicando por que a dor existe, mas trabalhando para que Sua glória se manifeste em nossa vida. A obediência do cego ao lavar-se em Siloé nos ensina que a cura muitas vezes exige um passo de fé, mesmo quando não entendemos o método de Deus.",
+ "guarde": "A luz de Jesus não explica o passado, mas transforma o presente.",
+ "ore": "Pai, perdoa-me por buscar culpados em vez de buscar Teu rosto. Obrigado por ser a luz do mundo. Abra meus olhos espirituais para ver Tua obra em minha vida hoje. Ensina-me a obedecer no momento, mesmo quando não entendo o processo. Em nome de Jesus, amém.",
+ "quiz": {
+  "pergunta": "Segundo o texto, qual era a pergunta inicial dos discípulos sobre o cego?",
+  "opcoes": [
+   "Quem pecou: ele ou seus pais?",
+   "Por que ele não tinha fé?",
+   "Como ele havia ficado cego?"
+  ],
+  "certa": 0,
+  "explicacao": "No versículo 2, os discípulos perguntam especificamente quem pecou, o homem ou seus pais, para explicar a origem da cegueira."
+ },
+ "refs": [
+  "João 8:12",
+  "2 Coríntios 4:6",
+  "Lucas 18:35-43"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.7-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T15:49:52.734Z",
+  "rounds": 1
+ }
+}

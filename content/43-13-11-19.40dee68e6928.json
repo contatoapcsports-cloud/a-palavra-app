@@ -1,0 +1,133 @@
+{
+ "id": "43-13-11-19",
+ "ref": "João 13:11-19",
+ "book": "43",
+ "chapter": 13,
+ "verses": [
+  {
+   "n": 11,
+   "t": "Porque ele bem sabia quem o trairia; por isso disse: Nem todos estais limpos."
+  },
+  {
+   "n": 12,
+   "t": "Quando então, tendo eles lavado os pés, e tomado suas roupas, voltou a se sentar à mesa ,e disse-lhes: Entendeis o que vos tenho feito?"
+  },
+  {
+   "n": 13,
+   "t": "Vós me chamais Mestre, e Senhor, e bem dizeis; que eu o sou;"
+  },
+  {
+   "n": 14,
+   "t": "Pois se eu, o Senhor, e o Mestre, tenho lavado vossos pés, também vós deveis lavar vossos pés uns aos outros."
+  },
+  {
+   "n": 15,
+   "t": "Porque vos tenho dado exemplo, para que como eu vos tenho feito, façais vós também."
+  },
+  {
+   "n": 16,
+   "t": "Em verdade, em verdade vos digo, que o servo não é maior que seu senhor; nem enviado maior que aquele que o enviou."
+  },
+  {
+   "n": 17,
+   "t": "Se sabeis estas coisas, sereis bem-aventurados se as fizerdes."
+  },
+  {
+   "n": 18,
+   "t": "Não digo de todos; bem sei eu aos que tenho escolhido; mas para que se cumpra a Escritura, que diz : O que come comigo, levantou contra mim seu calcanhar."
+  },
+  {
+   "n": 19,
+   "t": "Desde agora, antes que se faça, digo-o a vós, para que, quando se fizer, creiais que eu sou."
+  }
+ ],
+ "titulo": "O exemplo que quebra a hierarquia",
+ "temas": [
+  "serviço",
+  "humildade",
+  "exemplo",
+  "traição"
+ ],
+ "pergunta": "Por que Jesus, sendo o Mestre, fez o trabalho mais humilde da casa?",
+ "entender": "Após lavar os pés dos discípulos, Jesus volta a sentar à mesa e pergunta se eles entendem o que Ele fez. Ele não fez isso apenas por carinho, mas para estabelecer uma nova lógica de relacionamento. Ao chamar Jesus de \"Mestre\" e \"Senhor\", os discípulos reconhecem sua autoridade, mas Jesus inverte a expectativa de poder: o líder não é aquele que manda, mas aquele que serve.\n\nJesus deixa claro que, se Ele, o Senhor, lavou os pés, os seguidores devem fazer o mesmo entre si. Isso não é uma sugestão opcional, mas um \"exemplo\" a ser copiado. A verdadeira grandeza no Reino de Deus não vem de ser servido, mas de servir aos outros com o mesmo amor que Jesus teve por eles.\n\nNo final do trecho, Jesus revela que um deles O trairá. Ele cita a Escritura para mostrar que até a traição está dentro do plano de Deus. Ele avisa \"desde agora\" para que, quando tudo acontecer, eles creiam que Ele é quem Ele diz ser. A fidelidade a Jesus não depende das circunstâncias, mas da confiança no seu caráter.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para Jesus, que assumiu o papel de servo para nos salvar. O evangelho é a mensagem de que Deus se humilhou para nos elevar. A salvação não é conquistada por mérito, mas recebida pela fé no Cristo que serviu até a morte. A traição de Judas mostra que a cruz foi necessária para revelar o amor de Deus, e a fé se fortalece quando confiamos no que Jesus disse, mesmo antes de vermos o cumprimento.",
+  "selo": true
+ },
+ "viver": "Pense em alguém da sua família, trabalho ou igreja com quem você tem dificuldade em ter paciência ou em quem você sente que não merece seu cuidado. Jesus lavou os pés de todos, incluindo o traidor. O que seria fazer um ato de serviço concreto e humilde por essa pessoa esta semana? Pode ser algo simples, como ouvir com atenção, ajudar em uma tarefa difícil ou perdoar uma ofensa. Copiar o exemplo de Jesus significa escolher o serviço em vez da autopromoção, mesmo quando não é reconhecido.",
+ "guarde": "A verdadeira grandeza não é ser servido, mas servir aos outros como Jesus serviu a nós.",
+ "ore": "Senhor Jesus, obrigado por ter lavado nossos pés e nos mostrado o caminho do serviço. Ensina-me a ter humildade e a amar os outros, mesmo aqueles que me ferem. Ajudai-me a seguir teu exemplo no dia a dia, para que minha vida te glorifique. Amém.",
+ "quiz": {
+  "pergunta": "O que Jesus disse para que, quando a traição se cumprisse, os discípulos fizessem?",
+  "opcoes": [
+   "Creiam que Ele é",
+   "Lamentem a perda",
+   "Protejam Jesus"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que Jesus avisou antes para que, quando se fizesse, eles creiassem que Ele é."
+ },
+ "refs": [
+  "Marcos 10:42-45",
+  "Filipenses 2:5-8",
+  "1 Pedro 5:5"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T16:29:11.426Z",
+  "rounds": 1
+ }
+}

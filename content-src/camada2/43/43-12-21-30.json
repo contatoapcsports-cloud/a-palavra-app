@@ -1,0 +1,138 @@
+{
+ "id": "43-12-21-30",
+ "ref": "João 12:21-30",
+ "book": "43",
+ "chapter": 12,
+ "verses": [
+  {
+   "n": 21,
+   "t": "Estes pois vieram a Filipe, que era de Betsaida de Galileia, e rogaram-lhe, dizendo: Senhor, queríamos ver a Jesus."
+  },
+  {
+   "n": 22,
+   "t": "Veio Filipe, e disse-o a André; e André então e Filipe o disseram a Jesus."
+  },
+  {
+   "n": 23,
+   "t": "Porém Jesus lhes respondeu, dizendo: Chegada é a hora em que o Filho do homem será glorificado."
+  },
+  {
+   "n": 24,
+   "t": "Em verdade, em verdade vos digo, se o grão de trigo, ao cair na terra, não morrer, ele fica só; porém se morrer, dá muito fruto."
+  },
+  {
+   "n": 25,
+   "t": "Quem ama sua vida a perderá; e quem neste mundo odeia sua vida, a guardará para a vida eterna."
+  },
+  {
+   "n": 26,
+   "t": "Se alguém me serve, siga-me; e onde eu estiver, ali estará também meu servo. E se alguém me servir, o Pai o honrará."
+  },
+  {
+   "n": 27,
+   "t": "Agora minha alma está perturbada; e que direi? Pai, salva-me desta hora; mas por isso vim a esta hora."
+  },
+  {
+   "n": 28,
+   "t": "Pai, glorifica teu Nome. Veio, pois, uma voz do céu, que dizia : E já o tenho glorificado, e outra vez o glorificarei."
+  },
+  {
+   "n": 29,
+   "t": "A multidão pois que ali estava, e a ouviu, dizia que havia sido trovão. Outros diziam: Algum anjo falou com ele."
+  },
+  {
+   "n": 30,
+   "t": "Respondeu Jesus e disse: Esta voz não veio por causa de mim, mas sim por causa de vós."
+  }
+ ],
+ "titulo": "A morte que produz vida em abundância",
+ "temas": [
+  "sacrifício",
+  "glória",
+  "serviço",
+  "fé",
+  "cruz"
+ ],
+ "pergunta": "O que acontece quando algo precioso precisa 'morrer' para se tornar útil?",
+ "entender": "Alguns gregos, movidos pela curiosidade de ver Jesus, pedem para conhecê-lo. Através de Filipe e André, a mensagem chega a Cristo, que responde não com um simples convite, mas revelando o sentido profundo de sua missão. Ele declara que chegou a hora em que o Filho do homem será glorificado. Para explicar isso, Jesus usa a imagem do grão de trigo: se não morrer, permanece solitário; mas ao morrer, gera muito fruto. Essa metáfora aponta diretamente para a cruz, onde a vida de Jesus seria entregue para que muitos pudessem ter vida eterna.\n\nJesus também fala sobre o paradoxo da vida: quem a ama neste mundo a perderá, mas quem a odeia, guardará para a vida eterna. Isso não é um chamado ao sofrimento pela dor, mas uma convite a soltar o controle egoísta para abraçar o propósito de Deus. Ao servir a Jesus, seguimos seus passos e somos honrados pelo Pai. Na hora da agonia, Jesus ora pedindo para ser salvo daquela hora, mas reconhece que foi para isso que veio, pedindo ao Pai que glorificasse seu nome. Uma voz do céu confirma que isso já foi feito e será feito novamente, deixando a multidão dividida entre o que ouviu: trovão ou anjo.",
+ "ligar": {
+  "texto": "Este texto é o coração do evangelho: a cruz não é uma derrota, mas a porta da glória. Jesus mostra que sua morte é o meio pelo qual ele traz vida a nós. A 'glorificação' do Filho do homem acontece através da cruz, onde ele se esvazia para nos encher. A voz do céu confirma que o plano de Deus é fiel. O evangelho aqui é claro: a vida eterna não se conquista por esforço humano, mas se recebe pela fé naquele que deu sua vida por nós, transformando a morte em fonte de vida abundante.",
+  "selo": true
+ },
+ "viver": "Pense em algo que você precisa 'morrer' para que sua vida espiritual cresça: um hábito de orgulho, a necessidade de controle ou o apego a algo que te afasta de Deus. Assim como o grão de trigo, sua entrega a Cristo não é perda, mas semente de fruto. Pratique hoje um ato de serviço anônimo, sem buscar reconhecimento, apenas para seguir Jesus. Pergunte-se: estou amando minha vida egoísta a ponto de impedir que eu viva a vida eterna que Cristo oferece?",
+ "guarde": "O grão de trigo só dá fruto quando morre na terra; nossa vida só floresce quando morre no egoísmo.",
+ "ore": "Pai, ajuda-me a entender que a cruz de Jesus é a fonte da minha vida. Ensina-me a soltar o controle e a te servir com alegria, sabendo que minha verdadeira vida está em Cristo.",
+ "quiz": {
+  "pergunta": "Qual imagem Jesus usa para explicar como sua morte trará vida a muitos?",
+  "opcoes": [
+   "O pastor que busca a ovelha",
+   "A videira que dá uvas",
+   "O grão de trigo que morre e dá fruto"
+  ],
+  "certa": 2,
+  "explicacao": "No versículo 24, Jesus compara sua morte ao grão de trigo que, ao cair na terra e morrer, produz muito fruto, ilustrando a eficácia da cruz."
+ },
+ "refs": [
+  "1 Coríntios 15:3-4",
+  "Filipenses 2:8-11",
+  "Romanos 6:4"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T16:21:34.366Z",
+  "rounds": 1
+ }
+}

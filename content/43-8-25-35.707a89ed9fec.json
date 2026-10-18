@@ -1,0 +1,142 @@
+{
+ "id": "43-8-25-35",
+ "ref": "João 8:25-35",
+ "book": "43",
+ "chapter": 8,
+ "verses": [
+  {
+   "n": 25,
+   "t": "Disseram-lhe pois: Quem és tu? Jesus lhes disse: Sou o mesmo que desde o princípio tenho vos dito."
+  },
+  {
+   "n": 26,
+   "t": "Muitas coisas tenho que dizer e julgar de vós; mas verdadeiro é aquele que me enviou; e eu, o que dele tenho ouvido, isso falo ao mundo."
+  },
+  {
+   "n": 27,
+   "t": "Mas não entenderam que ele estava lhes falando do Pai."
+  },
+  {
+   "n": 28,
+   "t": "Jesus, então, lhes disse: Quando levantardes ao Filho do homem, então entendereis que eu sou, e que nada faço de mim mesmo; mas isto digo, como meu Pai me ensinou."
+  },
+  {
+   "n": 29,
+   "t": "E aquele que me enviou está comigo. O Pai não me tem deixado só, porque sempre faço o que lhe agrada."
+  },
+  {
+   "n": 30,
+   "t": "Falando ele estas coisas, muitos creram nele."
+  },
+  {
+   "n": 31,
+   "t": "Dizia, pois, Jesus aos judeus que criam nele: Se vós permanecerdes em minha palavra, verdadeiramente sereis meus discípulos."
+  },
+  {
+   "n": 32,
+   "t": "E conhecereis a verdade, e a verdade vos libertará."
+  },
+  {
+   "n": 33,
+   "t": "Responderam-lhe: Somos descendência de Abraão, e nunca servimos a ninguém; como, pois , dizes: Sereis livres?"
+  },
+  {
+   "n": 34,
+   "t": "Respondeu-lhes Jesus: Em verdade, em verdade vos digo, que todo aquele que comete pecado é servo do pecado."
+  },
+  {
+   "n": 35,
+   "t": "E o servo não fica em casa para sempre; o Filho fica para sempre."
+  }
+ ],
+ "titulo": "A verdade que quebra as correntes invisíveis",
+ "temas": [
+  "liberdade",
+  "verdade",
+  "pecado",
+  "filho",
+  "discipulado"
+ ],
+ "pergunta": "Você já sentiu que algo invisível te prende, mesmo sem correntes?",
+ "entender": "Em João 8, Jesus conversa com judeus que se orgulham de serem descendentes de Abraão. Eles se consideram livres, mas Jesus revela uma realidade profunda: \"todo aquele que comete pecado é servo do pecado\". A liberdade deles é ilusória, pois estão presos aos seus próprios desejos e mentiras.\n\nJesus explica que a verdade liberta. Para isso, é preciso permanecer na palavra dele. Ele afirma que o Pai não o deixou sozinho e que faz sempre o que agrada ao Pai. Muitos creram, mas a maioria rejeitou a mensagem porque não queriam se submeter à autoridade de Jesus, preferindo a falsa autonomia.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para Jesus como o único capaz de quebrar as correntes do pecado. Ele não oferece apenas informação, mas uma nova identidade: a de filhos de Deus. A liberdade verdadeira não vem de fazer o que queremos, mas de pertencer ao Filho, que permanece para sempre. É o coração do evangelho: somos escravos do pecado, mas Cristo nos resgata.",
+  "selo": true
+ },
+ "viver": "Identifique uma área da sua vida onde você age por hábito ou desejo próprio, mesmo sabendo que isso te afasta de Deus. Isso é uma servidão silenciosa. Peça ajuda a um amigo de confiança para te responsabilizar e ore pedindo que a verdade de Cristo ilumine essa área. A liberdade começa quando deixamos de nos esconder e aceitamos a correção amorosa de Jesus.",
+ "guarde": "A liberdade real não é fazer o que quero, mas pertencer ao Filho que fica para sempre.",
+ "ore": "Pai, revela-me as áreas onde o pecado me escraviza. Que a tua verdade me liberte e me faça permanecer na palavra de Jesus, para que eu viva como filho livre e eterno.",
+ "quiz": {
+  "pergunta": "Segundo Jesus em João 8:34, quem é servo do pecado?",
+  "opcoes": [
+   "Todo aquele que comete pecado",
+   "Os que não são descendentes de Abraão",
+   "Aquele que não crê em Jesus"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente que quem comete pecado é servo do pecado, independentemente de sua origem ou crença."
+ },
+ "refs": [
+  "Romanos 6:22",
+  "Gálatas 5:1",
+  "João 1:12-13"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.7-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T15:44:02.678Z",
+  "rounds": 2
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "id": "43-11-1-11",
+ "ref": "João 11:1-11",
+ "book": "43",
+ "chapter": 11,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E estava doente um certo Lázaro, de Betânia, a aldeia de Maria e de sua irmã Marta."
+  },
+  {
+   "n": 2,
+   "t": "(E era Maria a que ungiu ao Senhor com o óleo, e com seus cabelos lhe limpou os pés; a que cujo irmão Lázaro era o que estava doente)."
+  },
+  {
+   "n": 3,
+   "t": "Enviaram pois suas irmãs uma mensagem a ele, dizendo: Senhor, eis que aquele a quem tu amas está doente."
+  },
+  {
+   "n": 4,
+   "t": "E ouvindo Jesus, disse: Esta doença não é para morte, mas para glória de Deus; para que o Filho de Deus seja por ela glorificado."
+  },
+  {
+   "n": 5,
+   "t": "E Jesus amava a Marta, e a sua irmã, e a Lázaro."
+  },
+  {
+   "n": 6,
+   "t": "Quando, pois, ele ouviu que estava doente, ficou ainda dois dias no lugar onde estava."
+  },
+  {
+   "n": 7,
+   "t": "Então depois disto voltou a dizer aos discípulos: Vamos outra vez à Judeia."
+  },
+  {
+   "n": 8,
+   "t": "Disseram-lhe os discípulos: Rabi, ainda agora os Judeus procuravam te apedrejar; e tu voltas novamente para lá?"
+  },
+  {
+   "n": 9,
+   "t": "Respondeu Jesus: Não há doze horas no dia? Se alguém anda de dia, não tropeça, porque vê a luz deste mundo."
+  },
+  {
+   "n": 10,
+   "t": "Mas se alguém anda de noite, tropeça; porque nele não há luz."
+  },
+  {
+   "n": 11,
+   "t": "Ele falou estas coisas; e depois disto, disse-lhes: Lázaro, nosso amigo, dorme; mas vou para despertá-lo do sono."
+  }
+ ],
+ "titulo": "A luz que guia os passos de Jesus",
+ "temas": [
+  "luz",
+  "tempo de deus",
+  "confiança",
+  "amizade"
+ ],
+ "pergunta": "Por que Jesus usou a imagem do dia e da noite para responder ao medo dos discípulos?",
+ "entender": "Em Betânia, Lázaro adoece gravemente. Maria e Marta enviam uma mensagem urgente a Jesus, dizendo que aquele a quem Ele ama está doente. A resposta de Jesus surpreende: a doença não é para a morte, mas para a glória de Deus. Ele ama aquela família profundamente, mas decide esperar mais dois dias antes de partir.\n\nQuando Jesus anuncia que voltará à Judeia, os discípulos se preocupam com a segurança, pois os judeus procuravam apedrejá-lo. Jesus responde com uma metáfora poderosa: quem anda de dia, na luz, não tropeça. Ao final, Ele diz que Lázaro dorme e que vai despertá-lo. Os discípulos pensam em sono físico, mas Jesus fala da morte, preparando o cenário para um ato de poder que revelaria Sua identidade divina.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para Jesus como a 'luz deste mundo'. Enquanto a noite representa o perigo e a cegueira espiritual, Jesus é a clareza que guia Seus passos. Sua decisão de esperar, mesmo amando Lázaro, mostra que Ele age segundo um propósito maior: revelar Sua autoridade sobre a morte. Isso nos lembra que Jesus não apenas cura, mas vence o inimigo final, oferecendo vida eterna a todos que creem nEle.",
+  "selo": true
+ },
+ "viver": "Quando enfrentamos situações de dor ou perigo, tendemos a agir por pânico ou ansiedade. Jesus, porém, anda na luz, com propósito e confiança. Isso nos convida a pausar antes de reagir impulsivamente. Em vez de olhar apenas para o problema imediato, busquemos a direção de Deus, confiando que Ele tem um plano que supera nossas limitações. A luz de Cristo dissipa o medo e nos dá clareza para tomar as decisões certas, mesmo quando o caminho parece difícil.",
+ "guarde": "Andar na luz de Jesus elimina o tropeço do medo e revela o propósito de Deus.",
+ "ore": "Senhor, que eu não viva guiado pelo medo da noite, mas pela Tua luz. Ensina-me a confiar no Teu tempo e no Teu propósito, mesmo quando as circunstâncias parecem adversas. Ajuda-me a andar com clareza e coragem, sabendo que Tu estás comigo.",
+ "quiz": {
+  "pergunta": "Qual imagem Jesus usou para explicar por que não deveria temer voltar à Judeia?",
+  "opcoes": [
+   "Andar de dia na luz evita tropeçar.",
+   "Ter muitos discípulos o protegeria.",
+   "Os judeus já haviam desistido de atacá-Lo."
+  ],
+  "certa": 0,
+  "explicacao": "No versículo 9, Jesus compara a segurança de estar com Ele a andar durante o dia, onde há luz e visibilidade, em contraste com a noite escura."
+ },
+ "refs": [
+  "João 8:12",
+  "Salmos 119:105",
+  "Hebreus 11:1"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T16:09:09.315Z",
+  "rounds": 2
+ }
+}

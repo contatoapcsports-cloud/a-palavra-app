@@ -1,0 +1,141 @@
+{
+ "id": "43-9-11-21",
+ "ref": "João 9:11-21",
+ "book": "43",
+ "chapter": 9,
+ "verses": [
+  {
+   "n": 11,
+   "t": "Respondeu ele, e disse: Aquele homem chamado Jesus fez lama, untou meus olhos, e me disse: Vai ao tanque de Siloé, e lava-te. E fui, e me lavei, e vi."
+  },
+  {
+   "n": 12,
+   "t": "Disseram-lhe, pois: Onde ele está? Disse ele: Não sei."
+  },
+  {
+   "n": 13,
+   "t": "Levaram aos Fariseus o ex-cego."
+  },
+  {
+   "n": 14,
+   "t": "E era sábado, quando Jesus fez a lama, e abriu os olhos dele."
+  },
+  {
+   "n": 15,
+   "t": "Então voltaram também os Fariseus a perguntar-lhe como vira, e ele lhes disse: Pôs lama sobre os meus olhos, e me lavei, e vejo."
+  },
+  {
+   "n": 16,
+   "t": "Então que alguns dos Fariseus diziam: Este homem não é de Deus, pois não guarda o sábado. Outros diziam: Como pode um homem pecador fazer tais sinais? E havia divisão entre eles."
+  },
+  {
+   "n": 17,
+   "t": "Voltaram a dizer ao cego: Tu que dizes dele, que abriu teus olhos? E ele disse: Que é profeta."
+  },
+  {
+   "n": 18,
+   "t": "Portanto os judeus não criam nele, de que houvesse sido cego, e passasse a ver, até que chamaram aos pais dos que passou a ver."
+  },
+  {
+   "n": 19,
+   "t": "E perguntaram-lhes, dizendo: É este vosso filho, aquele que dizeis que nasceu cego? Como pois agora vê?"
+  },
+  {
+   "n": 20,
+   "t": "Responderam-lhes seus pais, e disseram: Sabemos que este é nosso filho, e que nasceu cego;"
+  },
+  {
+   "n": 21,
+   "t": "Mas como agora ele vê, não sabemos; ou, quem lhe abriu os olhos, não sabemos; ele tem idade suficiente ,perguntai a ele, ele falará por si mesmo."
+  }
+ ],
+ "titulo": "O medo que cala a verdade",
+ "temas": [
+  "testemunho",
+  "medo",
+  "fé",
+  "verdade"
+ ],
+ "pergunta": "Por que pessoas que conhecem a verdade às vezes preferem ficar em silêncio?",
+ "entender": "Depois de ter a visão restaurada, o homem que era cego de nascença é interrogado pelos fariseus. Ele responde de forma direta, relatando os fatos: Jesus fez lama, ungiu seus olhos e lhe mandou lavar-se no tanque de Siloé. Ele não entra em debates teológicos complexos; apenas descreve o que viu e sentiu. Sua sinceridade contrasta com a rigidez dos líderes religiosos.\n\nOs fariseus ficam divididos. Alguns acusam Jesus de violar o sábado, enquanto outros reconhecem que sinais assim só podem vir de Deus. A discussão não é sobre o homem que agora enxerga, mas sobre quem é Jesus. Diante da pressão, o ex-cego afirma com convicção que Jesus é profeta, baseando-se na experiência concreta de ter sido curado.\n\nQuando os pais do homem são chamados para confirmar a história, eles confirmam que ele nasceu cego, mas se recusam a dar mais detalhes. Eles dizem que o filho é maior de idade e que ele deve responder por si mesmo. O texto não explica explicitamente o motivo dessa recusa, mas o comportamento sugere uma tentativa de evitar problemas ou perigos associados a falar sobre Jesus naquela situação.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para Jesus como o centro da controvérsia. Ele é o único que age: cria a cura, dá a instrução e abre os olhos. A divisão entre os fariseus mostra que a pessoa de Jesus é o divisor de águas na história. O evangelho é apresentado aqui como uma realidade que transforma a vida e que não pode ser negada por regras humanas. A recusa dos pais em falar mais alto revela o poder do medo, mas a persistência do ex-cego em dar testemunho mostra a força da verdade vivida. Jesus é a luz que revela a realidade, e a fé Nele nos dá coragem para falar dela.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, temos medo de testemunhar sobre Jesus por receio do que os outros possam pensar. Os pais do ex-cego confirmaram apenas o básico para evitar problemas. Mas a verdade de Deus não depende da nossa coragem perfeita; ela se manifesta através do que Ele faz em nós. Se você já experimentou a graça de Cristo, não tenha medo de contar. Não precisa de palavras grandiosas, apenas a honestidade de quem foi transformado. Sua história simples pode ser a ponte que leva outra pessoa a conhecer a luz de Jesus.",
+ "guarde": "A experiência real com Jesus é mais convincente do que qualquer argumento religioso.",
+ "ore": "Senhor Jesus, obrigado por seres a luz que me revelou a verdade. Perdoa-me pelas vezes em que o medo me fez calar. Dá-me coragem para testemunhar sobre Ti, não com teologia complexa, mas com a simplicidade de quem foi curado. Ajuda-me a confiar mais na Tua obra do que na opinião dos homens. Amém.",
+ "quiz": {
+  "pergunta": "O que os pais do homem disseram quando perguntados sobre como ele passou a ver?",
+  "opcoes": [
+   "Que não sabiam como ou quem abriu os olhos, e sugeriram perguntar ao próprio filho.",
+   "Que Jesus era um profeta enviado por Deus.",
+   "Que o filho tinha mentido sobre sua cura."
+  ],
+  "certa": 0,
+  "explicacao": "Nos versículos 20 e 21, os pais confirmam que o filho nasceu cego, mas declaram não saber como ele começou a ver nem quem fez isso, direcionando a pergunta ao próprio homem."
+ },
+ "refs": [
+  "João 9:39-41",
+  "Mateus 11:25-27",
+  "Atos 4:20"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.7-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T15:57:15.629Z",
+  "rounds": 3
+ }
+}

@@ -1,0 +1,140 @@
+{
+ "id": "43-12-1-11",
+ "ref": "João 12:1-11",
+ "book": "43",
+ "chapter": 12,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Veio, pois, Jesus seis dias antes da páscoa a Betânia, onde estava Lázaro, o que havia morrido, a quem ressuscitara dos mortos."
+  },
+  {
+   "n": 2,
+   "t": "Fizeram-lhe, pois, ali uma ceia, e Marta servia; e Lázaro era um dos que juntamente com ele estavam sentados à mesa ."
+  },
+  {
+   "n": 3,
+   "t": "Tomando então Maria um arrátel de óleo perfumado de nardo puro, de muito preço, ungiu os pés de Jesus, e limpou os pés dele com seus cabelos; e encheu-se a casa do cheiro do óleo perfumado."
+  },
+  {
+   "n": 4,
+   "t": "Então disse Judas de Simão Iscariotes, um de seus discípulos, o que o trairia:"
+  },
+  {
+   "n": 5,
+   "t": "Por que se não vendeu este óleo perfumado por trezentos dinheiros, e se deu aos pobres?"
+  },
+  {
+   "n": 6,
+   "t": "E isto disse ele, não pelo cuidado que tivesse dos pobres; mas porque era ladrão, e tinha a bolsa, e trazia o que se lançava nela ."
+  },
+  {
+   "n": 7,
+   "t": "Disse pois Jesus: Deixa-a; para o dia de meu sepultamento guardou isto."
+  },
+  {
+   "n": 8,
+   "t": "Porque aos pobres sempre os tendes convosco; porém a mim não me tendes sempre."
+  },
+  {
+   "n": 9,
+   "t": "Muita gente dos judeus soube pois, que ele estava ali; e vieram, não somente por causa de Jesus, mas também para verem a Lázaro, a quem ressuscitara dos mortos."
+  },
+  {
+   "n": 10,
+   "t": "E os chefes dos sacerdotes se aconselharam de também matarem a Lázaro,"
+  },
+  {
+   "n": 11,
+   "t": "Porque muitos dos judeus iam por causa dele, e criam em Jesus."
+  }
+ ],
+ "titulo": "O perfume que assustou os chefes",
+ "temas": [
+  "adoração",
+  "generosidade",
+  "ressurreição",
+  "medo"
+ ],
+ "pergunta": "Por que a ressurreição de Lázaro fez líderes religiosos quererem matá-lo?",
+ "entender": "Seis dias antes da Páscoa, Jesus está em Betânia, na casa de Lázaro, a quem Ele havia trazido de volta à vida. Marta serve e Lázaro está à mesa. Maria toma um frasco de óleo perfumado, de muito preço, e unge os pés de Jesus, limpando-os com seus cabelos. O cheiro enche a casa.\n\nJudas Iscariotes critica a ação, sugerindo que o óleo deveria ser vendido para dar aos pobres. O texto revela, porém, que seu interesse não era pela caridade, mas por ser ladrão e guardar o dinheiro. Jesus defende Maria, dizendo que ela guardou o óleo para o dia do seu sepultamento e que, embora os pobres estejam sempre presentes, Ele não estará sempre com eles.\n\nA notícia se espalha e muitos judeus vêm ver Lázaro, o ressuscitado. Isso provoca os chefes dos sacerdotes, que passam a planejar matar também Lázaro, pois a ressurreição dele fazia muitas pessoas crerem em Jesus.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para a cruz e a ressurreição de Jesus. Maria, ao ungir os pés de Jesus, prepara simbolicamente o corpo para a morte, um ato de adoração profética. A reação violenta dos líderes religiosos contra Lázaro mostra o conflito que culminaria na crucificação: a verdade da ressurreição de Jesus ameaçava seus planos. Jesus afirma a Sua presença temporária entre nós, lembrando que o tempo de graça é agora.",
+  "selo": true
+ },
+ "viver": "Às vezes, economizamos nossos recursos, tempo ou emoções por medo de que seja 'desperdício'. Maria demonstrou que a adoração a Jesus pode exigir um custo alto, pois Ele é digno de tudo. A aplicação concreta é examinar o que estamos guardando por medo ou cálculo, em vez de oferecê-lo a Deus com generosidade. Além disso, a ameaça feita a Lázaro nos lembra que nossa fé pública pode incomodar quem não quer mudança, mas devemos manter a coragem de quem viu a luz.",
+ "guarde": "A generosidade para com Cristo é mais valiosa do que a economia para com os homens.",
+ "ore": "Senhor, eu Te adoro com tudo o que tenho. Ensina-me a não guardar nada por medo, mas a oferecer minha vida a Ti com a mesma generosidade de Maria.",
+ "quiz": {
+  "pergunta": "Qual era a verdadeira motivação de Judas ao criticar o uso do óleo?",
+  "opcoes": [
+   "Ele era ladrão e queria guardar o dinheiro.",
+   "Ele se importava genuinamente com os pobres.",
+   "Ele queria comprar mais óleo para a casa."
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente que Judas disse aquilo não por cuidado com os pobres, mas porque era ladrão e tinha a bolsa."
+ },
+ "refs": [
+  "Mateus 26:7-9",
+  "Marcos 14:4-5"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T16:24:27.417Z",
+  "rounds": 3
+ }
+}

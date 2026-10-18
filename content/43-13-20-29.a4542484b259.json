@@ -1,0 +1,138 @@
+{
+ "id": "43-13-20-29",
+ "ref": "João 13:20-29",
+ "book": "43",
+ "chapter": 13,
+ "verses": [
+  {
+   "n": 20,
+   "t": "Em verdade, em verdade vos digo, que se alguém receber ao que eu enviar, a mim me recebe; e quem a mim me receber, recebe a aquele que me enviou."
+  },
+  {
+   "n": 21,
+   "t": "Havendo Jesus dito isto, perturbou-se em espírito, e testemunhou, e disse: Em verdade, em verdade vos digo, que um de vós me trairá."
+  },
+  {
+   "n": 22,
+   "t": "Pelo que os discípulos se olhavam uns para os outros, duvidando de quem ele dizia."
+  },
+  {
+   "n": 23,
+   "t": "E um dos discípulos, a quem Jesus amava, estava sentado à mesa encostado no seio de Jesus."
+  },
+  {
+   "n": 24,
+   "t": "A este pois fez sinal Simão Pedro, que perguntasse quem era aquele de quem ele dizia."
+  },
+  {
+   "n": 25,
+   "t": "E declinando-se ele ao peito de Jesus, disse-lhe: Senhor, quem é?"
+  },
+  {
+   "n": 26,
+   "t": "Respondeu Jesus: Aquele a quem eu der o pedaço molhado de pão. E molhando o pedaço de pão, deu-o a Judas de Simão Iscariotes."
+  },
+  {
+   "n": 27,
+   "t": "E após o pedaço de pão, entrou nele Satanás. Disse-lhe pois Jesus: O que fazes, faze-o depressa."
+  },
+  {
+   "n": 28,
+   "t": "E nenhum dos que estavam sentados à mesa entendeu para que ele lhe dissera."
+  },
+  {
+   "n": 29,
+   "t": "Pois alguns pensavam que, porque Judas tinha a bolsa, Jesus havia lhe dito: Compra o que para o que nos é necessário para a festa; ou que alguma coisa desse aos pobres."
+  }
+ ],
+ "titulo": "O gesto silencioso que entregou o traidor",
+ "temas": [
+  "traição",
+  "conhecimento de coração",
+  "judas",
+  "ceia",
+  "alerta"
+ ],
+ "pergunta": "Já desconfiou de alguém que parecia estar ao seu lado? Como Jesus identificou quem o traía?",
+ "entender": "No meio da ceia, Jesus faz uma declaração que perturba todos os presentes: \"um de vós me trairá\". Os discípulos se olham, confusos, tentando adivinhar a quem o Mestre se referia. A tensão é palpável na sala, pois todos se sentem vulneráveis diante dessa acusação.\n\nPara esclarecer a dúvida, Pedro sinaliza para que o discípulo amado pergunte diretamente a Jesus. A resposta de Cristo é prática e simbólica: Ele molha um pedaço de pão e o entrega a Judas Iscariotes. Esse ato simples e cotidiano serve como um selo identificável, eliminando qualquer especulação sobre a identidade do traidor.\n\nO texto destaca que os outros não entenderam o significado daquele gesto, pensando tratar-se de uma instrução para comprar algo para a festa ou dar aos pobres. Apenas Jesus e Judas compreendiam a gravidade do momento. Satanás entra em Judas após receber o pão, indicando que a decisão final de trair já estava tomada, mas o ato público de Jesus confirma a realidade oculta.",
+ "ligar": {
+  "texto": "Este episódio aponta diretamente para a soberania e o conhecimento profundo de Jesus sobre o coração humano. Ele não apenas sabia quem o trairia, mas escolheu o momento e o método para revelá-lo. A traição de Judas faz parte do plano divino de redenção, pois a morte de Jesus na cruz é necessária para a salvação de todos. Mesmo diante da rejeição e da dor da traição, Jesus permanece firme em seu propósito de amar e sacrificar-se pelos pecadores, demonstrando que o mal humano não pode impedir o bem que Deus quer realizar através de Cristo.",
+  "selo": true
+ },
+ "viver": "Essa passagem nos convida a examinar nossos próprios corações. Frequentemente, julgamos os outros por suas ações externas, mas Jesus nos ensina a olhar para as motivações internas. Devemos orar para que Deus revele nossas tendências ocultas, como a deslealdade ou o egoísmo, antes que elas se tornem destrutivas. Além disso, serve como um alerta para vivermos em comunidade com transparência e arrependimento, reconhecendo que, assim como os discípulos, podemos falhar, mas também podemos ser restaurados pela graça de Cristo.",
+ "guarde": "Jesus conhece o que está oculto no coração e traz à luz o que precisa ser tratado com verdade.",
+ "ore": "Senhor Jesus, obrigado por conhecer meu coração por inteiro. Ajuda-me a ser transparente diante de Ti e dos irmãos. Revela qualquer atitude de deslealdade ou egoísmo que eu tenha escondido, para que eu possa me arrepender e viver em comunhão verdadeira. Em nome de Jesus, amém.",
+ "quiz": {
+  "pergunta": "Quem recebeu o pedaço de pão molhado de Jesus na ceia?",
+  "opcoes": [
+   "Judas Iscariotes",
+   "Pedro",
+   "João"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma claramente que Jesus molhou o pão e o deu a Judas de Simão Iscariotes, identificando-o como o traidor."
+ },
+ "refs": [
+  "Mateus 26:23-25",
+  "Marcos 14:18-21",
+  "Lucas 22:21-23"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T16:32:16.158Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,135 @@
+{
+ "id": "43-12-12-20",
+ "ref": "João 12:12-20",
+ "book": "43",
+ "chapter": 12,
+ "verses": [
+  {
+   "n": 12,
+   "t": "No dia seguinte, ouvindo uma grande multidão, que viera à festa, que Jesus vinha a Jerusalém,"
+  },
+  {
+   "n": 13,
+   "t": "Tomaram ramos de plantas e lhe saíram ao encontro, e clamavam: Hosana! Bendito aquele que vem no nome do Senhor, o Rei de Israel!"
+  },
+  {
+   "n": 14,
+   "t": "E Jesus achou um jumentinho, e sentou-se sobre ele, como está escrito:"
+  },
+  {
+   "n": 15,
+   "t": "Não temas, ó filha de Sião; eis que teu Rei vem sentado sobre o filhote de uma jumenta."
+  },
+  {
+   "n": 16,
+   "t": "Porém seus discípulos não entenderam isto ao princípio; mas sendo Jesus já glorificado, então se lembraram que isto dele estava escrito, e que isto lhe fizeram."
+  },
+  {
+   "n": 17,
+   "t": "A multidão pois, que estava com ele, testemunhava, que a Lázaro chamara da sepultura, e o ressuscitara dos mortos."
+  },
+  {
+   "n": 18,
+   "t": "Pelo que também a multidão lhe saiu ao encontro, porque ouvira que fizera este sinal."
+  },
+  {
+   "n": 19,
+   "t": "Disseram pois os fariseus entre si: Vedes que nada aproveitais? Eis que o mundo vai após ele."
+  },
+  {
+   "n": 20,
+   "t": "E havia alguns gregos dos que haviam subido para adorarem na festa."
+  }
+ ],
+ "titulo": "O Rei humilde que a multidão aclamou",
+ "temas": [
+  "realeza",
+  "humildade",
+  "fé",
+  "multidão",
+  "glória"
+ ],
+ "pergunta": "Por que Jesus escolheu entrar em Jerusalém montado num jumento e não num cavalo de guerra?",
+ "entender": "Imagine a cena: uma multidão enorme vai ao encontro de Jesus. Eles não o recebem como um general vitorioso, mas como um rei de paz. Tomam ramos e gritam: \"Bendito aquele que vem no nome do Senhor\". Jesus atende a uma antiga profecia, montando um jumentinho, símbolo de mansidão e serviço, e não de conquista violenta.\n\nOs discípulos não entenderam o significado profundo daquele momento enquanto Jesus estava com eles. Somente depois, quando ele foi glorificado na cruz e ressurreição, eles lembraram das Escrituras. A multidão o seguia principalmente porque tinha visto o milagre de Lázaro, mas a verdadeira identidade de Jesus ia muito além daquele sinal. Os fariseus, por outro lado, reconheciam a popularidade dele, mas rejeitavam sua autoridade.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a realeza de Jesus. Ele é o Rei prometido, mas um Rei que vem em humildade para servir. A entrada em Jerusalém é o prelúdio da cruz: Jesus aceita a vontade do Pai, mesmo sabendo do sofrimento que virá. O evangelho é claro: Jesus é o Salvador que vence o pecado e a morte não pela força das armas, mas pela obediência amorosa. A multidão o aclama, mas apenas a fé em sua obra redentora traz salvação eterna.",
+  "selo": true
+ },
+ "viver": "Às vezes, buscamos um líder que venha com poder para resolver nossos problemas imediatamente. Jesus nos convida a confiar em um Rei que vem em humildade. Na prática, isso significa esperar em Deus nos momentos de dificuldade, confiando que seu plano é perfeito, mesmo quando não entendemos o porquê. Peça ao Espírito Santo para ajudar você a ver as situações da vida como oportunidades para confiar na fidelidade de Deus, em vez de reagir com medo ou ansiedade.",
+ "guarde": "O verdadeiro poder de Jesus se revela não na conquista, mas na humildade de servir.",
+ "ore": "Senhor Jesus, Rei humilde, ensina-me a confiar no Teu timing. Ajuda-me a ver as Escrituras com clareza e a adorar-Te não apenas pelos milagres, mas pela Tua pessoa. Que eu saiba esperar em Teus caminhos, confiando que Tua vontade é boa e perfeita. Amém.",
+ "quiz": {
+  "pergunta": "Quem citou a profecia sobre o Rei vindo montado num filhote de jumenta?",
+  "opcoes": [
+   "João, o evangelista",
+   "Os fariseus",
+   "Os discípulos"
+  ],
+  "certa": 0,
+  "explicacao": "O texto de João 12:15 cita a profecia de Zacarias 9:9 para explicar a ação de Jesus. Os discípulos só entenderam isso depois, conforme o versículo 16 afirma."
+ },
+ "refs": [
+  "Zacarias 9:9",
+  "Marcos 11:1-10",
+  "Mateus 21:1-11",
+  "Filipenses 2:5-11"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T16:18:18.681Z",
+  "rounds": 1
+ }
+}

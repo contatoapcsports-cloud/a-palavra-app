@@ -1,0 +1,137 @@
+{
+ "id": "43-14-22-31",
+ "ref": "João 14:22-31",
+ "book": "43",
+ "chapter": 14,
+ "verses": [
+  {
+   "n": 22,
+   "t": "Disse-lhe Judas (não o Iscariotes): Senhor, que há, porque a nós te manifestarás, e não ao mundo?"
+  },
+  {
+   "n": 23,
+   "t": "Respondeu Jesus, e disse-lhe: Se alguém me ama, guardará minha palavra, e meu Pai o amará, e viremos a ele, e faremos morada com ele."
+  },
+  {
+   "n": 24,
+   "t": "Quem não me ama, não guarda minhas palavras. E a palavra que ouvis não é minha, mas sim do Pai que me enviou."
+  },
+  {
+   "n": 25,
+   "t": "Estas coisas tenho dito a vós, estando ainda convosco."
+  },
+  {
+   "n": 26,
+   "t": "Mas aquele Consolador, o Espírito Santo, ao qual o Pai enviará em meu nome, esse vos ensinará tudo, e tudo quanto tenho dito vós, ele vos fará lembrar."
+  },
+  {
+   "n": 27,
+   "t": "A paz vos deixo, minha paz vos dou; vou dá- la a vós, não como o mundo a dá. Não se perturbe vosso coração, nem se atemorize."
+  },
+  {
+   "n": 28,
+   "t": "Já ouvistes que vos tenho dito: Vou, e venho a vós. Se me amásseis, verdadeiramente vos alegraríeis, porque tenho dito: Vou ao Pai; pois meu Pai maior é que eu."
+  },
+  {
+   "n": 29,
+   "t": "E já agora o disse a vós antes que aconteça, para que quando acontecer, o creiais."
+  },
+  {
+   "n": 30,
+   "t": "Já não falarei muito convosco; pois o príncipe deste mundo já vem, e ele nada tem em mim."
+  },
+  {
+   "n": 31,
+   "t": "Mas para que o mundo saiba que eu amo ao Pai, e assim faço como o Pai me mandou; levantai-vos, vamos embora daqui."
+  }
+ ],
+ "titulo": "A paz que permanece no coração",
+ "temas": [
+  "paz",
+  "espírito santo",
+  "confiança",
+  "amor"
+ ],
+ "pergunta": "Por que Jesus diz que a Sua paz é diferente da que o mundo oferece?",
+ "entender": "Estamos no momento da última ceia. Jesus sabe que vai morrer, mas os discípulos estão confusos e com medo. Judas (não o traidor) pergunta por que Jesus se manifestaria apenas a eles. Jesus responde que quem O ama guarda Sua palavra e que o Pai e o Filho farão morada nessa pessoa.\n\nAntes de partir, Jesus deixa um presente específico: \"A paz vos deixo, minha paz vos dou\". Ele alerta: \"não como o mundo a dá\". A paz do mundo depende das circunstâncias, mas a paz de Jesus é uma certeza interna. Ele pede que seus corações não se perturbem, pois Ele vai ao Pai e voltará. Além disso, promete o Espírito Santo, que ensinará e lembrará tudo o que Jesus disse.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a pessoa de Jesus. Ele não oferece apenas consolo genérico, mas uma paz fundamentada na Sua identidade divina e na Sua vitória sobre a morte. O evangelho é revelado aqui porque a paz de Cristo é o fruto de estar em comunhão com Deus através da fé nEle. O Espírito Santo é enviado para aplicar essa verdade aos corações, garantindo que a presença de Deus não depende da presença física de Jesus, mas do poder de Sua ressurreição e da verdade do evangelho.",
+  "selo": true
+ },
+ "viver": "A paz de Jesus não é a ausência de problemas, mas a presença de Deus no meio deles. Hoje, quando a ansiedade bater, lembre-se de que a sua segurança não está nas circunstâncias, mas na Palavra de Cristo. Pratique isso ao ler um versículo que Jesus disse e meditar nele. Perceba que guardar a palavra (obedecer e confiar) é o caminho para sentir o amor do Pai e a presença do Espírito. Essa paz é um convite para descansar no coração de Deus, mesmo quando a vida parecer instável.",
+ "guarde": "A paz de Cristo não é a ausência de tempestades, mas a certeza de que Deus está com você nelas.",
+ "ore": "Pai, calmo o meu coração agitado. Ajuda-me a confiar na Tua presença, não nas circunstâncias. Envia o Teu Espírito para me lembrar da Tua fidelidade e me guiar.",
+ "quiz": {
+  "pergunta": "Como Jesus descreve a paz que Ele dá aos seus discípulos?",
+  "opcoes": [
+   "Baseada no sucesso financeiro",
+   "Dependente da ausência de conflitos",
+   "Diferente da paz que o mundo dá"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus afirma explicitamente no versículo 27 que dá a Sua paz, não como o mundo a dá, indicando uma natureza espiritual e interna, não circunstancial."
+ },
+ "refs": [
+  "Filipenses 4:6-7",
+  "João 16:33",
+  "2 Timóteo 1:7"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T16:39:08.960Z",
+  "rounds": 2
+ }
+}

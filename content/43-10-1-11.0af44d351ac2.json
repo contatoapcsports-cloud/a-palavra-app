@@ -1,0 +1,141 @@
+{
+ "id": "43-10-1-11",
+ "ref": "João 10:1-11",
+ "book": "43",
+ "chapter": 10,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Em verdade, em verdade vos digo, que aquele que no curral das ovelhas não entra pela porta, mas sobe por outra parte, é ladrão, e assaltante."
+  },
+  {
+   "n": 2,
+   "t": "Mas aquele que entra pela porta é o pastor de ovelhas."
+  },
+  {
+   "n": 3,
+   "t": "A este o porteiro abre, e as ovelhas ouvem sua voz, e a suas ovelhas chama nome por nome, e as leva fora."
+  },
+  {
+   "n": 4,
+   "t": "E quando tira fora suas ovelhas, vai adiante delas, e as ovelhas o seguem, porque conhecem sua voz."
+  },
+  {
+   "n": 5,
+   "t": "Mas ao estranho em maneira nenhuma seguirão, ao invés disso dele fugirão; porque não conhecem a voz dos estranhos."
+  },
+  {
+   "n": 6,
+   "t": "Esta parábola Jesus lhes disse; porém eles não entenderam que era o que lhes falava."
+  },
+  {
+   "n": 7,
+   "t": "Voltou pois Jesus a lhes dizer: Em verdade, em verdade vos digo, que sou a porta das ovelhas."
+  },
+  {
+   "n": 8,
+   "t": "Todos quantos vieram antes de mim, são ladrões e assaltantes; mas as ovelhas não os ouviram."
+  },
+  {
+   "n": 9,
+   "t": "Eu sou a porta; se alguém entrar por mim, será salvo; e entrará, e sairá, e achará pasto."
+  },
+  {
+   "n": 10,
+   "t": "O ladrão não vem, senão para roubar, matar, e destruir; eu vim para que tenham vida, e a tenham em abundância."
+  },
+  {
+   "n": 11,
+   "t": "Eu sou o bom Pastor; o bom Pastor dá sua vida pelas ovelhas."
+  }
+ ],
+ "titulo": "A diferença entre o pastor e o ladrão",
+ "temas": [
+  "segurança",
+  "identidade",
+  "cristo",
+  "vida"
+ ],
+ "pergunta": "Por que as ovelhas seguem um e fogem do outro?",
+ "entender": "Jesus conta uma parábola sobre um curral. Quem entra por cima do muro é ladrão. Quem entra pela porta é o pastor verdadeiro. As ovelhas reconhecem a voz do pastor e o seguem, mas \"ao estranho em maneira nenhuma seguirão\", pois não conhecem sua voz. Jesus explica que Ele é a porta. Quem entra por Ele é salvo e encontra pasto.\n\nO contraste é direto: o ladrão vem para destruir, mas Jesus veio para dar vida em abundância. Ele se chama de bom Pastor porque dá a sua vida pelas ovelhas. Isso mostra que a relação com Deus não é distante, mas pessoal e protetora.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para Jesus como o único caminho para Deus. A salvação descrita aqui é um acesso contínuo à presença de Cristo. A vida em abundância que Jesus oferece é a vida eterna, restaurada e cheia de sentido. O amor do bom pastor que dá a vida pelas ovelhas culmina na cruz, onde Jesus morreu para nos resgatar do pecado e nos adotar como filhos de Deus.",
+  "selo": true
+ },
+ "viver": "Pare e pergunte a si mesmo: quais vozes têm dirigido suas decisões recentes? Muitas vezes, seguimos conselhos que parecem bons, mas que nos afastam da paz e da verdade, agindo como falsos guias. Experimente hoje buscar a direção de Jesus através da oração e da leitura da Bíblia. Quando você aprende a distinguir a voz de Deus das outras influências, você encontra liberdade e segurança, sabendo que é conhecido e amado pessoalmente.",
+ "guarde": "A segurança verdadeira vem de reconhecer a voz de quem nos ama e nos guia.",
+ "ore": "Senhor Jesus, Tu és a porta e o meu pastor. Ensina-me a ouvir a Tua voz acima de todas as outras. Guia meus passos com sabedoria e protege meu coração. Que eu viva a abundância que só Tu podes dar. Amém.",
+ "quiz": {
+  "pergunta": "O que Jesus diz que o ladrão vem fazer?",
+  "opcoes": [
+   "Proteger e cuidar",
+   "Ensinar e corrigir",
+   "Roubar, matar e destruir"
+  ],
+  "certa": 2,
+  "explicacao": "No versículo 10, Jesus afirma explicitamente que o ladrão não vem senão para roubar, matar e destruir, em contraste com a vida que Ele traz."
+ },
+ "refs": [
+  "João 14:6",
+  "1 Pedro 2:25",
+  "Ezequiel 34:15"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T16:05:06.317Z",
+  "rounds": 3
+ }
+}

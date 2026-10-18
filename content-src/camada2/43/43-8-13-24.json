@@ -1,0 +1,146 @@
+{
+ "id": "43-8-13-24",
+ "ref": "João 8:13-24",
+ "book": "43",
+ "chapter": 8,
+ "verses": [
+  {
+   "n": 13,
+   "t": "Disseram-lhe pois os Fariseus: Tu testemunhas de ti mesmo; teu testemunho não é verdadeiro."
+  },
+  {
+   "n": 14,
+   "t": "Respondeu Jesus, e disse-lhes: Ainda que eu testemunho de mim mesmo, meu testemunho é verdadeiro; porque sei de onde vim, e para onde vou; porém vós não sabeis, de onde venho, nem para onde vou."
+  },
+  {
+   "n": 15,
+   "t": "Vós julgais segundo a carne, eu não julgo a ninguém."
+  },
+  {
+   "n": 16,
+   "t": "E se eu também julgo, meu juízo é verdadeiro; porque não sou eu só, mas eu, e o Pai que me enviou."
+  },
+  {
+   "n": 17,
+   "t": "E também em vossa Lei está escrito que o testemunho de duas pessoas é verdadeiro."
+  },
+  {
+   "n": 18,
+   "t": "Eu sou o que testemunho de mim mesmo; e também de mim testemunha o Pai, que me enviou."
+  },
+  {
+   "n": 19,
+   "t": "Disseram-lhe pois: Onde está teu Pai? Respondeu Jesus: Nem a mim me conheceis, nem a meu Pai; se vós a mim conhecêsseis, também conheceríeis a meu Pai."
+  },
+  {
+   "n": 20,
+   "t": "Estas palavras falou Jesus junto à arca do tesouro, ensinando no Templo; e ninguém o prendeu, porque sua hora ainda não era chegada."
+  },
+  {
+   "n": 21,
+   "t": "Disse-lhes pois Jesus outra vez: Eu me vou, e me buscareis, e morrereis em vosso pecado; para onde eu vou vós não podeis vir."
+  },
+  {
+   "n": 22,
+   "t": "Diziam, pois, os Judeus: Ele, por acaso, matará a si mesmo? Pois diz: Para onde eu vou vós não podeis vir."
+  },
+  {
+   "n": 23,
+   "t": "E ele lhes dizia: Vós sois de baixo, eu sou de cima; vós sois deste mundo, eu não sou deste mundo."
+  },
+  {
+   "n": 24,
+   "t": "Por isso eu vos disse, que morrereis em vossos pecados; porque se não credes que eu sou, morrereis em vossos pecados."
+  }
+ ],
+ "titulo": "A origem que define seu destino",
+ "temas": [
+  "origem",
+  "juízo",
+  "fé",
+  "mundo",
+  "testemunho"
+ ],
+ "pergunta": "Por que saber de onde alguém vem é tão importante para confiar nela?",
+ "entender": "Após a cena da mulher adúltera, Jesus declara ser a luz do mundo. Os fariseus contestam, dizendo que seu testemunho não vale porque ele fala de si mesmo. Jesus responde que é verdadeiro porque sabe sua origem divina, algo que eles ignoram.\n\nEle contrasta seu jeito de julgar: não condena como os homens, mas revela a verdade em conjunto com o Pai. Jesus explica que são duas testemunhas: Ele e o Pai. No final, ele deixa claro que vem de um lugar elevado e não pertence a este mundo, o que torna impossível para eles acompanhá-lo se não crerem.",
+ "ligar": {
+  "texto": "O evangelho está no centro: a salvação depende de crer na identidade de Jesus. Ele não é apenas um profeta, mas o enviado do Pai. O texto alerta que a rejeição a quem Jesus é leva à morte espiritual, pois o pecado continua preso sem a reconciliação que só Cristo oferece.",
+  "selo": true
+ },
+ "viver": "Em um mundo cheio de opiniões, este texto nos ensina a verificar a fonte das verdades que ouvimos. Em vez de aceitar apenas o que parece bom, procurem a origem divina por trás das palavras de Cristo. Isso muda a forma como leem a Bíblia: não buscam apenas conselhos, mas a voz de Deus revelada em Jesus. Essa confiança na origem de Cristo dá segurança em meio às dúvidas da vida.",
+ "guarde": "Sem crer em quem Jesus é, ficamos presos às consequências do pecado.",
+ "ore": "Pai, ajuda-me a confiar na origem divina de Jesus. Que minha fé em Ti me liberte do medo e do pecado, e me leve a Te conhecer melhor através do Teu Filho.",
+ "quiz": {
+  "pergunta": "Quem são as duas testemunhas mencionadas por Jesus?",
+  "opcoes": [
+   "Jesus e o Pai que o enviou.",
+   "Jesus e os fariseus.",
+   "Jesus e a mulher adúltera."
+  ],
+  "certa": 0,
+  "explicacao": "Jesus cita a lei das duas testemunhas e afirma que ele e o Pai testificam juntos sobre a verdade."
+ },
+ "refs": [
+  "João 5:31-32",
+  "Mateus 26:64",
+  "Hebreus 1:1-2"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.7-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T15:47:02.185Z",
+  "rounds": 2
+ }
+}

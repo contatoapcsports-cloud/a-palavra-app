@@ -1,0 +1,134 @@
+{
+ "id": "43-13-30-38",
+ "ref": "João 13:30-38",
+ "book": "43",
+ "chapter": 13,
+ "verses": [
+  {
+   "n": 30,
+   "t": "Havendo ele pois tomado o pedaço de pão, logo saiu. E já era noite."
+  },
+  {
+   "n": 31,
+   "t": "Tendo, pois, ele saído, disse Jesus: Agora o Filho do homem é glorificado, e Deus é glorificado nele."
+  },
+  {
+   "n": 32,
+   "t": "Se Deus nele é glorificado, também Deus o glorificará em si mesmo, e logo o glorificará."
+  },
+  {
+   "n": 33,
+   "t": "Filhinhos, ainda um pouco estou convosco. Vós me buscareis; e tal como eu aos Judeus: Para onde eu vou, vós não podeis vir; assim também o digo a vós agora."
+  },
+  {
+   "n": 34,
+   "t": "Um novo mandamento vos dou: que vos ameis uns aos outros; tal como eu vos amei, também ameis vós uns aos outros."
+  },
+  {
+   "n": 35,
+   "t": "Nisto todos conhecerão que sois meus discípulos: se vós tiverdes amor uns aos outros."
+  },
+  {
+   "n": 36,
+   "t": "Disse-lhe Simão Pedro: Senhor, para onde vais? Respondeu-lhe Jesus: Para onde eu vou tu não podes me seguir agora; porém depois me seguirás."
+  },
+  {
+   "n": 37,
+   "t": "Disse-lhe Pedro: Senhor, por que agora não posso te seguir? Por ti eu darei minha vida."
+  },
+  {
+   "n": 38,
+   "t": "Respondeu-lhe Jesus: Por mim darás tua vida? Em verdade, em verdade te digo, que o galo não cantará, até que três vezes me negues."
+  }
+ ],
+ "titulo": "O mandamento novo que revela quem somos",
+ "temas": [
+  "amor",
+  "traição",
+  "discipulado",
+  "humildade",
+  "promessa"
+ ],
+ "pergunta": "Por que Jesus escolheu o momento da traição para dar seu mandamento mais importante?",
+ "entender": "Logo após Judas sair para entregar Jesus, o Mestre declara que o Filho do Homem será glorificado. Essa glória não é um trono dourado, mas a cruz, onde Deus será glorificado nele. Jesus fala com ternura, chamando os discípulos de \"filhinhos\", e avisa que deixará o grupo. Ele diz: \"Para onde eu vou, vós não podeis vir\". Há uma distância entre a missão de Jesus e a capacidade atual dos discípulos, mas isso não é um adeus definitivo.\n\nEm meio a essa tensão, Jesus dá um \"novo mandamento\": amar uns aos outros tal como ele os amou. Este amor não é apenas sentimento, mas a marca visível da comunidade cristã. \"Nisto todos conhecerão que sois meus discípulos\". Pedro, animado, pergunta para onde Jesus vai e afirma que dará a vida por Ele. Jesus, porém, prevê a negação de Pedro, mostrando que a lealdade humana é frágil sem a graça divina.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para a cruz. A \"glória\" mencionada por Jesus é a sua morte redentora, que revela o caráter de Deus. O amor que Jesus exige dos discípulos é o mesmo que ele demonstra ao morrer por eles. O evangelho é conhecido não por discursos, mas pela forma como os seguidores de Cristo tratam uns aos outros. É esse amor sacrificial que diferencia a comunidade cristã do mundo.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, nos sentimos distantes de Deus ou incapazes de seguir Jesus, assim como Pedro se sentiu. A aplicação prática é reconhecer que nosso amor uns pelos outros não nasce de nossa força, mas da gratidão pelo amor de Cristo. Em vez de tentar provar nossa fidelidade com grandes gestos heroicos (como Pedro tentou), devemos focar em pequenos atos concretos de cuidado, perdão e paciência no dia a dia. Quando alguém perguntar quem são os seguidores de Jesus, nossa resposta será nossa unidade e nosso amor mútuo.",
+ "guarde": "O amor que imita o sacrifício de Cristo é a prova mais clara de que pertencemos a Ele.",
+ "ore": "Senhor Jesus, eu confesso minha fraqueza e a tendência a negar Teu amor. Perdoa-me quando eu falho. Ensina-me a amar meus irmãos e irmãs com a mesma intensidade com que Tu me amaste na cruz. Que minha vida seja uma carta legível do Teu evangelho. Amém.",
+ "quiz": {
+  "pergunta": "Qual é a marca que, segundo Jesus, revelará aos outros que alguém é seu discípulo?",
+  "opcoes": [
+   "O amor que têm uns pelos outros.",
+   "O conhecimento profundo das Escrituras.",
+   "A capacidade de realizar milagres."
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma claramente em João 13:35 que \"nisto todos conhecerão que sois meus discípulos: se vós tiverdes amor uns aos outros\"."
+ },
+ "refs": [
+  "João 15:12-13",
+  "1 João 4:7-11",
+  "Mateus 26:31-35"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T16:34:23.457Z",
+  "rounds": 1
+ }
+}

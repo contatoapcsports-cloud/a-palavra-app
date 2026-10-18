@@ -1,0 +1,141 @@
+{
+ "id": "43-11-24-34",
+ "ref": "João 11:24-34",
+ "book": "43",
+ "chapter": 11,
+ "verses": [
+  {
+   "n": 24,
+   "t": "Marta lhe disse: Eu sei que ele ressuscitará, na ressurreição, no último dia."
+  },
+  {
+   "n": 25,
+   "t": "Disse-lhe Jesus: Eu sou a ressurreição, e a vida; quem crê em mim, ainda que esteja morto, viverá."
+  },
+  {
+   "n": 26,
+   "t": "E todo aquele que vive, e crê em mim, para sempre não morrerá. Crês nisto?"
+  },
+  {
+   "n": 27,
+   "t": "Disse-lhe ela: Sim, Senhor; já cri que tu és o Cristo, o Filho de Deus, que viria ao mundo."
+  },
+  {
+   "n": 28,
+   "t": "E dito isto, ela se foi, e chamou em segredo a Maria, sua irmã, dizendo: Aqui está o Mestre, e ele te chama."
+  },
+  {
+   "n": 29,
+   "t": "Ouvindo ela isto ,logo se levantou, e foi até ele."
+  },
+  {
+   "n": 30,
+   "t": "(Porque Jesus ainda não havia chegado à aldeia; mas estava no lugar onde Marta lhe saíra ao encontro)."
+  },
+  {
+   "n": 31,
+   "t": "Vendo pois os judeus que com ela estavam em casa, e a consolavam, que Maria com pressa se levantara, e saíra, seguiram-na, dizendo: Ela vai para a sepultura, para chorar lá."
+  },
+  {
+   "n": 32,
+   "t": "Vindo pois Maria aonde Jesus estava, e vendo-o, caiu a seus pés, dizendo-lhe: Senhor, se tu estivesses aqui, meu irmão não teria morrido."
+  },
+  {
+   "n": 33,
+   "t": "Quando Jesus a viu chorar, e aos judeus, que vinham chorando com ela, comoveu-se em espírito, e ficou perturbado."
+  },
+  {
+   "n": 34,
+   "t": "E disse: Onde o pusestes? Disseram-lhe: Senhor, vem, e vê."
+  }
+ ],
+ "titulo": "Quem é a ressurreição?",
+ "temas": [
+  "ressurreição",
+  "vida",
+  "fé",
+  "esperança"
+ ],
+ "pergunta": "O que muda na sua confiança quando você entende que Jesus não apenas promete a vida, mas Ele mesmo é a vida?",
+ "entender": "Marta acreditava na ressurreição futura, mas Jesus a convida a crer em algo mais profundo: Ele mesmo é a fonte da vida eterna. Ao declarar \"Eu sou a ressurreição, e a vida\", Ele se apresenta como o único capaz de transformar a morte em vitória para quem crê.\n\nQuando Jesus pergunta \"Crês nisto?\", Marta responde com uma confissão clara de que Ele é o Cristo e o Filho de Deus. Essa resposta mostra que a fé verdadeira não é apenas esperar um acontecimento distante, mas reconhecer a pessoa de Jesus agora. Ele está ali, presente, pronto para agir na dor e na perda.\n\nO contexto mostra a dor real de Marta e Maria pela morte de Lázaro. Jesus se comove e pergunta onde está o corpo. Essa cena nos lembra que a fé cristã não ignora o sofrimento, mas confia no poder de Jesus sobre a morte.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a identidade de Jesus como Deus encarnado, que tem autoridade sobre a morte. O evangelho é a boa notícia de que, por meio da fé em Cristo, a morte não é o fim. Ele venceu a morte na cruz e na ressurreição, oferecendo vida eterna a todos que creem nEle.",
+  "selo": true
+ },
+ "viver": "Em momentos de perda ou medo do futuro, lembre-se de que Jesus é a ressurreição e a vida. Em vez de apenas esperar por um dia distante, confie agora na presença Dele. Compartilhe essa esperança com quem sofre, mostrando que a fé em Cristo traz consolo real e certeza de vida eterna.\n\nPratique a confiança em Jesus mesmo quando a situação parece sem saída. Ore pedindo que sua fé cresça, reconhecendo-O como a fonte da vida, e viva com a certeza de que a morte não tem a última palavra para quem está em Cristo.",
+ "guarde": "Jesus não promete apenas uma ressurreição futura; Ele é a vida que vence a morte agora.",
+ "ore": "Senhor, eu creio que Tu és a ressurreição e a vida. Ajuda-me a confiar em Ti em meio às minhas perdas e medos, reconhecendo que Tu tens autoridade sobre a morte. Dá-me uma fé viva que Te busca em cada momento. Amém.",
+ "quiz": {
+  "pergunta": "O que Jesus disse a Marta sobre si mesmo em João 11:25?",
+  "opcoes": [
+   "Eu sou a ressurreição e a vida.",
+   "Eu trarei a ressurreição no último dia.",
+   "Eu posso curar a doença da sua irmã."
+  ],
+  "certa": 0,
+  "explicacao": "Jesus declarou explicitamente \"Eu sou a ressurreição e a vida\", identificando-se como a fonte da vida eterna, não apenas como um garantidor de um evento futuro."
+ },
+ "refs": [
+  "João 14:6",
+  "Atos 4:12",
+  "1 Coríntios 15:20"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T16:14:06.357Z",
+  "rounds": 2
+ }
+}

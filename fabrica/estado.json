@@ -90,7 +90,9 @@
   },
   "43-4-44-54": {
    "execucoes": 1,
-   "ultimo": "automático: abertura_repetida:ore:43-7-22-32"
+   "ultimo": "automático: abertura_repetida:ore:43-7-22-32",
+   "estado": "pronto",
+   "titulo": "A palavra que atravessa a distância"
   },
   "43-5-1-12": {
    "execucoes": 0,
@@ -173,32 +175,242 @@
   },
   "43-7-43-53": {
    "execucoes": 0,
-   "ultimo": "gemini: PERSON_ENTITY_CONSISTENCY: O ensino afirma que os fariseus desprezaram Nicodemos 'por ser da Galileia', confundindo a identidade do personagem, que era fariseu e líder em Jerusalém, alvo apenas de uma pergunta irônica/retórica dos outros líderes."
+   "ultimo": "gemini: NARRATIVE_EVENT_CONSISTENCY: A pergunta inicial e o comentário atribuem o julgamento precipitado à multidão que não conhece a Lei, quando no texto bíblico são os próprios fariseus conhecedores da Lei que julgam Jesus sumariamente sem ouvi-lo. | PERSON_ENTITY_CONSISTENCY: O texto afirma que os farise",
+   "estado": "pronto",
+   "titulo": "Por que ninguém ousou prender Jesus?"
   },
   "43-8-1-12": {
-   "execucoes": 0
+   "execucoes": 1,
+   "ultimo": "automático: abertura_repetida:ore:43-1-1-10"
+  },
+  "43-8-13-24": {
+   "execucoes": 0,
+   "ultimo": "automático: viver:citacao_fora_do_texto, abertura_repetida:ore:43-4-33-43, abertura_repetida:viver:43-7-12-21",
+   "estado": "pronto",
+   "titulo": "A origem que define seu destino"
+  },
+  "43-8-25-35": {
+   "execucoes": 0,
+   "ultimo": "gemini: CROSS_SECTION_CONSISTENCY: O título afirma 'A liberdade que o pecado não pode tirar', contradizendo o texto bíblico e o restante do ensino, que mostram que o pecado escraviza e retira a liberdade.",
+   "estado": "pronto",
+   "titulo": "A verdade que quebra as correntes invisíveis"
+  },
+  "43-8-36-47": {
+   "execucoes": 0,
+   "estado": "pronto",
+   "titulo": "Quem realmente é o pai de quem?"
+  },
+  "43-8-48-59": {
+   "execucoes": 0,
+   "ultimo": "automático: abertura_repetida:viver:43-6-60-71",
+   "estado": "pronto",
+   "titulo": "Antes de Abraão: a identidade de Jesus"
+  },
+  "43-9-1-10": {
+   "execucoes": 0,
+   "estado": "pronto",
+   "titulo": "A lama que trouxe a visão"
+  },
+  "43-9-11-21": {
+   "execucoes": 0,
+   "ultimo": "gemini: REFERENCE_BOUNDARY: Afirma no texto e no teste que 'o texto explica' o medo dos pais da expulsão da sinagoga sem avisar que esse dado está fora do trecho-alvo (versículo 22).",
+   "estado": "pronto",
+   "titulo": "O medo que cala a verdade"
+  },
+  "43-9-22-31": {
+   "execucoes": 0,
+   "ultimo": "gemini: LANGUAGE_CLARITY: A formulação da pergunta inicial ('O que você valeria para não ter que confrontar...') é gramaticalmente incorreta e confusa em português.",
+   "estado": "pronto",
+   "titulo": "A coragem de quem viu a luz"
+  },
+  "43-9-32-41": {
+   "execucoes": 0,
+   "ultimo": "automático: abertura_repetida:ore:43-2-1-8",
+   "estado": "pronto",
+   "titulo": "Por que os que viam ficaram cegos?"
+  },
+  "43-10-1-11": {
+   "execucoes": 0,
+   "ultimo": "gemini: NARRATIVE_EVENT_CONSISTENCY: O ensino afirma que as ovelhas 'não fogem de qualquer estranho', contrariando diretamente o versículo 5, que diz expressamente que elas fogem do estranho.",
+   "estado": "pronto",
+   "titulo": "A diferença entre o pastor e o ladrão"
+  },
+  "43-10-12-21": {
+   "execucoes": 0,
+   "estado": "pronto",
+   "titulo": "Quem cuida de verdade das ovelhas?"
+  },
+  "43-10-22-32": {
+   "execucoes": 0,
+   "estado": "pronto",
+   "titulo": "Ninguém pode roubar quem Jesus ama"
+  },
+  "43-10-33-42": {
+   "execucoes": 0,
+   "ultimo": "automático: abertura_repetida:ore:43-1-42-51",
+   "estado": "pronto",
+   "titulo": "A evidência que transforma a fé em certeza"
+  },
+  "43-11-1-11": {
+   "execucoes": 0,
+   "ultimo": "automático: abertura_repetida:viver:43-6-37-47, abertura_repetida:ore:43-7-1-11",
+   "estado": "pronto",
+   "titulo": "A luz que guia os passos de Jesus"
+  },
+  "43-11-12-23": {
+   "execucoes": 1,
+   "ultimo": "automático: abertura_repetida:ore:43-8-13-24"
+  },
+  "43-11-24-34": {
+   "execucoes": 0,
+   "ultimo": "automático: abertura_repetida:ore:43-6-48-59",
+   "estado": "pronto",
+   "titulo": "Quem é a ressurreição?"
+  },
+  "43-11-35-46": {
+   "execucoes": 0,
+   "estado": "pronto",
+   "titulo": "O choro de Jesus diante da morte"
+  },
+  "43-11-47-57": {
+   "execucoes": 0,
+   "ultimo": "gemini: LANGUAGE_CLARITY: A expressão 'a mão de Ti' na oração é uma construção gramatical incorreta em português, devendo ser substituída por 'a tua mão'.",
+   "estado": "pronto",
+   "titulo": "A profecia que selou o destino de Jesus"
+  },
+  "43-12-1-11": {
+   "execucoes": 0,
+   "ultimo": "gemini: REFERENCE_BOUNDARY: A referência cruzada Lucas 24:12-13 trata do sepulcro vazio e dos discípulos no caminho de Emaús, não dizendo o que o ensino afirma sobre a unção em Betânia.",
+   "estado": "pronto",
+   "titulo": "O perfume que assustou os chefes"
+  },
+  "43-12-12-20": {
+   "execucoes": 0,
+   "estado": "pronto",
+   "titulo": "O Rei humilde que a multidão aclamou"
+  },
+  "43-12-21-30": {
+   "execucoes": 0,
+   "estado": "pronto",
+   "titulo": "A morte que produz vida em abundância"
+  },
+  "43-12-31-40": {
+   "execucoes": 0,
+   "estado": "pronto",
+   "titulo": "A luz que não espera: por que agir agora?"
+  },
+  "43-12-41-50": {
+   "execucoes": 1,
+   "ultimo": "automático: abertura_repetida:viver:43-4-12-22"
+  },
+  "43-13-1-10": {
+   "execucoes": 0,
+   "ultimo": "automático: entender:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "O rei que lavou pés"
+  },
+  "43-13-11-19": {
+   "execucoes": 0,
+   "estado": "pronto",
+   "titulo": "O exemplo que quebra a hierarquia"
+  },
+  "43-13-20-29": {
+   "execucoes": 0,
+   "estado": "pronto",
+   "titulo": "O gesto silencioso que entregou o traidor"
+  },
+  "43-13-30-38": {
+   "execucoes": 0,
+   "estado": "pronto",
+   "titulo": "O mandamento novo que revela quem somos"
+  },
+  "43-14-1-10": {
+   "execucoes": 0,
+   "estado": "pronto",
+   "titulo": "O lugar preparado para você na casa do Pai"
+  },
+  "43-14-11-21": {
+   "execucoes": 0,
+   "estado": "pronto",
+   "titulo": "O Consolador que habita em você"
+  },
+  "43-14-22-31": {
+   "execucoes": 0,
+   "ultimo": "automático: abertura_repetida:ore:43-10-22-32",
+   "estado": "pronto",
+   "titulo": "A paz que permanece no coração"
+  },
+  "43-15-1-9": {
+   "execucoes": 0,
+   "estado": "pronto",
+   "titulo": "O segredo para dar frutos que duram"
+  },
+  "43-15-10-18": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "43-15-19-27": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "43-16-1-11": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "43-16-12-22": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "43-16-23-33": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "43-17-1-9": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "43-17-10-17": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "43-17-18-26": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "43-18-1-10": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "43-18-11-20": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 94,
-   "entrada": 191842,
-   "saida": 91489
+   "chamadas": 103,
+   "entrada": 210948,
+   "saida": 99242
   },
   "groq-qwen": {
-   "chamadas": 38,
-   "entrada": 72654,
-   "saida": 29210
+   "chamadas": 99,
+   "entrada": 195172,
+   "saida": 77758
   },
   "gemini": {
-   "chamadas": 44,
-   "entrada": 140470,
-   "saida": 71657
+   "chamadas": 84,
+   "entrada": 267572,
+   "saida": 120900
   },
   "cloudflare": {
-   "chamadas": 28,
-   "entrada": 96873,
-   "saida": 10388
+   "chamadas": 58,
+   "entrada": 199277,
+   "saida": 21518
+  },
+  "mistral": {
+   "chamadas": 0,
+   "entrada": 0,
+   "saida": 0
   }
  }
 }

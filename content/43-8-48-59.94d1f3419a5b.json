@@ -1,0 +1,145 @@
+{
+ "id": "43-8-48-59",
+ "ref": "João 8:48-59",
+ "book": "43",
+ "chapter": 8,
+ "verses": [
+  {
+   "n": 48,
+   "t": "Responderam, pois, os Judeus, e lhe disseram: Nós não dizemos com razão que és samaritano, e tens o demônio?"
+  },
+  {
+   "n": 49,
+   "t": "Respondeu Jesus: Eu não tenho demônio, antes honro a meu Pai; e vós me desonrais."
+  },
+  {
+   "n": 50,
+   "t": "Mas eu não busco minha glória; há quem a busque, e julgue."
+  },
+  {
+   "n": 51,
+   "t": "Em verdade, em verdade vos digo, que se alguém guardar minha palavra, jamais verá a morte."
+  },
+  {
+   "n": 52,
+   "t": "Disseram-lhe pois os Judeus: Agora conhecemos que tens o demônio. Abraão e os profetas morreram; e tu dizes: Se alguém guardar minha palavra, jamais experimentará a morte."
+  },
+  {
+   "n": 53,
+   "t": "És tu maior que nosso pai Abraão, que morreu? Os profetas também morreram. Quem tu dizes ser?"
+  },
+  {
+   "n": 54,
+   "t": "Respondeu Jesus: Se eu me glorifico a mim mesmo, minha glória é nada; meu Pai, o qual vós dizeis ser vosso Deus, ele é o que me glorifica."
+  },
+  {
+   "n": 55,
+   "t": "E vós não o conheceis, mas eu o conheço; e se disser que não o conheço, serei mentiroso como vós; mas eu o conheço, e guardo sua palavra."
+  },
+  {
+   "n": 56,
+   "t": "Abraão, vosso pai, saltou de alegria por ver o meu dia; ele viu, e se alegrou."
+  },
+  {
+   "n": 57,
+   "t": "Disseram-lhe, pois. os Judeus: Ainda não tens cinquenta anos, e viste a Abraão?"
+  },
+  {
+   "n": 58,
+   "t": "Jesus lhes disse: Em verdade, em verdade vos digo, que antes que Abraão fosse, eu sou."
+  },
+  {
+   "n": 59,
+   "t": "Então tomaram pedras para atirarem nele. Mas Jesus se escondeu, e saiu do Templo, atravessando por meio deles, e assim se foi."
+  }
+ ],
+ "titulo": "Antes de Abraão: a identidade de Jesus",
+ "temas": [
+  "divindade",
+  "eternidade",
+  "verdade",
+  "fé"
+ ],
+ "pergunta": "O que a frase 'antes que Abraão fosse, eu sou' revela sobre a identidade de Jesus?",
+ "entender": "Os judeus acusam Jesus de ter demônio, mas Ele responde que honra seu Pai. Quando afirma que quem guarda sua palavra jamais verá a morte, eles se ofendem, lembrando que Abraão morreu. Jesus então revela que Abraão viu 'o meu dia' e se alegrou, indicando uma conexão eterna entre eles.\n\nO clímax ocorre quando Jesus declara: 'antes que Abraão fosse, eu sou'. Essa expressão, usada por Deus no Antigo Testamento, indica que Jesus existe antes do tempo e é divino. A reação violenta dos ouvintes mostra o choque ao confrontar a divindade de Cristo, mas Ele sai do Templo ileso, protegido pelo Pai.",
+ "ligar": {
+  "texto": "Este texto é o coração da revelação de Jesus como Deus. Ao usar o 'Eu Sou', Ele se identifica com o Criador eterno. Isso é essencial para o evangelho: só aquele que é eterno e divino pode vencer a morte e dar vida verdadeira. A rejeição dos líderes contrasta com a oferta de salvação que Jesus faz a todos que creem.",
+  "selo": true
+ },
+ "viver": "Imagine a coragem de Jesus ao afirmar sua divindade diante de uma multidão hostil. Na nossa vida, frequentemente temos medo de confessar nossa fé ou de seguir a verdade de Cristo por receio do julgamento alheio. Este texto nos encoraja a confiar na autoridade de Jesus, que é maior que qualquer opinião humana. Pratique a firmeza em momentos de pressão, lembrando que a verdade dEle não muda com o tempo.",
+ "guarde": "Jesus é o Eterno que se revelou para nos dar vida que não perece.",
+ "ore": "Pai, obrigado por revelar em Jesus o Deus eterno. Ajuda-me a confiar na Tua palavra, mesmo quando o mundo não entende. Dá-me coragem para seguir a Cristo, reconhecendo que Ele é maior que qualquer circunstância.",
+ "quiz": {
+  "pergunta": "O que Jesus quis dizer ao afirmar: 'antes que Abraão fosse, eu sou'?",
+  "opcoes": [
+   "Que Abraão morreu antes de Jesus.",
+   "Que Ele era descendente de Abraão.",
+   "Que Ele existe eternamente."
+  ],
+  "certa": 2,
+  "explicacao": "A frase 'eu sou' indica a divindade eterna de Jesus, mostrando que Ele não tem começo no tempo, diferentemente de Abraão."
+ },
+ "refs": [
+  "João 1:1",
+  "Isaías 44:6",
+  "Colossenses 1:17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.7-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T15:51:20.939Z",
+  "rounds": 3
+ }
+}

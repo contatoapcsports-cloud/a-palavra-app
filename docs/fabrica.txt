@@ -1,30 +1,194 @@
-Fábrica de ensinos — execução de 2026-10-18T12:42:23.006Z
-Fila: 3058 trechos; prontos: 27; limite desta execução: 150 ensinos / 170 min; 3 em paralelo.
-> João 4:12-22 (43-4-12-22)
-  [43-4-12-22] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+Fábrica de ensinos — execução de 2026-10-18T16:42:43.767Z
+Fila: 3058 trechos; prontos: 28; limite desta execução: 150 ensinos / 170 min; 3 em paralelo.
 > João 4:44-54 (43-4-44-54)
   [43-4-44-54] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
 > João 7:43-53 (43-7-43-53)
   [43-7-43-53] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-  [43-4-12-22] rodada 1: verificação automática recusou: entender:menos_de_2_paragrafos, entender:citacao_longa, entender:citacao_fora_do_texto, abertura_repetida:entender:43-4-23-32
-  LIMITE DIÁRIO [43-7-43-53]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198759, Requested 1859. Please try again in 4m26.976s. Need more tokens? Upg — troca de modelo, se houver outro permitido.
-  [43-7-43-53] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  [43-7-43-53] rodada 1: gemini recusou: PERSON_ENTITY_CONSISTENCY: O ensino afirma que os fariseus desprezaram Nicodemos 'por ser da Galileia', confundindo a identidade do personagem, que era fariseu e líder em Jerusalém, alvo apenas de uma pergunta irônica/retórica dos outros líderes.
-  LIMITE DIÁRIO [43-4-12-22]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198759, Requested 1859. Please try again in 4m26.976s. Need more tokens? Upg — troca de modelo, se houver outro permitido.
-  [43-4-12-22] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  PRONTO [43-4-12-22]: "A água que transforma a sede em fonte" (aprovado pelos dois auditores em 1 rodada(s))
 > João 8:1-12 (43-8-1-12)
-  [43-8-1-12] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  LIMITE DIÁRIO [43-4-44-54]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198759, Requested 1859. Please try again in 4m26.976s. Need more tokens? Upg — troca de modelo, se houver outro permitido.
+  [43-8-1-12] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  [43-4-44-54] rodada 1: verificação automática recusou: entender:citacao_fora_do_texto, viver:citacao_fora_do_texto, abertura_repetida:ore:43-2-1-8
+  [43-7-43-53] rodada 1: verificação automática recusou: viver:citacao_fora_do_texto
+  [43-8-1-12] rodada 1: verificação automática recusou: entender:menos_de_2_paragrafos, entender:citacao_longa, abertura_repetida:ore:43-2-1-8
+  [43-8-1-12] rodada 2: verificação automática recusou: entender:citacao_longa, abertura_repetida:ore:43-2-1-8
+  [43-4-44-54] rodada 2: gemini recusou: CONTEXT_FIDELITY: O ensino afirma erroneamente que em João 4:42-43 ainda havia quem não acreditasse, quando o texto declara o oposto: os samaritanos creram por ouvirem a Jesus pessoalmente.
+  [43-7-43-53] rodada 2: gemini recusou: SPEAKER_AUDIENCE_CONSISTENCY: A seção Entender afirma que os oficiais perguntaram por que não o trouxeram, quando na verdade foram os sacerdotes e fariseus que interrogaram os oficiais. | NARRATIVE_EVENT_CONSISTENCY: Inverte o fato narrado no versículo 45 sobre quem fez a pergunta e quem foi questionado. | CROSS_SECTION_CONSISTENCY: O teste não possui uma única resposta correta, pois Nicodemos era
+    [43-7-43-53] gemini: resposta fora do formato (criterios sem P/F: BLESSING_SCOPE), tentando de novo
+  [43-7-43-53] rodada 3: gemini recusou: NARRATIVE_EVENT_CONSISTENCY: A pergunta inicial e o comentário atribuem o julgamento precipitado à multidão que não conhece a Lei, quando no texto bíblico são os próprios fariseus conhecedores da Lei que julgam Jesus sumariamente sem ouvi-lo. | PERSON_ENTITY_CONSISTENCY: O texto afirma que os fariseus insultam Nicodemos por ele ser da Galileia, tratando como fato biográfico uma pergunta irônica e 
+  [43-8-1-12] rodada 3: verificação automática recusou: entender:citacao_longa
+  [43-8-1-12] rodada 4: verificação automática recusou: abertura_repetida:ore:43-1-1-10
+  [43-8-1-12] não aprovado nesta execução (1/3); tenta de novo depois
+> João 8:13-24 (43-8-13-24)
+  [43-8-13-24] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  LIMITE DIÁRIO [43-7-43-53]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199865, Requested 2763. Please try again in 18m55.296s. Need more tokens? Up — troca de modelo, se houver outro permitido.
+  [43-7-43-53] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-7-43-53]: "Por que ninguém ousou prender Jesus?" (aprovado pelos dois auditores em 1 rodada(s))
+> João 8:25-35 (43-8-25-35)
+  [43-8-25-35] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  LIMITE DIÁRIO [43-8-13-24]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199865, Requested 2763. Please try again in 18m55.296s. Need more tokens? Up — troca de modelo, se houver outro permitido.
+  [43-8-13-24] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [43-8-13-24] rodada 1: verificação automática recusou: viver:citacao_fora_do_texto, abertura_repetida:ore:43-4-33-43, abertura_repetida:viver:43-7-12-21
+  LIMITE DIÁRIO [43-4-44-54]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199865, Requested 2763. Please try again in 18m55.296s. Need more tokens? Up — troca de modelo, se houver outro permitido.
   [43-4-44-54] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [43-8-25-35] rodada 1: gemini recusou: CROSS_SECTION_CONSISTENCY: O título afirma 'A liberdade que o pecado não pode tirar', contradizendo o texto bíblico e o restante do ensino, que mostram que o pecado escraviza e retira a liberdade.
   [43-4-44-54] rodada 1: verificação automática recusou: abertura_repetida:ore:43-7-22-32
-  LIMITE DIÁRIO [43-7-43-53]: gemini: limite diário atingido ({ "error": { "code": 429, "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/ra — troca de modelo, se houver outro permitido.
-  Nenhuma combinação válida de gerador e auditores com limite livre; parando. Continua no próximo horário.
-  LIMITE DIÁRIO [43-8-1-12]: gemini: limite diário atingido ({ "error": { "code": 429, "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/ra — troca de modelo, se houver outro permitido.
-  LIMITE DIÁRIO [43-4-44-54]: gemini: limite diário atingido ({ "error": { "code": 429, "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/ra — troca de modelo, se houver outro permitido.
-Resumo: 1 novos ensinos, 0 não aprovados, 1 travados ignorados. Total pronto: 28 de 3058 trechos.
+  PRONTO [43-4-44-54]: "A palavra que atravessa a distância" (aprovado pelos dois auditores em 2 rodada(s))
+> João 8:36-47 (43-8-36-47)
+  [43-8-36-47] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-8-25-35]: "A verdade que quebra as correntes invisíveis" (aprovado pelos dois auditores em 2 rodada(s))
+> João 8:48-59 (43-8-48-59)
+  [43-8-48-59] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [43-8-48-59] rodada 1: verificação automática recusou: abertura_repetida:ore:43-6-48-59, abertura_repetida:viver:43-6-60-71
+  PRONTO [43-8-13-24]: "A origem que define seu destino" (aprovado pelos dois auditores em 2 rodada(s))
+> João 9:1-10 (43-9-1-10)
+  [43-9-1-10] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-8-36-47]: "Quem realmente é o pai de quem?" (aprovado pelos dois auditores em 1 rodada(s))
+> João 9:11-21 (43-9-11-21)
+  [43-9-11-21] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [43-8-48-59] rodada 2: verificação automática recusou: abertura_repetida:viver:43-6-60-71
+  [43-9-11-21] rodada 1: verificação automática recusou: entender:citacao_longa
+  PRONTO [43-9-1-10]: "A lama que trouxe a visão" (aprovado pelos dois auditores em 1 rodada(s))
+> João 9:22-31 (43-9-22-31)
+  [43-9-22-31] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-8-48-59]: "Antes de Abraão: a identidade de Jesus" (aprovado pelos dois auditores em 3 rodada(s))
+> João 9:32-41 (43-9-32-41)
+  [43-9-32-41] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [43-9-32-41] rodada 1: verificação automática recusou: abertura_repetida:ore:43-2-1-8
+  [43-9-11-21] rodada 2: gemini recusou: REFERENCE_BOUNDARY: Afirma no texto e no teste que 'o texto explica' o medo dos pais da expulsão da sinagoga sem avisar que esse dado está fora do trecho-alvo (versículo 22).
+  [43-9-22-31] rodada 1: verificação automática recusou: viver:citacao_fora_do_texto
+  PRONTO [43-9-32-41]: "Por que os que viam ficaram cegos?" (aprovado pelos dois auditores em 2 rodada(s))
+> João 10:1-11 (43-10-1-11)
+  [43-10-1-11] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [43-10-1-11] rodada 1: verificação automática recusou: viver:citacao_fora_do_texto
+  PRONTO [43-9-11-21]: "O medo que cala a verdade" (aprovado pelos dois auditores em 3 rodada(s))
+> João 10:12-21 (43-10-12-21)
+  [43-10-12-21] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-10-12-21]: "Quem cuida de verdade das ovelhas?" (aprovado pelos dois auditores em 1 rodada(s))
+> João 10:22-32 (43-10-22-32)
+  [43-10-22-32] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [43-9-22-31] rodada 2: gemini recusou: LANGUAGE_CLARITY: A formulação da pergunta inicial ('O que você valeria para não ter que confrontar...') é gramaticalmente incorreta e confusa em português.
+  PRONTO [43-10-22-32]: "Ninguém pode roubar quem Jesus ama" (aprovado pelos dois auditores em 1 rodada(s))
+> João 10:33-42 (43-10-33-42)
+  [43-10-33-42] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [43-10-1-11] rodada 2: gemini recusou: NARRATIVE_EVENT_CONSISTENCY: O ensino afirma que as ovelhas 'não fogem de qualquer estranho', contrariando diretamente o versículo 5, que diz expressamente que elas fogem do estranho.
+  PRONTO [43-9-22-31]: "A coragem de quem viu a luz" (aprovado pelos dois auditores em 3 rodada(s))
+> João 11:1-11 (43-11-1-11)
+  [43-11-1-11] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [43-10-33-42] rodada 1: verificação automática recusou: abertura_repetida:ore:43-1-42-51
+  PRONTO [43-10-33-42]: "A evidência que transforma a fé em certeza" (aprovado pelos dois auditores em 2 rodada(s))
+> João 11:12-23 (43-11-12-23)
+  [43-11-12-23] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-10-1-11]: "A diferença entre o pastor e o ladrão" (aprovado pelos dois auditores em 3 rodada(s))
+> João 11:24-34 (43-11-24-34)
+  [43-11-24-34] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [43-11-1-11] rodada 1: verificação automática recusou: abertura_repetida:viver:43-6-37-47, abertura_repetida:ore:43-7-1-11
+  [43-11-12-23] rodada 1: verificação automática recusou: abertura_repetida:ore:43-2-1-8
+  [43-11-24-34] rodada 1: verificação automática recusou: abertura_repetida:ore:43-6-48-59
+  PRONTO [43-11-1-11]: "A luz que guia os passos de Jesus" (aprovado pelos dois auditores em 2 rodada(s))
+> João 11:35-46 (43-11-35-46)
+  [43-11-35-46] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [43-11-12-23] rodada 2: verificação automática recusou: ligar:citacao_fora_do_texto, viver:citacao_fora_do_texto, abertura_repetida:ore:43-8-13-24
+  [43-11-12-23] rodada 3: verificação automática recusou: abertura_repetida:ore:43-7-1-11
+  [43-11-12-23] rodada 4: verificação automática recusou: abertura_repetida:ore:43-8-13-24
+  [43-11-12-23] não aprovado nesta execução (1/3); tenta de novo depois
+> João 11:47-57 (43-11-47-57)
+  [43-11-47-57] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-11-24-34]: "Quem é a ressurreição?" (aprovado pelos dois auditores em 2 rodada(s))
+> João 12:1-11 (43-12-1-11)
+  [43-12-1-11] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-11-35-46]: "O choro de Jesus diante da morte" (aprovado pelos dois auditores em 1 rodada(s))
+> João 12:12-20 (43-12-12-20)
+  [43-12-12-20] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [43-11-47-57] rodada 1: verificação automática recusou: entender:citacao_fora_do_texto, abertura_repetida:ore:43-8-13-24
+  [43-12-1-11] rodada 1: verificação automática recusou: abertura_repetida:ore:43-7-22-32
+  [43-11-47-57] rodada 2: verificação automática recusou: entender:citacao_fora_do_texto
+  PRONTO [43-12-12-20]: "O Rei humilde que a multidão aclamou" (aprovado pelos dois auditores em 1 rodada(s))
+> João 12:21-30 (43-12-21-30)
+  [43-12-21-30] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [43-11-47-57] rodada 3: gemini recusou: LANGUAGE_CLARITY: A expressão 'a mão de Ti' na oração é uma construção gramatical incorreta em português, devendo ser substituída por 'a tua mão'.
+  [43-12-1-11] rodada 2: gemini recusou: REFERENCE_BOUNDARY: A referência cruzada Lucas 24:12-13 trata do sepulcro vazio e dos discípulos no caminho de Emaús, não dizendo o que o ensino afirma sobre a unção em Betânia.
+  PRONTO [43-12-21-30]: "A morte que produz vida em abundância" (aprovado pelos dois auditores em 1 rodada(s))
+> João 12:31-40 (43-12-31-40)
+  [43-12-31-40] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-11-47-57]: "A profecia que selou o destino de Jesus" (aprovado pelos dois auditores em 4 rodada(s))
+> João 12:41-50 (43-12-41-50)
+  [43-12-41-50] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-12-31-40]: "A luz que não espera: por que agir agora?" (aprovado pelos dois auditores em 1 rodada(s))
+> João 13:1-10 (43-13-1-10)
+  [43-13-1-10] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-12-1-11]: "O perfume que assustou os chefes" (aprovado pelos dois auditores em 3 rodada(s))
+> João 13:11-19 (43-13-11-19)
+  [43-13-11-19] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [43-12-41-50] rodada 1: verificação automática recusou: abertura_repetida:guarde:43-9-1-10
+  [43-12-41-50] rodada 2: verificação automática recusou: abertura_repetida:ore:43-10-33-42
+  [43-12-41-50] rodada 3: verificação automática recusou: abertura_repetida:ore:43-6-1-12
+  [43-13-1-10] rodada 1: verificação automática recusou: entender:citacao_fora_do_texto
+  PRONTO [43-13-11-19]: "O exemplo que quebra a hierarquia" (aprovado pelos dois auditores em 1 rodada(s))
+> João 13:20-29 (43-13-20-29)
+  [43-13-20-29] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [43-12-41-50] rodada 4: verificação automática recusou: abertura_repetida:viver:43-4-12-22
+  [43-12-41-50] não aprovado nesta execução (1/3); tenta de novo depois
+> João 13:30-38 (43-13-30-38)
+  [43-13-30-38] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [43-13-1-10] rodada 2: verificação automática recusou: entender:citacao_fora_do_texto
+  PRONTO [43-13-20-29]: "O gesto silencioso que entregou o traidor" (aprovado pelos dois auditores em 1 rodada(s))
+> João 14:1-10 (43-14-1-10)
+  [43-14-1-10] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-14-1-10]: "O lugar preparado para você na casa do Pai" (aprovado pelos dois auditores em 1 rodada(s))
+> João 14:11-21 (43-14-11-21)
+  [43-14-11-21] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-13-30-38]: "O mandamento novo que revela quem somos" (aprovado pelos dois auditores em 1 rodada(s))
+> João 14:22-31 (43-14-22-31)
+  [43-14-22-31] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-14-11-21]: "O Consolador que habita em você" (aprovado pelos dois auditores em 1 rodada(s))
+> João 15:1-9 (43-15-1-9)
+  [43-15-1-9] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-15-1-9]: "O segredo para dar frutos que duram" (aprovado pelos dois auditores em 1 rodada(s))
+> João 15:10-18 (43-15-10-18)
+  [43-15-10-18] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-13-1-10]: "O rei que lavou pés" (aprovado pelos dois auditores em 3 rodada(s))
+> João 15:19-27 (43-15-19-27)
+  [43-15-19-27] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [43-14-22-31] rodada 1: verificação automática recusou: abertura_repetida:ore:43-10-22-32
+  PRONTO [43-14-22-31]: "A paz que permanece no coração" (aprovado pelos dois auditores em 2 rodada(s))
+> João 16:1-11 (43-16-1-11)
+  [43-16-1-11] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  LIMITE DIÁRIO [43-16-1-11]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199699, Requested 1979. Please try again in 12m4.896s. Need more tokens? Upgra — troca de modelo, se houver outro permitido.
+  [43-16-1-11] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  ERRO [43-16-1-11]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+> João 16:12-22 (43-16-12-22)
+  [43-16-12-22] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  ERRO [43-16-12-22]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+> João 16:23-33 (43-16-23-33)
+  [43-16-23-33] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  LIMITE DIÁRIO [43-15-10-18]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199699, Requested 1979. Please try again in 12m4.896s. Need more tokens? Upgra — troca de modelo, se houver outro permitido.
+  [43-15-10-18] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  ERRO [43-16-23-33]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+> João 17:1-9 (43-17-1-9)
+  [43-17-1-9] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  ERRO [43-15-10-18]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+> João 17:10-17 (43-17-10-17)
+  [43-17-10-17] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  ERRO [43-17-1-9]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+> João 17:18-26 (43-17-18-26)
+  [43-17-18-26] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  ERRO [43-17-10-17]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+> João 18:1-10 (43-18-1-10)
+  [43-18-1-10] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  LIMITE DIÁRIO [43-15-19-27]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199699, Requested 1979. Please try again in 12m4.896s. Need more tokens? Upgra — troca de modelo, se houver outro permitido.
+  [43-15-19-27] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  ERRO [43-17-18-26]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+> João 18:11-20 (43-18-11-20)
+  [43-18-11-20] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  ERRO [43-18-1-10]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+Oito erros seguidos; parando para não gastar à toa.
+  ERRO [43-15-19-27]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+Oito erros seguidos; parando para não gastar à toa.
+  ERRO [43-18-11-20]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+Oito erros seguidos; parando para não gastar à toa.
+Resumo: 30 novos ensinos, 3 não aprovados, 1 travados ignorados. Total pronto: 58 de 3058 trechos.
 
-groq-gpt (openai/gpt-oss-120b): 1 chamadas, 1691 tokens entrada, 841 saída [LIMITE DIÁRIO ATINGIDO]
-groq-qwen (qwen/qwen3.8-27b): 6 chamadas, 11140 tokens entrada, 4533 saída
-gemini (gemini-3.8-flash): 2 chamadas, 6242 tokens entrada, 2730 saída [LIMITE DIÁRIO ATINGIDO]
-cloudflare (@cf/meta/llama-3.3-70b-instruct-fp8-fast): 1 chamadas, 3492 tokens entrada, 371 saída
+groq-gpt (openai/gpt-oss-120b): 9 chamadas, 19106 tokens entrada, 7753 saída [LIMITE DIÁRIO ATINGIDO]
+groq-qwen (qwen/qwen3.8-27b): 61 chamadas, 122518 tokens entrada, 48548 saída [LIMITE DIÁRIO ATINGIDO]
+mistral (mistral-medium-latest): 0 chamadas, 0 tokens entrada, 0 saída
+gemini (gemini-3.1-flash-lite): 40 chamadas, 127102 tokens entrada, 49243 saída
+cloudflare (@cf/meta/llama-3.3-70b-instruct-fp8-fast): 30 chamadas, 102404 tokens entrada, 11130 saída

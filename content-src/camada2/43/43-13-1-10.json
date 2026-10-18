@@ -1,0 +1,137 @@
+{
+ "id": "43-13-1-10",
+ "ref": "João 13:1-10",
+ "book": "43",
+ "chapter": 13,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E antes da festa da páscoa, sabendo Jesus que sua hora já era vinda, para que deste mundo passasse para o Pai, havendo amado aos seus, que estavam no mundo, até o fim os amou."
+  },
+  {
+   "n": 2,
+   "t": "E terminada a ceia, o diabo já havia metido no coração de Judas de Simão Iscariotes, que o traísse."
+  },
+  {
+   "n": 3,
+   "t": "Sabendo Jesus que o Pai já tinha lhe dado todas as coisas nas mãos, e que ele era vindo de Deus, e para Deus ele iria,"
+  },
+  {
+   "n": 4,
+   "t": "Levantou-se da ceia, e tirou as roupas, e tomando uma toalha, envolveu- a em si;"
+  },
+  {
+   "n": 5,
+   "t": "Depois pôs água em uma bacia, e começou a lavar os pés dos discípulos, e limpá-los com a toalha com que estava envolto."
+  },
+  {
+   "n": 6,
+   "t": "Veio, pois, a Simão Pedro; e ele lhe disse: Senhor, tu a mim lavas meus pés?"
+  },
+  {
+   "n": 7,
+   "t": "Respondeu Jesus, e disse-lhe: O que eu faço tu não o sabes agora; mas depois o entenderás."
+  },
+  {
+   "n": 8,
+   "t": "Disse-lhe Pedro: Nunca lavarás meus pés. Respondeu-lhe então Jesus: Se eu não te lavar, não tens parte comigo."
+  },
+  {
+   "n": 9,
+   "t": "Disse-lhe Simão Pedro: Senhor, lava não só meus pés, mas também as mãos e a cabeça."
+  },
+  {
+   "n": 10,
+   "t": "Disse-lhe Jesus: Aquele que está lavado não necessita lavar, a não ser os pés, mas está todo limpo. E vós limpos estais, porém não todos."
+  }
+ ],
+ "titulo": "O rei que lavou pés",
+ "temas": [
+  "serviço",
+  "humildade",
+  "graça",
+  "comunhão"
+ ],
+ "pergunta": "Por que Jesus, sendo o Mestre, fez o trabalho de um escravo naquela noite?",
+ "entender": "Este episódio ocorre na última ceia de Jesus com seus discípulos. O texto começa dizendo que Ele amou os seus \"até o fim\". Havia tensão no ambiente, pois o diabo já havia inspirado Judas a trair Jesus. Em vez de falar sobre a morte iminente, Jesus levanta-se, tira as vestes e toma uma toalha.\n\nEle enche uma bacia com água e lava os pés dos discípulos. Naquela cultura, essa era uma tarefa de escravos, pois as estradas eram empoeiradas. Pedro fica chocado e diz: \"Nunca lavarás meus pés\". Jesus responde que, se Ele não o lavar, Pedro não terá parte com Ele.\n\nPedro então pede para lavar também as mãos e a cabeça. Jesus explica que aquele que já foi lavado não precisa lavar o corpo todo, só os pés. Ele afirma que eles estão limpos, \"porém não todos\", referindo-se a Judas. O gesto é uma demonstração concreta de amor e humildade.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a pessoa de Jesus. Ele, sendo Deus, assume a posição do servo mais humilde. O evangelho é a boa notícia de que o Criador do universo se abaixa para nos purificar. Assim como Jesus lavou os pés para que pudéssemos ter comunhão com Ele, Ele morreu na cruz para limpar nossos pecados. A pureza que nos permite estar com Deus não vem dos nossos esforços, mas da Sua iniciativa de nos amar até o fim, mesmo quando somos indignos.",
+  "selo": true
+ },
+ "viver": "Talvez você ache que servir os outros é algo chato ou que só deve ser feito por profissionais. Este texto nos convida a rever essa visão. Na prática, isso significa buscar oportunidades diárias de cuidar de alguém de forma prática: lavar a louça de um familiar cansado, ajudar um vizinho idoso ou escutar com atenção um amigo que precisa desabafar. Não é sobre grandiosidade, mas sobre disposição. Pergunte-se: quem está ao meu redor precisando de um gesto de cuidado que eu tenho evitado fazer por preguiça ou orgulho?",
+ "guarde": "O amor de Deus se revela quando Ele se abaixa para limpar as nossas feridas.",
+ "ore": "Senhor Jesus, obrigado por se humilhar para me amar. Ajuda-me a enxergar o serviço como uma forma de adoração. Derruba meu orgulho e me dá disposição para cuidar dos que estão ao meu lado, assim como Tu cuidaste de mim. Em teu nome, amém.",
+ "quiz": {
+  "pergunta": "O que Jesus disse a Pedro quando ele recusou que Ele lhe lavasse os pés?",
+  "opcoes": [
+   "Você é meu amigo, não preciso fazer isso.",
+   "Se eu não te lavar, não tens parte comigo.",
+   "Pedro, você já está limpo por dentro."
+  ],
+  "certa": 1,
+  "explicacao": "Jesus afirma que a limpeza que Ele oferece é condição para ter comunhão (parte) com Ele, conforme o versículo 8."
+ },
+ "refs": [
+  "Marcos 10:42-45",
+  "Filipenses 2:5-8",
+  "1 Pedro 5:5"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T16:37:12.393Z",
+  "rounds": 3
+ }
+}

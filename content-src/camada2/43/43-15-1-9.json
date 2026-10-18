@@ -1,0 +1,134 @@
+{
+ "id": "43-15-1-9",
+ "ref": "João 15:1-9",
+ "book": "43",
+ "chapter": 15,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Eu sou a videira verdadeira, e meu Pai é o lavrador."
+  },
+  {
+   "n": 2,
+   "t": "Todo ramo que em mim não dá fruto, ele o tira; e todo o que da fruto, ele o limpa, para que dê mais fruto."
+  },
+  {
+   "n": 3,
+   "t": "Vós já estais limpos pela palavra que vos tenho falado."
+  },
+  {
+   "n": 4,
+   "t": "Estai em mim, e eu em vós; como o ramo de si mesmo não pode dar fruto, se não estiver na videira, assim vós também não, se não estiverdes em mim."
+  },
+  {
+   "n": 5,
+   "t": "Eu sou a videira, vós sois os ramos; quem está em mim, e eu nele, esse dá muito fruto; porque sem mim nada podeis fazer."
+  },
+  {
+   "n": 6,
+   "t": "Se alguém não estiver em mim, é lançado fora, como o ramo, e seca-se; e os colhem , e os lançam no fogo, e ardem."
+  },
+  {
+   "n": 7,
+   "t": "Se vós estiverdes em mim, e minhas palavras estiverem em vós, tudo o que quiserdes pedireis, e será feito para vós."
+  },
+  {
+   "n": 8,
+   "t": "Nisto é glorificado meu Pai, em que deis muito fruto; e assim sereis meus discípulos."
+  },
+  {
+   "n": 9,
+   "t": "Como o Pai me amou, também eu vos amei; estai neste meu amor."
+  }
+ ],
+ "titulo": "O segredo para dar frutos que duram",
+ "temas": [
+  "frutificação",
+  "permanência",
+  "amor",
+  "discipulado",
+  "vida cristã"
+ ],
+ "pergunta": "O que acontece com uma planta que é arrancada da terra e colocada em um vaso bonito?",
+ "entender": "Jesus usa a imagem de uma videira para explicar como funciona a vida cristã. Ele se chama de \"videira verdadeira\" e diz que o Pai é o lavrador. A ideia central é que nós somos apenas ramos. Um ramo não consegue produzir uvas sozinho; ele depende totalmente da seiva que vem do tronco. Da mesma forma, sem estar conectado a Jesus, não podemos produzir nada de valor espiritual.\n\nO texto fala sobre \"limpar\" os ramos. Isso não é um castigo, mas um cuidado para que o fruto seja mais abundante. Jesus afirma que já estamos limpos pela palavra que Ele falou. A chave para ter vida e poder é a permanência mútua: \"Estai em mim, e eu em vós\". Sem essa conexão, o ramo seca e é lançado fora. Mas quem permanece em Jesus e guarda Suas palavras nele, dá muito fruto e vive no amor de Deus.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para Jesus como a fonte de vida. Ele não é apenas um professor de moral, mas a Videira da qual dependemos para existir espiritualmente. O evangelho aqui é claro: a salvação e a vida abundante não vêm dos nossos esforços, mas da nossa união com Cristo. É através Dele que o Pai nos ama e nos capacita. A promessa de que \"sem mim nada podeis fazer\" reforça a necessidade absoluta de confiar em Jesus para qualquer transformação real e duradoura, mostrando que a graça é o caminho único para a frutificação.",
+  "selo": true
+ },
+ "viver": "Pense na sua semana: onde você tem tentado dar frutos (amor, paciência, perdão) usando apenas sua própria força? Isso é como tentar plantar uma árvore no ar. A aplicação prática é buscar momentos diários de conexão com Jesus, seja pela leitura da Bíblia ou pela oração. Não se trata de rituais vazios, mas de deixar as palavras de Jesus \"em vós\". Quando se sentir seco ou improdutivo, pare e volte para a fonte. Pergunte-se: estou tentando viver por conta própria ou estou permitindo que a vida de Jesus flua através de mim hoje?",
+ "guarde": "Sem a conexão com a Videira, nenhum esforço humano pode produzir vida eterna.",
+ "ore": "Pai, obrigado por ser o lavrador que cuida de mim. Ajuda-me a não depender das minhas forças, mas a permanecer firmemente em Jesus. Limpa o que há de estéril em mim e deixa que o Teu amor flua através da minha vida, para que eu dê frutos que glorifiquem o Teu nome. Amém.",
+ "quiz": {
+  "pergunta": "Segundo João 15, o que acontece com o ramo que não está na videira?",
+  "opcoes": [
+   "Ele seca e é lançado no fogo",
+   "Ele é transplantado para outro lugar",
+   "Ele produz menos, mas continua vivo"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente que o ramo que não está em Cristo é lançado fora, seca-se e é lançado no fogo. Não há menção a transplante ou sobrevivência parcial."
+ },
+ "refs": [
+  "João 14:6",
+  "Gálatas 5:22-23",
+  "Mateus 7:16-19"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T16:36:09.719Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,142 @@
+{
+ "id": "43-7-43-53",
+ "ref": "João 7:43-53",
+ "book": "43",
+ "chapter": 7,
+ "verses": [
+  {
+   "n": 43,
+   "t": "Por isso havia divisão de opiniões na multidão por causa dele."
+  },
+  {
+   "n": 44,
+   "t": "E alguns deles queriam prendê-lo, mas ninguém pôs a mão nele."
+  },
+  {
+   "n": 45,
+   "t": "Vieram pois os oficiais dos sacerdotes e fariseus; e eles lhes disseram: Por que não o trouxestes?"
+  },
+  {
+   "n": 46,
+   "t": "Os oficiais responderam: Ninguém jamais falou assim como este homem."
+  },
+  {
+   "n": 47,
+   "t": "Responderam-lhes, pois, os fariseus: Estais vós também enganados?"
+  },
+  {
+   "n": 48,
+   "t": "Por acaso algum dos chefes ou dos fariseus creu nele?"
+  },
+  {
+   "n": 49,
+   "t": "Mas esta multidão, que não sabe a Lei, maldita é."
+  },
+  {
+   "n": 50,
+   "t": "Disse-lhes Nicodemos, o que viera a ele de noite, que era um deles:"
+  },
+  {
+   "n": 51,
+   "t": "Por acaso nossa Lei julga ao homem sem primeiro o ouvir, e entender o que faz?"
+  },
+  {
+   "n": 52,
+   "t": "Responderam eles, e disseram: És tu também da Galileia? Pesquisa, e vê que nenhum profeta se levantou da Galileia."
+  },
+  {
+   "n": 53,
+   "t": "E cada um foi para sua casa."
+  }
+ ],
+ "titulo": "Por que ninguém ousou prender Jesus?",
+ "temas": [
+  "justiça",
+  "preconceito",
+  "curiosidade",
+  "fé"
+ ],
+ "pergunta": "O que acontece quando nós julgamos as pessoas antes de ouvir o que elas têm a dizer?",
+ "entender": "Depois de Jesus ensinar no templo, a multidão ficou dividida. Alguns queriam prendê-lo, mas ninguém teve coragem de tocar nele. Os líderes religiosos perguntaram aos oficiais por que não o haviam capturado. A resposta foi surpreendente: 'Ninguém jamais falou assim como este homem'.\n\nOs fariseus, porém, reagiram com desprezo. Acusaram os oficiais de estarem enganados e desprezaram a multidão, chamando-a de maldita por não conhecer a Lei. Foi então que Nicodemos, o mesmo que visitou Jesus à noite, interveio. Ele lembrou um princípio básico da justiça judaica: 'Por acaso nossa Lei julga ao homem sem primeiro o ouvir, e entender o que faz?'.\n\nEm vez de responderem à questão legal, os fariseus atacaram a origem de Nicodemos, dizendo que ele era da Galileia e que nenhum profeta havia surgido ali. Essa troca mostra que, muitas vezes, a arrogância impede que as pessoas reconheçam a verdade, mesmo quando ela está diante delas.",
+ "ligar": {
+  "texto": "Este trecho mostra o contraste entre a reação dos líderes e a atração que exercia sobre Jesus. Enquanto os fariseus se fechavam em suas tradições e preconceitos, os oficiais reconheciam a autoridade única de Jesus. A recusa em ouvi-lo revela o perigo de deixar que o orgulho espiritual bloqueie a visão de Cristo. Jesus continua sendo a voz que divide opiniões: ou é reconhecido como o Profeta e o Cristo, ou é rejeitado com base em critérios humanos. A justiça de Deus exige que estejamos abertos para ouvir a Ele antes de emitir qualquer veredito sobre sua obra em nossas vidas.",
+  "selo": true
+ },
+ "viver": "Que tal praticar o 'ouvir primeiro' nas suas relações? Antes de criticar um familiar, colega ou amigo, faça a si mesmo a pergunta de Nicodemos: 'Eu realmente ouvi o que essa pessoa está dizendo?'. O preconceito, como o que os fariseus tinham contra a Galileia, nos cega para a ação de Deus em pessoas que não se encaixam no nosso molde. Tente, esta semana, suspender seu julgamento em uma situação de conflito. Pergunte, escute com atenção e só então responda. Você pode descobrir que a verdade está onde você menos esperava.",
+ "guarde": "A verdadeira justiça começa quando deixamos o orgulho de lado e ouvimos com atenção a voz do outro.",
+ "ore": "Pai, perdoa-me pelas vezes em que julguei rápido e não quis ouvir. Abre meus olhos para reconhecer a tua voz em Jesus e em quem Ele envia. Ensina-me a humildade de Nicodemos, que ousou defender a justiça diante dos líderes. Ajuda-me a não deixar que o preconceito me afaste da verdade. Em nome de Jesus, amém.",
+ "quiz": {
+  "pergunta": "Qual foi a resposta dos oficiais quando perguntaram por que não trouxeram Jesus?",
+  "opcoes": [
+   "A multidão impediu que o prendessem.",
+   "Ele estava muito ocupado ensinando.",
+   "Ninguém jamais falou assim como este homem."
+  ],
+  "certa": 2,
+  "explicacao": "O texto afirma explicitamente que os oficiais responderam que nunca haviam ouvido alguém falar de forma tão única, o que impediu que tomassem ação contra Jesus."
+ },
+ "refs": [
+  "João 3:1-15",
+  "Mateus 23:13-22",
+  "Atos 4:13-14",
+  "Provérbios 18:13"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.7-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T15:39:12.838Z",
+  "rounds": 1
+ }
+}

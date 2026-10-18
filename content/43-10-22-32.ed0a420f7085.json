@@ -1,0 +1,142 @@
+{
+ "id": "43-10-22-32",
+ "ref": "João 10:22-32",
+ "book": "43",
+ "chapter": 10,
+ "verses": [
+  {
+   "n": 22,
+   "t": "E era a festa da renovação do Templo em Jerusalém, e era inverno."
+  },
+  {
+   "n": 23,
+   "t": "E andava Jesus passeando no Templo, na entrada de Salomão."
+  },
+  {
+   "n": 24,
+   "t": "Rodearam-no, então, os Judeus, e lhe disseram: Até quando farás nossa alma em dúvida? Se tu és o Cristo, dize-nos abertamente."
+  },
+  {
+   "n": 25,
+   "t": "Respondeu-lhes Jesus: Já vos tenho dito, e não credes. As obras que eu faço em nome de meu Pai, essas testemunham de mim."
+  },
+  {
+   "n": 26,
+   "t": "Mas vós não credes, porque não sois de minhas ovelhas, como já vos tenho dito."
+  },
+  {
+   "n": 27,
+   "t": "Minhas ovelhas ouvem minha voz, e eu as conheço, e elas me seguem."
+  },
+  {
+   "n": 28,
+   "t": "E eu lhes dou a vida eterna, e para sempre não perecerão, e ninguém as arrancará de minha mão."
+  },
+  {
+   "n": 29,
+   "t": "Meu Pai, que as deu para mim, é maior que todos; e ninguém pode arrancá-las da mão de meu Pai."
+  },
+  {
+   "n": 30,
+   "t": "Eu e o Pai somos um."
+  },
+  {
+   "n": 31,
+   "t": "Voltaram pois os Judeus a tomar pedras para o apedrejarem."
+  },
+  {
+   "n": 32,
+   "t": "Respondeu-lhes Jesus: Muitas boas obras de meu Pai vos tenho mostrado; por qual obra destas me apedrejais?"
+  }
+ ],
+ "titulo": "Ninguém pode roubar quem Jesus ama",
+ "temas": [
+  "segurança",
+  "ovelhas",
+  "eternidade",
+  "identidade",
+  "fé"
+ ],
+ "pergunta": "O que te daria a certeza de que seu lugar no Reino é inabalável?",
+ "entender": "A cena ocorre durante a festa da renovação do Templo, em Jerusalém, no inverno. Jesus estava na entrada de Salomão quando os judeus o cercaram e exigiram uma resposta direta: \"Se tu és o Cristo, dize-nos abertamente\". Eles queriam uma prova concreta, mas Jesus respondeu que as obras que ele fazia em nome do Pai já testemunhavam a favor dele.\n\nJesus explica que a falta de fé não é apenas uma questão intelectual, mas de identidade: \"vós não credes, porque não sois de minhas ovelhas\". Ele descreve uma relação íntima: suas ovelhas ouvem sua voz, ele as conhece e elas o seguem. Em troca, ele lhes dá a vida eterna. A promessa é forte: elas não perecerão e ninguém poderá arrancá-las de sua mão, porque o Pai é maior que todos.\n\nAo afirmar \"Eu e o Pai somos um\", Jesus declara sua unidade com Deus, o que levou os judeus a pegar pedras para apedrejá-lo, vendo nisso uma blasfêmia. Jesus, porém, os desafia a apontar qual das muitas boas obras que ele lhes mostrou justificaria tal violência, redirecionando o foco para a evidência de seu caráter e missão.",
+ "ligar": {
+  "texto": "Este texto é o coração do evangelho: a segurança do crente não depende de seus méritos, mas da força do abraço de Cristo. Jesus se apresenta como o Pastor que garante a vida eterna. A salvação é pela graça: somos conhecidos e segurados firmemente. Isso nos leva a confiar em Jesus não apenas como salvador, mas como o único que pode nos manter seguros para sempre, removendo o medo da perda.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, nossa fé vacila porque tentamos nos segurar sozinhos. Este texto nos convida a descansar na mão de Jesus. Em momentos de dúvida ou ataque, lembre-se de que você não está pendurado por um fio, mas segurado por Deus. Pratique a escuta: assim como as ovelhas reconhecem a voz do pastor, dedique tempo diário à oração e à leitura da Bíblia para fortalecer essa intimidade. Isso transformará sua ansiedade em confiança tranquila.",
+ "guarde": "Sua segurança eterna não depende da sua força, mas da mão firme de Jesus que te segura.",
+ "ore": "Pai, em nome de Jesus, eu creio que sou teu. Obrigado por me conhecer pelo nome e por me segurar com força. Ajuda-me a ouvir tua voz acima do barulho do mundo. Que a certeza da minha vida eterna traga paz ao meu coração hoje e sempre. Amém.",
+ "quiz": {
+  "pergunta": "Segundo João 10:28-29, por que ninguém pode arrancar as ovelhas da mão de Jesus?",
+  "opcoes": [
+   "Porque as ovelhas são muito fortes fisicamente.",
+   "Porque o Pai, que as deu a Jesus, é maior que todos.",
+   "Porque Jesus paga um preço para mantê-las."
+  ],
+  "certa": 1,
+  "explicacao": "O texto afirma explicitamente que a segurança vem do poder do Pai, que é maior que todos, e da união entre o Pai e o Filho."
+ },
+ "refs": [
+  "João 14:3",
+  "Romanos 8:38-39",
+  "Efésios 1:13-14"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.7-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T16:00:09.354Z",
+  "rounds": 1
+ }
+}

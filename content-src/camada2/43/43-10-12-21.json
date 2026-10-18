@@ -1,0 +1,137 @@
+{
+ "id": "43-10-12-21",
+ "ref": "João 10:12-21",
+ "book": "43",
+ "chapter": 10,
+ "verses": [
+  {
+   "n": 12,
+   "t": "Mas o contratado a dinheiro, e que não é o pastor, a quem as ovelhas não pertencem, vê o lobo vir, deixa as ovelhas, e foge; o lobo as captura, e dispersa as ovelhas."
+  },
+  {
+   "n": 13,
+   "t": "E o contratado foge, porque é contratado, e não tem cuidado das ovelhas."
+  },
+  {
+   "n": 14,
+   "t": "Eu sou o bom Pastor, e conheço as minhas, e pelas minhas sou conhecido."
+  },
+  {
+   "n": 15,
+   "t": "Como o Pai me conhece, assim também também eu conheço o Pai; e dou a minha vida pelas ovelhas."
+  },
+  {
+   "n": 16,
+   "t": "Ainda tenho outras ovelhas que não são deste curral; a estas também me convém trazer, e ouvirão minha voz, e haverá um rebanho, e um pastor."
+  },
+  {
+   "n": 17,
+   "t": "Por isso o Pai me ama, porque dou a minha vida para tomá-la de volta."
+  },
+  {
+   "n": 18,
+   "t": "Ninguém a tira de mim, mas eu de mim mesmo a dou; tenho poder para a dar, e tenho poder para tomá-la de volta. Este mandamento recebi de meu Pai."
+  },
+  {
+   "n": 19,
+   "t": "Voltou, pois, a haver divisão entre os judeus, por causa dessas palavras."
+  },
+  {
+   "n": 20,
+   "t": "E muitos deles diziam: Ele tem demônio, e está fora de si; para que o ouvis?"
+  },
+  {
+   "n": 21,
+   "t": "Outros diziam: Estas palavras não são de um endemoninhado; por acaso pode um demônio dar vista aos cegos?"
+  }
+ ],
+ "titulo": "Quem cuida de verdade das ovelhas?",
+ "temas": [
+  "pastoreio",
+  "sacrifício",
+  "identidade",
+  "cuidado"
+ ],
+ "pergunta": "O que separa um líder que foge do perigo de um que se sacrifica por você?",
+ "entender": "Jesus continua a imagem do pastoreio iniciada nos versos anteriores. Ele contrasta a si mesmo com o \"contratado a dinheiro\", que não tem vínculo verdadeiro com as ovelhas. Quando o perigo (o lobo) aparece, esse contratado foge porque seu interesse é apenas o pagamento, não o bem-estar do rebanho. As ovelhas são capturadas e dispersas por falta de proteção real.\n\nEm oposição a isso, Jesus declara: \"Eu sou o bom Pastor\". O que define esse pastoreio não é apenas a presença, mas o conhecimento mútuo: \"conheço as minhas, e pelas minhas sou conhecido\". Esse conhecimento é profundo, comparado ao que o Pai tem de Jesus. A consequência prática desse amor é a entrega: Jesus \"dou a minha vida pelas ovelhas\". Ele não foge; Ele se entrega voluntariamente.\n\nO texto também revela um alcance maior: Jesus menciona \"outras ovelhas que não são deste curral\". Isso indica que seu cuidado não se limita a um grupo específico (os judeus da época), mas abrange todos os povos. O objetivo final é a unidade: \"haverá um rebanho, e um pastor\". A divisão entre os ouvintes (v. 19-21) mostra que essa verdade divide: alguns veem loucura, outros reconhecem o poder divino de curar cegueira.",
+ "ligar": {
+  "texto": "Este trecho é central para o evangelho porque mostra o custo da salvação. Jesus não é um líder distante ou um funcionário religioso; Ele é o Pastor que conhece cada um de nós por nome e se dispôs a morrer para nos resgatar. A menção às \"outras ovelhas\" nos inclui, mostrando que a graça de Deus se estende a todos os povos. A divisão entre os ouvintes nos convida a examinar nossa própria resposta: estamos entre os que rejeitam a voz do Pastor ou entre os que reconhecem em Jesus o único que pode dar vida e visão espiritual?",
+  "selo": true
+ },
+ "viver": "Pense nas pessoas que você considera seus \"líderes\" ou mentores. Eles agem como o contratado, cuidando de você apenas enquanto for conveniente ou lucrativo? Ou agem como o Bom Pastor, mostrando um cuidado que persiste mesmo quando há custo e risco? Em sua própria vida, você tem aceitado esse tipo de sacrifício? A segurança que Jesus oferece não vem de evitar o lobo, mas de enfrentar a morte em nosso lugar. Confie nessa proteção que é pessoal e voluntária, e deixe-se guiar por aquela voz que conhece o seu nome.",
+ "guarde": "O verdadeiro cuidado não foge do perigo, mas oferece a vida para proteger quem ama.",
+ "ore": "Senhor Jesus, obrigado por ser o Bom Pastor que me conhece pelo nome e se sacrificou por mim. Ajuda-me a reconhecer tua voz acima das outras e a confiar em teu cuidado diário. Ensina-me também a cuidar dos outros com o mesmo sacrifício de amor. Amém.",
+ "quiz": {
+  "pergunta": "Por que o \"contratado\" foge quando o lobo aparece, segundo o texto?",
+  "opcoes": [
+   "Porque é contratado e não tem cuidado das ovelhas.",
+   "Porque as ovelhas não o obedecem.",
+   "Porque tem medo do lobo e das ovelhas."
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente no versículo 13 que ele foge porque é contratado e não tem cuidado das ovelhas, indicando falta de vínculo afetivo ou responsabilidade real."
+ },
+ "refs": [
+  "Ezequiel 34:2-4",
+  "1 Pedro 2:25",
+  "João 13:34-35"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.7-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T15:58:03.184Z",
+  "rounds": 1
+ }
+}

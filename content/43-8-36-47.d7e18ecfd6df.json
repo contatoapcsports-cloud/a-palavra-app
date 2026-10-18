@@ -1,0 +1,146 @@
+{
+ "id": "43-8-36-47",
+ "ref": "João 8:36-47",
+ "book": "43",
+ "chapter": 8,
+ "verses": [
+  {
+   "n": 36,
+   "t": "Portanto, se o Filho vos libertar, verdadeiramente sereis livres."
+  },
+  {
+   "n": 37,
+   "t": "Bem sei que sois descendência de Abraão; porém procurais matar-me, porque minha palavra não encontra lugar em vós."
+  },
+  {
+   "n": 38,
+   "t": "Eu, o que vi junto a meu Pai, isso falo; e vós, o que também vistes junto a vosso pai isso fazeis."
+  },
+  {
+   "n": 39,
+   "t": "Responderam, e lhe disseram: Nosso pai é Abraão. Disse-lhes Jesus: Se fôsseis filhos de Abraão, faríeis as obras de Abraão."
+  },
+  {
+   "n": 40,
+   "t": "Porém agora procurais matar a mim, o homem que tenho vos falado a verdade que de Deus tenho ouvido; Abraão não fez isto."
+  },
+  {
+   "n": 41,
+   "t": "Vós fazeis as obras de vosso pai.Disseram-lhe pois: Nós não somos nascidos de pecado sexual; nós temos um Pai: Deus."
+  },
+  {
+   "n": 42,
+   "t": "Disse-lhes pois Jesus: Se Deus fosse vosso Pai, verdadeiramente me amaríeis; porque eu saí e venho de Deus; pois não vim de mim mesmo, porém ele me enviou."
+  },
+  {
+   "n": 43,
+   "t": "Por que não entendeis meu discurso? Porque não podeis ouvir minha palavra."
+  },
+  {
+   "n": 44,
+   "t": "Vós sois filhos de vosso pai, o Diabo, e quereis fazer os desejos de vosso pai; ele foi homicida desde o princípio, e não permaneceu na verdade, porque nele não há verdade; quando fala mentira, fala do seu próprio; porque é mentiroso, e pai da mentira ."
+  },
+  {
+   "n": 45,
+   "t": "Porém a mim, porque vos digo a verdade, não credes em mim."
+  },
+  {
+   "n": 46,
+   "t": "Quem de vós me convence de pecado? E se digo a verdade, por que não credes em mim?"
+  },
+  {
+   "n": 47,
+   "t": "Quem é de Deus, ouve as palavras de Deus; portanto vós não as ouvis porque não sois de Deus."
+  }
+ ],
+ "titulo": "Quem realmente é o pai de quem?",
+ "temas": [
+  "liberdade",
+  "verdade",
+  "identidade",
+  "deus",
+  "diabo"
+ ],
+ "pergunta": "Por que a verdade de Jesus causava tanto medo em quem o ouvia?",
+ "entender": "Neste diálogo tenso, Jesus confronta os líderes religiosos que o procuravam matar. Eles se orgulhavam de ser descendentes de Abraão, mas Jesus aponta que a herança verdadeira não é apenas biológica, mas moral. Quem faz as obras de Abraão é seu verdadeiro filho; quem mente e mata, segue outro caminho.\n\nJesus declara que veio de Deus e fala a verdade que ouviu do Pai. Os ouvintes, porém, não conseguem aceitar isso. Jesus então é direto: eles são filhos do Diabo, porque praticam os desejos dele, que é mentiroso e homicida desde o princípio. A liberdade prometida em João 8.36 só é possível para quem aceita a verdade de Jesus, pois o pecado escraviza.\n\nA divisão aqui não é étnica, mas espiritual. Aqueles que ouvem as palavras de Deus e as aceitam pertencem a Deus. A rejeição à verdade revela a origem espiritual da pessoa, não sua genealogia.",
+ "ligar": {
+  "texto": "Jesus se apresenta como o enviado de Deus, portador da verdade absoluta. A liberdade que Ele oferece (v. 36) é a libertação da escravidão do pecado e da mentira. O evangelho é a verdade que nos liberta e nos faz filhos de Deus por meio da fé em Cristo, que nos reconcilia com o Pai e nos dá uma nova identidade.",
+  "selo": true
+ },
+ "viver": "Pense nas áreas da sua vida onde você ainda mente, fofoca ou age com mágoa. O texto lembra que essas atitudes nos afastam de Deus e nos prendem. A liberdade real vem de confessar esses pecados e aceitar a verdade de Cristo. Você está disposto a trocar a mentira confortável pela verdade libertadora de Jesus?",
+ "guarde": "Quem ouve as palavras de Deus e as crê, é de Deus e é verdadeiramente livre.",
+ "ore": "Pai, ajuda-me a amar a verdade acima do conforto. Liberta-me de qualquer escravidão do pecado e da mentira. Que eu ouça Tua palavra e a pratique, reconhecendo Jesus como meu libertador e Senhor.",
+ "quiz": {
+  "pergunta": "Segundo Jesus em João 8.44, qual era a característica principal do Diabo?",
+  "opcoes": [
+   "Mentiroso e pai da mentira",
+   "Covarde e fraco",
+   "Triste e solitário"
+  ],
+  "certa": 0,
+  "explicacao": "Jesus afirma que no Diabo não há verdade e que quando ele fala, fala do seu próprio, sendo o pai da mentira."
+ },
+ "refs": [
+  "João 1:9",
+  "Romanos 6:18",
+  "2 Coríntios 11:14"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.7-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T15:47:14.287Z",
+  "rounds": 1
+ }
+}

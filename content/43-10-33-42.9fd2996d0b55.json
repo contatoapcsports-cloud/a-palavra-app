@@ -1,0 +1,138 @@
+{
+ "id": "43-10-33-42",
+ "ref": "João 10:33-42",
+ "book": "43",
+ "chapter": 10,
+ "verses": [
+  {
+   "n": 33,
+   "t": "Responderam-lhe os judeus dizendo: Por boa obra não te apedrejamos, mas pela blasfêmia; e porque sendo tu homem, a ti mesmo te fazes Deus."
+  },
+  {
+   "n": 34,
+   "t": "Respondeu-lhes Jesus: Não está escrito em vossa Lei: Eu disse: Sois deuses?"
+  },
+  {
+   "n": 35,
+   "t": "Pois se a Lei chamou deuses a aqueles, para quem a palavra de Deus foi feita, (e a Escritura não pode ser quebrada);"
+  },
+  {
+   "n": 36,
+   "t": "A mim ,a quem o Pai santificou, e ao mundo enviou, dizeis vós: Blasfemas; porque disse: Sou Filho de Deus?"
+  },
+  {
+   "n": 37,
+   "t": "Se não faço as obras de meu Pai, não creiais em mim."
+  },
+  {
+   "n": 38,
+   "t": "Porém se eu as faço, e não credes em mim, crede nas obras; para que conheçais e creiais que o Pai está em mim, e eu nele."
+  },
+  {
+   "n": 39,
+   "t": "Então procuravam outra vez prendê-lo; e ele saiu de suas mãos."
+  },
+  {
+   "n": 40,
+   "t": "E voltou a ir para o outro lado do Jordão, ao lugar onde João primeiro batizava; e ficou ali."
+  },
+  {
+   "n": 41,
+   "t": "E muitos vinham a ele, e diziam: Em verdade que nenhum sinal fez João; mas tudo quanto João disse deste era verdade."
+  },
+  {
+   "n": 42,
+   "t": "E muitos ali creram nele."
+  }
+ ],
+ "titulo": "A evidência que transforma a fé em certeza",
+ "temas": [
+  "testemunho",
+  "obras",
+  "identidade",
+  "fé"
+ ],
+ "pergunta": "Como podemos saber que as palavras de Jesus são verdadeiras se ele é apenas um homem?",
+ "entender": "Os judeus acusaram Jesus de blasfêmia por se declarar Filho de Deus. Jesus respondeu citando a Lei: se a palavra de Deus foi dada a homens e eles foram chamados de deuses, quanto mais Ele, a quem o Pai santificou e enviou ao mundo. O argumento dele é claro: se as obras que Ele faz não fossem do Pai, ninguém deveria crer. Mas, como Ele as faz, a resposta é crer nas obras para conhecer que o Pai está nele.\n\nDepois dessa discussão, Jesus saiu das mãos deles e voltou ao outro lado do Jordão. Lá, muitas pessoas vieram a Ele. Elas reconheciam que João Batista não havia feito sinais, mas que tudo o que disse sobre Jesus era verdade. Essa confissão sincera levou muitos a crerem em Jesus naquele lugar.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a divindade de Jesus. Ele não pede fé cega, mas convida a olhar para as obras que provam sua união com o Pai. O evangelho aqui é apresentado como uma fé fundamentada na evidência concreta do caráter e do poder de Cristo, confirmada pelo testemunho de João. Acreditar em Jesus é reconhecer que Ele revela o Pai de forma única e definitiva.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, duvidamos da fé por falta de provas tangíveis. Este texto nos ensina a olhar para a vida de Jesus e, por extensão, para a coerência dos que O seguem. Em vez de buscar sinais sobrenaturais para acreditar, observe como o amor de Cristo se manifesta no cuidado prático dos crentes. Se as obras de Jesus provam quem Ele é, as nossas ações devem refletir essa mesma verdade, gerando confiança em quem nos cerca e abrindo portas para o evangelho.",
+ "guarde": "As obras de Jesus são a prova visível de que o Pai está nele, e é nisso que a nossa fé se apoia.",
+ "ore": "Senhor, ajuda-me a não depender apenas de sentimentos, mas a crer nas Tuas obras. Que minha vida reflita a verdade que Tu revelaste, para que outros também possam Te conhecer através de mim.",
+ "quiz": {
+  "pergunta": "O que os que vieram a Jesus no outro lado do Jordão disseram sobre João Batista?",
+  "opcoes": [
+   "Que tudo o que João disse a respeito de Jesus era verdade.",
+   "Que João havia feito muitos sinais milagrosos.",
+   "Que João era o Messias esperado."
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente que 'nenhum sinal fez João', mas que 'tudo quanto João disse deste era verdade'. Eles reconhecem a veracidade do testemunho de João, não a realização de milagres por ele."
+ },
+ "refs": [
+  "João 3:2",
+  "Mateus 7:16",
+  "Atos 2:22",
+  "1 João 5:11"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T16:04:24.855Z",
+  "rounds": 2
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "id": "43-11-35-46",
+ "ref": "João 11:35-46",
+ "book": "43",
+ "chapter": 11,
+ "verses": [
+  {
+   "n": 35,
+   "t": "Jesus chorou."
+  },
+  {
+   "n": 36,
+   "t": "Disseram pois os Judeus: Vede como ele o amava!"
+  },
+  {
+   "n": 37,
+   "t": "E alguns deles disseram: Não podia este, que abriu os olhos ao cego, ter feito também que este não morresse?"
+  },
+  {
+   "n": 38,
+   "t": "Comovendo-se pois Jesus outra vez em si mesmo, veio à sepultura; e era esta uma caverna, e estava uma pedra posta sobre ela."
+  },
+  {
+   "n": 39,
+   "t": "Disse Jesus: Tirai a pedra. Marta, a irmã do morto, disse-lhe: Senhor, já cheira mal, porque já é de quatro dias."
+  },
+  {
+   "n": 40,
+   "t": "Jesus disse-lhe: Não te disse, que se creres, verás a glória de Deus?"
+  },
+  {
+   "n": 41,
+   "t": "Tiraram, pois, a pedra de onde o morto jazia. E Jesus levantou os olhos para cima, e disse: Pai, graças te dou, porque me tens ouvido."
+  },
+  {
+   "n": 42,
+   "t": "Porém eu bem sabia que sempre me ouves; mas por causa da multidão, que está ao redor, assim disse; para que creiam que tu me enviaste."
+  },
+  {
+   "n": 43,
+   "t": "E havendo dito isto, clamou com grande voz: Lázaro, sai fora."
+  },
+  {
+   "n": 44,
+   "t": "E o que estava morto saiu, com as mãos e os pés atados, e seu rosto envolto em um lenço. Disse-lhes Jesus: Desatai-o, e deixai-o ir."
+  },
+  {
+   "n": 45,
+   "t": "Pelo que, muitos dos Judeus, que tinham vindo a Maria, e haviam visto o que Jesus fizera, creram nele."
+  },
+  {
+   "n": 46,
+   "t": "Mas alguns deles foram aos fariseus, e lhes disseram o que Jesus havia feito."
+  }
+ ],
+ "titulo": "O choro de Jesus diante da morte",
+ "temas": [
+  "choro",
+  "ressurreição",
+  "fé",
+  "poder de deus"
+ ],
+ "pergunta": "O que o choro de Jesus revela sobre o valor que Ele dá à dor humana?",
+ "entender": "Quando Jesus chega à casa de Lázaro, encontra Maria e os amigos chorando. O texto diz simplesmente: \"Jesus chorou\". Essa é uma das declarações mais curtas e profundas da Bíblia. Ela mostra que Jesus não está distante da nossa dor; Ele compartilha o luto conosco. Os judeus observaram isso e disseram: \"Vede como ele o amava!\".\n\nApós o choro, Jesus vai à sepultura. Marta se preocupa com o cheiro, pois Lázaro está morto há quatro dias, mas Jesus a convida a crer para ver a glória de Deus. Ele ora ao Pai, agradecendo, e então clama com grande voz: \"Lázaro, sai fora\". O morto sai, vivo, e Jesus manda que o desatem. Esse evento confirma que Jesus tem autoridade sobre a morte.\n\nMuitos que viram isso creram em Jesus, mas alguns foram contar aos fariseus, mostrando que o milagre dividiu as pessoas. A cena nos lembra que a ressurreição de Lázaro não foi apenas um ato de bondade, mas uma demonstração clara do poder de Deus através de Cristo.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para Jesus como o Ressurreito e a Vida. O milagre de Lázaro é um sinal antecipado da própria ressurreição de Jesus. A fé que Marta e Maria expressam, apesar da dor, é a mesma fé que salva: confiar no poder de Deus mesmo quando a situação parece perdida. Jesus não apenas consola, mas vence a morte, oferecendo a esperança eterna a todos que creem nEle.",
+  "selo": true
+ },
+ "viver": "Em momentos de luto ou desespero, podemos sentir que Deus está distante. Este texto nos convida a levar nossa dor a Jesus, pois Ele chora conosco. Não precisamos fingir força. Podemos ser honestos com nossa tristeza, mas também podemos escolher crer que Ele tem poder para transformar a situação, assim como transformou a morte de Lázaro em vida. A fé não elimina a dor, mas nos dá a certeza de que a última palavra não é a morte, mas a vida em Cristo.",
+ "guarde": "Jesus chora conosco, mas também tem o poder de trazer vida onde só há morte.",
+ "ore": "Pai, obrigado por Jesus, que se comove com nossa dor. Quando eu choro, ajuda-me a crer que Tu tens poder para agir. Dá-me a fé para ver a Tua glória em minhas circunstâncias e a esperança da vida eterna em Cristo. Amém.",
+ "quiz": {
+  "pergunta": "O que Jesus fez antes de clamar para que Lázaro saísse da sepultura?",
+  "opcoes": [
+   "Chorar novamente",
+   "Orar ao Pai, agradecendo-O",
+   "Perguntar a Marta onde estava a pedra"
+  ],
+  "certa": 1,
+  "explicacao": "O texto diz que Jesus levantou os olhos para cima e disse: \"Pai, graças te dou, porque me tens ouvido\", antes de clamar com grande voz."
+ },
+ "refs": [
+  "João 5:28-29",
+  "1 Coríntios 15:54-55",
+  "Hebreus 7:25"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T16:14:24.782Z",
+  "rounds": 1
+ }
+}

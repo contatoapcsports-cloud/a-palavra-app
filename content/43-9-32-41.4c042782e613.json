@@ -1,0 +1,137 @@
+{
+ "id": "43-9-32-41",
+ "ref": "João 9:32-41",
+ "book": "43",
+ "chapter": 9,
+ "verses": [
+  {
+   "n": 32,
+   "t": "Desde o princípio dos tempos nunca se ouviu de que alguém que tenha aberto os olhos de um que tenha nascido cego."
+  },
+  {
+   "n": 33,
+   "t": "Se este não fosse vindo de Deus, nada poderia fazer."
+  },
+  {
+   "n": 34,
+   "t": "Eles responderam, e lhe disseram: Tu és todo nascido em pecados, e nos ensina? E o lançaram fora."
+  },
+  {
+   "n": 35,
+   "t": "Ouviu Jesus que o haviam lançado fora, e achando-o, disse-lhe: Crês tu no Filho de Deus?"
+  },
+  {
+   "n": 36,
+   "t": "Respondeu ele, e disse: Quem é, Senhor, para que nele creia?"
+  },
+  {
+   "n": 37,
+   "t": "E disse-lhe Jesus: Tu já o tens visto; e este é o que fala contigo."
+  },
+  {
+   "n": 38,
+   "t": "E ele disse: Creio, Senhor; E adorou-o."
+  },
+  {
+   "n": 39,
+   "t": "E disse Jesus: Eu vim a este mundo para juízo, para os que não veem, vejam; e os que veem, ceguem."
+  },
+  {
+   "n": 40,
+   "t": "E ouviram isto alguns dos fariseus, que estavam com ele; e lhe disseram: Também nós somos cegos?"
+  },
+  {
+   "n": 41,
+   "t": "Disse-lhes Jesus: Se fôsseis cegos, não teríeis pecado; mas agora dizeis: Vemos; portanto vosso pecado permanece."
+  }
+ ],
+ "titulo": "Por que os que viam ficaram cegos?",
+ "temas": [
+  "cegueira espiritual",
+  "humildade",
+  "fé",
+  "juízo"
+ ],
+ "pergunta": "Como a certeza de que estamos certos pode nos impedir de ver a verdade?",
+ "entender": "No capítulo 9 de João, um homem que nasceu cego é curado por Jesus. Ao ser interrogado pelos fariseus, ele defende a obra de Deus com simplicidade. Eles, no entanto, o acusam de ter nascido em pecado e o expulsam da sinagoga. A ironia é grande: os líderes religiosos, que deveriam enxergar a glória de Deus, preferem a tradição à evidência.\n\nAo saber da expulsão, Jesus encontra o homem e lhe pergunta se crê no Filho de Deus. O homem adora Jesus. Então Jesus declara que veio ao mundo para que os cegos vejam e os que se acham videntes fiquem cegos. Os fariseus, ofendidos, perguntam se eles também são cegos. Jesus responde que, se admitissem sua cegueira, não teriam pecado; mas, como dizem que veem, sua culpa permanece. A recusa em se reconhecerem pecadores é o que os mantém na escuridão.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para Jesus como a luz do mundo. Ele não apenas cura os olhos físicos, mas revela a si mesmo como o Filho de Deus. O evangelho é a luz que expõe a nossa própria cegueira espiritual. Jesus nos convida a admitir que, sem Ele, estamos cegos nos caminhos da vida, e a confiar Nele para enxergar a realidade eterna. A salvação começa quando deixamos de nos achar donos da verdade e aceitamos o guia que nos oferece.",
+  "selo": true
+ },
+ "viver": "Talvez você sinta que já entende tudo sobre Deus e não precisa mais de orientação. Este texto nos alerta: a certeza de que \"vemos\" pode ser a armadilha que impede o crescimento. Pratique a humildade ao estudar a Bíblia: pergunte-se o que você ainda não compreende. Se alguém te corrigir com gentileza, ouça antes de reagir com defesa. Admitir que precisamos de ajuda espiritual não é fraqueza, é o primeiro passo para enxergar a verdade de Cristo com clareza.",
+ "guarde": "Quem se recusa a admitir sua cegueira espiritual permanece preso no pecado; quem confia em Jesus ganha visão.",
+ "ore": "Senhor, eu me arrependo das vezes em que minha arrogância me fez fechar os olhos para a Tua verdade. Ajuda-me a ser humilde o suficiente para reconhecer minhas falhas e a buscar a Tua luz com sinceridade. Ensina-me a crer em Ti, meu único guia.",
+ "quiz": {
+  "pergunta": "Segundo Jesus no versículo 41, por que o pecado dos fariseus permanece?",
+  "opcoes": [
+   "Porque eles expulsaram o homem cego da cidade.",
+   "Porque eles não acreditaram na ressurreição.",
+   "Porque eles dizem que veem, recusando-se a admitir sua cegueira."
+  ],
+  "certa": 2,
+  "explicacao": "Jesus explica que se admitissem a cegueira, não teriam pecado; mas ao se acharem videntes, mantêm a culpa."
+ },
+ "refs": [
+  "Mateus 15:14",
+  "2 Coríntios 4:4",
+  "Provérbios 1:7"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.7-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T15:55:23.755Z",
+  "rounds": 2
+ }
+}

@@ -1,0 +1,142 @@
+{
+ "id": "43-11-47-57",
+ "ref": "João 11:47-57",
+ "book": "43",
+ "chapter": 11,
+ "verses": [
+  {
+   "n": 47,
+   "t": "Então os sacerdotes e os fariseus juntaram o supremo conselho, e disseram: Que faremos? Porque este homem faz muitos sinais."
+  },
+  {
+   "n": 48,
+   "t": "Se assim o deixamos, todos crerão nele, e virão os romanos, e nos tomarão tanto o lugar quanto a nação."
+  },
+  {
+   "n": 49,
+   "t": "E Caifás, um deles, que era sumo sacerdote daquele ano, lhes disse: Vós nada sabeis;"
+  },
+  {
+   "n": 50,
+   "t": "Nem considerais que nos convém, que um homem morra pelo povo, e toda a nação não pereça."
+  },
+  {
+   "n": 51,
+   "t": "E ele não disse isto de si mesmo; mas que, como era o sumo sacerdote daquele ano, profetizou que Jesus morreria pelo povo."
+  },
+  {
+   "n": 52,
+   "t": "E não somente por aquele povo, mas também para que juntasse em um aos filhos de Deus, que estavam dispersos."
+  },
+  {
+   "n": 53,
+   "t": "Então desde aquele dia se aconselhavam juntos para o matarem."
+  },
+  {
+   "n": 54,
+   "t": "De maneira que Jesus já não andava mais abertamente entre os judeus, mas foi-se dali para a terra junto ao deserto, a uma cidade chamada Efraim; e ali andava com seus discípulos."
+  },
+  {
+   "n": 55,
+   "t": "E estava perto a páscoa dos judeus, e muitos daquela terra subiram a Jerusalém antes da páscoa, para se purificarem."
+  },
+  {
+   "n": 56,
+   "t": "Buscavam pois a Jesus, e diziam uns aos outros estando no Templo: Que vos parece? Que ele não virá à festa?"
+  },
+  {
+   "n": 57,
+   "t": "E os sacerdotes e os fariseus tinham dado ordem de que, se alguém soubesse onde ele estava, o denunciasse, para que o pudessem prender."
+  }
+ ],
+ "titulo": "A profecia que selou o destino de Jesus",
+ "temas": [
+  "soberania",
+  "sacrifício",
+  "perseguição",
+  "fé",
+  "mistério"
+ ],
+ "pergunta": "Como as ações dos inimigos de Jesus podem cumprir exatamente o plano de Deus?",
+ "entender": "Após a ressurreição de Lázaro, os líderes religiosos se reuniram com medo. Eles temiam que a popularidade de Jesus trouxesse os romanos e destruísse sua influência política e religiosa. Foi então que Caifás, o sumo sacerdote, fez uma declaração chocante: \"nos convém, que um homem morra pelo povo\". Ele falava por interesse próprio, querendo eliminar a ameaça, mas Deus usou suas palavras para revelar um mistério profundo.\n\nO texto explica que Caifás não sabia o que dizia, mas, como sumo sacerdote, profetizou que Jesus morreria. Essa morte não seria apenas por aquele povo específico, mas para \"juntasse em um aos filhos de Deus\". Isso mostra que o plano de Deus é maior que as intenções humanas. Enquanto os líderes traçavam a morte de Jesus, Ele se afastou para Efraim, preparando-se para a Páscoa, ciente de que sua hora havia chegado.",
+ "ligar": {
+  "texto": "Este trecho é central para o evangelho porque mostra que a cruz não foi um acidente ou uma derrota, mas o cumprimento da vontade de Deus. Caifás, sem saber, apontou que o sacrifício de Jesus tem um alcance universal: unir todos os que creem, de qualquer origem, em uma só família. A morte de Jesus é o meio pelo qual essa unidade e a salvação são possíveis para nós.",
+  "selo": true
+ },
+ "viver": "Às vezes, percebemos que as circunstâncias ao nosso redor parecem caóticas ou hostis. Este texto nos ensina a confiar que Deus está no controle, mesmo quando pessoas com más intenções agem. Quando você se sentir pressionado ou perseguido por causa da fé, lembre-se de que Deus pode usar até as situações mais difíceis para cumprir Seus propósitos eternos. Confie que Sua presença o protege e que Seu plano é de amor e vida, não de destruição.",
+ "guarde": "Deus transforma as intenções malignas dos homens no cumprimento de Sua promessa de salvação e unidade.",
+ "ore": "Pai, eu confio que Tu controlas tudo, mesmo quando não entendo. Mostra-me a tua mão em minha vida e fortalece minha fé em Jesus como meu Salvador.",
+ "quiz": {
+  "pergunta": "O que o texto diz sobre a intenção de Caifás ao sugerir a morte de um homem?",
+  "opcoes": [
+   "Ele estava tentando salvar o povo de uma praga divina.",
+   "Ele sabia exatamente que Jesus era o Messias e queria matá-lo.",
+   "Ele falava por interesse político e religioso, sem saber que estava profetizando a morte de Jesus."
+  ],
+  "certa": 2,
+  "explicacao": "O texto afirma claramente que Caifás não disse aquilo de si mesmo, mas profetizou por ser sumo sacerdote, revelando o propósito de Deus para a morte de Jesus."
+ },
+ "refs": [
+  "Atos 4:27-28",
+  "Isaías 53:5",
+  "João 12:32"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T16:22:06.442Z",
+  "rounds": 4
+ }
+}
