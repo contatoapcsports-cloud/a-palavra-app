@@ -1,12 +1,12 @@
 /* Fábrica de ensinos: um modelo gera, dois de famílias diferentes (entre si e do gerador) auditam os 36 critérios.
    Os DOIS precisam aprovar tudo. Cada provedor gratuito tem limite diário: quando um acaba, a fábrica troca pelo próximo modelo permitido;
    se não sobrar nenhuma combinação válida, a execução para e retoma no horário seguinte. Vários ensinos andam em paralelo (CONCURRENCIA).
-   Uso: node scripts/fabrica/rodar.mjs [raiz]   Variáveis: MAX_ITENS, MAX_MINUTOS, CONCURRENCIA, GROQ_API_KEY, GEMINI_API_KEY, CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID. */
+   Uso: node scripts/fabrica/rodar.mjs [raiz]   Variáveis: MAX_ITENS, MAX_MINUTOS, CONCURRENCIA, GROQ_API_KEY, GEMINI_API_KEY, CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, CEREBRAS_API_KEY (opcional). */
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from 'node:fs';
 import { join, resolve, dirname } from 'node:path';
 import { createRequire } from 'node:module';
 import { fileURLToPath } from 'node:url';
-import { Groq, Gemini, Cloudflare, QuotaError } from './provedores.mjs';
+import { Groq, Gemini, Cloudflare, Cerebras, QuotaError } from './provedores.mjs';
 import { montarFila } from './fila.mjs';
 import { validarLocal, refsValidas } from './local.mjs';
 import { SISTEMA_GERADOR, pedidoGerador, SISTEMA_AUDITOR, pedidoAuditor } from './prompts.mjs';
@@ -50,7 +50,12 @@ function carregarProntos() {
 }
 
 /* ---------- provedores (um objeto por modelo; o mesmo modelo pode gerar ou auditar, mas nunca os dois no mesmo ensino) ---------- */
-const CHAVES = { groq: ['GROQ_API_KEY'], gemini: ['GEMINI_API_KEY'], cloudflare: ['CLOUDFLARE_API_TOKEN', 'CLOUDFLARE_ACCOUNT_ID'] };
+/* provedores opcionais: sem a chave, o modelo simplesmente não entra (a fábrica continua com os outros) */
+const OPCIONAL = { cerebras: 'CEREBRAS_API_KEY' };
+const semChave = d => d.provedor && OPCIONAL[d.provedor] && !env[OPCIONAL[d.provedor]];
+const idsFora = new Set([...(cfg.geradores || []), ...(cfg.auditores_1 || []), ...(cfg.auditores_2 || [])].filter(semChave).map(d => d.id));
+for (const k of ['geradores', 'auditores_1', 'auditores_2']) cfg[k] = (cfg[k] || []).filter(d => !semChave(d) && !idsFora.has(d.id));
+const CHAVES = { groq: ['GROQ_API_KEY'], cerebras: ['CEREBRAS_API_KEY'], gemini: ['GEMINI_API_KEY'], cloudflare: ['CLOUDFLARE_API_TOKEN', 'CLOUDFLARE_ACCOUNT_ID'] };
 const defs = new Map();
 for (const lista of [cfg.geradores, cfg.auditores_1, cfg.auditores_2]) for (const d of lista) if (d.provedor) defs.set(d.id, d);
 const objs = new Map();
@@ -61,6 +66,7 @@ function obter(id) {
   let o;
   if (d.provedor === 'groq') o = new Groq({ ...comum, modelo: d.modelo, esforco: d.esforco, limiteTpm: d.limite_tpm, chave: env.GROQ_API_KEY, ...(env.GROQ_BASE_URL ? { base: env.GROQ_BASE_URL } : {}) });
   else if (d.provedor === 'gemini') o = new Gemini({ ...comum, modelos: env.GEMINI_MODEL ? [env.GEMINI_MODEL] : (d.modelos || [d.modelo]), chave: env.GEMINI_API_KEY, ...(env.GEMINI_BASE_URL ? { base: env.GEMINI_BASE_URL } : {}) });
+  else if (d.provedor === 'cerebras') o = new Cerebras({ ...comum, modelo: d.modelo, esforco: d.esforco, chave: env.CEREBRAS_API_KEY, ...(env.CEREBRAS_BASE_URL ? { base: env.CEREBRAS_BASE_URL } : {}) });
   else o = new Cloudflare({ ...comum, modelos: d.modelos, chave: env.CLOUDFLARE_API_TOKEN, conta_id: env.CLOUDFLARE_ACCOUNT_ID, ...(env.CLOUDFLARE_BASE_URL ? { base: env.CLOUDFLARE_BASE_URL } : {}) });
   objs.set(id, o); return o;
 }
