@@ -1,0 +1,569 @@
+Pacote de atualização do app Palavra Viva. Este arquivo é lido e aplicado automaticamente pelo workflow "aplicar-pacote" (não precisa abrir nem editar).
+Ele grava só os arquivos listados abaixo, confere o checksum de cada um, remonta o manifesto, roda a validação e os testes, grava no repositório e publica o site. Não apaga a Bíblia nem os ensinos já prontos.
+
+==================== ARQUIVOS ====================
+<<<FILE fabrica/config.json>>>
+{
+  "contrato": "pv-ensino-1",
+  "max_versiculos": 12,
+  "ordem_livros": [
+    "43",
+    "41",
+    "42",
+    "40",
+    "44",
+    "45",
+    "19",
+    "20",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "1",
+    "2"
+  ],
+  "geradores": [
+    {
+      "id": "groq-gpt",
+      "provedor": "groq",
+      "modelo": "openai/gpt-oss-120b",
+      "familia": "openai",
+      "esforco": "low",
+      "limite_tpm": 7000
+    },
+    {
+      "id": "groq-qwen",
+      "provedor": "groq",
+      "modelo": "qwen/qwen3.8-27b",
+      "familia": "alibaba",
+      "limite_tpm": 5000
+    }
+  ],
+  "auditores_1": [
+    {
+      "id": "gemini",
+      "provedor": "gemini",
+      "modelos": [
+        "gemini-3.8-flash",
+        "gemini-3.7-flash",
+        "gemini-3.5-flash",
+        "gemini-3.1-flash-lite",
+        "gemini-flash-latest"
+      ],
+      "familia": "google"
+    }
+  ],
+  "auditores_2": [
+    {
+      "id": "cloudflare",
+      "provedor": "cloudflare",
+      "modelos": [
+        "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "@cf/meta/llama-4-scout-17b-16e-instruct",
+        "@cf/meta/llama-3.1-70b-instruct"
+      ],
+      "familia": "meta"
+    },
+    {
+      "id": "groq-gpt"
+    },
+    {
+      "id": "groq-qwen"
+    }
+  ],
+  "rodadas_por_unidade": 4,
+  "execucoes_ate_travar": 3
+}
+<<<END>>>
+
+<<<FILE scripts/fabrica/prompts.mjs>>>
+import { CRITERIOS, GATES } from './criterios.mjs';
+
+export const SISTEMA_GERADOR = doutrina => `Você escreve ensinos bíblicos curtos para um aplicativo gratuito de estudo da Bíblia, em português do Brasil, para leitores comuns (do jovem ao idoso), sem formação teológica.
+O texto bíblico (Bíblia Livre, 2018) vem no pedido e é a única fonte que você pode citar. REGRA DE CITAÇÃO: só use aspas para copiar, letra por letra, palavras que estão no texto do pedido (no máximo 12 palavras seguidas). Se não tiver certeza de que a frase está idêntica, NÃO use aspas: explique com suas palavras e indique a referência (ex.: João 3.16). Não cite de memória, não invente versículos, não acrescente fatos que não estejam no texto ou que não sejam amplamente certos.
+Cada ensino deve ensinar o evangelho, despertar curiosidade e ser concreto: nada de frases genéricas que serviriam a qualquer passagem. Varie a forma de começar cada seção. Não mencione IA, sistema, prompt ou auditoria.
+
+LINHA DOUTRINÁRIA:
+${doutrina}
+
+Responda sempre e somente com um objeto JSON válido.`;
+
+export function pedidoGerador(u, recentes, feedback) {
+  const texto = u.verses.map(v => v.n + ' ' + v.t).join('\n');
+  const antes = u.antes.length ? u.antes.map(v => v.n + ' ' + v.t).join('\n') : '(início do capítulo)';
+  const depois = u.depois.length ? u.depois.map(v => v.n + ' ' + v.t).join('\n') : '(fim do capítulo)';
+  let p = `TRECHO-ALVO: ${u.ref} (${u.bookName})
+
+TEXTO DO TRECHO-ALVO:
+${texto}
+
+CONTEXTO ANTES (não é o alvo):
+${antes}
+
+CONTEXTO DEPOIS (não é o alvo):
+${depois}
+`;
+  if (recentes.length) p += `\nENSINOS JÁ PRONTOS (não repita título, ideias nem a forma de começar): ${recentes.join(' | ')}\n`;
+  p += `
+Produza um objeto JSON com exatamente estas chaves:
+- "titulo": 3 a 9 palavras, desperta curiosidade sem exagero.
+- "temas": lista de 3 a 5 palavras-chave simples em minúsculas (ex.: "perdão", "fé").
+- "pergunta": uma pergunta curta (até 150 caracteres) para a pessoa pensar ANTES de ler, terminando com "?".
+- "entender": 2 ou 3 parágrafos separados por uma linha em branco, de 600 a 1100 caracteres no total: o que o texto diz, o contexto e o sentido, em linguagem simples. Pode citar trechos curtos (até 12 palavras, entre aspas, exatamente como no texto).
+- "ligar": de 250 a 600 caracteres: como este trecho aponta para Jesus e o evangelho. Seja proporcional: firme onde o texto fala de Cristo, cuidadoso onde a ligação é por um tema mais amplo.
+- "ligar_selo": true somente se o próprio texto fala de Cristo ou o anuncia de modo claro; senão false.
+- "viver": 1 ou 2 parágrafos (250 a 700 caracteres) com uma aplicação concreta que decorre do texto, para a vida de hoje.
+- "guarde": uma frase curta e marcante (até 24 palavras) para guardar no coração; pode ser uma ideia do texto em suas palavras.
+- "ore": uma oração curta em primeira pessoa (100 a 380 caracteres), específica deste texto.
+- "teste": objeto com "pergunta" (sobre o que o texto diz), "certa" (a resposta correta, curta), "erradas" (lista de 2 respostas erradas mas plausíveis, curtas) e "explicacao" (1 ou 2 frases dizendo por que a certa está certa, de 40 a 280 caracteres).
+- "refs": lista de 2 a 4 referências cruzadas reais e pertinentes, no formato "Livro cap:vers" ou "Livro cap:vers-vers" (ex.: "Romanos 5:8"), de OUTROS trechos da Bíblia que ajudam a entender este.
+`;
+  if (feedback) p += `\nSUA VERSÃO ANTERIOR FOI RECUSADA. Versão anterior:\n${JSON.stringify(feedback.anterior)}\n\nProblemas apontados (corrija todos, sem criar outros e sem perder o que estava bom):\n${feedback.falhas.map(f => '- ' + f).join('\n')}\n`;
+  return p;
+}
+
+export const SISTEMA_AUDITOR = doutrina => `Você é auditor rigoroso de ensinos bíblicos de um aplicativo cristão em português do Brasil. Confira o ENSINO contra o TEXTO BÍBLICO dado e contra os 36 critérios abaixo.
+Para cada critério responda "P" (passou) ou "F" (falhou). Marque "F" somente quando houver um problema concreto que você consiga apontar em uma frase; se não houver, marque "P". Não invente problemas e não deixe passar erro de fato, de contexto, de doutrina ou de linguagem. Em dúvida real sobre um fato bíblico, marque "F".
+
+LINHA DOUTRINÁRIA DO PROJETO:
+${doutrina}
+
+CRITÉRIOS:
+${GATES.map((g, i) => (i + 1) + '. ' + g + ': ' + CRITERIOS[g]).join('\n')}
+
+Responda SOMENTE com um objeto JSON no formato:
+{"criterios": {${GATES.map(g => '"' + g + '":"P"').join(', ')}}, "problemas": [{"criterio": "NOME", "motivo": "uma frase"}]}
+Use "P" ou "F" em cada um dos 36 critérios. A lista "problemas" deve ter uma entrada para cada "F" e ficar vazia se tudo passou.`;
+
+export function pedidoAuditor(u, d) {
+  const letra = ['A', 'B', 'C'];
+  return `TRECHO-ALVO: ${u.ref} (${u.bookName})
+
+TEXTO BÍBLICO DO TRECHO-ALVO:
+${u.verses.map(v => v.n + ' ' + v.t).join('\n')}
+
+CONTEXTO ANTES:
+${u.antes.map(v => v.n + ' ' + v.t).join('\n') || '(início do capítulo)'}
+
+CONTEXTO DEPOIS:
+${u.depois.map(v => v.n + ' ' + v.t).join('\n') || '(fim do capítulo)'}
+
+ENSINO A AUDITAR:
+TÍTULO: ${d.titulo}
+PERGUNTA PARA PENSAR ANTES DE LER: ${d.pergunta}
+ENTENDER:
+${d.entender}
+LIGAR AO EVANGELHO (${d.ligar.selo ? 'com selo "Cristo neste texto"' : 'sem selo'}):
+${d.ligar.texto}
+VIVER:
+${d.viver}
+GUARDE: ${d.guarde}
+ORE: ${d.ore}
+TESTE: ${d.quiz.pergunta}
+${d.quiz.opcoes.map((o, i) => letra[i] + ') ' + o).join('\n')}
+RESPOSTA MARCADA COMO CERTA: ${letra[d.quiz.certa]}
+EXPLICAÇÃO: ${d.quiz.explicacao}
+REFERÊNCIAS CRUZADAS: ${d.refs.join('; ')}
+
+Audite agora e responda somente com o JSON pedido.`;
+}
+<<<END>>>
+
+<<<FILE scripts/fabrica/provedores.mjs>>>
+/* Chamadas às APIs gratuitas (Groq, Gemini, Cloudflare Workers AI). Sem dependências: usa fetch do Node 22.
+   Regras: nunca imprime chave; 429 de limite por minuto espera e tenta de novo; 429 de limite diário bloqueia o provedor até o fim da execução. */
+export class QuotaError extends Error { constructor(prov, msg) { super(prov + ': limite diário atingido (' + msg + ')'); this.quota = true; this.prov = prov; } }
+export class ProvError extends Error { constructor(prov, msg, status) { super(prov + ': ' + msg); this.prov = prov; this.status = status; } }
+
+const dormir = ms => new Promise(r => setTimeout(r, ms));
+export function extrairJson(texto) {
+  let t = String(texto == null ? '' : texto).trim();
+  t = t.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '');
+  try { return JSON.parse(t); } catch { /* tenta recortar */ }
+  const a = t.indexOf('{'), b = t.lastIndexOf('}');
+  if (a >= 0 && b > a) { try { return JSON.parse(t.slice(a, b + 1)); } catch { /* falhou */ } }
+  throw new Error('resposta sem JSON válido');
+}
+const DIARIO = /per day|daily|rpd|tpd|neurons|free allocation|quota exceeded|exceeded your current quota|resource_exhausted.*(day|quota)/i;
+function esperaDe(resp, corpo) {
+  const h = Number(resp.headers.get('retry-after'));
+  if (h > 0) return h;
+  const m = /try again in\s+(?:(\d+)h)?(?:(\d+)m)?(?:([\d.]+)s)?/i.exec(corpo) || /retryDelay"?\s*[:=]\s*"?(\d+)s/i.exec(corpo);
+  if (m && m.length === 4) return (+m[1] || 0) * 3600 + (+m[2] || 0) * 60 + (+m[3] || 0);
+  if (m && m.length === 2) return +m[1];
+  return 0;
+}
+
+export class Provedor {
+  /* opts: { nome, familia, modelo, base, minIntervaloMs, log, semEspera } */
+  constructor(o) { Object.assign(this, { chamadas: 0, tokensIn: 0, tokensOut: 0, bloqueado: null, ultimo: 0, janela: [] }, o); }
+  /* limite de tokens por minuto (TPM): espera a janela de 60 s ter espaço antes de chamar, em vez de bater no 429 */
+  async reservar(est) {
+    if (!this.limiteTpm || this.semEspera) return null;
+    for (;;) {
+      const agora = Date.now(); this.janela = this.janela.filter(x => agora - x.t < 60000);
+      const soma = this.janela.reduce((a, x) => a + x.n, 0);
+      if (soma + est <= this.limiteTpm || !this.janela.length) { const r = { t: agora, n: est }; this.janela.push(r); return r; }
+      await dormir(Math.max(500, 60000 - (agora - this.janela[0].t) + 200));
+    }
+  }
+  async ritmo() { // serializa o espaçamento entre chamadas, mesmo com vários trabalhos em paralelo
+    const anterior = this.vez || Promise.resolve(); let solta; this.vez = new Promise(r => { solta = r; });
+    await anterior;
+    const falta = this.ultimo + (this.minIntervaloMs || 0) - Date.now();
+    if (falta > 0 && !this.semEspera) await dormir(falta);
+    this.ultimo = Date.now(); solta();
+  }
+  async http(url, init) {
+    if (this.bloqueado) throw new QuotaError(this.nome, this.bloqueado);
+    let ultimoErro;
+    for (let t = 1; t <= 8; t++) {
+      await this.ritmo();
+      let r, corpo;
+      try { r = await fetch(url, init); corpo = await r.text(); }
+      catch (e) { ultimoErro = new ProvError(this.nome, 'rede: ' + e.message); if (!this.semEspera) await dormir(Math.min(5000 * t, 30000)); continue; }
+      if (r.ok) { this.chamadas++; return corpo; }
+      const trecho = corpo.slice(0, 400).replace(/\s+/g, ' ');
+      if (r.status === 429 || (r.status === 403 && DIARIO.test(corpo))) {
+        const espera = esperaDe(r, corpo);
+        if (DIARIO.test(corpo) && !/per minute|rpm|tpm/i.test(corpo) || espera > 180) { this.bloqueado = trecho; throw new QuotaError(this.nome, trecho); }
+        ultimoErro = new ProvError(this.nome, '429 ' + trecho, 429);
+        if (!this.semEspera) await dormir(Math.min(Math.max(espera * 1000 + 1000, 3000), 120000));
+        continue;
+      }
+      if (r.status >= 500) { ultimoErro = new ProvError(this.nome, r.status + ' ' + trecho, r.status); if (!this.semEspera) await dormir(Math.min(8000 * t, 40000)); continue; }
+      throw new ProvError(this.nome, r.status + ' ' + trecho, r.status);
+    }
+    throw ultimoErro || new ProvError(this.nome, 'falhou');
+  }
+  conta(i, o) { this.tokensIn += i || 0; this.tokensOut += o || 0; }
+  resumo() { return this.nome + ' (' + this.modelo + '): ' + this.chamadas + ' chamadas, ' + this.tokensIn + ' tokens entrada, ' + this.tokensOut + ' saída' + (this.bloqueado ? ' [LIMITE DIÁRIO ATINGIDO]' : ''); }
+}
+
+export class Groq extends Provedor {
+  constructor(o) { super({ nome: 'groq', base: 'https://api.groq.com', minIntervaloMs: 2600, ...o }); }
+  async json({ system, user, max = 4000, temp = 0.6 }) {
+    const corpo = { model: this.modelo, messages: [{ role: 'system', content: system }, { role: 'user', content: user }], temperature: temp, max_completion_tokens: max, response_format: { type: 'json_object' } };
+    if (this.esforco) corpo.reasoning_effort = this.esforco;
+    else if (this.familia !== 'openai') corpo.reasoning_format = 'hidden'; // modelos que "pensam" (Qwen): não devolver o raciocínio no texto
+    const chamar = c => this.http(this.base + '/openai/v1/chat/completions', { method: 'POST', headers: { 'content-type': 'application/json', authorization: 'Bearer ' + this.chave }, body: JSON.stringify(c) });
+    const reserva = await this.reservar(Math.round((system.length + user.length) / 3.2 + 2300));
+    let txt;
+    for (const campo of ['', 'reasoning_format', 'reasoning_effort', 'response_format']) { // se a API recusar (400) um parâmetro opcional, tenta sem ele
+      if (campo) delete corpo[campo];
+      try { txt = await chamar(corpo); break; }
+      catch (e) { if (!(e.status === 400 && campo !== 'response_format')) throw e; }
+    }
+    if (txt === undefined) throw new ProvError(this.nome, 'a API recusou o pedido (400) mesmo sem parâmetros opcionais', 400);
+    const j = JSON.parse(txt), ch = j.choices && j.choices[0];
+    this.conta(j.usage && j.usage.prompt_tokens, j.usage && j.usage.completion_tokens);
+    if (reserva && j.usage) reserva.n = (j.usage.prompt_tokens || 0) + (j.usage.completion_tokens || 0);
+    if (!ch || !ch.message || !ch.message.content) throw new ProvError(this.nome, 'resposta vazia (' + (ch && ch.finish_reason) + ')');
+    if (ch.finish_reason === 'length') throw new ProvError(this.nome, 'resposta cortada (max tokens)');
+    return extrairJson(ch.message.content);
+  }
+}
+
+export class Gemini extends Provedor {
+  /* modelos: lista em ordem de preferência; se o servidor disser que o modelo não existe ou não está mais disponível (404), passa ao próximo. */
+  constructor(o) { super({ nome: 'gemini', base: 'https://generativelanguage.googleapis.com', minIntervaloMs: 7000, ...o }); this.modelos = o.modelos || [o.modelo]; this.modelo = this.modelos[0]; }
+  async json({ system, user, max = 8192, temp = 0.1 }) {
+    let ultimo;
+    for (let i = this.modelos.indexOf(this.modelo); i < this.modelos.length; i++) {
+      this.modelo = this.modelos[i];
+      const corpo = { systemInstruction: { parts: [{ text: system }] }, contents: [{ role: 'user', parts: [{ text: user }] }], generationConfig: { temperature: temp, responseMimeType: 'application/json', maxOutputTokens: max } };
+      try {
+        const txt = await this.http(this.base + '/v1beta/models/' + this.modelo + ':generateContent', { method: 'POST', headers: { 'content-type': 'application/json', 'x-goog-api-key': this.chave }, body: JSON.stringify(corpo) });
+        const j = JSON.parse(txt);
+        const c0 = j.candidates && j.candidates[0], u = j.usageMetadata || {};
+        this.conta(u.promptTokenCount, (u.candidatesTokenCount || 0) + (u.thoughtsTokenCount || 0));
+        if (!c0 || !c0.content || !c0.content.parts) throw new ProvError(this.nome, 'resposta vazia (' + (c0 && c0.finishReason || (j.promptFeedback && j.promptFeedback.blockReason) || '?') + ')');
+        if (c0.finishReason === 'MAX_TOKENS') throw new ProvError(this.nome, 'resposta cortada (max tokens)');
+        return extrairJson(c0.content.parts.filter(p => !p.thought).map(p => p.text || '').join(''));
+      } catch (e) {
+        if (e.quota) throw e;
+        ultimo = e;
+        if (e.status === 404 && i < this.modelos.length - 1) continue; // modelo indisponível: próximo da lista
+        throw e;
+      }
+    }
+    throw ultimo || new ProvError(this.nome, 'nenhum modelo disponível');
+  }
+}
+
+export class Cloudflare extends Provedor {
+  /* modelos: lista em ordem de preferência; só modelos fortes (evita auditor fraco). */
+  constructor(o) { super({ nome: 'cloudflare', base: 'https://api.cloudflare.com', minIntervaloMs: 1500, ...o }); this.modelos = o.modelos || [o.modelo]; this.modelo = this.modelos[0]; }
+  async json({ system, user, max = 3000, temp = 0.1 }) {
+    let ultimo;
+    for (let i = this.modelos.indexOf(this.modelo); i < this.modelos.length; i++) {
+      this.modelo = this.modelos[i];
+      const corpo = { messages: [{ role: 'system', content: system }, { role: 'user', content: user }], max_tokens: max, temperature: temp, response_format: { type: 'json_object' } };
+      try {
+        const chamar = c => this.http(this.base + '/client/v4/accounts/' + this.conta_id + '/ai/run/' + this.modelo, { method: 'POST', headers: { 'content-type': 'application/json', authorization: 'Bearer ' + this.chave }, body: JSON.stringify(c) });
+        let txt;
+        try { txt = await chamar(corpo); }
+        catch (e1) { if (e1.status === 400 && corpo.response_format && !/no route|not found/i.test(e1.message)) { delete corpo.response_format; txt = await chamar(corpo); } else throw e1; } // modelo sem "modo JSON": pede só no texto
+        const j = JSON.parse(txt);
+        if (j.success === false) { const msg = JSON.stringify(j.errors || j).slice(0, 300); if (DIARIO.test(msg)) { this.bloqueado = msg; throw new QuotaError(this.nome, msg); } throw new ProvError(this.nome, msg, 400); }
+        const r = j.result || {}, u = r.usage || {};
+        this.conta(u.prompt_tokens, u.completion_tokens);
+        const resp = r.response != null ? r.response : (r.choices && r.choices[0] && r.choices[0].message && r.choices[0].message.content);
+        if (resp && typeof resp === 'object') return resp;
+        if (!resp) throw new ProvError(this.nome, 'resposta vazia');
+        return extrairJson(resp);
+      } catch (e) {
+        if (e.quota) throw e;
+        ultimo = e;
+        if (e.status === 404 || (e.status === 400 && /model|no route|not found/i.test(e.message))) continue; // modelo indisponível: próximo da lista
+        throw e;
+      }
+    }
+    throw ultimo || new ProvError(this.nome, 'nenhum modelo disponível');
+  }
+}
+<<<END>>>
+
+<<<FILE scripts/fabrica/rodar.mjs>>>
+/* Fábrica de ensinos: um modelo gera, dois de famílias diferentes (entre si e do gerador) auditam os 36 critérios.
+   Os DOIS precisam aprovar tudo. Cada provedor gratuito tem limite diário: quando um acaba, a fábrica troca pelo próximo modelo permitido;
+   se não sobrar nenhuma combinação válida, a execução para e retoma no horário seguinte. Vários ensinos andam em paralelo (CONCURRENCIA).
+   Uso: node scripts/fabrica/rodar.mjs [raiz]   Variáveis: MAX_ITENS, MAX_MINUTOS, CONCURRENCIA, GROQ_API_KEY, GEMINI_API_KEY, CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID. */
+import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from 'node:fs';
+import { join, resolve, dirname } from 'node:path';
+import { createRequire } from 'node:module';
+import { fileURLToPath } from 'node:url';
+import { Groq, Gemini, Cloudflare, QuotaError } from './provedores.mjs';
+import { montarFila } from './fila.mjs';
+import { validarLocal, refsValidas } from './local.mjs';
+import { SISTEMA_GERADOR, pedidoGerador, SISTEMA_AUDITOR, pedidoAuditor } from './prompts.mjs';
+import { GATES } from './criterios.mjs';
+
+const raiz = resolve(process.argv[2] || join(dirname(fileURLToPath(import.meta.url)), '../..'));
+const R = (...p) => join(raiz, ...p);
+const J = p => JSON.parse(readFileSync(R(p), 'utf8'));
+const cfg = J('fabrica/config.json');
+const doutrina = existsSync(R('fabrica/doutrina.md')) ? readFileSync(R('fabrica/doutrina.md'), 'utf8') : '';
+const env = process.env, MAX_ITENS = +(env.MAX_ITENS || 20), MAX_MIN = +(env.MAX_MINUTOS || 150), CONC = Math.max(1, +(env.CONCURRENCIA || 1)), rapido = env.FABRICA_SEM_ESPERA === '1';
+const t0 = Date.now();
+const linhas = [];
+const log = (...a) => { const s = a.join(' '); linhas.push(s); console.log(s); };
+const core = createRequire(import.meta.url)(R('src/core.js'));
+const BK = createRequire(import.meta.url)(R('src/books.js'));
+
+/* ---------- estado ---------- */
+const estadoPath = R('fabrica/estado.json');
+const estado = existsSync(estadoPath) ? J('fabrica/estado.json') : { unidades: {}, uso: {} };
+estado.unidades = estado.unidades || {}; estado.uso = estado.uso || {};
+const salvarEstado = () => { mkdirSync(R('fabrica'), { recursive: true }); writeFileSync(estadoPath, JSON.stringify(estado, null, 1) + '\n'); };
+
+/* ---------- Bíblia instalada (para citações, referências e contexto) ---------- */
+const capCache = new Map();
+const capitulo = (livro, n) => { const k = livro + '-' + n; if (!capCache.has(k)) { const f = R('content-src/biblia', String(livro), k + '.json'); capCache.set(k, existsSync(f) ? JSON.parse(readFileSync(f, 'utf8')).verses : null); } return capCache.get(k); };
+const existe = {
+  livro: nome => { const q = core.normalize(nome); const b = BK.all().find(x => core.normalize(x.name) === q || core.normalize(x.abbr) === q); return b ? b.id : null; },
+  verso: (livro, cap, v) => { const c = capitulo(livro, cap); return !!(c && c.some(x => x.n === v)); }
+};
+
+/* ---------- ensinos já prontos ---------- */
+function carregarProntos() {
+  const out = [], base = R('content-src/camada2');
+  if (!existsSync(base)) return out;
+  for (const d of readdirSync(base, { withFileTypes: true })) {
+    if (!d.isDirectory() || d.name === 'teste') continue;
+    for (const f of readdirSync(join(base, d.name))) if (f.endsWith('.json')) { try { const x = JSON.parse(readFileSync(join(base, d.name, f), 'utf8')); if (!x._teste) out.push({ id: x.id, titulo: x.titulo || '', entender: x.entender || '', viver: x.viver || '', ore: x.ore || '', guarde: x.guarde || '' }); } catch { /* ignora arquivo ruim */ } }
+  }
+  return out;
+}
+
+/* ---------- provedores (um objeto por modelo; o mesmo modelo pode gerar ou auditar, mas nunca os dois no mesmo ensino) ---------- */
+const CHAVES = { groq: ['GROQ_API_KEY'], gemini: ['GEMINI_API_KEY'], cloudflare: ['CLOUDFLARE_API_TOKEN', 'CLOUDFLARE_ACCOUNT_ID'] };
+const defs = new Map();
+for (const lista of [cfg.geradores, cfg.auditores_1, cfg.auditores_2]) for (const d of lista) if (d.provedor) defs.set(d.id, d);
+const objs = new Map();
+function obter(id) {
+  if (objs.has(id)) return objs.get(id);
+  const d = defs.get(id); if (!d) { console.error('Modelo sem definição na configuração: ' + id); process.exit(1); }
+  const comum = { nome: id, tipo: d.provedor, familia: d.familia, semEspera: rapido };
+  let o;
+  if (d.provedor === 'groq') o = new Groq({ ...comum, modelo: d.modelo, esforco: d.esforco, limiteTpm: d.limite_tpm, chave: env.GROQ_API_KEY, ...(env.GROQ_BASE_URL ? { base: env.GROQ_BASE_URL } : {}) });
+  else if (d.provedor === 'gemini') o = new Gemini({ ...comum, modelos: env.GEMINI_MODEL ? [env.GEMINI_MODEL] : (d.modelos || [d.modelo]), chave: env.GEMINI_API_KEY, ...(env.GEMINI_BASE_URL ? { base: env.GEMINI_BASE_URL } : {}) });
+  else o = new Cloudflare({ ...comum, modelos: d.modelos, chave: env.CLOUDFLARE_API_TOKEN, conta_id: env.CLOUDFLARE_ACCOUNT_ID, ...(env.CLOUDFLARE_BASE_URL ? { base: env.CLOUDFLARE_BASE_URL } : {}) });
+  objs.set(id, o); return o;
+}
+const gens = cfg.geradores.map(d => obter(d.id)), aud1s = cfg.auditores_1.map(d => obter(d.id)), aud2s = cfg.auditores_2.map(d => obter(d.id));
+const provs = [...objs.values()];
+for (const [prov, nomes] of Object.entries(CHAVES)) if ([...objs.values()].some(o => o.tipo === prov)) for (const v of nomes) if (!env[v]) { log('FALTA o segredo ' + v + ': a fábrica não roda sem ele.'); finalizar(1); }
+/* combinação válida: três famílias diferentes e nenhum modelo com limite diário esgotado */
+function escolher() {
+  for (const g of gens) {
+    if (g.bloqueado) continue;
+    const a1 = aud1s.find(a => !a.bloqueado && a.familia !== g.familia); if (!a1) continue;
+    const a2 = aud2s.find(a => !a.bloqueado && a.familia !== g.familia && a.familia !== a1.familia); if (!a2) continue;
+    return { g, a1, a2 };
+  }
+  return null;
+}
+
+/* ---------- montagem do ensino ---------- */
+function rng(seed) { let s = 0; for (const c of seed) s = (s * 31 + c.charCodeAt(0)) >>> 0; return () => { s = (s * 1664525 + 1013904223) >>> 0; return s / 4294967296; }; }
+function montar(g, u) {
+  const t = g.teste || {}, rand = rng(u.id), erradas = Array.isArray(t.erradas) ? t.erradas.slice(0, 2) : [];
+  const ops = [String(t.certa || ''), ...erradas.map(String)];
+  const ordem = ops.map((_, i) => i).sort(() => rand() - 0.5);
+  const opcoes = ordem.map(i => ops[i]), certa = ordem.indexOf(0);
+  const refs = refsValidas(Array.isArray(g.refs) ? g.refs : [], existe, u).map(x => x.split('|')[1]);
+  return {
+    id: u.id, ref: u.ref, book: u.book, chapter: u.chapter, verses: u.verses,
+    titulo: String(g.titulo || '').trim(), temas: (Array.isArray(g.temas) ? g.temas : []).map(x => String(x).trim().toLowerCase()),
+    pergunta: String(g.pergunta || '').trim(), entender: String(g.entender || '').trim(),
+    ligar: { texto: String(g.ligar || '').trim(), selo: g.ligar_selo === true },
+    viver: String(g.viver || '').trim(), guarde: String(g.guarde || '').trim(), ore: String(g.ore || '').trim(),
+    quiz: { pergunta: String(t.pergunta || '').trim(), opcoes, certa, explicacao: String(t.explicacao || '').trim() },
+    refs
+  };
+}
+function lerAuditoria(r) {
+  const c = r && (r.criterios || r.gates || r.gate_results);
+  if (!c || typeof c !== 'object') return { erro: 'sem o objeto criterios' };
+  const falhas = [], faltam = [];
+  for (const g of GATES) {
+    const v = String(c[g] == null ? '' : c[g]).trim().toUpperCase();
+    if (v === 'P' || v === 'PASS' || v === 'PASSOU') continue;
+    if (v === 'F' || v === 'FAIL' || v === 'FALHOU') falhas.push(g); else faltam.push(g);
+  }
+  if (faltam.length) return { erro: 'criterios sem P/F: ' + faltam.slice(0, 5).join(',') };
+  const motivos = new Map(); (Array.isArray(r.problemas) ? r.problemas : []).forEach(p => { if (p && p.criterio) motivos.set(String(p.criterio), String(p.motivo || '')); });
+  return { falhas: falhas.map(g => g + (motivos.get(g) ? ': ' + motivos.get(g) : '')), aprovado: falhas.length === 0 };
+}
+async function auditar(prov, u, d) {
+  for (let t = 1; t <= 2; t++) {
+    const r = await prov.json({ system: SISTEMA_AUDITOR(doutrina), user: pedidoAuditor(u, d), max: prov.tipo === 'gemini' ? 8192 : 4000, temp: 0.1 });
+    const a = lerAuditoria(r);
+    if (!a.erro) return a;
+    log('    [' + u.id + '] ' + prov.nome + ': resposta fora do formato (' + a.erro + ')' + (t === 1 ? ', tentando de novo' : ''));
+  }
+  throw new Error(prov.nome + ': formato de auditoria inválido duas vezes');
+}
+
+async function produzir(u, ctx, c) {
+  let feedback = null; const L = '  [' + u.id + '] ';
+  for (let rodada = 1; rodada <= cfg.rodadas_por_unidade; rodada++) {
+    const g = await c.g.json({ system: SISTEMA_GERADOR(doutrina), user: pedidoGerador(u, ctx.recentes, feedback), max: 6000, temp: 0.6 });
+    const d = montar(g, u);
+    const erros = validarLocal(d, { versos: u.verses, existentes: ctx.prontos });
+    if (erros.length) { log(L + 'rodada ' + rodada + ': verificação automática recusou: ' + erros.join(', ')); feedback = { anterior: g, falhas: erros.map(x => 'automático: ' + x) }; estado.unidades[u.id].ultimo = 'automático: ' + erros.slice(0, 4).join(', '); continue; }
+    const a1 = await auditar(c.a1, u, d);
+    if (!a1.aprovado) { log(L + 'rodada ' + rodada + ': ' + c.a1.nome + ' recusou: ' + a1.falhas.join(' | ').slice(0, 400)); feedback = { anterior: g, falhas: a1.falhas.map(x => c.a1.familia + ': ' + x) }; estado.unidades[u.id].ultimo = c.a1.nome + ': ' + a1.falhas.join(' | ').slice(0, 300); continue; }
+    const a2 = await auditar(c.a2, u, d);
+    if (!a2.aprovado) { log(L + 'rodada ' + rodada + ': ' + c.a2.nome + ' recusou: ' + a2.falhas.join(' | ').slice(0, 400)); feedback = { anterior: g, falhas: a2.falhas.map(x => c.a2.familia + ': ' + x) }; estado.unidades[u.id].ultimo = c.a2.nome + ': ' + a2.falhas.join(' | ').slice(0, 300); continue; }
+    d.audit = {
+      generator: { model: c.g.modelo, family: c.g.familia },
+      auditors: [{ model: c.a1.modelo, family: c.a1.familia }, { model: c.a2.modelo, family: c.a2.familia }],
+      gates: Object.fromEntries(GATES.map(x => [x, 'P'])), humanReviewed: false, contractVersion: cfg.contrato, auditedAt: new Date().toISOString(), rounds: rodada
+    };
+    return d;
+  }
+  return null;
+}
+
+/* ---------- laço principal ---------- */
+function finalizar(cod) {
+  linhas.push('');
+  for (const p of provs) { linhas.push(p.resumo()); const u = estado.uso[p.nome] = estado.uso[p.nome] || { chamadas: 0, entrada: 0, saida: 0 }; u.chamadas += p.chamadas; u.entrada += p.tokensIn; u.saida += p.tokensOut; }
+  salvarEstado();
+  mkdirSync(R('docs'), { recursive: true });
+  writeFileSync(R('docs/fabrica.txt'), 'Fábrica de ensinos — execução de ' + new Date().toISOString() + '\n' + linhas.join('\n') + '\n');
+  process.exit(cod);
+}
+async function main() {
+  const fila = montarFila(R(), cfg);
+  const prontos = carregarProntos(), idsProntos = new Set(prontos.map(x => x.id));
+  let feitos = 0, recusados = 0, falhasSeguidas = 0, pulados = 0, andamento = 0, parar = false, cursor = 0;
+  const emUso = new Set();
+  log('Fila: ' + fila.length + ' trechos; prontos: ' + idsProntos.size + '; limite desta execução: ' + MAX_ITENS + ' ensinos / ' + MAX_MIN + ' min; ' + CONC + ' em paralelo.');
+  function proximo() {
+    while (cursor < fila.length) {
+      const u = fila[cursor++];
+      if (idsProntos.has(u.id) || emUso.has(u.id)) continue;
+      const e = estado.unidades[u.id] = estado.unidades[u.id] || { execucoes: 0 };
+      if (e.estado === 'travado') { pulados++; continue; }
+      const idx = u.cap.findIndex(v => v.n === u.v1), fim = u.cap.findIndex(v => v.n === u.v2);
+      u.antes = u.cap.slice(Math.max(0, idx - 3), idx); u.depois = u.cap.slice(fim + 1, fim + 4);
+      return u;
+    }
+    return null;
+  }
+  async function tratar(u) {
+    const e = estado.unidades[u.id]; emUso.add(u.id);
+    log('> ' + u.ref + ' (' + u.id + ')');
+    for (let tentativa = 1; tentativa <= 6 && !parar; tentativa++) {
+      const combo = escolher();
+      if (!combo) { log('  Nenhuma combinação válida de gerador e auditores com limite livre; parando. Continua no próximo horário.'); parar = true; return; }
+      log('  [' + u.id + '] gerador ' + combo.g.nome + ' (' + combo.g.familia + '); auditores ' + combo.a1.nome + ' (' + combo.a1.familia + ') e ' + combo.a2.nome + ' (' + combo.a2.familia + ')');
+      try {
+        const d = await produzir(u, { prontos, recentes: prontos.slice(-12).map(x => x.titulo).filter(Boolean) }, combo);
+        if (d) {
+          const dir = R('content-src/camada2', u.book); mkdirSync(dir, { recursive: true });
+          writeFileSync(join(dir, u.id + '.json'), JSON.stringify(d, null, 1) + '\n');
+          prontos.push({ id: d.id, titulo: d.titulo, entender: d.entender, viver: d.viver, ore: d.ore, guarde: d.guarde }); idsProntos.add(d.id);
+          e.estado = 'pronto'; e.titulo = d.titulo; feitos++; falhasSeguidas = 0;
+          log('  PRONTO [' + u.id + ']: "' + d.titulo + '" (aprovado pelos dois auditores em ' + d.audit.rounds + ' rodada(s))');
+        } else {
+          e.execucoes++; recusados++; falhasSeguidas = 0;
+          if (e.execucoes >= cfg.execucoes_ate_travar) { e.estado = 'travado'; log('  TRAVADO [' + u.id + '] após ' + e.execucoes + ' execuções sem aprovação; precisa de olhar humano: ' + (e.ultimo || '')); }
+          else log('  [' + u.id + '] não aprovado nesta execução (' + e.execucoes + '/' + cfg.execucoes_ate_travar + '); tenta de novo depois');
+        }
+        return;
+      } catch (err) {
+        if (err instanceof QuotaError || err.quota) { log('  LIMITE DIÁRIO [' + u.id + ']: ' + err.message.slice(0, 300) + ' — troca de modelo, se houver outro permitido.'); continue; }
+        falhasSeguidas++; e.ultimo = 'erro: ' + String(err.message).slice(0, 200);
+        log('  ERRO [' + u.id + ']: ' + String(err.message).slice(0, 300));
+        if (falhasSeguidas >= 8) { log('Oito erros seguidos; parando para não gastar à toa.'); parar = true; }
+        return;
+      }
+    }
+  }
+  async function trabalhador() {
+    while (!parar) {
+      if (feitos + andamento >= MAX_ITENS) { log('Limite de itens desta execução atingido.'); return; }
+      if ((Date.now() - t0) / 60000 > MAX_MIN) { log('Tempo máximo da execução atingido.'); parar = true; return; }
+      const u = proximo(); if (!u) return;
+      andamento++;
+      try { await tratar(u); } finally { andamento--; emUso.delete(u.id); salvarEstado(); }
+    }
+  }
+  await Promise.all(Array.from({ length: CONC }, trabalhador));
+  const total = fila.length, ok = idsProntos.size;
+  log('Resumo: ' + feitos + ' novos ensinos, ' + recusados + ' não aprovados, ' + pulados + ' travados ignorados. Total pronto: ' + ok + ' de ' + total + ' trechos.');
+  finalizar(0);
+}
+main().catch(e => { log('FALHA INESPERADA: ' + (e && e.stack || e)); finalizar(0); });
+<<<END>>>
+
+==================== BINARIOS (base64) ====================
+
+==================== CHECKSUMS ====================
+<<<CHECKSUMS>>>
+0538d2e6fe6d77d59fae901aee1d7dd221033aebfe89e6613a73f634d071bc82  fabrica/config.json
+7dfd4dda9f30ed0cbde8a89d3dabea880a3c5f592313d64763c890dd12ab592a  scripts/fabrica/prompts.mjs
+56623a610d5a59c57fae553568fb49e6a9c9f75f5a0612b2b35f5e510cbae9e5  scripts/fabrica/provedores.mjs
+36e2c455d7f614844e6d0b733e639c8373d501b13d29be9e6d34d89e9b876bab  scripts/fabrica/rodar.mjs
+<<<END>>>
