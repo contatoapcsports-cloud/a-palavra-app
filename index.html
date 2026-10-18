@@ -65,6 +65,13 @@
     <div class="topbar"><button class="back" type="button" data-back><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>Voltar</button><h2 id="readTitle"></h2></div>
     <div class="pad">
       <span class="tag">Texto bíblico</span>
+      <div class="listen" id="listen" hidden>
+        <button type="button" class="btn" id="lsPlay" aria-label="Ouvir o capítulo">&#9654; Ouvir capítulo</button>
+        <button type="button" class="ghost" id="lsStop" aria-label="Parar" hidden>&#9632; Parar</button>
+        <select id="lsVoz" aria-label="Voz de leitura" hidden></select>
+        <select id="lsRate" aria-label="Velocidade da leitura" hidden><option value="0.8">Lenta</option><option value="0.92" selected>Normal</option><option value="1.1">Rápida</option></select>
+        <small id="lsInfo"></small>
+      </div>
       <div class="text" id="rtext"></div>
       <div class="row2"><button type="button" id="chPrev">&#8592; Anterior</button><button type="button" id="chNext">Próximo &#8594;</button></div>
       <div id="studyList" style="display:flex;flex-direction:column;gap:12px"></div>

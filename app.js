@@ -274,7 +274,82 @@
   }
 
   /* ---------- leitura ---------- */
+
+  /* ---------- leitura em voz alta (voz sintetizada do aparelho, preferindo masculina) ---------- */
+  var TTS = { on: false, i: 0, itens: [], voz: null };
+  function ttsOk() { return 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window; }
+  function vozesPt() {
+    return speechSynthesis.getVoices().filter(function (v) { return /^pt/i.test(v.lang); }).sort(function (x, y) { return (/^pt[-_]?br/i.test(y.lang) ? 1 : 0) - (/^pt[-_]?br/i.test(x.lang) ? 1 : 0); });
+  }
+  var HOMEM = /(\bmale\b|masculin|ptd\b|-ptd|-pte|felipe|antonio|ant[o\u00F4]nio|ricardo|daniel|marcos|jorge|luciano|thiago|paulo|\bhomem)/i;
+  var MULHER = /(female|feminin|\bptc\b|-afs|-ptf|maria|francisca|luciana|vitoria|vit[o\u00F3]ria|fernanda|camila|ana\b|helena|giovanna|leila|yara)/i;
+  function escolherVoz() {
+    var vs = vozesPt(); if (!vs.length) return null;
+    var salva = ''; try { salva = localStorage.getItem('pv_voz') || ''; } catch (x) { /* ok */ }
+    var i;
+    if (salva) for (i = 0; i < vs.length; i++) if (vs[i].voiceURI === salva) return { v: vs[i], grave: false, manual: true };
+    for (i = 0; i < vs.length; i++) if (HOMEM.test(vs[i].name + ' ' + vs[i].voiceURI) && !MULHER.test(vs[i].name + ' ' + vs[i].voiceURI)) return { v: vs[i], grave: false };
+    for (i = 0; i < vs.length; i++) if (/pt[-_]?br/i.test(vs[i].lang) && !MULHER.test(vs[i].name + ' ' + vs[i].voiceURI)) return { v: vs[i], grave: true };
+    return { v: vs[0], grave: true }; // sem voz masculina identific\u00E1vel: tom mais grave
+  }
+  function preencherVozes() {
+    var sel = $('#lsVoz'), rt = $('#lsRate'); if (!sel) return;
+    var vs = vozesPt(); if (!vs.length) { sel.hidden = true; rt.hidden = true; return; }
+    var atual = escolherVoz();
+    sel.innerHTML = '';
+    vs.forEach(function (v, n) {
+      var o = document.createElement('option'); o.value = v.voiceURI;
+      o.textContent = 'Voz ' + (n + 1) + (HOMEM.test(v.name + ' ' + v.voiceURI) ? ' (masculina)' : MULHER.test(v.name + ' ' + v.voiceURI) ? ' (feminina)' : '') + ' \u00B7 ' + v.lang;
+      if (atual && atual.v.voiceURI === v.voiceURI) o.selected = true; sel.appendChild(o);
+    });
+    sel.hidden = false; rt.hidden = false;
+    try { var r = localStorage.getItem('pv_rate'); if (r) rt.value = r; } catch (x) { /* ok */ }
+    sel.onchange = function () { try { localStorage.setItem('pv_voz', sel.value); } catch (x) { /* ok */ } if (TTS.on) { TTS.voz = escolherVoz(); try { speechSynthesis.cancel(); } catch (x) { /* ok */ } } };
+    rt.onchange = function () { try { localStorage.setItem('pv_rate', rt.value); } catch (x) { /* ok */ } };
+  }
+  function ttsStop() {
+    TTS.on = false; try { speechSynthesis.cancel(); } catch (x) { /* sem voz */ }
+    $$('.v.lendo').forEach(function (e) { e.classList.remove('lendo'); });
+    var p = $('#lsPlay'), st = $('#lsStop'); if (p) { p.textContent = '\u25B6 Ouvir cap\u00EDtulo'; } if (st) st.hidden = true;
+  }
+  function ttsFalar() {
+    if (!TTS.on) return;
+    var el = TTS.itens[TTS.i];
+    $$('.v.lendo').forEach(function (e) { e.classList.remove('lendo'); });
+    if (!el) { ttsStop(); var nx = $('#chNext'); if (nx && !nx.hidden) { toast('Fim do cap\u00EDtulo'); } return; }
+    el.classList.add('lendo'); el.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    var u = new SpeechSynthesisUtterance('Vers\u00EDculo ' + el.getAttribute('data-n') + '. ' + $('span', el).textContent);
+    u.lang = 'pt-BR'; u.rate = parseFloat(($('#lsRate') || {}).value) || 0.92; u.pitch = TTS.voz && TTS.voz.grave ? 0.7 : 0.9;
+    if (TTS.voz && TTS.voz.v) { u.voice = TTS.voz.v; u.lang = TTS.voz.v.lang || 'pt-BR'; }
+    u.onend = function () { if (TTS.on) { TTS.i++; ttsFalar(); } };
+    u.onerror = function (e) { if (e && (e.error === 'canceled' || e.error === 'interrupted')) return; ttsStop(); toast('N\u00E3o foi poss\u00EDvel ler em voz alta neste aparelho.'); };
+    speechSynthesis.speak(u);
+  }
+  function bindListen() {
+    var box = $('#listen'); if (!box) return;
+    if (!ttsOk()) { box.hidden = true; return; }
+    box.hidden = false; preencherVozes();
+    var info = $('#lsInfo');
+    $('#lsPlay').onclick = function () {
+      if (TTS.on) {
+        if (speechSynthesis.paused) { speechSynthesis.resume(); $('#lsPlay').textContent = '\u275A\u275A Pausar'; }
+        else { speechSynthesis.pause(); $('#lsPlay').textContent = '\u25B6 Continuar'; }
+        return;
+      }
+      TTS.itens = $$('#rtext .v'); if (!TTS.itens.length) return;
+      TTS.voz = escolherVoz();
+      if (!TTS.voz) { info.textContent = 'Este aparelho n\u00E3o tem voz em portugu\u00EAs instalada. Em Configura\u00E7\u00F5es > Idioma > Sa\u00EDda de texto para fala, instale o portugu\u00EAs do Brasil.'; return; }
+      info.textContent = 'Voz: ' + TTS.voz.v.name + (TTS.voz.grave ? ' (tom grave)' : '');
+      TTS.i = 0; TTS.on = true; $('#lsPlay').textContent = '\u275A\u275A Pausar'; $('#lsStop').hidden = false;
+      try { speechSynthesis.cancel(); } catch (x) { /* ok */ }
+      ttsFalar();
+    };
+    $('#lsStop').onclick = function () { ttsStop(); };
+    if (speechSynthesis.onvoiceschanged !== undefined) speechSynthesis.onvoiceschanged = function () { preencherVozes(); };
+  }
+
   async function viewRead(s) {
+    ttsStop(); bindListen();
     var b = bookOf(s.b); if (!b) return go({ v: 'home' }, true);
     var entry = chapterEntry(b, s.c); if (!entry) return go({ v: 'chap', b: b.id }, true);
     showScreen('read'); $('#readTitle').textContent = b.name + ' ' + s.c;
