@@ -1,0 +1,130 @@
+{
+ "id": "43-2-18-25",
+ "ref": "João 2:18-25",
+ "book": "43",
+ "chapter": 2,
+ "verses": [
+  {
+   "n": 18,
+   "t": "Responderam pois os Judeus, e disseram-lhe: Que sinal nos mostras de que fazes estas coisas?"
+  },
+  {
+   "n": 19,
+   "t": "Respondeu Jesus, e disse-lhes: Derrubai este Templo, e em três dias o levantarei."
+  },
+  {
+   "n": 20,
+   "t": "Os judeus, pois, disseram: Durante quarenta e seis anos este Templo foi edificado, e tu o levantarás tu em três dias?"
+  },
+  {
+   "n": 21,
+   "t": "Porém ele falava do Templo de seu corpo."
+  },
+  {
+   "n": 22,
+   "t": "Portanto, quando ressuscitou dos mortos, seus discípulos se lembraram que ele lhes tinha dito isto; e creram na Escritura, e na palavra que Jesus tinha lhes dito."
+  },
+  {
+   "n": 23,
+   "t": "E estando ele em Jerusalém pela páscoa, na festa, muitos creram em seu nome, ao verem os sinais que ele fazia."
+  },
+  {
+   "n": 24,
+   "t": "Mas o mesmo Jesus a si mesmo não confiava neles, porque conhecia a todos."
+  },
+  {
+   "n": 25,
+   "t": "E não necessitava de que alguém lhe desse testemunho de ser humano algum, pois ele bem sabia o que havia no interior do ser humano."
+  }
+ ],
+ "titulo": "O Templo que Jesus Promete Levantar",
+ "temas": [
+  "templo",
+  "ressurreição",
+  "fé",
+  "crença"
+ ],
+ "pergunta": "O que Jesus quis dizer ao falar de derrubar e levantar o templo em três dias?",
+ "entender": "Jesus estava no pátio do templo quando os judeus lhe pediram um sinal (João 2:18). Ele respondeu: \"Derrubai este Templo, e em três dias o levantarei\" (v.19). Os ouvintes entenderam a frase literalmente, lembrando que o templo havia sido edificado há quarenta e seis anos (v.20).\n\nContudo, Jesus falava do \"Templo de seu corpo\" (v.21). Quando Ele ressuscitou dos mortos, os discípulos lembraram‑se da palavra e creram nas Escrituras (v.22). O texto mostra que os sinais de Jesus atraíram muitos que creram (v.23), mas Ele ainda não confiava plenamente neles, pois conhecia os corações (v.24‑25). O contexto imediato inclui a purificação do templo (v.15‑17), que revela a intenção de Jesus de restaurar a verdadeira adoração a Deus.",
+ "ligar": {
+  "texto": "Ao dizer que o templo seria derrubado e levantado em três dias, Jesus anuncia Sua morte e ressurreição – o centro do evangelho. A ressurreição confirma que Ele é o verdadeiro templo onde a presença de Deus habita. Quem crê nessa promessa recebe perdão e vida eterna, pois o sacrifício de Cristo substitui o antigo sistema do templo e abre caminho direto a Deus.",
+  "selo": true
+ },
+ "viver": "Reconheça que a presença de Deus não está em edifícios, mas em Cristo ressuscitado. Quando enfrentarmos dúvidas ou medo, lembremos que Jesus cumpriu a promessa de levantar o templo em três dias, provando que Ele tem poder sobre a morte. Confie nele para a salvação e viva como alguém que tem o templo de Deus em seu coração, buscando obedecer e amar como resposta ao Seu sacrifício.",
+ "guarde": "Jesus é o templo que morreu e ressuscitou para nos dar vida.",
+ "ore": "Jesus, meu Salvador, agradeço por ser o templo vivo que venceu a morte. Ajuda-me a confiar plenamente na Sua ressurreição e a viver como morada da Tua presença, seguindo‑Te com fé e gratidão todos os dias. Amém.",
+ "quiz": {
+  "pergunta": "O que Jesus realmente estava anunciando ao falar de derrubar e levantar o templo em três dias?",
+  "opcoes": [
+   "Ele prometia que o templo seria restaurado por autoridades judaicas.",
+   "Ele falava sobre reconstruir o templo de Jerusalém em três dias.",
+   "Ele se referia ao Seu próprio corpo, que seria morto e ressuscitado."
+  ],
+  "certa": 2,
+  "explicacao": "Jesus usou a palavra templo como referência ao Seu corpo. A ressurreição três dias depois confirma que Ele falava de Si mesmo, não do templo físico."
+ },
+ "refs": [
+  "1 Coríntios 15:3-4",
+  "Hebreus 9:11-12",
+  "João 1:14",
+  "Mateus 24:2"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T05:24:30.106Z",
+  "rounds": 3
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "id": "43-1-1-10",
+ "ref": "João 1:1-10",
+ "book": "43",
+ "chapter": 1,
+ "verses": [
+  {
+   "n": 1,
+   "t": "No princípio era a Palavra, e a Palavra estava junto de Deus, e a Palavra era Deus."
+  },
+  {
+   "n": 2,
+   "t": "Esta estava no princípio junto de Deus."
+  },
+  {
+   "n": 3,
+   "t": "Por esta foram feitas todas as coisas, e sem ela não se fez coisa nenhuma do que foi feito."
+  },
+  {
+   "n": 4,
+   "t": "Nela estava a vida, e a vida era a luz dos seres humanos."
+  },
+  {
+   "n": 5,
+   "t": "E a luz brilha nas trevas; e as trevas não a compreenderam."
+  },
+  {
+   "n": 6,
+   "t": "Houve um homem enviado por Deus, cujo nome era João."
+  },
+  {
+   "n": 7,
+   "t": "Este veio por testemunho, para que testemunhasse da Luz, para que todos por ele cressem."
+  },
+  {
+   "n": 8,
+   "t": "Ele não era a Luz; mas foi enviado para que testemunhasse da Luz."
+  },
+  {
+   "n": 9,
+   "t": "Esta era a luz verdadeira, que ilumina a todo ser humano que vem ao mundo."
+  },
+  {
+   "n": 10,
+   "t": "No mundo estava, e por ele foi feito o mundo; e o mundo não o conheceu."
+  }
+ ],
+ "titulo": "A Palavra que trouxe luz ao mundo",
+ "temas": [
+  "luz",
+  "vida",
+  "criação",
+  "testemunho"
+ ],
+ "pergunta": "Você já pensou que a própria Palavra pode ser a luz que transforma a sua vida?",
+ "entender": "João 1:1‑10 introduz a figura da \"Palavra\" como algo que existia \"no princípio\" e que \"estava junto de Deus\". Ele afirma que \"por esta foram feitas todas as coisas\" e que \"Nela estava a vida, e a vida era a luz dos seres humanos\". Essa luz brilha nas trevas, porém \"as trevas não a compreenderam\". O texto apresenta João, o batista, como aquele que foi enviado \"por testemunho\" para que todos \"creessem\" por meio dele, mas deixa claro que \"Ele não era a Luz\"; ele apenas apontava para a Luz verdadeira que \"ilumina a todo ser humano que vem ao mundo\". O trecho termina dizendo que, embora a Luz estivesse no mundo, \"o mundo não o conheceu\".\n\nO contexto imediato (v.11‑13) mostra a rejeição da Luz e a promessa de que quem a recebe torna‑se filho de Deus. Essa introdução prepara o leitor para a revelação posterior de que a Palavra é Jesus Cristo, mas nos versículos citados ainda não há a identificação explícita.",
+ "ligar": {
+  "texto": "A \"Palavra\" descrita como a fonte de vida e luz é o próprio Cristo, que mais tarde será revelado como o Verbo encarnado (João 1:14). Ele trouxe a vida eterna e a verdade que ilumina a humanidade caída. O evangelho proclama que, embora o mundo não o reconheça, quem crê nessa Luz recebe o poder de ser filho de Deus, entrando em comunhão com o Pai.",
+  "selo": false
+ },
+ "viver": "Hoje, ao reconhecer que a verdadeira luz vem de Cristo, somos chamados a viver como reflexos dessa luz. Quando alguém está em trevas — seja tristeza, dúvida ou pecado — podemos apontar para a esperança que a Palavra oferece, assim como João Batista fez. Essa atitude de testemunho, feita com amor e humildade, demonstra que recebemos a vida que a Luz nos dá.\n\nAlém disso, confiar que a Luz está conosco nos ajuda a enfrentar a rejeição. Mesmo que o mundo não reconheça ou aceite a mensagem, podemos permanecer firmes, sabendo que somos filhos de Deus por meio da fé na Palavra viva.",
+ "guarde": "A Palavra é a luz que ilumina a vida e transforma o mundo.",
+ "ore": "Senhor, ajuda-me a reconhecer que Tu és a Luz que dá vida. Que eu possa refletir essa luz nas trevas ao meu redor, testemunhando com coragem e amor, e que a fé na Tua Palavra me faça filho teu. Amém.",
+ "quiz": {
+  "pergunta": "O que fez todas as coisas, segundo João 1:3?",
+  "opcoes": [
+   "Os anjos",
+   "O Espírito Santo",
+   "A Palavra"
+  ],
+  "certa": 2,
+  "explicacao": "O versículo declara: \"Por esta foram feitas todas as coisas\", referindo‑se à Palavra que estava no princípio."
+ },
+ "refs": [
+  "João 1:14",
+  "Colossenses 1:16-17",
+  "Efésios 2:8-9",
+  "Isaías 9:2"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T05:06:56.771Z",
+  "rounds": 4
+ }
+}

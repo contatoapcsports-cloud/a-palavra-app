@@ -2,34 +2,57 @@
  "unidades": {
   "43-1-1-10": {
    "execucoes": 0,
-   "ultimo": "erro: gemini: 404 { \"error\": { \"code\": 404, \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features"
+   "ultimo": "automático: entender:frase_modelo",
+   "estado": "pronto",
+   "titulo": "A Palavra que trouxe luz ao mundo"
   },
   "43-1-11-20": {
    "execucoes": 0,
-   "ultimo": "erro: groq-gpt: 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per minute (TPM): Limit 8000, "
+   "ultimo": "automático: entender:menos_de_2_paragrafos",
+   "estado": "pronto",
+   "titulo": "Quem é a Luz que veio ao mundo?"
   },
   "43-1-21-31": {
-   "execucoes": 0,
-   "ultimo": "erro: groq-gpt: 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per minute (TPM): Limit 8000, "
+   "execucoes": 1,
+   "ultimo": "automático: entender:citacao_fora_do_texto"
   },
   "43-1-32-41": {
    "execucoes": 0,
-   "ultimo": "erro: groq-gpt: 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per minute (TPM): Limit 8000, "
+   "ultimo": "erro: groq-gpt: 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per minute (TPM): Limit 8000, ",
+   "estado": "pronto",
+   "titulo": "Quem é o Cordeiro que João viu?"
   },
   "43-1-42-51": {
-   "execucoes": 0,
-   "ultimo": "erro: gemini: 404 { \"error\": { \"code\": 404, \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features"
+   "execucoes": 1,
+   "ultimo": "gemini: SPEAKER_AUDIENCE_CONSISTENCY: O texto afirma que Filipe respondeu 'Segue-me', quando na verdade foi Jesus quem disse essa frase a Filipe (v. 43). | NARRATIVE_EVENT_CONSISTENCY: Inverte o fato narrado ao atribuir a Filipe a iniciativa da ordem 'Segue-me', dita por Jesus. | PRAYER_FIDELITY: A oração é"
   },
   "43-2-1-8": {
+   "execucoes": 1,
+   "ultimo": "gemini: NARRATIVE_EVENT_CONSISTENCY: O texto afirma erroneamente que Jesus 'obedeceu aos servos', quando na verdade os servos obedeceram às ordens de Jesus."
+  },
+  "43-2-9-17": {
    "execucoes": 0,
-   "ultimo": "erro: gemini: 404 { \"error\": { \"code\": 404, \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features"
+   "ultimo": "automático: entender:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "O que o zelo de Jesus revela no Templo?"
+  },
+  "43-2-18-25": {
+   "execucoes": 0,
+   "ultimo": "automático: entender:menos_de_2_paragrafos, abertura_repetida:ore:43-1-32-41",
+   "estado": "pronto",
+   "titulo": "O Templo que Jesus Promete Levantar"
+  },
+  "43-3-1-12": {
+   "execucoes": 0,
+   "estado": "pronto",
+   "titulo": "O que significa nascer de novo?"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 7,
-   "entrada": 11012,
-   "saida": 15566
+   "chamadas": 34,
+   "entrada": 65267,
+   "saida": 39324
   },
   "groq-qwen": {
    "chamadas": 0,
@@ -37,14 +60,14 @@
    "saida": 0
   },
   "gemini": {
-   "chamadas": 0,
-   "entrada": 0,
-   "saida": 0
+   "chamadas": 11,
+   "entrada": 34961,
+   "saida": 15366
   },
   "cloudflare": {
-   "chamadas": 0,
-   "entrada": 0,
-   "saida": 0
+   "chamadas": 6,
+   "entrada": 20681,
+   "saida": 2226
   }
  }
 }

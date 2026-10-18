@@ -1,0 +1,146 @@
+{
+ "id": "43-3-1-12",
+ "ref": "João 3:1-12",
+ "book": "43",
+ "chapter": 3,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E havia um homem dos fariseus, cujo nome era Nicodemos, chefe dos judeus."
+  },
+  {
+   "n": 2,
+   "t": "Este veio a Jesus de noite, e disse-lhe: Rabi, bem sabemos que és Mestre vindo de Deus; porque ninguém pode fazer estes sinais que tu fazes, se Deus não for com ele."
+  },
+  {
+   "n": 3,
+   "t": "Respondeu Jesus e disse-lhe: Em verdade, em verdade te digo, que aquele que não voltar a nascer, não pode ver o Reino de Deus."
+  },
+  {
+   "n": 4,
+   "t": "Nicodemos lhe disse: Como pode o homem nascer, sendo já velho? Pode ele voltar a entrar no ventre de sua mãe, e nascer?"
+  },
+  {
+   "n": 5,
+   "t": "Respondeu Jesus: Em verdade, em verdade te digo, que aquele que não nascer de água e do Espírito, não pode entrar no Reino de Deus."
+  },
+  {
+   "n": 6,
+   "t": "O que é nascido de carne, carne é; e o que é nascido do Espírito, espírito é."
+  },
+  {
+   "n": 7,
+   "t": "Não te maravilhes de que te disse: necessário vos é voltar a nascer."
+  },
+  {
+   "n": 8,
+   "t": "O vento sopra onde quer, e ouves o seu som; porém não sabes de onde vem, nem para onde vai; assim é todo aquele que é nascido do Espírito."
+  },
+  {
+   "n": 9,
+   "t": "Nicodemos respondeu, e disse-lhe: Como pode isto acontecer?"
+  },
+  {
+   "n": 10,
+   "t": "Jesus respondeu, e disse-lhe: Tu és mestre de Israel, e isto não sabes?"
+  },
+  {
+   "n": 11,
+   "t": "Em verdade, em verdade te digo, que o que sabemos, falamos; e o que temos visto, testemunhamos; e não aceitais nosso testemunho."
+  },
+  {
+   "n": 12,
+   "t": "Se eu vos disse coisas terrenas, e não credes, como crereis, se vos disser as celestiais?"
+  }
+ ],
+ "titulo": "O que significa nascer de novo?",
+ "temas": [
+  "espírito",
+  "novo nascimento",
+  "fé",
+  "reino"
+ ],
+ "pergunta": "Você já pensou como alguém pode nascer de novo sem voltar ao ventre materno?",
+ "entender": "Neste diálogo, Nicodemos, um fariseu e líder dos judeus, procura Jesus à noite, reconhecendo‑o como \"Mestre vindo de Deus\" (v.2). Jesus responde que \"aquele que não voltar a nascer, não pode ver o Reino de Deus\" (v.3) e explica que o novo nascimento é \"de água e do Espírito\" (v.5). Ele usa a imagem da carne e do espírito (v.6) e compara o Espírito ao vento, que se sente, mas não se vê (v.8). Nicodemos fica confuso, perguntando como isso pode acontecer (v.9‑10), e Jesus o repreende por não compreender o que já havia ensinado (v.11‑12). O trecho mostra que o Reino de Deus não se entra por mérito humano, mas por uma mudança interior operada por Deus.\n\nO contexto imediato continua com Jesus falando da vinda do Filho do Homem (v.13‑15), reforçando que a fé nele traz vida eterna. Assim, o convite ao novo nascimento prepara o coração para receber a salvação que será completada na cruz e na ressurreição.",
+ "ligar": {
+  "texto": "Jesus apresenta o novo nascimento como obra do Espírito, preparando o leitor para crer que somente por Ele, que \"desceu do céu\" (v.13), podemos ter vida eterna. O Espírito que renova nos conecta ao sacrifício de Cristo, que nos limpa como a água e nos dá nova vida como o vento que sopra. Assim, o convite ao novo nascimento aponta para a necessidade de confiar em Jesus, aceitar seu ensino e viver no Espírito que Ele enviou.",
+  "selo": true
+ },
+ "viver": "Hoje, ao enfrentar situações que parecem impossíveis mudar, lembre‑se de que o novo nascimento não depende de esforço próprio, mas da ação do Espírito. Busque momentos de oração e leitura da Palavra, pedindo que Deus renove seu coração, como o vento que não vemos, mas sentimos. Quando sentir a mudança, compartilhe essa esperança com quem ainda não conhece a fonte da vida.\n\nPratique a humildade de Nicodemos, reconhecendo que ainda há mistérios que só Deus pode revelar, e esteja aberto a aprender continuamente.",
+ "guarde": "Só quem nasce de novo, pelo Espírito, pode entrar no Reino de Deus.",
+ "ore": "Senhor, reconheço que preciso nascer de novo. Peço que o Teu Espírito me renove, me dê nova vida e me faça entender o Teu Reino. Ajuda‑me a viver como quem já recebeu essa nova vida. Em nome de Jesus, amém.",
+ "quiz": {
+  "pergunta": "O que Jesus disse que é necessário para entrar no Reino de Deus?",
+  "opcoes": [
+   "Ser fariseu",
+   "Obedecer à lei",
+   "Nascer de água e do Espírito"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus afirma que \"aquele que não nascer de água e do Espírito, não pode entrar no Reino de Deus\" (João 3:5). As outras opções não correspondem ao que o texto ensina."
+ },
+ "refs": [
+  "Tito 3:5-6",
+  "2 Coríntios 5:17",
+  "Efésios 2:8-9",
+  "Jeremias 31:33"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T05:21:44.761Z",
+  "rounds": 1
+ }
+}

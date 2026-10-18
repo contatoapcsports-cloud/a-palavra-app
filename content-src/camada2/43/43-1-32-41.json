@@ -1,0 +1,137 @@
+{
+ "id": "43-1-32-41",
+ "ref": "João 1:32-41",
+ "book": "43",
+ "chapter": 1,
+ "verses": [
+  {
+   "n": 32,
+   "t": "E João testemunhou, dizendo: Eu vi o Espírito como pomba descer do céu, e repousou sobre ele."
+  },
+  {
+   "n": 33,
+   "t": "E eu não o conhecia, mas aquele que me mandou a batizar com água, esse me disse: Sobre aquele que vires descer ao Espírito, e repousar sobre ele, esse é o que batiza com Espírito Santo."
+  },
+  {
+   "n": 34,
+   "t": "E eu o vi, e testemunhado tenho, que este é o Filho de Deus."
+  },
+  {
+   "n": 35,
+   "t": "O seguinte dia estava outra vez ali João, e dois de seus discípulos."
+  },
+  {
+   "n": 36,
+   "t": "E vendo por ali andar a Jesus, disse: Eis o Cordeiro de Deus."
+  },
+  {
+   "n": 37,
+   "t": "E os dois discípulos ouviram -lhe dizer aquilo , e seguiram a Jesus."
+  },
+  {
+   "n": 38,
+   "t": "E Jesus, virando-se, e vendo-os seguir, disse-lhes: Que buscais? E eles lhe disseram: Rabi, (que traduzido, quer dizer, Mestre) onde moras?"
+  },
+  {
+   "n": 39,
+   "t": "Disse-lhes ele: Vinde, e vede-o; Vieram, e viram onde morava, e na companhia dele naquele dia; e já era quase a hora décima."
+  },
+  {
+   "n": 40,
+   "t": "Era André, o irmão de Simão Pedro, um dos dois que ouvira aquilo de João, e o haviam seguido."
+  },
+  {
+   "n": 41,
+   "t": "Este achou primeiro a seu irmão Simão, e disse-lhe: Já achamos ao Messias(que traduzido, é o Cristo)."
+  }
+ ],
+ "titulo": "Quem é o Cordeiro que João viu?",
+ "temas": [
+  "cristianismo",
+  "testemunho",
+  "espírito santo"
+ ],
+ "pergunta": "O que João viu quando o Espírito Santo desceu como pomba?",
+ "entender": "Neste trecho João, o precursor de Jesus, relata o momento em que viu o Espírito Santo descer do céu como uma pomba e repousar sobre Jesus. Ele declara: \"Eu vi o Espírito como pomba descer do céu, e repousou sobre ele\" (João 1.32). João ainda afirma que aquele a quem viu o Espírito era \"o Filho de Deus\" (v.34). Logo depois, dois dos discípulos de João ouviram João chamar Jesus de \"Eis o Cordeiro de Deus\" (v.36) e o seguiram (v.37). Quando Jesus percebeu que o seguiam, perguntou: \"Que buscais?\" e os discípulos responderam que queriam saber onde ele morava (v.38‑39). O texto mostra o início da descoberta de quem era Jesus, a partir do testemunho de João e da curiosidade dos primeiros seguidores.\n\nO contexto anterior (João 1.29‑31) já prepara o leitor: João já havia reconhecido que Jesus era o Cordeiro que tira o pecado do mundo e que ele, João, batizava com água para preparar a vinda daquele que batizaria com o Espírito Santo. O relato de v.32‑41, portanto, confirma visualmente essa expectativa, mostrando o Espírito descendo e os primeiros discípulos reconhecendo Jesus como o Messias (v.41).",
+ "ligar": {
+  "texto": "Ao descer o Espírito Santo sobre Jesus, João confirma que Ele é o Messias prometido, o Cordeiro que tira o pecado (v.36). Essa imagem aponta para a obra redentora de Cristo, cumprindo as profecias do Antigo Testamento sobre o Cordeiro sacrificial (cf. Isaías 53). Quando João declara que viu o Filho de Deus, ele introduz a identidade divina de Jesus, base para o evangelho: crer que Ele morreu pelos nossos pecados e ressuscitou. Assim, o texto convida a reconhecer Jesus como o Salvador enviado por Deus, que recebeu o Espírito e chama a todos a segui‑Lo.",
+  "selo": true
+ },
+ "viver": "Hoje, assim como os dois discípulos, somos convidados a observar atentamente quem Jesus é. Quando alguém nos apresenta Jesus como o Cordeiro que tira o pecado, devemos buscar conhecê‑Lo pessoalmente, perguntando onde Ele mora em nossa vida. Essa curiosidade nos leva a seguir‑Lo, a ouvir Seus ensinamentos e a descobrir que Ele quer nos transformar. Cada vez que nos aproximamos, Ele nos convida a permanecer perto, a aprender e a viver como seus seguidores.\n\nPortanto, ao encontrar alguém que fala de Jesus, não fique apenas na curiosidade; peça para conhecer mais, participe de uma reunião, leia a Bíblia e descubra onde o Cristo habita em seu coração.",
+ "guarde": "Jesus é o Cordeiro de Deus, reconhecido pelo Espírito que o marcou como Filho.",
+ "ore": "Senhor Jesus, agradeço por ser o Cordeiro que tirou o pecado do mundo. Ajuda‑me a reconhecer Tua presença, a seguir‑Te com curiosidade e a viver como Teus discípulos. Que o Espírito Santo me guie a cada passo. Amém.",
+ "quiz": {
+  "pergunta": "Quem viu o Espírito Santo descer como pomba?",
+  "opcoes": [
+   "Pedro",
+   "André",
+   "João"
+  ],
+  "certa": 2,
+  "explicacao": "O texto registra que João testemunhou o Espírito como pomba descendo e repousando sobre Jesus (v.32)."
+ },
+ "refs": [
+  "Isaías 53:7",
+  "Mateus 3:16-17",
+  "1 Coríntios 12:3",
+  "Hebreus 1:1-3"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T05:07:20.122Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "id": "43-2-9-17",
+ "ref": "João 2:9-17",
+ "book": "43",
+ "chapter": 2,
+ "verses": [
+  {
+   "n": 9,
+   "t": "E quando o mestre de cerimônia experimentou a água feita vinho (sem saber de onde era, porém os serventes que haviam tirado a água sabiam), o mestre de cerimônia chamou o noivo,"
+  },
+  {
+   "n": 10,
+   "t": "E disse-lhe: Todos põem primeiro o vinho bom, e quando os convidados já estão bêbados, então se dá o pior; porém tu guardaste o bom vinho até agora."
+  },
+  {
+   "n": 11,
+   "t": "Este princípio de sinais Jesus fez em Caná da Galileia, e manifestou sua glória; e seus discípulos creram nele."
+  },
+  {
+   "n": 12,
+   "t": "Depois disto desceu a Cafarnaum, ele e sua mãe, seus irmãos, e seus discípulos, e ficaram ali não muitos dias."
+  },
+  {
+   "n": 13,
+   "t": "E estava perto a Páscoa dos judeus, e Jesus subiu a Jerusalém."
+  },
+  {
+   "n": 14,
+   "t": "E achou no Templo os que vendiam bois, ovelhas, e pombas, e os cambistas sentados."
+  },
+  {
+   "n": 15,
+   "t": "E tendo feito um açoite com cordas, lançou todos para fora do Templo, assim como as ovelhas, e os bois; e espalhou o dinheiro dos cambistas, e virou as mesas."
+  },
+  {
+   "n": 16,
+   "t": "E aos que vendiam pombas, disse: Tirai isto daqui; e não torneis a casa de meu Pai uma casa de comércio!"
+  },
+  {
+   "n": 17,
+   "t": "E lembraram-se seus discípulos que está escrito: O zelo de tua casa me tem me devorado."
+  }
+ ],
+ "titulo": "O que o zelo de Jesus revela no Templo?",
+ "temas": [
+  "zelo",
+  "templo",
+  "justiça",
+  "adoração"
+ ],
+ "pergunta": "Você já percebeu que algo sagrado pode estar sendo usado como comércio?",
+ "entender": "Neste trecho, Jesus chega ao Templo de Jerusalém e vê vendedores de bois, ovelhas, pombas e cambistas. Ele faz um açoite com cordas, lança todos para fora e derruba as mesas, dizendo: \"não torneis a casa de meu Pai uma casa de comércio!\" (João 2.15‑16). Essa ação ocorre logo depois do milagre em Caná, mostrando duas facetas do ministério de Jesus: o sinal de graça que transforma água em vinho e a defesa da santidade do lugar onde Deus é adorado. O Templo era o centro da vida religiosa judaica, mas também um ponto de negócios onde se vendiam animais para sacrifício e se trocava dinheiro. Ao limpar o Templo, Jesus denuncia a mistura do sagrado com o lucro e demonstra seu zelo por Deus.\n\nOs discípulos lembram que \"O zelo de tua casa me tem me devorado\" (João 2.17), citando a Escritura que fala do zelo de Deus. Essa lembrança indica que eles reconhecem a ação de Jesus como cumprimento da profecia e como um sinal de que algo novo está acontecendo na história da salvação.",
+ "ligar": {
+  "texto": "A atitude de Jesus aponta para Ele mesmo como o verdadeiro Templo (cf. João 2.19‑21). Seu zelo revela que a adoração deve ser pura, sem comércio nem interesse humano. Essa limpeza prepara o caminho para o sacrifício que Ele faria na cruz, onde Ele se tornaria o sacrifício perfeito que remove todo comércio espiritual. Assim, o evangelho se revela: Jesus veio para restaurar a adoração verdadeira e oferecer-se como caminho para a reconciliação com o Pai.",
+  "selo": true
+ },
+ "viver": "Observe onde, em sua vida, o sagrado pode estar sendo tratado como mercadoria – seja no uso das redes sociais, nas relações de trabalho ou até nas práticas de culto. Quando identificar essas áreas, siga o exemplo de Jesus: tome uma atitude firme para remover o que desonra a presença de Deus, criando espaço para adoração sincera. Lembre‑se também de que o zelo de Cristo se manifesta em amor e respeito; busque agir com compaixão ao confrontar o que está errado.\n\nAo fazer isso, você ajuda a manter a pureza da sua fé e contribui para que a comunidade também valorize o verdadeiro propósito do culto: glorificar a Deus.",
+ "guarde": "Não deixe que o sagrado se torne mercadoria; preserve a pureza da adoração.",
+ "ore": "Senhor, dá‑me sensibilidade para reconhecer quando algo sagrado está sendo usado para lucro ou ganho pessoal. Ajuda‑me a agir com coragem e amor, limpando meu coração e meus ambientes, para que eu adore a Ti em verdade, como fez Jesus no Templo.",
+ "quiz": {
+  "pergunta": "O que Jesus fez ao encontrar os vendedores no Templo?",
+  "opcoes": [
+   "Ele os perdoou e deixou que continuassem",
+   "Ele pediu que pagassem impostos",
+   "Ele os expulsou e derrubou as mesas"
+  ],
+  "certa": 2,
+  "explicacao": "O texto relata que Jesus fez um açoite, expulsou os vendedores e derrubou as mesas, mostrando sua indignação contra o comércio no Templo."
+ },
+ "refs": [
+  "Isaías 56:7",
+  "1 Coríntios 3:16"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T05:21:08.508Z",
+  "rounds": 3
+ }
+}

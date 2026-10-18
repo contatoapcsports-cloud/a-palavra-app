@@ -1,0 +1,138 @@
+{
+ "id": "43-1-11-20",
+ "ref": "João 1:11-20",
+ "book": "43",
+ "chapter": 1,
+ "verses": [
+  {
+   "n": 11,
+   "t": "Ao seu próprio veio, e os seus não o receberam."
+  },
+  {
+   "n": 12,
+   "t": "Mas a todos quantos o receberam, deu-lhes poder de serem feitos filhos de Deus: aos que creem em seu nome."
+  },
+  {
+   "n": 13,
+   "t": "Os quais não são gerados de sangue, nem de vontade da carne, nem de vontade de homem, mas sim de Deus."
+  },
+  {
+   "n": 14,
+   "t": "E aquela Palavra se fez carne, e habitou entre nós; (e vimos sua glória, como glória do unigênito do Pai) cheio de graça e de verdade."
+  },
+  {
+   "n": 15,
+   "t": "E João dele testemunhou, e clamou, dizendo: Este era aquele, de quem eu dizia: O que vem após mim é antes de mim; porque era primeiro que eu."
+  },
+  {
+   "n": 16,
+   "t": "E de sua plenitude recebemos todos também graça por graça."
+  },
+  {
+   "n": 17,
+   "t": "Porque a Lei foi dada por Moisés; a graça e a verdade foi feita por Jesus Cristo."
+  },
+  {
+   "n": 18,
+   "t": "A Deus nunca ninguém o viu; o unigênito Filho, que está no seio do Pai, ele o declarou."
+  },
+  {
+   "n": 19,
+   "t": "E este é o testemunho de João, quando os judeus mandaram alguns sacerdotes e levitas de Jerusalém, que lhe perguntassem: Tu quem és?"
+  },
+  {
+   "n": 20,
+   "t": "E confessou, e não negou; e confessou: Eu não sou o Cristo."
+  }
+ ],
+ "titulo": "Quem é a Luz que veio ao mundo?",
+ "temas": [
+  "luz",
+  "fé",
+  "filhos",
+  "testemunho"
+ ],
+ "pergunta": "Você já pensou por que alguns rejeitam a Luz que veio ao mundo?",
+ "entender": "Neste trecho João descreve que a Luz, que é a Palavra de Deus, veio ao mundo, mas \"os seus não o receberam\" (João 1.11). Ele explica que a quem a aceita foi dado \"poder de serem feitos filhos de Deus\" (v.12‑13), não por descendência humana, mas por vontade divina. Em seguida, João declara que \"a Palavra se fez carne\" (v.14), mostrando que Jesus, o unigênito do Pai, habitou entre nós, cheio de graça e verdade.\n\nJoão, enviado para testemunhar da Luz, afirma que não é o Cristo (v.15‑20) e relata o interrogatório dos judeus. O contexto anterior (v.8‑10) deixa claro que João não era a Luz, mas veio para apontar para ela. O contexto posterior continua a busca dos judeus por um Messias, revelando a expectativa ainda não satisfeita. Assim, o texto apresenta a revelação de Jesus como a encarnação da Palavra e a oferta de adoção divina a quem crê.",
+ "ligar": {
+  "texto": "O versículo 14 deixa claro que \"a Palavra se fez carne\" e habitou entre nós, apontando diretamente para Jesus Cristo, o Filho unigênito que revelou o Pai. A promessa de \"poder de serem feitos filhos de Deus\" (v.12‑13) mostra que, por meio da fé em Jesus, recebemos a nova identidade de filho adotivo, base do evangelho. A graça e a verdade que Ele traz superam a Lei dada por Moisés (v.17), mostrando que a salvação vem somente por Cristo.",
+  "selo": true
+ },
+ "viver": "Hoje, ao encontrar alguém que ainda não conhece a Luz de Cristo, lembre‑se que a aceitação não depende da aprovação humana, mas do poder que Jesus oferece. Compartilhe que, ao crer nele, somos adotados como filhos de Deus e recebemos graça para viver de modo que reflita essa nova identidade. Viva como filho adotivo, demonstrando a graça e a verdade que recebeu, e assim será luz para os que ainda não conhecem Jesus.",
+ "guarde": "Quem crê em Jesus recebe o poder de ser filho de Deus, não por sangue, mas por graça.",
+ "ore": "Senhor Jesus, obrigado por vir como a Palavra feita carne. Ajuda‑me a crer em Ti, a reconhecer minha filiação divina e a viver como filho teu, trazendo graça e verdade a quem me cerca. Amém.",
+ "quiz": {
+  "pergunta": "O que foi dado a todos quantos receberam a Luz?",
+  "opcoes": [
+   "poder de serem feitos filhos de Deus",
+   "promessa de vida eterna",
+   "perdão dos pecados"
+  ],
+  "certa": 0,
+  "explicacao": "João 1.12‑13 afirma que a todos quantos o receberam foi dado o poder de serem feitos filhos de Deus, indicando a nova posição que a fé em Cristo concede."
+ },
+ "refs": [
+  "Romanos 5:8",
+  "Efésios 2:8-9",
+  "1 João 5:12",
+  "Hebreus 1:1-2"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T05:12:09.310Z",
+  "rounds": 3
+ }
+}
