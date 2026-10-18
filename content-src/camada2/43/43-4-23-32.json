@@ -1,0 +1,138 @@
+{
+ "id": "43-4-23-32",
+ "ref": "João 4:23-32",
+ "book": "43",
+ "chapter": 4,
+ "verses": [
+  {
+   "n": 23,
+   "t": "Porém a hora vem, e agora é, quando os verdadeiros adoradores adorarão ao Pai em espírito e em verdade; porque também o Pai busca a tais que o adorem."
+  },
+  {
+   "n": 24,
+   "t": "Deus é Espírito, e os que o adoram devem adorá -lo em espírito e em verdade."
+  },
+  {
+   "n": 25,
+   "t": "Disse-lhe a mulher: Eu sei que o Messias vem (que se chama o Cristo); quando ele vier, todas as coisas nos anunciará."
+  },
+  {
+   "n": 26,
+   "t": "Disse-lhe Jesus: Eu sou o que contigo falo."
+  },
+  {
+   "n": 27,
+   "t": "E nisto vieram seus discípulos; e maravilharam-se de que falasse com uma mulher; mas ninguém lhe disse: Que perguntas? ou, O que falas com ela?"
+  },
+  {
+   "n": 28,
+   "t": "Deixou, pois, a mulher seu vaso de água, e foi à cidade, e disse ao povo:"
+  },
+  {
+   "n": 29,
+   "t": "Vinde, vede um homem que me disse tudo quanto tenho feito; por acaso não é este o Cristo?"
+  },
+  {
+   "n": 30,
+   "t": "Saíram, pois, da cidade, e vieram a ele."
+  },
+  {
+   "n": 31,
+   "t": "E enquanto isso, os discípulos lhe pediam, dizendo: Rabi, come."
+  },
+  {
+   "n": 32,
+   "t": "Porém ele lhes disse: Uma comida tenho que comer, que vós não sabeis."
+  }
+ ],
+ "titulo": "Adoração em espírito e o testemunho da samaritana",
+ "temas": [
+  "adoração",
+  "espírito",
+  "verdade",
+  "testemunho"
+ ],
+ "pergunta": "Como mudar a forma de adorar pode transformar o nosso testemunho?",
+ "entender": "Jesus conversa com a mulher samaritana junto ao poço e anuncia: \"quando os verdadeiros adoradores adorarão ao Pai em espírito e em verdade\" (João 4.23). Ele mostra que a adoração não depende de um lugar, mas do coração guiado pelo Espírito. A mulher reconhece o Messias e, \"Deixou, pois, a mulher seu vaso de água, e foi à cidade\" (João 4.28‑29), anunciando a quem a viu. Os discípulos, ainda sem entender, perguntam a Jesus sobre comida (João 4.31‑32). O diálogo ocorre depois de Jesus dizer que nem no monte nem em Jerusalém a adoração será limitada (João 4.21), indicando uma nova era de relacionamento com Deus.\n\nNesse contexto, a mulher passa de curiosa a testemunha, mostrando que a verdadeira adoração gera coragem para compartilhar a boa notícia. Seu relato desperta a curiosidade dos samaritanos, que vêm a ver Jesus, e demonstra que a mensagem do Messias ultrapassa barreiras culturais e religiosas.",
+ "ligar": {
+  "texto": "Ao reconhecer que Jesus é o Messias, a mulher demonstra que adorar em espírito leva ao encontro com Cristo. Jesus declara: \"Eu sou o que contigo falo\" (João 4.26), indicando que Ele é a revelação que o Pai buscava. Seu testemunho, \"não é este o Cristo?\", espalha o evangelho a toda Samaria, mostrando que a salvação vem pela fé em Jesus, o Filho de Deus, que veio para dar vida em abundância.",
+  "selo": true
+ },
+ "viver": "Hoje, examine onde coloca sua adoração: será em rituais, lugares ou na sinceridade do coração? Como a samaritana, deixe de lado o que te prende e compartilhe, mesmo que simples, o que Jesus tem feito em sua vida. Ao contar a outros que encontrou o Cristo, você abre portas para que mais corações descubram a verdade que liberta.",
+ "guarde": "Adorar em espírito desperta coragem para anunciar que Jesus é o Cristo.",
+ "ore": "Senhor, ajuda‑me a adorar‑Te de coração, guiado pelo Teu Espírito, e a reconhecer‑Te como o Messias. Dá‑me coragem para contar a outros o que fizeste em mim, como a mulher samaritana fez. Amém.",
+ "quiz": {
+  "pergunta": "O que a mulher fez depois de reconhecer Jesus como o Messias?",
+  "opcoes": [
+   "Deixou o vaso de água e foi contar à cidade.",
+   "Pediu a Jesus água viva para saciar sua sede.",
+   "Ficou em silêncio e voltou para casa."
+  ],
+  "certa": 0,
+  "explicacao": "O texto relata que, ao reconhecer Jesus, a mulher \"Deixou, pois, a mulher seu vaso de água, e foi à cidade\" (João 4.28‑29) e anunciou que Ele era o Cristo."
+ },
+ "refs": [
+  "Mateus 5:6",
+  "Romanos 10:9-10",
+  "1 Coríntios 2:14",
+  "Efésios 2:8-9"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T07:05:41.334Z",
+  "rounds": 3
+ }
+}

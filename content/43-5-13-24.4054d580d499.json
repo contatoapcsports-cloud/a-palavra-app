@@ -1,0 +1,146 @@
+{
+ "id": "43-5-13-24",
+ "ref": "João 5:13-24",
+ "book": "43",
+ "chapter": 5,
+ "verses": [
+  {
+   "n": 13,
+   "t": "E o que fora curado, não sabia quem o era, porque Jesus se havia retirado, porque naquele lugar havia uma grande multidão."
+  },
+  {
+   "n": 14,
+   "t": "Depois Jesus achou-o no Templo, e disse-lhe: Eis que já estás são; não peques mais, para que não te suceda alguma coisa pior."
+  },
+  {
+   "n": 15,
+   "t": "Aquele homem foi anunciar aos judeus que Jesus era o que o curara."
+  },
+  {
+   "n": 16,
+   "t": "E por isso os judeus perseguiam Jesus e procuravam matá-lo, porque ele fazia estas coisas no sábado."
+  },
+  {
+   "n": 17,
+   "t": "E Jesus lhes respondeu: Meu Pai até agora trabalha, e eu também trabalho."
+  },
+  {
+   "n": 18,
+   "t": "Por isto ainda mais procuravam os Judeus matá-lo, porque não só quebrava o sábado, mas também dizia que Deus era seu próprio Pai, fazendo-se igual a Deus."
+  },
+  {
+   "n": 19,
+   "t": "Respondeu pois Jesus, e disse-lhes: Em verdade, em verdade vos digo, que não pode o Filho fazer coisa alguma de si mesmo, a não ser aquilo que ele veja o Pai fazer; porque todas as coisas que ele faz, semelhantemente o Filho também as faz."
+  },
+  {
+   "n": 20,
+   "t": "Porque o Pai ama ao Filho, e todas as coisas que faz lhe mostra; e maiores obras que estas lhe mostrará, para que vós vos maravilheis."
+  },
+  {
+   "n": 21,
+   "t": "Porque como o Pai aos mortos ressuscita e vivifica, assim também o Filho aos que quer vivifica."
+  },
+  {
+   "n": 22,
+   "t": "Porque também o Pai a ninguém julga, mas todo o juízo deu ao Filho,"
+  },
+  {
+   "n": 23,
+   "t": "Para que todos honrem ao Filho, como honram ao Pai. Quem não honra ao Filho, não honra ao Pai que o enviou."
+  },
+  {
+   "n": 24,
+   "t": "Em verdade, em verdade vos digo, que quem ouve minha palavra, e crê ao que me enviou, tem vida eterna, e não virá em condenação, mas passou da morte para a vida."
+  }
+ ],
+ "titulo": "Quem é o Filho que dá vida?",
+ "temas": [
+  "vida eterna",
+  "juízo",
+  "identidade de jesus",
+  "fé",
+  "trabalho de deus"
+ ],
+ "pergunta": "O que significa passar da morte para a vida ao crer em Jesus?",
+ "entender": "Depois de curar um homem paralítico, Jesus encontra-o no Templo e o adverte: \"não peques mais, para que não te suceda alguma coisa pior\". Essa cura física era um sinal de algo maior. Quando os judeus se ofendem porque Jesus trabalha no sábado, Ele revela que o Pai \"até agora trabalha, e eu também trabalho\". A discussão não é apenas sobre regras, mas sobre a autoridade de Jesus.\n\nJesus afirma que o Filho faz o que vê o Pai fazer, pois o Pai \"ama ao Filho\" e lhe mostra tudo. Ele declara que assim como o Pai ressuscita os mortos, o Filho também dá vida a quem Ele quer. Mais ainda, o Pai entregou ao Filho o poder de julgar, para que todos o honrem. A honra ao Filho é honra ao próprio Deus.\n\nA conclusão é clara: quem ouve a palavra de Jesus e crê naquele que o enviou \"tem vida eterna, e não virá em condenação, mas passou da morte para a vida\". Não se trata apenas de sobreviver, mas de uma mudança de estado espiritual imediato pela fé.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a divindade de Jesus e o evangelho da salvação. Jesus não se apresenta apenas como um profeta, mas como o Filho que compartilha a autoridade do Pai sobre a vida e a morte. A promessa de vida eterna para quem crê é o coração da mensagem: a salvação não vem por obras de lei, mas pela fé em Cristo, que tem poder para dar vida nova e livrar do juízo.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, buscamos sinais externos ou milagres para confirmar nossa fé. Este texto nos convida a olhar para Jesus e crer na Sua palavra. \"Vida eterna\" não é apenas um destino futuro, mas uma realidade presente: quem crê em Jesus já passou da morte espiritual para a vida. Isso muda como vivemos hoje, pois não estamos mais sob condenação, mas sob a proteção e o cuidado daquele que nos deu vida.",
+ "guarde": "Crer em Jesus não é apenas aceitar um fato, é passar da morte para a vida agora.",
+ "ore": "Senhor, obrigado por revelar quem és. Ajuda-me a crer na Tua palavra e a viver a vida eterna que me deste em Cristo, longe da condenação. Amém.",
+ "quiz": {
+  "pergunta": "O que o Pai deu ao Filho para que todos O honrem?",
+  "opcoes": [
+   "Todo o juízo",
+   "O Templo",
+   "A cura do paralítico"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz claramente que \"todo o juízo deu ao Filho\", para que todos O honrem como honram o Pai."
+ },
+ "refs": [
+  "João 14:6",
+  "Romanos 6:23",
+  "Atos 10:42"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T07:21:00.500Z",
+  "rounds": 1
+ }
+}

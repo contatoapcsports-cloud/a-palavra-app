@@ -1,0 +1,145 @@
+{
+ "id": "43-6-13-24",
+ "ref": "João 6:13-24",
+ "book": "43",
+ "chapter": 6,
+ "verses": [
+  {
+   "n": 13,
+   "t": "Então eles os recolheram, e encheram doze cestos de pedaços dos cinco pães de cevada, que sobraram aos que tinham comido."
+  },
+  {
+   "n": 14,
+   "t": "Vendo, pois, aquelas pessoas o sinal que Jesus fizera, disseram: Este é verdadeiramente o Profeta que havia de vir ao mundo!"
+  },
+  {
+   "n": 15,
+   "t": "Sabendo pois Jesus que viriam, e o tomariam, para fazê-lo rei, voltou a se retirar sozinho ao monte."
+  },
+  {
+   "n": 16,
+   "t": "E quando veio o entardecer, seus discípulos desceram para o mar."
+  },
+  {
+   "n": 17,
+   "t": "E entrando no barco, vieram do outro lado do mar para Cafarnaum. E era já escuro, e Jesus ainda não tinha vindo a eles."
+  },
+  {
+   "n": 18,
+   "t": "E o mar se levantou, porque um grande vento soprava."
+  },
+  {
+   "n": 19,
+   "t": "E havendo já navegado quase vinte e cinco, ou trinta estádios, viram a Jesus andando sobre o mar, e se aproximando do barco; e temeram."
+  },
+  {
+   "n": 20,
+   "t": "Mas ele lhes disse: Sou eu, não temais."
+  },
+  {
+   "n": 21,
+   "t": "Eles, então, o receberam com agrado no barco; e logo o barco chegou à terra para onde iam."
+  },
+  {
+   "n": 22,
+   "t": "O dia seguinte, vendo a multidão, que estava do outro lado do mar, que não havia ali mais que um barquinho, em que seus discípulos entraram; e que Jesus não entrara com seus discípulos naquele barquinho, mas que seus discípulos sós se haviam ido;"
+  },
+  {
+   "n": 23,
+   "t": "(Porém outros barquinhos vieram de Tibérias, perto do lugar onde comeram o pão, havendo o Senhor dado graças.)"
+  },
+  {
+   "n": 24,
+   "t": "Vendo pois a multidão que Jesus não estava ali, nem seus discípulos, entraram eles também nos barcos, e vieram a Cafarnaum em busca de Jesus."
+  }
+ ],
+ "titulo": "Jesus no mar agitado: calma em meio ao medo",
+ "temas": [
+  "confiança",
+  "medo",
+  "sinais",
+  "presença"
+ ],
+ "pergunta": "O que você faria se visse Jesus caminhando sobre as águas agitadas à noite?",
+ "entender": "Depois de alimentar cinco mil pessoas, Jesus se retirou sozinho para o monte. Os discípulos, sem Ele, entraram no barco e foram para o outro lado do mar. A noite caiu, o vento soprou com força e o mar se agitou. Quando já tinham navegado bastante, viram Jesus andando sobre as águas em direção a eles. O medo os tomou, pois aquilo era sobrenatural e ameaçador.\n\nAo verem a figura de Jesus, eles temeram. Mas Ele disse: \"Sou eu, não temais\". Ao ouvirem a voz reconhecível de Cristo, o medo deu lugar à paz. Eles O receberam no barco e, imediatamente, chegaram ao destino. O texto mostra que a presença de Jesus transforma a tempestade em travessia segura, mesmo quando a situação parece impossível.\n\nA multidão, do outro lado, percebeu que Jesus não estava com os discípulos e, buscando-O, veio a Cafarnaum. Enquanto a multidão buscava Jesus por causa dos sinais e do pão, os discípulos estavam aprendendo a confiar na Sua presença em meio à luta.",
+ "ligar": {
+  "texto": "Este episódio revela a divindade de Jesus. Ele não apenas acalmou o mar, mas caminhou sobre ele, demonstrando autoridade sobre a criação. Quando Ele disse \"Sou eu\", estava declarando Sua identidade divina. O evangelho nos mostra que Cristo é o único que pode acalmar as tempestades da vida. Ele não promete que o mar nunca vai se agitar, mas promete que estará conosco, transformando o medo em paz e nos levando à terra firme. A salvação é encontrada em reconhecer e receber Jesus no barco da nossa vida.",
+  "selo": true
+ },
+ "viver": "Você está enfrentando uma \"tempestade\" hoje? Pode ser um problema financeiro, uma doença ou uma ansiedade que não passa. Em vez de focar apenas no tamanho das ondas, tente focar na voz de Jesus. Ele disse: \"Não temais\". Isso não significa que o problema desaparecerá magicamente, mas que você não está sozinho. Receba a presença de Cristo no seu barco. A confiança Nele muda a perspectiva: a travessia deixa de ser um perigo mortal e se torna um caminho seguro até a terra prometida.",
+ "guarde": "A presença de Jesus transforma a tempestade em travessia segura.",
+ "ore": "Senhor Jesus, quando o medo me assalta e as ondas da vida se elevam, ajuda-me a ouvir a Tua voz. Que eu reconheça que és Tu, que estás comigo e que não preciso ter medo. Dá-me a fé para Te receber no meu barco e a paz para saber que chegarás à terra firme. Amém.",
+ "quiz": {
+  "pergunta": "O que Jesus disse aos discípulos quando eles O viram andando sobre o mar e temeram?",
+  "opcoes": [
+   "Tenham fé, eu estou com vocês.",
+   "Acalmem-se, o vento vai parar.",
+   "Sou eu, não temais."
+  ],
+  "certa": 2,
+  "explicacao": "O texto em João 6:20 registra exatamente a fala de Jesus: \"Sou eu, não temais\". Ele identificou-se e deu a ordem de não ter medo, o que trouxe paz imediata aos discípulos."
+ },
+ "refs": [
+  "Mateus 14:25-27",
+  "Marcos 6:48-51",
+  "Lucas 24:38-39"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T07:24:58.456Z",
+  "rounds": 1
+ }
+}

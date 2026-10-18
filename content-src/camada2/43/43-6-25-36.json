@@ -1,0 +1,145 @@
+{
+ "id": "43-6-25-36",
+ "ref": "João 6:25-36",
+ "book": "43",
+ "chapter": 6,
+ "verses": [
+  {
+   "n": 25,
+   "t": "E achando-o do outro lado do mar, disseram: Rabi, quando chegaste aqui?"
+  },
+  {
+   "n": 26,
+   "t": "Respondeu-lhes Jesus, e disse: Em verdade, em verdade vos digo, que me buscais, não pelos sinais que vistes, mas pelo pão que comestes, e vos fartastes."
+  },
+  {
+   "n": 27,
+   "t": "Trabalhai não pela comida que perece, mas sim pela comida que permanece para vida eterna, a qual o Filho do homem vos dará; porque Deus Pai a este selou."
+  },
+  {
+   "n": 28,
+   "t": "Disseram-lhe pois: Que faremos para trabalhar as obras de Deus?"
+  },
+  {
+   "n": 29,
+   "t": "Respondeu Jesus, e disse-lhes: Esta é a obra de Deus: que creiais naquele que ele enviou."
+  },
+  {
+   "n": 30,
+   "t": "Disseram-lhe pois: Que sinal, pois, fazes tu para que o vejamos, e em ti creiamos? O que tu operas?"
+  },
+  {
+   "n": 31,
+   "t": "Nossos pais comeram o maná no deserto, como está escrito: Pão do céu ele lhes deu para comer."
+  },
+  {
+   "n": 32,
+   "t": "Então Jesus lhes disse: Em verdade, em verdade vos digo, que Moisés não vos deu o pão do céu; mas meu Pai vos dá o verdadeiro pão do céu."
+  },
+  {
+   "n": 33,
+   "t": "Porque o pão de Deus é aquele que desce do céu e dá vida ao mundo."
+  },
+  {
+   "n": 34,
+   "t": "Disseram-lhe pois: Senhor, dá-nos sempre d este pão."
+  },
+  {
+   "n": 35,
+   "t": "E Jesus lhes disse: Eu sou o pão da vida; quem vem a mim de maneira nenhuma terá fome, e quem crê em mim nunca terá sede."
+  },
+  {
+   "n": 36,
+   "t": "Mas já tenho vos dito que também me vistes, e não credes."
+  }
+ ],
+ "titulo": "O Pão que Não Perece",
+ "temas": [
+  "fé",
+  "fome espiritual",
+  "cristo",
+  "vida eterna"
+ ],
+ "pergunta": "Você está satisfeito apenas com as bênçãos temporárias ou busca algo que dure para sempre?",
+ "entender": "Depois de multiplicar pães e peixes, a multidão procurou Jesus não por causa do milagre em si, mas porque queriam mais comida física. Jesus percebeu essa motivação e corrigiu a visão deles: \"Trabalhai não pela comida que perece, mas sim pela comida que permanece para vida eterna\" (João 6.27). Ele desviou o foco da satisfação momentânea para a necessidade espiritual profunda.\n\nQuando perguntaram o que deveriam fazer, Jesus respondeu que a única \"obra\" necessária era crer naquele que Deus enviou. Ele se apresentou como o verdadeiro pão do céu, superior ao maná do deserto, pois é Ele quem desce do céu e dá vida ao mundo. A oferta era direta: quem vem a Ele não terá fome, e quem crê nunca terá sede.",
+ "ligar": {
+  "texto": "Este trecho é o coração do evangelho: Jesus é a solução definitiva para a fome humana. Não se trata apenas de moralismo, mas de uma relação pessoal com Cristo como o Pão da Vida. A salvação é pela graça, mediante a fé, pois Jesus declara que basta vir a Ele para ser satisfeito. Ele se oferece como o alimento que traz vida eterna, cumprindo a promessa de Deus.",
+  "selo": true
+ },
+ "viver": "Pense nas coisas que tentam saciar sua alma, como dinheiro, reconhecimento ou conforto. Elas são boas, mas perecem. Jesus convida você a buscar primeiro a Ele. Na prática, isso significa abrir espaço na sua rotina para orar e ler a Bíblia, tratando essas ações como o alimento essencial que mantém sua vida espiritual forte. Não espere estar com fome espiritual para procurar Deus; busque-O proativamente, como quem procura comida para sustentar o corpo.",
+ "guarde": "A única fome que leva à vida eterna é saciada pela fé em Jesus Cristo.",
+ "ore": "Pai, muitas vezes busco satisfação em coisas que não duram. Ajuda-me a reconhecer minha fome espiritual e a confiar em Jesus como o Pão da Vida. Dá-me fome de Ti, para que eu nunca tenha sede de verdade.",
+ "quiz": {
+  "pergunta": "O que Jesus disse ser a \"obra de Deus\"?",
+  "opcoes": [
+   "Realizar sinais milagrosos",
+   "Comer o maná no deserto",
+   "Crer naquele que Ele enviou"
+  ],
+  "certa": 2,
+  "explicacao": "Em João 6.29, Jesus responde claramente que a obra de Deus é crer naquele que Ele enviou, não realizar ações religiosas ou milagres."
+ },
+ "refs": [
+  "João 4:14",
+  "Mateus 5:6",
+  "1 Coríntios 3:21"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T07:29:09.674Z",
+  "rounds": 2
+ }
+}

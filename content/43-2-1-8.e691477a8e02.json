@@ -1,0 +1,129 @@
+{
+ "id": "43-2-1-8",
+ "ref": "João 2:1-8",
+ "book": "43",
+ "chapter": 2,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E no terceiro dia houve um casamento em Caná da Galileia; e a mãe de Jesus estava ali."
+  },
+  {
+   "n": 2,
+   "t": "E também Jesus foi convidado com seus discípulos ao casamento."
+  },
+  {
+   "n": 3,
+   "t": "E tendo faltado vinho, a mãe de Jesus lhe disse: Não têm vinho."
+  },
+  {
+   "n": 4,
+   "t": "Jesus lhe disse: O que eu tenho contigo, mulher? A minha hora ainda não chegou."
+  },
+  {
+   "n": 5,
+   "t": "Sua mãe disse aos serventes: Fazei tudo quanto ele vos disser."
+  },
+  {
+   "n": 6,
+   "t": "E estavam ali postos seis vasos de pedra, conforme à purificação dos judeus, em cada uma cabiam duas ou três metretas. )"
+  },
+  {
+   "n": 7,
+   "t": "Disse-lhes Jesus: Enchei estes vasos com água. E encheram-nas até encima."
+  },
+  {
+   "n": 8,
+   "t": "E disse-lhes: Agora tirai, e a levai ao mestre de cerimônia. Então levaram."
+  }
+ ],
+ "titulo": "O que a mãe de Jesus fez no casamento?",
+ "temas": [
+  "obediência",
+  "fé",
+  "confiança"
+ ],
+ "pergunta": "Como a atitude da mãe de Jesus pode mudar o rumo de uma situação difícil?",
+ "entender": "No casamento em Caná, a festa ficou sem vinho. A mãe de Jesus percebeu o problema e disse a Ele: \"Não têm vinho\" (João 2.3). Jesus respondeu: \"O que eu tenho contigo, mulher? A minha hora ainda não chegou\" (João 2.4). Mesmo assim, sua mãe não desistiu; ela orientou os serventes: \"Fazei tudo quanto ele vos disser\" (João 2.5). Jesus então pediu que enchessem seis vasos de pedra com água (João 2.6‑7) e, ao levar o conteúdo ao mestre de cerimônia, a água se transformou em vinho de excelente qualidade (João 2.8‑9). Esse é o primeiro milagre público de Jesus, mostrando sua autoridade sobre a criação e revelando sua glória aos presentes.\n\nO contexto imediato é o início do ministério de Jesus, logo após seu batismo. O sinal em Caná serve como introdução ao seu poder revelado, preparando os discípulos e o público para o que virá. A presença dos vasos de pedra, usados nas purificações judaicas, indica que o milagre tem ligação com a tradição religiosa, mas supera-a ao transformar água em vinho, símbolo de alegria e celebração.",
+ "ligar": {
+  "texto": "Ao transformar água em vinho, Jesus demonstra que tem poder para mudar a realidade humana, prenunciando a obra maior de transformar o pecado em vida nova. O fato de Ele atender ao pedido da mãe, ainda que ainda não fosse o momento de revelar sua glória plena, mostra que Ele responde à fé que confia nele. Esse sinal aponta para a nova aliança, onde o sangue de Cristo será como o melhor vinho, trazendo salvação a todos que crerem.",
+  "selo": false
+ },
+ "viver": "Quando nos deparamos com falta ou dificuldade, podemos seguir o exemplo da mãe de Jesus: levar a situação a Cristo, confiando que Ele tem um plano. Também somos chamados a obedecer às instruções que Ele nos dá, mesmo que pareçam simples ou inesperadas, pois Ele pode usar esses pequenos atos para gerar bênçãos maiores na nossa vida e na dos que nos rodeiam.",
+ "guarde": "Confie em Jesus e obedeça, mesmo quando não entende o resultado.",
+ "ore": "Senhor Jesus, ajuda-me a confiar nas tuas palavras e a obedecer ao que me pedires, acreditando que tu transformas o simples em algo glorioso. Dá-me fé como a da tua mãe. Amém.",
+ "quiz": {
+  "pergunta": "Quem orientou os serventes a fazerem tudo o que Jesus dissesse?",
+  "opcoes": [
+   "A mãe de Jesus",
+   "Jesus",
+   "Os convidados"
+  ],
+  "certa": 0,
+  "explicacao": "O texto registra que \"Sua mãe disse aos serventes: Fazei tudo quanto ele vos disser\" (João 2.5), mostrando que foi a mãe quem deu a instrução."
+ },
+ "refs": [
+  "Isaías 43:19",
+  "Mateus 5:17",
+  "1 Coríntios 10:31",
+  "Hebreus 2:11"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T06:41:35.500Z",
+  "rounds": 3
+ }
+}

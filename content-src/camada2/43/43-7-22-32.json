@@ -1,0 +1,140 @@
+{
+ "id": "43-7-22-32",
+ "ref": "João 7:22-32",
+ "book": "43",
+ "chapter": 7,
+ "verses": [
+  {
+   "n": 22,
+   "t": "Por isso Moisés vos deu a circuncisão (não porque seja de Moisés, mas dois pais) e no sábado circuncidais ao homem."
+  },
+  {
+   "n": 23,
+   "t": "Se o homem recebe a circuncisão no sábado, para que a Lei de Moisés não seja quebrada, irritai-vos comigo, porque no sábado curei por completo um homem?"
+  },
+  {
+   "n": 24,
+   "t": "Não julgueis segundo a aparência, mas julgai juízo justo."
+  },
+  {
+   "n": 25,
+   "t": "Diziam, pois, alguns dos de Jerusalém: Não é este ao que procuram matar?"
+  },
+  {
+   "n": 26,
+   "t": "E eis que ele fala livremente, e nada lhe dizem; por acaso é verdade que os chefes sabem que este realmente é o Cristo?"
+  },
+  {
+   "n": 27,
+   "t": "Mas este bem sabemos de onde é: Porém quando vier o Cristo, ninguém saberá de onde é."
+  },
+  {
+   "n": 28,
+   "t": "Exclamava pois Jesus no Templo, ensinando, e dizendo: E a mim me conheceis, e sabeis de onde sou; e eu não vim de mim mesmo; mas aquele que me enviou é verdadeiro, ao qual vós não conheceis."
+  },
+  {
+   "n": 29,
+   "t": "Porém eu o conheço, porque dele sou, e ele me enviou."
+  },
+  {
+   "n": 30,
+   "t": "Procuravam pois prendê-lo, mas ninguém pôs a mão nele, porque sua hora ainda não era vinda."
+  },
+  {
+   "n": 31,
+   "t": "E muitos da multidão creram nele, e diziam: Quando o Cristo vier, fará ainda mais sinais do que os que este tem feito?"
+  },
+  {
+   "n": 32,
+   "t": "Ouviram os fariseus que a multidão murmurava estas coisas sobre ele; e os fariseus e os chefes dos Sacerdotes mandaram oficiais para prendê-lo."
+  }
+ ],
+ "titulo": "A hora de Deus para Jesus",
+ "temas": [
+  "soberania",
+  "fé",
+  "julgamento"
+ ],
+ "pergunta": "Por que a multidão começou a crer enquanto os líderes tentavam prender Jesus?",
+ "entender": "Jesus está no templo, defendendo-se de acusações sobre a circuncisão no sábado. Ele usa a lógica da Lei para mostrar que curar uma pessoa é um bem maior do que quebrar o dia sagrado. O clima é tenso: alguns de Jerusalém reconhecem que Ele é o Cristo, enquanto outros duvidam porque conhecem sua origem em Nazaré.\n\nJesus afirma que não veio de si mesmo, mas foi enviado por Deus, o qual eles não conhecem. A tensão chega ao ponto de procurarem prendê-lo, mas ninguém ousa agir porque \"sua hora ainda não era vinda\". Enquanto isso, muitos na multidão creram, perguntando se o Messias faria sinais ainda maiores.",
+ "ligar": {
+  "texto": "Este texto revela a soberania de Deus sobre a vida de Jesus. A expressão \"sua hora ainda não era vinda\" mostra que Jesus não estava à mercia dos homens, mas no controle do Pai. Isso aponta para o evangelho: a morte e ressurreição de Cristo não foram acidentes, mas o cumprimento exato do plano divino. A fé da multidão nasce ao verem sinais que confirmam a identidade dEle como o Enviado verdadeiro.",
+  "selo": true
+ },
+ "viver": "Muitas vezes ansiamos por respostas imediatas ou sentimos que nossas lutas estão fora de controle. Este trecho nos lembra que Deus tem um tempo perfeito para cada coisa. Assim como ninguém pôde impedir Jesus antes da hora certa, podemos confiar que Deus conduz nossa vida com precisão. Em vez de julgar pela aparência ou nos desesperar com a espera, aprendamos a descansar na certeza de que o plano de Deus é fiel e se cumprirá no tempo dEle.",
+ "guarde": "A hora de Deus é soberana; Ele conduz a história conforme seu plano perfeito.",
+ "ore": "Senhor Jesus, ensina-me a confiar no Teu tempo. Quando não entendo por que certas situações demoram a se resolver, lembra-me de que Tu estás no controle. Ajuda-me a não julgar pela aparência, mas a buscar a verdade do Teu coração. Que minha fé cresça ao ver os Teus sinais na minha vida e ao saber que Tu és o Enviado do Pai.",
+ "quiz": {
+  "pergunta": "Qual foi a razão dada no texto para ninguém prender Jesus?",
+  "opcoes": [
+   "Sua hora ainda não era vinda",
+   "A multidão o protegeu fisicamente",
+   "Os fariseus estavam com medo de uma revolta"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente que ninguém pôs a mão nele porque sua hora ainda não era vinda, indicando a soberania de Deus."
+ },
+ "refs": [
+  "João 5:19",
+  "Mateus 26:53",
+  "Atos 4:27"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T07:37:21.872Z",
+  "rounds": 2
+ }
+}

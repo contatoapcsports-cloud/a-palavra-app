@@ -1,0 +1,146 @@
+{
+ "id": "43-5-1-12",
+ "ref": "João 5:1-12",
+ "book": "43",
+ "chapter": 5,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Depois disto houve uma festa dos judeus, e subiu Jesus para Jerusalém."
+  },
+  {
+   "n": 2,
+   "t": "E há em Jerusalém à porta das ovelhas um tanque, que em hebraico se chama Betesda, que tem cinco entradas cobertas."
+  },
+  {
+   "n": 3,
+   "t": "Nestes jazia grande multidão de enfermos, cegos, mancos, e de corpo ressecado, aguardando o movimento da água."
+  },
+  {
+   "n": 4,
+   "t": "Porque um anjo descia de vez em quando ao tanque, e agitava a água; e o primeiro que descia nele, depois do movimento da água, sarava de qualquer enfermidade que tivesse."
+  },
+  {
+   "n": 5,
+   "t": "E estava ali um certo homem, que havia trinta e oito anos que estava enfermo."
+  },
+  {
+   "n": 6,
+   "t": "Vendo Jesus a este deitado, e sabendo, que já havia muito tempo que ali jazia, disse-lhe: Queres sarar?"
+  },
+  {
+   "n": 7,
+   "t": "Respondeu-lhe o enfermo: Senhor, não tenho homem algum para que, quando a água se agita, me ponha no tanque; e enquanto eu venho, outro desce antes de mim."
+  },
+  {
+   "n": 8,
+   "t": "Disse-lhe Jesus: Levanta-te, toma teu leito, e anda."
+  },
+  {
+   "n": 9,
+   "t": "E logo aquele homem sarou; e tomou seu leito, e andou. E era Sábado aquele dia."
+  },
+  {
+   "n": 10,
+   "t": "Disseram pois os judeus para aquele que fora curado: É Sábado, não te é lícito levar o leito."
+  },
+  {
+   "n": 11,
+   "t": "Respondeu-lhes ele: Aquele que me curou, esse me disse: Toma teu leito, e anda."
+  },
+  {
+   "n": 12,
+   "t": "Perguntaram-lhe pois: Quem é o homem que te disse: Toma teu leito e anda?"
+  }
+ ],
+ "titulo": "A cura que rompe a tradição do sábado",
+ "temas": [
+  "cura",
+  "fé",
+  "sábado",
+  "compaixão"
+ ],
+ "pergunta": "Você já deixou que uma regra atrapalhe a ajuda que alguém precisa?",
+ "entender": "Jesus chegou ao tanque de Betesda, onde \"um anjo descia de vez em quando ao tanque, e agitava a água\" (João 5:4). Lá havia uma multidão de enfermos, entre eles um homem que estava doente há trinta e oito anos (v.5). Vendo‑o, Jesus perguntou: \"Queres sarar?\" (v.6). O homem explicou que não tinha ninguém que o ajudasse a entrar quando a água se agitava (v.7). Jesus então lhe deu ordem direta: \"Levanta-te, toma teu leito, e anda\" (v.8). O homem obedeceu, foi curado e começou a caminhar, ainda que fosse sábado (v.9).\n\nOs judeus que o observaram protestaram: \"É sábado, não te é lícito levar o leito\" (v.10). Eles focavam na observância da lei ritual, enquanto Jesus mostrava que a compaixão e a necessidade humana têm prioridade sobre regras humanas. O relato destaca a autoridade de Jesus para dar vida e curar, independentemente das tradições.",
+ "ligar": {
+  "texto": "Ao curar no sábado, Jesus demonstra que o Reino de Deus valoriza a misericórdia acima de meras formalidades. Ele oferece a verdadeira cura – libertação do pecado – ao dizer \"Levanta-te\". Assim como o anjo agitava a água, o Espírito de Deus move o coração para crer que a salvação vem de Cristo, que morreu e ressuscitou para nos dar vida nova.",
+  "selo": false
+ },
+ "viver": "Quando nos deparamos com normas que parecem impedir o cuidado ao próximo, lembremos que a compaixão deve prevalecer. Não espere que alguém abra a porta; responda ao convite de Jesus com fé e ajude quem precisa, mesmo que isso vá contra convenções. Reconheça que a cura verdadeira vem de Cristo, e ore por sua intervenção na vida das pessoas ao seu redor.\n\nTambém podemos aprender a não adiar a ajuda por medo de transgredir regras humanas. Se alguém está sofrendo, ofereça apoio, ore e confie que Jesus tem poder para restaurar tanto o corpo quanto a alma.",
+ "guarde": "A compaixão de Jesus supera a rigidez da lei; Ele nos chama a levantar e andar.",
+ "ore": "Jesus, ajuda‑me a ver além das regras e a agir com compaixão. Dá‑me coragem para seguir o Teu convite de levantar e andar, confiando que Tu és a fonte da verdadeira cura. Amém.",
+ "quiz": {
+  "pergunta": "Quantos anos o homem estava enfermo antes de ser curado?",
+  "opcoes": [
+   "38",
+   "30",
+   "40"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma que o homem estava doente há trinta e oito anos (João 5:5)."
+ },
+ "refs": [
+  "Mateus 12:10-12",
+  "Marcos 2:27-28",
+  "Hebreus 13:8",
+  "Isaías 53:5"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T07:14:42.626Z",
+  "rounds": 2
+ }
+}

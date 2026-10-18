@@ -1,0 +1,147 @@
+{
+ "id": "43-6-1-12",
+ "ref": "João 6:1-12",
+ "book": "43",
+ "chapter": 6,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Depois disto Jesus partiu para a outro lado do mar da Galileia, que é o de Tibérias."
+  },
+  {
+   "n": 2,
+   "t": "E uma grande multidão o seguia, porque viam seus sinais que ele fazia nos enfermos."
+  },
+  {
+   "n": 3,
+   "t": "E subiu Jesus ao monte, e sentou-se ali com seus discípulos."
+  },
+  {
+   "n": 4,
+   "t": "E já a Páscoa, a festa dos judeus, estava perto."
+  },
+  {
+   "n": 5,
+   "t": "Levantando pois Jesus os olhos, e vendo que uma grande multidão vinha a ele, disse a Filipe: De onde comparemos pães, para que estes comam?"
+  },
+  {
+   "n": 6,
+   "t": "(Mas ele disse isto para o testar; pois ele bem sabia o que havia de fazer.)"
+  },
+  {
+   "n": 7,
+   "t": "Respondeu-lhe Filipe: Duzentos dinheiros de pão não lhes bastarão, para que cada um deles tome um pouco."
+  },
+  {
+   "n": 8,
+   "t": "Disse-lhe um de seus discípulos, André, o irmão de Simão Pedro:"
+  },
+  {
+   "n": 9,
+   "t": "Um menino está aqui que tem cinco pães de cevada e dois peixinhos; mas que é isto entre tantos?"
+  },
+  {
+   "n": 10,
+   "t": "E disse Jesus: Fazei sentar as pessoas; e havia muita erva naquele lugar. Sentaram-se, pois, os homens, em número de cinco mil."
+  },
+  {
+   "n": 11,
+   "t": "E tomou Jesus os pães, e havendo dado graças, repartiu-os aos discípulos, e os discípulos aos que estavam sentados, semelhantemente também dos peixes, quanto queriam."
+  },
+  {
+   "n": 12,
+   "t": "E quando já estiveram fartos, disse ele a seus discípulos: Recolhei os pedaços que sobraram, para que nada se perca."
+  }
+ ],
+ "titulo": "Cinco pães, dois peixes e uma multidão",
+ "temas": [
+  "provisão",
+  "fé",
+  "milagre",
+  "generosidade",
+  "cristo"
+ ],
+ "pergunta": "O que você tem para oferecer quando a necessidade parece maior que seus recursos?",
+ "entender": "Jesus está na Galileia, perto da festa da Páscoa. Uma grande multidão O segue porque viu as curas que Ele fazia. Jesus pergunta a Filipe onde comprar pão para alimentar tanta gente. Na verdade, Jesus já sabia o que faria, mas queria testar a fé dos discípulos. Filipe responde que nem duzentos dinheiros seriam suficientes. Então André menciona um menino que tem cinco pães de cevada e dois peixinhos, perguntando se aquilo seria o suficiente para tanta gente.\n\nJesus manda sentarem as pessoas, que eram cerca de cinco mil homens. Ele toma os pães, dá graças e reparte. Os discípulos distribuem a comida, e todos se fartam. Ao final, Jesus pede que recolham os pedaços que sobraram, para que nada se perca. Este milagre mostra o poder de Jesus sobre a natureza e a criação, provendo o que era humanamente impossível.",
+ "ligar": {
+  "texto": "Este milagre é um sinal claro de que Jesus é o Messias. A Páscoa, que celebrava a libertação do Egito, está próxima, e Jesus se apresenta como o verdadeiro Pão que satisfaz a fome humana. Ele toma os poucos recursos que o menino tinha e os multiplica, mostrando Sua autoridade sobre a criação. Este ato aponta para o papel de Cristo como o que sustenta a vida dos crentes, provendo tudo o que é necessário para a salvação e a vida diária.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, sentimos que nossas ofertas ou capacidades são pequenas demais para ajudar os outros ou servir a Deus. A história do menino nos ensina que Deus não despreza o pouco que temos, mas o usa para fazer muito. A chave não é a quantidade, mas a disposição de entregar a Jesus. Quando confiamos que Ele pode multiplicar nossos esforços, talentos e recursos, abrimos espaço para a graça de Deus agir em nossas vidas e nas vidas daqueles ao nosso redor.",
+ "guarde": "Deus multiplica o pouco que entregamos com fé em Suas mãos.",
+ "ore": "Pai, ajuda-me a não me preocupar com a escassez, mas a confiar em Tua provisão. Ensina-me a entregar a Ti até as coisas pequenas, crendo que Tu podes multiplicá-las para o bem de muitos. Amém.",
+ "quiz": {
+  "pergunta": "Qual era a reação de André ao mencionar os cinco pães e dois peixes?",
+  "opcoes": [
+   "Perguntou se aquilo seria o suficiente para tantos.",
+   "Disse que era uma grande fortuna.",
+   "Sugeriu vender os pães para comprar mais."
+  ],
+  "certa": 0,
+  "explicacao": "No texto, André pergunta: 'mas que é isto entre tantos?', indicando dúvida sobre a suficiência daquela oferta para a multidão."
+ },
+ "refs": [
+  "Mateus 14:13-21",
+  "Marcos 6:30-44",
+  "Lucas 9:10-17",
+  "Êxodo 16:4-36"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T07:26:46.788Z",
+  "rounds": 2
+ }
+}

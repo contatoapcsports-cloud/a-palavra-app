@@ -1,59 +1,138 @@
-Fábrica de ensinos — execução de 2026-10-18T05:24:30.107Z
-Fila: 3058 trechos; prontos: 0; limite desta execução: 6 ensinos / 40 min; 3 em paralelo.
-> João 1:1-10 (43-1-1-10)
-  [43-1-1-10] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-> João 1:11-20 (43-1-11-20)
-  [43-1-11-20] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+Fábrica de ensinos — execução de 2026-10-18T07:39:28.946Z
+Fila: 3058 trechos; prontos: 6; limite desta execução: 150 ensinos / 170 min; 3 em paralelo.
 > João 1:21-31 (43-1-21-31)
   [43-1-21-31] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-  [43-1-1-10] rodada 1: verificação automática recusou: entender:citacao_fora_do_texto
-  [43-1-1-10] rodada 2: verificação automática recusou: entender:citacao_fora_do_texto
-  [43-1-11-20] rodada 1: gemini recusou: CROSS_SECTION_CONSISTENCY: A pergunta do teste ('O que João afirma que recebeu de todos os que creram em Jesus?') é incoerente com a alternativa correta e inverte o sentido do versículo 12. | LANGUAGE_CLARITY: A formulação da pergunta do teste apresenta erro de sintaxe e clareza ao perguntar o que João 'recebeu de todos', distorcendo o sentido da frase.
-  [43-1-1-10] rodada 3: verificação automática recusou: entender:frase_modelo
-  [43-1-21-31] rodada 1: verificação automática recusou: entender:citacao_fora_do_texto
-  [43-1-11-20] rodada 2: verificação automática recusou: entender:menos_de_2_paragrafos
-  PRONTO [43-1-1-10]: "A Palavra que trouxe luz ao mundo" (aprovado pelos dois auditores em 4 rodada(s))
-> João 1:32-41 (43-1-32-41)
-  [43-1-32-41] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-  PRONTO [43-1-32-41]: "Quem é o Cordeiro que João viu?" (aprovado pelos dois auditores em 1 rodada(s))
 > João 1:42-51 (43-1-42-51)
   [43-1-42-51] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-  [43-1-42-51] rodada 1: verificação automática recusou: entender:menos_de_2_paragrafos, entender:citacao_fora_do_texto, ligar:citacao_fora_do_texto
-  [43-1-21-31] rodada 2: verificação automática recusou: entender:citacao_fora_do_texto
-  [43-1-42-51] rodada 2: verificação automática recusou: entender:longo:1588
-  [43-1-21-31] rodada 3: verificação automática recusou: entender:citacao_fora_do_texto
-  PRONTO [43-1-11-20]: "Quem é a Luz que veio ao mundo?" (aprovado pelos dois auditores em 3 rodada(s))
 > João 2:1-8 (43-2-1-8)
   [43-2-1-8] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-  [43-1-21-31] rodada 4: verificação automática recusou: entender:citacao_fora_do_texto
-  [43-1-21-31] não aprovado nesta execução (1/3); tenta de novo depois
-> João 2:9-17 (43-2-9-17)
-  [43-2-9-17] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-  [43-2-9-17] rodada 1: verificação automática recusou: abertura_repetida:ore:43-1-1-10
-  [43-2-1-8] rodada 1: gemini recusou: NARRATIVE_EVENT_CONSISTENCY: O relato não afirma que Jesus realizou o milagre obedecendo ao que a mãe lhe pediu, mas sim que Ele estabeleceu Sua independência de tempo e vontade (v. 4). | OVERINTERPRETATION: Cria uma alegoria sem respaldo no texto ao afirmar que a água dos vasos de purificação representa a condição humana.
-  [43-2-1-8] rodada 2: verificação automática recusou: entender:menos_de_2_paragrafos, entender:citacao_fora_do_texto
-  [43-1-42-51] rodada 3: verificação automática recusou: entender:menos_de_2_paragrafos
-  [43-2-9-17] rodada 2: verificação automática recusou: entender:citacao_fora_do_texto
-  [43-2-1-8] rodada 3: verificação automática recusou: entender:citacao_fora_do_texto
-  [43-1-42-51] rodada 4: gemini recusou: SPEAKER_AUDIENCE_CONSISTENCY: O texto afirma que Filipe respondeu 'Segue-me', quando na verdade foi Jesus quem disse essa frase a Filipe (v. 43). | NARRATIVE_EVENT_CONSISTENCY: Inverte o fato narrado ao atribuir a Filipe a iniciativa da ordem 'Segue-me', dita por Jesus. | PRAYER_FIDELITY: A oração é dirigida ao Senhor Jesus, mas pede para ser testemunha do 'Teu Filho', confundindo as pessoas da Tr
-  [43-1-42-51] não aprovado nesta execução (1/3); tenta de novo depois
-> João 2:18-25 (43-2-18-25)
-  [43-2-18-25] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-  PRONTO [43-2-9-17]: "O que o zelo de Jesus revela no Templo?" (aprovado pelos dois auditores em 3 rodada(s))
-Limite de itens desta execução atingido.
-  [43-2-1-8] rodada 4: gemini recusou: NARRATIVE_EVENT_CONSISTENCY: O texto afirma erroneamente que Jesus 'obedeceu aos servos', quando na verdade os servos obedeceram às ordens de Jesus.
-  [43-2-1-8] não aprovado nesta execução (1/3); tenta de novo depois
-> João 3:1-12 (43-3-1-12)
-  [43-3-1-12] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-  PRONTO [43-3-1-12]: "O que significa nascer de novo?" (aprovado pelos dois auditores em 1 rodada(s))
-Limite de itens desta execução atingido.
-  [43-2-18-25] rodada 1: gemini recusou: OVERINTERPRETATION: O ensino faz uma alegorização indevida ao transformar a referência ao corpo de Jesus em 'templos' quebrados da vida pessoal, como empregos, sonhos e relacionamentos. | PROMISE_SCOPE: Transforma a profecia da ressurreição corporal de Jesus ao terceiro dia em uma promessa de que Ele restaurará perdas materiais e pessoais em três dias.
-  [43-2-18-25] rodada 2: verificação automática recusou: entender:menos_de_2_paragrafos, abertura_repetida:ore:43-1-32-41
-  PRONTO [43-2-18-25]: "O Templo que Jesus Promete Levantar" (aprovado pelos dois auditores em 3 rodada(s))
-Limite de itens desta execução atingido.
-Resumo: 6 novos ensinos, 3 não aprovados, 0 travados ignorados. Total pronto: 6 de 3058 trechos.
+  [43-1-21-31] rodada 1: verificação automática recusou: viver:citacao_fora_do_texto
+  [43-2-1-8] rodada 1: verificação automática recusou: entender:citacao_fora_do_texto
+  [43-2-1-8] rodada 2: gemini recusou: SPEAKER_AUDIENCE_CONSISTENCY: O ensino afirma que Jesus pediu aos serventes que fizessem tudo o que Ele ordenasse, quando foi a mãe de Jesus quem disse isso a eles (v. 5). | NARRATIVE_EVENT_CONSISTENCY: O texto bíblico relata que a mãe de Jesus orientou os serventes a fazerem tudo o que Ele dissesse, e não que o próprio Jesus fez essa exigência prévia aos serventes.
+  [43-1-42-51] rodada 1: verificação automática recusou: entender:citacao_longa
+  [43-1-21-31] rodada 2: verificação automática recusou: viver:citacao_fora_do_texto
+  PRONTO [43-2-1-8]: "O que a mãe de Jesus fez no casamento?" (aprovado pelos dois auditores em 3 rodada(s))
+> João 3:13-24 (43-3-13-24)
+  [43-3-13-24] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  [43-1-42-51] rodada 2: verificação automática recusou: entender:menos_de_2_paragrafos, entender:citacao_longa, ligar:citacao_fora_do_texto
+  [43-1-21-31] rodada 3: verificação automática recusou: abertura_repetida:ore:43-2-1-8
+  [43-1-21-31] rodada 4: verificação automática recusou: abertura_repetida:ore:43-2-1-8
+  [43-1-21-31] não aprovado nesta execução (2/3); tenta de novo depois
+> João 3:25-36 (43-3-25-36)
+  [43-3-25-36] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  [43-3-25-36] rodada 1: verificação automática recusou: entender:citacao_fora_do_texto
+  [43-3-13-24] rodada 1: verificação automática recusou: entender:citacao_longa, abertura_repetida:ore:43-2-1-8
+  [43-1-42-51] rodada 3: verificação automática recusou: entender:citacao_longa, ligar:citacao_fora_do_texto
+  [43-3-25-36] rodada 2: gemini recusou: SPEAKER_AUDIENCE_CONSISTENCY: O ensino afirma que os judeus disseram a João que Jesus batizava, quando o texto bíblico indica que foram os discípulos de João que vieram dizer isso a ele (v. 26).
+  [43-3-13-24] rodada 2: verificação automática recusou: entender:citacao_longa
+  [43-1-42-51] rodada 4: verificação automática recusou: entender:menos_de_2_paragrafos, entender:citacao_longa
+  [43-1-42-51] não aprovado nesta execução (2/3); tenta de novo depois
+> João 4:1-11 (43-4-1-11)
+  [43-4-1-11] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  [43-4-1-11] rodada 1: gemini recusou: LANGUAGE_CLARITY: A frase 'Jesus oferece uma sede que só Ele pode saciar' na seção Viver contém um erro de sentido, pois Jesus sacia a sede ou oferece a água viva, e não oferece a sede.
+  [43-3-25-36] rodada 3: verificação automática recusou: entender:citacao_longa
+  [43-3-25-36] rodada 4: verificação automática recusou: entender:citacao_longa
+  [43-3-25-36] não aprovado nesta execução (1/3); tenta de novo depois
+> João 4:12-22 (43-4-12-22)
+  [43-4-12-22] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  [43-4-12-22] rodada 1: verificação automática recusou: entender:menos_de_2_paragrafos
+  [43-4-12-22] rodada 2: gemini recusou: PERSON_ENTITY_CONSISTENCY: O texto inverteu os grupos e seus locais históricos de adoração ao afirmar que os judeus adoravam no monte Gerizim e os samaritanos em Jerusalém.
+  [43-4-12-22] rodada 3: verificação automática recusou: entender:menos_de_2_paragrafos, entender:citacao_longa, entender:citacao_fora_do_texto
+  [43-3-13-24] rodada 3: verificação automática recusou: entender:citacao_longa
+  PRONTO [43-4-1-11]: "A sede que só Cristo pode saciar" (aprovado pelos dois auditores em 2 rodada(s))
+> João 4:23-32 (43-4-23-32)
+  [43-4-23-32] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  [43-4-12-22] rodada 4: verificação automática recusou: entender:citacao_longa, entender:citacao_fora_do_texto
+  [43-4-12-22] não aprovado nesta execução (1/3); tenta de novo depois
+> João 4:33-43 (43-4-33-43)
+  [43-4-33-43] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  [43-3-13-24] rodada 4: verificação automática recusou: entender:citacao_longa
+  [43-3-13-24] não aprovado nesta execução (1/3); tenta de novo depois
+> João 4:44-54 (43-4-44-54)
+  [43-4-44-54] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  [43-4-23-32] rodada 1: verificação automática recusou: entender:citacao_fora_do_texto, viver:citacao_fora_do_texto
+  [43-4-23-32] rodada 2: verificação automática recusou: entender:citacao_longa, entender:citacao_fora_do_texto, viver:citacao_fora_do_texto
+  [43-4-33-43] rodada 1: verificação automática recusou: entender:citacao_fora_do_texto, ligar:citacao_fora_do_texto, abertura_repetida:ore:43-1-1-10
+  [43-4-44-54] rodada 1: verificação automática recusou: abertura_repetida:ore:43-2-1-8
+  PRONTO [43-4-23-32]: "Adoração em espírito e o testemunho da samaritana" (aprovado pelos dois auditores em 3 rodada(s))
+> João 5:1-12 (43-5-1-12)
+  [43-5-1-12] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  [43-4-33-43] rodada 2: verificação automática recusou: ligar:citacao_fora_do_texto
+  [43-4-44-54] rodada 2: verificação automática recusou: abertura_repetida:ore:43-2-1-8
+  [43-4-33-43] rodada 3: gemini recusou: PERSON_ENTITY_CONSISTENCY: O ensino e a explicação do teste confundem Jesus com a mulher samaritana ao afirmarem que a expressão 'pela palavra dele' (v. 41) se refere à mulher. | CROSS_SECTION_CONSISTENCY: A explicação do teste sustenta a alternativa B atribuindo incorretamente o versículo 41 ('pela palavra dele', que é Jesus) ao testemunho da mulher.
+  [43-4-33-43] rodada 4: gemini recusou: REFERENCE_BOUNDARY: A seção Entender cita o versículo 41 para afirmar que a palavra da mulher levou muitos a crer, quando isso ocorre no versículo 39 (o versículo 41 refere-se à palavra do próprio Jesus). | CROSS_SECTION_CONSISTENCY: O teste possui duas respostas biblicamente corretas (opções B e C, conforme os versículos 39 e 41), e a explicação rejeita incorretamente a opção C contrariando o ver
+  [43-4-33-43] não aprovado nesta execução (1/3); tenta de novo depois
+> João 5:13-24 (43-5-13-24)
+  [43-5-13-24] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  [43-5-1-12] rodada 1: verificação automática recusou: abertura_repetida:ore:43-2-1-8
+  [43-4-44-54] rodada 3: verificação automática recusou: abertura_repetida:ore:43-2-1-8
+  [43-5-13-24] rodada 1: verificação automática recusou: entender:citacao_longa, abertura_repetida:viver:43-3-1-12, abertura_repetida:ore:43-2-1-8
+  [43-5-13-24] rodada 2: verificação automática recusou: entender:menos_de_2_paragrafos, abertura_repetida:viver:43-3-1-12, abertura_repetida:ore:43-2-1-8
+  PRONTO [43-5-1-12]: "A cura que rompe a tradição do sábado" (aprovado pelos dois auditores em 2 rodada(s))
+> João 5:25-35 (43-5-25-35)
+  [43-5-25-35] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  [43-5-25-35] rodada 1: verificação automática recusou: abertura_repetida:ore:43-2-1-8
+  [43-4-44-54] rodada 4: verificação automática recusou: abertura_repetida:ore:43-2-1-8
+  [43-4-44-54] não aprovado nesta execução (1/3); tenta de novo depois
+> João 5:36-47 (43-5-36-47)
+  [43-5-36-47] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  [43-5-13-24] rodada 3: verificação automática recusou: abertura_repetida:ore:43-2-1-8
+  [43-5-25-35] rodada 2: verificação automática recusou: abertura_repetida:ore:43-2-1-8
+  [43-5-36-47] rodada 1: verificação automática recusou: abertura_repetida:ore:43-2-1-8
+  LIMITE DIÁRIO [43-5-13-24]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 197496, Requested 2846. Please try again in 2m27.744s. Need more tokens? Upg — troca de modelo, se houver outro permitido.
+  [43-5-13-24] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-5-13-24]: "Quem é o Filho que dá vida?" (aprovado pelos dois auditores em 1 rodada(s))
+> João 6:1-12 (43-6-1-12)
+  [43-6-1-12] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  LIMITE DIÁRIO [43-5-25-35]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 197496, Requested 2846. Please try again in 2m27.744s. Need more tokens? Upg — troca de modelo, se houver outro permitido.
+  [43-5-25-35] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-5-25-35]: "A voz que acorda os mortos" (aprovado pelos dois auditores em 1 rodada(s))
+> João 6:13-24 (43-6-13-24)
+  [43-6-13-24] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  LIMITE DIÁRIO [43-5-36-47]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 197496, Requested 2846. Please try again in 2m27.744s. Need more tokens? Upg — troca de modelo, se houver outro permitido.
+  [43-5-36-47] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-5-36-47]: "Por que as Escrituras apontam para Jesus?" (aprovado pelos dois auditores em 1 rodada(s))
+> João 6:25-36 (43-6-25-36)
+  [43-6-25-36] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [43-6-1-12] rodada 1: gemini recusou: LANGUAGE_CLARITY: O texto apresenta erro ortográfico na seção ENTENDER com a grafia 'humanoamente' em vez de 'humanamente'.
+  PRONTO [43-6-13-24]: "Jesus no mar agitado: calma em meio ao medo" (aprovado pelos dois auditores em 1 rodada(s))
+> João 6:37-47 (43-6-37-47)
+  [43-6-37-47] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [43-6-25-36] rodada 1: gemini recusou: LANGUAGE_CLARITY: A seção VIVER contém o erro de digitação com palavra inexistente 'espinte' em vez de 'espere'.
+  PRONTO [43-6-1-12]: "Cinco pães, dois peixes e uma multidão" (aprovado pelos dois auditores em 2 rodada(s))
+> João 6:48-59 (43-6-48-59)
+  [43-6-48-59] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-6-37-47]: "Por que ninguém é rejeitado por Jesus?" (aprovado pelos dois auditores em 1 rodada(s))
+> João 6:60-71 (43-6-60-71)
+  [43-6-60-71] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-6-25-36]: "O Pão que Não Perece" (aprovado pelos dois auditores em 2 rodada(s))
+> João 7:1-11 (43-7-1-11)
+  [43-7-1-11] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-6-48-59]: "O Pão que Dá Vida Eterna" (aprovado pelos dois auditores em 1 rodada(s))
+> João 7:12-21 (43-7-12-21)
+  [43-7-12-21] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-6-60-71]: "Quando a verdade de Jesus espanta" (aprovado pelos dois auditores em 1 rodada(s))
+> João 7:22-32 (43-7-22-32)
+  [43-7-22-32] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [43-7-1-11] rodada 1: verificação automática recusou: entender:citacao_longa
+  [43-7-12-21] rodada 1: gemini recusou: NARRATIVE_EVENT_CONSISTENCY: O texto afirma erroneamente que os ouvintes acusavam Jesus de tentar matá-lo, quando na verdade era Jesus quem afirmava que eles procuravam matá-lo.
+  [43-7-22-32] rodada 1: verificação automática recusou: abertura_repetida:ore:43-6-1-12
+  PRONTO [43-7-1-11]: "O segredo do tempo de Jesus na festa" (aprovado pelos dois auditores em 2 rodada(s))
+> João 7:33-42 (43-7-33-42)
+  [43-7-33-42] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-7-12-21]: "Como Jesus sabia o que ensinar?" (aprovado pelos dois auditores em 2 rodada(s))
+> João 7:43-53 (43-7-43-53)
+  [43-7-43-53] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [43-7-22-32]: "A hora de Deus para Jesus" (aprovado pelos dois auditores em 2 rodada(s))
+> João 8:1-12 (43-8-1-12)
+  [43-8-1-12] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  LIMITE DIÁRIO [43-7-33-42]: gemini: limite diário atingido ({ "error": { "code": 429, "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/ra — troca de modelo, se houver outro permitido.
+  Nenhuma combinação válida de gerador e auditores com limite livre; parando. Continua no próximo horário.
+  LIMITE DIÁRIO [43-7-43-53]: gemini: limite diário atingido ({ "error": { "code": 429, "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/ra — troca de modelo, se houver outro permitido.
+  LIMITE DIÁRIO [43-8-1-12]: gemini: limite diário atingido ({ "error": { "code": 429, "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/ra — troca de modelo, se houver outro permitido.
+Resumo: 16 novos ensinos, 7 não aprovados, 0 travados ignorados. Total pronto: 22 de 3058 trechos.
 
-groq-gpt (openai/gpt-oss-120b): 27 chamadas, 54255 tokens entrada, 23758 saída
-groq-qwen (qwen/qwen3.8-27b): 0 chamadas, 0 tokens entrada, 0 saída
-gemini (gemini-3.8-flash): 11 chamadas, 34961 tokens entrada, 15366 saída
-cloudflare (@cf/meta/llama-3.3-70b-instruct-fp8-fast): 6 chamadas, 20681 tokens entrada, 2226 saída
+groq-gpt (openai/gpt-oss-120b): 44 chamadas, 94525 tokens entrada, 37926 saída [LIMITE DIÁRIO ATINGIDO]
+groq-qwen (qwen/qwen3.8-27b): 20 chamadas, 36969 tokens entrada, 15481 saída
+gemini (gemini-3.8-flash): 25 chamadas, 79528 tokens entrada, 42769 saída [LIMITE DIÁRIO ATINGIDO]
+cloudflare (@cf/meta/llama-3.3-70b-instruct-fp8-fast): 16 chamadas, 54805 tokens entrada, 5936 saída

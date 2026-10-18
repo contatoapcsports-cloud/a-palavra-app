@@ -1,0 +1,145 @@
+{
+ "id": "43-6-60-71",
+ "ref": "João 6:60-71",
+ "book": "43",
+ "chapter": 6,
+ "verses": [
+  {
+   "n": 60,
+   "t": "Muitos pois de seus discípulos, ao ouvirem isto , disseram: Dura é esta palavra; quem a pode ouvir?"
+  },
+  {
+   "n": 61,
+   "t": "Sabendo, pois, Jesus em si mesmo, que seus discípulos murmuravam disso, disse-lhes: Isto vos ofende?"
+  },
+  {
+   "n": 62,
+   "t": "Que seria pois, se vísseis ao Filho do homem subir aonde estava primeiro?"
+  },
+  {
+   "n": 63,
+   "t": "O Espírito é o que vivifica, a carne para nada aproveita; as palavras que eu vos digo são espírito e são vida."
+  },
+  {
+   "n": 64,
+   "t": "Mas há alguns de vós que não creem.Porque Jesus já sabia desde o princípio quem eram os que não criam, e quem era o que o entregaria."
+  },
+  {
+   "n": 65,
+   "t": "E dizia: Por isso tenho vos dito que ninguém pode vir a mim, se não lhe for concedido por meu Pai."
+  },
+  {
+   "n": 66,
+   "t": "Desde então muitos de seus discípulos voltaram atrás, e já não andavam com ele."
+  },
+  {
+   "n": 67,
+   "t": "Disse, então, Jesus aos doze: Por acaso também vós quereis ir?"
+  },
+  {
+   "n": 68,
+   "t": "Respondeu-lhe pois Simão Pedro: Senhor, a quem iremos? Tu tens as palavras da vida eterna;"
+  },
+  {
+   "n": 69,
+   "t": "E nós cremos e conhecemos que tu és o Cristo, o Filho do Deus vivo."
+  },
+  {
+   "n": 70,
+   "t": "Jesus lhes respondeu: Por acaso não fui eu que vos escolhi, os doze? Porém um de vós é um diabo."
+  },
+  {
+   "n": 71,
+   "t": "E ele dizia isto de Judas de Simão Iscariotes; porque ele o entregaria, o qual era um dos doze."
+  }
+ ],
+ "titulo": "Quando a verdade de Jesus espanta",
+ "temas": [
+  "fé",
+  "verdade",
+  "escolha",
+  "traição"
+ ],
+ "pergunta": "O que você faria se descobrisse que a verdade sobre a vida eterna é mais profunda do que imaginava?",
+ "entender": "Jesus havia acabado de ensinar que Ele é o pão vivo descido do céu. A reação imediata de muitos discípulos foi o choque. Eles disseram: \"Dura é esta palavra; quem a pode ouvir?\". Para eles, a ideia de que Jesus era a fonte da vida eterna era difícil demais. Jesus percebeu o desânimo e perguntou se aquilo os ofendia, sugerindo que o problema não era a dificuldade, mas a falta de fé para aceitar quem Ele realmente era.\n\nJesus então fez uma distinção crucial: \"O Espírito é o que vivifica, a carne para nada aproveita\". Ele estava dizendo que a salvação não vem de ritos, tradições ou esforços humanos (a carne), mas de uma nova vida espiritual dada por Deus. Ele adverte que alguns não creem porque não lhes foi concedido pelo Pai. Isso mostra que a fé é um dom de Deus, não apenas uma decisão humana. Como resultado, muitos abandonaram o grupo, mas os Doze permaneceram.\n\nPedro respondeu à pergunta de Jesus com uma confissão clara: \"Tu tens as palavras da vida eterna\". Ele reconheceu Jesus como o Cristo, o Filho do Deus vivo. No entanto, Jesus revelou que um deles, Judas, o entregaria. O contraste entre a lealdade de Pedro e a traição de Judas destaca que, mesmo entre os escolhidos, a verdade de Jesus divide as pessoas: alguns a aceitam com fé, outros a rejeitam ou a traem.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a centralidade de Cristo na salvação. Jesus não oferece apenas conselhos morais, mas a \"vida eterna\" através de si mesmo. A resposta de Pedro, \"a quem iremos?\", resume o evangelho: Jesus é a única fonte de vida verdadeira. A menção à traição de Judas lembra que a cruz, onde Jesus seria entregue, é o lugar onde essa vida eterna é conquistada para nós pela graça, mesmo diante da rejeição humana.",
+  "selo": true
+ },
+ "viver": "Às vezes, a verdade de Deus pode parecer \"dura\" ou desconfortável porque desafia nosso orgulho e nossas comodidades. Assim como os discípulos, podemos sentir a tentação de rejeitar o que é difícil. A aplicação prática é orar pedindo ao Espírito Santo para nos dar fé para aceitar Jesus como Ele é, não como gostaríamos que Ele fosse. Quando a dúvida vier, lembre-se da confissão de Pedro: em Jesus estão as palavras da vida eterna. Confie na escolha que Ele fez por você, mesmo quando o caminho parece difícil.",
+ "guarde": "As palavras de Jesus não são apenas instruções, mas a própria fonte da vida eterna que nos sustenta.",
+ "ore": "Senhor Jesus, às vezes a Tua verdade me parece dura. Ajuda-me a crer que Tu tens as palavras da vida eterna. Abre meus olhos para ver quem Tu és e fortalece minha fé para permanecer contigo, mesmo quando não entendo tudo. Em Teu nome, amém.",
+ "quiz": {
+  "pergunta": "O que Pedro respondeu a Jesus quando perguntou se eles também queriam ir embora?",
+  "opcoes": [
+   "Que estavam cansados e queriam descansar.",
+   "Que Jesus tem as palavras da vida eterna.",
+   "Que não entendiam nada do que Jesus dizia."
+  ],
+  "certa": 1,
+  "explicacao": "Pedro reconheceu a autoridade de Jesus sobre a vida eterna, declarando sua fé nEle como o Cristo, o Filho do Deus vivo."
+ },
+ "refs": [
+  "João 14:6",
+  "Atos 4:12",
+  "Hebreus 4:12"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T07:30:47.874Z",
+  "rounds": 1
+ }
+}

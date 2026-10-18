@@ -1,0 +1,141 @@
+{
+ "id": "43-6-37-47",
+ "ref": "João 6:37-47",
+ "book": "43",
+ "chapter": 6,
+ "verses": [
+  {
+   "n": 37,
+   "t": "Tudo o que o Pai me dá virá a mim; e ao que vem a mim, em maneira nenhuma o lançarei fora."
+  },
+  {
+   "n": 38,
+   "t": "Porque eu desci do céu, não para fazer minha vontade, mas sim a vontade daquele que me enviou;"
+  },
+  {
+   "n": 39,
+   "t": "E esta é a vontade do Pai, que me enviou: que de tudo quanto me deu, nada perca, mas que eu o ressuscite no último dia."
+  },
+  {
+   "n": 40,
+   "t": "E esta é a vontade daquele que me enviou, que todo aquele que vê ao Filho, e nele crê, tenha a vida eterna; e eu o ressuscitarei no último dia."
+  },
+  {
+   "n": 41,
+   "t": "Então os judeus murmuravam dele, porque ele tinha dito: Eu sou o pão que desceu do céu."
+  },
+  {
+   "n": 42,
+   "t": "E diziam: Não é este Jesus o filho de José, cujos pai e mãe nós conhecemos? Como, pois, ele diz: Desci do céu?"
+  },
+  {
+   "n": 43,
+   "t": "Respondeu, então, Jesus, e disse-lhes: Não murmureis entre vós."
+  },
+  {
+   "n": 44,
+   "t": "Ninguém pode vir a mim se o Pai que me enviou não o trouxer; e eu o ressuscitarei no último dia."
+  },
+  {
+   "n": 45,
+   "t": "Escrito está nos profetas: E todos serão ensinados por Deus. Portanto todo aquele que do Pai ouviu e aprendeu, esse vem a mim."
+  },
+  {
+   "n": 46,
+   "t": "Não que alguém tenha visto ao Pai, a não ser aquele que é de Deus; este tem visto ao Pai."
+  },
+  {
+   "n": 47,
+   "t": "Em verdade, em verdade vos digo, que aquele que crê em mim tem vida eterna."
+  }
+ ],
+ "titulo": "Por que ninguém é rejeitado por Jesus?",
+ "temas": [
+  "graça",
+  "fé",
+  "vida eterna",
+  "envio"
+ ],
+ "pergunta": "O que significa saber que Jesus não 'lança fora' quem vai a Ele?",
+ "entender": "Jesus declara uma certeza absoluta: todos que o Pai lhe dá virão a Ele, e Ele não os rejeitará. Essa segurança não depende do esforço humano, mas do propósito divino. Jesus explica que desceu do céu para cumprir a vontade do Pai, que é que ninguém se perca e que todos tenham vida eterna.\n\nOs ouvintes, no entanto, murmuravam. Eles conheciam a família de Jesus e questionavam como alguém de origem terrena poderia dizer que 'desceu do céu'. A dúvida deles revela a dificuldade humana em aceitar o sobrenatural. Jesus responde que ninguém pode vir a Ele sem que o Pai o atraia, conectando a fé à obra de Deus.\n\nA passagem destaca que crer no Filho é ver a Deus de forma única. Aquele que ouve e aprende do Pai vem a Jesus. A promessa final é clara: quem crê tem vida eterna. Não é uma ideia abstrata, mas uma realidade presente e futura, garantida pela ressurreição no último dia.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para a suficiência de Cristo. A salvação não é um contrato baseado no nosso desempenho, mas um presente recebido pela fé. Jesus é o único mediador que garante a vida eterna porque Ele mesmo é o enviado do Pai. A fé aqui não é apenas concordar com fatos, mas confiar na pessoa de Jesus para a salvação. O evangelho é anunciado como a vontade do Pai: que nenhum que vem a Jesus se perca.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, sentimos que Deus nos rejeita quando erramos ou quando a fé parece fraca. Este texto nos convida a descansar na verdade de que Jesus não lança fora quem vem a Ele. A aplicação prática é parar de tentar merecer o amor de Deus e começar a recebê-lo pela fé. Se você sente medo de se aproximar de Deus, lembre-se: a porta está aberta, e o convite é pessoal. A vida eterna começa agora, na confiança em Cristo.",
+ "guarde": "Quem vem a Jesus nunca é rejeitado; a vida eterna é garantida pela fé no Filho.",
+ "ore": "Pai, obrigado porque Jesus não lança fora quem vai a Ele. Ajuda-me a confiar na Tua vontade de me salvar e a crer que a vida eterna é real em Cristo. Amém.",
+ "quiz": {
+  "pergunta": "O que Jesus disse ser a vontade do Pai?",
+  "opcoes": [
+   "Que os judeus parem de murmurar",
+   "Que todos façam a vontade de Jesus",
+   "Que de tudo quanto lhe deu, nada perca"
+  ],
+  "certa": 2,
+  "explicacao": "No versículo 39, Jesus define claramente a vontade do Pai como a preservação e a ressurreição de todos os que lhe foram dados, garantindo a vida eterna."
+ },
+ "refs": [
+  "João 14:6",
+  "Ezequiel 36:27",
+  "Atos 4:12"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T07:27:44.680Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "id": "43-4-1-11",
+ "ref": "João 4:1-11",
+ "book": "43",
+ "chapter": 4,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Quando, pois, o Senhor entendeu que os fariseus ouviram que Jesus fazia e batizava mais discípulos que João"
+  },
+  {
+   "n": 2,
+   "t": "(ainda que Jesus mesmo não batizava, mas sim seus discípulos),"
+  },
+  {
+   "n": 3,
+   "t": "Ele deixou a Judeia, e foi outra vez para a Galileia."
+  },
+  {
+   "n": 4,
+   "t": "E foi necessário passar por Samaria."
+  },
+  {
+   "n": 5,
+   "t": "Veio pois a uma cidade de Samaria, chamada Sicar, junto à propriedade que Jacó deu a seu filho José."
+  },
+  {
+   "n": 6,
+   "t": "E ali estava a fonte de Jacó. Então Jesus, cansado do caminho, sentou-se assim junto à fonte; era isto quase à hora sexta."
+  },
+  {
+   "n": 7,
+   "t": "Veio uma mulher de Samaria para tirar água; Disse-lhe Jesus: Dá-me de beber."
+  },
+  {
+   "n": 8,
+   "t": "(Porque seus discípulos haviam ido à cidade para a comprar de comer)."
+  },
+  {
+   "n": 9,
+   "t": "Disse-lhe pois a mulher samaritana: Como, sendo tu judeu, me pedes de beber, que sou mulher samaritana? (Porque os judeus não se comunicam com o samaritanos.)"
+  },
+  {
+   "n": 10,
+   "t": "Respondeu Jesus, e disse-lhe: Se tu conhecesses o dom de Deus, e quem é o que te diz: Dá-me de beber, tu lhe pedirias, e ele te daria água viva."
+  },
+  {
+   "n": 11,
+   "t": "Disse a mulher: Senhor, tu não tens com que a tirar, e o poço é fundo; de onde pois tens a água viva?"
+  }
+ ],
+ "titulo": "A sede que só Cristo pode saciar",
+ "temas": [
+  "água viva",
+  "fé",
+  "reconciliação",
+  "salvação"
+ ],
+ "pergunta": "Você já sentiu uma sede interior que nada parece apagar?",
+ "entender": "Jesus atravessou Samaria e, cansado, sentou‑se junto ao poço de Jacó. Lá, pediu água a uma mulher samaritana: \"Dá‑me de beber\" (v.7). Surpresa, ela questionou por que ele, judeu, a abordava (v.9). Jesus respondeu que quem conhece o dom de Deus pediria a Ele e receberia \"água viva\" (v.10). O diálogo mostra que Jesus não veio apenas para saciar a sede física, mas para oferecer algo que satisfaz a alma.\n\nO contexto revela que os discípulos estavam ocupados comprando comida (v.8), enquanto Jesus aproveita o encontro inesperado para romper barreiras culturais. Samaria era evitada pelos judeus, mas Jesus demonstra que o convite à vida eterna não se limita a um grupo. A mulher, ao reconhecer que Jesus tem \"água viva\", desperta curiosidade espiritual que abre caminho para a fé.\n\nAssim, o texto destaca duas ideias centrais: a profunda necessidade humana por sentido e a oferta de Cristo como fonte inesgotável que transforma e dá vida eterna.",
+ "ligar": {
+  "texto": "Ao falar de \"água viva\", Jesus aponta ao Espírito Santo que dá vida plena (cf. João 7:37‑39). Essa água simboliza a presença de Cristo que satisfaz a sede interior e conduz à salvação. O encontro com a mulher samaritana demonstra que o evangelho rompe preconceitos e oferece a todos a mesma fonte de esperança e vida eterna.",
+  "selo": true
+ },
+ "viver": "Quando sentimos ansiedade, vazio ou busca constante por algo que preencha, podemos lembrar que Jesus oferece a água viva que realmente sacia. Em vez de procurar respostas nas distrações, reserve um tempo para ouvir a voz de Cristo e pedir que Ele encha seu coração com Sua paz. Compartilhe essa boa notícia com quem também sente sede, assim como a mulher contou a outros sobre o encontro com Jesus.\n\nAo confiar na fonte que nunca se esgota, deixamos de depender de coisas passageiras e experimentamos a vida abundante que Cristo promete.",
+ "guarde": "Jesus oferece água viva que sacia a sede da alma para sempre.",
+ "ore": "Senhor, reconheço que minha alma tem sede profunda. Peço que a tua água viva preencha meu coração, trazendo paz e esperança que só Tu podes dar. Ajuda‑me a confiar em Ti e a compartilhar essa fonte com quem precisa.",
+ "quiz": {
+  "pergunta": "O que Jesus prometeu à mulher samaritana?",
+  "opcoes": [
+   "Pão que nunca acaba",
+   "Riqueza material",
+   "Água viva que nunca deixa sede"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus disse que quem beber da água que Ele dá não terá mais sede (v.10‑14). Essa promessa se refere à água viva, símbolo do Espírito e da vida eterna."
+ },
+ "refs": [
+  "Isaías 55:1-3",
+  "João 7:37-39",
+  "Efésios 2:4-5"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T06:58:43.416Z",
+  "rounds": 2
+ }
+}

@@ -1,0 +1,137 @@
+{
+ "id": "43-7-12-21",
+ "ref": "João 7:12-21",
+ "book": "43",
+ "chapter": 7,
+ "verses": [
+  {
+   "n": 12,
+   "t": "E havia grande murmuração dele nas multidões. Alguns diziam: Ele é Bom;e outros diziam: Não; ele, porém, engana a multidão."
+  },
+  {
+   "n": 13,
+   "t": "Todavia ninguém falava dele abertamente, com medo dos judeus."
+  },
+  {
+   "n": 14,
+   "t": "Porém no meio da festa subiu Jesus ao Templo, e ensinava."
+  },
+  {
+   "n": 15,
+   "t": "E maravilhavam-se os Judeus, dizendo: Como este sabe as Escrituras, não as havendo aprendido?"
+  },
+  {
+   "n": 16,
+   "t": "Respondeu-lhes Jesus, e disse: Minha doutrina não é minha, mas sim daquele que me enviou."
+  },
+  {
+   "n": 17,
+   "t": "Se alguém quiser fazer sua vontade, da doutrina conhecerá, se é de Deus, ou se eu falo de mim mesmo."
+  },
+  {
+   "n": 18,
+   "t": "Quem fala de si mesmo busca sua própria honra; mas quem busca a honra daquele que o enviou, esse é verdadeiro, e não há nele injustiça."
+  },
+  {
+   "n": 19,
+   "t": "Não vos deu Moisés a Lei? Mas ninguém de vós cumpre a Lei. Por que procurais me matar?"
+  },
+  {
+   "n": 20,
+   "t": "Respondeu a multidão, e disse: Tens demônio; quem procura te matar?"
+  },
+  {
+   "n": 21,
+   "t": "Respondeu Jesus, e disse-lhes: Uma obra fiz, e todos vos maravilhais."
+  }
+ ],
+ "titulo": "Como Jesus sabia o que ensinar?",
+ "temas": [
+  "autoridade",
+  "verdade",
+  "medo",
+  "origem da doutrina"
+ ],
+ "pergunta": "O que você faria se perguntassem de onde vem a verdade que você ensina?",
+ "entender": "Durante a festa, Jesus subiu ao Templo e começou a ensinar. A multidão estava dividida: alguns o elogiavam, outros diziam que ele enganava. Havia um silêncio forçado, pois as pessoas tinham medo dos líderes judeus e não falavam abertamente sobre ele.\n\nQuando viram Jesus falando, os ouvintes se maravilharam. A dúvida deles era concreta: \"Como este sabe as Escrituras, não as havendo aprendido?\" Naquela época, o ensino vinha dos mestres. Jesus responde que sua doutrina não é dele, mas daquele que o enviou. Ele propõe um teste: quem deseja fazer a vontade de Deus saberá se a mensagem é divina ou se é apenas opinião humana.\n\nJesus contrasta duas atitudes: quem fala de si mesmo busca sua própria honra; quem busca a honra do Pai é verdadeiro. Ao final, Jesus lembra que eles mesmos não cumprem a Lei de Moisés, questionando por que tentam matá-lo, o que mostra a tensão entre a verdade que ele traz e a rejeição dos líderes.",
+ "ligar": {
+  "texto": "Este trecho revela que a autoridade de Jesus não vem de diplomas ou tradições, mas de sua relação com o Pai. Ele não fala de si mesmo, mas aponta para Deus. Isso nos mostra que o evangelho é uma revelação divina, não uma filosofia humana. A verdadeira honra está em buscar a vontade de Deus, como Jesus fazia. Ao reconhecer que Jesus é o enviado fiel, encontramos a base segura para nossa fé.",
+  "selo": true
+ },
+ "viver": "Muitas vezes buscamos respostas em especialistas ou tradições, mas este texto nos convida a testar as mensagens que ouvimos. Elas buscam a glória do mensageiro ou a glória de Deus? Peça ao Espírito Santo para discernir o que é de Deus. Não tenha medo de buscar a verdade, mesmo que ela desafiie o que você já sabe. Confie que a Palavra de Deus tem autoridade para transformar sua vida, pois vem de quem o enviou.",
+ "guarde": "A verdadeira autoridade não busca sua própria honra, mas revela a glória de Deus.",
+ "ore": "Pai, ajuda-me a reconhecer a voz de Jesus acima de todas as outras. Ensina-me a buscar a Tua vontade e a discernir o que é verdadeiramente de Ti. Que minha vida reflita a honra do Teu nome, não a minha. Amém.",
+ "quiz": {
+  "pergunta": "Qual foi a reação dos judeus ao ver Jesus ensinar no Templo?",
+  "opcoes": [
+   "Maravilharam-se com seu conhecimento das Escrituras.",
+   "Pediram-lhe para parar de ensinar.",
+   "Rejeitaram-no imediatamente por não ter título."
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que se maravilharam ao perguntar como ele sabia as Escrituras sem ter aprendido com rabinos."
+ },
+ "refs": [
+  "Mateus 7:28-29",
+  "Hebreus 1:1-2",
+  "João 5:30"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T07:35:54.703Z",
+  "rounds": 2
+ }
+}

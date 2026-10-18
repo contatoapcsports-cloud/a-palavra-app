@@ -13,8 +13,8 @@
    "titulo": "Quem é a Luz que veio ao mundo?"
   },
   "43-1-21-31": {
-   "execucoes": 1,
-   "ultimo": "automático: entender:citacao_fora_do_texto"
+   "execucoes": 2,
+   "ultimo": "automático: abertura_repetida:ore:43-2-1-8"
   },
   "43-1-32-41": {
    "execucoes": 0,
@@ -23,12 +23,14 @@
    "titulo": "Quem é o Cordeiro que João viu?"
   },
   "43-1-42-51": {
-   "execucoes": 1,
-   "ultimo": "gemini: SPEAKER_AUDIENCE_CONSISTENCY: O texto afirma que Filipe respondeu 'Segue-me', quando na verdade foi Jesus quem disse essa frase a Filipe (v. 43). | NARRATIVE_EVENT_CONSISTENCY: Inverte o fato narrado ao atribuir a Filipe a iniciativa da ordem 'Segue-me', dita por Jesus. | PRAYER_FIDELITY: A oração é"
+   "execucoes": 2,
+   "ultimo": "automático: entender:menos_de_2_paragrafos, entender:citacao_longa"
   },
   "43-2-1-8": {
    "execucoes": 1,
-   "ultimo": "gemini: NARRATIVE_EVENT_CONSISTENCY: O texto afirma erroneamente que Jesus 'obedeceu aos servos', quando na verdade os servos obedeceram às ordens de Jesus."
+   "ultimo": "gemini: SPEAKER_AUDIENCE_CONSISTENCY: O ensino afirma que Jesus pediu aos serventes que fizessem tudo o que Ele ordenasse, quando foi a mãe de Jesus quem disse isso a eles (v. 5). | NARRATIVE_EVENT_CONSISTENCY: O texto bíblico relata que a mãe de Jesus orientou os serventes a fazerem tudo o que Ele dissesse",
+   "estado": "pronto",
+   "titulo": "O que a mãe de Jesus fez no casamento?"
   },
   "43-2-9-17": {
    "execucoes": 0,
@@ -46,28 +48,143 @@
    "execucoes": 0,
    "estado": "pronto",
    "titulo": "O que significa nascer de novo?"
+  },
+  "43-3-13-24": {
+   "execucoes": 1,
+   "ultimo": "automático: entender:citacao_longa"
+  },
+  "43-3-25-36": {
+   "execucoes": 1,
+   "ultimo": "automático: entender:citacao_longa"
+  },
+  "43-4-1-11": {
+   "execucoes": 0,
+   "ultimo": "gemini: LANGUAGE_CLARITY: A frase 'Jesus oferece uma sede que só Ele pode saciar' na seção Viver contém um erro de sentido, pois Jesus sacia a sede ou oferece a água viva, e não oferece a sede.",
+   "estado": "pronto",
+   "titulo": "A sede que só Cristo pode saciar"
+  },
+  "43-4-12-22": {
+   "execucoes": 1,
+   "ultimo": "automático: entender:citacao_longa, entender:citacao_fora_do_texto"
+  },
+  "43-4-23-32": {
+   "execucoes": 0,
+   "ultimo": "automático: entender:citacao_longa, entender:citacao_fora_do_texto, viver:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "Adoração em espírito e o testemunho da samaritana"
+  },
+  "43-4-33-43": {
+   "execucoes": 1,
+   "ultimo": "gemini: REFERENCE_BOUNDARY: A seção Entender cita o versículo 41 para afirmar que a palavra da mulher levou muitos a crer, quando isso ocorre no versículo 39 (o versículo 41 refere-se à palavra do próprio Jesus). | CROSS_SECTION_CONSISTENCY: O teste possui duas respostas biblicamente corretas (opções B e C,"
+  },
+  "43-4-44-54": {
+   "execucoes": 1,
+   "ultimo": "automático: abertura_repetida:ore:43-2-1-8"
+  },
+  "43-5-1-12": {
+   "execucoes": 0,
+   "ultimo": "automático: abertura_repetida:ore:43-2-1-8",
+   "estado": "pronto",
+   "titulo": "A cura que rompe a tradição do sábado"
+  },
+  "43-5-13-24": {
+   "execucoes": 0,
+   "ultimo": "automático: abertura_repetida:ore:43-2-1-8",
+   "estado": "pronto",
+   "titulo": "Quem é o Filho que dá vida?"
+  },
+  "43-5-25-35": {
+   "execucoes": 0,
+   "ultimo": "automático: abertura_repetida:ore:43-2-1-8",
+   "estado": "pronto",
+   "titulo": "A voz que acorda os mortos"
+  },
+  "43-5-36-47": {
+   "execucoes": 0,
+   "ultimo": "automático: abertura_repetida:ore:43-2-1-8",
+   "estado": "pronto",
+   "titulo": "Por que as Escrituras apontam para Jesus?"
+  },
+  "43-6-1-12": {
+   "execucoes": 0,
+   "ultimo": "gemini: LANGUAGE_CLARITY: O texto apresenta erro ortográfico na seção ENTENDER com a grafia 'humanoamente' em vez de 'humanamente'.",
+   "estado": "pronto",
+   "titulo": "Cinco pães, dois peixes e uma multidão"
+  },
+  "43-6-13-24": {
+   "execucoes": 0,
+   "estado": "pronto",
+   "titulo": "Jesus no mar agitado: calma em meio ao medo"
+  },
+  "43-6-25-36": {
+   "execucoes": 0,
+   "ultimo": "gemini: LANGUAGE_CLARITY: A seção VIVER contém o erro de digitação com palavra inexistente 'espinte' em vez de 'espere'.",
+   "estado": "pronto",
+   "titulo": "O Pão que Não Perece"
+  },
+  "43-6-37-47": {
+   "execucoes": 0,
+   "estado": "pronto",
+   "titulo": "Por que ninguém é rejeitado por Jesus?"
+  },
+  "43-6-48-59": {
+   "execucoes": 0,
+   "estado": "pronto",
+   "titulo": "O Pão que Dá Vida Eterna"
+  },
+  "43-6-60-71": {
+   "execucoes": 0,
+   "estado": "pronto",
+   "titulo": "Quando a verdade de Jesus espanta"
+  },
+  "43-7-1-11": {
+   "execucoes": 0,
+   "ultimo": "automático: entender:citacao_longa",
+   "estado": "pronto",
+   "titulo": "O segredo do tempo de Jesus na festa"
+  },
+  "43-7-12-21": {
+   "execucoes": 0,
+   "ultimo": "gemini: NARRATIVE_EVENT_CONSISTENCY: O texto afirma erroneamente que os ouvintes acusavam Jesus de tentar matá-lo, quando na verdade era Jesus quem afirmava que eles procuravam matá-lo.",
+   "estado": "pronto",
+   "titulo": "Como Jesus sabia o que ensinar?"
+  },
+  "43-7-22-32": {
+   "execucoes": 0,
+   "ultimo": "automático: abertura_repetida:ore:43-6-1-12",
+   "estado": "pronto",
+   "titulo": "A hora de Deus para Jesus"
+  },
+  "43-7-33-42": {
+   "execucoes": 0
+  },
+  "43-7-43-53": {
+   "execucoes": 0
+  },
+  "43-8-1-12": {
+   "execucoes": 0
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 34,
-   "entrada": 65267,
-   "saida": 39324
+   "chamadas": 78,
+   "entrada": 159792,
+   "saida": 77250
   },
   "groq-qwen": {
-   "chamadas": 0,
-   "entrada": 0,
-   "saida": 0
+   "chamadas": 20,
+   "entrada": 36969,
+   "saida": 15481
   },
   "gemini": {
-   "chamadas": 11,
-   "entrada": 34961,
-   "saida": 15366
+   "chamadas": 36,
+   "entrada": 114489,
+   "saida": 58135
   },
   "cloudflare": {
-   "chamadas": 6,
-   "entrada": 20681,
-   "saida": 2226
+   "chamadas": 22,
+   "entrada": 75486,
+   "saida": 8162
   }
  }
 }

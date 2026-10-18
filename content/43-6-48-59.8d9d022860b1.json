@@ -1,0 +1,146 @@
+{
+ "id": "43-6-48-59",
+ "ref": "João 6:48-59",
+ "book": "43",
+ "chapter": 6,
+ "verses": [
+  {
+   "n": 48,
+   "t": "Eu sou o pão da vida."
+  },
+  {
+   "n": 49,
+   "t": "Vossos pais comeram o maná no deserto, e morreram."
+  },
+  {
+   "n": 50,
+   "t": "Este é o pão que desceu do céu, para que o ser humano coma dele e não morra."
+  },
+  {
+   "n": 51,
+   "t": "Eu sou o pão vivo, que desceu do céu; se alguém comer deste pão, para sempre viverá. E o pão que eu darei é minha carne, a qual darei pela vida do mundo."
+  },
+  {
+   "n": 52,
+   "t": "Discutiam, pois, os Judeus entre si, dizendo: Como este pode nos dar sua carne para comer?"
+  },
+  {
+   "n": 53,
+   "t": "Jesus, então, lhes disse: Em verdade, em verdade vos digo, que se não comerdes a carne do Filho do homem e beberdes seu sangue, não tereis vida em vós mesmos."
+  },
+  {
+   "n": 54,
+   "t": "Quem come minha carne e bebe meu sangue tem vida eterna, e eu o ressuscitarei no último dia."
+  },
+  {
+   "n": 55,
+   "t": "Porque minha carne verdadeiramente é comida; e meu sangue verdadeiramente é bebida."
+  },
+  {
+   "n": 56,
+   "t": "Quem come minha carne e bebe meu sangue, em mim permanece, e eu nele."
+  },
+  {
+   "n": 57,
+   "t": "Como o Pai vivo me enviou, e eu vivo pelo Pai, assim quem come a mim também por mim viverá."
+  },
+  {
+   "n": 58,
+   "t": "Este é o pão que desceu do céu. Não como vossos pais, que comeram o maná e morreram; quem comer este pão viverá para sempre."
+  },
+  {
+   "n": 59,
+   "t": "Estas coisas ele disse na sinagoga, ensinando em Cafarnaum."
+  }
+ ],
+ "titulo": "O Pão que Dá Vida Eterna",
+ "temas": [
+  "pão",
+  "vida eterna",
+  "fé",
+  "corpo de cristo",
+  "maná"
+ ],
+ "pergunta": "Por que Jesus comparou seu corpo e sangue a comida?",
+ "entender": "Em Cafarnaum, Jesus aprofundou a conversa sobre o pão da vida. Ele lembrou que os pais dos ouvintes comeram o maná no deserto, mas morreram. Diferente daquele alimento temporário, Jesus se apresenta como o verdadeiro pão que desceu do céu para que quem dele coma não morra espiritualmente.\n\nA explicação de Jesus surpreendeu os judeus, que discutiam entre si. Ele foi direto: é necessário comer a carne do Filho do homem e beber seu sangue para ter vida. Essa linguagem forte, comum na época para expressar união profunda, indica que a vida de Jesus é transmitida àqueles que se unem a Ele pela fé.\n\nJesus ensinou que essa comunhão é real: quem come dele permanece em Jesus, e Jesus nele. Assim como Jesus vive pelo Pai, quem se alimenta espiritualmente de Cristo vive por Ele. Essa promessa de vida eterna e ressurreição no último dia é o centro do ensino.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a obra redentora de Jesus. A 'carne' e o 'sangue' referem-se à entrega total de Jesus na cruz, onde Ele deu sua vida pela humanidade. A salvação não vem de esforço humano, mas de receber essa oferta de graça. A fé é o meio pelo qual nos unimos a Cristo, recebendo a vida eterna que Ele oferece.",
+  "selo": true
+ },
+ "viver": "Assim como o corpo precisa de alimento diário, sua alma precisa de Jesus. Tire tempo para meditar na Bíblia e orar, reconhecendo que sua vida depende dEle. Quando sentir-se vazio ou perdido, lembre-se de que Jesus é a satisfação completa. Confie na promessa de que Ele dá vida eterna a quem crê nEle.",
+ "guarde": "Quem come da carne de Jesus e bebe seu sangue tem vida eterna.",
+ "ore": "Senhor Jesus, eu creio que és o pão da vida. Obrigado por teres dado tua carne e sangue por mim. Ajuda-me a viver unido a ti todos os dias, alimentando minha fé na tua Palavra.",
+ "quiz": {
+  "pergunta": "O que Jesus disse que é necessário fazer para ter vida em nós mesmos?",
+  "opcoes": [
+   "Comer a carne e beber o sangue do Filho do homem",
+   "Comer o maná do deserto",
+   "Obedecer a todos os mandamentos da lei"
+  ],
+  "certa": 0,
+  "explicacao": "Jesus afirmou explicitamente que se não comerdes a carne e beberdes o sangue, não tereis vida. O maná era para os pais, que morreram."
+ },
+ "refs": [
+  "1 Coríntios 11:23-26",
+  "Atos 20:32",
+  "1 João 5:11-12"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T07:29:47.135Z",
+  "rounds": 1
+ }
+}

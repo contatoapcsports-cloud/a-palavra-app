@@ -1,0 +1,145 @@
+{
+ "id": "43-5-36-47",
+ "ref": "João 5:36-47",
+ "book": "43",
+ "chapter": 5,
+ "verses": [
+  {
+   "n": 36,
+   "t": "Mas eu tenho maior testemunho que o de João; porque as obras que o Pai me deu que cumprisse, as mesmas obras que eu faço, testemunham de mim que o Pai me enviou."
+  },
+  {
+   "n": 37,
+   "t": "E o Pai que me enviou, ele mesmo testemunhou de mim. Nunca ouvistes sua voz, nem vistes sua aparência."
+  },
+  {
+   "n": 38,
+   "t": "E não tendes sua palavra permanecendo em vós; porque ao que ele enviou, a esse vós não credes."
+  },
+  {
+   "n": 39,
+   "t": "Investigai as Escrituras; porque vós pensais que nelas tendes a vida eterna, e elas são as que de mim testemunham."
+  },
+  {
+   "n": 40,
+   "t": "E não quereis vir a mim, para que tenhais vida."
+  },
+  {
+   "n": 41,
+   "t": "Não recebo honra humana."
+  },
+  {
+   "n": 42,
+   "t": "Mas eu bem vos conheço que não tendes o amor de Deus em vós mesmos."
+  },
+  {
+   "n": 43,
+   "t": "Eu vim em nome de meu Pai, e vós não me aceitais; se outro vier em seu próprio nome, a esse aceitareis."
+  },
+  {
+   "n": 44,
+   "t": "Como podeis vós crer, se tomais honra uns dos outros, e não buscais a honra que vem somente de Deus?"
+  },
+  {
+   "n": 45,
+   "t": "Não penseis que eu vos tenha de acusar para com o Pai; o que vos acusa é Moisés, em quem vós esperais."
+  },
+  {
+   "n": 46,
+   "t": "Porque se vós crêsseis em Moisés, também a mim me creríeis; porque de mim ele escreveu."
+  },
+  {
+   "n": 47,
+   "t": "Mas se não credes em seus escritos, como crereis em minhas palavras?"
+  }
+ ],
+ "titulo": "Por que as Escrituras apontam para Jesus?",
+ "temas": [
+  "escrituras",
+  "testemunho",
+  "fé",
+  "obras"
+ ],
+ "pergunta": "O que acontece quando lemos a Bíblia procurando apenas regras, e não a pessoa de Cristo?",
+ "entender": "Neste trecho, Jesus explica por que as pessoas que o rejeitavam estavam confusas. Ele afirma que suas obras são o maior testemunho de que o Pai o enviou. Jesus observa que eles estudavam as Escrituras esperando encontrar a vida eterna nelas, mas não percebiam que esses textos falavam sobre Ele. A ironia é que eles tinham a Palavra, mas não a deixavam permanecer em seus corações.\n\nJesus também menciona que Moisés, em quem eles confiavam, escreveu sobre Ele. A crítica aqui não é contra o estudo bíblico, mas contra o estudo que ignora o próprio Cristo. Jesus mostra que a honra humana e a busca por aprovação entre si mesmos impedem a verdadeira fé, pois a honra que vem de Deus só é encontrada em aceitar o enviado do Pai.",
+ "ligar": {
+  "texto": "Este texto é central para o evangelho porque revela que a Bíblia não é apenas um livro de história ou ética, mas um testemunho de Jesus. Ele é o centro da revelação. Sem Cristo, as Escrituras podem ser lidas como regras vazias; com Ele, tornam-se a porta para a vida eterna. A rejeição de Jesus é, portanto, a rejeição da fonte da vida que a própria Lei prometia.",
+  "selo": true
+ },
+ "viver": "Ao estudar a Bíblia, pergunte-se: 'O que este texto me mostra sobre Jesus?'. Não busque apenas conselhos práticos, mas a pessoa de Cristo. Se você sente que a leitura bíblica está se tornando uma tarefa religiosa ou uma busca por aprovação de outros, pare e ore. Peça a Deus que abra seus olhos para ver Jesus nas páginas das Escrituras, permitindo que Sua Palavra 'permaneça' em você, transformando sua fé de uma ideia intelectual em uma relação pessoal com o Salvador.",
+ "guarde": "A vida eterna está nas Escrituras, mas ela só é acessada quando elas apontam para Jesus.",
+ "ore": "Pai, abre meus olhos para ver que a Bíblia fala de Ti através de Jesus. Ensina-me a não buscar honra humana, mas a honra que vem de Ti. Que eu não rejeite as obras de Cristo, mas as aceite como testemunho do Teu amor. Amém.",
+ "quiz": {
+  "pergunta": "Segundo Jesus em João 5:39, o que as Escrituras fazem?",
+  "opcoes": [
+   "Dão regras de moral",
+   "Explicam a criação do mundo",
+   "Testemunham de Jesus"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus afirma explicitamente que as Escrituras são as que dele (de Jesus) testemunham, indicando que Ele é o centro da revelação bíblica."
+ },
+ "refs": [
+  "Lucas 24:44-45",
+  "Atos 8:30-35",
+  "2 Timóteo 3:15-16"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-18T07:22:48.090Z",
+  "rounds": 1
+ }
+}
