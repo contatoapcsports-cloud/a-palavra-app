@@ -49,6 +49,19 @@
       "modelo": "qwen/qwen3.8-27b",
       "familia": "alibaba",
       "limite_tpm": 5000
+    },
+    {
+      "id": "cerebras-gpt",
+      "provedor": "cerebras",
+      "modelo": "gpt-oss-120b",
+      "familia": "openai",
+      "esforco": "low"
+    },
+    {
+      "id": "cerebras-qwen",
+      "provedor": "cerebras",
+      "modelo": "qwen-3-235b-a22b-instruct-2507",
+      "familia": "alibaba"
     }
   ],
   "auditores_1": [
@@ -63,6 +76,18 @@
         "gemini-flash-latest"
       ],
       "familia": "google"
+    },
+    {
+      "id": "cerebras-gpt"
+    },
+    {
+      "id": "cerebras-qwen"
+    },
+    {
+      "id": "groq-gpt"
+    },
+    {
+      "id": "groq-qwen"
     }
   ],
   "auditores_2": [
@@ -75,6 +100,12 @@
         "@cf/meta/llama-3.1-70b-instruct"
       ],
       "familia": "meta"
+    },
+    {
+      "id": "cerebras-gpt"
+    },
+    {
+      "id": "cerebras-qwen"
     },
     {
       "id": "groq-gpt"

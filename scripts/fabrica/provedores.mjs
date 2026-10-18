@@ -1,4 +1,4 @@
-/* Chamadas às APIs gratuitas (Groq, Gemini, Cloudflare Workers AI). Sem dependências: usa fetch do Node 22.
+/* Chamadas às APIs gratuitas (Groq, Gemini, Cloudflare Workers AI, Cerebras). Sem dependências: usa fetch do Node 22.
    Regras: nunca imprime chave; 429 de limite por minuto espera e tenta de novo; 429 de limite diário bloqueia o provedor até o fim da execução. */
 export class QuotaError extends Error { constructor(prov, msg) { super(prov + ': limite diário atingido (' + msg + ')'); this.quota = true; this.prov = prov; } }
 export class ProvError extends Error { constructor(prov, msg, status) { super(prov + ': ' + msg); this.prov = prov; this.status = status; } }
@@ -149,5 +149,27 @@ export class Cloudflare extends Provedor {
       }
     }
     throw ultimo || new ProvError(this.nome, 'nenhum modelo disponível');
+  }
+}
+
+/* Cerebras (API compatível com a da OpenAI; plano gratuito com cota diária própria). */
+export class Cerebras extends Provedor {
+  constructor(o) { super({ nome: 'cerebras', base: 'https://api.cerebras.ai', minIntervaloMs: 2500, ...o }); }
+  async json({ system, user, max = 4000, temp = 0.6 }) {
+    const corpo = { model: this.modelo, messages: [{ role: 'system', content: system }, { role: 'user', content: user }], temperature: temp, max_completion_tokens: max, response_format: { type: 'json_object' } };
+    if (this.esforco) corpo.reasoning_effort = this.esforco;
+    const chamar = c => this.http(this.base + '/v1/chat/completions', { method: 'POST', headers: { 'content-type': 'application/json', authorization: 'Bearer ' + this.chave }, body: JSON.stringify(c) });
+    let txt;
+    for (const campo of ['', 'reasoning_effort', 'response_format']) { // se a API recusar (400) um parâmetro opcional, tenta sem ele
+      if (campo) delete corpo[campo];
+      try { txt = await chamar(corpo); break; }
+      catch (e) { if (!(e.status === 400 && campo !== 'response_format')) throw e; }
+    }
+    if (txt === undefined) throw new ProvError(this.nome, 'a API recusou o pedido (400) mesmo sem parâmetros opcionais', 400);
+    const j = JSON.parse(txt), ch = j.choices && j.choices[0];
+    this.conta(j.usage && j.usage.prompt_tokens, j.usage && j.usage.completion_tokens);
+    if (!ch || !ch.message || !ch.message.content) throw new ProvError(this.nome, 'resposta vazia (' + (ch && ch.finish_reason) + ')');
+    if (ch.finish_reason === 'length') throw new ProvError(this.nome, 'resposta cortada (max tokens)');
+    return extrairJson(ch.message.content);
   }
 }
