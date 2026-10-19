@@ -1,0 +1,137 @@
+{
+ "id": "43-12-41-50",
+ "ref": "João 12:41-50",
+ "book": "43",
+ "chapter": 12,
+ "verses": [
+  {
+   "n": 41,
+   "t": "Isto disse Isaías, quando viu sua glória, e falou dele."
+  },
+  {
+   "n": 42,
+   "t": "Contudo ainda até muitos dos chefes também creram nele; mas não o confessavam por causa dos fariseus; para não serem expulsos da sinagoga."
+  },
+  {
+   "n": 43,
+   "t": "Porque amavam mais a glória humana do que a glória de Deus."
+  },
+  {
+   "n": 44,
+   "t": "E exclamou Jesus, e disse: Quem crê em mim, não crê somente em mim, mas também naquele que me enviou."
+  },
+  {
+   "n": 45,
+   "t": "E quem vê a mim, vê a aquele que me enviou."
+  },
+  {
+   "n": 46,
+   "t": "Eu sou a luz que vim ao mundo, para que todo aquele que crê em mim, não permaneça em trevas."
+  },
+  {
+   "n": 47,
+   "t": "E se alguém ouvir minhas palavras, e não crer, eu não o julgo; porque não vim para julgar o mundo, mas sim para salvar o mundo."
+  },
+  {
+   "n": 48,
+   "t": "Quem me rejeitar e não receber minhas palavras, já tem quem o julgue: a palavra que eu tenho falado, essa o julgará no último dia."
+  },
+  {
+   "n": 49,
+   "t": "Porque eu não tenho falado de mim mesmo; porém o Pai que me enviou, ele me deu mandamento do que devo dizer, e do que devo falar."
+  },
+  {
+   "n": 50,
+   "t": "E sei que seu mandamento é vida eterna. Portanto o que eu falo, falo assim como o Pai tem me dito."
+  }
+ ],
+ "titulo": "Por que esconder a fé em Jesus?",
+ "temas": [
+  "medo",
+  "luz",
+  "verdade",
+  "coragem"
+ ],
+ "pergunta": "O que você faria para não ser rejeitado pelos seus amigos ou colegas?",
+ "entender": "Jesus observa uma situação dolorosa: muitos líderes religiosos acreditavam nele, mas não o confessavam publicamente. O motivo era o medo de serem expulsos da sinagoga pelos fariseus. O texto é direto ao apontar a causa: eles amavam mais a glória humana do que a glória de Deus. O conforto social pesava mais que a fidelidade a Cristo.\n\nEm contraste, Jesus declara sua missão: ele é a luz que veio ao mundo para que quem crê nele não permaneça nas trevas. Ele não veio para julgar, mas para salvar. No entanto, avisa que rejeitar suas palavras tem consequências, pois essa mesma palavra julgará no último dia. Sua fala não é opinião própria, mas o mandamento do Pai, que é vida eterna.\n\nO trecho nos convida a examinar se nossa fé é autêntica ou se está escondida por trás de barreiras sociais. A luz expõe as trevas; esconder a fé é tentar manter a escuridão.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para Jesus como a Luz do mundo. Ele oferece a saída das trevas e a vida eterna. A decisão de crer ou rejeitar não é neutra: a palavra de Jesus é o critério final. O evangelho é a oportunidade de trocar a aprovação humana pela glória de Deus, confiando em quem veio para salvar.",
+  "selo": true
+ },
+ "viver": "Pense em uma situação recente onde você ficou em silêncio sobre sua fé para evitar conflito ou zombaria. Isso aconteceu no trabalho, na família ou nas redes sociais? O medo da rejeição é real, mas Jesus nos chama a amar mais a Deus do que a opinião dos homens. Dê um passo concreto esta semana: compartilhe com alguém de confiança por que Jesus é importante para você. A luz não precisa ser grito, mas precisa ser visível.",
+ "guarde": "A aprovação dos homens é passageira; a glória de Deus é eterna e dá coragem para crer.",
+ "ore": "Pai, perdoa-me quando esconda minha fé por medo do que os outros dirão. Ajuda-me a amar mais a Tua glória do que a aprovação humana. Dá-me coragem para viver na luz de Jesus, mesmo quando isso for difícil. Em nome de Jesus, amém.",
+ "quiz": {
+  "pergunta": "Segundo o texto, por que os chefes não confessavam sua fé em Jesus?",
+  "opcoes": [
+   "Porque não entendiam os ensinos de Jesus.",
+   "Porque amavam mais a glória humana do que a glória de Deus.",
+   "Porque Jesus os ameaçou de expulsão."
+  ],
+  "certa": 1,
+  "explicacao": "O texto afirma que eles creram, mas não confessavam por causa dos fariseus, pois preferiam a aprovação humana à glória de Deus."
+ },
+ "refs": [
+  "João 1:9",
+  "Atos 4:13",
+  "2 Coríntios 4:6"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-19T07:03:48.155Z",
+  "rounds": 3
+ }
+}

@@ -180,8 +180,9 @@
    "titulo": "Por que ninguém ousou prender Jesus?"
   },
   "43-8-1-12": {
-   "execucoes": 2,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "execucoes": 3,
+   "ultimo": "automático: entender:citacao_longa",
+   "estado": "travado"
   },
   "43-8-13-24": {
    "execucoes": 0,
@@ -259,7 +260,7 @@
   },
   "43-11-12-23": {
    "execucoes": 2,
-   "ultimo": "automático: abertura_repetida:ore:43-3-13-24"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   },
   "43-11-24-34": {
    "execucoes": 0,
@@ -301,7 +302,9 @@
   },
   "43-12-41-50": {
    "execucoes": 2,
-   "ultimo": "automático: abertura_repetida:ore:43-10-1-11, abertura_repetida:viver:43-4-12-22"
+   "ultimo": "gemini: CROSS_SECTION_CONSISTENCY: O título 'A coragem de crer escondido' contradiz o restante do ensino e a própria passagem, que apontam o crer escondido como fruto do medo da reprovação humana e exigem coragem para não se esconder.",
+   "estado": "pronto",
+   "titulo": "Por que esconder a fé em Jesus?"
   },
   "43-13-1-10": {
    "execucoes": 0,
@@ -359,7 +362,9 @@
   },
   "43-16-1-11": {
    "execucoes": 0,
-   "ultimo": "automático: abertura_repetida:ore:43-11-35-46"
+   "ultimo": "automático: abertura_repetida:ore:43-11-35-46",
+   "estado": "pronto",
+   "titulo": "A vitória que muda a tristeza em paz"
   },
   "43-16-12-22": {
    "execucoes": 0,
@@ -388,28 +393,36 @@
   "43-18-11-20": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "43-18-21-30": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "43-18-31-40": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 138,
-   "entrada": 284725,
-   "saida": 130881
+   "chamadas": 147,
+   "entrada": 303946,
+   "saida": 138633
   },
   "groq-qwen": {
-   "chamadas": 133,
-   "entrada": 262204,
-   "saida": 103994
+   "chamadas": 141,
+   "entrada": 278888,
+   "saida": 110308
   },
   "gemini": {
-   "chamadas": 103,
-   "entrada": 328087,
-   "saida": 139866
+   "chamadas": 109,
+   "entrada": 346783,
+   "saida": 151166
   },
   "cloudflare": {
-   "chamadas": 60,
-   "entrada": 206243,
-   "saida": 22260
+   "chamadas": 62,
+   "entrada": 213030,
+   "saida": 23002
   },
   "mistral": {
    "chamadas": 0,

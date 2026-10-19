@@ -1,0 +1,141 @@
+{
+ "id": "43-16-1-11",
+ "ref": "João 16:1-11",
+ "book": "43",
+ "chapter": 16,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Estas coisas tenho vos dito para que não tropeceis na fé."
+  },
+  {
+   "n": 2,
+   "t": "Expulsarão a vós das sinagogas; mas a hora vem, quando qualquer que vos matar, pensará fazer serviço a Deus."
+  },
+  {
+   "n": 3,
+   "t": "E estas coisas vos farão, porque nem ao Pai, nem a mim me conheceram."
+  },
+  {
+   "n": 4,
+   "t": "Porém tenho vos dito isto para que, quando aquela hora vier, disso vos lembreis, que já o dissera a vós; mas isto eu não vos disse desde o princípio, porque eu estava convosco."
+  },
+  {
+   "n": 5,
+   "t": "E agora vou para aquele que me enviou; e nenhum de vós me pergunta: Para onde vais?"
+  },
+  {
+   "n": 6,
+   "t": "Porém, porque vos disse estas coisas, a tristeza encheu vosso coração."
+  },
+  {
+   "n": 7,
+   "t": "Mas vos digo a verdade, que vos convém que eu vá; porque se eu não for, o Consolador não virá a vós; porém se eu for, eu o enviarei a vós."
+  },
+  {
+   "n": 8,
+   "t": "E vindo ele, convencerá ao mundo do pecado, e da justiça, e do juízo."
+  },
+  {
+   "n": 9,
+   "t": "Do pecado, porque não creem em mim;"
+  },
+  {
+   "n": 10,
+   "t": "E da justiça, porque vou para meu Pai, e não me vereis mais;"
+  },
+  {
+   "n": 11,
+   "t": "E do juízo, porque o Príncipe deste mundo já está julgado."
+  }
+ ],
+ "titulo": "A vitória que muda a tristeza em paz",
+ "temas": [
+  "espírito santo",
+  "consolador",
+  "juízo",
+  "fé"
+ ],
+ "pergunta": "Por que a partida de Jesus era necessária para que o Espírito Santo viesse?",
+ "entender": "Nas últimas horas antes da cruz, Jesus prepara os discípulos para um tempo difícil. Ele avisa que serão expulsos e até mortos, e que alguns farão isso pensando em servir a Deus. A causa é a ignorância: eles não conhecem o Pai nem a Jesus. Jesus quer que, quando isso acontecer, lembrem do que Ele disse, pois agora está partindo para o Pai.\n\nOs discípulos estão tristes, mas Jesus traz uma verdade surpreendente: é vantajoso para eles que Ele vá. A razão é prática: se Ele não partir, o Consolador (o Espírito Santo) não virá. Se partir, Ele o enviará. Esse Espírito terá uma tarefa específica no mundo: convencê-lo sobre três pontos centrais.\n\nPrimeiro, sobre o pecado, definido aqui pela falta de fé em Jesus. Segundo, sobre a justiça, pois Jesus vai ao Pai e não será mais visto fisicamente. Terceiro, sobre o juízo, porque o líder das forças do mal já foi julgado e derrotado. Não se trata de uma ameaça futura, mas de uma realidade espiritual que já mudou o cenário.",
+ "ligar": {
+  "texto": "Este texto é o coração do evangelho em ação. Jesus mostra que Sua partida não é uma ausência, mas a condição para a presença mais próxima e poderosa: o Espírito Santo. Ao definir o pecado como a rejeição a Ele e afirmar que o 'Príncipe deste mundo já está julgado', Jesus declara a vitória definitiva da cruz. A tristeza dos discípulos é transformada em esperança, pois o mesmo Cristo que partiu envia o Consolador para guiar, ensinar e confirmar a verdade. O evangelho não é apenas um evento passado, mas uma presença contínua através do Espírito, que torna real a vitória de Cristo em nossa vida.",
+  "selo": true
+ },
+ "viver": "Às vezes, sentimos que a ausência de algo ou alguém nos deixa vazios. Jesus valida essa tristeza, mas nos convida a olhar para o que Ele preparou: a presença constante do Espírito Santo. Quando a dúvida ou o medo surgirem, lembre-se de que a batalha principal já foi vencida. O líder das trevas perdeu o direito de julgar quem crê. Viver essa verdade significa confiar na paz que vem de dentro, guiada pelo Espírito, e não depender apenas das circunstâncias externas. A fé não é negar a dor, mas crer que a vitória de Cristo é maior que ela.",
+ "guarde": "A vitória de Cristo sobre o mal já é realidade, e o Espírito Santo nos dá a certeza disso.",
+ "ore": "Espírito Santo, obrigado por me guiar na verdade. Ajuda-me a crer que o mal já foi julgado em Jesus. Quando a tristeza vier, lembra-me da Tua presença e da vitória da cruz. Que minha fé se fortaleça ao lembrar que o Príncipe deste mundo perdeu a batalha. Em nome de Jesus, amém.",
+ "quiz": {
+  "pergunta": "Segundo João 16.9, por que o Espírito Santo convencerá o mundo do pecado?",
+  "opcoes": [
+   "Porque ignoram as leis morais",
+   "Porque não creem em Jesus",
+   "Porque cometem atos violentos"
+  ],
+  "certa": 1,
+  "explicacao": "O texto define especificamente o pecado, neste contexto, pela falta de fé em Jesus, não apenas por ações externas."
+ },
+ "refs": [
+  "Atos 1:8",
+  "Romanos 8:16",
+  "1 João 4:4"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-19T07:02:28.377Z",
+  "rounds": 2
+ }
+}
