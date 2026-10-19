@@ -1,4 +1,33 @@
+import { readdirSync, readFileSync, existsSync } from 'node:fs';
+import { join, resolve, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { CRITERIOS, GATES } from './criterios.mjs';
+
+const RAIZ = resolve(process.argv[2] || join(dirname(fileURLToPath(import.meta.url)), '../..'));
+const normAb = v => String(v == null ? '' : v).normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').trim();
+let cacheAb = { t: 0, v: null };
+/* As 5 primeiras palavras de "ore" e "viver" dos ensinos já prontos (a verificação automática recusa começo igual).
+   Só as dos 40 ensinos mais recentes de cada campo, para não gastar tokens à toa. */
+export function aberturasUsadas(max = 40) {
+  if (cacheAb.v && Date.now() - cacheAb.t < 60000) return cacheAb.v;
+  const base = join(RAIZ, 'content-src', 'camada2'), itens = [];
+  if (existsSync(base)) for (const d of readdirSync(base, { withFileTypes: true })) {
+    if (!d.isDirectory() || d.name === 'teste') continue;
+    for (const f of readdirSync(join(base, d.name))) {
+      if (!f.endsWith('.json')) continue;
+      try { const x = JSON.parse(readFileSync(join(base, d.name, f), 'utf8')); if (!x._teste) itens.push(x); } catch { /* ignora arquivo ruim */ }
+    }
+  }
+  itens.sort((a, b) => String((b.audit && b.audit.auditedAt) || '').localeCompare(String((a.audit && a.audit.auditedAt) || '')));
+  const v = {};
+  for (const c of ['ore', 'viver']) {
+    const s = new Set();
+    for (const x of itens) { const a = normAb(x[c]).split(' ').filter(Boolean).slice(0, 5).join(' '); if (a) s.add(a); if (s.size >= max) break; }
+    v[c] = [...s];
+  }
+  cacheAb = { t: Date.now(), v };
+  return v;
+}
 
 export const SISTEMA_GERADOR = doutrina => `Você escreve ensinos bíblicos curtos para um aplicativo gratuito de estudo da Bíblia, em português do Brasil, para leitores comuns (do jovem ao idoso), sem formação teológica.
 O texto bíblico (Bíblia Livre, 2018) vem no pedido e é a única fonte que você pode citar. REGRA DE CITAÇÃO: só use aspas para copiar, letra por letra, palavras que estão no texto do pedido (no máximo 12 palavras seguidas). Se não tiver certeza de que a frase está idêntica, NÃO use aspas: explique com suas palavras e indique a referência (ex.: João 3.16). Não cite de memória, não invente versículos, não acrescente fatos que não estejam no texto ou que não sejam amplamente certos.
@@ -25,6 +54,8 @@ CONTEXTO DEPOIS (não é o alvo):
 ${depois}
 `;
   if (recentes.length) p += `\nENSINOS JÁ PRONTOS (não repita título, ideias nem a forma de começar): ${recentes.join(' | ')}\n`;
+  const ab = aberturasUsadas();
+  if (ab.ore.length || ab.viver.length) p += `\nABERTURAS JÁ USADAS (5 primeiras palavras): a verificação automática recusa qualquer ensino cujo "ore" ou "viver" comece igual a uma destas.\n` + (ab.ore.length ? 'ORE: ' + ab.ore.join(' | ') + '\n' : '') + (ab.viver.length ? 'VIVER: ' + ab.viver.join(' | ') + '\n' : '');
   p += `
 Produza um objeto JSON com exatamente estas chaves:
 - "titulo": 3 a 9 palavras, desperta curiosidade sem exagero.
@@ -33,9 +64,9 @@ Produza um objeto JSON com exatamente estas chaves:
 - "entender": 2 ou 3 parágrafos separados por uma linha em branco, de 600 a 1100 caracteres no total: o que o texto diz, o contexto e o sentido, em linguagem simples. Pode citar trechos curtos (até 12 palavras, entre aspas, exatamente como no texto).
 - "ligar": de 250 a 600 caracteres: como este trecho aponta para Jesus e o evangelho. Seja proporcional: firme onde o texto fala de Cristo, cuidadoso onde a ligação é por um tema mais amplo.
 - "ligar_selo": true somente se o próprio texto fala de Cristo ou o anuncia de modo claro; senão false.
-- "viver": 1 ou 2 parágrafos (250 a 700 caracteres) com uma aplicação concreta que decorre do texto, para a vida de hoje.
+- "viver": 1 ou 2 parágrafos (250 a 700 caracteres) com uma aplicação concreta que decorre do texto, para a vida de hoje. Comece com uma ideia tirada deste trecho, não com uma fórmula.
 - "guarde": uma frase curta e marcante (até 24 palavras) para guardar no coração; pode ser uma ideia do texto em suas palavras.
-- "ore": uma oração curta em primeira pessoa (100 a 380 caracteres), específica deste texto.
+- "ore": uma oração curta em primeira pessoa (100 a 380 caracteres), específica deste texto. Comece citando um nome, lugar ou ação deste trecho, e não com uma fórmula como "Senhor, ajuda-me a".
 - "teste": objeto com "pergunta" (sobre o que o texto diz), "certa" (a resposta correta, curta), "erradas" (lista de 2 respostas erradas mas plausíveis, curtas) e "explicacao" (1 ou 2 frases dizendo por que a certa está certa, de 40 a 280 caracteres).
 - "refs": lista de 2 a 4 referências cruzadas reais e pertinentes, no formato "Livro cap:vers" ou "Livro cap:vers-vers" (ex.: "Romanos 5:8"), de OUTROS trechos da Bíblia que ajudam a entender este.
 `;
