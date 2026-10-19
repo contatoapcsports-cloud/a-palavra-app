@@ -258,8 +258,8 @@
    "titulo": "A luz que guia os passos de Jesus"
   },
   "43-11-12-23": {
-   "execucoes": 1,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "execucoes": 2,
+   "ultimo": "automático: abertura_repetida:ore:43-3-13-24"
   },
   "43-11-24-34": {
    "execucoes": 0,
@@ -300,8 +300,8 @@
    "titulo": "A luz que não espera: por que agir agora?"
   },
   "43-12-41-50": {
-   "execucoes": 1,
-   "ultimo": "automático: abertura_repetida:ore:43-7-43-53"
+   "execucoes": 2,
+   "ultimo": "automático: abertura_repetida:ore:43-10-1-11, abertura_repetida:viver:43-4-12-22"
   },
   "43-13-1-10": {
    "execucoes": 0,
@@ -359,7 +359,7 @@
   },
   "43-16-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:ore:43-11-35-46"
   },
   "43-16-12-22": {
    "execucoes": 0,
@@ -392,19 +392,19 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 129,
-   "entrada": 265366,
-   "saida": 123025
+   "chamadas": 138,
+   "entrada": 284725,
+   "saida": 130881
   },
   "groq-qwen": {
-   "chamadas": 124,
-   "entrada": 244984,
-   "saida": 97337
+   "chamadas": 133,
+   "entrada": 262204,
+   "saida": 103994
   },
   "gemini": {
-   "chamadas": 99,
-   "entrada": 315322,
-   "saida": 136561
+   "chamadas": 103,
+   "entrada": 328087,
+   "saida": 139866
   },
   "cloudflare": {
    "chamadas": 60,
