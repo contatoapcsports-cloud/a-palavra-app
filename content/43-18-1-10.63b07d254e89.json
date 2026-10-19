@@ -1,0 +1,137 @@
+{
+ "id": "43-18-1-10",
+ "ref": "João 18:1-10",
+ "book": "43",
+ "chapter": 18,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Havendo Jesus dito estas coisas, saiu com seus discípulos para além do ribeiro de Cedrom, onde havia um jardim, em que ele entrou ele, e seus discípulos."
+  },
+  {
+   "n": 2,
+   "t": "E também Judas, o que o traía, conhecia aquele lugar; porque muitas vezes se juntara ali Jesus com seus discípulos."
+  },
+  {
+   "n": 3,
+   "t": "Tendo Judas, pois, tomado a tropa e alguns dos oficiais dos sacerdotes e dos fariseus, veio ali com lanternas, tochas, e armas."
+  },
+  {
+   "n": 4,
+   "t": "Sabendo pois Jesus todas as coisas que viriam sobre ele, adiantou-se, e disse-lhes: A quem buscais?"
+  },
+  {
+   "n": 5,
+   "t": "Responderam-lhe: A Jesus Nazareno. Disse-lhes Jesus: Eu sou. E Judas, o que o traía, também estava com eles."
+  },
+  {
+   "n": 6,
+   "t": "Quando pois lhes disse: Eu sou, voltaram para trás, e caíram em terra."
+  },
+  {
+   "n": 7,
+   "t": "Voltou pois a lhes perguntar: A quem buscais? E eles disseram: A Jesus Nazareno."
+  },
+  {
+   "n": 8,
+   "t": "Respondeu Jesus: Já vos disse que eu sou. Portanto se buscais a mim, deixai a estes irem."
+  },
+  {
+   "n": 9,
+   "t": "Para que se cumprisse a palavra, que tinha dito: Dos que me deste, a nenhum deles perdi."
+  },
+  {
+   "n": 10,
+   "t": "Simão Pedro, pois, que tinha espada, puxou dela, e feriu ao servo do sacerdote, e cortou a sua orelha direita. E era o nome do servo Malco."
+  }
+ ],
+ "titulo": "A calma que parou uma tropa armada",
+ "temas": [
+  "soberania",
+  "entrega",
+  "proteção",
+  "paz"
+ ],
+ "pergunta": "O que aconteceu quando Jesus se apresentou diante de uma tropa armada?",
+ "entender": "A cena ocorre num jardim além do ribeiro de Cedrom, um lugar que Jesus e seus discípulos frequentavam. Judas, que conhecia o local, guiou uma tropa com lanternas, tochas e armas para prendê-lo. O clima era de tensão e violência iminente.\n\nJesus, sabendo de tudo o que aconteceria, adiantou-se e perguntou a quem procuravam. Ao responderem que buscavam Jesus Nazareno, Ele disse: \"Eu sou\". Naquele momento, os homens voltaram para trás e caíram em terra. Essa reação demonstra o poder da presença de Cristo, que não depende de armas, mas de Sua autoridade divina.\n\nEm seguida, Jesus perguntou novamente a quem buscavam e, ao ouvirem o mesmo nome, declarou: \"se buscais a mim, deixai a estes irem\". Isso aconteceu para cumprir a palavra que Ele tinha dito: \"Dos que me deste, a nenhum deles perdi\". A cena termina com Pedro puxando a espada e cortando a orelha de Malco, servo do sacerdote, contrastando a agressividade humana com a serenidade de Jesus.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para a divindade e a soberania de Jesus. A frase \"Eu sou\" ecoa a declaração de identidade divina, mostrando que Ele controla a situação mesmo sendo preso. Jesus se entrega voluntariamente para salvar os discípulos, cumprindo Sua promessa de não perder nenhum deles. O evangelho é visto aqui na troca: Ele aceita a prisão e a morte para garantir a segurança espiritual de quem crê nEle, demonstrando um amor que protege até no meio da dor.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, quando enfrentamos crises, reagimos como Pedro: com impulsividade, tentando resolver tudo com nossa própria força ou raiva. Mas este texto nos ensina a confiar na autoridade de Cristo. Em vez de lutar contra o caos, podemos descansar na certeza de que Jesus está no controle. Isso não elimina as dificuldades, mas nos dá a paz de saber que Ele protege aqueles que O amam, mesmo quando a situação parece desfavorável.",
+ "guarde": "A autoridade de Cristo não precisa de espadas para calar o medo.",
+ "ore": "Jesus, em meio à minha ansiedade, quero lembrar que Tu és soberano. Ajuda-me a confiar no Teu controle e a descansar no Teu amor, que me protege e guia, mesmo quando as circunstâncias parecem ameaçadoras.",
+ "quiz": {
+  "pergunta": "Por que os soldados caíram em terra quando Jesus disse \"Eu sou\"?",
+  "opcoes": [
+   "Pelo poder da presença e autoridade de Jesus",
+   "Por medo da espada de Pedro",
+   "Por causa do barulho das tochas"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma que, quando Jesus disse \"Eu sou\", eles voltaram para trás e caíram em terra, indicando a reação ao poder da Sua palavra e presença, e não a outros fatores."
+ },
+ "refs": [
+  "João 10:30",
+  "Isaías 45:23",
+  "Filipenses 2:6"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.7-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-19T13:00:16.499Z",
+  "rounds": 3
+ }
+}

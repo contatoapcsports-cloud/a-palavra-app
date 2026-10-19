@@ -400,7 +400,9 @@
   },
   "43-18-1-10": {
    "execucoes": 0,
-   "ultimo": "gemini: CROSS_SECTION_CONSISTENCY: O título afirma que foi o 'silêncio' que derrubou a tropa, contradizendo frontalmente o texto bíblico e as outras seções do ensino, que explicam que eles caíram quando Jesus declarou 'Eu sou'."
+   "ultimo": "automático: abertura_repetida:ore:43-2-1-8",
+   "estado": "pronto",
+   "titulo": "A calma que parou uma tropa armada"
   },
   "43-18-11-20": {
    "execucoes": 0,
@@ -408,7 +410,9 @@
   },
   "43-18-21-30": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: REFERENCE_BOUNDARY: Atribui ao trecho a declaração de que os judeus não podiam matar ninguém por lei própria, fala que só ocorre no versículo 31. | NARRATIVE_EVENT_CONSISTENCY: Afirma erroneamente que o relato se move para o 'tribunal de Caifás', quando o texto bíblico relata que Jesus foi levado de",
+   "estado": "pronto",
+   "titulo": "Por que o oficial feriu Jesus?"
   },
   "43-18-31-40": {
    "execucoes": 0,
@@ -433,28 +437,40 @@
   "43-20-1-10": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "43-20-11-21": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "43-20-22-31": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "43-21-1-8": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 155,
-   "entrada": 321200,
-   "saida": 145501
+   "chamadas": 164,
+   "entrada": 340015,
+   "saida": 153094
   },
   "groq-qwen": {
-   "chamadas": 151,
-   "entrada": 297108,
-   "saida": 117855
+   "chamadas": 159,
+   "entrada": 314422,
+   "saida": 124481
   },
   "gemini": {
-   "chamadas": 116,
-   "entrada": 368525,
-   "saida": 160304
+   "chamadas": 121,
+   "entrada": 384900,
+   "saida": 167620
   },
   "cloudflare": {
-   "chamadas": 68,
-   "entrada": 233119,
-   "saida": 25228
+   "chamadas": 70,
+   "entrada": 240123,
+   "saida": 25970
   },
   "mistral": {
    "chamadas": 0,

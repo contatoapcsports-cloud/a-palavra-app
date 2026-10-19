@@ -1,0 +1,137 @@
+{
+ "id": "43-18-21-30",
+ "ref": "João 18:21-30",
+ "book": "43",
+ "chapter": 18,
+ "verses": [
+  {
+   "n": 21,
+   "t": "Por que perguntas a mim? Pergunta aos que o ouviram, que é o que lhes falei. Eis que estes sabem que é o que tenho dito."
+  },
+  {
+   "n": 22,
+   "t": "E dizendo ele isto, um dos oficiais, que ali estava, deu a Jesus uma bofetada, dizendo: Assim respondes ao sumo sacerdote?"
+  },
+  {
+   "n": 23,
+   "t": "Respondeu-lhe Jesus: Se falei mal, dá testemunho do mal; e se bem, por que me feres?"
+  },
+  {
+   "n": 24,
+   "t": "(Pois Anás o mandara amarrado ao sumo sacerdote Caifás.)"
+  },
+  {
+   "n": 25,
+   "t": "E Simão Pedro estava ali, e se esquentava; disseram-lhe pois: Não és tu também de seus discípulos? Ele negou, e disse: Não sou."
+  },
+  {
+   "n": 26,
+   "t": "Disse um dos servos do sacerdote, parente daquele a quem Pedro cortara a orelha: Eu não te vi no jardim com ele?"
+  },
+  {
+   "n": 27,
+   "t": "Pedro negou pois outra vez, e logo cantou o galo."
+  },
+  {
+   "n": 28,
+   "t": "Levaram pois a Jesus de Caifás para o tribunal. E era pela manhã; e não entraram no tribunal, para que não se contaminassem, mas que pudessem comer a Páscoa."
+  },
+  {
+   "n": 29,
+   "t": "Saiu pois Pilatos até eles fora, e disse: Que acusação trazeis contra este homem?"
+  },
+  {
+   "n": 30,
+   "t": "Responderam, e disseram-lhe: Se este não fosse malfeitor, não o entregaríamos a ti."
+  }
+ ],
+ "titulo": "Por que o oficial feriu Jesus?",
+ "temas": [
+  "injustiça",
+  "verdade",
+  "coragem"
+ ],
+ "pergunta": "Já recebeu agressão ao defender a verdade?",
+ "entender": "Neste trecho, o sumo sacerdote questiona Jesus sobre o que Ele ensinou. Jesus responde que tudo o que disse foi ouvido pelos que estavam presentes. Um dos oficiais que estava ali, então, \"deu a Jesus uma bofetada\" (João 18:22) e pergunta: \"Assim respondes ao sumo sacerdote?\" Jesus, sem se defender, responde: \"Se falei mal, dá testemunho do mal; e se bem, por que me feres?\" (v.23). Em seguida vemos Pedro, ainda aquecido pelo fogo, sendo confrontado: \"Não és tu também de seus discípulos?\" Ele nega duas vezes, cumprindo a profecia da negação (v.25‑27). Depois, os judeus levam Jesus \"de Caifás para o tribunal\" (v.28‑30), onde Pilatos pergunta qual a acusação contra Ele. O texto mostra a pressão das autoridades religiosas, a violência física contra o inocente e a fraqueza humana de Pedro.\n\nO contexto anterior (v.18‑20) indica que Jesus falava abertamente ao mundo, sem esconder nada. O contexto posterior (v.31‑33) traz Pilatos questionando se Jesus é rei dos judeus, preparando o caminho para o julgamento final. Assim, o relato revela a oposição humana à mensagem de Cristo e a resposta serena de Jesus diante da injustiça.",
+ "ligar": {
+  "texto": "A bofetada ao Senhor demonstra que, embora inocente, Ele suportou violência humana por causa da verdade que proclamava. Essa atitude aponta para a cruz, onde Jesus receberia ferimentos ainda maiores para nos salvar. Quando Ele diz: \"Se falei mal, dá testemunho do mal; e se bem, por que me feres?\", mostra que o sofrimento não vem de Sua culpa, mas da rejeição do mundo ao Filho de Deus. Essa entrega voluntária abre caminho ao evangelho: quem crê reconhece que Jesus morreu pelos nossos erros e recebe perdão e vida eterna.",
+  "selo": true
+ },
+ "viver": "Hoje, podemos enfrentar situações em que dizer a verdade traz agressão ou pressão. Como Pedro, podemos sentir o calor da oposição e até negar o que acreditamos. O exemplo de Jesus nos ensina a responder com calma, reconhecendo que o mal vem da atitude alheia, não de nós. Quando somos tratados injustamente por nossa fé, podemos confiar que Deus vê nossa integridade e nos dá força para permanecer firmes, refletindo o amor de Cristo em meio à adversidade.",
+ "guarde": "Mesmo ferido injustamente, Jesus respondeu com verdade e serenidade.",
+ "ore": "Senhor, ajuda-me a permanecer firme na verdade, mesmo quando sou agredido ou incompreendido. Dá-me a coragem de responder com amor, como Jesus fez, e que minha vida reflita a tua paz.",
+ "quiz": {
+  "pergunta": "Quem deu a bofetada em Jesus neste trecho?",
+  "opcoes": [
+   "Um oficial presente",
+   "Pilatos",
+   "Pedro"
+  ],
+  "certa": 0,
+  "explicacao": "O texto registra que \"um dos oficiais, que ali estava, deu a Jesus uma bofetada\" (João 18:22). Pedro e Pilatos aparecem em outros momentos, mas não são os que golpeiam Jesus aqui."
+ },
+ "refs": [
+  "Mateus 26:67-68",
+  "Lucas 22:63-65",
+  "Hebreus 12:2",
+  "1 Pedro 2:21"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-19T12:46:43.364Z",
+  "rounds": 2
+ }
+}
