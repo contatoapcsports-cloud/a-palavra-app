@@ -1,0 +1,137 @@
+{
+ "id": "43-19-12-21",
+ "ref": "João 19:12-21",
+ "book": "43",
+ "chapter": 19,
+ "verses": [
+  {
+   "n": 12,
+   "t": "Desde então Pilatos procurava soltá-lo; mas os Judeus clamavam, dizendo: Se soltas a este, não és amigo de César; qualquer que se faz Rei, contradiz a César."
+  },
+  {
+   "n": 13,
+   "t": "Então Pilatos, ouvindo este dito, levou fora a Jesus, e sentou-se no tribunal, no lugar chamado Litóstrotos, ou pavimento ,e em hebraico Gabatá."
+  },
+  {
+   "n": 14,
+   "t": "E era a preparação da páscoa, e quase à hora sexta, e disse aos Judeus: Eis aqui vosso Rei!"
+  },
+  {
+   "n": 15,
+   "t": "Mas eles bradaram: Tira, tira, crucifica-o! Disse-lhes Pilatos: Crucificarei a vosso Rei?Responderam os chefes dos sacerdotes: Não temos outro rei, a não ser César."
+  },
+  {
+   "n": 16,
+   "t": "Então o entregou a eles, para que fosse crucificado. E tomaram a Jesus, e levaram -no ."
+  },
+  {
+   "n": 17,
+   "t": "E levando ele sua cruz, saiu para o lugar chamado a Caveira, que em hebraico se chama Gólgota."
+  },
+  {
+   "n": 18,
+   "t": "Onde o crucificaram, e com ele outros dois, um de cada lado, e a Jesus no meio."
+  },
+  {
+   "n": 19,
+   "t": "E Pilatos também escreveu um título, e o pôs encima da cruz, e estava nele escrito: JESUS NAZARENO, REI DOS JUDEUS."
+  },
+  {
+   "n": 20,
+   "t": "Leram pois muitos dos Judeus este título; porque o lugar onde Jesus estava crucificado era perto da cidade; e estava escrito em hebraico, em grego, e em latim."
+  },
+  {
+   "n": 21,
+   "t": "Diziam pois os chefes dos sacerdotes dos judeus a Pilatos: Não escrevas: Rei dos Judeus, mas que disse: Sou Rei dos Judeus."
+  }
+ ],
+ "titulo": "O Rei que carregou a cruz sozinho",
+ "temas": [
+  "soberania",
+  "humildade",
+  "cruz",
+  "realeza"
+ ],
+ "pergunta": "O que significa reinar quando o trono é uma cruz?",
+ "entender": "Pilatos, pressionado pelos líderes religiosos que temiam a Roma, entrega Jesus para ser crucificado. Ele se senta no tribunal e apresenta Jesus à multidão, dizendo: \"Eis aqui vosso Rei!\". A resposta do povo é clamorosa: \"Tira, tira, crucifica-o!\". Eles rejeitam Jesus como Rei e declaram fidelidade apenas a César.\n\nJesus é levado ao Gólgota, onde é crucificado entre dois ladrões. Pilatos faz afixar uma placa na cruz com a inscrição: \"JESUS NAZARENO, REI DOS JUDEUS\". A ironia é profunda: o homem que o mundo rejeita é declarado Rei por um governante romano, justamente no lugar da morte. O texto destaca que muitos leram essa inscrição, pois o local era perto da cidade.",
+ "ligar": {
+  "texto": "Este trecho revela a natureza do Reino de Deus. Jesus não veio para ser um conquistador político, mas um Rei que serve até a morte. A cruz, símbolo de vergonha, torna-se o trono de Sua autoridade. Sua realeza se manifesta não no poder de dominar, mas na entrega de Si mesmo. É através dessa crucificação que Ele vence o pecado e a morte, oferecendo salvação a todos os que O aceitam como Senhor, desafiando nossa ideia de poder e sucesso.",
+  "selo": true
+ },
+ "viver": "Nossa cultura valoriza quem exerce controle e exige respeito. Jesus nos ensina que a verdadeira grandeza está na submissão e no serviço. Pergunte-se: em que área da sua vida você está se comportando como \"César\", cobrando direitos e impondo sua vontade, em vez de agir com a humildade de Cristo? Pratique a renúncia voluntária em pequenos momentos hoje, escolhendo servir ao outro sem esperar reconhecimento, refletindo o caráter do Rei que carregou a cruz.",
+ "guarde": "A verdadeira realeza se revela não no palácio, mas na entrega voluntária da vida em amor.",
+ "ore": "Senhor Jesus, Rei dos reis, eu Te adoro. Perdoa-me pelas vezes em que busquei meu próprio trono e rejeitei Tua soberania. Ensina-me a caminhar no Teu caminho, aceitando a humildade e o serviço. Que minha vida reflita a Tua realeza de amor e sacrifício. Amém.",
+ "quiz": {
+  "pergunta": "O que estava escrito na placa que Pilatos colocou na cruz de Jesus?",
+  "opcoes": [
+   "Culpa de Jesus, Filho de Deus",
+   "Jesus, o Messias Prometido",
+   "Jesus Nazareno, Rei dos Judeus"
+  ],
+  "certa": 2,
+  "explicacao": "O texto em João 19:19 afirma explicitamente que Pilatos escreveu: \"JESUS NAZARENO, REI DOS JUDEUS\". Os outros títulos não aparecem nesse versículo."
+ },
+ "refs": [
+  "Marcos 15:26",
+  "Lucas 23:38",
+  "Mateus 27:37"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.7-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-19T18:54:15.943Z",
+  "rounds": 1
+ }
+}

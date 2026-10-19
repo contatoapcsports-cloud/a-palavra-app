@@ -405,8 +405,8 @@
    "titulo": "A calma que parou uma tropa armada"
   },
   "43-18-11-20": {
-   "execucoes": 1,
-   "ultimo": "automático: abertura_repetida:ore:43-2-1-8"
+   "execucoes": 2,
+   "ultimo": "gemini: REFERENCE_BOUNDARY: O ensino trata os versículos 19 e 20 como 'contexto posterior', quando na verdade eles pertencem ao próprio trecho-alvo (João 18:11-20). | NARRATIVE_EVENT_CONSISTENCY: O ensino afirma que Jesus disse que 'não beberá o copo', invertendo o sentido da pergunta retórica ('não beberei"
   },
   "43-18-21-30": {
    "execucoes": 0,
@@ -416,31 +416,45 @@
   },
   "43-18-31-40": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:viver:43-18-21-30, abertura_repetida:ore:43-2-1-8",
+   "estado": "pronto",
+   "titulo": "A verdade que Pilatos não compreendeu"
   },
   "43-19-1-11": {
    "execucoes": 1,
-   "ultimo": "automático: abertura_repetida:ore:43-8-13-24"
+   "ultimo": "automático: viver:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "O silêncio que revela o verdadeiro Rei"
   },
   "43-19-12-21": {
    "execucoes": 0,
-   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
+   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } ",
+   "estado": "pronto",
+   "titulo": "O Rei que carregou a cruz sozinho"
   },
   "43-19-22-32": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:ore:43-11-35-46",
+   "estado": "pronto",
+   "titulo": "O último pedido de Jesus na cruz"
   },
   "43-19-33-42": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Sangue e água: a prova do sacrifício perfeito"
   },
   "43-20-1-10": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O vazio que provou a vitória"
   },
   "43-20-11-21": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:viver:43-16-12-22",
+   "estado": "pronto",
+   "titulo": "O nome que transforma o luto em missão"
   },
   "43-20-22-31": {
    "execucoes": 0,
@@ -457,28 +471,52 @@
   "43-21-18-25": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-1-1-11": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-1-12-24": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-1-25-34": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-1-35-45": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-2-1-9": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-2-10-19": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 172,
-   "entrada": 357255,
-   "saida": 159898
+   "chamadas": 181,
+   "entrada": 376915,
+   "saida": 167360
   },
   "groq-qwen": {
-   "chamadas": 168,
-   "entrada": 333989,
-   "saida": 131403
+   "chamadas": 178,
+   "entrada": 352386,
+   "saida": 139070
   },
   "gemini": {
-   "chamadas": 121,
-   "entrada": 384900,
-   "saida": 167620
+   "chamadas": 130,
+   "entrada": 413785,
+   "saida": 181530
   },
   "cloudflare": {
-   "chamadas": 70,
-   "entrada": 240123,
-   "saida": 25970
+   "chamadas": 77,
+   "entrada": 264283,
+   "saida": 28567
   },
   "mistral": {
    "chamadas": 0,

@@ -1,0 +1,137 @@
+{
+ "id": "43-20-1-10",
+ "ref": "João 20:1-10",
+ "book": "43",
+ "chapter": 20,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E no primeiro dia da semana Maria Madalena veio de madrugada, sendo ainda escuro, ao sepulcro; e viu a pedra já tirada do sepulcro."
+  },
+  {
+   "n": 2,
+   "t": "Correu pois, e veio a Simão Pedro, e ao outro discípulo a quem Jesus amava, e disse-lhes: Tomaram o Senhor do sepulcro, e não sabemos onde o puseram."
+  },
+  {
+   "n": 3,
+   "t": "Pedro saiu pois e o outro discípulo também ,e vieram ao sepulcro."
+  },
+  {
+   "n": 4,
+   "t": "E corriam estes dois juntos: e o outro discípulo correu adiante mais depressa que Pedro, e chegou primeiro ao sepulcro."
+  },
+  {
+   "n": 5,
+   "t": "E abaixando-se, viu estar os lençóis; entretanto não entrou."
+  },
+  {
+   "n": 6,
+   "t": "Chegou pois Simão Pedro seguindo-o, e entrou no sepulcro, e viu estar os lençóis ali ."
+  },
+  {
+   "n": 7,
+   "t": "E o lenço que fora posto sobre sua cabeça, não o viu estar com os lençóis, mas estava dobrado em um lugar à parte."
+  },
+  {
+   "n": 8,
+   "t": "Então pois entrou também o outro discípulo, que primeiro chegara ao sepulcro, e viu, e creu."
+  },
+  {
+   "n": 9,
+   "t": "Porque ainda não sabiam a Escritura, que era necessário que ressuscitasse dos mortos."
+  },
+  {
+   "n": 10,
+   "t": "Voltaram pois os Discípulos para a casa deles."
+  }
+ ],
+ "titulo": "O vazio que provou a vitória",
+ "temas": [
+  "ressurreição",
+  "fé",
+  "esperança",
+  "sepulcro vazio"
+ ],
+ "pergunta": "O que fez Pedro e João crerem na ressurreição antes mesmo de verem Jesus?",
+ "entender": "No primeiro dia da semana, Maria Madalena chega ao sepulcro de madrugada e encontra a pedra tirada. Ela corre e avisa Pedro e o outro discípulo, dizendo que o corpo foi levado. Os dois correm juntos, mas o discípulo amado chega primeiro. Ao se abaixar, ele vê os lençóis, mas não entra. Pedro entra e vê os lençóis ali, e o lenço que estava sobre a cabeça de Jesus dobrado em um lugar à parte.\n\nA cena é detalhada e calma. Não há confusão de corpos, apenas a ordem dos panos. O texto diz que o outro discípulo \"viu, e creu\". Ainda assim, eles não entendiam plenamente a Escritura sobre a necessidade da ressurreição. Eles voltaram para casa, mas algo mudou: a dúvida deu lugar a uma certeza incipiente, baseada na evidência física do sepulcro vazio e na forma como os panos foram deixados.",
+ "ligar": {
+  "texto": "Este trecho é a prova silenciosa da vitória de Jesus sobre a morte. O sepulcro vazio não é apenas a ausência de um corpo, mas a presença de uma promessa cumprida. Jesus não foi roubado; Ele venceu. Para nós, essa evidência física aponta para o Cristo ressurreto, que garante nossa esperança. A fé dos discípulos aqui é o início de uma nova era, onde a morte perdeu seu poder final sobre aquele que amamos.",
+  "selo": true
+ },
+ "viver": "Às vezes, a fé não começa com uma visão grandiosa, mas com o silêncio de um vazio que não faz sentido para a lógica humana. Quando você se sentir confuso ou cético, lembre-se da ordem dos lençóis: Deus age com propósito, mesmo quando não compreendemos tudo. Confie na fidelidade de Jesus, que cumpre o que prometeu, mesmo no silêncio.",
+ "guarde": "A ordem dos lençóis no sepulcro vazio é a primeira prova silenciosa de que a morte não pôde reter Jesus.",
+ "ore": "Pai, obrigado pelo sepulcro vazio que me lembra que Jesus venceu a morte. Ajuda-me a crer na Tua fidelidade, mesmo quando não compreendo tudo, e fortalece minha esperança no Cristo ressurreto.",
+ "quiz": {
+  "pergunta": "O que o discípulo amado viu ao se abaixar antes de entrar no sepulcro?",
+  "opcoes": [
+   "O corpo de Jesus",
+   "Os lençóis",
+   "Maria Madalena"
+  ],
+  "certa": 1,
+  "explicacao": "O texto diz que ele se abaixou e viu os lençóis, mas não entrou. Pedro entrou depois e viu mais detalhes, como o lenço dobrado."
+ },
+ "refs": [
+  "Lucas 24:12",
+  "Mateus 28:6",
+  "1 Coríntios 15:14"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-19T18:55:53.695Z",
+  "rounds": 1
+ }
+}

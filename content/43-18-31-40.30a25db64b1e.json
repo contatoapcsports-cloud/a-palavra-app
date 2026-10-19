@@ -1,0 +1,137 @@
+{
+ "id": "43-18-31-40",
+ "ref": "João 18:31-40",
+ "book": "43",
+ "chapter": 18,
+ "verses": [
+  {
+   "n": 31,
+   "t": "Disse-lhes pois Pilatos: Tomai-o vós, e julgai-o segundo vossa lei. Disseram-lhe pois os Judeus: Não nos é lícito matar a alguém."
+  },
+  {
+   "n": 32,
+   "t": "Para que se cumprisse a palavra de Jesus, que tinha dito, dando a entender de que morte havia de morrer."
+  },
+  {
+   "n": 33,
+   "t": "Então Pilatos voltou a entrar no tribunal, e chamou a Jesus, e disse-lhe: És tu o Rei dos Judeus?"
+  },
+  {
+   "n": 34,
+   "t": "Respondeu-lhe Jesus: Tu dizes isso de ti mesmo, ou outros te disseram de mim?"
+  },
+  {
+   "n": 35,
+   "t": "Pilatos respondeu: Por acaso eu sou Judeu? Tua gente e os chefes dos sacerdotes te entregaram a mim; que fizeste?"
+  },
+  {
+   "n": 36,
+   "t": "Respondeu Jesus: Meu Reino não é deste mundo; se meu Reino fosse deste mundo, meus trabalhadores lutariam, para que eu não fosse entregue aos Judeus; mas agora meu Reino não é daqui."
+  },
+  {
+   "n": 37,
+   "t": "Disse-lhe pois Pilatos: Logo tu és Rei? Respondeu Jesus: Tu dizes que eu sou Rei. Para isto eu nasci, e para isto vim ao mundo: para dar testemunho à verdade. Todo aquele que é da verdade ouve minha voz."
+  },
+  {
+   "n": 38,
+   "t": "Disse-lhe Pilatos: O que é a verdade? E havendo dito isto, voltou a sair aos Judeus, e disse-lhes: Nenhum crime acho nele."
+  },
+  {
+   "n": 39,
+   "t": "Mas vós tendes por costume que eu vos solte um pela páscoa. Quereis pois que vos solte ao Rei dos Judeus?"
+  },
+  {
+   "n": 40,
+   "t": "Voltaram pois todos a clamar, dizendo: Não a este, mas a Barrabás!E Barrabás era um ladrão."
+  }
+ ],
+ "titulo": "A verdade que Pilatos não compreendeu",
+ "temas": [
+  "reino",
+  "verdade",
+  "justiça",
+  "fé"
+ ],
+ "pergunta": "O que significa a resposta de Jesus sobre Seu Reino para quem busca justiça?",
+ "entender": "Neste trecho, Pilatos pergunta a Jesus: \"És tu o Rei dos Judeus?\" (João 18:33). Jesus responde que \"Meu Reino não é deste mundo\" (v.36) e que veio ao mundo \"para dar testemunho à verdade\" (v.37). Pilatos, intrigado, questiona: \"O que é a verdade?\" (v.38) e, embora não encontre culpa em Jesus, cede à pressão da multidão que pede a libertação de Barrabás (v.40). O contexto mostra que Jesus foi entregue pelos líderes religiosos ao governador romano (v.28‑30) e que o julgamento se dá entre a justiça humana e a justiça divina que Ele anuncia.\n\nA cena revela o contraste entre o poder terreno, que busca manter a ordem a qualquer custo, e o Reino de Cristo, que não se encaixa nas estruturas políticas. Pilatos reconhece que não há crime, mas ainda assim segue a vontade da maioria, ilustrando como a verdade pode ser ignorada quando confronta interesses humanos.",
+ "ligar": {
+  "texto": "Jesus declara que veio ao mundo \"para dar testemunho à verdade\" (v.37). Essa verdade é a pessoa de Cristo, o Rei que oferece salvação, não um trono político. O evangelho mostra que, ao crer nEle, somos convidados a viver sob o Reino de Deus, que liberta da culpa e do medo, mesmo que o mundo rejeite. Assim, a pergunta de Pilatos \"O que é a verdade?\" aponta para a necessidade de reconhecer Jesus como a verdade que salva.",
+  "selo": true
+ },
+ "viver": "Hoje, muitas vezes nos deparamos com decisões que parecem mais fáceis ao seguir a maioria. Como Pilatos, podemos sentir que não há culpa, mas ainda assim ceder à pressão. O convite é permanecer firme na verdade de Cristo, reconhecendo que Seu Reino transcende as opiniões humanas. Quando escolhermos a verdade, demonstramos que somos cidadãos de um Reino que vai além das circunstâncias terrenas.\n\nDesafie-se a dizer a verdade em situações difíceis, lembrando que a justiça de Deus supera qualquer julgamento humano.",
+ "guarde": "O Reino de Cristo não pertence a este mundo; Ele reina em verdade que liberta.",
+ "ore": "Jesus, ajuda-me a perceber que o Seu Reino está acima das minhas preocupações terrenas. Dá-me coragem para viver na verdade que Tu revelas, mesmo quando o mundo me pressiona a negar‑Te. Que eu seja testemunha fiel da Tua verdade em cada decisão que eu tomar. Amém.",
+ "quiz": {
+  "pergunta": "Qual foi a razão que Jesus deu para ter vindo ao mundo?",
+  "opcoes": [
+   "para ser crucificado",
+   "para dar testemunho à verdade",
+   "para cumprir a lei"
+  ],
+  "certa": 1,
+  "explicacao": "Jesus afirmou que veio ao mundo \"para dar testemunho à verdade\" (João 18:37), indicando seu propósito de revelar a verdade de Deus."
+ },
+ "refs": [
+  "João 14:6",
+  "1 Coríntios 1:25",
+  "Mateus 5:17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.7-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-19T18:54:41.359Z",
+  "rounds": 2
+ }
+}

@@ -1,0 +1,140 @@
+{
+ "id": "43-19-22-32",
+ "ref": "João 19:22-32",
+ "book": "43",
+ "chapter": 19,
+ "verses": [
+  {
+   "n": 22,
+   "t": "Respondeu Pilatos: O que escrevi, escrevi."
+  },
+  {
+   "n": 23,
+   "t": "Havendo pois os soldados crucificado a Jesus, tomaram suas roupas, e fizeram quatro partes, para cada soldado uma parte, e a túnica. E era a túnica sem costura, toda tecida desde cima até baixo ."
+  },
+  {
+   "n": 24,
+   "t": "Disseram pois uns aos outros: Não a partamos, mas lancemos sortes sobre ela, de quem será; para que se cumprisse a Escritura, que diz: Entre si partiram minhas roupas, e sobre minha veste lançaram sortes. Os soldados, pois, fizeram isto."
+  },
+  {
+   "n": 25,
+   "t": "E estavam junto à cruz de Jesus, sua mãe, e a irmã de sua mãe, Maria mulher de Cleofas, e Maria Madalena."
+  },
+  {
+   "n": 26,
+   "t": "E vendo Jesus a sua mãe, e ao discípulo a quem amava, que ali estava, disse a sua mãe: Mulher, eis aí teu filho."
+  },
+  {
+   "n": 27,
+   "t": "Depois disse ao discípulo: Eis aí tua mãe. E desde aquela hora o discípulo a recebeu em sua casa ."
+  },
+  {
+   "n": 28,
+   "t": "Depois disto, sabendo Jesus que já todas as coisas estavam feitas, para que a Escritura se cumprisse, ele disse: Tenho sede."
+  },
+  {
+   "n": 29,
+   "t": "Estava pois ali um vaso cheio de vinagre, e encheram uma esponja de vinagre, e envolvendo-a com hissopo, levaram-na a sua boca."
+  },
+  {
+   "n": 30,
+   "t": "Quando pois Jesus tomou o vinagre, disse: Está consumado; e abaixando a cabeça, deu o Espírito."
+  },
+  {
+   "n": 31,
+   "t": "Os Judeus pois, para que os corpos não ficassem no sábado na cruz, pois era a preparação (porque era o grande dia do Sábado), suplicaram a Pilatos que as pernas deles fossem quebradas, e fossem tirados."
+  },
+  {
+   "n": 32,
+   "t": "Vieram pois os soldados, e na verdade quebraram as pernas do primeiro, e do outro, que fora crucificado com ele."
+  }
+ ],
+ "titulo": "O último pedido de Jesus na cruz",
+ "temas": [
+  "cuidado",
+  "família",
+  "cumprimento",
+  "sacrifício"
+ ],
+ "pergunta": "Por que Jesus, morrendo de dor, parou para cuidar de sua mãe?",
+ "entender": "No meio da crucificação, os soldados dividem as roupas de Jesus. A túnica, que não tinha costuras, é sorteada, cumprindo o que a Escritura previa. É nesse cenário sombrio que Jesus vê sua mãe e o discípulo a quem amava. Ele não fica apenas no seu sofrimento: fala com Maria, chamando-a de \"mulher\", e apresenta o discípulo como seu filho.\n\nEm seguida, Jesus declara que tudo está \"consumado\". Isso significa que a missão de salvar a humanidade foi completada. Mesmo com sede e dor extrema, Jesus demonstra um cuidado prático e pessoal. Ele garante que Maria não ficará sozinha, transferindo essa responsabilidade para o discípulo amado. Isso revela o caráter de Cristo: fiel até o fim, pensando nos outros enquanto paga o preço pelo pecado do mundo.",
+ "ligar": {
+  "texto": "Aqui, Jesus demonstra que o amor de Deus é prático e pessoal. Ele não apenas morreu para nos perdoar, mas cuidou das pessoas que amava. O evangelho nos convida a confiar nesse mesmo cuidado. Assim como Jesus confiou sua mãe a um amigo, ele nos convida a entregar nossos medos e cargas a Ele, sabendo que Ele nos sustenta com amor eterno.",
+  "selo": true
+ },
+ "viver": "Pense em alguém que você ama e que pode se sentir sozinho ou preocupado. Assim como Jesus cuidou de sua mãe na cruz, você pode ser instrumento desse cuidado hoje. Uma ligação, uma visita ou um gesto de atenção pode mostrar que Deus age através de você para consolar e apoiar os outros, refletindo o amor prático de Cristo.",
+ "guarde": "Jesus cuida dos seus até no momento mais difícil da história.",
+ "ore": "Senhor, ensina-me a amar com ações concretas, assim como Jesus cuidou de Maria na cruz. Ajuda-me a não me fechar no meu próprio problema, mas a olhar para o próximo com compaixão e responsabilidade. Amém.",
+ "quiz": {
+  "pergunta": "O que Jesus disse ao discípulo amado sobre sua mãe?",
+  "opcoes": [
+   "Cuide bem dela.",
+   "Eis aí tua mãe.",
+   "Ela será tua esposa."
+  ],
+  "certa": 1,
+  "explicacao": "O texto diz que Jesus disse ao discípulo: \"Eis aí tua mãe\", estabelecendo um novo vínculo de cuidado e responsabilidade."
+ },
+ "refs": [
+  "Isaías 53:12",
+  "João 13:35"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.7-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-19T18:55:23.570Z",
+  "rounds": 2
+ }
+}

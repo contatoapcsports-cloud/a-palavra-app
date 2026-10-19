@@ -1,0 +1,137 @@
+{
+ "id": "43-19-33-42",
+ "ref": "João 19:33-42",
+ "book": "43",
+ "chapter": 19,
+ "verses": [
+  {
+   "n": 33,
+   "t": "Mas vindo a Jesus, e vendo-o já morto, não quebraram as suas pernas."
+  },
+  {
+   "n": 34,
+   "t": "Mas um dos soldados lhe furou com uma lança o lado, e logo saiu sangue e água."
+  },
+  {
+   "n": 35,
+   "t": "E o que viu isto, o testemunhou; e seu testemunho é verdadeiro, e sabe que é verdade o que diz, para que vós também creiais."
+  },
+  {
+   "n": 36,
+   "t": "Porque estas coisas aconteceram para que se cumprisse a Escritura que diz : Osso dele não será quebrado."
+  },
+  {
+   "n": 37,
+   "t": "E além disso, outra Escritura diz: Verão aquele a quem perfuraram."
+  },
+  {
+   "n": 38,
+   "t": "E depois José de Arimateia, (que era discípulo de Jesus, porém oculto por medo dos Judeus) suplicou a Pilatos que pudesse tirar o corpo de Jesus; e Pilatos permitiu. Veio pois e tirou o corpo de Jesus."
+  },
+  {
+   "n": 39,
+   "t": "E veio também Nicodemos, (aquele que antes de noite tinha vindo a Jesus) trazendo um composto de mirra e aloés, de quase cem arráteis."
+  },
+  {
+   "n": 40,
+   "t": "Tomaram pois o corpo de Jesus, e o envolveram em lençóis com as especiarias, como é costume dos judeus sepultarem."
+  },
+  {
+   "n": 41,
+   "t": "E havia um jardim naquele lugar onde fora crucificado; e no jardim havia um sepulcro novo, em que ainda nunca alguém havia sido posto."
+  },
+  {
+   "n": 42,
+   "t": "Ali pois (por causa da preparação da páscoa dos Judeus, e porque aquele sepulcro estava perto) puseram a Jesus."
+  }
+ ],
+ "titulo": "Sangue e água: a prova do sacrifício perfeito",
+ "temas": [
+  "sacrifício",
+  "verdade",
+  "sepultamento",
+  "profecia"
+ ],
+ "pergunta": "Por que a morte de Jesus precisava ser confirmada por sinais físicos e testemunhas?",
+ "entender": "Ao chegarem para quebrar as pernas de Jesus, os soldados viram que Ele já estava morto. Em vez de quebrar os ossos, um deles perfurou o lado de Jesus com uma lança, e imediatamente saiu sangue e água. O evangelista destaca que o que viu isso testemunhou a verdade, para que nós também possamos crer. Esse evento cumpriu duas profecias: a de que nenhum osso de Jesus seria quebrado e a de que olharíamos para aquele a quem perfuraram.\n\nDepois da morte, José de Arimateia, um discípulo secreto, pediu o corpo a Pilatos. Nicodemos, que antes havia visitado Jesus à noite, trouxe mirra e aloés. Eles envolveram o corpo em lençóis, conforme o costume judaico, e o colocaram em um sepulcro novo, em um jardim, porque era a preparação da Páscoa e o local estava perto.",
+ "ligar": {
+  "texto": "Este trecho é central para o evangelho porque confirma que Jesus realmente morreu. O sangue representa o perdão dos pecados, e a água pode simbolizar a limpeza do coração ou o Espírito Santo. O cumprimento das profecias mostra que a morte de Jesus não foi um acidente, mas o plano de Deus para nos salvar. A coragem de José e Nicodemos, que antes se escondiam, mostra que a verdade de Cristo transforma o medo em fé ativa. A morte de Jesus é a base da nossa esperança.",
+  "selo": true
+ },
+ "viver": "Assim como José e Nicodemos saíram do medo para agir, podemos deixar de nos esconder e testemunhar nossa fé com coragem e simplicidade. O texto nos convida a confiar na verdade do que aconteceu na cruz, não apenas em sentimentos, mas nos fatos históricos e proféticos. Você pode refletir: em qual área da sua vida o medo ainda te impede de dar um passo de fé? Ore pedindo a coragem de seguir Jesus abertamente.",
+ "guarde": "A morte de Jesus cumpriu a profecia e provou a verdade do sacrifício por nós.",
+ "ore": "Senhor Jesus, obrigado por teres morrido por mim. Ajuda-me a crer na verdade da Tua ressurreição e a viver com a coragem de quem conhece a verdade. Que eu não tenha medo de testemunhar de Ti.",
+ "quiz": {
+  "pergunta": "O que aconteceu quando os soldados chegaram a Jesus na cruz?",
+  "opcoes": [
+   "Viram que já estava morto e não quebraram as pernas",
+   "Quebraram as pernas para acelerar a morte",
+   "Jesus ainda estava vivo e respirando"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que, vendo-o já morto, não quebraram as pernas, mas um soldado furou o lado dele com uma lança."
+ },
+ "refs": [
+  "Êxodo 12:46",
+  "Zacarias 12:10",
+  "Lucas 23:50-53"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-19T18:57:18.150Z",
+  "rounds": 1
+ }
+}

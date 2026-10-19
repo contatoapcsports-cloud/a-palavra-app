@@ -1,0 +1,141 @@
+{
+ "id": "43-19-1-11",
+ "ref": "João 19:1-11",
+ "book": "43",
+ "chapter": 19,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Então Pilatos tomou a Jesus, e o açoitou."
+  },
+  {
+   "n": 2,
+   "t": "E trançando os soldados uma coroa de espinhos, puseram-na sobre sua cabeça, e o vestiram de uma roupa vermelha."
+  },
+  {
+   "n": 3,
+   "t": "E diziam: Tenhas alegria, Rei dos Judeus! E davam-lhe bofetadas."
+  },
+  {
+   "n": 4,
+   "t": "Saiu pois Pilatos outra vez fora, e disse-lhes: Eis que eu o trago para fora até vós, para que saibais que nenhum crime acho nele."
+  },
+  {
+   "n": 5,
+   "t": "Jesus foi pois trazido para fora, levando a coroa de espinhos, e a roupa vermelha-roxa. E Pilatos disse-lhes: Eis aqui o homem."
+  },
+  {
+   "n": 6,
+   "t": "Quando então os chefes dos sacerdotes e os trabalhadores o viram, eles clamaram, dizendo: Crucifica -o ! Crucifica -o ! Disse-lhes Pilatos: Tomai-o vós, e crucificai -o ; porque eu nenhum crime acho nele."
+  },
+  {
+   "n": 7,
+   "t": "Responderam-lhe os Judeus: Nós temos Lei, e segundo nossa Lei ele deve morrer, porque se fez Filho de Deus."
+  },
+  {
+   "n": 8,
+   "t": "Quando pois Pilatos ouviu esta palavra, ficou mais atemorizado."
+  },
+  {
+   "n": 9,
+   "t": "E entrou outra vez no tribunal, e disse a Jesus: De onde és tu? Mas Jesus não lhe deu resposta."
+  },
+  {
+   "n": 10,
+   "t": "Disse-lhe pois Pilatos: Não falas comigo? Não sabes que tenho poder para te crucificar, e tenho poder para te soltar?"
+  },
+  {
+   "n": 11,
+   "t": "Respondeu Jesus: Nenhum poder terias contra mim, se não te fosse dado de cima; portanto o que me entregou a ti tem maior pecado."
+  }
+ ],
+ "titulo": "O silêncio que revela o verdadeiro Rei",
+ "temas": [
+  "sofrimento",
+  "soberania",
+  "humilhação",
+  "poder"
+ ],
+ "pergunta": "Por que Jesus permaneceu em silêncio diante da acusação de Pilatos?",
+ "entender": "Pilatos açoitou Jesus e os soldados o zombaram, colocando uma coroa de espinhos e uma roupa vermelha, chamando-o de rei. Essa cena mostra a dor física e a humilhação pública que Jesus sofreu antes da crucificação. Pilatos, tentando agradar a multidão, disse que não encontrava culpa em Jesus, mas os líderes religiosos insistiam na morte dele.\n\nA parte mais surpreendente do texto é o silêncio de Jesus. Quando Pilatos perguntou de onde Ele era, Jesus não respondeu. Pilatos, confuso, ameaçou com seu poder para crucificar ou soltar Jesus. A resposta de Jesus foi surpreendente: nenhum poder havia contra Ele, a menos que fosse dado de cima. Isso revela que Jesus estava no controle, mesmo sendo preso.\n\nO texto também destaca a diferença entre o poder humano e o divino. Pilatos tinha autoridade política, mas Jesus indicou que sua entrega estava nas mãos de Deus. Aquele que o entregou a Pilatos tinha maior pecado, pois rejeitou o Filho de Deus. Essa passagem nos convida a olhar para além da dor e ver a soberania de Cristo.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para Jesus como o Rei que sofre para salvar. A coroa de espinhos simboliza o preço da nossa redenção. A declaração de Jesus sobre o poder dado de cima confirma que sua morte não foi um acidente, mas o plano de Deus para a salvação. O evangelho é visto na submissão voluntária de Cristo, que aceitou a cruz para nos libertar do pecado. Jesus não era uma vítima passiva, mas o Salvador ativo que venceu a morte.",
+  "selo": true
+ },
+ "viver": "Às vezes, passamos por situações de injustiça ou humilhação onde queremos reagir com raiva ou defesa própria. Este texto nos ensina a confiar que Deus está no controle, mesmo quando não entendemos. Aprender a permanecer em silêncio e confiar na soberania de Deus, em vez de lutar por nossa própria justiça, fortalece nossa fé. Podemos orar pedindo paciência e confiança em Deus nos momentos difíceis.",
+ "guarde": "O silêncio de Jesus revela que Deus está no controle, mesmo no sofrimento.",
+ "ore": "Senhor Jesus, obrigado por tua soberania e por tua entrega na cruz. Ajuda-me a confiar em ti nos momentos de dor e injustiça, guardando minha paz e minha fé em ti.",
+ "quiz": {
+  "pergunta": "O que Jesus disse a Pilatos sobre o poder que ele tinha?",
+  "opcoes": [
+   "Nenhum poder terias contra mim, se não te fosse dado de cima",
+   "Preciso de tua ajuda para ser solto",
+   "Tu não tens autoridade sobre mim"
+  ],
+  "certa": 0,
+  "explicacao": "Jesus afirmou que o poder de Pilatos vinha de cima, indicando a soberania de Deus sobre os acontecimentos de sua morte."
+ },
+ "refs": [
+  "Isaías 53:7",
+  "Atos 4:27-28",
+  "Mateus 26:63-64"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.7-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-19T18:51:55.101Z",
+  "rounds": 1
+ }
+}
