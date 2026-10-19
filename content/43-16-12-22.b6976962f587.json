@@ -1,0 +1,141 @@
+{
+ "id": "43-16-12-22",
+ "ref": "João 16:12-22",
+ "book": "43",
+ "chapter": 16,
+ "verses": [
+  {
+   "n": 12,
+   "t": "Ainda tenho muitas coisas que vos dizer, mas agora ainda não podeis suportá-las."
+  },
+  {
+   "n": 13,
+   "t": "Porém quando vier aquele Espírito de verdade, ele vos guiará em toda verdade. Porque de si mesmo não falará; mas falará tudo o que ouvir; E ele vos anunciará as coisas que virão."
+  },
+  {
+   "n": 14,
+   "t": "Ele me glorificará, porque tomará do que é meu, e vos anunciará."
+  },
+  {
+   "n": 15,
+   "t": "Tudo quanto tem o Pai é meu; por isso eu disse, que tomará do que é meu, e vos anunciará."
+  },
+  {
+   "n": 16,
+   "t": "Um pouco, e não me vereis; e mais um pouco, e me vereis; porque vou ao Pai."
+  },
+  {
+   "n": 17,
+   "t": "Disseram pois alguns de seus discípulos uns aos outros: Que é isto que ele nos diz: Um pouco, e não me vereis; e mais um pouco, e me vereis; e porque vou ao Pai?"
+  },
+  {
+   "n": 18,
+   "t": "Então diziam: Que é isto que ele diz? Um pouco? Não sabemos o que diz."
+  },
+  {
+   "n": 19,
+   "t": "Conheceu pois Jesus que lhe queriam perguntar, e disse-lhes: Perguntais entre vós sobre isto que disse: Um pouco, e não me vereis; e mais um pouco, e me vereis?"
+  },
+  {
+   "n": 20,
+   "t": "Em verdade, em verdade vos digo, que vós chorareis, e lamentareis, e o mundo se alegrará, e vós estareis tristes; mas vossa tristeza se tornará em alegria."
+  },
+  {
+   "n": 21,
+   "t": "A mulher quando está no parto tem tristeza, porque sua hora é vinda; mas havendo nascido a criança, já não se lembra da aflição, pela alegria de um homem ter nascido no mundo."
+  },
+  {
+   "n": 22,
+   "t": "Assim também vós agora na verdade tendes tristeza; mas novamente vos verei, e vosso coração se alegrará, e ninguém tirará vossa alegria de vós."
+  }
+ ],
+ "titulo": "A tristeza que vira alegria",
+ "temas": [
+  "esperança",
+  "espírito",
+  "verdade",
+  "alegria"
+ ],
+ "pergunta": "Por que Jesus disse que a tristeza dos discípulos se tornaria em alegria?",
+ "entender": "Neste momento, Jesus está se despedindo dos seus amigos. Ele avisa que tem muito mais para ensinar, mas que eles ainda não estão prontos para receber tudo agora. Ele chama a atenção para o \"Espírito de verdade\", que virá depois. Esse Espírito não falará por conta própria, mas guiará os discípulos em toda a verdade e anunciará as coisas futuras, glorificando Jesus.\n\nA confusão dos discípulos é natural: Jesus usa a expressão \"um pouco\" para descrever o tempo entre sua partida e seu retorno. Eles não entendem o que significa não vê-lo e depois vê-lo novamente. Jesus percebe a dúvida e usa uma imagem muito concreta: a mulher que sofre no parto. A dor é real e intensa, mas quando a criança nasce, a aflição é esquecida diante da alegria de receber a nova vida.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a obra de Cristo. A \"alegria\" prometida não é apenas um sentimento bom, mas a certeza da ressurreição e da presença contínua de Jesus através do Espírito. O evangelho aqui é a transformação: a dor da separação (cruz) leva à vida nova (ressurreição e Pentecostes). Jesus é o centro porque é Ele quem envia o Espírito e quem volta para que a alegria dos seus seja completa e ninguém a tire.",
+  "selo": true
+ },
+ "viver": "Talvez você esteja passando por um momento de \"parto\": uma espera difícil, uma perda ou uma situação que causa angústia. Este texto lembra que a dor não é o fim. Assim como a aflição do parto é substituída pela alegria da vida, a tristeza presente pode ser transformada pela esperança na volta de Jesus. Confie no processo de Deus mesmo quando você não entende o \"um pouco\" do tempo dEle.",
+ "guarde": "A tristeza de hoje pode ser o caminho para a alegria eterna que ninguém poderá tirar de você.",
+ "ore": "Pai, quando a espera for difícil e a dor parecer sem fim, lembra-me do Espírito de verdade. Que minha tristeza se transforme na certeza da Tua presença e na alegria da Tua volta. Amém.",
+ "quiz": {
+  "pergunta": "Qual imagem Jesus usou para explicar por que a tristeza se tornaria alegria?",
+  "opcoes": [
+   "A mulher que sofre no parto",
+   "O semeador plantando sementes",
+   "O filho pródigo no caminho"
+  ],
+  "certa": 0,
+  "explicacao": "No versículo 21, Jesus compara a situação dos discípulos com uma mulher em trabalho de parto, cuja aflição é esquecida pela alegria do nascimento."
+ },
+ "refs": [
+  "Lucas 24:31",
+  "Atos 2:1-4",
+  "João 14:16-17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-19T10:02:15.577Z",
+  "rounds": 1
+ }
+}

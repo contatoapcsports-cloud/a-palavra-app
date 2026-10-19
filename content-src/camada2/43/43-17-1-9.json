@@ -1,0 +1,133 @@
+{
+ "id": "43-17-1-9",
+ "ref": "João 17:1-9",
+ "book": "43",
+ "chapter": 17,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Jesus falou estas coisas, levantou seus olhos ao céu, e disse: Pai, chegada é a hora; glorifica a teu Filho, para que também teu Filho glorifique a ti."
+  },
+  {
+   "n": 2,
+   "t": "Assim como lhe deste poder sobre toda carne, para que a todos quantos lhe deste, lhes dê a vida eterna."
+  },
+  {
+   "n": 3,
+   "t": "E esta é a vida eterna: que conheçam a ti, o único Deus verdadeiro, e a Jesus Cristo, a quem tens enviado."
+  },
+  {
+   "n": 4,
+   "t": "Eu já te glorifiquei na terra; consumado tenho a obra que me deste para eu fazer."
+  },
+  {
+   "n": 5,
+   "t": "E agora glorifica-me tu, ó Pai, junto de ti mesmo, com aquela glória que eu tinha junto de ti, antes que o mundo existisse."
+  },
+  {
+   "n": 6,
+   "t": "Manifestei teu nome aos seres humanos que me deste do mundo. Eles eram teus, e tu os deste a mim; e eles guardaram tua palavra."
+  },
+  {
+   "n": 7,
+   "t": "Agora eles sabem que tudo quanto me deste vem de ti."
+  },
+  {
+   "n": 8,
+   "t": "Porque as palavras que tu me deste eu lhes dei; e eles as receberam, e verdadeiramente reconheceram que eu saí de ti, e creram que tu me enviaste."
+  },
+  {
+   "n": 9,
+   "t": "Eu rogo por eles; não rogo pelo mundo, mas sim por aqueles que tu me deste, porque são teus."
+  }
+ ],
+ "titulo": "O que é a vida eterna segundo Jesus",
+ "temas": [
+  "relacionamento",
+  "glória",
+  "conhecimento",
+  "envio"
+ ],
+ "pergunta": "Você acha que a vida eterna começa depois da morte ou já começa agora?",
+ "entender": "Ao final do último dia com seus discípulos, Jesus olha para o céu e faz um pedido ao Pai. Ele não pede apenas proteção, mas que o Pai o glorifique, pois está chegando a hora da cruz. Para Jesus, sua glorificação está ligada à obra que ele recebeu para fazer, e ele afirma que já a consumou.\n\nNesse momento, Jesus define algo surpreendente: a vida eterna não é apenas uma duração infinita, mas um estado de relação. Ele diz que conhecer a Deus e a Jesus é o cerne da existência eterna. Isso muda a forma como vemos a fé: não é só seguir regras, mas entrar em intimidade com o Deus verdadeiro.\n\nJesus também destaca que os discípulos guardaram a palavra e creram que ele foi enviado pelo Pai. A origem de Jesus é central: ele veio de Deus e devolve a glória a Deus. Essa troca de glória mostra a unidade entre o Pai e o Filho.",
+ "ligar": {
+  "texto": "Este texto é o coração do evangelho porque mostra que Jesus é o mediador necessário entre Deus e a humanidade. Ele afirma que deu aos discípulos as palavras que o Pai lhe deu, e eles creram que ele saiu de Deus. A salvação vem por conhecer esse Jesus enviado. A glória de Jesus na cruz e na ressurreição é o caminho que abre essa vida eterna para nós, não por mérito nosso, mas pela obra que ele completou.",
+  "selo": true
+ },
+ "viver": "Muitas vezes buscamos em Deus soluções para problemas, mas Jesus nos convida a conhecê-lo primeiro. Tire um momento hoje para parar e simplesmente estar na presença de Deus, sem pedir nada, apenas reconhecendo quem ele é e quem Jesus é. Pergunte-se: eu conheço a Deus como Pai, ou apenas o trato como um fornecedor de milagres? A vida eterna começa agora, na qualidade do nosso relacionamento com Ele.",
+ "guarde": "Conhecer a Deus e a Jesus Cristo é a essência da vida eterna que já começa agora.",
+ "ore": "Pai, obrigado por enviar Jesus. Ajuda-me a não te tratar como um desconhecido, mas a te conhecer cada dia mais profundamente através de Cristo. Que minha vida reflita essa intimidade contigo.",
+ "quiz": {
+  "pergunta": "Segundo João 17:3, qual é a definição de vida eterna dada por Jesus?",
+  "opcoes": [
+   "Entrar no céu após a morte",
+   "Conhecer a Deus e a Jesus Cristo",
+   "Ter uma longa vida saudável"
+  ],
+  "certa": 1,
+  "explicacao": "O texto define a vida eterna como o conhecimento de Deus e de Jesus, focando na relação pessoal e não apenas na duração."
+ },
+ "refs": [
+  "João 14:6",
+  "2 Tessalonicenses 2:13",
+  "1 João 5:20"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-19T10:00:55.454Z",
+  "rounds": 1
+ }
+}

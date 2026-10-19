@@ -1,0 +1,130 @@
+{
+ "id": "43-17-10-17",
+ "ref": "João 17:10-17",
+ "book": "43",
+ "chapter": 17,
+ "verses": [
+  {
+   "n": 10,
+   "t": "E todas as minhas coisas são tuas; e as tuas coisas são minhas; e nelas sou glorificado."
+  },
+  {
+   "n": 11,
+   "t": "E eu já não estou no mundo; porém estes ainda estão no mundo, e eu venho a ti. Pai Santo, guarda-os em teu nome, a aqueles que tens me dado, para que sejam um, como nós somos ."
+  },
+  {
+   "n": 12,
+   "t": "Quando eu com eles estava no mundo, em teu nome eu os guardava. A aqueles que tu me deste eu os tenho guardado; e nenhum deles se perdeu, a não ser o filho da perdição, para que a Escritura se cumpra."
+  },
+  {
+   "n": 13,
+   "t": "Mas agora venho a ti, e falo isto no mundo, para que em si mesmos tenham minha alegria completa."
+  },
+  {
+   "n": 14,
+   "t": "Tua palavra lhes dei, e o mundo os odiou, porque não são do mundo, assim como eu não sou do mundo."
+  },
+  {
+   "n": 15,
+   "t": "Não suplico que os tires do mundo, mas que os guardes do maligno."
+  },
+  {
+   "n": 16,
+   "t": "Eles não são do mundo, assim como eu não sou do mundo."
+  },
+  {
+   "n": 17,
+   "t": "Santifica-os em tua verdade; tua palavra é a verdade."
+  }
+ ],
+ "titulo": "A proteção que não isola do mundo",
+ "temas": [
+  "intercessão",
+  "verdade",
+  "proteção",
+  "unidade"
+ ],
+ "pergunta": "Por que Jesus não pediu para tirar os discípulos do mundo, mas sim para protegê-los?",
+ "entender": "Jesus está prestes a partir e ora pelo futuro dos seus seguidores. Ele estabelece uma base sólida de pertencimento: tudo o que é do Pai é do Filho, e tudo o que é do Filho é do Pai. Essa união é a fonte da glória de Deus. Jesus pede que o Pai guarde os discípulos no nome dele, mantendo-os unidos como o Pai e o Filho são um.\n\nHá um contraste claro entre os crentes e o mundo. Jesus lembra que deu a Palavra aos discípulos, mas o mundo os odeia, pois eles não são do mundo, assim como Jesus não é. A proteção de Deus não é uma bolha de conforto que isola o crente da realidade, mas uma guarda ativa contra o maligno. O objetivo final é que eles tenham a alegria completa de Jesus em si mesmos.\n\nA santificação, nesse contexto, não é uma mudança de comportamento externa, mas uma separação para Deus através da verdade. Jesus define a Palavra de Deus como a verdade. Ele pede que o Pai santifique os discípulos nessa verdade, indicando que a transformação profunda vem da ação da Palavra de Deus em suas vidas, não de esforços humanos.",
+ "ligar": {
+  "texto": "Este trecho revela o coração intercessor de Jesus. Ele não apenas morreu e ressuscitou, mas continua cuidando de quem crê nele. A oração de Jesus mostra que o evangelho envolve não só a salvação da alma, mas a preservação e o crescimento diário do crente. Ao apontar a Palavra de Deus como a verdade que santifica, Jesus nos convida a depender da Bíblia para viver separados do pecado e unidos a ele, refletindo a vida eterna que ele oferece.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, quando enfrentamos pressões no trabalho, na escola ou na família, tentamos nos isolar para nos proteger. Jesus nos ensina um caminho diferente: permanecer no mundo, mas guardados por Deus. Hoje, identifique uma situação onde você está sendo pressionado a agir contra seus valores. Em vez de fugir, ore pedindo proteção contra o maligno e peça que a Palavra de Deus seja a sua verdade no dia a dia. Permita que a Bíblia seja o filtro das suas decisões, lembrando que sua identidade está em Cristo, não nas opiniões do mundo.",
+ "guarde": "A verdade de Deus nos protege e nos transforma, mesmo quando o mundo nos rejeita.",
+ "ore": "Senhor, obrigado por me guardar no Teu nome. Não me tire do mundo, mas protege-me do maligno. Que a Tua palavra, que é a verdade, santifique meu coração e me dê a mesma alegria que Jesus tem. Ajuda-me a viver unido aos irmãos e firme em Ti. Em nome de Jesus, amém.",
+ "quiz": {
+  "pergunta": "O que Jesus pede ao Pai para santificar os discípulos?",
+  "opcoes": [
+   "Que os santifique em sua verdade",
+   "Que os tire do mundo",
+   "Que os cure de doenças"
+  ],
+  "certa": 0,
+  "explicacao": "O versículo 17 diz: 'Santifica-os em tua verdade; tua palavra é a verdade'. A santificação está ligada à verdade de Deus, não ao isolamento físico."
+ },
+ "refs": [
+  "João 14:27",
+  "1 João 2:20",
+  "2 Timóteo 3:16",
+  "Efésios 6:11"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-19T10:04:34.268Z",
+  "rounds": 2
+ }
+}

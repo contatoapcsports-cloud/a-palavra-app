@@ -1,0 +1,144 @@
+{
+ "id": "43-11-12-23",
+ "ref": "João 11:12-23",
+ "book": "43",
+ "chapter": 11,
+ "verses": [
+  {
+   "n": 12,
+   "t": "Disseram pois seus discípulos: Senhor, se ele dorme, será salvo."
+  },
+  {
+   "n": 13,
+   "t": "Mas Jesus dizia isto de sua morte; porém eles pensavam que falava do repouso do sono."
+  },
+  {
+   "n": 14,
+   "t": "Então pois lhes disse Jesus claramente: Lázaro está morto."
+  },
+  {
+   "n": 15,
+   "t": "E me alegro, por causa de vós, que eu não estivesse lá, para que creiais; porém vamos até ele."
+  },
+  {
+   "n": 16,
+   "t": "Disse pois Tomé, chamado o Dídimo, aos colegas discípulos: Vamos nós também, para que com ele morramos."
+  },
+  {
+   "n": 17,
+   "t": "Vindo pois Jesus, encontrou que já havia quatro dias que estava na sepultura."
+  },
+  {
+   "n": 18,
+   "t": "(E Betânia era como quase quinze estádios de Jerusalém)."
+  },
+  {
+   "n": 19,
+   "t": "E muitos dos judeus tinham vindo até Marta e Maria, para consolá-las por seu irmão."
+  },
+  {
+   "n": 20,
+   "t": "Ouvindo pois Marta que Jesus vinha, saiu-lhe ao encontro; mas Maria ficou sentada em casa."
+  },
+  {
+   "n": 21,
+   "t": "Disse pois Marta a Jesus: Senhor, se tu estivesses aqui, meu irmão não teria morrido."
+  },
+  {
+   "n": 22,
+   "t": "Porém também sei agora, que tudo quanto pedires a Deus, Deus o dará a ti."
+  },
+  {
+   "n": 23,
+   "t": "Disse-lhe Jesus: Teu irmão ressuscitará."
+  }
+ ],
+ "titulo": "A alegria de Jesus diante da dor",
+ "temas": [
+  "luto",
+  "confiança",
+  "vida",
+  "fé"
+ ],
+ "pergunta": "Por que Jesus se alegra quando um amigo está morto?",
+ "entender": "Quando Jesus disse que Lázaro dormia, os discípulos pensaram em sono comum (João 11.13). Mas Ele falava da morte. Ao esclarecer que Lázaro estava morto, Jesus fez algo surpreendente: disse que se alegrava por não estar lá (João 11.15). Isso confunde quem vê a morte apenas como tragédia. Para Jesus, a ausência momentânea permitia que a fé dos discípulos fosse testada e fortalecida.\n\nMarta, ao encontrar Jesus, expressa seu luto: se Ele estivesse ali, o irmão não teria morrido (João 11.21). Mas ela também declara confiança: sabe que Deus atenderá os pedidos de Jesus (João 11.22). Jesus responde que o irmão ressuscitará (João 11.23). O texto mostra a tensão entre a dor humana e a esperança divina, preparando o terreno para o milagre que virá a seguir.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para a autoridade de Jesus sobre a morte. A alegria de Jesus não é frieza, mas certeza do que Ele pode fazer. Ele não apenas consola, mas age para restaurar a vida. Isso prepara a revelação de que Jesus é a ressurreição e a vida (João 11.25), mostrando que a fé nEle vence a maior das perdas humanas.",
+  "selo": true
+ },
+ "viver": "Em momentos de perda, é natural questionar onde estava Deus. Este texto nos convida a olhar para Jesus, que transforma luto em testemunho. Não significa que a dor não é real, mas que nossa esperança está nAquele que tem poder sobre a morte. Confie que, mesmo no silêncio, Deus está trabalhando para a glória dele e para a sua fé.",
+ "guarde": "A dor não é o fim; a presença de Jesus traz vida onde parecia haver apenas morte.",
+ "ore": "Senhor Jesus, quando a dor me faz questionar, ensina-me a confiar no Teu poder. Ajuda-me a ver que Tua presença traz esperança, mesmo em meio ao luto. Amém.",
+ "quiz": {
+  "pergunta": "O que Jesus realmente significava ao dizer que Lázaro 'dorme'?",
+  "opcoes": [
+   "A morte de Lázaro",
+   "Um cochilo profundo",
+   "Um período de meditação"
+  ],
+  "certa": 0,
+  "explicacao": "O texto explica que os discípulos pensavam em sono, mas Jesus falava da morte (João 11.13)."
+ },
+ "refs": [
+  "João 11:25-26",
+  "1 Coríntios 15:54"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-19T09:59:36.715Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "id": "43-16-23-33",
+ "ref": "João 16:23-33",
+ "book": "43",
+ "chapter": 16,
+ "verses": [
+  {
+   "n": 23,
+   "t": "E naquele dia nada me perguntareis. Em verdade, em verdade vos digo, que tudo quanto pedirdes a meu Pai em meu nome, ele vos dará."
+  },
+  {
+   "n": 24,
+   "t": "Até agora nada pedistes em meu nome; pedi, e recebereis, para que vossa alegria seja completa."
+  },
+  {
+   "n": 25,
+   "t": "Estas coisas vos falei por parábolas; porém a hora vem quando não mais vos falarei por parábolas; mas vos falarei abertamente sobre o Pai."
+  },
+  {
+   "n": 26,
+   "t": "Naquele dia pedireis em meu nome; e não vos digo, que eu suplicarei ao Pai por vós."
+  },
+  {
+   "n": 27,
+   "t": "Pois o próprio Pai vos ama, porque vós me amastes, e crestes que eu saí de Deus."
+  },
+  {
+   "n": 28,
+   "t": "Saí do Pai, e vim ao mundo; novamente deixo o mundo, e vou ao Pai."
+  },
+  {
+   "n": 29,
+   "t": "Disseram-lhe seus Discípulos: Eis que agora falas abertamente, e nenhuma parábola dizes."
+  },
+  {
+   "n": 30,
+   "t": "Agora sabemos que sabes todas as coisas; e não necessitas que ninguém te pergunte. Por isso cremos que saíste de Deus."
+  },
+  {
+   "n": 31,
+   "t": "Respondeu-lhes Jesus: Agora credes?"
+  },
+  {
+   "n": 32,
+   "t": "Eis que a hora vem, e já é chegada, quando sereis dispersos, cada um por si, e me deixareis só. Porém não estou só, porque o Pai está comigo."
+  },
+  {
+   "n": 33,
+   "t": "Estas coisas tenho vos dito para que tenhais paz em mim; no mundo tereis aflição; mas tende bom ânimo; eu venci o mundo."
+  }
+ ],
+ "titulo": "A paz que o medo não tira",
+ "temas": [
+  "paz",
+  "ansiedade",
+  "vitoria",
+  "oracao"
+ ],
+ "pergunta": "Como podemos encontrar paz real quando o mundo ao nosso redor está em crise?",
+ "entender": "Nas últimas palavras antes da cruz, Jesus fala sobre o futuro. Ele diz que os discípulos serão dispersos e o deixarão sozinho. É um momento de grande tensão. Mas Jesus oferece uma resposta surpreendente para essa aflição: \"Estas coisas tenho vos dito para que tenhais paz em mim\". Ele não promete a ausência de problemas, mas uma paz interior que vem da ligação com Ele.\n\nJesus reconhece a realidade: \"no mundo tereis aflição\". Isso é honesto. A vida terrena, marcada pelo pecado e pela separação de Deus, traz dor e dificuldade. No entanto, Ele conclui com uma declaração de vitória: \"mas tende bom ânimo; eu venci o mundo\". Essa vitória não é sobre riqueza ou conforto, mas sobre a vitória espiritual sobre o pecado e a morte, garantida pela ressurreição de Cristo.\n\nA paz que Jesus oferece não é uma ilusão de que tudo está bem, mas a certeza de que, apesar das tempestades, o controle final está nas mãos de Deus. É uma paz que permanece no coração porque está ancorada em alguém que já venceu as maiores batalhas da história.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a identidade e a obra de Jesus. A paz que Ele oferece não é uma técnica de relaxamento, mas um acesso à presença de Deus através de Cristo. A afirmação \"eu venci o mundo\" conecta-se à cruz e à ressurreição, onde Jesus derrotou o poder do pecado. O evangelho é a boa notícia de que, em Cristo, podemos ter paz mesmo em meio à aflição, porque Ele já venceu o inimigo final.",
+  "selo": true
+ },
+ "viver": "Quando a ansiedade bater, em vez de tentar controlar tudo, pare e lembre-se: você não está sozinho. Jesus disse que o Pai está com Ele, e Ele está com você. Tente identificar uma preocupação específica que está tirando sua paz e entregue-a a Deus em oração, confiando que Ele já venceu o mundo. A paz não vem das circunstâncias, mas da confiança no caráter e na vitória de Jesus. Pratique a presença d'Ele em momentos de estresse, lembrando que Sua vitória é a sua garantia de segurança eterna.",
+ "guarde": "A paz verdadeira não depende das circunstâncias, mas da vitória de Cristo sobre o mundo.",
+ "ore": "Senhor, muitas vezes vivo ansioso com o que o mundo me traz. Mas hoje eu escolho minha paz em Ti. Obrigado porque Tu vences o mundo e estás comigo. Ajuda-me a confiar em Ti, mesmo quando as ondas da aflição surgirem. Amém.",
+ "quiz": {
+  "pergunta": "O que Jesus disse que os discípulos teriam no mundo?",
+  "opcoes": [
+   "Riqueza",
+   "Paz absoluta",
+   "Aflição"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus foi realista ao dizer que haveria aflição, mas garantiu paz em meio a ela através da vitória d'Ele."
+ },
+ "refs": [
+  "João 14:27",
+  "Filipenses 4:6-7",
+  "1 Pedro 5:7"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-19T09:59:47.704Z",
+  "rounds": 1
+ }
+}

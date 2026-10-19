@@ -260,7 +260,9 @@
   },
   "43-11-12-23": {
    "execucoes": 2,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: ligar:citacao_fora_do_texto, viver:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "A alegria de Jesus diante da dor"
   },
   "43-11-24-34": {
    "execucoes": 0,
@@ -368,27 +370,37 @@
   },
   "43-16-12-22": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "A tristeza que vira alegria"
   },
   "43-16-23-33": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:ore:43-2-1-8",
+   "estado": "pronto",
+   "titulo": "A paz que o medo não tira"
   },
   "43-17-1-9": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O que é a vida eterna segundo Jesus"
   },
   "43-17-10-17": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: viver:citacao_fora_do_texto, abertura_repetida:ore:43-11-35-46",
+   "estado": "pronto",
+   "titulo": "A proteção que não isola do mundo"
   },
   "43-17-18-26": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:entender:43-16-1-11",
+   "estado": "pronto",
+   "titulo": "O segredo da unidade que convence o mundo"
   },
   "43-18-1-10": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: CROSS_SECTION_CONSISTENCY: O título afirma que foi o 'silêncio' que derrubou a tropa, contradizendo frontalmente o texto bíblico e as outras seções do ensino, que explicam que eles caíram quando Jesus declarou 'Eu sou'."
   },
   "43-18-11-20": {
    "execucoes": 0,
@@ -401,28 +413,48 @@
   "43-18-31-40": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "43-19-1-11": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "43-19-12-21": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "43-19-22-32": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "43-19-33-42": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "43-20-1-10": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 147,
-   "entrada": 303946,
-   "saida": 138633
+   "chamadas": 155,
+   "entrada": 321200,
+   "saida": 145501
   },
   "groq-qwen": {
-   "chamadas": 141,
-   "entrada": 278888,
-   "saida": 110308
+   "chamadas": 151,
+   "entrada": 297108,
+   "saida": 117855
   },
   "gemini": {
-   "chamadas": 109,
-   "entrada": 346783,
-   "saida": 151166
+   "chamadas": 116,
+   "entrada": 368525,
+   "saida": 160304
   },
   "cloudflare": {
-   "chamadas": 62,
-   "entrada": 213030,
-   "saida": 23002
+   "chamadas": 68,
+   "entrada": 233119,
+   "saida": 25228
   },
   "mistral": {
    "chamadas": 0,
