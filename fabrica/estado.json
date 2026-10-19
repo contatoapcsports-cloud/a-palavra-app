@@ -301,7 +301,7 @@
   },
   "43-12-41-50": {
    "execucoes": 1,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:ore:43-7-43-53"
   },
   "43-13-1-10": {
    "execucoes": 0,
@@ -392,19 +392,19 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 120,
-   "entrada": 246583,
-   "saida": 114613
+   "chamadas": 129,
+   "entrada": 265366,
+   "saida": 123025
   },
   "groq-qwen": {
-   "chamadas": 115,
-   "entrada": 225337,
-   "saida": 89897
+   "chamadas": 124,
+   "entrada": 244984,
+   "saida": 97337
   },
   "gemini": {
-   "chamadas": 93,
-   "entrada": 295967,
-   "saida": 130601
+   "chamadas": 99,
+   "entrada": 315322,
+   "saida": 136561
   },
   "cloudflare": {
    "chamadas": 60,
