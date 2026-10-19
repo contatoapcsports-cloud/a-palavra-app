@@ -67,7 +67,7 @@
 
   /* Texto sem acento e em minúsculas, para busca. */
   function normalize(s) {
-    return String(s == null ? '' : s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    return String(s == null ? '' : s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
   }
 
   /* Acha a consulta no texto ignorando acento e caixa. Devolve {start,end} nos índices do texto ORIGINAL, ou null. */
@@ -202,13 +202,12 @@
     return { name: m[1], chapter: parseInt(m[2], 10), verse: m[3] ? parseInt(m[3], 10) : null };
   }
 
-  /* Selo de autoria do ensino. Texto fixo exigido pelo plano; "Revisado por pessoa" só se humanReviewed === true. */
+  /* Selo do ensino. Sem texto padrão: só aparece "Revisado por pessoa" (se humanReviewed === true) ou o aviso de exemplo de teste. */
   function stampText(passage) {
     if (!passage) return '';
     if (passage._teste === true) return 'Exemplo de teste: este texto é fictício.';
-    let t = 'Ensino do app, não é a Bíblia. Gerado por IA e conferido por outras IAs.';
-    if (passage.audit && passage.audit.humanReviewed === true) t += ' Revisado por pessoa.';
-    return t;
+    if (passage.audit && passage.audit.humanReviewed === true) return 'Revisado por pessoa.';
+    return '';
   }
 
   /* Cronograma de download: lista de pacotes que faltam no cache. */

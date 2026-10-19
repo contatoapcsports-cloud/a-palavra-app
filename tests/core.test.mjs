@@ -45,11 +45,10 @@ test('referências são lidas com nome, capítulo e versículo', () => {
   assert.deepEqual(core.parseRef('João 3'), { name: 'João', chapter: 3, verse: null });
   assert.equal(core.parseRef('sem número'), null);
 });
-test('selo: "Revisado por pessoa" só com humanReviewed true; teste nunca parece ensino real', () => {
-  const base = 'Ensino do app, não é a Bíblia. Gerado por IA e conferido por outras IAs.';
-  assert.equal(core.stampText({ audit: { humanReviewed: false } }), base);
-  assert.equal(core.stampText({ audit: { humanReviewed: true } }), base + ' Revisado por pessoa.');
-  assert.equal(core.stampText({}), base);
+test('selo: sem texto padrão; "Revisado por pessoa" só com humanReviewed true; teste nunca parece ensino real', () => {
+  assert.equal(core.stampText({ audit: { humanReviewed: false } }), '');
+  assert.equal(core.stampText({ audit: { humanReviewed: true } }), 'Revisado por pessoa.');
+  assert.equal(core.stampText({}), '');
   assert.ok(core.stampText({ _teste: true }).includes('fictício'));
   assert.ok(!core.stampText({ _teste: true }).includes('Revisado'));
 });
