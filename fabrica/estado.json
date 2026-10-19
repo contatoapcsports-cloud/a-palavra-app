@@ -405,8 +405,8 @@
    "titulo": "A calma que parou uma tropa armada"
   },
   "43-18-11-20": {
-   "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "execucoes": 1,
+   "ultimo": "automático: abertura_repetida:ore:43-2-1-8"
   },
   "43-18-21-30": {
    "execucoes": 0,
@@ -419,12 +419,12 @@
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   },
   "43-19-1-11": {
-   "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "execucoes": 1,
+   "ultimo": "automático: abertura_repetida:ore:43-8-13-24"
   },
   "43-19-12-21": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
   },
   "43-19-22-32": {
    "execucoes": 0,
@@ -449,18 +449,26 @@
   "43-21-1-8": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "43-21-9-17": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "43-21-18-25": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 164,
-   "entrada": 340015,
-   "saida": 153094
+   "chamadas": 172,
+   "entrada": 357255,
+   "saida": 159898
   },
   "groq-qwen": {
-   "chamadas": 159,
-   "entrada": 314422,
-   "saida": 124481
+   "chamadas": 168,
+   "entrada": 333989,
+   "saida": 131403
   },
   "gemini": {
    "chamadas": 121,
