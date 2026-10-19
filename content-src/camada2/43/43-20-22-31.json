@@ -1,0 +1,139 @@
+{
+ "id": "43-20-22-31",
+ "ref": "João 20:22-31",
+ "book": "43",
+ "chapter": 20,
+ "verses": [
+  {
+   "n": 22,
+   "t": "E havendo dito isto, soprou sobre eles ,e disse-lhes: Recebei o Espírito Santo."
+  },
+  {
+   "n": 23,
+   "t": "A quem quer que perdoardes os pecados, lhes são perdoados; e a quem quer que vós retiverdes os pecados , lhes são retidos."
+  },
+  {
+   "n": 24,
+   "t": "E a Tomé, um dos doze, chamado o Dídimo, não estava com eles, quando Jesus veio."
+  },
+  {
+   "n": 25,
+   "t": "Disseram-lhe pois os outros discípulos: Vimos ao Senhor. Porém ele lhes disse: Se em suas mãos não vir o sinal dos cravos, e não pôr meu dedo no lugar dos cravos, e não pôr minha mão em seu lado, em maneira nenhuma crerei."
+  },
+  {
+   "n": 26,
+   "t": "E oito dias depois, estavam os discípulos outra vez dentro, e com eles Tomé; e veio Jesus, fechadas já as portas, e pôs-se no meio, e disse: Tenhais paz!"
+  },
+  {
+   "n": 27,
+   "t": "Depois disse a Tomé: Põe teu dedo aqui, e vê minhas mãos; e chega tua mão, e toca-a em meu lado; e não sejas incrédulo, mas sim crente."
+  },
+  {
+   "n": 28,
+   "t": "E respondeu Tomé e disse-lhe: Senhor meu, e Deus meu!"
+  },
+  {
+   "n": 29,
+   "t": "Disse-lhe Jesus: Porque me viste, Tomé, creste; bem-aventurados aqueles que não virem, e crerem."
+  },
+  {
+   "n": 30,
+   "t": "Jesus fez também ainda muitos outros sinais ainda em presença de seus discípulos, que neste livro não estão escritos;"
+  },
+  {
+   "n": 31,
+   "t": "Porém estes estão escritos, para que creiais que Jesus é o Cristo, o Filho de Deus; e para que crendo, tenhais vida em seu nome."
+  }
+ ],
+ "titulo": "A fé que não depende de tocar",
+ "temas": [
+  "fé",
+  "dúvida",
+  "ressurreição",
+  "espírito santo",
+  "perdão"
+ ],
+ "pergunta": "O que você faria se fosse necessário tocar as feridas de Jesus para acreditar?",
+ "entender": "Depois de ressuscitar, Jesus aparece aos discípulos trancados por medo. Ele sopra sobre eles e transmite o Espírito Santo, dando-lhes autoridade para perdoar pecados. É um momento de transição: eles deixam de ser apenas seguidores passivos para se tornarem enviados.\n\nTomé, que não estava presente, reage com ceticismo extremo: exige ver e tocar as marcas dos cravos e do lado. Oito dias depois, Jesus volta, não para condenar Tomé, mas para convidá-lo: \"não sejas incrédulo, mas sim crente\".\n\nA resposta de Tomé é a confissão mais alta do evangelho: \"Senhor meu, e Deus meu!\". Jesus aproveita para dizer que é bem-aventurado quem crê sem ter visto. O texto encerra dizendo que o objetivo de João ao escrever é que você acredite que Jesus é o Cristo e tenha vida nEle.",
+ "ligar": {
+  "texto": "Este trecho é o coração do evangelho de João. A ressurreição de Jesus comprova que Ele venceu a morte, e a confissão de Tomé revela a divindade de Cristo. A promessa de vida em seu nome (v. 31) mostra que a fé não é apenas intelectual, mas a porta para a vida eterna que Cristo oferece a todos, mesmo aos que não O viram pessoalmente.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, queremos provas absolutas antes de confiar em Deus, como Tomé. Mas a fé cristã não se baseia em experiências sensoriais, e sim na palavra confiável de Jesus. Hoje, examine suas áreas de dúvida. Em vez de exigir que Deus confirme cada detalhe com sinais, escolha descansar na Sua fidelidade registrada na Bíblia. Permita que o Espírito Santo transforme sua desconfiança em confiança, mesmo quando você não entende tudo.\n\nQuando sentir medo ou incerteza, lembre-se de que Jesus está presente mesmo em portas fechadas. A paz que Ele oferece não depende das circunstâncias externas, mas da presença dEle no seu coração.",
+ "guarde": "Bem-aventurados aqueles que não virem, e crerem.",
+ "ore": "Pai, assim como Tomé, eu às vezes duvido. Mas Te peço que me dê a fé para confiar em Ti sem precisar de provas visuais. Ajuda-me a crer que Jesus é o Cristo e a viver na paz que Ele oferece. Amém.",
+ "quiz": {
+  "pergunta": "Como Tomé respondeu a Jesus após tocá-lo?",
+  "opcoes": [
+   "Senhor meu, e Deus meu!",
+   "Eu perdoei seus pecados",
+   "Vimos ao Senhor"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz explicitamente que Tomé respondeu: 'Senhor meu, e Deus meu!' (v. 28). As outras opções são falas de outros personagens ou ações diferentes."
+ },
+ "refs": [
+  "Lucas 24:49",
+  "Atos 1:8",
+  "2 Coríntios 5:18",
+  "Hebreus 11:1"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-19T21:45:01.906Z",
+  "rounds": 1
+ }
+}

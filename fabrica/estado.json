@@ -406,7 +406,7 @@
   },
   "43-18-11-20": {
    "execucoes": 2,
-   "ultimo": "gemini: REFERENCE_BOUNDARY: O ensino trata os versículos 19 e 20 como 'contexto posterior', quando na verdade eles pertencem ao próprio trecho-alvo (João 18:11-20). | NARRATIVE_EVENT_CONSISTENCY: O ensino afirma que Jesus disse que 'não beberá o copo', invertendo o sentido da pergunta retórica ('não beberei"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   },
   "43-18-21-30": {
    "execucoes": 0,
@@ -458,15 +458,21 @@
   },
   "43-20-22-31": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_longa",
+   "estado": "pronto",
+   "titulo": "A fé que não depende de tocar"
   },
   "43-21-1-8": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: CONTEXT_FIDELITY: O ensino afirma que os discípulos haviam se afastado de Jesus após a traição e a fuga, desconsiderando que Jesus já havia aparecido ressuscitado a eles por duas vezes no capítulo 20. | REFERENCE_BOUNDARY: O ensino afirma que este trecho mostra a restauração da identidade de Pedro, ",
+   "estado": "pronto",
+   "titulo": "A voz que transforma a noite vazia"
   },
   "43-21-9-17": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Três perguntas que restauram um coração ferido"
   },
   "43-21-18-25": {
    "execucoes": 0,
@@ -495,28 +501,36 @@
   "41-2-10-19": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-2-20-28": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-3-1-12": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 181,
-   "entrada": 376915,
-   "saida": 167360
+   "chamadas": 189,
+   "entrada": 393786,
+   "saida": 173791
   },
   "groq-qwen": {
-   "chamadas": 178,
-   "entrada": 352386,
-   "saida": 139070
+   "chamadas": 186,
+   "entrada": 368131,
+   "saida": 145093
   },
   "gemini": {
-   "chamadas": 130,
-   "entrada": 413785,
-   "saida": 181530
+   "chamadas": 134,
+   "entrada": 426393,
+   "saida": 188360
   },
   "cloudflare": {
-   "chamadas": 77,
-   "entrada": 264283,
-   "saida": 28567
+   "chamadas": 80,
+   "entrada": 274557,
+   "saida": 29680
   },
   "mistral": {
    "chamadas": 0,

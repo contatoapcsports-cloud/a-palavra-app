@@ -1,0 +1,129 @@
+{
+ "id": "43-21-1-8",
+ "ref": "João 21:1-8",
+ "book": "43",
+ "chapter": 21,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Depois disto Jesus se manifestou outra vez aos discípulos, junto ao mar de Tibérias; e manifestou -se assim:"
+  },
+  {
+   "n": 2,
+   "t": "Estavam juntos Simão Pedro, e Tomé (chamado o Dídimo), e Natanael (o de Caná de Galileia), e os filhos de Zebedeu, e outros dois de seus discípulos."
+  },
+  {
+   "n": 3,
+   "t": "Disse-lhes Simão Pedro: Vou pescar. Dizem-lhe eles: Também nós vamos contigo. Foram, e subiram logo no barco; e aquela noite nada pescaram."
+  },
+  {
+   "n": 4,
+   "t": "E fazendo-se já manhã, Jesus se pôs na praia; porém os discípulos não sabiam que era Jesus."
+  },
+  {
+   "n": 5,
+   "t": "Então Jesus lhes disse: Filhinhos, tendes algo para comer? Responderam-lhe: Não."
+  },
+  {
+   "n": 6,
+   "t": "E ele lhes disse: Lançai a rede do lado direito do barco, e achareis. Lançaram-na pois, e já não a podiam tirar pela multidão dos peixes."
+  },
+  {
+   "n": 7,
+   "t": "Disse pois aquele discípulo, a quem Jesus amava, a Pedro: É o Senhor! Ouvindo pois Simão Pedro que era o Senhor, vestiu-se com a roupa, (porque estava nu), e lançou-se ao mar."
+  },
+  {
+   "n": 8,
+   "t": "E os outros discípulos vieram com o barquinho (porque não estavam longe da terra, mas sim a cerca de duzentos côvados) trazendo a rede de peixes."
+  }
+ ],
+ "titulo": "A voz que transforma a noite vazia",
+ "temas": [
+  "reconhecimento",
+  "esperança",
+  "obediência",
+  "presença"
+ ],
+ "pergunta": "Já sentiu que seus esforços honestos não dão em nada, mesmo fazendo tudo certo?",
+ "entender": "Após a ressurreição, Pedro e outros discípulos voltaram à pesca, sua antiga ocupação. O texto diz que \"aquela noite nada pescaram\". Era um momento de incerteza e fadiga.\n\nDe manhã, Jesus estava na praia, mas eles não O reconheceram imediatamente. Ele perguntou se tinham algo para comer e ordenou que lançassem a rede do lado direito. A obediência trouxe uma pesca abundante. Foi então que o discípulo amado exclamou: \"É o Senhor!\". Pedro, ao ouvir, vestiu-se e mergulhou no mar para ir ao encontro de Jesus. A presença de Cristo transforma a exaustão em encontro pessoal.",
+ "ligar": {
+  "texto": "Este episódio mostra Jesus cuidando dos seus de forma prática e pessoal. Ele não apenas se revela, mas provê e convida. Para nós, o evangelho é a certeza de que Jesus, o Ressuscitado, está presente em nossa vida cotidiana. Ele nos conhece, nos sustenta e nos convida a confiar na sua direção, transformando nosso cansaço em esperança viva.",
+  "selo": true
+ },
+ "viver": "Talvez você esteja exausto com tentativas que não funcionam. Este trecho nos ensina a parar de confiar apenas na nossa força e a buscar a direção de Jesus. Assim como Pedro, você pode sentir o chamado de continuar seus esforços, mas a verdadeira segurança vem de reconhecer a voz de Cristo. Hoje, pare, ouça e obedeça a pequenas orientações de Deus, confiando que Ele transforma a noite de vazio em manhã de abundância.",
+ "guarde": "Reconhecer a voz de Jesus transforma a noite de vazio em encontro pessoal.",
+ "ore": "Senhor Jesus, muitas vezes eu trabalho sozinho e fico cansado. Ajuda-me a reconhecer Tua voz no silêncio. Ensina-me a Te obedecer mesmo quando não entendo, confiando que Tua presença transforma minha vida. Amém.",
+ "quiz": {
+  "pergunta": "O que fez os discípulos perceberem que era Jesus?",
+  "opcoes": [
+   "A pesca milagrosa após a ordem dele",
+   "O som da voz dele na praia",
+   "Um milagre de luz no céu"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que o discípulo amado disse \"É o Senhor!\" após a rede ser cheia de peixes, o que confirmou a identidade de Jesus."
+ },
+ "refs": [
+  "Lucas 5:1-11",
+  "João 20:19-23",
+  "1 Coríntios 15:3-4"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-19T21:48:13.845Z",
+  "rounds": 2
+ }
+}

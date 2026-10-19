@@ -1,0 +1,133 @@
+{
+ "id": "43-21-9-17",
+ "ref": "João 21:9-17",
+ "book": "43",
+ "chapter": 21,
+ "verses": [
+  {
+   "n": 9,
+   "t": "Quando pois desceram à terra, viram já as brasas postas, e um peixe posto nelas, e mais pão."
+  },
+  {
+   "n": 10,
+   "t": "Disse-lhes Jesus: Trazei dos peixes que pescastes agora."
+  },
+  {
+   "n": 11,
+   "t": "Simão Pedro subiu, e puxou a rede para a terra, cheia de cento e cinquenta e três grandes peixes; e sendo tantos, a rede não se rompeu."
+  },
+  {
+   "n": 12,
+   "t": "Disse-lhes Jesus: Vinde, jantai. E nenhum dos discípulos ousava lhe perguntar: Tu quem és? sabendo que era o Senhor."
+  },
+  {
+   "n": 13,
+   "t": "Então Jesus veio, e tomou o pão, e deu-o a eles; e da mesma maneira o peixe."
+  },
+  {
+   "n": 14,
+   "t": "E esta era já a terceira vez que Jesus se manifestou a seus discípulos, depois de haver ressuscitado dos mortos."
+  },
+  {
+   "n": 15,
+   "t": "Havendo eles pois já jantado, disse Jesus a Simão Pedro: Simão filho de Jonas, tu me amas mais do que estes outros ? Disse-lhes ele: Sim, Senhor, tu sabes que te amo. Disse-lhe: Alimenta meus cordeiros."
+  },
+  {
+   "n": 16,
+   "t": "Voltou a lhe a dizer a segunda vez: Simão, filho de Jonas, tu me amas? Disse-lhe: Sim, Senhor, tu sabes que te amo. Disse-lhe: Apascenta minhas ovelhas."
+  },
+  {
+   "n": 17,
+   "t": "Disse-lhe a terceira vez: Simão, filho de Jonas, tu me amas? Entristeceu-se Pedro de que já pela terceira vez lhe dissesse: Tu me amas? E disse-lhe: Senhor, tu sabes todas as coisas, tu sabes que eu te amo. Disse-lhe Jesus: Alimenta minhas ovelhas."
+  }
+ ],
+ "titulo": "Três perguntas que restauram um coração ferido",
+ "temas": [
+  "perdão",
+  "serviço",
+  "restauração",
+  "amor"
+ ],
+ "pergunta": "Você já sentiu que seu fracasso apagou seu valor diante de Deus?",
+ "entender": "Depois de ter negado Jesus três vezes, Pedro está de volta à pesca. Jesus, que já havia ressuscitado, prepara um jantar simples com peixe e pão. Ele não repreende Pedro publicamente, mas o convida para uma conversa íntima.\n\nJesus faz a mesma pergunta três vezes: \"Simão, filho de Jonas, tu me amas?\". Pedro, envergonhado, responde confirmando seu amor. Em cada resposta, Jesus lhe dá uma missão: alimentar e apascentar as ovelhas. A terceira pergunta toca na ferida das três negações, mas também é o momento da restauração total.\n\nO texto diz que era a terceira manifestação de Jesus aos discípulos. Ele não usa o sucesso de Pedro na pesca para avaliá-lo, mas o amor dele. A rede cheia de peixe é um sinal, mas o foco é o relacionamento.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para Jesus como o Senhor que restaura. Ele não ignora o erro de Pedro, mas oferece uma segunda chance baseada no amor. O evangelho é claro: nossa salvação e propósito não vêm de nossos méritos, mas da graça de Cristo. Jesus nos chama para servi-lo não porque somos perfeitos, mas porque Ele nos amou primeiro e nos perdoou.",
+  "selo": true
+ },
+ "viver": "Talvez você se sinta incapaz de servir a Deus por causa de um erro passado. Jesus não espera que você se perdoe sozinho; Ele oferece o perdão primeiro. Hoje, pare de medir seu valor pelo que você fez de errado. Pergunte-se: \"Eu amo Jesus?\". Se a resposta for sim, aceite a missão que Ele tem para você. O serviço ao próximo é a prova viva do amor que recebemos, não a causa do perdão.",
+ "guarde": "O amor de Jesus não apaga seu passado, mas o usa para construir seu futuro no serviço a Ele.",
+ "ore": "Senhor Jesus, eu confesso minhas falhas e meus medos. Obrigado por me amar mesmo quando eu falho. Perdoa-me e restaura meu coração. Ensina-me a servir os outros com a mesma graça que Tu me deste. Em Teu nome, amém.",
+ "quiz": {
+  "pergunta": "Quantas vezes Jesus perguntou a Pedro se ele o amava?",
+  "opcoes": [
+   "Duas vezes",
+   "Uma vez",
+   "Três vezes"
+  ],
+  "certa": 2,
+  "explicacao": "O texto relata claramente a repetição da pergunta \"tu me amas?\" em três ocasiões distintas (v. 15, 16 e 17)."
+ },
+ "refs": [
+  "Lucas 22:61-62",
+  "João 20:19-23",
+  "1 Pedro 5:2"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-19T21:47:56.413Z",
+  "rounds": 1
+ }
+}
