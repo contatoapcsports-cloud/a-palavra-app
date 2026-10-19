@@ -383,7 +383,7 @@
     });
     passagesOf(b.id, s.c).forEach(function (p) {
       $('#studyList').appendChild(h('button', { class: 'entender', type: 'button', style: '--img:url(assets/hero-bible.jpg)', onclick: function () { go({ v: 'study', id: p.id }); } },
-        [h('span', {}, [h('span', { class: 'eb', text: 'Ensino do app' }), h('strong', { text: 'Entender ' + p.ref })]), h('span', { class: 'cta', style: 'min-height:40px', text: 'Abrir' })]));
+        [h('span', {}, [h('strong', { text: 'Entender ' + p.ref })]), h('span', { class: 'cta', style: 'min-height:40px', text: 'Abrir' })]));
     });
     if (s.verse) { var t = $('.v[data-n="' + s.verse + '"]', box); if (t) { t.scrollIntoView({ block: 'center' }); t.classList.add('flash'); } }
   }
@@ -422,8 +422,9 @@
     if (p.titulo) { head.appendChild(h('div', { class: 'sref', text: meta.ref })); head.appendChild(h('h2', { class: 'stitle', text: p.titulo })); }
     var NAMES = { ler: 'Ler', entender: 'Entender', ligar: 'Ligar ao evangelho', viver: 'Viver', testar: 'Testar', aprofundar: 'Aprofundar' };
     var stamp = function () {
+      var st = core.stampText(p); if (!st) return null;
       var ic = h('span', { 'aria-hidden': 'true' }); ic.innerHTML = SHIELD; /* SVG fixo do próprio app, sem dados externos */
-      return h('div', { class: 'stamp' }, [ic, h('span', { text: core.stampText(p) })]);
+      return h('div', { class: 'stamp' }, [ic, h('span', { text: st })]);
     };
     var build = {
       ler: function () {
@@ -434,15 +435,15 @@
         return n;
       },
       entender: function () {
-        return [h('span', { class: 'tag app', text: 'Ensino do app' }),
+        return [
           h('div', { class: 'cardx study' }, String(p.entender).split(/\n\s*\n/).map(function (t) { return h('p', { text: t.trim(), style: 'margin-bottom:10px' }); })), stamp()];
       },
       ligar: function () {
-        return [h('span', { class: 'tag app', text: 'Ensino do app' }),
+        return [
           h('div', { class: 'seal' }, [h('b', { text: p.ligar.selo === true ? 'Cristo neste texto' : 'Ligar ao evangelho' }), h('p', { text: p.ligar.texto })]), stamp()];
       },
       viver: function () {
-        var n = [h('span', { class: 'tag app', text: 'Ensino do app' })];
+        var n = [];
         if (p.viver) n.push(h('div', { class: 'cardx study viver' }, [h('div', { class: 'sub', text: 'Como viver' })].concat(String(p.viver).split(/\n\s*\n/).map(function (t) { return h('p', { text: t.trim(), style: 'margin-bottom:8px' }); }))));
         if (p.guarde) n.push(h('div', { class: 'guarde' }, [h('div', { class: 'mtag', style: 'margin:0 0 6px', text: 'Guarde no coração' }), h('p', { text: p.guarde })]));
         if (p.ore) n.push(h('div', { class: 'cardx study viver' }, [h('div', { class: 'sub', text: 'Ore' }), h('p', { text: p.ore })]));
@@ -661,7 +662,6 @@
       row('Projeto', 'Palavra Viva, Bíblia de Estudos. Gratuito, sem anúncios e sem coleta de dados.'),
       cfg.ownerName ? row('Responsável', cfg.ownerName) : null,
       row('Texto bíblico e referências', lic.text || ''),
-      row('Ensino do app', 'Gerado por IA e conferido por outras IAs; selo "Revisado por pessoa" indica revisão humana.'),
       row('Direitos', '© ' + yr + ' ' + owner + '. Todos os direitos reservados ao ensino e ao aplicativo; o texto bíblico segue a licença acima.'),
       row('Versão', 'App ' + APP_VERSION + ' · conteúdo ' + manifest.contentVersion + ' (geração ' + manifest.generation + ')')
     ]);
