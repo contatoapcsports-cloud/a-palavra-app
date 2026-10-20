@@ -1,4 +1,4 @@
-# Palavra Viva
+# Palavra Viva — Aprendendo as Escrituras
 
 Bíblia em português, gratuita e sem internet, com ensino em camadas. PWA estático publicado no GitHub Pages.
 
@@ -9,8 +9,15 @@ Bíblia em português, gratuita e sem internet, com ensino em camadas. PWA está
 - **Conteúdo:** só aceita manifesto de geração maior que a guardada. O último conteúdo válido nunca é descartado.
 - **Estudo:** abas Ler, Entender, Ligar ao evangelho e Aprofundar. Aba sem conteúdo não aparece.
 
+## Compartilhar (`src/share.js`)
+- **Cartão:** foto de paz (uma das 3 de `assets/`), frase curta, nome do app e link. É desenhado no próprio aparelho e enviado pelo menu do Android. Sem imagem, vai só o texto com o link; sem menu, o link é copiado.
+- **Onde aparece:** botão no topo e no fim da aba Ler de cada ensino, botão "Compartilhar" na pergunta da tela inicial, botão no fim da tela inicial e o item do menu. O cartão de um ensino usa a frase "Guarde no coração" (ou a pergunta); o do app usa uma frase fixa.
+- **Link direto:** `<siteUrl>#estudo=<id do ensino>` abre direto no ensino. O endereço base vem de `siteUrl` em `config.json`.
+- **Texto da aba Entender:** é dividido em trechos curtos, com o primeiro em destaque.
+- **Privacidade:** nada é medido nem enviado a servidor; só vai o que a pessoa escolher enviar.
+
 ## Configuração (`config.json`)
-`ownerName`, `year`, `contactEmail`, `pixKey`, `siteUrl`, `audio`. Se `pixKey` estiver vazio, o item "Abençoe este Projeto" some. A chave Pix nunca aparece na tela, só é copiada.
+`ownerName`, `year`, `contactEmail`, `pixKey`, `siteUrl`, `shareLabel`, `audio`. Se `pixKey` estiver vazio, o item "Abençoe este Projeto" some. A chave Pix nunca aparece na tela, só é copiada. `siteUrl` é o endereço completo dos links compartilhados; `shareLabel` (opcional) é o texto curto do endereço impresso no cartão, por exemplo `palavraviva.com.br`. Sem `shareLabel`, o cartão não mostra o endereço (o link segue na mensagem).
 
 ## Arquivos que ficam fora do código (enviar para `assets/`)
 `hero-bible.jpg`, `hero-dawn.jpg`, `hero-reading.jpg`, `abencoe.jpg`, `ambiente-leitura.mp3` (opcional: sem ele o app usa um pad sintetizado). Se faltar imagem, aparece um fundo verde no lugar.
