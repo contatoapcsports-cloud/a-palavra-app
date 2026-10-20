@@ -1,4 +1,4 @@
-/* Palavra Viva: app (interface + leitura + estudo). Offline primeiro. Sem dependências externas.
+/* A Palavra – Aprendendo as Escrituras: app (interface + leitura + estudo). Offline primeiro. Sem dependências externas.
    Regras do plano: conteúdo só entra se o hash conferir; aba sem conteúdo não aparece; o último conteúdo válido nunca é descartado. */
 (function () {
   'use strict';
@@ -420,6 +420,7 @@
     var refs = (p.refs || []).map(function (r) { return { text: r, to: resolveRef(r) }; }).filter(function (r) { return r.to; });
     var shown = core.visibleTabs({ verses: p.verses, entender: p.entender, ligar: p.ligar, viver: p.viver, guarde: p.guarde, ore: p.ore, quiz: p.quiz, refs: refs });
     if (p.titulo) { head.appendChild(h('div', { class: 'sref', text: meta.ref })); head.appendChild(h('h2', { class: 'stitle', text: p.titulo })); }
+    head.appendChild(h('button', { class: 'btn alt sharebtn', type: 'button', text: 'Compartilhar este estudo', onclick: function () { shareStudy(meta.id); } }));
     var NAMES = { ler: 'Ler', entender: 'Entender', ligar: 'Ligar ao evangelho', viver: 'Viver', testar: 'Testar', aprofundar: 'Aprofundar' };
     var stamp = function () {
       var st = core.stampText(p); if (!st) return null;
@@ -445,7 +446,7 @@
       viver: function () {
         var n = [];
         if (p.viver) n.push(h('div', { class: 'cardx study viver' }, [h('div', { class: 'sub', text: 'Como viver' })].concat(String(p.viver).split(/\n\s*\n/).map(function (t) { return h('p', { text: t.trim(), style: 'margin-bottom:8px' }); }))));
-        if (p.guarde) n.push(h('div', { class: 'guarde' }, [h('div', { class: 'mtag', style: 'margin:0 0 6px', text: 'Guarde no coração' }), h('p', { text: p.guarde })]));
+        if (p.guarde) n.push(h('div', { class: 'guarde' }, [h('div', { class: 'mtag', style: 'margin:0 0 6px', text: 'Guarde no coração' }), h('p', { text: p.guarde }), h('button', { class: 'btn alt sharebtn', type: 'button', text: 'Compartilhar cartão', onclick: function () { shareCard(meta.id, p.guarde); } })]));
         if (p.ore) n.push(h('div', { class: 'cardx study viver' }, [h('div', { class: 'sub', text: 'Ore' }), h('p', { text: p.ore })]));
         n.push(stamp()); return n;
       },
@@ -599,16 +600,57 @@
   window.addEventListener('appinstalled', function () { deferred = null; toast('App instalado'); refreshInstall(); });
   function installHelp() {
     modal([mtag('Instalar', true), h('h2', { text: 'Instalar aplicativo' }),
-      h('p', {}, ['No Android, abra o menu do Chrome (três pontos) e escolha ', h('b', { text: 'Instalar aplicativo' }), ' ou ', h('b', { text: 'Adicionar à tela inicial' }), '. Depois disso o Palavra Viva abre como um aplicativo e funciona sem internet.'])]);
+      h('p', {}, ['No Android, abra o menu do Chrome (três pontos) e escolha ', h('b', { text: 'Instalar aplicativo' }), ' ou ', h('b', { text: 'Adicionar à tela inicial' }), '. Depois disso o A Palavra abre como um aplicativo e funciona sem internet.'])]);
   }
   function install() {
     if (isStandalone()) { toast('O app já está instalado.'); return; }
     if (deferred) { var d = deferred; deferred = null; d.prompt(); d.userChoice.then(refreshInstall, refreshInstall); } else installHelp();
   }
-  function share() {
-    var url = cfg.siteUrl || (location.origin + location.pathname);
-    if (navigator.share) navigator.share({ title: 'Palavra Viva', text: 'Bíblia em português, grátis e sem internet.', url: url }).catch(function () { /* cancelado */ });
-    else copy(url, 'Link copiado');
+  var APP_NAME = 'A Palavra – Aprendendo as Escrituras';
+  function baseUrl() { return cfg.siteUrl || (location.origin + location.pathname); }
+  function send(data, okMsg) {
+    if (navigator.share) navigator.share(data).catch(function () { /* cancelado */ });
+    else copy((data.text ? data.text + ' ' : '') + data.url, okMsg || 'Link copiado');
+  }
+  function share() { send({ title: APP_NAME, text: 'Bíblia em português, grátis e sem internet.', url: baseUrl() }); }
+  /* link direto para um estudo: abre o app já naquele estudo */
+  function studyUrl(id) { return baseUrl().replace(/#.*$/, '') + '#e=' + encodeURIComponent(id); }
+  function metaOf(id) { return (manifest.passages || []).filter(function (p) { return p.id === id; })[0] || null; }
+  function shareStudy(id) {
+    var m = metaOf(id); if (!m) return share();
+    send({ title: m.ref, text: 'Estudo bíblico: ' + m.ref + (m.titulo ? ' – ' + m.titulo : '') + '. Leia no ' + APP_NAME + ':', url: studyUrl(id) });
+  }
+  /* cartão bíblico: imagem 1080x1350 com a frase para guardar, a referência e o endereço */
+  function wrapLines(ctx, text, max) {
+    var words = String(text).split(/\s+/), lines = [], cur = '';
+    words.forEach(function (w) { var t = cur ? cur + ' ' + w : w; if (ctx.measureText(t).width > max && cur) { lines.push(cur); cur = w; } else cur = t; });
+    if (cur) lines.push(cur); return lines;
+  }
+  function makeCard(frase, ref) {
+    return new Promise(function (resolve, reject) {
+      try {
+        var c = document.createElement('canvas'); c.width = 1080; c.height = 1350; var x = c.getContext('2d');
+        var g = x.createLinearGradient(0, 0, 0, 1350); g.addColorStop(0, '#1F2A44'); g.addColorStop(1, '#0F1626'); x.fillStyle = g; x.fillRect(0, 0, 1080, 1350);
+        x.fillStyle = '#D9B45B'; x.fillRect(90, 150, 120, 6);
+        x.textBaseline = 'alphabetic'; x.fillStyle = '#FCF8EE';
+        var size = 64, lines;
+        for (; size >= 40; size -= 4) { x.font = '700 ' + size + 'px Georgia, serif'; lines = wrapLines(x, '“' + frase + '”', 900); if (lines.length * size * 1.35 <= 760) break; }
+        var y = 300; lines.forEach(function (l) { x.fillText(l, 90, y); y += size * 1.35; });
+        x.fillStyle = '#D9B45B'; x.font = '700 40px Georgia, serif'; x.fillText(ref, 90, Math.max(y + 60, 1000));
+        x.fillStyle = '#B9C0D0'; x.font = '600 34px sans-serif'; x.fillText(APP_NAME, 90, 1210);
+        x.font = '30px sans-serif'; x.fillText(baseUrl().replace(/^https?:\/\//, '').replace(/\/$/, ''), 90, 1260);
+        c.toBlob(function (b) { b ? resolve(b) : reject(new Error('sem imagem')); }, 'image/png');
+      } catch (e) { reject(e); }
+    });
+  }
+  function shareCard(id, frase) {
+    var m = metaOf(id), ref = m ? m.ref : '', url = id ? studyUrl(id) : baseUrl();
+    var texto = '“' + frase + '” (' + ref + ')';
+    makeCard(frase, ref).then(function (blob) {
+      var f = new File([blob], 'cartao-biblico.png', { type: 'image/png' });
+      if (navigator.canShare && navigator.canShare({ files: [f] })) navigator.share({ files: [f], title: ref, text: texto + ' ' + url }).catch(function () { /* cancelado */ });
+      else send({ title: ref, text: texto, url: url }, 'Texto copiado');
+    }, function () { send({ title: ref, text: texto, url: url }, 'Texto copiado'); });
   }
 
   /* ---------- baixar tudo ---------- */
@@ -659,13 +701,13 @@
   function aboutModal() {
     var lic = manifest.license || {}, owner = cfg.ownerName || 'o responsável pelo projeto', yr = cfg.year || String(new Date().getFullYear());
     var dl = h('dl', {}, [
-      row('Projeto', 'Palavra Viva, Bíblia de Estudos. Gratuito, sem anúncios e sem coleta de dados.'),
+      row('Projeto', 'A Palavra – Aprendendo as Escrituras. Gratuito, sem anúncios e sem coleta de dados.'),
       cfg.ownerName ? row('Responsável', cfg.ownerName) : null,
       row('Texto bíblico e referências', lic.text || ''),
       row('Direitos', '© ' + yr + ' ' + owner + '. Todos os direitos reservados ao ensino e ao aplicativo; o texto bíblico segue a licença acima.'),
       row('Versão', 'App ' + APP_VERSION + ' · conteúdo ' + manifest.contentVersion + ' (geração ' + manifest.generation + ')')
     ]);
-    var nodes = [mtag('Palavra Viva', true), h('h2', { text: 'Sobre' }), dl];
+    var nodes = [mtag(APP_NAME, true), h('h2', { text: 'Sobre' }), dl];
     if (lic.url) nodes.push(h('p', {}, [h('a', { href: lic.url, rel: 'noopener', target: '_blank', text: 'Ver a licença do texto' })]));
     modal(nodes);
   }
@@ -681,7 +723,7 @@
     probe.onerror = function () { img.style.setProperty('--img', 'url(assets/hero-reading.jpg)'); };
     probe.src = 'assets/abencoe.jpg';
     modal([img, mtag('Um gesto de continuidade'), h('h2', { text: 'Abençoe este Projeto' }),
-      h('p', { text: 'O Palavra Viva nasceu para tornar a Palavra mais próxima, simples e presente na vida de cada pessoa.' }),
+      h('p', { text: 'O aplicativo A Palavra nasceu para tornar a Palavra mais próxima, simples e presente na vida de cada pessoa.' }),
       h('p', { text: 'Se este projeto tem edificado sua caminhada, você pode contribuir voluntariamente para ele continuar crescendo e alcançando outras vidas.' }),
       h('span', { class: 'note', text: 'Cada apoio é recebido com gratidão.' }),
       mtag('Contribuição voluntária via Pix'),
@@ -792,6 +834,7 @@
     $('#thm').addEventListener('click', function (e) { var s = e.target.closest('button'); if (!s) return; lsSet('pv4-theme', s.dataset.m); applyAppearance(); });
     matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyAppearance);
     $('#inst').addEventListener('click', install); $('#shr').addEventListener('click', share);
+    $('#shHomeStudy').addEventListener('click', function () { var f = featured(); if (f) shareStudy(f.id); else share(); }); $('#shHomeApp').addEventListener('click', share);
     $('#dlbtn').addEventListener('click', downloadModal);
     $('#expbtn').addEventListener('click', function () {
       exportAll().then(function (o) {
@@ -841,6 +884,8 @@
       var s = history.state;
       if (s && s.v && !s.o) curState = s; else { curState = { v: 'home', d: Math.max(0, ((s && s.d) || 1) - 1) }; history.replaceState(curState, ''); }
       render(curState);
+      var dl = /[#&]e=([^&]+)/.exec(location.hash || '');
+      if (dl && !(s && s.v)) { var did = decodeURIComponent(dl[1]); if (metaOf(did)) go({ v: 'study', id: did }); }
     }
     try {
       if (stored && stored.bible) {
