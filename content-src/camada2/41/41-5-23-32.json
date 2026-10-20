@@ -1,0 +1,137 @@
+{
+ "id": "41-5-23-32",
+ "ref": "Marcos 5:23-32",
+ "book": "41",
+ "chapter": 5,
+ "verses": [
+  {
+   "n": 23,
+   "t": "E implorava-lhe muito, dizendo: Minha filhinha está a ponto de morrer. Rogo-te que venhas pôr as mãos sobre ela, para que seja curada, e viva."
+  },
+  {
+   "n": 24,
+   "t": "Jesus foi com ele. Uma grande multidão o seguia, e o apertavam."
+  },
+  {
+   "n": 25,
+   "t": "E havia uma certa mulher, que tinha um fluxo de sangue havia doze anos,"
+  },
+  {
+   "n": 26,
+   "t": "que tinha sofrido muito por meio de muitos médicos, e gastado tudo quanto possuía, e nada havia lhe dado bom resultado; ao invés disso, piorava."
+  },
+  {
+   "n": 27,
+   "t": "Quando ela ouviu falar de Jesus, veio entre a multidão por detrás, e tocou a roupa dele."
+  },
+  {
+   "n": 28,
+   "t": "Pois dizia: Se tão somente tocar as suas roupas, serei curada."
+  },
+  {
+   "n": 29,
+   "t": "E imediatamente a fonte do seu sangue parou se secou; e sentiu no corpo que já havia sido curada daquele flagelo."
+  },
+  {
+   "n": 30,
+   "t": "Jesus logo notou em si o poder que dele havia saído. Então virou-se na multidão, e perguntou: Quem tocou as minhas roupas?"
+  },
+  {
+   "n": 31,
+   "t": "E seus discípulos lhe disseram: Eis que a multidão te aperta, e perguntas: Quem me tocou?"
+  },
+  {
+   "n": 32,
+   "t": "E ele olhava em redor, para ver quem havia lhe feito isso."
+  }
+ ],
+ "titulo": "O toque que parou um sofrimento de doze anos",
+ "temas": [
+  "fé",
+  "cura",
+  "urgência",
+  "esperança"
+ ],
+ "pergunta": "O que motivou uma mulher excluída a se aproximar de Jesus entre uma multidão?",
+ "entender": "Marcos 5 traz uma cena dupla: Jairo, líder da sinagoga, implora para que Jesus cure sua filha, que está a ponto de morrer. No caminho, uma mulher que sofria de hemorragia há doze anos ouve falar de Jesus. Ela tinha gastado tudo o que possuía com médicos e sua condição só piorava. Movida pela esperança, ela se aproxima por trás e toca a roupa de Jesus, dizendo: \"Se tão somente tocar as suas roupas, serei curada\".\n\nImediatamente, a fonte do seu sangue se secou. Jesus percebe que o poder saiu dele e pergunta quem o tocou. Os discípulos acham estranho, pois a multidão o apertava, mas Jesus busca a pessoa específica. Ele não ignora o toque; ele o identifica. Enquanto vai de um milagre para outro, ele se detém para validar a experiência daquela mulher.\n\nO texto destaca a urgência dela e a sensibilidade de Jesus. Ele não ignora o toque; ele o identifica. Isso revela que a cura não é apenas física, mas também o reconhecimento de que ela não está sozinha. Jesus vê a dor escondida por trás das multidões.",
+ "ligar": {
+  "texto": "Este trecho aponta para Jesus como o centro da vida. A mulher não tinha esperança nos médicos, mas tinha fé em Jesus. O evangelho é a mensagem de que, independentemente do nosso passado ou condição, podemos nos aproximar de Cristo pela fé. Ele não nos rejeita; Ele nos vê e nos restaura. A cura dela é um sinal do poder de Jesus sobre a morte e a doença, antecipando a vitória final que Ele oferece a todos que creem.",
+  "selo": true
+ },
+ "viver": "A mulher tinha doze anos de sofrimento e exaustão financeira. Ela não esperou estar 'pronta' ou limpa para se aproximar de Jesus. Talvez você sinta que precisa resolver seus problemas antes de orar ou buscar ajuda. Este texto nos ensina que a fé é a mão que estendemos a Deus mesmo no meio do caos. Não espere a perfeição; aproxime-se de Jesus como Ele é, com suas dúvidas e dores.",
+ "guarde": "A fé que toca a Cristo transforma a situação, mesmo quando tudo parece perdido.",
+ "ore": "Jesus, assim como a mulher do fluxo de sangue, eu me aproximo de Ti agora, mesmo com meus medos e falhas. Eu creio que o Teu poder pode me curar e me restaurar. Não me deixes desistir antes de tocar a Tua roupa. Dá-me a coragem de buscar a Ti com fé viva.",
+ "quiz": {
+  "pergunta": "Por que Jesus perguntou 'Quem tocou as minhas roupas'?",
+  "opcoes": [
+   "Porque queria cobrar pela cura.",
+   "Para identificar a mulher e confirmar a cura dela.",
+   "Porque se sentiu ofendido pela multidão."
+  ],
+  "certa": 1,
+  "explicacao": "Jesus percebeu o poder que saiu dele e queria reconhecer a fé da mulher, garantindo que ela soubesse que estava curada."
+ },
+ "refs": [
+  "Lucas 8:43-48",
+  "Mateus 9:20-22",
+  "Hebreus 11:1"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T18:51:42.691Z",
+  "rounds": 2
+ }
+}

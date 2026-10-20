@@ -1,0 +1,142 @@
+{
+ "id": "41-6-35-45",
+ "ref": "Marcos 6:35-45",
+ "book": "41",
+ "chapter": 6,
+ "verses": [
+  {
+   "n": 35,
+   "t": "E quando já era tarde, os seus discípulos vieram a ele, e disseram: O lugar é deserto, e a hora já é tarde."
+  },
+  {
+   "n": 36,
+   "t": "Despede-os, para eles irem aos campos e aldeias circunvizinhos, e comprarem pão para si; pois não têm o que comer."
+  },
+  {
+   "n": 37,
+   "t": "Mas ele respondeu: Dai-lhes vós mesmos de comer. E eles lhe responderam: Iremos, e compraremos duzentos denários de pão, para lhes darmos de comer?"
+  },
+  {
+   "n": 38,
+   "t": "E ele lhes disse: Quantos pães tendes? Ide ver. Quando souberam, disseram: Cinco, e dois peixes."
+  },
+  {
+   "n": 39,
+   "t": "E mandou-lhes que fizessem sentar a todos em grupos sobre a grama verde."
+  },
+  {
+   "n": 40,
+   "t": "E sentaram-se repartidos de cem em cem, e de cinquenta em cinquenta."
+  },
+  {
+   "n": 41,
+   "t": "Ele tomou os cinco pães e os dois peixes, levantou os olhos ao céu, abençoou, e partiu os pães, e os deu aos seus discípulos, para que os pusessem diante deles. E os dois peixes repartiu com todos."
+  },
+  {
+   "n": 42,
+   "t": "Todos comeram e se saciaram."
+  },
+  {
+   "n": 43,
+   "t": "E dos pedaços de pão e dos peixes levantaram doze cestos cheios."
+  },
+  {
+   "n": 44,
+   "t": "Os que comeram os pães eram quase cinco mil homens."
+  },
+  {
+   "n": 45,
+   "t": "Logo depois, ordenou seus discípulos a subirem no barco, e ir adiante para o outro lado, em Betsaida, enquanto ele despedia a multidão."
+  }
+ ],
+ "titulo": "Cinco pães, dois peixes e cinco mil pessoas",
+ "temas": [
+  "milagre",
+  "compaixão",
+  "provisão",
+  "fé",
+  "serviço"
+ ],
+ "pergunta": "O que fazer quando o recurso que você tem parece totalmente insuficiente para a necessidade ao seu redor?",
+ "entender": "O cenário é de exaustão. Já era tarde e a multidão, que havia seguido Jesus de várias cidades, estava faminta. Os discípulos, olhando para a realidade prática, sugerem que Jesus mande as pessoas irem comprar pão, pois o lugar é deserto e eles não têm o que comer. A lógica humana diz que não há solução: duzentos denários de salário não dariam conta de alimentar cinco mil homens.\n\nJesus, no entanto, não rejeita a necessidade, mas desafia a limitação. Ele pergunta quantos pães eles têm. A resposta é modesta: cinco pães e dois peixes. Ao invés de descartar esse pouco, Jesus manda sentar as pessoas em grupos sobre a grama verde. Ele toma o pouco, abençoa e parte. O resultado é que todos se saciaram e ainda sobrou doze cestos cheios de pedaços. O texto destaca que os que comeram eram quase cinco mil homens, mostrando a escala do milagre e a fidelidade de Deus em multiplicar o que lhe é entregue.",
+ "ligar": {
+  "texto": "Este milagre revela o coração de Jesus: Ele teve compaixão da multidão como de ovelhas sem pastor. A provisão não veio da força humana, mas da bênção divina sobre o que foi oferecido. Jesus é o verdadeiro Pão que satisfaz a fome espiritual e física. Ele toma o nosso 'pouco' — nosso tempo, talento e recursos — e, através dEle, torna-o suficiente para abençoar muitas vidas. O evangelho é a provisão de Deus para a nossa fome profunda, que só Ele pode saciar.",
+  "selo": true
+ },
+ "viver": "Muitas vezes olhamos para os nossos recursos e sentimos que não temos nada a oferecer. Este texto nos convida a parar de lamentar a escassez e começar a oferecer. Pense em uma situação prática onde você se sente incapaz de ajudar: talvez seja tempo para alguém ou uma pequena doação. Entregue esse 'pão' a Jesus. Ele não está pedindo perfeição, mas disponibilidade. Quando confiamos que Ele multiplica o pouco, deixamos de ser espectadores da necessidade e nos tornamos canais de Sua graça, servindo aos outros com a certeza de que Ele provê.",
+ "guarde": "Deus não despreza o pouco que você tem; Ele o toma, abençoa e multiplica para saciar a fome do mundo.",
+ "ore": "Jesus, no deserto de minha vida, eu sinto a fome de muitas pessoas ao meu redor. Eu tenho pouco, mas coloco tudo em Tuas mãos. Mostra-me onde servir hoje e multiplica o meu pouco para que outros sejam saciados pela Tua graça. Amém.",
+ "quiz": {
+  "pergunta": "Quanto tempo passou entre a sugestão dos discípulos e a ação de Jesus?",
+  "opcoes": [
+   "O texto não especifica um tempo exato, apenas que Ele agiu imediatamente após a pergunta.",
+   "Até que eles comprassem o pão",
+   "Uma hora inteira para orar"
+  ],
+  "certa": 0,
+  "explicacao": "O texto narra a sequência rápida: os discípulos sugerem dispensar a multidão, Jesus pergunta o que têm, e então Ele age. Não há menção a espera ou compra."
+ },
+ "refs": [
+  "João 6:35",
+  "Mateus 14:17-21",
+  "Lucas 9:13-17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T18:50:13.353Z",
+  "rounds": 1
+ }
+}

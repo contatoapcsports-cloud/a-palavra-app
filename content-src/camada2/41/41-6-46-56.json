@@ -1,0 +1,142 @@
+{
+ "id": "41-6-46-56",
+ "ref": "Marcos 6:46-56",
+ "book": "41",
+ "chapter": 6,
+ "verses": [
+  {
+   "n": 46,
+   "t": "E, depois de os despedir, foi ao monte para orar."
+  },
+  {
+   "n": 47,
+   "t": "Ao anoitecer, o barco estava no meio do mar, e Jesus sozinho em terra."
+  },
+  {
+   "n": 48,
+   "t": "E viu que se cansavam muito remando, porque o vento lhes era contrário. Então, perto da quarta vigília da noite, veio a eles andando sobre o mar, e queria passar por eles."
+  },
+  {
+   "n": 49,
+   "t": "Mas quando eles o viram andando sobre o mar, pensaram que era uma fantasma, e gritaram,"
+  },
+  {
+   "n": 50,
+   "t": "pois todos o viam, e ficaram perturbados. Então logo falou com eles, dizendo: Tende coragem! Sou eu, não tenhais medo."
+  },
+  {
+   "n": 51,
+   "t": "E subiu a eles no barco, e o vento se aquietou. Eles ficaram muito espantados e maravilhados entre si,"
+  },
+  {
+   "n": 52,
+   "t": "pois não haviam entendido o que tinha acontecido com os pães, porque o coração deles estava endurecido."
+  },
+  {
+   "n": 53,
+   "t": "Eles terminaram de atravessar o mar, chegaram à terra de Genesaré, e ali aportaram."
+  },
+  {
+   "n": 54,
+   "t": "Quando eles saíram do barco, logo as pessoas o reconheceram."
+  },
+  {
+   "n": 55,
+   "t": "Então gente de toda a região em redor veio correndo, e começaram a trazer em camas os doentes, aonde quer que ouviam que ele estava."
+  },
+  {
+   "n": 56,
+   "t": "E aonde quer que ele entrava, em povoados, cidades, ou aldeias, colocavam os enfermos nas praças, e rogavam-lhe que ao menos tocassem a borda de sua roupa; e todos os que o tocavam ficavam sarados."
+  }
+ ],
+ "titulo": "Jesus andando sobre o mar da sua ansiedade",
+ "temas": [
+  "fé",
+  "medo",
+  "paz",
+  "milagre",
+  "presença"
+ ],
+ "pergunta": "O que você faria se visse Jesus caminhando sobre as águas turbulentas?",
+ "entender": "Depois de curar multidões e multiplicar pães, Jesus se retira para orar no monte. Enquanto isso, seus discípulos remam com dificuldade contra o vento contrário. No meio da noite, Jesus vai até eles andando sobre o mar. A cena é sobrenatural e assustadora para quem está cansado no barco.\n\nAo vê-lo, eles gritam, pensando tratar-se de um fantasma. Mas Jesus imediatamente lhes dá calma: \"Tende coragem! Sou eu, não tenhais medo.\" Ao entrar no barco, o vento se aquietou. O texto destaca que eles ficaram maravilhados, mas ainda não haviam entendido plenamente o significado dos milagres anteriores, pois seus corações estavam endurecidos.\n\nAo chegarem à terra de Genesaré, a fama de Jesus correu. Pessoas de toda a região trouxeram doentes em camas, rogando para que ao menos tocassem a borda de sua roupa. Todos os que o tocaram ficaram sarados, demonstrando o poder contínuo de Jesus em atender às necessidades físicas e espirituais.",
+ "ligar": {
+  "texto": "Este texto revela a soberania de Jesus sobre a natureza e sua presença ativa nos momentos de maior dificuldade. Ele não apenas observa o sofrimento dos discípulos, mas intervém pessoalmente para trazer paz. O evangelho se manifesta aqui na capacidade de Jesus de acalmar as tempestades internas e externas, provendo cura e restauração para todos que se aproximam dele com fé. Ele é o Senhor que vem ao encontro da nossa fraqueza.",
+  "selo": true
+ },
+ "viver": "Pense em uma situação atual que parece um mar agitado, onde seus esforços parecem insuficientes. Em vez de focar apenas em remar com força, pratique a pausa para orar e buscar a presença de Jesus. Assim como o vento se aquietou quando Jesus entrou no barco, a paz sobrenatural pode acalmar sua ansiedade quando você reconhece que Ele está no controle da sua vida, mesmo no meio da crise.",
+ "guarde": "Quando a tempestade bater, lembre-se: Jesus está no barco e o vento obedece a Ele.",
+ "ore": "Jesus, que andou sobre o mar em Genesaré, eu Te confio as tempestades da minha vida hoje. Acalma meu coração ansioso e ensina-me a confiar na Tua soberania, mesmo quando não entendo tudo. Que eu sinta a Tua paz acalmar meus medos.",
+ "quiz": {
+  "pergunta": "O que Jesus disse aos discípulos quando eles o viram andando sobre o mar?",
+  "opcoes": [
+   "Parem de remar e confiem em mim.",
+   "Tende coragem! Sou eu, não tenhais medo.",
+   "Não tenham medo, estou com vocês sempre."
+  ],
+  "certa": 1,
+  "explicacao": "O texto em Marcos 6:50 registra exatamente as palavras de Jesus: \"Tende coragem! Sou eu, não tenhais medo\", identificando-se para acalmar o pânico dos discípulos."
+ },
+ "refs": [
+  "Mateus 14:25-31",
+  "João 6:19-21",
+  "Lucas 8:22-25"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T18:52:17.766Z",
+  "rounds": 1
+ }
+}

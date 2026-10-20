@@ -1,0 +1,141 @@
+{
+ "id": "41-6-1-11",
+ "ref": "Marcos 6:1-11",
+ "book": "41",
+ "chapter": 6,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Jesus partiu-se dali, veio à sua terra, e seus discípulos o seguiram."
+  },
+  {
+   "n": 2,
+   "t": "E chegando o sábado, começou a ensinar na sinagoga; e muitos, quando o ouviram, espantavam-se, dizendo: De onde lhe vem estas coisas? E que sabedoria é esta que lhe foi dada? E tais maravilhas feitas por suas mãos?"
+  },
+  {
+   "n": 3,
+   "t": "Não é este o carpinteiro, filho de Maria, e irmão de Tiago, de José, de Judas, e de Simão? E não estão aqui as suas irmãs conosco? E ofenderam-se nele."
+  },
+  {
+   "n": 4,
+   "t": "E Jesus lhes dizia: Todo profeta tem honra, menos em sua terra, entre os parentes, e em sua própria casa."
+  },
+  {
+   "n": 5,
+   "t": "Ele não pôde ali fazer milagre algum, a não ser somente para uns poucos enfermos, sobre os quais pôs as mãos e os curou."
+  },
+  {
+   "n": 6,
+   "t": "E ficou admirado da incredulidade deles. Ele percorreu as aldeias do redor, ensinando."
+  },
+  {
+   "n": 7,
+   "t": "E chamou a si os doze, e começou a enviar de dois em dois; e deu-lhes poder sobre os espíritos imundos."
+  },
+  {
+   "n": 8,
+   "t": "E mandou-lhes que não tomassem nada para o caminho, a não ser somente um bordão; nem bolsa, nem pão, nem dinheiro no cinto;"
+  },
+  {
+   "n": 9,
+   "t": "mas que calçassem sandálias, e não se vestissem de duas túnicas."
+  },
+  {
+   "n": 10,
+   "t": "E dizia-lhes: Onde quer que entrardes em alguma casa, ficai ali até que dali saiais."
+  },
+  {
+   "n": 11,
+   "t": "E todos os que não vos receberem, nem vos ouvirem, quando sairdes dali, sacudi o pó que estiver debaixo de vossos pés, em testemunho contra eles Em verdade vos digo, que mais tolerável será a os de Sodoma ou Gomorra no dia do juízo, do que a os d aquela cidade."
+  }
+ ],
+ "titulo": "O perigo de conhecer Jesus de perto",
+ "temas": [
+  "incredulidade",
+  "fé",
+  "família",
+  "envio"
+ ],
+ "pergunta": "Por que a familiaridade com Jesus pode ser mais perigosa que a distância?",
+ "entender": "Em Nazareth, Jesus voltou para sua terra natal e ensinou na sinagoga no sábado. As pessoas ficaram espantadas com a sabedoria e as maravilhas que viam, mas logo se ofenderam. Para elas, ele era apenas \"o carpinteiro, filho de Maria\" e irmão de Tiago e José. A familiaridade bloqueou a visão da autoridade divina dele.\n\nJesus disse que todo profeta tem honra, menos em sua terra e entre os parentes. Devido à incredulidade deles, ele não pôde fazer muitos milagres ali e ficou admirado com a falta de fé. Em seguida, enviou os doze discípulos de dois em dois, com poder sobre espíritos imundos, mandando que não levassem suprimentos, confiando inteiramente na provisão de Deus e no acolhimento das pessoas.",
+ "ligar": {
+  "texto": "Este trecho mostra que a fé não depende de proximidade física, mas de reconhecer Jesus como o Senhor. A incredulidade de Nazaré contrasta com a resposta dos que aceitam o evangelho. Jesus, ao enviar os doze, demonstra que a mensagem de arrependimento e cura deve alcançar todos, superando barreiras familiares ou locais. A salvação vem quando abandonamos a nossa ideia limitada de quem Jesus é e nos submetemos à sua autoridade.",
+  "selo": true
+ },
+ "viver": "Às vezes, conhecemos bem as histórias bíblicas, mas tratamos Jesus apenas como um personagem histórico ou um professor moral. Essa familiaridade pode impedir que a fé cresça. Pense em alguém da sua família ou círculo próximo que talvez não aceite a mensagem de Cristo. Ore por eles, mas também examine seu próprio coração: você está ouvindo Jesus com reverência e fé, ou apenas com a complacência de quem acha que já o conhece? A fé exige que reconheçamos a grandiosidade de Deus, mesmo em nossa casa.",
+ "guarde": "A familiaridade com as coisas de Deus pode cegar se não for acompanhada de reverência e fé.",
+ "ore": "Jesus de Nazaré, perdoa-me quando Te trato apenas como um carpinteiro comum. Abre meus olhos para ver a Tua autoridade e a Tua glória. Ensina-me a ter fé que não depende de milagres, mas do Teu coração. Ajuda-me a enviar outros com o mesmo poder e confiança que Tu dás aos Teus.",
+ "quiz": {
+  "pergunta": "Por que Jesus não pôde fazer muitos milagres em sua terra natal?",
+  "opcoes": [
+   "Porque Ele estava cansado da viagem.",
+   "Porque a sinagoga não tinha permissão para milagres.",
+   "Por causa da incredulidade das pessoas."
+  ],
+  "certa": 2,
+  "explicacao": "O texto afirma que Jesus ficou admirado da incredulidade deles e que isso limitou a manifestação dos milagres naquela região."
+ },
+ "refs": [
+  "Lucas 4:16-30",
+  "Mateus 13:53-58",
+  "João 4:44"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T18:47:14.696Z",
+  "rounds": 1
+ }
+}

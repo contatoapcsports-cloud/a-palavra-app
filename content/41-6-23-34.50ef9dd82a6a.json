@@ -1,0 +1,145 @@
+{
+ "id": "41-6-23-34",
+ "ref": "Marcos 6:23-34",
+ "book": "41",
+ "chapter": 6,
+ "verses": [
+  {
+   "n": 23,
+   "t": "E jurou a ela: Tudo o que me pedirdes te darei, até a metade do meu reino."
+  },
+  {
+   "n": 24,
+   "t": "Então ela saiu, e perguntou à sua mãe: Que pedirei? E ela respondeu: A cabeça de João Batista."
+  },
+  {
+   "n": 25,
+   "t": "E entrando ela logo apressadamente ao rei, pediu, dizendo: Quero que imediatamente me dês num prato a cabeça de João Batista."
+  },
+  {
+   "n": 26,
+   "t": "E o rei entristeceu-se muito; mas , por causa dos juramentos, e dos que estavam juntamente à mesa, não quis recusar a ela."
+  },
+  {
+   "n": 27,
+   "t": "Então logo o rei enviou o executor com a ordem de trazer ali sua cabeça. Ele, foi, e o decapitou na prisão."
+  },
+  {
+   "n": 28,
+   "t": "Em seguida, trouxe a sua cabeça num prato, e o deu à garota; e a garota a deu à sua mãe."
+  },
+  {
+   "n": 29,
+   "t": "Quando os discípulos dele ouviram isso, vieram, pegaram o seu cadáver, e o puseram num sepulcro."
+  },
+  {
+   "n": 30,
+   "t": "Os apóstolos juntaram-se de volta a Jesus, e contaram-lhe tudo, tanto o que haviam feito, como o que haviam ensinado."
+  },
+  {
+   "n": 31,
+   "t": "E ele lhes disse: Vinde vós à parte a um lugar deserto, e descansai um pouco; pois havia muitos que iam e vinham, e não tinham tempo para comer."
+  },
+  {
+   "n": 32,
+   "t": "E foram-se num barco a um lugar deserto à parte."
+  },
+  {
+   "n": 33,
+   "t": "Mas as multidões os viram ir, e muitos o reconheceram. Então correram para lá a pé de todas as cidades, chegaram antes deles, e vieram para perto dele."
+  },
+  {
+   "n": 34,
+   "t": "Quando Jesus saiu do barco , viu uma grande multidão, e teve compaixão deles porque eram como ovelhas que não têm pastor. Assim, começou a lhes ensinar muitas coisas."
+  }
+ ],
+ "titulo": "A compaixão que vence a pressa",
+ "temas": [
+  "compaixão",
+  "descanso",
+  "serviço",
+  "multidão"
+ ],
+ "pergunta": "Por que Jesus mandou seus discípulos descansarem, mesmo havendo tanta gente precisando dele?",
+ "entender": "Depois da trágica morte de João Batista, os apóstolos voltaram a Jesus e relataram tudo o que fizeram e ensinaram. Jesus, percebendo a exaustão deles, disse: \"Vinde vós à parte a um lugar deserto, e descansai um pouco\". Ele sabia que o ritmo intenso de viagens e ensinamentos estava esgotando o grupo.\n\nNo entanto, a multidão os viu partir e correu para alcançá-los. Quando Jesus desembarcou, viu a grande aglomeração e \"teve compaixão deles porque eram como ovelhas que não têm pastor\". Em vez de insistir no descanso planejado, ele começou a ensinar muitas coisas, priorizando a necessidade espiritual imediata daquelas pessoas.",
+ "ligar": {
+  "texto": "Este trecho mostra o coração de Jesus: ele equilibra a preocupação com a saúde dos seus (os discípulos) com a urgência da salvação dos outros. A metáfora das \"ovelhas sem pastor\" aponta diretamente para a missão de Cristo, que é o Bom Pastor. Ele não apenas ensina, mas cuida de pessoas reais, cansadas e perdidas, demonstrando que o evangelho é, antes de tudo, uma resposta de amor à necessidade humana.",
+  "selo": true
+ },
+ "viver": "Nossa cultura valoriza a produtividade constante, mas Jesus nos ensina que o descanso é parte do serviço. Assim como ele mandou os discípulos pararem, precisamos identificar quando estamos operando no automático, sem conexão com Deus. Ao mesmo tempo, como Jesus se deixou interromper pela multidão, devemos estar atentos às necessidades espirituais e emocionais de quem está ao nosso redor, equilibrando nosso bem-estar com a disposição de servir.",
+ "guarde": "A compaixão de Jesus transforma a pressa em cuidado e o descanso em preparação para servir.",
+ "ore": "Jesus, no lugar deserto, eu paro. Obrigado por me ver cansado e por me convidar a descansar. Ensina-me a ter a mesma compaixão que tiveste pelas ovelhas sem pastor, equilibrando meu cuidado pessoal com a disposição de servir aos que estão ao meu redor.",
+ "quiz": {
+  "pergunta": "O que Jesus viu na multidão que o levou a começar a ensinar imediatamente?",
+  "opcoes": [
+   "Compaixão, pois eram como ovelhas sem pastor",
+   "Fome física, pois era hora do almoço",
+   "Medo, pois estavam fugindo de Herodes"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz explicitamente que Jesus teve compaixão deles porque eram como ovelhas que não têm pastor, indicando uma necessidade espiritual e de orientação."
+ },
+ "refs": [
+  "Mateus 11:28-30",
+  "João 10:11",
+  "Lucas 9:10-17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T18:49:43.032Z",
+  "rounds": 1
+ }
+}

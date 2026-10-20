@@ -1,0 +1,141 @@
+{
+ "id": "41-5-33-43",
+ "ref": "Marcos 5:33-43",
+ "book": "41",
+ "chapter": 5,
+ "verses": [
+  {
+   "n": 33,
+   "t": "Então a mulher temendo, e tremendo, sabendo o que havia sido feito em si, veio, prostrou-se diante dele, e disse-lhe toda a verdade."
+  },
+  {
+   "n": 34,
+   "t": "E ele lhe disse: Filha, a tua fé te salvou. Vai em paz, e estejas curada deste teu flagelo."
+  },
+  {
+   "n": 35,
+   "t": "Estando ele ainda falando, alguns vieram da casa do líder de sinagoga, e disseram: A tua filha já morreu; por que ainda estás incomodando o Mestre?"
+  },
+  {
+   "n": 36,
+   "t": "Mas Jesus, assim que ouviu essa palavra que havia sido falada, disse ao líder de sinagoga: Não temas; crê somente."
+  },
+  {
+   "n": 37,
+   "t": "E não permitiu que ninguém o seguisse, a não ser Pedro, Tiago, e João irmão de Tiago."
+  },
+  {
+   "n": 38,
+   "t": "Ele chegou à casa do líder de sinagoga, e viu o alvoroço, os que choravam muito e pranteavam."
+  },
+  {
+   "n": 39,
+   "t": "E ao entrar, disse-lhes: Por que fazeis alvoroço e chorais? A menina não morreu, mas está dormindo."
+  },
+  {
+   "n": 40,
+   "t": "E riram dele. Porém ele, depois de pôr todos fora, tomou consigo o pai e a mãe da menina, e os que estavam com ele. Em seguida, entrou onde a menina estava deitada."
+  },
+  {
+   "n": 41,
+   "t": "Ele pegou a mão da menina, e lhe disse: “Talita cumi”, (que significa: “Menina, eu te digo, levanta-te”)."
+  },
+  {
+   "n": 42,
+   "t": "E logo a menina se levantou e andou, pois já tinha doze anos de idade. E ficaram grandemente espantados."
+  },
+  {
+   "n": 43,
+   "t": "E mandou-lhes muito que ninguém o soubesse; e mandou que dessem a ela de comer."
+  }
+ ],
+ "titulo": "Quando a fé traz vida onde há morte",
+ "temas": [
+  "fé",
+  "cura",
+  "confiança",
+  "morte"
+ ],
+ "pergunta": "Você já acreditou que uma palavra pode mudar o que parece perdido?",
+ "entender": "Neste trecho, Jesus curou a filha do líder da sinagoga. Primeiro, a mulher que havia sido curada temia e contou a verdade, e Jesus lhe disse: \"Filha, a tua fé te salvou\" (Marcos 5.34). Enquanto isso, o líder recebeu a notícia de que sua filha já havia morrido, mas Jesus respondeu: \"Não temas; crê somente\" (5.36). Ele foi até a casa, encontrou o alvoroço e declarou que a menina não estava morta, mas dormindo (5.39). Ao tocar a menina, Ele disse a palavra aramaica \"Talita cumi\", que significa: \"Menina, levanta-te\" (5.41). Imediatamente, a menina se levantou, viva aos doze anos, e todos ficaram espantados (5.42). O relato mostra a autoridade de Jesus sobre a morte, a importância da fé e o contraste entre o luto humano e a esperança que Ele oferece.\n\nO contexto anterior relata Jesus percebendo que o poder havia saído dele ao ser tocado por uma mulher (Marcos 5.30‑32). O capítulo termina aqui, reforçando o poder de Jesus em situações de desespero. O texto destaca que, mesmo quando tudo parece perdido, a confiança em Jesus pode trazer vida nova.",
+ "ligar": {
+  "texto": "Jesus demonstra que tem poder sobre a morte, apontando para a vitória que Ele alcançaria na cruz. Ao dizer que a menina \"não morreu, mas está dormindo\", Ele antecipa a ressurreição dos que creem (1 Coríntios 15.20). A palavra \"Talita cumi\" revela que Ele tem autoridade para chamar à vida, assim como Ele chamou os mortos à vida eterna por meio da sua própria ressurreição. A fé da mulher e do líder são recompensadas, mostrando que a confiança em Cristo traz salvação e restauração, não apenas física, mas espiritual.",
+  "selo": true
+ },
+ "viver": "A história nos lembra que, quando enfrentamos situações que parecem sem esperança – como a perda de um ente querido – podemos escolher confiar em Jesus. Assim como o líder da sinagoga foi convidado a não temer e crer, podemos entregar nossos medos a Ele, acreditando que Ele tem poder para transformar a dor em nova vida. Essa confiança nos impulsiona a agir com coragem, buscando a presença de Cristo mesmo nos momentos de luto, e nos abre para experimentar milagres cotidianos de esperança e restauração.\n\nAlém disso, a resposta de Jesus ao medo – \"Não temas; crê somente\" – nos convida a substituir a ansiedade por fé prática. Quando sentimos que tudo está perdido, podemos lembrar que o mesmo Jesus que levantou a menina pode renovar nossos corações e nos dar paz, independentemente das circunstâncias externas.",
+ "guarde": "A fé que crê nas palavras de Jesus transforma até a morte em nova vida.",
+ "ore": "Jesus, ao entrar na casa do líder da sinagoga, eu peço que Tu me ajudes a confiar mesmo quando tudo parece perdido, lembrando que Tu tens poder para trazer vida onde há morte.",
+ "quiz": {
+  "pergunta": "O que Jesus disse à menina antes de levantá‑la?",
+  "opcoes": [
+   "Acorda, menina",
+   "Filha, levanta-te",
+   "Talita cumi"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus usou a expressão aramaica \"Talita cumi\", que significa \"Menina, levanta-te\" (Marcos 5.41)."
+ },
+ "refs": [
+  "1 Coríntios 15:20",
+  "Lucas 8:48",
+  "Mateus 9:22"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T18:41:37.693Z",
+  "rounds": 1
+ }
+}

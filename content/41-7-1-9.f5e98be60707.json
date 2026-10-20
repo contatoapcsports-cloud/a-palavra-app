@@ -1,0 +1,133 @@
+{
+ "id": "41-7-1-9",
+ "ref": "Marcos 7:1-9",
+ "book": "41",
+ "chapter": 7,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Os fariseus, e alguns dos escribas, que tinham vindo de Jerusalém, reuniram-se com ele."
+  },
+  {
+   "n": 2,
+   "t": "E, quando viram que alguns dos discípulos dele comiam pão com mãos impuras, isto é, sem lavar, repreendiam-lhes."
+  },
+  {
+   "n": 3,
+   "t": "(Pois os fariseus, e todos os judeus, mantendo a tradição dos antigos, se não lavarem bastante as mãos, não comem."
+  },
+  {
+   "n": 4,
+   "t": "E, quando voltam da rua, se não se lavarem, não comem; e há muitas outras coisas que se encarregam de guardar, como lavar os copos, as vasilhas, os utensílios de metal, e os leitos)."
+  },
+  {
+   "n": 5,
+   "t": "Depois os fariseus e os escribas lhe perguntaram: Por que os teus discípulos não andam conforme a tradição dos antigos, em vez de comerem pão com as mãos sem lavar?"
+  },
+  {
+   "n": 6,
+   "t": "E ele lhes respondeu: Bem profetizou Isaías acerca de vós, hipócritas! Como está escrito: Este povo me honra com os lábios, mas o seu coração está longe de mim."
+  },
+  {
+   "n": 7,
+   "t": "Eles, porém, me honram em vão, ensinando como doutrinas mandamentos humanos. Isaías 29:13"
+  },
+  {
+   "n": 8,
+   "t": "Pois vós deixais o mandamento de Deus, e mantendes a tradição humana, como lavar as vasilhas e os copos; e fazeis muitas outras coisas semelhantes a estas."
+  },
+  {
+   "n": 9,
+   "t": "E dizia-lhes: Vós dispensais o mandamento de Deus para guardardes a vossa tradição;"
+  }
+ ],
+ "titulo": "Lavar mãos ou limpar o coração?",
+ "temas": [
+  "hipocrisia",
+  "tradição",
+  "coração",
+  "mandamento"
+ ],
+ "pergunta": "Quando é que nossa obediência a Deus vira apenas uma rotina vazia?",
+ "entender": "Em Marcos 7, os fariseus e escribas chegam de Jerusalém e criticam os discípulos de Jesus por comerem sem lavar as mãos. Para eles, essa lavagem era uma tradição antiga essencial para a pureza ritual. Jesus não debate a técnica da lavagem, mas ataca a raiz do problema: a hipocrisia.\n\nEle cita Isaías para mostrar que esses líderes honram a Deus com os lábios, mas o coração está longe. A crítica central é que eles deixam o mandamento de Deus para manter a tradição humana. É como se a regra externa substituísse a transformação interna. Jesus expõe que a religião deles virou um teatro de aparências, onde o que importa é o que os outros veem, e não a sinceridade diante de Deus.",
+ "ligar": {
+  "texto": "Jesus se coloca aqui como o Juiz justo que vê além das aparências. Ele não veio apenas para mudar regras de higiene, mas para revelar o verdadeiro estado do coração humano. O evangelho nos mostra que não podemos nos purificar com rituais externos para nos salvar. Somente Jesus, que é santo e perfeito, pode limpar nossa consciência e nos dar um coração novo, sensível à voz de Deus.",
+  "selo": true
+ },
+ "viver": "Pense em uma regra religiosa ou social que você segue por hábito, mas que não reflete seu amor a Deus ou ao próximo. Talvez seja a frequência à igreja, a forma de vestir ou as palavras de oração. Pergunte-se: estou fazendo isso para agradar a Deus ou para me sentir 'certo' diante dos outros? A aplicação concreta é examinar suas motivações secretas. Se sua fé é apenas externa, ela não transforma sua vida. Busque a sinceridade do coração, que é o que Deus realmente deseja.",
+ "guarde": "Deus não quer rituais vazios, mas um coração que O ame sinceramente.",
+ "ore": "Jesus, em Cafarnaum, Tu expuseste a hipocrisia dos fariseus. Ajuda-me a examinar meu coração hoje. Mostra-me onde estou te honrando apenas com os lábios. Limpa minha vida de tradições que me afastam de Ti e renova minha sinceridade.",
+ "quiz": {
+  "pergunta": "Por que Jesus repreendeu os fariseus sobre a lavagem das mãos?",
+  "opcoes": [
+   "Porque eles priorizavam a tradição humana em vez do mandamento de Deus.",
+   "Porque os discípulos estavam doentes por causa da sujeira.",
+   "Porque a lavagem das mãos era uma lei mosaica obrigatória."
+  ],
+  "certa": 0,
+  "explicacao": "O texto mostra que Jesus critica a troca do mandamento divino pela tradição humana, revelando a hipocrisia de quem segue regras externas sem obedecer a Deus no coração."
+ },
+ "refs": [
+  "Mateus 15:1-9",
+  "Lucas 11:39-40",
+  "Isaías 29:13"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T18:53:20.406Z",
+  "rounds": 1
+ }
+}
