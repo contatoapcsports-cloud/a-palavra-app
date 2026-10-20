@@ -1,0 +1,137 @@
+{
+ "id": "43-18-11-20",
+ "ref": "João 18:11-20",
+ "book": "43",
+ "chapter": 18,
+ "verses": [
+  {
+   "n": 11,
+   "t": "Disse pois Jesus a Pedro: Põe tua espada na bainha; não beberei eu o copo que o Pai tem me dado?"
+  },
+  {
+   "n": 12,
+   "t": "O grupo de soldados pois, e o comandante, e os oficiais dos judeus juntamente tomaram a Jesus, e o amarraram."
+  },
+  {
+   "n": 13,
+   "t": "E o levaram primeiramente a Anás, porque era sogro de Caifás, o qual era o sumo sacerdote daquele ano."
+  },
+  {
+   "n": 14,
+   "t": "E era Caifás o que havia aconselhado aos judeus de que convinha que um homem morresse pelo povo."
+  },
+  {
+   "n": 15,
+   "t": "E Simão Pedro seguia a Jesus com outro discípulo. E este discípulo era conhecido do sacerdote, e entrou com Jesus no pátio do sumo sacerdote."
+  },
+  {
+   "n": 16,
+   "t": "E Pedro estava fora à porta. Saiu pois o outro discípulo, que era conhecido do sacerdote, e falou à porteira, e pôs dentro a Pedro."
+  },
+  {
+   "n": 17,
+   "t": "Disse pois a serva porteira a Pedro: Não és tu também dos discípulos deste homem? Disse ele: Não sou."
+  },
+  {
+   "n": 18,
+   "t": "E estavam ali os servos, e os oficiais, que haviam feito uma fogueira de brasas, porque fazia frio, e se esquentavam. Estava Pedro com eles, e se esquentava."
+  },
+  {
+   "n": 19,
+   "t": "Perguntou pois o sacerdote a Jesus sobre seus discípulos, e sobre sua doutrina."
+  },
+  {
+   "n": 20,
+   "t": "Jesus lhe respondeu: Eu abertamente falei ao mundo; eu sempre ensinei na sinagoga e no Templo, onde os Judeus de todos os lugares se juntam, e nada falei em oculto."
+  }
+ ],
+ "titulo": "A fogueira que revelou a fraqueza de Pedro",
+ "temas": [
+  "medo",
+  "fidelidade",
+  "testemunho",
+  "humildade"
+ ],
+ "pergunta": "O que acontece quando a pressão social nos faz negar aquilo que somos?",
+ "entender": "Depois de Pedro cortar a orelha de Malco, Jesus manda ele guardar a espada. A cena muda de um confronto violento para um interrogatório silencioso na casa do sumo sacerdote. Jesus é levado a Anás e depois a Caifás, enquanto Pedro, assustado, segue à distância. Ele entra no pátio apenas porque outro discípulo, conhecido do sacerdote, intercedeu por ele. Lá dentro, a primeira pergunta é simples: \"Não és tu também dos discípulos deste homem?\". Pedro nega: \"Não sou\".\n\nEnquanto isso, os servos e oficiais acendem uma fogueira de brasas porque fazia frio. O texto destaca que Pedro estava com eles, esquentando-se. Essa imagem é poderosa: ele está fisicamente perto da verdade (Jesus está sendo julgado ali dentro), mas emocionalmente e espiritualmente distante, buscando conforto na companhia de quem o persegue. A fogueira não aquece o coração de Pedro; ao contrário, revela sua timidez e medo. Ele se mistura à multidão para não ser notado, esquecendo que sua identidade em Cristo não depende do clima ou da aprovação humana.\n\nJesus, no interior da casa, responde ao sacerdote com uma declaração de transparência radical: \"Eu abertamente falei ao mundo\". Ele não agiu nas sombras. Enquanto Jesus ensina à luz do dia, Pedro esconde-se na penumbra, próximo ao fogo, mas longe da luz. O contraste é nítido: a coragem pública de Cristo versus a covardia privada de Pedro. Este episódio não é apenas sobre a negação, mas sobre a tensão entre a verdade que expõe e o conforto que esconde.",
+ "ligar": {
+  "texto": "Este trecho aponta para Jesus como a Luz que não pode ser contida. Enquanto Pedro procura calor humano e segurança em negar sua fé, Jesus permanece firme na verdade, mesmo sob interrogatório. O evangelho nos mostra que a fidelidade a Cristo nem sempre nos protege do sofrimento ou da solidão, mas nos garante uma identidade inabalável. A fogueira de Pedro é um lembrete de que o conforto mundano muitas vezes exige que apaguemos a chama da nossa convicção. Jesus, porém, é a luz que brilha mesmo na escuridão do pátio do sumo sacerdote, convidando-nos a não nos escondermos.",
+  "selo": true
+ },
+ "viver": "A fogueira de Pedro representa o desejo de pertencer, de estar quente e seguro no grupo. Hoje, identifique onde você tem se \"esquentado\" na companhia de quem não compartilha seus valores cristãos apenas para evitar conflito. A coragem de Jesus não foi barulhenta, mas constante. Experimente, em uma conversa pequena esta semana, ser honesto sobre sua fé, mesmo que seja apenas com uma frase simples. Não busque o calor da aprovação, mas a luz da verdade.",
+ "guarde": "A verdade de Jesus brilha no escuro; não troque a luz eterna pelo calor passageiro do medo.",
+ "ore": "Jesus, no pátio de Caifás, Tu ficaste firme enquanto eu me escondia. Perdoa minha timidez diante do mundo. Ensina-me a não buscar conforto na negação, mas força na Tua presença. Que minha fé seja aberta e clara, como a Tua.",
+ "quiz": {
+  "pergunta": "Por que Pedro estava junto à fogueira no pátio do sumo sacerdote?",
+  "opcoes": [
+   "Para cozinhar a refeição dos guardas do Templo",
+   "Para se esquentar e se sentir seguro entre os oficiais",
+   "Para ajudar Jesus a se aquecer durante o interrogatório"
+  ],
+  "certa": 1,
+  "explicacao": "O texto diz explicitamente que fazia frio e que Pedro se esquentava com os servos e oficiais, o que revela seu medo e desejo de se misturar à multidão para não ser reconhecido como discípulo de Jesus."
+ },
+ "refs": [
+  "Mateus 26:57-68",
+  "Marcos 14:53-65",
+  "Lucas 22:54-71"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T01:00:14.524Z",
+  "rounds": 3
+ }
+}
