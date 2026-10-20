@@ -1,4 +1,4 @@
-# Linha doutrinária do A Palavra – Aprendendo as Escrituras
+# Linha doutrinária do Palavra Viva – Aprendendo as Escrituras
 
 Este texto é lido pelo gerador e pelos dois auditores. Pode ser editado pelo responsável do projeto.
 
