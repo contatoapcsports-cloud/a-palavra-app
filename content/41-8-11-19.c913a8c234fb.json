@@ -1,0 +1,134 @@
+{
+ "id": "41-8-11-19",
+ "ref": "Marcos 8:11-19",
+ "book": "41",
+ "chapter": 8,
+ "verses": [
+  {
+   "n": 11,
+   "t": "Os fariseus vieram, e começaram a disputar com ele, pedindo-lhe sinal do céu, para o testar."
+  },
+  {
+   "n": 12,
+   "t": "E ele, suspirando profundamente em seu espírito, disse: Por que esta geração pede um sinal? Em verdade vos digo, que não se dará sinal a esta geração."
+  },
+  {
+   "n": 13,
+   "t": "Então os deixou, voltou a entrar no barco , e foi para a outro lado do mar ."
+  },
+  {
+   "n": 14,
+   "t": "E os seus discípulos haviam se esquecido de tomar pão, e nada tinham, a não ser um pão com eles no barco."
+  },
+  {
+   "n": 15,
+   "t": "E Jesus lhes deu a seguinte ordem: Prestai atenção: tende cuidado com o fermento dos fariseus e o fermento de Herodes."
+  },
+  {
+   "n": 16,
+   "t": "E indagavam-se com os outros , dizendo: É porque não temos pão."
+  },
+  {
+   "n": 17,
+   "t": "Jesus soube e lhes disse: Por que indagais que não tendes pão? Não percebeis ainda, nem entendeis? Ainda tendes o vosso coração endurecido?"
+  },
+  {
+   "n": 18,
+   "t": "Tendes olhos, e não vedes? Tendes ouvidos, e não ouvis?"
+  },
+  {
+   "n": 19,
+   "t": "E não vos lembrais de, quando parti os cinco pães entre os cinco mil, quantos cestos cheios de pedaços levantastes?Responderam-lhe: Doze."
+  }
+ ],
+ "titulo": "O sinal que não veio e o pão esquecido",
+ "temas": [
+  "fé",
+  "coração endurecido",
+  "memória espiritual",
+  "sinais",
+  "discipulado"
+ ],
+ "pergunta": "Por que Jesus se irritou tanto ao pedir um sinal do céu?",
+ "entender": "Depois de alimentar quatro mil pessoas, Jesus e seus discípulos cruzam o mar. Os fariseus chegam não para aprender, mas para testar Jesus, pedindo um \"sinal do céu\". Jesus suspira profundamente, entristecido com a falta de fé daquela geração, e decide ir para o outro lado. No barco, os discípulos se preocupam porque esqueceram de levar pão, tendo apenas um com eles.\n\nJesus usa essa situação real para ensinar uma lição espiritual. Ele adverte sobre o \"fermento dos fariseus e o fermento de Herodes\". Os discípulos, confusos, acham que ele está falando da falta de pão. Jesus repreende a \"dureza\" de seus corações, perguntando por que não percebem que o problema não é a comida física, mas a cegueira espiritual. Ele os convida a lembrar das multiplicações anteriores: cinco pães para cinco mil (doze cestos) e sete pães para quatro mil (sete cestos).",
+ "ligar": {
+  "texto": "Este trecho revela a tensão entre a fé que busca provas externas e a confiança no caráter de Jesus. Jesus não se recusa a fazer milagres, mas se recusa a satisfazer uma fé que o trata como mágico ou político. O evangelho é apresentado não como um espetáculo para impressionar, mas como a revelação de quem Ele é. A \"dureza\" do coração dos discípulos contrasta com a graça de Jesus, que tem paciência para ensinar, mesmo quando seus seguidores falham em lembrar as obras que Ele já fez. A salvação vem de abrir os olhos para a identidade de Cristo, não para exigir sinais sobrenaturais.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, nossa falta de confiança em Deus não vem da ausência de provas, mas de uma memória espiritual curta. Assim como os discípulos esqueceram os pães que Jesus multiplicou, podemos esquecer as vezes em que Ele sustentou nossa vida. A aplicação prática é cultivar a memória da graça: anotar e refletir sobre como Deus agiu em momentos difíceis. Quando a ansiedade ou a dúvida surgirem, em vez de exigir um novo \"sinal\" imediato, lembre-se das \"cestas cheias\" do passado. A fé madura reconhece que a provisão de Deus já está presente, mesmo quando não vemos o próximo passo.",
+ "guarde": "A fé não depende de novos sinais, mas da memória viva do que Deus já fez.",
+ "ore": "Em Dalmanuta, onde os discípulos esqueceram o pão, Senhor, perdoa minha memória curta. Ajuda-me a lembrar as vezes em que Tu sustentaste minha vida. Que eu não busque apenas sinais para me impressionar, mas confie em Teu caráter fiel. Abre meus olhos endurecidos para ver Tua presença no cotidiano.",
+ "quiz": {
+  "pergunta": "O que Jesus quis dizer com o 'fermento dos fariseus e de Herodes'?",
+  "opcoes": [
+   "O fermento usado para assar o pão.",
+   "A falta de pão no barco.",
+   "A influência corrupta e a cegueira espiritual desses grupos."
+  ],
+  "certa": 2,
+  "explicacao": "Jesus usou a metáfora do fermento para se referir à doutrina falsa e à cegueira espiritual que levavam as pessoas a mal interpretarem os sinais e a rejeitarem a mensagem do Reino."
+ },
+ "refs": [
+  "Mateus 16:1-12",
+  "Lucas 12:54-56",
+  "João 6:26-27"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T21:44:28.273Z",
+  "rounds": 1
+ }
+}

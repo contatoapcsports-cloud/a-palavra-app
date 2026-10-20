@@ -1,0 +1,132 @@
+{
+ "id": "41-7-29-37",
+ "ref": "Marcos 7:29-37",
+ "book": "41",
+ "chapter": 7,
+ "verses": [
+  {
+   "n": 29,
+   "t": "Então ele lhe disse: Por esta palavra, vai, o demônio já saiu da tua filha."
+  },
+  {
+   "n": 30,
+   "t": "Quando ela chegou à sua casa, encontrou que o demônio já havia saído, e a filha estava deitada sobre a cama."
+  },
+  {
+   "n": 31,
+   "t": "Então Jesus voltou a sair da região de Tiro e de Sidom, e veio para o mar da Galilea, por meio da região de Decápolis."
+  },
+  {
+   "n": 32,
+   "t": "E trouxeram-lhe um surdo que dificilmente falava, e rogaram-lhe que pusesse a mão sobre ele."
+  },
+  {
+   "n": 33,
+   "t": "E tomando-o em separado da multidão, pôs os seus dedos nos ouvidos dele, cuspiu, e tocou-lhe a língua."
+  },
+  {
+   "n": 34,
+   "t": "Depois, levantando os olhos ao céu, suspirou, e disse: Efatá, (isto é, abre-te)."
+  },
+  {
+   "n": 35,
+   "t": "Imediatamente os ouvidos dele se abriram, e o que prendia sua língua se soltou, e passou a falar bem."
+  },
+  {
+   "n": 36,
+   "t": "Jesus lhes mandou que a ninguém dissessem; porém, quanto mais lhes mandava, mais divulgavam."
+  },
+  {
+   "n": 37,
+   "t": "E ficavam muito admirados, dizendo: Ele faz tudo bem! Aos surdos faz ouvir, e aos mudos falar."
+  }
+ ],
+ "titulo": "Quando o toque de Jesus abre ouvidos e línguas",
+ "temas": [
+  "cura",
+  "fé",
+  "compaixão"
+ ],
+ "pergunta": "Já imaginou que um simples toque pode mudar o que você não consegue ouvir ou dizer?",
+ "entender": "Jesus chegou à região de Decápolis e foram‑lhe trazidos um surdo que \"dificilmente falava\" (Marcos 7.32‑33). Ele retirou o homem da multidão, pôs os dedos nos ouvidos, cuspiu e tocou a língua (v.33). Então, levantando os olhos ao céu, disse: \"Efatá, (isto é, abre‑te)\" (v.34). Imediatamente os ouvidos se abriram e a língua foi solta, e o homem passou a falar bem (v.35). O relato segue a cura da filha da mulher grega (v.26‑30) e mostra que o ministério de Jesus alcança todos que creem, independentemente da origem.\n\nA ação de Jesus demonstra compaixão prática: Ele não esperou por palavras ou rituais, mas tocou pessoalmente. O comando \"Efatá\" revela que Ele invoca o poder de Deus, levantando os olhos ao céu, sinal de dependência total do Pai. Mesmo ordenando silêncio, a notícia se espalhou, indicando que o Reino de Deus se expande apesar das tentativas humanas de conter a mensagem.",
+ "ligar": {
+  "texto": "Ao restaurar a audição e a fala, Jesus revela o poder divino que também venceu o pecado na cruz. O toque que abre os ouvidos aponta para o Espírito Santo que nos faz ouvir a boa nova e responder. Assim como o homem passou de mudo a falante, somos convidados a proclamar o evangelho que nos libertou, confiando que a mesma voz que curou o surdo agora fala por nós, trazendo vida plena.",
+  "selo": true
+ },
+ "viver": "Ao observar que Jesus não hesitou em tocar alguém considerado \"difícil\", percebemos que Ele nos chama a estar perto dos que sofrem. Quando alguém ao nosso redor parece incapaz de se expressar, podemos oferecer presença e apoio, lembrando que o mesmo Jesus que curou o surdo está disposto a nos usar como instrumentos de compaixão. Gestos simples de atenção podem abrir caminhos de comunicação e trazer cura nas relações cotidianas.",
+ "guarde": "Um toque de Jesus pode transformar silêncio em voz e dor em esperança.",
+ "ore": "Jesus ao curar o surdo e mudo, eu peço que me ajude a ouvir a sua voz interior e a falar com coragem a verdade que liberta.",
+ "quiz": {
+  "pergunta": "Qual foi a palavra que Jesus pronunciou antes de curar o homem surdo e mudo?",
+  "opcoes": [
+   "Deixa primeiro que os filhos se fartem",
+   "Efatá, (isto é, abre‑te)",
+   "Paz seja convosco"
+  ],
+  "certa": 1,
+  "explicacao": "Jesus disse exatamente \"Efatá, (isto é, abre‑te)\" (Marcos 7.34), comandando a cura."
+ },
+ "refs": [
+  "Isaías 35:5-6",
+  "Mateus 11:5",
+  "Lucas 4:18"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T21:43:14.088Z",
+  "rounds": 2
+ }
+}

@@ -1,0 +1,133 @@
+{
+ "id": "41-8-30-38",
+ "ref": "Marcos 8:30-38",
+ "book": "41",
+ "chapter": 8,
+ "verses": [
+  {
+   "n": 30,
+   "t": "E lhes ordenou que a ninguém dissessem aquilo dele."
+  },
+  {
+   "n": 31,
+   "t": "E começou a lhes ensinar que era necessário que o Filho do homem sofresse muito, e fosse rejeitado pelos anciãos e pelos chefes dos sacerdotes e escribas, e que fosse morto, e depois de três dias ressuscitasse."
+  },
+  {
+   "n": 32,
+   "t": "Ele dizia essa palavra abertamente. Então Pedro o tomou à parte, e começou a repreendê-lo."
+  },
+  {
+   "n": 33,
+   "t": "Mas Jesus virou-se e, olhando para os seus discípulos, repreendeu Pedro, dizendo: Sai de diante de mim, satanás! Pois tu não compreendes as coisas de Deus, mas sim as humanas."
+  },
+  {
+   "n": 34,
+   "t": "Então chamou a si a multidão com os seus discípulos, e disse-lhes: Quem quiser vir após mim, negue a si mesmo, tome a sua cruz, e siga-me;"
+  },
+  {
+   "n": 35,
+   "t": "pois quem quiser salvar a sua vida, a perderá; mas quem perder a sua vida por causa de mim e do Evangelho, esse a salvará."
+  },
+  {
+   "n": 36,
+   "t": "Pois que proveito teria alguém, se ganhasse o mundo todo, e perdesse a sua alma?"
+  },
+  {
+   "n": 37,
+   "t": "Ou que daria alguém em resgate de sua alma?"
+  },
+  {
+   "n": 38,
+   "t": "Porque todo aquele que se envergonhar de mim e de minhas palavras nesta geração adúltera e pecadora, também o Filho do homem, quando vier na glória de seu Pai com os santos anjos, envergonhar-se-á dele."
+  }
+ ],
+ "titulo": "A lógica invertida da vida eterna",
+ "temas": [
+  "cruz",
+  "discipulado",
+  "sofrimento",
+  "identidade"
+ ],
+ "pergunta": "Por que tentar salvar a sua vida pode ser o caminho para perdê-la?",
+ "entender": "Depois de Pedro declarar que Jesus é o Cristo, o Mestre muda o assunto. Ele ensina que o Filho do homem precisa sofrer, ser morto e ressuscitar. Pedro, pensando como um humano, tenta repreendê-lo, mas Jesus o corrige: ele não compreende as coisas de Deus, mas as humanas.\n\nAí Jesus chama a multidão e define o discipulado com três ações: negar a si mesmo, tomar a cruz e segui-lo. A lógica é contra-intuitiva. Quem tenta preservar a própria vida a perderá; mas quem a perde por causa de Jesus e do Evangelho, a salvará. O texto questiona o valor do mundo em comparação com a alma.",
+ "ligar": {
+  "texto": "Este trecho conecta diretamente a identidade de Jesus com o custo de segui-lo. A cruz não é apenas um evento histórico, mas o padrão da vida cristã. Jesus aponta que a salvação não se compra, pois ninguém pode dar resgate pela alma. A vitória final vem da ressurreição, que transforma a derrota aparente da cruz em triunfo eterno, convidando o leitor a confiar nessa nova realidade.",
+  "selo": true
+ },
+ "viver": "O texto não pede que você ignore seus problemas, mas que mude a prioridade. Assim como Pedro falhou ao pensar em glória humana, evite medir seu sucesso apenas pelo conforto ou status. Identifique uma área onde você tenta controlar tudo e entregue o leme a Deus. 'Negar a si mesmo' é dizer não aos seus impulsos egoístas para dizer sim à vontade de Cristo. Isso pode significar perdoar um ofensor ou servir sem buscar aplausos, aceitando que o caminho de Jesus muitas vezes exige renúncia.",
+ "guarde": "Quem perde a vida por causa do Evangelho é quem, de fato, a encontra.",
+ "ore": "Em Cesareia de Filipe, Tu me ensinaste sobre a cruz. Senhor, corrige minha mentalidade humana. Ensina-me a negar meus próprios planos e a tomar minha cruz diáriamente. Que eu não me envergonhe de Ti, mas Te siga com alegria, confiando na Tua ressurreição.",
+ "quiz": {
+  "pergunta": "O que Jesus disse que Pedro estava compreendendo em Marcos 8:33?",
+  "opcoes": [
+   "As coisas de Deus",
+   "As coisas humanas",
+   "A mensagem dos profetas"
+  ],
+  "certa": 1,
+  "explicacao": "Jesus repreende Pedro dizendo que ele não compreende as coisas de Deus, mas sim as humanas, pois tentava evitar o sofrimento que era parte do plano divino."
+ },
+ "refs": [
+  "Lucas 9:23-25",
+  "Mateus 16:24-26",
+  "Romanos 6:4"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T21:47:29.675Z",
+  "rounds": 2
+ }
+}

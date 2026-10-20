@@ -628,15 +628,21 @@
   },
   "41-7-10-19": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: viver:citacao_fora_do_texto, abertura_repetida:viver:43-4-12-22",
+   "estado": "pronto",
+   "titulo": "O que realmente te contamina?"
   },
   "41-7-20-28": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:menos_de_2_paragrafos",
+   "estado": "pronto",
+   "titulo": "Migalhas que curam: a fé da mulher sirofenícia"
   },
   "41-7-29-37": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: NARRATIVE_EVENT_CONSISTENCY: O texto bíblico relata que outras pessoas trouxeram o surdo e rogaram por ele (v. 32), e não que Jesus agiu a pedido do próprio surdo. | LANGUAGE_CLARITY: Há frase com sintaxe truncada ('recebe a pedido de um surdo') e erro de conjugação verbal ('cuspe' em vez de 'cospe'",
+   "estado": "pronto",
+   "titulo": "Quando o toque de Jesus abre ouvidos e línguas"
   },
   "41-8-1-10": {
    "execucoes": 0,
@@ -644,7 +650,9 @@
   },
   "41-8-11-19": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O sinal que não veio e o pão esquecido"
   },
   "41-8-20-29": {
    "execucoes": 0,
@@ -652,7 +660,9 @@
   },
   "41-8-30-38": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:viver:43-4-12-22",
+   "estado": "pronto",
+   "titulo": "A lógica invertida da vida eterna"
   },
   "41-9-1-10": {
    "execucoes": 0,
@@ -665,28 +675,48 @@
   "41-9-21-31": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-9-32-40": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-9-41-50": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-10-1-10": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-10-11-21": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-10-22-31": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 240,
-   "entrada": 531844,
-   "saida": 218168
+   "chamadas": 247,
+   "entrada": 551290,
+   "saida": 224178
   },
   "groq-qwen": {
-   "chamadas": 237,
-   "entrada": 500261,
-   "saida": 187114
+   "chamadas": 244,
+   "entrada": 517830,
+   "saida": 192529
   },
   "gemini": {
-   "chamadas": 186,
-   "entrada": 596052,
-   "saida": 260695
+   "chamadas": 192,
+   "entrada": 615121,
+   "saida": 265960
   },
   "cloudflare": {
-   "chamadas": 106,
-   "entrada": 365371,
-   "saida": 39326
+   "chamadas": 111,
+   "entrada": 382496,
+   "saida": 41181
   },
   "mistral": {
    "chamadas": 0,

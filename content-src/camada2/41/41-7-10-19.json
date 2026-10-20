@@ -1,0 +1,137 @@
+{
+ "id": "41-7-10-19",
+ "ref": "Marcos 7:10-19",
+ "book": "41",
+ "chapter": 7,
+ "verses": [
+  {
+   "n": 10,
+   "t": "porque Moisés disse: Honra o teu pai e a tua mãe. E quem maldisser ao pai ou à mãe terá de morrer."
+  },
+  {
+   "n": 11,
+   "t": "Mas vós dizeis: Se o homem disser ao pai ou à mãe: Tudo o que te puder aproveitar de mim é corbã (isto é, oferta),"
+  },
+  {
+   "n": 12,
+   "t": "então não lhe deixais mais nada fazer por seu pai ou por sua mãe."
+  },
+  {
+   "n": 13,
+   "t": "Assim invalidaias a palavra de Deus por vossa tradição, que ordenastes; e fazeis muitas coisas semelhantes a estas."
+  },
+  {
+   "n": 14,
+   "t": "E chamando para si toda a multidão, disse-lhes: Ouvi-me todos, e entendei:"
+  },
+  {
+   "n": 15,
+   "t": "Nada há fora do ser humano que nele entre que o possa contaminar; mas o que dele sai, isso é o que contamina o ser humano."
+  },
+  {
+   "n": 16,
+   "t": "Se alguém tem ouvidos para ouvir, ouça."
+  },
+  {
+   "n": 17,
+   "t": "Quando Jesus deixou a multidão e entrou em casa, seus discípulos lhe perguntaram sobre a parábola."
+  },
+  {
+   "n": 18,
+   "t": "E ele lhes disse: Também vós estais assim sem entendimento? Não entendeis que tudo o que de fora entra no ser humano não o pode contaminar?"
+  },
+  {
+   "n": 19,
+   "t": "Pois não entra no seu coração, mas, sim, no ventre, e sai para a privada. (Assim, ele declarou como limpas todas as comidas)."
+  }
+ ],
+ "titulo": "O que realmente te contamina?",
+ "temas": [
+  "coração",
+  "tradição",
+  "pureza",
+  "liberdade"
+ ],
+ "pergunta": "Você já usou uma regra ou desculpa para não cumprir um dever com alguém que ama?",
+ "entender": "Jesus critica os líderes religiosos que, através de tradições humanas, anulavam mandamentos claros de Deus. Eles permitiam que alguém declarasse seus recursos como \"corbã\" (oferta sagrada) e, assim, deixasse de ajudar os pais, violando o princípio de honrá-los.\n\nEm seguida, Jesus muda o foco da limpeza externa para a interna. Ele ensina que nada do que entra pela boca contamina a pessoa, pois vai apenas para o ventre. O que realmente contamina é o que sai do coração. Essa declaração liberta as pessoas de regras de pureza alimentar que haviam se tornado fardos, apontando para a verdadeira santidade: a transformação interior.",
+ "ligar": {
+  "texto": "Jesus é o único que pode purificar o coração, algo que nenhuma regra externa consegue fazer. Ao declarar limpas todas as comidas, Ele prepara o caminho para a nova aliança, onde a lei está escrita no coração. Somente por meio da fé em Cristo recebemos o Espírito Santo, que nos capacita a amar genuinamente, sem precisar de máscaras religiosas ou tradições que anulem o amor ao próximo.",
+  "selo": true
+ },
+ "viver": "Jesus confrontou a prática de usar a religião para justificar a falta de cuidado com a família. Talvez você use a correria do trabalho ou a igreja como desculpa para não dedicar tempo a quem depende de você. A verdadeira obediência não está em rituais vazios, mas em ações concretas de amor. Examine seu coração: o que está saindo dele hoje? É indiferença ou dedicação genuína?",
+ "guarde": "A verdadeira pureza não está no que comemos, mas no que cultivamos no coração.",
+ "ore": "Jesus, Tu que disseste que o que sai do coração contamina, abre meus olhos para ver as raízes dos meus maus pensamentos. Não me deixo levar por tradições que anulem o amor. Renova meu interior para que minhas ações reflitam Tua graça e eu honre a Ti e às pessoas ao meu redor com sinceridade.",
+ "quiz": {
+  "pergunta": "Segundo Jesus em Marcos 7:15, o que realmente contamina o ser humano?",
+  "opcoes": [
+   "O toque de pessoas não purificadas",
+   "A comida impura",
+   "O que sai do coração"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus ensina que a contaminação vem de dentro, do coração, e não de elementos externos como alimentos."
+ },
+ "refs": [
+  "Mateus 15:10-20",
+  "Romanos 2:28-29",
+  "Colossenses 2:16-23"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T21:45:20.620Z",
+  "rounds": 2
+ }
+}

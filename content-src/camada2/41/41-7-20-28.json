@@ -1,0 +1,133 @@
+{
+ "id": "41-7-20-28",
+ "ref": "Marcos 7:20-28",
+ "book": "41",
+ "chapter": 7,
+ "verses": [
+  {
+   "n": 20,
+   "t": "E dizia: O que sai do ser humano, isso contamina o ser humano."
+  },
+  {
+   "n": 21,
+   "t": "Pois é de dentro do coração humano que vêm os maus pensamentos, os adultérios, os pecados sexuais, os homicídios,"
+  },
+  {
+   "n": 22,
+   "t": "os roubos, as ganâncias, as maldades, o engano, a depravação, o olho malicioso, a blasfêmia, a soberba, a insensatez."
+  },
+  {
+   "n": 23,
+   "t": "Todos estes males procedem de dentro, e contaminam o ser humano."
+  },
+  {
+   "n": 24,
+   "t": "Jesus levantou-se dali e foi para a região de Tiro e de Sidom. Ele entrou numa casa, e não queria que ninguém soubesse disso, mas não pôde se esconder."
+  },
+  {
+   "n": 25,
+   "t": "Pois uma mulher, cuja filhinha tinha um espírito imundo, assim que ouviu falar dele, veio, e prostrou-se a seus pés."
+  },
+  {
+   "n": 26,
+   "t": "Esta mulher era grega, de nacionalidade sirofenícia; e rogava-lhe que expulsasse o demônio de sua filha."
+  },
+  {
+   "n": 27,
+   "t": "Mas Jesus lhe disse: Deixa primeiro que os filhos se fartem; porque não é bom tomar o pão dos filhos, e lançá-lo aos cachorrinhos."
+  },
+  {
+   "n": 28,
+   "t": "Porém ela lhe respondeu: Sim Senhor; mas também os cachorrinhos comem debaixo da mesa, das migalhas que os filhos deixam."
+  }
+ ],
+ "titulo": "Migalhas que curam: a fé da mulher sirofenícia",
+ "temas": [
+  "fé",
+  "inclusion",
+  "poder",
+  "oração"
+ ],
+ "pergunta": "O que a resposta da mulher revela sobre a natureza do amor de Deus?",
+ "entender": "Em Marcos 7, Jesus deixa a multidão e vai para a região de Tiro e Sidom, uma área gentia. Lá, uma mulher sirofenícia o procura porque sua filha estava possuída por um espírito imundo. Jesus usa uma metáfora: primeiro os filhos (Israel) devem ser alimentados, e não se deve tomar o pão deles para lançar aos cachorrinhos. A mulher responde com humildade e perspicácia: mesmo os cachorrinhos comem as migalhas que caem da mesa. Ela reconhece sua posição fora do pacto, mas crê que a graça de Jesus é tão grande que chega até ela.\n\nEste episódio mostra que a missão de Jesus começa com Israel, mas a salvação que Ele traz tem alcance universal. A fé da mulher, que aceita a condição imposta sem se ofender, demonstra uma confiança profunda no poder de Cristo. Não é a metáfora que limita o amor de Deus, mas a nossa visão limitada sobre Ele. A resposta dela abre caminho para a cura imediata da filha, provando que a fé, mesmo pequena, é suficiente para atrair a ação de Deus.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para o evangelho: Jesus é o único que pode expelir demônios e curar. A mulher não busca um ritual, mas a autoridade de Cristo. O fato de Ele atender um gentio antes do fim do período messiânico sinaliza que a graça que veio por Jesus rompe barreiras étnicas. O 'pão' que Jesus oferece é a vida eterna, e as 'migalhas' são a graça suficiente para quem se aproxima com fé, mostrando que em Cristo não há acepção de pessoas.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, sentimos que não temos direito de pedir a Deus porque não somos 'perfeitos' ou 'suficientes'. A mulher sirofenícia nos ensina a trazer nossas necessidades a Jesus não com base no nosso mérito, mas na Sua grandeza. Ela não disputou o pão; ela aceitou as migalhas. Na prática, isso significa parar de tentar impressionar Deus com sua religião ou moralidade e simplesmente confiar no Seu poder. Quando você sentir que sua fé é pequena, lembre-se: para Jesus, a fé que pede é a fé que recebe. Aproxime-se com a mesma honestidade dela.",
+ "guarde": "A fé que reconhece a própria indignidade, mas crê na grandeza da graça, sempre é atendida.",
+ "ore": "Jesus, em Tiro, Tu me vês. Assim como a mulher sirofenícia, eu me prostro a Teus pés reconhecendo que não mereço o pão, mas confio nas migalhas da Tua graça. Cura o que há de imundo em minha vida. Ensina-me a crer na Tua autoridade e no Teu amor que ultrapassa todas as barreiras. Amém.",
+ "quiz": {
+  "pergunta": "Qual era a nacionalidade da mulher que procurou Jesus em Tiro?",
+  "opcoes": [
+   "Judeia, de nacionalidade samaritana",
+   "Grega, de nacionalidade sirofenícia",
+   "Romena, de nacionalidade grega"
+  ],
+  "certa": 1,
+  "explicacao": "O texto de Marcos 7:26 identifica explicitamente a mulher como grega, de nacionalidade sirofenícia, indicando que ela era gentia, não judia."
+ },
+ "refs": [
+  "Mateus 15:21-28",
+  "Atos 10:34-35",
+  "Efésios 2:11-19"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T21:43:22.075Z",
+  "rounds": 1
+ }
+}
