@@ -6,17 +6,18 @@
 <meta name="theme-color" content="#06201a">
 <style>html,body{margin:0;background:#06201a}#splash{position:absolute;inset:0;z-index:50;background:#06201a;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:34px}#splash .logo{width:min(56vw,230px);height:auto;border-radius:22.5%;display:block}#splash .load{width:min(60vw,230px);height:4px;border-radius:2px;background:rgba(143,224,184,.18)}</style>
 <meta name="author" content="Anderson Pereira Cabral">
-<meta name="description" content="Palavra Viva: Bíblia em português, gratuita e sem internet, com ensino em camadas.">
-<title>Palavra Viva</title>
+<meta name="description" content="A Palavra – Aprendendo as Escrituras: Bíblia em português, gratuita e sem internet, com ensino em camadas.">
+<title>A Palavra – Aprendendo as Escrituras</title>
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
 <link rel="stylesheet" href="styles.css">
+<style>.sharehome{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:6px 16px 0}.sharebtn{margin-top:12px;width:100%}</style>
 </head>
 <body>
-<noscript><p style="padding:20px;font-family:sans-serif">O Palavra Viva precisa do JavaScript ligado para funcionar.</p></noscript>
+<noscript><p style="padding:20px;font-family:sans-serif">O aplicativo A Palavra precisa do JavaScript ligado para funcionar.</p></noscript>
 <div id="app">
-  <div id="splash" role="button" tabindex="0" aria-label="Palavra Viva, carregando. Toque para continuar">
+  <div id="splash" role="button" tabindex="0" aria-label="A Palavra, carregando. Toque para continuar">
     <img class="logo" src="icons/icon-512.png" width="220" height="220" alt="A Palavra: aprendendo as Escrituras">
     <div class="load" aria-hidden="true"><i></i></div>
   </div>
@@ -37,13 +38,14 @@
     <button class="resume" type="button" id="ensBanner" data-act="ensinos" hidden><span class="t"><span class="eyebrow">Ensinos prontos</span><strong id="ensBannerTxt"></strong></span><span class="ler">Abrir</span></button>
     <div class="sec" id="railSec">
       <span class="eyebrow">Escolha seu momento</span>
-      <div class="sechead"><h2>Continue no Palavra Viva</h2><span>Deslize &#8594;</span></div>
+      <div class="sechead"><h2>Continue em A Palavra</h2><span>Deslize &#8594;</span></div>
       <div class="rail">
         <button class="pcard" type="button" style="--img:url(assets/hero-dawn.jpg)" data-act="study" id="cardStudy"><span class="st"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3c1 4 5 5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 .2 1 .6 1.5 1 1.5C10 7 11 6 12 3Z"/></svg></span><span class="eb">Entender a passagem</span><strong>Quatro profundidades</strong><small>Ler, entender, ligar ao evangelho e viver</small></button>
         <button class="pcard" type="button" style="--img:url(assets/hero-bible.jpg)" data-act="ensinos" id="cardEns" hidden><span class="st"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3c1 4 5 5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 .2 1 .6 1.5 1 1.5C10 7 11 6 12 3Z"/></svg></span><span class="eb">Ensinos prontos</span><strong id="ensTitle">Aprenda a Palavra</strong><small id="ensSmall"></small></button>
         <button class="pcard" type="button" style="--img:url(assets/hero-reading.jpg)" data-act="marks"><span class="st"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.8 6.8 19.6l1-5.8L3.5 9.7l5.9-.9L12 3.5Z"/></svg></span><span class="eb">Minha Palavra</span><strong>Guarde o que falou com você</strong><small>Seus versículos destacados</small></button>
       </div>
     </div>
+    <div class="sharehome"><button class="btn" type="button" id="shHomeStudy">Compartilhar este estudo</button><button class="btn alt" type="button" id="shHomeApp">Compartilhar o app</button></div>
     <button class="resume" type="button" id="resume" hidden><span class="t"><span class="eyebrow" id="resumeEb">Continuar leitura</span><strong id="resumeTxt"></strong></span><span class="ler">Ler</span></button>
     <div class="bible">
       <span class="eyebrow">Bíblia</span>
@@ -127,7 +129,7 @@
   </nav>
 
   <div id="drawerBg"><div id="drawer" role="dialog" aria-modal="true" aria-label="Menu">
-    <div class="dh"><div><b>Palavra Viva</b><small>LEIA. ENTENDA. VIVA.</small></div><button class="xbtn" id="dClose" type="button" aria-label="Fechar">&times;</button></div>
+    <div class="dh"><div><b>A Palavra</b><small>LEIA. ENTENDA. VIVA.</small></div><button class="xbtn" id="dClose" type="button" aria-label="Fechar">&times;</button></div>
     <div class="drule"></div>
     <button class="ditem" type="button" data-d="audio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg>Áudio<i>&#8250;</i></button>
     <button class="ditem" type="button" data-d="cfg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1"/></svg>Configurações<i>&#8250;</i></button>
