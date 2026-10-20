@@ -1,4 +1,4 @@
-/* A Palavra – Aprendendo as Escrituras: app (interface + leitura + estudo). Offline primeiro. Sem dependências externas.
+/* Palavra Viva – Aprendendo as Escrituras: app (interface + leitura + estudo). Offline primeiro. Sem dependências externas.
    Regras do plano: conteúdo só entra se o hash conferir; aba sem conteúdo não aparece; o último conteúdo válido nunca é descartado. */
 (function () {
   'use strict';
@@ -600,13 +600,13 @@
   window.addEventListener('appinstalled', function () { deferred = null; toast('App instalado'); refreshInstall(); });
   function installHelp() {
     modal([mtag('Instalar', true), h('h2', { text: 'Instalar aplicativo' }),
-      h('p', {}, ['No Android, abra o menu do Chrome (três pontos) e escolha ', h('b', { text: 'Instalar aplicativo' }), ' ou ', h('b', { text: 'Adicionar à tela inicial' }), '. Depois disso o A Palavra abre como um aplicativo e funciona sem internet.'])]);
+      h('p', {}, ['No Android, abra o menu do Chrome (três pontos) e escolha ', h('b', { text: 'Instalar aplicativo' }), ' ou ', h('b', { text: 'Adicionar à tela inicial' }), '. Depois disso o Palavra Viva abre como um aplicativo e funciona sem internet.'])]);
   }
   function install() {
     if (isStandalone()) { toast('O app já está instalado.'); return; }
     if (deferred) { var d = deferred; deferred = null; d.prompt(); d.userChoice.then(refreshInstall, refreshInstall); } else installHelp();
   }
-  var APP_NAME = 'A Palavra – Aprendendo as Escrituras';
+  var APP_NAME = 'Palavra Viva – Aprendendo as Escrituras';
   function baseUrl() { return cfg.siteUrl || (location.origin + location.pathname); }
   function send(data, okMsg) {
     if (navigator.share) navigator.share(data).catch(function () { /* cancelado */ });
@@ -701,7 +701,7 @@
   function aboutModal() {
     var lic = manifest.license || {}, owner = cfg.ownerName || 'o responsável pelo projeto', yr = cfg.year || String(new Date().getFullYear());
     var dl = h('dl', {}, [
-      row('Projeto', 'A Palavra – Aprendendo as Escrituras. Gratuito, sem anúncios e sem coleta de dados.'),
+      row('Projeto', 'Palavra Viva – Aprendendo as Escrituras. Gratuito, sem anúncios e sem coleta de dados.'),
       cfg.ownerName ? row('Responsável', cfg.ownerName) : null,
       row('Texto bíblico e referências', lic.text || ''),
       row('Direitos', '© ' + yr + ' ' + owner + '. Todos os direitos reservados ao ensino e ao aplicativo; o texto bíblico segue a licença acima.'),
@@ -723,7 +723,7 @@
     probe.onerror = function () { img.style.setProperty('--img', 'url(assets/hero-reading.jpg)'); };
     probe.src = 'assets/abencoe.jpg';
     modal([img, mtag('Um gesto de continuidade'), h('h2', { text: 'Abençoe este Projeto' }),
-      h('p', { text: 'O aplicativo A Palavra nasceu para tornar a Palavra mais próxima, simples e presente na vida de cada pessoa.' }),
+      h('p', { text: 'O aplicativo Palavra Viva nasceu para tornar a Palavra mais próxima, simples e presente na vida de cada pessoa.' }),
       h('p', { text: 'Se este projeto tem edificado sua caminhada, você pode contribuir voluntariamente para ele continuar crescendo e alcançando outras vidas.' }),
       h('span', { class: 'note', text: 'Cada apoio é recebido com gratidão.' }),
       mtag('Contribuição voluntária via Pix'),
