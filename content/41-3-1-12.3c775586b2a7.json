@@ -1,0 +1,144 @@
+{
+ "id": "41-3-1-12",
+ "ref": "Marcos 3:1-12",
+ "book": "41",
+ "chapter": 3,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Jesus entrou outra vez na sinagoga; e estava ali um homem que tinha uma mão definhada."
+  },
+  {
+   "n": 2,
+   "t": "E prestavam atenção nele, se o curaria no sábado, para o acusarem."
+  },
+  {
+   "n": 3,
+   "t": "E Jesus disse ao homem que tinha a mão definhada: Levanta-te, e vem para o meio."
+  },
+  {
+   "n": 4,
+   "t": "E disse-lhes:É lícito no sábado fazer o bem, ou o mal? Salvar uma pessoa, ou matá-la? E mantiveram-se calados."
+  },
+  {
+   "n": 5,
+   "t": "E olhando ao redor para eles com indignação, sentindo pena da dureza dos seus corações, disse ao homem: Estende a tua mão. E ele estendeu; e sua mão foi restaurada , sã como a outra."
+  },
+  {
+   "n": 6,
+   "t": "Assim que os fariseus saíram, tiveram reunião com os herodianos contra ele, para combinarem sobre como o matariam."
+  },
+  {
+   "n": 7,
+   "t": "E Jesus retirou-se com os seus discípulos para o mar; e seguiu-o uma grande multidão da Galileia, da Judeia,"
+  },
+  {
+   "n": 8,
+   "t": "de Jerusalém, da Idumeia, dalém do Jordão, e os das proximidades de Tiro e de Sidom; uma grande multidão, tendo ouvido quão grandes coisas fazia, vieram a ele."
+  },
+  {
+   "n": 9,
+   "t": "E disse aos seus discípulos que um barquinho ficasse continuamente perto dele, por causa das multidões; para que não o apertassem."
+  },
+  {
+   "n": 10,
+   "t": "Pois havia curado muitos, de maneira que todos quantos tinham algum mal lançavam-se sobre ele a fim de tocá-lo."
+  },
+  {
+   "n": 11,
+   "t": "E os espíritos imundos, quando o viam, prostravam-se diante dele, e exclamavam: Tu és o Filho de Deus."
+  },
+  {
+   "n": 12,
+   "t": "Mas Jesus os repreendia muito, para que não manifestassem quem ele era."
+  }
+ ],
+ "titulo": "O que o sábado revela sobre o amor de Deus",
+ "temas": [
+  "sabatismo",
+  "compaixão",
+  "autoridade"
+ ],
+ "pergunta": "Por que Jesus curou no sábado quando ninguém ousava fazê‑lo?",
+ "entender": "Jesus entra na sinagoga e vê um homem com a mão definhada. Os fariseus observam, esperando que Ele o cure no sábado para poder acusá‑Lo. Ele então pergunta: “É lícito no sábado fazer o bem, ou o mal? Salvar uma pessoa, ou matá‑la?” (Marcos 3.4). Sentindo pena da dureza dos corações, Ele ordena ao homem que estenda a mão, e a mão é restaurada, “sã como a outra” (Marcos 3.5). Após a cura, os fariseus se reúnem com os herodianos para planejar a morte de Jesus (Marcos 3.6). O relato mostra a tensão entre a interpretação legalista da lei e o propósito de Deus de trazer vida e restauração.\n\nO contexto mostra que Jesus está constantemente cercado por multidões que o seguem por causa dos milagres (Marcos 3.7‑10). A cura no sábado expõe a hipocrisia dos que usam a lei para bloquear o amor de Deus, enquanto a compaixão de Jesus revela a verdadeira intenção da lei: o bem do próximo.",
+ "ligar": {
+  "texto": "A cura no sábado aponta para o coração do evangelho: Deus não quer que a lei seja um obstáculo ao amor, mas um meio de libertar. Jesus demonstra que o sábado foi criado para beneficiar o ser humano, não para o oprimir. Essa atitude revela Sua autoridade divina e prenuncia a obra redentora que Ele completaria na cruz, onde o maior bem – a salvação – seria oferecido a todos, mesmo que isso desafiasse as expectativas religiosas da época.",
+  "selo": true
+ },
+ "viver": "Quando nos deparamos com regras que parecem impedir a ajuda ao próximo, lembramos que Jesus priorizou a compaixão sobre a formalidade. Se alguém ao nosso redor está sofrendo, não espere o “momento certo” ou a aprovação de outros; ofereça ajuda como expressão do amor de Deus. Essa atitude pode gerar resistência, mas a graça nos capacita a agir em favor do bem, mesmo que isso cause desconforto aos que preferem a rigidez das normas.",
+ "guarde": "A verdadeira observância de Deus se mede pelo amor que praticamos, não pela rigidez das regras.",
+ "ore": "Jesus, ao curar no sábado, mostrou que o amor supera a lei; ajuda‑me a agir com compaixão mesmo quando a tradição me pressiona a ficar parado.",
+ "quiz": {
+  "pergunta": "Qual foi a pergunta que Jesus fez aos fariseus antes de curar o homem?",
+  "opcoes": [
+   "Quem tem autoridade para curar?",
+   "Por que não curam no sábado?",
+   "É lícito no sábado fazer o bem, ou o mal?"
+  ],
+  "certa": 2,
+  "explicacao": "A resposta correta reproduz a frase exata que Jesus usou para confrontar a interpretação legalista dos fariseus (Marcos 3.4)."
+ },
+ "refs": [
+  "Mateus 12:12",
+  "Lucas 6:6-9",
+  "Hebreus 13:8"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T09:39:00.947Z",
+  "rounds": 1
+ }
+}

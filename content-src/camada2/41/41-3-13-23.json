@@ -1,0 +1,141 @@
+{
+ "id": "41-3-13-23",
+ "ref": "Marcos 3:13-23",
+ "book": "41",
+ "chapter": 3,
+ "verses": [
+  {
+   "n": 13,
+   "t": "Ele subiu ao monte, e chamou para si os que quis; então vieram a ele."
+  },
+  {
+   "n": 14,
+   "t": "E constituiu doze para que estivessem com ele, para enviá-los a pregar,"
+  },
+  {
+   "n": 15,
+   "t": "para que tivessem poder de curar as enfermidades e expulsar os demônios."
+  },
+  {
+   "n": 16,
+   "t": "Eram eles: Simão, a quem pôs por nome Pedro;"
+  },
+  {
+   "n": 17,
+   "t": "Tiago filho de Zebedeu, e João, irmão de Tiago; e pôs-lhes por nome Boanerges, que significa “filhos do trovão”;"
+  },
+  {
+   "n": 18,
+   "t": "e André, Filipe, Bartolomeu, Mateus, Tomé; Tiago filho de Alfeu; Tadeu; Simão o zelote;"
+  },
+  {
+   "n": 19,
+   "t": "e Judas Iscariotes, o que o traiu."
+  },
+  {
+   "n": 20,
+   "t": "Quando foram para uma casa, outra vez se ajuntou uma multidão, de maneira que nem sequer podiam comer pão."
+  },
+  {
+   "n": 21,
+   "t": "Os seus familiares , ao ouvirem isso, saíram para detê-lo, porque diziam: “Ele stá fora de si”."
+  },
+  {
+   "n": 22,
+   "t": "E os escribas que haviam descido de Jerusalém diziam: Ele tem Belzebu, e é pelo chefe dos demônios que expulsa demônios."
+  },
+  {
+   "n": 23,
+   "t": "Então Jesus os chamou, e lhes disse por parábolas: Como pode Satanás expulsar Satanás?"
+  }
+ ],
+ "titulo": "Doze escolhidos e a acusação impossível",
+ "temas": [
+  "chamado",
+  "missão",
+  "oposição",
+  "autoridade"
+ ],
+ "pergunta": "O que significa ser escolhido por Jesus quando a multidão não para?",
+ "entender": "Em Marcos 3, Jesus sobe ao monte e escolhe doze homens para estarem com ele e serem enviados a pregar e curar. Essa escolha é intencional: \"chamou para si os que quis\" (v. 13). A lista inclui pessoas comuns, como Pedro e Mateus, mostrando que a base da comunidade de fé não é mérito humano, mas a iniciativa de Cristo.\n\nEnquanto isso, a pressão aumenta. A multidão é tão grande que eles não podem comer (v. 20). Sua própria família pensa que ele está \"fora de si\" (v. 21), e os escribas de Jerusalém acusam Jesus de expulsar demônios por poder de Belzebu (v. 22). Jesus responde com uma lógica simples: \"Como pode Satanás expulsar Satanás?\" (v. 23). A acusação dos inimigos revela a ilógica de uma divisão interna, não o poder de Satanás.\n\nO contraste é claro: a obediência dos doze, que seguem Jesus, versus a incredulidade dos que o rejeitam. A autoridade de Jesus não vem do caos, mas de sua unidade com o Pai e sua missão redentora.",
+ "ligar": {
+  "texto": "Este trecho aponta para Jesus como o Senhor que escolhe, envia e confronta a oposição. A escolha dos doze prefigura a igreja, corpo de Cristo, chamado para missões. A acusação de Belzebu mostra que o evangelho enfrenta rejeição, mas a autoridade de Jesus é divina e inabalável. Ele é o cabeça da comunidade que não se divide, mas serve.",
+  "selo": true
+ },
+ "viver": "Assim como Jesus escolheu doze para estarem com ele, você é chamado para uma comunhão próxima, não apenas para atividades. Em meio à correria, onde \"nem sequer podiam comer pão\", priorize tempo de quietude com Deus. A oposição ou o ceticismo ao seu redor não definem sua verdade; a fidelidade a Cristo define. Sirva com a autoridade que vem dele, não com medo.",
+ "guarde": "A escolha de Jesus nos capacita para a missão, mesmo quando a oposição parece vencer.",
+ "ore": "Senhor, assim como os doze, quero estar contigo. Perdoa minha pressa e minha falta de foco. Dá-me coragem para pregar e servir, mesmo quando não compreendo ou quando sou criticado. Que minha vida reflita tua autoridade e tua unidade.",
+ "quiz": {
+  "pergunta": "Por que os escribas acusaram Jesus de expulsar demônios por Belzebu?",
+  "opcoes": [
+   "Porque Jesus falava parábolas confusas",
+   "Para negar a autoridade divina de Jesus",
+   "Porque a multidão estava barulhenta"
+  ],
+  "certa": 1,
+  "explicacao": "Os escribas tentavam deslegitimar o poder de Jesus, atribuindo-o a uma fonte maligna, o que Jesus refuta mostrando a ilógica de Satanás se dividir contra si mesmo."
+ },
+ "refs": [
+  "Lucas 6:13",
+  "Mateus 10:1",
+  "João 14:12"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T09:50:31.395Z",
+  "rounds": 2
+ }
+}

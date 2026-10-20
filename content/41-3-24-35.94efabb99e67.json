@@ -1,0 +1,145 @@
+{
+ "id": "41-3-24-35",
+ "ref": "Marcos 3:24-35",
+ "book": "41",
+ "chapter": 3,
+ "verses": [
+  {
+   "n": 24,
+   "t": "Se algum reino estiver dividido contra si mesmo, tal reino não pode durar;"
+  },
+  {
+   "n": 25,
+   "t": "e se alguma casa estiver dividida contra si mesma, tal casa não pode durar firme."
+  },
+  {
+   "n": 26,
+   "t": "E se Satanás se levantar contra si mesmo, e for dividido, não pode durar, mas tem fim."
+  },
+  {
+   "n": 27,
+   "t": "Ninguém pode roubar os bens do valente, quando se entra na casa dele, se antes não amarrar ao valente; depois disso roubará a sua casa."
+  },
+  {
+   "n": 28,
+   "t": "Em verdade vos digo que todos os pecados serão perdoados aos filhos dos homens, e todas as blasfêmias com que blasfemarem;"
+  },
+  {
+   "n": 29,
+   "t": "mas quem blasfemar contra o Espírito Santo ficará sem perdão para sempre; em vez disso, é culpado do juízo eterno."
+  },
+  {
+   "n": 30,
+   "t": "Pois diziam: “Ele tem espírito imundo”."
+  },
+  {
+   "n": 31,
+   "t": "Então chegaram os seus irmãos e a sua mãe ; e estando de fora, mandaram chamá-lo."
+  },
+  {
+   "n": 32,
+   "t": "A multidão estava sentada ao redor dele. Então disseram-lhe: Eis que a tua mãe e os teus irmãos estão lá fora a te procurar."
+  },
+  {
+   "n": 33,
+   "t": "Ele lhes respondeu: Quem é a minha mãe ou os meus irmãos?"
+  },
+  {
+   "n": 34,
+   "t": "E, olhando em redor aos que estavam sentados perto dele, disse: Eis aqui minha mãe e meus irmãos."
+  },
+  {
+   "n": 35,
+   "t": "Pois quem fizer a vontade de Deus, esse é meu irmão, minha irmã, e mãe."
+  }
+ ],
+ "titulo": "Quem faz a vontade de Deus é família",
+ "temas": [
+  "família espiritual",
+  "vontade de deus",
+  "perdão",
+  "comunidade"
+ ],
+ "pergunta": "O que torna alguém verdadeiramente próximo de Jesus, além do sangue?",
+ "entender": "Após argumentar que Satanás não se divide contra si mesmo, Jesus responde à acusação de que ele seria demônio. Ele usa a lógica de que um reino dividido não dura, provando que o poder que o move é divino e unido. Logo depois, sua mãe e irmãos chegam para vê-lo, mas a multidão o impede de sair imediatamente.\n\nJesus aproveita o momento para redefinir o conceito de família. Olhando para seus discípulos sentados ao redor, ele declara: \"Eis aqui minha mãe e meus irmãos\". Ele estabelece que a verdadeira parentela com ele não é determinada apenas por laços de sangue, mas por uma atitude espiritual: \"quem fizer a vontade de Deus, esse é meu irmão, minha irmã, e mãe\". Isso cria um novo círculo de pertencimento centrado na obediência a Deus.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a nova família criada por Cristo. Ao dizer que os que fazem a vontade de Deus são seus irmãos e mãe, Jesus nos convida a entrar nessa comunhão. É o evangelho em ação: através da fé e da submissão à vontade de Deus, tornamo-nos parte da família de Jesus. Isso significa que nossa identidade e segurança não vêm de nosso histórico familiar terreno, mas de nossa posição em Cristo, que nos adota e nos une a todos os que creem.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, nos sentimos excluídos ou solitários, pensando que nossa família de origem define quem somos. Mas este trecho nos lembra que existe uma comunidade mais profunda: a dos que buscam a Deus. Hoje, identifique alguém na sua igreja ou grupo de estudo que também está aprendendo a obedecer a Deus. Estenda a mão, ofereça ajuda ou apenas uma palavra de encorajamento. Ao fazer isso, você está exercitando a nova família que Jesus descreveu, onde o amor e a obediência a Deus são os laços que unem todos.",
+ "guarde": "A família de Deus é formada por aqueles que escolhem fazer a vontade de Deus, não apenas por laços de sangue.",
+ "ore": "Jesus, ao redefinir a família em Marcos 3, mostraste que a obediência a Ti nos une. Ajuda-me a ver meus irmãos em Cristo como minha verdadeira família. Que eu busque a Tua vontade acima das minhas preferências, para que eu viva em comunhão real com os que Te amam. Dá-me coragem para amar aqueles que, como eu, estão aprendendo a seguir Teus passos.",
+ "quiz": {
+  "pergunta": "Segundo Jesus em Marcos 3:35, quem é considerado sua mãe, irmão ou irmã?",
+  "opcoes": [
+   "Quem faz a vontade de Deus",
+   "Apenas os parentes biológicos de Jesus",
+   "Todos os habitantes da Galileia"
+  ],
+  "certa": 0,
+  "explicacao": "O texto declara explicitamente que \"quem fizer a vontade de Deus\" é membro da família de Jesus, redefinindo a parentela espiritual."
+ },
+ "refs": [
+  "Mateus 12:50",
+  "Romanos 8:29",
+  "1 João 3:2"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T09:46:43.379Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,137 @@
+{
+ "id": "41-4-1-10",
+ "ref": "Marcos 4:1-10",
+ "book": "41",
+ "chapter": 4,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Jesus começou outra vez a ensinar junto ao mar, e uma grande multidão se ajuntou a ele, de maneira que ele entrou num barco e ficou sentado no mar; e toda a multidão estava em terra junto ao mar."
+  },
+  {
+   "n": 2,
+   "t": "E ensinava-lhes muitas coisas por parábolas; e dizia-lhes em seu ensinamento:"
+  },
+  {
+   "n": 3,
+   "t": "Ouvi: eis que o semeador saiu a semear;"
+  },
+  {
+   "n": 4,
+   "t": "E aconteceu que, enquanto semeava, uma parte das sementes caiu junto ao caminho, e os pássaros do céu vieram, e a comeram."
+  },
+  {
+   "n": 5,
+   "t": "E outra caiu em pedregulhos, onde não havia muita terra; e logo nasceu, porque não tinha terra profunda."
+  },
+  {
+   "n": 6,
+   "t": "Mas, quando saiu o sol, queimou-se; e porque não tinha raiz, secou-se."
+  },
+  {
+   "n": 7,
+   "t": "E outra caiu entre espinhos; e os espinhos cresceram e a sufocaram, e não deu fruto."
+  },
+  {
+   "n": 8,
+   "t": "Mas outra caiu em boa terra, e deu fruto, que subiu, e cresceu; e um deu trinta, outro sessenta, e outro cem."
+  },
+  {
+   "n": 9,
+   "t": "E disse-lhes : Quem tem ouvidos para ouvir, ouça."
+  },
+  {
+   "n": 10,
+   "t": "E quando Jesus esteve só, os que estavam junto dele, com os doze, perguntaram-lhe acerca da parábola ."
+  }
+ ],
+ "titulo": "Quatro caminhos para a mesma semente",
+ "temas": [
+  "parábola",
+  "semente",
+  "coração",
+  "atenção"
+ ],
+ "pergunta": "O que impede a semente de crescer em você?",
+ "entender": "Jesus está num barco, no mar, com uma multidão enorme na areia. Para explicar o Reino de Deus, Ele usa uma história simples sobre um semeador. A semente cai em quatro lugares diferentes: no caminho, onde os pássaros comem; em pedregulhos, onde nasce rápido mas seca sem raiz; entre espinhos, que sufocam o crescimento; e em boa terra, que dá muito fruto.\n\nAqui, a semente não é a pessoa, mas a Palavra de Deus. As pessoas são a terra. Jesus mostra que a mensagem é a mesma para todos, mas o resultado depende de como cada coração a recebe. No caminho, a Palavra é ignorada; nos pedregulhos, há entusiasmo inicial, mas falta profundidade para resistir às dificuldades; nos espinhos, as preocupações da vida abafam a fé. Só na boa terra, a Palavra tem espaço para crescer e produzir fruto.\n\nNo versículo 9, Jesus diz: \"Quem tem ouvidos para ouvir, ouça\". Ele não está apenas contando uma lenda agrícola, mas fazendo um convite direto à atenção. Depois, quando os discípulos ficam sozinhos com Ele, eles pedem a explicação (v. 10), mostrando que a parábola exige reflexão e intimidade com o Mestre para ser compreendida plenamente.",
+ "ligar": {
+  "texto": "Esta parábola aponta para Jesus como o único que pode preparar a terra do nosso coração. Nós não temos o poder de nos auto-arar; precisamos da obra do Espírito Santo, enviada por Cristo, para remover as pedras do orgulho e os espinhos das preocupações. O evangelho é a semente que, ao encontrar um coração quebrantado e aberto pela graça, produz a vida eterna. Jesus não apenas ensina a parábola; Ele é o Semeador que sai para semear, oferecendo a semente que dá vida.",
+  "selo": true
+ },
+ "viver": "Pense na sua rotina como um campo. Onde estão os seus \"espinhos\"? São as notificações do celular, as ansiedades do trabalho ou as mágoas que você carrega? Identifique uma dessas áreas hoje. Antes de ler sua Bíblia, faça uma pausa de cinco minutos para orar, pedindo a Jesus que mostre onde Sua Palavra está sendo sufocada. Não tente apenas \"ouvir mais\"; crie espaço. Talvez seja desligar o celular durante a leitura ou perdoar alguém que está ocupando espaço no seu coração. A boa terra não é perfeita, mas é limpa e aberta.",
+ "guarde": "A mesma Palavra pode secar ou dar fruto, dependendo do solo do seu coração.",
+ "ore": "Jesus, ao entrar no barco para ensinar, Tu pediste ouvidos atentos. Hoje, eu reconheço que meu coração tem sido como pedregulho, com respostas rápidas mas sem raiz profunda. Remove as pedras do meu orgulho e os espinhos das minhas distrações. Faze de mim boa terra, para que a Tua Palavra cresça e dê fruto em minha vida, não apenas por um tempo, mas para sempre. Amém.",
+ "quiz": {
+  "pergunta": "Na parábola do semeador, o que representa a semente?",
+  "opcoes": [
+   "A Palavra de Deus",
+   "O semeador",
+   "A terra"
+  ],
+  "certa": 0,
+  "explicacao": "No contexto da parábola, Jesus explica que a semente é a Palavra do Reino. As pessoas são comparadas aos diferentes tipos de terra onde a semente cai."
+ },
+ "refs": [
+  "Mateus 13:18-23",
+  "Lucas 8:11-15",
+  "Hebreus 4:12"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T09:51:47.394Z",
+  "rounds": 1
+ }
+}

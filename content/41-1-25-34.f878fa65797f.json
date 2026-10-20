@@ -1,0 +1,137 @@
+{
+ "id": "41-1-25-34",
+ "ref": "Marcos 1:25-34",
+ "book": "41",
+ "chapter": 1,
+ "verses": [
+  {
+   "n": 25,
+   "t": "Jesus o repreendeu, dizendo: Cala-te, e sai dele."
+  },
+  {
+   "n": 26,
+   "t": "E o espírito imundo, provocando convulsão nele, e gritando em alta voz, saiu dele."
+  },
+  {
+   "n": 27,
+   "t": "Assim todos ficaram admirados, e perguntavam entre si: Que é isto? Que novo ensinamento é este que, com autoridade, ordena até aos espíritos imundos, e eles lhe obedecem?"
+  },
+  {
+   "n": 28,
+   "t": "E logo sua fama se espalhou por toda a região da Galileia."
+  },
+  {
+   "n": 29,
+   "t": "Logo depois de saírem da sinagoga, vieram à casa de Simão e de André, com Tiago e João."
+  },
+  {
+   "n": 30,
+   "t": "A sogra de Simão estava deitada com febre, e logo falaram dela a Jesus ."
+  },
+  {
+   "n": 31,
+   "t": "Então ele aproximou-se dela, tomou-a pela mão, e a levantou; logo a febre a deixou, e ela começou a servi-los."
+  },
+  {
+   "n": 32,
+   "t": "Ao entardecer, quando o sol já se punha, trouxeram-lhe todos os doentes e endemoninhados;"
+  },
+  {
+   "n": 33,
+   "t": "e toda a cidade se juntou à porta."
+  },
+  {
+   "n": 34,
+   "t": "Ele curou muitos que se achavam mal de diversas enfermidades, e expulsou muitos demônios. Ele não deixava os demônios falarem, porque o conheciam."
+  }
+ ],
+ "titulo": "A autoridade que liberta e cura",
+ "temas": [
+  "autoridade",
+  "cura",
+  "serviço",
+  "fé"
+ ],
+ "pergunta": "O que acontece quando a palavra de Jesus encontra o caos da nossa vida?",
+ "entender": "Em Cafarnaum, Jesus não apenas ensina; Ele age. Ao ver um homem possesso, Jesus diz com firmeza: \"Cala-te, e sai dele\" (Marcos 1.25). O espírito imundo não negocia nem discute; ele obedece e sai, deixando o homem livre. Essa cena impressiona a todos porque Jesus não usa fórmulas mágicas, mas exerce autoridade divina sobre o mal.\n\nLogo depois, a fama de Jesus se espalha. Na casa de Simão, a sogra de Pedro está doente com febre. Jesus toca nela, a levanta e a cura. Ela não fica apenas aliviada; começa a servi-los. Ao entardecer, a cidade inteira traz seus doentes e endemoninhados à porta. Jesus cura muitos e expulsa demônios, mostrando que seu poder alcança tanto a doença física quanto a opressão espiritual.",
+ "ligar": {
+  "texto": "Este trecho revela Jesus como o Senhor sobre as forças do mal e sobre a doença. Ele não apenas anuncia a lei, mas cumpre a promessa de libertação. A cura da sogra de Simão mostra que o evangelho restaura a capacidade de servir. Jesus é o Santo de Deus que traz ordem ao caos, demonstrando que em Ele há poder para quebrar correntes invisíveis e curar o corpo. Isso aponta para a vitória final de Cristo sobre a morte e o pecado, oferecendo vida nova a todos os que creem.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, carregamos um \"espírito imundo\" na forma de vícios, medos paralisantes ou ressentimentos que gritam dentro de nós. Jesus nos convida a parar de negociar com o mal e a entregar a situação a Ele com fé. Assim como a sogra de Simão, após ser curada, começou a servir, nossa resposta à graça de Deus deve ser um coração disponível para amar e ajudar os outros. Não guarde a bênção para si; use sua liberdade em Cristo para servir quem está ao seu redor.",
+ "guarde": "A palavra de Jesus traz ordem ao caos e cura que nos habilita a servir.",
+ "ore": "Jesus, em Cafarnaum, Tu calaste o medo e curaste o corpo. Hoje, eu Te entrego minhas ansiedades e vícios. Que Tua autoridade me liberte e me capacite a servir aos outros com amor, assim como a sogra de Simão. Amém.",
+ "quiz": {
+  "pergunta": "O que a sogra de Simão fez imediatamente após ser curada por Jesus?",
+  "opcoes": [
+   "Começou a servi-los",
+   "Saiu para pregar na rua",
+   "Ficou deitada em repouso total"
+  ],
+  "certa": 0,
+  "explicacao": "O texto em Marcos 1.31 afirma explicitamente que, após a febre a deixar, ela começou a servi-los, demonstrando a restauração de sua capacidade de agir."
+ },
+ "refs": [
+  "Lucas 4:39",
+  "Mateus 8:16",
+  "Atos 10:38"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T09:48:06.931Z",
+  "rounds": 2
+ }
+}

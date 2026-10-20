@@ -496,7 +496,9 @@
   },
   "41-1-25-34": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: refs:quantidade",
+   "estado": "pronto",
+   "titulo": "A autoridade que liberta e cura"
   },
   "41-1-35-45": {
    "execucoes": 0,
@@ -524,19 +526,27 @@
   },
   "41-3-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O que o sábado revela sobre o amor de Deus"
   },
   "41-3-13-23": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: REFERENCE_BOUNDARY: O ensino atribui ao versículo 23 a afirmação sobre o reino dividido contra si mesmo, mas esse conteúdo pertence ao versículo 24, que está fora do trecho-alvo.",
+   "estado": "pronto",
+   "titulo": "Doze escolhidos e a acusação impossível"
   },
   "41-3-24-35": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_longa, entender:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "Quem faz a vontade de Deus é família"
   },
   "41-4-1-10": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Quatro caminhos para a mesma semente"
   },
   "41-4-11-21": {
    "execucoes": 0,
@@ -557,28 +567,68 @@
   "41-5-12-22": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-5-23-32": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-5-33-43": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-6-1-11": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-6-12-22": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-6-23-34": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-6-35-45": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-6-46-56": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-7-1-9": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-7-10-19": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-7-20-28": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 212,
-   "entrada": 456467,
-   "saida": 193616
+   "chamadas": 219,
+   "entrada": 474860,
+   "saida": 199972
   },
   "groq-qwen": {
-   "chamadas": 207,
-   "entrada": 422740,
-   "saida": 162795
+   "chamadas": 214,
+   "entrada": 440420,
+   "saida": 168450
   },
   "gemini": {
-   "chamadas": 156,
-   "entrada": 498723,
-   "saida": 221259
+   "chamadas": 162,
+   "entrada": 517900,
+   "saida": 230800
   },
   "cloudflare": {
-   "chamadas": 88,
-   "entrada": 302776,
-   "saida": 32648
+   "chamadas": 93,
+   "entrada": 319891,
+   "saida": 34503
   },
   "mistral": {
    "chamadas": 0,
