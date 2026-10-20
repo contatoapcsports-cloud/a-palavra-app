@@ -1,0 +1,142 @@
+{
+ "id": "41-5-1-11",
+ "ref": "Marcos 5:1-11",
+ "book": "41",
+ "chapter": 5,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E chegaram ao outro lado do mar, à terra dos Gadarenos."
+  },
+  {
+   "n": 2,
+   "t": "Assim que Jesus saiu do barco, veio das sepulturas ao seu encontro um homem com um espírito imundo,"
+  },
+  {
+   "n": 3,
+   "t": "que morava nas sepulturas, e nem mesmo com correntes conseguiam prendê-lo;"
+  },
+  {
+   "n": 4,
+   "t": "pois muitas vezes fora preso com grilhões e correntes; mas as correntes eram por ele feitas em pedaços, os grilhões eram esmigalhados, e ninguém o conseguia controlar."
+  },
+  {
+   "n": 5,
+   "t": "E sempre dia e noite andava gritando pelos montes e pelas sepulturas, e ferindo-se com pedras."
+  },
+  {
+   "n": 6,
+   "t": "Quando ele viu Jesus de longe, correu e prostrou-se diante dele."
+  },
+  {
+   "n": 7,
+   "t": "E gritou em alta voz: Que tenho eu contigo Jesus, Filho do Deus Altíssimo? Imploro-te por Deus que não me atormentes."
+  },
+  {
+   "n": 8,
+   "t": "(Pois Jesus havia lhe dito: “Sai deste homem, espírito imundo”.)"
+  },
+  {
+   "n": 9,
+   "t": "Então perguntou-lhe: Qual é o teu nome? E respondeu: Legião é o meu nome, porque somos muitos."
+  },
+  {
+   "n": 10,
+   "t": "E rogava-lhe muito que não os expulsasse daquela terra."
+  },
+  {
+   "n": 11,
+   "t": "Havia ali perto dos montes uma grande manada de porcos pastando."
+  }
+ ],
+ "titulo": "O nome que quebra a escravidão",
+ "temas": [
+  "libertação",
+  "autoridade",
+  "identidade",
+  "poder",
+  "misericórdia"
+ ],
+ "pergunta": "Por que o homem das sepulturas correu para Jesus em vez de fugir?",
+ "entender": "Ao cruzar o mar, Jesus chega à região dos gadarenos e encontra um homem que vivia entre sepulturas. O texto descreve uma situação de extrema violência e isolamento: ele quebrava correntes de ferro e gritava dia e noite. A sociedade local tentava controlá-lo à força, mas sem sucesso. O homem estava sob o domínio de forças espirituais que o destruíam por dentro.\n\nA virada acontece quando ele vê Jesus de longe. Em vez de atacar, ele corre e se prostra. Jesus exerce autoridade sobre esses espíritos, que se identificam como \"Legião\" por serem muitos. O poder de Jesus não é apenas verbal; é uma autoridade que reconquista o território do homem, preparando-o para recuperar sua humanidade e sua paz.",
+ "ligar": {
+  "texto": "Este texto revela a soberania de Jesus sobre o mal. Ele não é apenas um mestre moral, mas o Senhor que quebra cadeias. No evangelho, essa libertação aponta para a vitória final de Cristo sobre o pecado e a morte. Assim como esse homem foi restaurado, Jesus oferece ao crente uma nova identidade, livre do domínio da culpa e do medo, através da fé nEle.",
+  "selo": true
+ },
+ "viver": "Talvez você se sinta preso a hábitos ou pensamentos que parecem mais fortes que sua força de vontade. O texto mostra que a mudança real não começa com esforço humano, mas com o encontro com Jesus. Quando reconhecemos nossa fragilidade e buscamos a autoridade de Cristo, abrimos espaço para a restauração. Não é sobre tentar ser forte sozinho, mas sobre se prostrar diante dEle, confiando que Ele pode agir onde nós não conseguimos.",
+ "guarde": "A autoridade de Jesus quebra as correntes que a força humana não consegue arrebentar.",
+ "ore": "Jesus, ao ver Tu chegando, o homem correu para Ti. Ajuda-me a correr para Ti também, reconhecendo que minha força não basta. Quebra as correntes que me prendem e restaura minha paz, pois Tu és o Filho do Deus Altíssimo.",
+ "quiz": {
+  "pergunta": "Como os espíritos imundos se identificaram quando Jesus perguntou o nome?",
+  "opcoes": [
+   "Legião, porque somos muitos",
+   "Belzebu, o príncipe dos demônios",
+   "Satanás, o acusador"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que o espírito respondeu: \"Legião é o meu nome, porque somos muitos\". Os outros nomes são títulos gerais para o diabo, não a resposta específica dada nesse episódio."
+ },
+ "refs": [
+  "Lucas 8:26-39",
+  "Mateus 17:14-20",
+  "Atos 16:16-18"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T12:55:21.150Z",
+  "rounds": 2
+ }
+}

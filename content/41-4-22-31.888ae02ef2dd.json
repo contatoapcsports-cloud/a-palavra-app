@@ -1,0 +1,138 @@
+{
+ "id": "41-4-22-31",
+ "ref": "Marcos 4:22-31",
+ "book": "41",
+ "chapter": 4,
+ "verses": [
+  {
+   "n": 22,
+   "t": "Pois não há nada encoberto que não haja de ser revelado; e nada se faz para ficar encoberto, mas sim, para ser vir à luz."
+  },
+  {
+   "n": 23,
+   "t": "Se alguém tem ouvidos para ouvir, ouça."
+  },
+  {
+   "n": 24,
+   "t": "E disse-lhes: Prestai atenção ao que ouvis: com a medida que medirdes a vós mesmos se medirá, e será acrescentado a vós que ouvis ."
+  },
+  {
+   "n": 25,
+   "t": "Pois ao que tem, lhe será dado; e ao que não tem, até o que tem lhe será tirado."
+  },
+  {
+   "n": 26,
+   "t": "E dizia: Assim é o Reino de Deus, como se um homem lançasse semente na terra;"
+  },
+  {
+   "n": 27,
+   "t": "e dormisse, e se levantasse, de noite e de dia, e a semente brotasse, e crescesse, sem que ele saiba como."
+  },
+  {
+   "n": 28,
+   "t": "Pois a terra de si mesma frutifica, primeiro a erva, depois a espiga, depois o grão cheio na espiga."
+  },
+  {
+   "n": 29,
+   "t": "E quando o fruto se mostra pronto, logo mete a foice, pois a colheita chegou."
+  },
+  {
+   "n": 30,
+   "t": "E dizia: A que assemelharemos o Reino de Deus? Ou com que parábola o compararemos?"
+  },
+  {
+   "n": 31,
+   "t": "Com um grão da mostarda que, quando semeado na terra, é a menor de todas as sementes na terra."
+  }
+ ],
+ "titulo": "O segredo do crescimento silencioso",
+ "temas": [
+  "reino",
+  "confiança",
+  "processo",
+  "deus",
+  "espera"
+ ],
+ "pergunta": "Você já tentou entender tudo antes de agir, ou prefere confiar no processo?",
+ "entender": "Jesus explica que o Reino de Deus se comporta de forma misteriosa e poderosa. Ele usa a imagem de um homem que planta a semente e, depois, dorme. Enquanto isso, a planta cresce sozinha, seguindo etapas naturais: primeiro a erva, depois a espiga e, por fim, o grão cheio. O agricultor não sabe exatamente como acontece esse desenvolvimento interno, mas o resultado é inevitável.\n\nAntes disso, Jesus fala sobre a necessidade de ouvir com atenção e de não esconder a verdade. A parábola seguinte, do grão de mostarda, reforça a ideia de que o Reino começa pequeno e insignificante, mas se expande de maneira surpreendente. O ponto central não é o controle humano sobre o crescimento, mas a confiança no poder de Deus para levar o processo até a colheita final.",
+ "ligar": {
+  "texto": "Neste trecho, Jesus é o mestre que revela a natureza do Reino. Ele nos mostra que a obra de Deus não depende da nossa capacidade de entender cada detalhe, mas da sua fidelidade. Assim como a semente brota por força própria, a vida cristã cresce pela ação do Espírito. Jesus, que venceu a morte, garante que o que Ele planta em nós não é em vão. A salvação é um processo iniciado por Ele, que nos convida a descansar na certeza de que Ele conduz tudo até o fim.",
+  "selo": false
+ },
+ "viver": "Pare de medir sua fé apenas pelos resultados visíveis de hoje. Jesus nos ensina que há um trabalho silencioso acontecendo, mesmo quando você não percebe mudanças externas. Escolha uma área da sua vida onde você sente estagnação e entregue-a a Deus, confiando que Ele está agindo no processo. Não tente forçar o crescimento; permita-se descansar na certeza de que o tempo de Deus é perfeito e que a colheita virá.",
+ "guarde": "Deus trabalha no silêncio do processo, mesmo quando você não vê o fruto imediato.",
+ "ore": "Agricultor fiel, assim como a semente cresce sem que eu entenda o mecanismo, eu confio que Tu estás agindo em minha vida. Ajuda-me a parar de controlar cada etapa e descansar na Tua soberania. Ensina-me a esperar a colheita no Teu tempo, com paciência e confiança.",
+ "quiz": {
+  "pergunta": "O que o texto diz sobre o momento em que o fruto está pronto?",
+  "opcoes": [
+   "Logo mete a foice, pois a colheita chegou.",
+   "A semente para de crescer para sempre.",
+   "O homem precisa regar a planta novamente."
+  ],
+  "certa": 0,
+  "explicacao": "O versículo 29 afirma claramente que quando o fruto se mostra pronto, o homem mete a foice porque a colheita chegou, indicando o fim do ciclo de crescimento."
+ },
+ "refs": [
+  "Lucas 8:18",
+  "Lucas 13:18",
+  "Mateus 13:31"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T12:58:23.022Z",
+  "rounds": 2
+ }
+}

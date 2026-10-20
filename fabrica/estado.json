@@ -550,19 +550,25 @@
   },
   "41-4-11-21": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: REFERENCE_BOUNDARY: O ensino cita os versículos 20-21 como descrição da boa terra que produz fruto, mas Marcos 4:21 trata da lâmpada posta na luminária.",
+   "estado": "pronto",
+   "titulo": "Quatro terrenos, uma única semente"
   },
   "41-4-22-31": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:entender:43-15-1-9",
+   "estado": "pronto",
+   "titulo": "O segredo do crescimento silencioso"
   },
   "41-4-32-41": {
-   "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "execucoes": 1,
+   "ultimo": "automático: ore:citacao_fora_do_texto"
   },
   "41-5-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: MEDICAL_SAFETY: O trecho de aplicação desqualifica a terapia ao afirmar que ela não é suficiente para lidar com as dores e correntes pessoais, descumprindo a diretriz de segurança médica. | CROSS_SECTION_CONSISTENCY: A pergunta do teste afirma que o homem se referia ao espírito como Legião, contradi",
+   "estado": "pronto",
+   "titulo": "O nome que quebra a escravidão"
   },
   "41-5-12-22": {
    "execucoes": 0,
@@ -611,24 +617,24 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 219,
-   "entrada": 474860,
-   "saida": 199972
+   "chamadas": 226,
+   "entrada": 494065,
+   "saida": 206010
   },
   "groq-qwen": {
-   "chamadas": 214,
-   "entrada": 440420,
-   "saida": 168450
+   "chamadas": 222,
+   "entrada": 461683,
+   "saida": 174801
   },
   "gemini": {
-   "chamadas": 162,
-   "entrada": 517900,
-   "saida": 230800
+   "chamadas": 169,
+   "entrada": 540512,
+   "saida": 244938
   },
   "cloudflare": {
-   "chamadas": 93,
-   "entrada": 319891,
-   "saida": 34503
+   "chamadas": 96,
+   "entrada": 330134,
+   "saida": 35616
   },
   "mistral": {
    "chamadas": 0,
