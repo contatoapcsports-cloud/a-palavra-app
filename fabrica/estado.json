@@ -478,7 +478,9 @@
   },
   "43-21-18-25": {
    "execucoes": 1,
-   "ultimo": "gemini: CROSS_SECTION_CONSISTENCY: A explicação da resposta do teste cita que alguém vestiria as mãos de Pedro, mas o texto bíblico diz que outro o vestiria, e não que vestiria suas mãos."
+   "ultimo": "automático: entender:menos_de_2_paragrafos",
+   "estado": "pronto",
+   "titulo": "O destino de Pedro e o segredo do discípulo amado"
   },
   "41-1-1-11": {
    "execucoes": 0,
@@ -510,11 +512,15 @@
   },
   "41-2-10-19": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: pergunta:vazio",
+   "estado": "pronto",
+   "titulo": "O médico que busca os doentes"
   },
   "41-2-20-28": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O sábado, o pão e o propósito de Deus"
   },
   "41-3-1-12": {
    "execucoes": 0,
@@ -543,28 +549,36 @@
   "41-4-32-41": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-5-1-11": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-5-12-22": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 205,
-   "entrada": 436829,
-   "saida": 187151
+   "chamadas": 212,
+   "entrada": 456467,
+   "saida": 193616
   },
   "groq-qwen": {
-   "chamadas": 200,
-   "entrada": 403995,
-   "saida": 157111
+   "chamadas": 207,
+   "entrada": 422740,
+   "saida": 162795
   },
   "gemini": {
-   "chamadas": 151,
-   "entrada": 482161,
-   "saida": 215212
+   "chamadas": 156,
+   "entrada": 498723,
+   "saida": 221259
   },
   "cloudflare": {
-   "chamadas": 85,
-   "entrada": 292221,
-   "saida": 31535
+   "chamadas": 88,
+   "entrada": 302776,
+   "saida": 32648
   },
   "mistral": {
    "chamadas": 0,

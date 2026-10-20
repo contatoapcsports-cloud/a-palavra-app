@@ -1,0 +1,133 @@
+{
+ "id": "41-2-20-28",
+ "ref": "Marcos 2:20-28",
+ "book": "41",
+ "chapter": 2,
+ "verses": [
+  {
+   "n": 20,
+   "t": "Mas dias virão, quando o noivo lhes for tirado; e então naqueles dias jejuarão."
+  },
+  {
+   "n": 21,
+   "t": "Ninguém costura remendo de pano novo em roupa velha; senão o remendo novo rompe o velho, e se faz pior rasgo."
+  },
+  {
+   "n": 22,
+   "t": "E ninguém põe vinho novo em odres velhos; senão o vinho novo rompe os odres, derrama-se o vinho, e os odres se danificam; mas o vinho novo deve ser posto em odres novos."
+  },
+  {
+   "n": 23,
+   "t": "E aconteceu que, enquanto Jesus passava pelas plantações no sábado, os seus discípulos, andando, começaram a arrancar espigas."
+  },
+  {
+   "n": 24,
+   "t": "Os fariseus lhe disseram: Olha! Por que estão fazendo o que não é lícito no sábado?"
+  },
+  {
+   "n": 25,
+   "t": "E ele lhes disse: Nunca lestes o que fez Davi, quando teve necessidade e fome, ele e os que com ele estavam?"
+  },
+  {
+   "n": 26,
+   "t": "Como ele entrou na Casa de Deus, quando Abiatar era sumo sacerdote, e comeu os pães da proposição (dos quais não é lícito comer, a não ser aos sacerdotes), e também deu aos que com ele estavam?"
+  },
+  {
+   "n": 27,
+   "t": "Disse-lhes mais: O sábado foi feito por causa do ser humano, não o ser humano por causa do sábado."
+  },
+  {
+   "n": 28,
+   "t": "Por isso o Filho do homem é Senhor até do sábado."
+  }
+ ],
+ "titulo": "O sábado, o pão e o propósito de Deus",
+ "temas": [
+  "sábado",
+  "liberdade",
+  "misericórdia",
+  "soberania"
+ ],
+ "pergunta": "Por que Jesus defendeu seus discípulos por colher espigas no sábado?",
+ "entender": "Os fariseus criticaram os discípulos de Jesus por arrancarem espigas para comer no sábado, alegando que isso era proibido. Jesus respondeu citando um episódio da vida de Davi: quando ele e seus homens estavam com fome, comeram os pães da proposição na casa de Deus, algo reservado apenas para sacerdotes. Aquele ato, que parecia violar a lei, foi aceito por Deus porque atendeu a uma necessidade real.\n\nJesus então afirma um princípio central: o sábado foi feito para o bem-estar das pessoas, e não o contrário. A lei não é uma prisão, mas um presente. Ao se declarar \"Senhor até do sábado\", Jesus não está apenas defendendo a fome dos discípulos, mas revelando sua autoridade divina sobre a própria Lei. Ele mostra que a misericórdia e a vida têm prioridade sobre rituais rígidos que ignoram a necessidade humana.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para a identidade de Jesus. Ao se intitular \"Senhor do sábado\", Ele se coloca acima da Lei mosaica, algo que só Deus pode fazer. Isso prepara o terreno para entendermos que Ele é a fonte verdadeira de descanso e vida. O evangelho é a boa notícia de que, em Cristo, não somos escravos de regras vazias, mas filhos amados por um Pai que satisfaz nossas necessidades mais profundas, assim como Davi foi cuidado em sua fome.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, carregamos uma culpa desnecessária por não conseguir seguir todas as expectativas religiosas ou sociais, sentindo que falhamos ao não sermos perfeitos. Este texto nos lembra que Deus valoriza a vida e a misericórdia acima do formalismo. Assim como Jesus defendeu a necessidade de seus discípulos, Ele entende suas lutas diárias. Não deixe que o peso de normas humanas o afaste da presença de Deus; busque a liberdade que vem de confiar em Sua graça, não no seu próprio esforço para ser \"perfeito\" aos olhos dos outros.",
+ "guarde": "A lei existe para servir à vida humana, e Cristo é o Senhor que dá sentido a ela.",
+ "ore": "Jesus, quando colhia espigas no sábado, Tu mostraste que a vida é prioridade. Ensina-me a distinguir entre o que é essencial e o que é apenas aparência. Liberta-me do medo de julgamento humano e ajuda-me a confiar na Tua misericórdia, que satisfaz minha fome real, assim como alimentaste Davi.",
+ "quiz": {
+  "pergunta": "Qual foi o argumento principal de Jesus para defender a ação dos discípulos?",
+  "opcoes": [
+   "Colher espigas era permitido apenas para sacerdotes.",
+   "Os discípulos tinham permissão especial por serem seus seguidores.",
+   "O sábado foi feito para o homem, não o homem para o sábado."
+  ],
+  "certa": 2,
+  "explicacao": "Jesus inverte a lógica legalista, afirmando que o propósito do sábado é o bem-estar humano, e usa o exemplo de Davi para mostrar que a misericórdia prevalece sobre a regra rígida."
+ },
+ "refs": [
+  "Lucas 6:1-5",
+  "Mateus 12:1-8",
+  "1 Samuel 21:1-6"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T06:54:25.154Z",
+  "rounds": 1
+ }
+}

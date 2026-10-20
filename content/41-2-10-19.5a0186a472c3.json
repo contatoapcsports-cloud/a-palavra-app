@@ -1,0 +1,137 @@
+{
+ "id": "41-2-10-19",
+ "ref": "Marcos 2:10-19",
+ "book": "41",
+ "chapter": 2,
+ "verses": [
+  {
+   "n": 10,
+   "t": "Mas para que saibais que o Filho do homem tem poder na terra para perdoar pecados,(disse ao paralítico):"
+  },
+  {
+   "n": 11,
+   "t": "A ti eu digo: levanta-te, toma o teu leito, e vai para a tua casa."
+  },
+  {
+   "n": 12,
+   "t": "E logo ele se levantou, tomou o leito, e saiu na presença de todos, de tal maneira, que todos ficaram admirados, e glorificaram a Deus, dizendo: Nunca vimos algo assim."
+  },
+  {
+   "n": 13,
+   "t": "Jesus voltou a sair para o mar; toda a multidão veio até ele, e ele os ensinava."
+  },
+  {
+   "n": 14,
+   "t": "E enquanto passava, ele viu Levi, filho de Alfeu, sentado no posto de coleta de impostos, e disse-lhe: Segue-me.Então Levi se levantou e o seguiu."
+  },
+  {
+   "n": 15,
+   "t": "E aconteceu que enquanto estava sentado à mesa na casa dele, muitos publicanos e pecadores também estavam assentados à mesa com Jesus e os seus discípulos; porque eram muitos, e o haviam seguido."
+  },
+  {
+   "n": 16,
+   "t": "Quando os escribas e os fariseus o viram comer com os publicanos e pecadores, disseram a seus discípulos: Por que é que ele come e bebe com os publicanos e os pecadores?"
+  },
+  {
+   "n": 17,
+   "t": "Jesus ouviu e lhes respondeu: Os que têm saúde não precisam de médico, mas sim os que estão doentes. Eu não vim para chamar os justos, mas sim, os pecadores, ao arrependimento."
+  },
+  {
+   "n": 18,
+   "t": "Os discípulos de João e os dos fariseus estavam jejuando; então vieram lhe perguntar: Por que os discípulos de João e os dos fariseus jejuam, e os teus discípulos não jejuam?"
+  },
+  {
+   "n": 19,
+   "t": "Jesus lhes respondeu: Podem os convidados do casamento jejuar enquanto o noivo estiver com eles? Enquanto tiverem o noivo consigo, eles não podem jejuar."
+  }
+ ],
+ "titulo": "O médico que busca os doentes",
+ "temas": [
+  "perdão",
+  "misericórdia",
+  "convite",
+  "arrependimento"
+ ],
+ "pergunta": "Por que Jesus se sentou à mesa com pessoas que a sociedade considerava impuras?",
+ "entender": "Jesus acabou de curar um paralítico, provando que tem poder para perdoar pecados. Agora, ele passa por Levi, um cobrador de impostos, e o chama para segui-lo. Levi deixa tudo e vai. Na casa de Levi, Jesus está sentado à mesa com muitos publicanos e pecadores.\n\nOs escribas e fariseus ficam indignados: por que Jesus come com gente assim? Jesus responde que ele não veio chamar os justos, mas os pecadores ao arrependimento. Ele usa a imagem de um médico: quem tem saúde não precisa de médico, mas os doentes precisam. Jesus é esse médico que se aproxima de quem está doente espiritualmente.",
+ "ligar": {
+  "texto": "Este texto mostra o coração do evangelho: Jesus não veio para os que se acham perfeitos, mas para os que reconhecem sua necessidade. O perdão que ele oferece ao paralítico e o convite a Levi mostram que a graça de Deus busca os pecadores. Jesus se identifica como o médico que cura, apontando para sua missão de salvar quem está perdido, oferecendo vida nova através do arrependimento e da fé nele.",
+  "selo": true
+ },
+ "viver": "Talvez você se sinta excluído ou julgado por sua história, como os publicanos daquela época. Jesus não se afastou deles; ele foi até a mesa deles. Hoje, ele ainda nos busca onde estamos. Não esconda seus defeitos dele. Acolha o convite para o arrependimento, sabendo que sua presença à mesa de Jesus é sinal de cura, não de condenação. Permita-se ser alcançado por essa misericórdia.",
+ "guarde": "Jesus não veio chamar os que se acham bem, mas os que reconhecem que precisam de cura.",
+ "ore": "Levi deixou o posto de impostos para seguir Jesus. Senhor, ajuda-me a deixar minhas defesas e orgulho para me sentar à tua mesa. Vem, médico da minha alma, e cura o que eu tento esconder. Eu preciso de ti.",
+ "quiz": {
+  "pergunta": "Segundo Jesus, para quem ele veio chamar?",
+  "opcoes": [
+   "Para os justos que jejuam",
+   "Para os escribas fariseus",
+   "Para os pecadores ao arrependimento"
+  ],
+  "certa": 2,
+  "explicacao": "O texto diz explicitamente: 'Eu não vim para chamar os justos, mas sim, os pecadores, ao arrependimento' (Marcos 2:17)."
+ },
+ "refs": [
+  "Lucas 5:31-32",
+  "Mateus 9:12-13",
+  "Lucas 19:10"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T06:52:32.615Z",
+  "rounds": 2
+ }
+}

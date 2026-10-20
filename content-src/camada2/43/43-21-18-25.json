@@ -1,0 +1,129 @@
+{
+ "id": "43-21-18-25",
+ "ref": "João 21:18-25",
+ "book": "43",
+ "chapter": 21,
+ "verses": [
+  {
+   "n": 18,
+   "t": "Em verdade, em verdade te digo, que quando eras mais jovem, tu mesmo te vestias, e andava por onde querias; mas quando fores já velho, estenderás tuas mãos, e outro te vestirá, e te levará para onde tu não queres."
+  },
+  {
+   "n": 19,
+   "t": "E disse isto, fazendo entender que Pedro glorificaria a Deus com sua morte. E tendo dito isto, Jesus lhe disse: Segue-me."
+  },
+  {
+   "n": 20,
+   "t": "E virando-se Pedro, viu que o seguia aquele discípulo a quem Jesus amava, o que também na ceia se recostara a seu peito, e dissera: Senhor, quem é o que te trairá?"
+  },
+  {
+   "n": 21,
+   "t": "Vendo Pedro a este, disse a Jesus: Senhor, e este, que lhe acontecerá ?"
+  },
+  {
+   "n": 22,
+   "t": "Disse-lhe Jesus: Se eu quero que ele fique até que eu venha, que te importa? Segue-me tu."
+  },
+  {
+   "n": 23,
+   "t": "Saiu, pois, esta conversa entre os irmãos, que aquele discípulo não morreria. Contudo Jesus não lhe disse que não morreria, mas sim: Se eu quero que ele fique até que eu venha, que te importa?"
+  },
+  {
+   "n": 24,
+   "t": "Este é o discípulo que testemunha destas coisas, e estas coisas escreveu; e sabemos que seu testemunho é verdadeiro."
+  },
+  {
+   "n": 25,
+   "t": "Ainda há, porém, muitas outras coisas que Jesus fez, que se sobre cada uma delas se escrevessem, penso que nem mesmo o mundo poderia caber os livros escritos. Amém."
+  }
+ ],
+ "titulo": "O destino de Pedro e o segredo do discípulo amado",
+ "temas": [
+  "soberania",
+  "missão",
+  "confiança",
+  "foco"
+ ],
+ "pergunta": "Por que Jesus desviou o olhar de Pedro para o próprio caminho?",
+ "entender": "Depois de restaurar Pedro, Jesus lhe revela o modo como ele morreria. O texto diz que, quando velho, Pedro estenderia as mãos e outro o vestiria, levando-o para onde ele não queria. Isso indicava que Pedro glorificaria a Deus com sua morte, provavelmente por crucificação. Não era uma maldição, mas um chamado à entrega total. Pedro, ao ver o discípulo amado seguindo Jesus, pergunta o que acontecerá com ele. Jesus responde: \"Se eu quero que ele fique até que eu venha, que te importa? Segue-me tu.\" Jesus não responde à curiosidade sobre a vida alheia, mas redireciona Pedro para a sua própria obediência.\n\nO evangelho de João termina lembrando que o testemunho do discípulo é verdadeiro e que muitas outras coisas Jesus fez não foram registradas. A mensagem final é de confiança: a agenda de Deus não é a nossa. O que importa é a obediência de cada um ao chamado específico que recebeu, sem se distrair com os caminhos dos outros.",
+ "ligar": {
+  "texto": "Este trecho aponta para Jesus como o Senhor da vida e da morte. Ele conhece o fim de cada vida e ainda assim convida para segui-lo. O evangelho é claro: Jesus não promete uma vida sem cruz, mas uma vida para a glória de Deus. Pedro vai morrer, mas sua morte terá um propósito eterno. Da mesma forma, nossa vida ganha sentido quando está alinhada com a vontade de Cristo, não com nossos desejos de conforto ou controle. A promessa não é de ausência de dor, mas de presença de Jesus no caminho.",
+  "selo": true
+ },
+ "viver": "Muitas vezes ansiamos por saber como tudo vai terminar ou por que certas pessoas seguem caminhos diferentes dos nossos. Jesus nos convida a parar de investigar o futuro alheio e focar no nosso \"Segue-me\". Em vez de comparar sua jornada com a do próximo, pergunte-se: estou obedecendo ao chamado que Deus me deu hoje? Confie que Jesus está no controle, mesmo quando o caminho parece levar para onde você não quer ir.",
+ "guarde": "Minha missão não é controlar o futuro, mas obedecer ao presente com confiança em Jesus.",
+ "ore": "Jesus, ao me dizer 'Segue-me', ensina-me a soltar a ansiedade pelo futuro alheio e focar na minha obediência diária. Ajuda-me a confiar que Tu estás no controle de cada detalhe da minha vida e da dos outros. Que eu glorifique o Teu nome em cada passo, mesmo quando o caminho é difícil.",
+ "quiz": {
+  "pergunta": "O que Jesus estava sugerindo quando disse que Pedro estenderia as mãos?",
+  "opcoes": [
+   "Que Pedro seria preso e torturado por Roma.",
+   "Que Pedro seria curado de uma doença nas mãos.",
+   "Que Pedro morreria por sua fé em Cristo."
+  ],
+  "certa": 2,
+  "explicacao": "O texto explica explicitamente que Jesus estava se referindo à maneira como Pedro glorificaria a Deus com sua morte, indicando uma morte por sua fé, provavelmente crucificação, já que estender as mãos é uma referência a esse tipo de execução."
+ },
+ "refs": [
+  "Atos 12:2",
+  "2 Timóteo 4:7",
+  "Mateus 16:24"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T06:52:14.567Z",
+  "rounds": 2
+ }
+}
