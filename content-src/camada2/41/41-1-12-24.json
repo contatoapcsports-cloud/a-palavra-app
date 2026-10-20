@@ -1,0 +1,150 @@
+{
+ "id": "41-1-12-24",
+ "ref": "Marcos 1:12-24",
+ "book": "41",
+ "chapter": 1,
+ "verses": [
+  {
+   "n": 12,
+   "t": "E logo o Espírito o impeliu ao deserto."
+  },
+  {
+   "n": 13,
+   "t": "Ele esteve ali no deserto quarenta dias, tentado por Satanás. Ele estava com os animais selvagens, e os anjos o serviam."
+  },
+  {
+   "n": 14,
+   "t": "Depois que João foi preso, Jesus veio para a Galileia, pregando o Evangelho do Reino de Deus,"
+  },
+  {
+   "n": 15,
+   "t": "e dizendo: O tempo se cumpriu, e o Reino de Deus está perto; arrependei-vos, e crede no Evangelho."
+  },
+  {
+   "n": 16,
+   "t": "E enquanto andava junto ao mar da Galileia, ele viu Simão e seu irmão André, que lançavam uma rede ao mar, porque eram pescadores;"
+  },
+  {
+   "n": 17,
+   "t": "Jesus lhes disse: Vinde após mim, e farei serdes pescadores de gente."
+  },
+  {
+   "n": 18,
+   "t": "Então logo deixaram suas redes, e o seguiram."
+  },
+  {
+   "n": 19,
+   "t": "E passando dali um pouco mais adiante, viu Tiago filho de Zebedeu, e seu irmão João, que estavam no barco, consertando as redes."
+  },
+  {
+   "n": 20,
+   "t": "E logo os chamou; então eles deixaram o seu pai Zebedeu no barco com os empregados, foram após ele."
+  },
+  {
+   "n": 21,
+   "t": "Eles entraram em Cafarnaum; e assim que chegou o sábado, Jesus entrou na sinagoga e começou a ensinar."
+  },
+  {
+   "n": 22,
+   "t": "E ficavam admirados com o seu ensinamento, pois, diferentemente dos escribas, ele os ensinava como quem temautoridade."
+  },
+  {
+   "n": 23,
+   "t": "E havia na sinagoga deles um homem com um espírito imundo, que gritou,"
+  },
+  {
+   "n": 24,
+   "t": "dizendo: Ah, que temos contigo, Jesus Nazareno? Vieste para nos destruir? Bem sei quem és: o Santo de Deus."
+  }
+ ],
+ "titulo": "O chamado que muda tudo",
+ "temas": [
+  "chamado",
+  "autoridade",
+  "espírito",
+  "reino"
+ ],
+ "pergunta": "O que você faria se Jesus lhe pedisse para largar tudo e segui‑Lo?",
+ "entender": "Marcos 1:12‑24 descreve o início do ministério de Jesus. Primeiro, o Espírito o \"impeliu ao deserto\" onde, por quarenta dias, foi tentado por Satanás (v.12‑13). Depois da prisão de João, Jesus chega à Galileia, anuncia que \"o Reino de Deus está perto\" e chama Simão, André, Tiago e João a deixarem suas redes e segui‑lo (v.14‑20). Em Cafarnaum, ele entra na sinagoga e ensina com autoridade, deixando as pessoas admiradas (v.21‑22). Na mesma sinagoga havia um homem possuído por um espírito imundo que o reconheceu como \"Santo de Deus\" (v.23‑24). A expulsão efetiva do demônio só acontece nos versículos seguintes (v.25‑26). O relato mostra três momentos: a preparação no deserto, o chamado dos primeiros discípulos e a demonstração de autoridade que supera a dos escribas.\n\nO contexto anterior (Marcos 1:9‑11) apresenta o batismo de Jesus, a descida do Espírito como pomba e a voz do Pai declarando‑o Filho, confirmando que o poder que Jesus demonstra vem do Pai. O texto posterior (v.25‑27) registra a reação das pessoas, que ficam admiradas e se perguntam sobre o novo ensino que tem autoridade até sobre espíritos. Assim, o capítulo enfatiza que o Reino de Deus já está em ação por meio de Jesus, que chama a seguir‑lo e demonstra poder divino.",
+ "ligar": {
+  "texto": "Ao chamar pescadores para se tornarem \"pescadores de gente\", Jesus revela a missão do evangelho: abandonar o que nos prende e participar da colheita do Reino. Sua autoridade ao ensinar e ao confrontar o espírito imundo demonstra que Ele é o Messias prometido, capaz de libertar do poder do mal (cf. Lucas 4:18‑19). Esse poder aponta para a salvação que vem por meio da fé em Cristo, que vence o pecado e convida todos a viver sob a soberania de Deus.",
+  "selo": true
+ },
+ "viver": "Jesus não pediu apenas que deixassem as redes, mas que seguissem uma nova missão. Hoje, isso pode significar abandonar hábitos, relacionamentos ou planos que nos afastam do chamado de Deus. Quando reconhecemos que o Reino está próximo, somos convidados a confiar no Espírito que nos impulsiona, assim como Ele fez com Jesus no deserto. Essa confiança nos permite enfrentar situações difíceis, lembrando que o mesmo poder que expulsou o espírito imundo está disponível para nos libertar das nossas próprias cadeias.",
+ "guarde": "Quando Cristo chama, Ele nos dá um novo propósito que vale mais que tudo que temos.",
+ "ore": "Jesus, ao chamar Simão e André, me mostrou que devo largar minhas redes de medo e seguir‑te, confiando no teu Reino que está perto.",
+ "quiz": {
+  "pergunta": "Qual foi a reação das pessoas na sinagoga ao ensino de Jesus?",
+  "opcoes": [
+   "Pediram que ele deixasse a sinagoga",
+   "Criticaram sua falta de conhecimento",
+   "Ficaram admirados com sua autoridade"
+  ],
+  "certa": 2,
+  "explicacao": "Marcos 1:22 registra que as pessoas ficaram admiradas porque Jesus ensinava com autoridade, diferente dos escribas."
+ },
+ "refs": [
+  "Lucas 4:18-19",
+  "Mateus 4:1-11",
+  "João 1:35-39",
+  "Atos 10:38"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T03:42:43.367Z",
+  "rounds": 2
+ }
+}

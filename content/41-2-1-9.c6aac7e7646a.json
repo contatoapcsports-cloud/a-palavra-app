@@ -1,0 +1,133 @@
+{
+ "id": "41-2-1-9",
+ "ref": "Marcos 2:1-9",
+ "book": "41",
+ "chapter": 2,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Dias depois, Jesus entrou outra vez em Cafarnaum, e ouviu-se que estava em casa."
+  },
+  {
+   "n": 2,
+   "t": "Logo juntaram-se tantos, que nem mesmo perto da porta cabiam; e ele lhes falava a palavra."
+  },
+  {
+   "n": 3,
+   "t": "E vieram a ele uns que traziam um paralítico carregado por quatro."
+  },
+  {
+   "n": 4,
+   "t": "Como não podiam se aproximar dele por causa da multidão, descobriram o telhado onde ele estava, fizeram um buraco, e baixaram por ele o leito em que jazia o paralítico."
+  },
+  {
+   "n": 5,
+   "t": "Quando Jesus viu a fé deles, disse ao paralítico: Filho, os teus pecados te são perdoados."
+  },
+  {
+   "n": 6,
+   "t": "E estavam ali sentados alguns escribas, que pensavam em seus corações:"
+  },
+  {
+   "n": 7,
+   "t": "Por que este homem fala essas blasfêmias? Quem pode perdoar pecados, a não ser somente Deus?"
+  },
+  {
+   "n": 8,
+   "t": "Imediatamente Jesus percebeu em seu espírito que assim pensavam em si mesmos. Então perguntou-lhes: Por que pensais assim em vossos corações?"
+  },
+  {
+   "n": 9,
+   "t": "O que é mais fácil? Dizer ao paralítico: “Os teus pecados estão perdoados”, ou dizer, “Levanta-te, toma o teu leito, e anda”?"
+  }
+ ],
+ "titulo": "Quatro homens, um telhado e a fé que move",
+ "temas": [
+  "fé",
+  "perdão",
+  "curação",
+  "coragem"
+ ],
+ "pergunta": "O que você faria se a multidão impedisse seu acesso a quem precisa de ajuda?",
+ "entender": "Em Cafarnaum, a casa de Simão estava tão cheia que ninguém cabia perto da porta. Jesus continuava falando a palavra, mas quatro homens com um paralítico carregado não conseguiam passar. Em vez de desistirem, eles subiram ao telhado, abriram um buraco e baixaram o leito onde o homem jazia.\n\nAo ver essa atitude, Jesus disse ao paralítico: \"Filho, os teus pecados te são perdoados\". Essa declaração chocou os escribas presentes. Em suas mentes, pensaram que era uma blasfêmia, pois acreditavam que só Deus podia perdoar pecados. Jesus, percebendo o raciocínio deles, questionou por que pensavam assim e propôs uma comparação direta sobre o poder de perdoar ou curar.",
+ "ligar": {
+  "texto": "Este texto revela a autoridade divina de Jesus. Ao perdoar os pecados, Ele age como Deus, mostrando que sua missão não é apenas física, mas espiritual. O perdão é a prioridade máxima de Cristo, pois trata a raiz do problema humano. A cura que se segue (nos versículos seguintes) serve de prova pública de que Ele tem poder para fazer o invisível (perdoar) e o visível (curar), confirmando sua identidade como o Filho do Homem com autoridade na terra.",
+  "selo": true
+ },
+ "viver": "Às vezes, a vida cria multidões ao redor dos nossos problemas: preocupações, opiniões alheias ou a própria inércia. Assim como aqueles quatro amigos, a fé verdadeira não espera condições perfeitas; ela age mesmo quando o caminho parece bloqueado. Talvez você sinta que suas orações não passam por causa de obstáculos externos. Este trecho nos convida a ser criativos na perseverança. Não é sobre forçar a vontade de Deus, mas sobre não desistir de buscar a presença dEle e de quem precisa de ajuda, mesmo que precise \"abrir um buraco\" na rotina para chegar até Ele.",
+ "guarde": "A fé que abre caminhos é a mesma que recebe o perdão de Deus.",
+ "ore": "Jesus, em Cafarnaum, vi a fé dos quatro amigos que não desistiram. Ensina-me a não deixar a multidão dos meus medos impedir meu acesso a Ti. Que minha fé seja ativa e persistente, buscando o Teu perdão e a cura da minha alma, confiando que Tu tens poder para perdoar e transformar.",
+ "quiz": {
+  "pergunta": "O que os escribas pensaram quando Jesus disse que os pecados do paralítico estavam perdoados?",
+  "opcoes": [
+   "Que o paralítico não merecia aquele perdão.",
+   "Que Jesus estava sendo muito generoso com o doente.",
+   "Que Jesus estava blasfemando, pois só Deus perdoa pecados."
+  ],
+  "certa": 2,
+  "explicacao": "Os escribas interpretaram a declaração de Jesus como uma usurpação da autoridade divina, pois na teologia judaica da época, o perdão de pecados era prerrogativa exclusiva de Deus."
+ },
+ "refs": [
+  "Lucas 5:17-26",
+  "Atos 5:31",
+  "Colossenses 2:13-14"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T03:44:49.233Z",
+  "rounds": 1
+ }
+}

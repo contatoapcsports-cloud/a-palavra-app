@@ -477,28 +477,36 @@
    "titulo": "Três perguntas que restauram um coração ferido"
   },
   "43-21-18-25": {
-   "execucoes": 0,
-   "ultimo": "erro: groq-qwen: 429 {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on output tokens per minute (OTPM): Limit 1"
+   "execucoes": 1,
+   "ultimo": "gemini: CROSS_SECTION_CONSISTENCY: A explicação da resposta do teste cita que alguém vestiria as mãos de Pedro, mas o texto bíblico diz que outro o vestiria, e não que vestiria suas mãos."
   },
   "41-1-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: groq-qwen: 429 {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on output tokens per minute (OTPM): Limit 1"
+   "ultimo": "erro: groq-qwen: 429 {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on output tokens per minute (OTPM): Limit 1",
+   "estado": "pronto",
+   "titulo": "Quem preparou o caminho para o Salvador?"
   },
   "41-1-12-24": {
    "execucoes": 0,
-   "ultimo": "erro: groq-qwen: 429 {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on output tokens per minute (OTPM): Limit 1"
+   "ultimo": "gemini: REFERENCE_BOUNDARY: O ensino afirma que Jesus expulsa o espírito imundo nos versículos 21-24, mas a repreensão e a efetiva expulsão ocorrem apenas nos versículos 25-26.",
+   "estado": "pronto",
+   "titulo": "O chamado que muda tudo"
   },
   "41-1-25-34": {
    "execucoes": 0,
-   "ultimo": "erro: groq-qwen: 429 {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on output tokens per minute (OTPM): Limit 1"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   },
   "41-1-35-45": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: quiz.explicacao:citacao_longa",
+   "estado": "pronto",
+   "titulo": "O silêncio que precede o toque de cura"
   },
   "41-2-1-9": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Quatro homens, um telhado e a fé que move"
   },
   "41-2-10-19": {
    "execucoes": 0,
@@ -531,28 +539,32 @@
   "41-4-22-31": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-4-32-41": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 196,
-   "entrada": 413272,
-   "saida": 179814
+   "chamadas": 205,
+   "entrada": 436829,
+   "saida": 187151
   },
   "groq-qwen": {
-   "chamadas": 193,
-   "entrada": 386365,
-   "saida": 151714
+   "chamadas": 200,
+   "entrada": 403995,
+   "saida": 157111
   },
   "gemini": {
-   "chamadas": 143,
-   "entrada": 456406,
-   "saida": 209687
+   "chamadas": 151,
+   "entrada": 482161,
+   "saida": 215212
   },
   "cloudflare": {
-   "chamadas": 81,
-   "entrada": 278345,
-   "saida": 30051
+   "chamadas": 85,
+   "entrada": 292221,
+   "saida": 31535
   },
   "mistral": {
    "chamadas": 0,

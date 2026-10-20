@@ -1,0 +1,141 @@
+{
+ "id": "41-1-35-45",
+ "ref": "Marcos 1:35-45",
+ "book": "41",
+ "chapter": 1,
+ "verses": [
+  {
+   "n": 35,
+   "t": "De madrugada, ainda escuro, ele se levantou para sair, foi a um lugar deserto, e ali esteve a orar."
+  },
+  {
+   "n": 36,
+   "t": "Simão e os que estavam com ele o seguiram."
+  },
+  {
+   "n": 37,
+   "t": "Quando o acharam, disseram-lhe: Todos estão te procurando."
+  },
+  {
+   "n": 38,
+   "t": "Jesus lhes respondeu: Vamos para as aldeias vizinhas, para que eu também pregue ali, pois vim para isso."
+  },
+  {
+   "n": 39,
+   "t": "Ele pregava em suas sinagogas por toda a Galileia, e expulsava os demônios."
+  },
+  {
+   "n": 40,
+   "t": "Um leproso aproximou-se dele, rogando-lhe, pondo-se de joelhos diante dele, e dizendo-lhe: Se quiseres, tu podes limpar-me."
+  },
+  {
+   "n": 41,
+   "t": "E Jesus , movido de compaixão, estendeu a mão, tocou-o, e disse-lhe: Quero; sê limpo."
+  },
+  {
+   "n": 42,
+   "t": "Quando disse isso, logo a lepra saiu dele, e ficou limpo."
+  },
+  {
+   "n": 43,
+   "t": "Jesus advertiu-o, e logo o despediu,"
+  },
+  {
+   "n": 44,
+   "t": "dizendo-lhe: Cuidado, não digas nada a ninguém. Mas vai, mostra-te ao Sacerdote, e oferece por teres ficado limpo o que Moisés mandou, para lhes servir de testemunho."
+  },
+  {
+   "n": 45,
+   "t": "Porém, quando ele saiu, começou a anunciar muitas coisas, e a divulgar a notícia, de maneira que Jesus já não podia entrar publicamente na cidade; em vez disso, ficava do lado de fora em lugares desertos, e pessoas de todas as partes vinham até ele."
+  }
+ ],
+ "titulo": "O silêncio que precede o toque de cura",
+ "temas": [
+  "oração",
+  "misericórdia",
+  "lepra",
+  "purificação"
+ ],
+ "pergunta": "O que Jesus fazia antes de atender às multidões e por que isso importa para a sua vida?",
+ "entender": "O texto abre com Jesus se levantando de madrugada, ainda escuro, para ir a um lugar deserto e orar. Mesmo com Simão e os outros o procurando porque a multidão estava à sua espera, Ele prioriza a comunhão com o Pai antes da ação. Ele declara que veio para pregar nas aldeias vizinhas, estabelecendo que o propósito central de Sua missão é o anúncio do Reino, não apenas a realização de milagres.\n\nEm seguida, um leproso se aproxima, ajoelhando-se e dizendo: \"Se quiseres, tu podes limpar-me\". Na época, leprosos eram excluídos da sociedade e proibidos de tocar em pessoas. A reação de Jesus é surpreendente: movido de compaixão, Ele estende a mão e toca o homem. Esse toque físico é um ato de restauração de dignidade e humanidade.\n\nJesus cura o homem imediatamente, mas também o manda mostrar-se ao sacerdote para oferecer o sacrifício que Moisés determinou, servindo de testemunho. Embora Jesus mandasse silêncio, o homem divulgou a notícia, fazendo com que Jesus não pudesse entrar publicamente nas cidades, ficando do lado de fora, em lugares desertos.",
+ "ligar": {
+  "texto": "Este trecho revela a natureza de Jesus como o Deus encarnado que se identifica com os marginalizados. Ao tocar o leproso, Jesus quebra barreiras legais e sociais, demonstrando que o Reino de Deus restaura a totalidade da pessoa. A cura da lepra aponta para a cura do pecado que nos separa de Deus. Jesus não apenas perdoa, mas também restaura a vida comunitária, mandando o homem voltar ao sacerdócio. Isso nos mostra que o evangelho é transformação real e tangível.",
+  "selo": true
+ },
+ "viver": "Assim como Jesus buscou a solidão para orar antes de atender às demandas, você também precisa de momentos de silêncio para se reconectar com o Pai. Não deixe que a agenda lotada ou a ansiedade pelo próximo milagre roubem seu tempo de comunhão. A eficácia do seu testemunho e serviço depende da sua intimidade com Deus.\n\nAlém disso, observe quem está à margem da sua comunidade. Jesus tocou o leproso para restaurá-lo. Identifique alguém que você evita por medo ou julgamento e busque uma forma segura e respeitosa de estender a mão, demonstrando a compaixão que aprendeu com Cristo.",
+ "guarde": "A compaixão de Jesus não se limita a palavras; ela toca, cura e restaura a dignidade do outro.",
+ "ore": "Jesus, assim como foi a um lugar deserto para orar, eu busco este momento de silêncio para ouvir Tua voz. Ensina-me a priorizar a comunhão contigo antes das ações. Dá-me compaixão para tocar a vida dos marginalizados, mostrando o amor que me curou.",
+ "quiz": {
+  "pergunta": "O que Jesus mandou o leproso fazer após ser curado?",
+  "opcoes": [
+   "Mostrar-se ao sacerdote e oferecer o que Moisés mandou",
+   "Seguir Jesus imediatamente para pregar",
+   "Ficar em casa e não contar a ninguém"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que Jesus o advertiu a não falar, mas mandou que ele se mostrasse ao sacerdote e offersse o sacrifício legal como testemunho da cura."
+ },
+ "refs": [
+  "Lucas 5:12-16",
+  "Levítico 13:45",
+  "Marcos 1:21-28"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T03:46:52.653Z",
+  "rounds": 1
+ }
+}

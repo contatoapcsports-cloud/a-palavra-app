@@ -1,0 +1,141 @@
+{
+ "id": "41-1-1-11",
+ "ref": "Marcos 1:1-11",
+ "book": "41",
+ "chapter": 1,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Princípio do Evangelho de Jesus Cristo, Filho de Deus."
+  },
+  {
+   "n": 2,
+   "t": "Como está escrito nos profetas: Eis que eu envio o meu mensageiro diante de tua face, que preparará o teu caminho diante de ti . Malaquias 3:1"
+  },
+  {
+   "n": 3,
+   "t": "Voz do que clama no deserto: Preparai o caminho do Senhor, endireitai suas veredas. Isaías 40:3"
+  },
+  {
+   "n": 4,
+   "t": "João veio a batizar no deserto, e a pregar o batismo de arrependimento para perdão dos pecados."
+  },
+  {
+   "n": 5,
+   "t": "E toda a província da Judeia e os de Jerusalém saíam até ele; e eram todos batizados por ele no rio Jordão, confessando os seus pecados."
+  },
+  {
+   "n": 6,
+   "t": "João se vestia de pelos de camelo, e um cinto de couro em sua cintura; e comia gafanhotos e mel do campo."
+  },
+  {
+   "n": 7,
+   "t": "Ele pregava assim: Após mim vem aquele que é mais forte do que eu. A ele não sou digno de me abaixar para desatar a tira das suas sandálias."
+  },
+  {
+   "n": 8,
+   "t": "De fato eu tenho vos batizado com água, porém ele vos batizará com Espírito Santo."
+  },
+  {
+   "n": 9,
+   "t": "E aconteceu que, naqueles dias, Jesus de Nazaré da Galileia veio, e foi batizado por João no Jordão."
+  },
+  {
+   "n": 10,
+   "t": "E assim que saiu da água, viu os céus se abrirem, e o Espírito, que como pomba descia sobre ele."
+  },
+  {
+   "n": 11,
+   "t": "E veio uma voz dos céus: Tu és meu Filho amado, em quem me agrado."
+  }
+ ],
+ "titulo": "Quem preparou o caminho para o Salvador?",
+ "temas": [
+  "batismo",
+  "espírito",
+  "filho",
+  "promessa"
+ ],
+ "pergunta": "Por que João batizou com água e anunciou que alguém maior viria?",
+ "entender": "Marcos 1:1‑11 inicia o evangelho declarando que este é o \"princípio do Evangelho de Jesus Cristo, Filho de Deus\". O texto cita o profeta que enviou um mensageiro para preparar o caminho (Isaías 40:3) e apresenta João Batista, que vivia no deserto, vestia peles de camelo e pregava \"batismo de arrependimento para perdão dos pecados\". Ele dizia que, depois dele, viria alguém mais forte, que batizaria com o Espírito Santo. Quando Jesus chega, é batizado por João; ao sair da água, o céu se abre, o Espírito desce como pomba e uma voz do céu declara: \"Tu és meu Filho amado, em quem me agrado\".\n\nEsse momento marca a transição de um profeta que aponta para o Messias a Jesus, o próprio Filho de Deus. O batismo de João tem caráter preparatório, enquanto o batismo de Jesus revela sua identidade divina e a ação do Espírito que o acompanha para a missão que iniciará.",
+ "ligar": {
+  "texto": "O relato mostra que João anuncia a vinda do Messias, mas só Jesus confirma a promessa ao ser reconhecido como Filho amado por Deus. O Espírito que desce como pomba simboliza o poder que capacita Cristo para anunciar o Reino. Assim, o batismo de Jesus não é apenas um ritual, mas a primeira manifestação pública da sua missão salvadora, apontando para o evangelho que ele traria: perdão dos pecados e vida nova pelo Espírito Santo.",
+  "selo": true
+ },
+ "viver": "Assim como João preparou o caminho ao chamar as pessoas ao arrependimento, somos convidados a preparar nossos corações para receber Jesus. Quando reconhecemos que Ele é o Filho amado, podemos deixar que o Espírito Santo nos guie, assim como o céu se abriu para Ele. Essa abertura nos permite viver em constante dependência do Espírito, buscando transformação diária e compartilhando a boa nova com quem ainda não conhece o caminho.",
+ "guarde": "Jesus foi batizado para revelar que Ele é o Filho amado de Deus, enviado para nos salvar.",
+ "ore": "Jesus, ao ser batizado no Jordão, abriu meus olhos para reconhecer que Tu és o Filho amado de Deus, e me ajuda a viver sob a direção do Espírito Santo.",
+ "quiz": {
+  "pergunta": "O que João Batista prometeu que viria depois dele?",
+  "opcoes": [
+   "Ele batizaria com o Espírito Santo",
+   "Ele seria o rei de Israel",
+   "Ele traria riquezas ao povo"
+  ],
+  "certa": 0,
+  "explicacao": "João declarou que o que viria depois dele batizaria com o Espírito Santo (Marcos 1:8), indicando a missão sobrenatural de Cristo."
+ },
+ "refs": [
+  "Isaías 40:3",
+  "Lucas 3:16",
+  "João 1:29"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T03:39:44.077Z",
+  "rounds": 1
+ }
+}
