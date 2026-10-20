@@ -1,0 +1,137 @@
+{
+ "id": "41-4-32-41",
+ "ref": "Marcos 4:32-41",
+ "book": "41",
+ "chapter": 4,
+ "verses": [
+  {
+   "n": 32,
+   "t": "Mas, depois de semeado, cresce, e se torna a maior de todas as hortaliças, e cria grandes ramos, de maneira que os pássaros do céu podem fazer ninhos sob a sua sombra."
+  },
+  {
+   "n": 33,
+   "t": "E com muitas parábolas como essas Jesus lhes falava a palavra, conforme o que podiam ouvir."
+  },
+  {
+   "n": 34,
+   "t": "E não lhes falava sem parábola; mas aos seus discípulos explicava tudo em particular."
+  },
+  {
+   "n": 35,
+   "t": "Naquele dia, chegando o entardecer, disse-lhes: Passemos para o outro lado."
+  },
+  {
+   "n": 36,
+   "t": "Então despediram a multidão, e o levaram consigo assim como estava no barco; mas havia também outros barquinhos com ele."
+  },
+  {
+   "n": 37,
+   "t": "E levantou-se uma grande tempestade de vento; as ondas atingiam por cima do barco, de maneira que já se enchia."
+  },
+  {
+   "n": 38,
+   "t": "Jesus estava na popa dormindo sobre uma almofada. Então despertaram-no, e disseram-lhe: Mestre, não te importas que pereçamos?"
+  },
+  {
+   "n": 39,
+   "t": "Então ele se levantou, repreendeu o vento, e disse ao mar: Cala-te, aquieta-te! E o vento se aquietou, e fez-se grande bonança."
+  },
+  {
+   "n": 40,
+   "t": "E perguntou-lhes: Por que sois tão covardes? Como não tendes fé?"
+  },
+  {
+   "n": 41,
+   "t": "E ficaram muito atemorizados, e diziam uns aos outros: Quem é este, que até o vento e o mar lhe obedecem?"
+  }
+ ],
+ "titulo": "A tempestade e o sono de Jesus",
+ "temas": [
+  "fé",
+  "controle",
+  "tempestade",
+  "jesus"
+ ],
+ "pergunta": "O que você faz quando o 'mar' da sua vida ameaça afundar seu barco?",
+ "entender": "Após ensinar sobre o Reino de Deus com a parábola do grão de mostarda, Jesus e seus discípulos cruzam o mar da Galileia. Durante a travessia, uma violenta tempestade se levanta, com ondas entrando no barco. Enquanto eles entram em pânico, Jesus dorme na popa. Ao serem acordados, eles perguntam com angústia: 'Mestre, não te importas que pereçamos?'.\n\nJesus se levanta, repreende o vento e diz ao mar: 'Cala-te, aquieta-te!'. Imediatamente, há grande bonança. Ele então questiona a falta de fé dos discípulos. O texto termina com o espanto deles, perguntando: 'Quem é este, que até o vento e o mar lhe obedecem?'",
+ "ligar": {
+  "texto": "Este episódio revela a divindade de Jesus. Ele não apenas acalma a tempestade, mas demonstra autoridade absoluta sobre a natureza, algo que pertence apenas a Deus. A pergunta final dos discípulos aponta para a identidade de Cristo como o Senhor do universo. O evangelho é revelado aqui: Jesus tem o poder de trazer paz e salvação mesmo no meio das maiores crises da vida humana.",
+  "selo": true
+ },
+ "viver": "Talvez você esteja enfrentando uma 'tempestade' agora: problemas financeiros, saúde ou relacionamentos. A lição é que a presença de Jesus no barco muda tudo, mesmo que Ele pareça 'dormir' (silencioso). Em vez de focar apenas na força do vento, confie no poder dEle. Quando a ansiedade bater, lembre-se de que Ele disse 'Cala-te' ao mar. Sua fé não depende da ausência de problemas, mas da presença do Senhor que controla a situação.",
+ "guarde": "A autoridade de Jesus sobre a natureza revela que Ele é o Senhor de todas as suas tempestades.",
+ "ore": "Jesus, Senhor do mar e do vento, quando minha vida estiver em turbulência, ajuda-me a lembrar que Tu estás no barco. Ensina-me a ter fé em Tua voz que acalma a tempestade, mesmo quando não vejo a resposta imediata. Amém.",
+ "quiz": {
+  "pergunta": "O que Jesus fez ao ser acordado pelos discípulos durante a tempestade?",
+  "opcoes": [
+   "Repreendeu o vento e disse ao mar para se aquietar.",
+   "Pediu que os discípulos remassem com mais força.",
+   "Manteve-se em silêncio e orou em voz baixa."
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que ele se levantou, repreendeu o vento e disse: 'Cala-te, aquieta-te!', fazendo-se grande bonança."
+ },
+ "refs": [
+  "Mateus 8:23-27",
+  "Lucas 8:22-25",
+  "Marcos 6:48-51"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T15:49:04.609Z",
+  "rounds": 2
+ }
+}

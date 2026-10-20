@@ -1,0 +1,141 @@
+{
+ "id": "41-5-12-22",
+ "ref": "Marcos 5:12-22",
+ "book": "41",
+ "chapter": 5,
+ "verses": [
+  {
+   "n": 12,
+   "t": "E todos aqueles demônios rogaram-lhe, dizendo: Manda-nos para aqueles porcos, para que entremos neles."
+  },
+  {
+   "n": 13,
+   "t": "Imediatamente Jesus lhes permitiu. Então aqueles espíritos imundos saíram para entrar nos porcos; e a manada lançou-se abaixo no mar; (eram quase dois mil) e afogaram-se no mar."
+  },
+  {
+   "n": 14,
+   "t": "Os que apascentavam os porcos fugiram, e avisaram na cidade e nos campos; e as pessoas foram ver o que havia acontecido."
+  },
+  {
+   "n": 15,
+   "t": "Então aproximaram-se de Jesus, e viram o endemoninhado sentado, vestido, e em sã consciência o que tivera a legião; e ficaram apavorados."
+  },
+  {
+   "n": 16,
+   "t": "E os que haviam visto contaram-lhes o que acontecera ao endemoninhado, e sobre os porcos."
+  },
+  {
+   "n": 17,
+   "t": "Então começaram a rogar-lhe que saísse do território deles."
+  },
+  {
+   "n": 18,
+   "t": "Quando Jesus entrava no barco, o que fora endemoninhado rogou-lhe que estivesse com ele."
+  },
+  {
+   "n": 19,
+   "t": "Jesus se recusou, porém lhe disse: Vai para a tua casa, aos teus, e anuncia-lhes quão grandes coisas o Senhor fez contigo, e como teve misericórdia de ti."
+  },
+  {
+   "n": 20,
+   "t": "Então ele foi embora, e começou a anunciar em Decápolis quão grandes coisas Jesus havia feito com ele; e todos se admiravam."
+  },
+  {
+   "n": 21,
+   "t": "Depois de Jesus passar outra vez num barco para o outro lado, uma grande multidão se ajuntou a ele; e ele ficou junto ao mar."
+  },
+  {
+   "n": 22,
+   "t": "E eis que veio um dos líderes de sinagoga, por nome Jairo; e quando o viu, prostrou-se aos seus pés."
+  }
+ ],
+ "titulo": "Quando a liberdade de Jesus incomoda o medo",
+ "temas": [
+  "liberdade",
+  "testemunho",
+  "medo",
+  "misericórdia"
+ ],
+ "pergunta": "Por que as pessoas pediram para Jesus sair daquela região?",
+ "entender": "Em Marcos 5, Jesus liberta um homem atormentado por espíritos imundos. Os demônios pedem para entrar nos porcos e Jesus permite. A manada, com quase dois mil animais, joga-se no mar e morre. A cena é dramática e mostra o custo da libertação para a economia local. Os pastores fogem e contam o que viram. As pessoas se aproximam e veem o homem antes possuído agora sentado, vestido e em sã consciência. O contraste é forte: a destruição dos porcos versus a restauração de uma vida humana. A reação da multidão, porém, é de medo. Eles não se alegram com a cura do homem; pelo contrário, ficam apavorados e rogam a Jesus que saia do território deles. Para eles, a presença de Jesus era mais perigosa e custosa do que o problema que Ele resolvia.\n\nJesus, ao entrar no barco, recebe um pedido do homem libertado para que possa acompanhá-lo. Jesus se recusa, mas lhe dá uma missão clara: ir para casa, aos seus, e anunciar as grandes coisas que o Senhor fez. O homem obedece e passa a pregar em Decápolis. O texto termina introduzindo Jairo, um líder de sinagoga que prostra-se aos pés de Jesus. A transição é rápida, mas mostra que Jesus continua seu ministério, e que a notícia da libertação se espalhou, atraindo novas pessoas para Ele, mesmo que a região tenha rejeitado a presença dEle.",
+ "ligar": {
+  "texto": "Este trecho aponta para a natureza do evangelho como libertação total. Jesus não apenas cura sintomas, mas restaura a identidade e a razão da pessoa. A recusa de Jesus em levar o homem consigo não é descaso, mas um direcionamento estratégico: a graça recebida deve ser testemunhada no círculo próximo. O evangelho é pessoal e local antes de ser global. A rejeição da multidão lembra que a verdade de Cristo pode ser inconveniente para sistemas que se beneficiam do medo ou da opressão, mas a missão do discípulo continua firme, guiada pela misericórdia de Deus.",
+  "selo": true
+ },
+ "viver": "A liberdade em Cristo pode nos colocar em posições incômodas para quem nos cerca. Assim como o homem de Decápolis, somos chamados a testemunhar de forma simples e direta: contar o que Jesus fez em nós. Não precisamos de grandes argumentos, mas de honestidade sobre a misericórdia recebida. Se você se sente pressionado a esconder sua fé para evitar conflitos ou para não incomodar, lembre-se: a verdade de Cristo é mais importante que a aprovação humana. Sua casa e seu trabalho são o primeiro campo missionário, onde a transformação de Jesus deve ser anunciada com coragem.",
+ "guarde": "A verdadeira liberdade nos chama a testemunhar a misericórdia recebida, mesmo quando isso incomoda.",
+ "ore": "Senhor Jesus, olhando para o homem de Decápolis, eu confesso que às vezes tenho medo de contar sobre Ti. Dá-me coragem para ser testemunha fiel da Tua misericórdia em minha casa e no meu trabalho, assim como ele fez. Amém.",
+ "quiz": {
+  "pergunta": "O que a população de Decápolis pediu a Jesus ao vê-lo?",
+  "opcoes": [
+   "Que ficasse para ensinar",
+   "Que curasse mais porcos",
+   "Que saísse do território deles"
+  ],
+  "certa": 2,
+  "explicacao": "O texto diz que, ao verem o homem curado e ouvirem a história dos porcos, eles ficaram apavorados e rogaram que Jesus saísse do território deles (Marcos 5:17)."
+ },
+ "refs": [
+  "Lucas 8:35-39",
+  "Mateus 8:28-34",
+  "Marcos 16:15"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-20T15:49:18.137Z",
+  "rounds": 3
+ }
+}

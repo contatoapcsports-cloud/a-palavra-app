@@ -562,7 +562,9 @@
   },
   "41-4-32-41": {
    "execucoes": 1,
-   "ultimo": "automático: ore:citacao_fora_do_texto"
+   "ultimo": "gemini: LANGUAGE_CLARITY: A frase 'Enquanto eles pânico, Jesus dorme na popa' na seção ENTENDER apresenta erro gramatical com omissão de verbo.",
+   "estado": "pronto",
+   "titulo": "A tempestade e o sono de Jesus"
   },
   "41-5-1-11": {
    "execucoes": 0,
@@ -572,7 +574,9 @@
   },
   "41-5-12-22": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: NARRATIVE_EVENT_CONSISTENCY: O ensino afirma incorretamente que a multidão do versículo 21 foi atraída pela notícia da libertação em Decápolis, quando na verdade Jesus havia atravessado de barco de volta para o outro lado do mar. | LANGUAGE_CLARITY: A expressão 'Jesus, em Decápolis, eu confesso' no ",
+   "estado": "pronto",
+   "titulo": "Quando a liberdade de Jesus incomoda o medo"
   },
   "41-5-23-32": {
    "execucoes": 0,
@@ -617,24 +621,24 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 226,
-   "entrada": 494065,
-   "saida": 206010
+   "chamadas": 233,
+   "entrada": 513486,
+   "saida": 212314
   },
   "groq-qwen": {
-   "chamadas": 222,
-   "entrada": 461683,
-   "saida": 174801
+   "chamadas": 229,
+   "entrada": 480461,
+   "saida": 180690
   },
   "gemini": {
-   "chamadas": 169,
-   "entrada": 540512,
-   "saida": 244938
+   "chamadas": 176,
+   "entrada": 563329,
+   "saida": 255307
   },
   "cloudflare": {
-   "chamadas": 96,
-   "entrada": 330134,
-   "saida": 35616
+   "chamadas": 98,
+   "entrada": 337157,
+   "saida": 36358
   },
   "mistral": {
    "chamadas": 0,
