@@ -2,7 +2,7 @@
    Regras do plano: conteúdo só entra se o hash conferir; aba sem conteúdo não aparece; o último conteúdo válido nunca é descartado. */
 (function () {
   'use strict';
-  var core = window.PVCore, BK = window.PVBooks;
+  var core = window.PVCore, BK = window.PVBooks, SH = window.PVShare;
   var CONTENT = 'pv4-content', MEDIA = 'pv4-media';
   var APP_VERSION = '__SHELL_HASH__';
   var SHIELD = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 5 3.4 8 8 9 4.6-1 8-4 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>';
@@ -44,7 +44,7 @@
   function relPath(url) { var base = new URL('./', location.href).pathname; var p = new URL(url).pathname; return p.indexOf(base) === 0 ? p.slice(base.length) : p.replace(/^\//, ''); }
 
   /* ---------- configuração (dono, contato, Pix, áudio): arquivo config.json ---------- */
-  var cfg = { ownerName: '', year: '', contactEmail: 'contato.palavravivabr@gmail.com', pixKey: '', siteUrl: '', audio: [] };
+  var cfg = { ownerName: '', year: '', contactEmail: 'contato.palavravivabr@gmail.com', pixKey: '', siteUrl: '', shareLabel: '', audio: [] };
   async function loadConfig() {
     try {
       var r = await fetch('config.json');
@@ -230,7 +230,7 @@
   function mtag(t, first) { return h('div', { class: 'mtag', style: first ? 'margin-top:30px' : null, text: t }); }
 
   /* ---------- início ---------- */
-  var testament = 'at';
+  var testament = 'at', homeQ = null;
   function drawBooks() {
     var g = clear($('#bgrid'));
     catalog().filter(function (b) { return b.testament === testament; }).forEach(function (b) {
@@ -242,6 +242,7 @@
   }
   async function viewHome() {
     showScreen('home');
+    homeQ = null; $('#qShare').hidden = true;
     $('#testbar').hidden = manifest.production !== false;
     drawBooks();
     var last = await kvGet('onde-parei'), first = firstAvailable(), r = $('#resume');
@@ -254,12 +255,26 @@
     if (f) {
       try {
         var p = await loadPackage(pkgBy[f.path]);
-        if (p.pergunta) { $('#qEyebrow').textContent = 'Para pensar antes de ler'; $('#qTitle').textContent = p.pergunta; $('#qText').textContent = 'Uma pergunta para abrir o coração antes de ler ' + f.ref + '.'; }
+        if (p.pergunta) { $('#qEyebrow').textContent = 'Para pensar antes de ler'; $('#qTitle').textContent = p.pergunta; $('#qText').textContent = 'Uma pergunta para abrir o coração antes de ler ' + f.ref + '.'; homeQ = { f: f, p: p }; $('#qShare').hidden = false; }
       } catch (e) { /* sem rede e sem cache: fica o texto padrão */ }
     }
   }
   function actRead() { kvGet('onde-parei').then(function (last) { var f = firstAvailable(); if (last && bookOf(last.book)) go({ v: 'read', b: last.book, c: last.chapter }); else if (f) go({ v: 'read', b: f.book, c: f.chapter }); else toast('Ainda não há texto bíblico neste aparelho.'); }); }
   function actStudy() { var f = featured(); if (f) go({ v: 'study', id: f.id }); else toast('Ainda não há ensino publicado neste aparelho.'); }
+
+  /* ---------- link direto para um ensino (#estudo=ID) ---------- */
+  var pendingLink = null;
+  function takeLink() {
+    var id = SH.parseDeepLink(location.hash); if (!id) return null;
+    try { history.replaceState(history.state, '', location.pathname + location.search); } catch (e) { /* ok */ }
+    return id;
+  }
+  function tryDeepLink(id, final) {
+    var ok = manifest && (manifest.passages || []).some(function (p) { return p.id === id; });
+    if (ok) { go({ v: 'study', id: id }); return; }
+    if (final) toast('Esse ensino ainda não está neste aparelho. Conecte-se à internet e abra de novo.'); else pendingLink = id;
+  }
+  function settleLink() { if (pendingLink) { var id = pendingLink; pendingLink = null; tryDeepLink(id, true); } }
 
   /* ---------- capítulos ---------- */
   function viewChap(s) {
@@ -400,7 +415,9 @@
     Object.keys(by).sort(function (x, y) { return (order[x] - order[y]); }).forEach(function (bid) {
       var bk = bookOf(bid), grp = h('div', { class: 'ensgroup' }, [h('h3', { text: bk ? bk.name : bid })]), list = h('div', { class: 'list' });
       by[bid].sort(function (x, y) { return (x.chapter - y.chapter) || String(x.id).localeCompare(String(y.id), undefined, { numeric: true }); }).forEach(function (p) {
-        list.appendChild(h('button', { class: 'hit', type: 'button', onclick: function () { go({ v: 'study', id: p.id }); } }, [h('strong', { text: p.titulo || p.ref }), h('span', { class: 'ref-mini', text: p.ref })]));
+        list.appendChild(h('button', { class: 'hit ens', type: 'button', onclick: function () { go({ v: 'study', id: p.id }); } }, [
+          h('span', { class: 'thumb', style: '--img:url(' + SH.photoFor(p.id) + ')', 'aria-hidden': 'true' }),
+          h('span', { class: 'etxt' }, [h('strong', { text: p.titulo || p.ref }), h('span', { class: 'ref-mini', text: p.ref })])]));
       });
       grp.appendChild(list); body.appendChild(grp);
     });
@@ -411,6 +428,7 @@
     var meta = (manifest.passages || []).filter(function (p) { return p.id === s.id; })[0];
     if (!meta) return go({ v: 'home' }, true);
     showScreen('study'); $('#studyTitle').textContent = meta.ref;
+    var shareBtn = $('#studyShare'); shareBtn.hidden = true;
     var tabs = clear($('#depth')), panels = clear($('#panels')), head = clear($('#studyHead'));
     panels.appendChild(h('p', { class: 'empty', text: 'Carregando…' }));
     var p;
@@ -419,7 +437,9 @@
     if (curState !== s) return;
     var refs = (p.refs || []).map(function (r) { return { text: r, to: resolveRef(r) }; }).filter(function (r) { return r.to; });
     var shown = core.visibleTabs({ verses: p.verses, entender: p.entender, ligar: p.ligar, viver: p.viver, guarde: p.guarde, ore: p.ore, quiz: p.quiz, refs: refs });
+    head.appendChild(h('div', { class: 'scover', style: '--img:url(' + SH.photoFor(meta.id) + ')', 'aria-hidden': 'true' }));
     if (p.titulo) { head.appendChild(h('div', { class: 'sref', text: meta.ref })); head.appendChild(h('h2', { class: 'stitle', text: p.titulo })); }
+    shareBtn.hidden = false; shareBtn.onclick = function () { shareStudy(meta, p); };
     var NAMES = { ler: 'Ler', entender: 'Entender', ligar: 'Ligar ao evangelho', viver: 'Viver', testar: 'Testar', aprofundar: 'Aprofundar' };
     var stamp = function () {
       var st = core.stampText(p); if (!st) return null;
@@ -432,11 +452,13 @@
         if (p.pergunta) n.push(h('div', { class: 'pergunta' }, [h('b', { text: 'Para pensar antes de ler' }), h('p', { text: p.pergunta })]));
         n.push(h('span', { class: 'tag', text: 'Texto bíblico' }));
         n.push(h('div', { class: 'text' }, p.verses.map(function (v) { return h('span', { class: 'v' }, [h('sup', { text: String(v.n) }), h('span', { text: v.t })]); })));
+        n.push(h('button', { class: 'btn alt', type: 'button', text: 'Compartilhar este estudo', onclick: function () { shareStudy(meta, p); } }));
         return n;
       },
       entender: function () {
-        return [
-          h('div', { class: 'cardx study' }, String(p.entender).split(/\n\s*\n/).map(function (t) { return h('p', { text: t.trim(), style: 'margin-bottom:10px' }); })), stamp()];
+        /* trechos curtos: a primeira ideia em destaque, o resto fácil de acompanhar no celular */
+        var parts = SH.chunkText(p.entender).map(function (t, i) { return h('p', { text: t, class: i === 0 ? 'lead1' : null, style: 'margin-bottom:10px' }); });
+        return [h('div', { class: 'cardx study' }, parts), stamp()];
       },
       ligar: function () {
         return [
@@ -605,10 +627,20 @@
     if (isStandalone()) { toast('O app já está instalado.'); return; }
     if (deferred) { var d = deferred; deferred = null; d.prompt(); d.userChoice.then(refreshInstall, refreshInstall); } else installHelp();
   }
-  function share() {
-    var url = cfg.siteUrl || (location.origin + location.pathname);
-    if (navigator.share) navigator.share({ title: 'Palavra Viva', text: 'Bíblia em português, grátis e sem internet.', url: url }).catch(function () { /* cancelado */ });
-    else copy(url, 'Link copiado');
+
+  /* compartilhar: cartão (foto de paz + frase curta + nome + link) enviado pelo menu do aparelho.
+     Se o aparelho não aceitar imagem, vai só o texto com o link; se não houver menu, o link é copiado. Nada é medido nem enviado a servidor. */
+  function shareCard(o) {
+    toast('Preparando o cartão…');
+    var base = SH.baseUrl(cfg.siteUrl, location.href), link = o.id ? SH.studyLink(base, o.id) : base;
+    return SH.cardBlob({ text: o.text, sub: o.sub || '', link: cfg.shareLabel || '', photo: SH.photoFor(o.id) })
+      .catch(function () { return null; })
+      .then(function (blob) { return SH.send({ title: SH.NAME, text: o.msg, url: link, blob: blob, filename: 'cartao.jpg' }, copy); });
+  }
+  function share() { return shareCard({ text: 'Aprenda a Palavra, no seu ritmo.', msg: SH.appMessage() }); }
+  function shareStudy(meta, p) {
+    var titulo = p.titulo || meta.ref;
+    return shareCard({ id: meta.id, text: p.guarde || p.pergunta || titulo, sub: meta.ref, msg: SH.studyMessage({ titulo: titulo, ref: meta.ref, pergunta: p.pergunta }) });
   }
 
   /* ---------- baixar tudo ---------- */
@@ -659,7 +691,7 @@
   function aboutModal() {
     var lic = manifest.license || {}, owner = cfg.ownerName || 'o responsável pelo projeto', yr = cfg.year || String(new Date().getFullYear());
     var dl = h('dl', {}, [
-      row('Projeto', 'Palavra Viva, Bíblia de Estudos. Gratuito, sem anúncios e sem coleta de dados.'),
+      row('Projeto', 'Palavra Viva — Aprendendo as Escrituras. Gratuito, sem anúncios e sem coleta de dados.'),
       cfg.ownerName ? row('Responsável', cfg.ownerName) : null,
       row('Texto bíblico e referências', lic.text || ''),
       row('Direitos', '© ' + yr + ' ' + owner + '. Todos os direitos reservados ao ensino e ao aplicativo; o texto bíblico segue a licença acima.'),
@@ -792,6 +824,12 @@
     $('#thm').addEventListener('click', function (e) { var s = e.target.closest('button'); if (!s) return; lsSet('pv4-theme', s.dataset.m); applyAppearance(); });
     matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyAppearance);
     $('#inst').addEventListener('click', install); $('#shr').addEventListener('click', share);
+    $('#homeShare').addEventListener('click', share);
+    $('#qShare').addEventListener('click', function () {
+      if (!homeQ) return;
+      shareCard({ id: homeQ.f.id, text: homeQ.p.pergunta, sub: homeQ.f.ref, msg: SH.questionMessage({ pergunta: homeQ.p.pergunta }) });
+    });
+    window.addEventListener('hashchange', function () { var id = takeLink(); if (id && manifest) tryDeepLink(id, true); });
     $('#dlbtn').addEventListener('click', downloadModal);
     $('#expbtn').addEventListener('click', function () {
       exportAll().then(function (o) {
@@ -832,6 +870,7 @@
   (async function start() {
     applyAppearance(); bindStatic(); refreshInstall();
     setupSW();
+    var deep = takeLink(); // link direto recebido (#estudo=ID): abre depois da tela inicial
     /* abre na hora com o que já está guardado no aparelho; a internet só atualiza por trás */
     var stored = null;
     try { var cc = await caches.open(CONTENT), sm = await cc.match('content-manifest.json'); if (sm) stored = await sm.json(); } catch (e) { stored = null; }
@@ -845,12 +884,17 @@
     try {
       if (stored && stored.bible) {
         manifest = stored; showFirst();
-        syncManifest().then(function (m) { if (m && manifest && m.generation !== manifest.generation) { manifest = m; indexManifest(); if (curState && curState.v === 'home') render(curState); } }, function () { /* sem internet: segue com o guardado */ });
+        if (deep) tryDeepLink(deep, false);
+        syncManifest().then(function (m) {
+          if (m && manifest && m.generation !== manifest.generation) { manifest = m; indexManifest(); if (curState && curState.v === 'home') render(curState); }
+          settleLink();
+        }, function () { /* sem internet: segue com o guardado */ settleLink(); });
       } else {
         await cfgDone;
         manifest = await syncManifest();
         if (!manifest) throw new Error('Sem conexão e sem conteúdo guardado. Abra o app uma vez com internet.');
         showFirst();
+        if (deep) tryDeepLink(deep, true);
       }
     } catch (e) { fail(e); }
     appReady();
