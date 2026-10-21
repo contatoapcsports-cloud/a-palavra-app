@@ -1,0 +1,136 @@
+{
+ "id": "41-8-1-10",
+ "ref": "Marcos 8:1-10",
+ "book": "41",
+ "chapter": 8,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Naqueles dias, quando havia uma multidão muito grande, e não tinham o que comer, Jesus chamou os seus discípulos a si, e disse-lhes:"
+  },
+  {
+   "n": 2,
+   "t": "Tenho compaixão da multidão, porque já há três dias que estão comigo, e não têm o que comer."
+  },
+  {
+   "n": 3,
+   "t": "E se eu os deixar ir sem comer para suas casas desmaiarão no caminho; porque alguns deles vieram de longe."
+  },
+  {
+   "n": 4,
+   "t": "Os seus discípulos lhe responderam: De onde poderá alguém saciar estes de pão aqui no deserto?"
+  },
+  {
+   "n": 5,
+   "t": "Jesus lhes perguntou: Quantos pães tendes? E eles disseram: Sete."
+  },
+  {
+   "n": 6,
+   "t": "Então mandou à multidão que se sentassem no chão. Em seguida, tomou os sete pães, e tendo dado graças, partiu-os, e os deu a seus discípulos, para que os pusessem diante deles. E eles os puseram diante da multidão."
+  },
+  {
+   "n": 7,
+   "t": "E tinham uns poucos peixinhos, e havendo dado graças, disse que também os pusessem diante deles."
+  },
+  {
+   "n": 8,
+   "t": "Eles comeram, e se saciaram; e levantaram, do que sobrou dos pedaços, sete cestos."
+  },
+  {
+   "n": 9,
+   "t": "Os que comeram eram quase quatro mil. Depois os despediu."
+  },
+  {
+   "n": 10,
+   "t": "E logo entrou no barco com os seus discípulos, e veio para a região de Dalmanuta."
+  }
+ ],
+ "titulo": "A fome que Jesus não ignorou",
+ "temas": [
+  "compaixão",
+  "provisão",
+  "fome"
+ ],
+ "pergunta": "Por que Jesus se preocupou tanto com a fome física daquela multidão?",
+ "entender": "Em Marcos 8, Jesus vê uma multidão grande que não tem o que comer. Ele sente \"compaixão\" porque já há três dias estão com ele e alguns vieram de longe. Se fossem embora sem comer, desmaiariam no caminho.\n\nOs discípulos perguntam de onde virá o pão no deserto. Jesus pergunta quantos pães têm. Eles respondem: sete. Jesus toma os sete pães e uns poucos peixinhos, dá graças, parte-os e entrega aos discípulos para distribuírem. Todos comem e se saciam, sobrando sete cestos cheios de pedaços.",
+ "ligar": {
+  "texto": "Este milagre aponta para Jesus como o verdadeiro Pão que satisfaz a fome humana. Assim como Ele multiplicou o pão físico, Ele oferece a si mesmo como alimento espiritual que dá vida eterna. A compaixão de Jesus revela o coração do Pai, que cuida dos seus filhos mesmo quando eles estão exaustos e sem recursos.",
+  "selo": true
+ },
+ "viver": "Jesus não ignorou a fome física da multidão. Ele agiu com o pouco que havia, confiando que Deus supriria. Talvez você sinta que seus recursos são insuficientes para ajudar alguém ou resolver um problema. Entregue o que você tem a Deus, mesmo que pareça pouco, e confie que Ele pode multiplicar sua oferta para abençoar outros.",
+ "guarde": "O cuidado de Jesus transforma a escassez em abundância.",
+ "ore": "Jesus, em Dalmanuta, Tu viste a fome daquela multidão. Ajuda-me a perceber as necessidades ao meu redor e a confiar que Tu podes suprir com o que eu tenho em minhas mãos.",
+ "quiz": {
+  "pergunta": "Quantos cestos de sobras foram levantados após a alimentação dos quatro mil?",
+  "opcoes": [
+   "Sete cestos",
+   "Um cesto",
+   "Doze cestos"
+  ],
+  "certa": 0,
+  "explicacao": "O texto em Marcos 8.8 afirma explicitamente que levantaram sete cestos do que sobrou dos pedaços, distinguindo este milagre do dos cinco mil (que teve doze cestos)."
+ },
+ "refs": [
+  "Marcos 6:30-44",
+  "João 6:35",
+  "Mateus 15:32-39"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-21T00:56:41.426Z",
+  "rounds": 2
+ }
+}

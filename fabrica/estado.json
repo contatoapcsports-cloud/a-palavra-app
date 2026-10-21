@@ -646,7 +646,9 @@
   },
   "41-8-1-10": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:guarde:41-6-23-34",
+   "estado": "pronto",
+   "titulo": "A fome que Jesus não ignorou"
   },
   "41-8-11-19": {
    "execucoes": 0,
@@ -656,7 +658,9 @@
   },
   "41-8-20-29": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: LANGUAGE_CLARITY: O texto apresenta erro de ortografia em português ao grafar 'Messia' em vez de 'Messias' nas seções Ligar e Ore.",
+   "estado": "pronto",
+   "titulo": "De árvores vagas ao Cristo claro"
   },
   "41-8-30-38": {
    "execucoes": 0,
@@ -665,12 +669,14 @@
    "titulo": "A lógica invertida da vida eterna"
   },
   "41-9-1-10": {
-   "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "execucoes": 1,
+   "ultimo": "automático: refs:quantidade"
   },
   "41-9-11-20": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:viver:41-4-32-41",
+   "estado": "pronto",
+   "titulo": "A falha dos discípulos e a presença de Jesus"
   },
   "41-9-21-31": {
    "execucoes": 0,
@@ -695,28 +701,44 @@
   "41-10-22-31": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-10-32-42": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-10-43-52": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-11-1-11": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-11-12-22": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 247,
-   "entrada": 551290,
-   "saida": 224178
+   "chamadas": 254,
+   "entrada": 570906,
+   "saida": 229933
   },
   "groq-qwen": {
-   "chamadas": 244,
-   "entrada": 517830,
-   "saida": 192529
+   "chamadas": 251,
+   "entrada": 537025,
+   "saida": 197632
   },
   "gemini": {
-   "chamadas": 192,
-   "entrada": 615121,
-   "saida": 265960
+   "chamadas": 198,
+   "entrada": 633823,
+   "saida": 273382
   },
   "cloudflare": {
-   "chamadas": 111,
-   "entrada": 382496,
-   "saida": 41181
+   "chamadas": 114,
+   "entrada": 392766,
+   "saida": 42294
   },
   "mistral": {
    "chamadas": 0,

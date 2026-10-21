@@ -1,0 +1,137 @@
+{
+ "id": "41-8-20-29",
+ "ref": "Marcos 8:20-29",
+ "book": "41",
+ "chapter": 8,
+ "verses": [
+  {
+   "n": 20,
+   "t": "E quando parti os sete entre os quatro mil, quantas cestas cheias de pedaços levantastes? Eles disseram: Sete."
+  },
+  {
+   "n": 21,
+   "t": "Ele lhes perguntou: Como não entendeis?"
+  },
+  {
+   "n": 22,
+   "t": "Então veio a Betsaida. E trouxeram-lhe um cego, e rogaram-lhe que o tocasse."
+  },
+  {
+   "n": 23,
+   "t": "Ele tomou o cego pela mão e o tirou para fora da aldeia. Depois cuspiu nos olhos dele e, pondo as mãos encima dele, perguntou-lhe se via alguma coisa."
+  },
+  {
+   "n": 24,
+   "t": "Ele levantou os olhos e disse: Vejo as pessoas; pois vejo como árvores que andam."
+  },
+  {
+   "n": 25,
+   "t": "Então Jesus pôs de novo as mãos sobre os seus olhos, e o fez olhar para cima . Assim ele ficou restabelecido, e passou a ver todos claramente."
+  },
+  {
+   "n": 26,
+   "t": "Então o mandou para sua casa, dizendo: Não entres na aldeia, nem contes a ninguém da aldeia."
+  },
+  {
+   "n": 27,
+   "t": "Jesus saiu com os seus discípulos para as aldeias de Cesareia de Filipe; e no caminho perguntou a seus discípulos: Quem as pessoas dizem que eu sou?"
+  },
+  {
+   "n": 28,
+   "t": "Eles responderam: João Batista, e outros, Elias; e outros, algum dos profetas."
+  },
+  {
+   "n": 29,
+   "t": "E ele lhes perguntou: E vós, quem dizeis que eu sou? Pedro lhe respondeu: Tu és o Cristo."
+  }
+ ],
+ "titulo": "De árvores vagas ao Cristo claro",
+ "temas": [
+  "visão",
+  "identidade",
+  "confissão",
+  "discipulado"
+ ],
+ "pergunta": "Por que a cura do cego em Betsaida prepara a confissão de Pedro em Cesareia de Filipe?",
+ "entender": "O texto conecta duas cenas: a cura de um cego em Betsaida e a viagem para Cesareia de Filipe. Em Betsaida, Jesus toca os olhos do homem duas vezes. Na primeira, o cego vê, mas de forma confusa: ele descreve pessoas como árvores que andam. Na segunda aplicação das mãos, a visão se torna nítida e completa.\n\nEssa transição de uma visão turva para uma clara serve de pano de fundo para a pergunta seguinte. Jesus pergunta aos discípulos quem as pessoas dizem que Ele é. As respostas variam: João Batista, Elias ou algum profeta. Mas a pergunta central é pessoal: quem vocês dizem que eu sou? Pedro responde com clareza: Tu és o Cristo. A cura física ilustra a necessidade de uma compreensão espiritual precisa sobre a identidade de Jesus.",
+ "ligar": {
+  "texto": "Este trecho é central para o evangelho porque estabelece a identidade de Jesus como o Cristo, o Messias prometido. A cura do cego não é apenas um milagre isolado, mas uma ilustração da revelação progressiva de Deus. Assim como os olhos do cego foram ajustados para ver com clareza, o coração dos discípulos é preparado para confessar a verdade sobre quem Jesus é. Essa confissão é a base da fé cristã: reconhecer que Jesus é o Salvador enviado por Deus. Sem essa compreensão clara, a fé permanece vaga, como ver apenas sombras em movimento.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, nossa compreensão de Deus ou de nossa própria vida começa de forma confusa, cheia de dúvidas e imagens distorcidas. Assim como o cego em Betsaida, podemos sentir que estamos vendo algo, mas não conseguimos focar. A lição aqui é a perseverança na busca pela verdade. Não desanime se sua fé parecer fraca ou sua visão espiritual turva. Continue buscando a Jesus, permitindo que Ele toque sua vida novamente. A clareza não vem de uma só vez, mas de um processo de confiança e abertura a Ele. Pergunte-se regularmente: minha visão sobre Jesus está nítida ou ainda vejo apenas 'árvores andando'?",
+ "guarde": "A clareza sobre quem é Jesus transforma a visão confusa da vida em certeza firme.",
+ "ore": "Jesus, em Betsaida, você tocou os olhos do cego duas vezes até que ele visse claramente. Em Cesareia de Filipe, você nos perguntou quem você é. Eu confesso que você é o Cristo. Ajude-me a remover a neblina da minha mente e do meu coração, para que eu possa ver a realidade espiritual com a mesma nitidez com que o cego passou a ver as pessoas.",
+ "quiz": {
+  "pergunta": "Como o cego descreveu o que via após o primeiro toque de Jesus?",
+  "opcoes": [
+   "Vejo as pessoas; pois vejo como árvores que andam",
+   "Vejo luzes brilhantes no céu",
+   "Vejo apenas escuridão total"
+  ],
+  "certa": 0,
+  "explicacao": "O texto relata especificamente que o homem disse ver pessoas, mas comparou a visão a árvores que andam, indicando uma percepção ainda imprecisa antes da segunda aplicação das mãos."
+ },
+ "refs": [
+  "Mateus 16:13-20",
+  "Lucas 9:18-21",
+  "João 9:1-12"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-21T00:57:27.401Z",
+  "rounds": 3
+ }
+}
