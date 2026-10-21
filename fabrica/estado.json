@@ -670,7 +670,9 @@
   },
   "41-9-1-10": {
    "execucoes": 1,
-   "ultimo": "automático: refs:quantidade"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração inicia dirigindo-se ao 'Monte da Transfiguração' antes de 'Senhor', resultando em uma invocação confusa e incompatível com a oração bíblica.",
+   "estado": "pronto",
+   "titulo": "Vislumbres da glória que antecedem a ressurreição"
   },
   "41-9-11-20": {
    "execucoes": 0,
@@ -680,7 +682,9 @@
   },
   "41-9-21-31": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: NARRATIVE_EVENT_CONSISTENCY: O texto bíblico afirma que o espírito lançava o menino no fogo e na água para o destruir, e não na tentativa de salvá-lo.",
+   "estado": "pronto",
+   "titulo": "A fé honesta que move o céu"
   },
   "41-9-32-40": {
    "execucoes": 0,
@@ -717,28 +721,32 @@
   "41-11-12-22": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-11-23-33": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 254,
-   "entrada": 570906,
-   "saida": 229933
+   "chamadas": 261,
+   "entrada": 590546,
+   "saida": 236280
   },
   "groq-qwen": {
-   "chamadas": 251,
-   "entrada": 537025,
-   "saida": 197632
+   "chamadas": 257,
+   "entrada": 553463,
+   "saida": 202243
   },
   "gemini": {
-   "chamadas": 198,
-   "entrada": 633823,
-   "saida": 273382
+   "chamadas": 203,
+   "entrada": 649880,
+   "saida": 278550
   },
   "cloudflare": {
-   "chamadas": 114,
-   "entrada": 392766,
-   "saida": 42294
+   "chamadas": 116,
+   "entrada": 399795,
+   "saida": 43036
   },
   "mistral": {
    "chamadas": 0,
