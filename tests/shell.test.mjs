@@ -37,7 +37,7 @@ test('service worker: sem skipWaiting automático e sem ler sw.js do cache', () 
 });
 test('o app não faz nenhuma chamada a sites externos', () => {
   for (const [n, t] of [['index.html', html], ['app.js', app], ['styles.css', read('styles.css')], ['sw.js', sw]])
-    assert.ok(!/https?:\/\//.test(t), n + ' contém endereço externo');
+    assert.ok(!/https?:\/\//.test(t.replace(/<meta (?:property="og:|name="twitter:)[^>]*>/g, '')), n + ' contém endereço externo'); // só as tags do cartão de compartilhamento podem ter endereço
 });
 test('aba vazia nunca vira "em breve" na interface', () => {
   assert.ok(!/em breve/i.test(app) && !/em breve/i.test(html));
@@ -48,4 +48,10 @@ test('proprietário, direitos reservados e chave Pix estão configurados', () =>
   assert.ok(/^\d{4}$/.test(c.year));
   assert.ok(/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/.test(c.pixKey), 'chave Pix aleatória no formato esperado');
   assert.ok(html.includes('id="rightsHome"') && html.includes('id="rightsMenu"') && html.includes('name="author"'));
+});
+test('termos de uso e privacidade e licença existem e o app aponta para eles', () => {
+  assert.ok(existsSync(join(root, 'assets/termos.html')) && existsSync(join(root, 'LICENSE')));
+  assert.ok(app.includes("href: 'assets/termos.html'") && pages.includes('assets'));
+  const t = read('assets/termos.html');
+  assert.ok(/Pol[íi]tica de Privacidade/.test(t) && /CC BY 4\.0/.test(t) && /intelig[êe]ncia artificial/i.test(t));
 });
