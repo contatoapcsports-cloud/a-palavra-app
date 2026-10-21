@@ -704,11 +704,14 @@
       row('Projeto', 'Palavra Viva – Aprendendo as Escrituras. Gratuito, sem anúncios e sem coleta de dados.'),
       cfg.ownerName ? row('Responsável', cfg.ownerName) : null,
       row('Texto bíblico e referências', lic.text || ''),
-      row('Direitos', '© ' + yr + ' ' + owner + '. Todos os direitos reservados ao ensino e ao aplicativo; o texto bíblico segue a licença acima.'),
       row('Versão', 'App ' + APP_VERSION + ' · conteúdo ' + manifest.contentVersion + ' (geração ' + manifest.generation + ')')
     ]);
     var nodes = [mtag(APP_NAME, true), h('h2', { text: 'Sobre' }), dl];
     if (lic.url) nodes.push(h('p', {}, [h('a', { href: lic.url, rel: 'noopener', target: '_blank', text: 'Ver a licença do texto' })]));
+    nodes.push(h('p', { style: 'font-size:10.5px;line-height:1.45;color:var(--soft);text-align:center;margin:14px 0 0;opacity:.9' }, [
+      '© ' + yr + ' ' + owner + '. Aplicativo, código e organização dos estudos: todos os direitos reservados. Texto bíblico: Bíblia Livre, licença CC BY 4.0, sem alterações. Os estudos são elaborados com apoio de inteligência artificial e não substituem a Bíblia. ',
+      h('a', { href: 'assets/termos.html', target: '_blank', rel: 'noopener', style: 'font-size:10.5px;font-weight:600;word-break:normal;text-decoration:underline', text: 'Termos de Uso e Privacidade' })
+    ]));
     modal(nodes);
   }
   function contactModal() {
@@ -867,7 +870,7 @@
   }
 
   function fillRights() {
-    var t = cfg.ownerName ? '© ' + (cfg.year || new Date().getFullYear()) + ' ' + cfg.ownerName + ' · Todos os direitos reservados' : '';
+    var t = cfg.ownerName ? '© ' + (cfg.year || new Date().getFullYear()) + ' ' + cfg.ownerName + ' · Aplicativo e organização dos estudos' : '';
     ['rightsHome', 'rightsMenu'].forEach(function (id) { var e = $('#' + id); if (e) { e.textContent = t; e.hidden = !t; } });
   }
 
