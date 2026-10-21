@@ -1,0 +1,133 @@
+{
+ "id": "41-9-32-40",
+ "ref": "Marcos 9:32-40",
+ "book": "41",
+ "chapter": 9,
+ "verses": [
+  {
+   "n": 32,
+   "t": "Mas eles não entendiam esta palavra, e temiam lhe perguntar."
+  },
+  {
+   "n": 33,
+   "t": "E veio a Cafarnaum, e entrando em casa, perguntou-lhes: Que indagais entre vós pelo caminho?"
+  },
+  {
+   "n": 34,
+   "t": "Mas eles se calaram; porque eles haviam discutido uns com os outros pelo caminho, qual deles seria o maior."
+  },
+  {
+   "n": 35,
+   "t": "E sentando-se ele, chamou aos doze, e disse-lhes: Se alguém quiser ser o primeiro, seja o últimos de todos, e servo de todos."
+  },
+  {
+   "n": 36,
+   "t": "E tomando um menino, ele o pôs no meio deles, e tomando-o entre seus braços, disse-lhes:"
+  },
+  {
+   "n": 37,
+   "t": "Qualquer que em meu nome receber a um dos tais meninos, recebe a mim; e qualquer que me receber, não é a mim que recebe, mas, sim, àquele que me enviou."
+  },
+  {
+   "n": 38,
+   "t": "E respondeu-lhe João, dizendo: Mestre, vimos um que em teu nome expulsava os demônios, e ele não nos segue. Então o proibimos, porque não nos segue."
+  },
+  {
+   "n": 39,
+   "t": "Porém Jesus disse: Não o proibais; porque ninguém há que faça milagre em meu nome, e logo possa falar mal de mim."
+  },
+  {
+   "n": 40,
+   "t": "Pois quem não é contra nós, é por nós."
+  }
+ ],
+ "titulo": "Por que Jesus colocou uma criança no meio?",
+ "temas": [
+  "serviço",
+  "humildade",
+  "identidade",
+  "missão"
+ ],
+ "pergunta": "O que a discussão silenciosa dos discípulos revela sobre o que realmente importava para eles?",
+ "entender": "Depois de Jesus prever sua morte e ressurreição, os discípulos não entenderam e temeram perguntar. Ao chegar em Cafarnaum, Jesus percebeu que eles haviam discutido pelo caminho sobre quem seria o maior. Essa disputa revelava que, apesar de seguirem o Messias, ainda carregavam a mentalidade do mundo, onde status e poder definem a importância.\n\nJesus respondeu sentando-se e chamando os doze, ensinando que quem quer ser primeiro deve ser o último e servo de todos. Para ilustrar, ele pegou um menino e o colocou no meio. Naquela sociedade, crianças não tinham status social ou religioso. Ao honrar aquele menino, Jesus redefiniu a grandeza: não se trata de dominar, mas de servir a quem a sociedade considera insignificante. Receber esses pequenos em nome de Jesus é receber o próprio Cristo e, por extensão, o Pai que o enviou.\n\nJoão, então, interviu relatando que haviam impedido alguém de expulsar demônios em nome de Jesus porque ele não os seguia. Jesus corrigiu essa postura restritiva, dizendo que quem não é contra nós, é por nós. Isso amplia a visão da missão: o Reino de Deus não é um clube fechado, mas uma força que se manifesta onde o nome de Jesus é usado com poder e verdade, mesmo por aqueles que não pertencem ao grupo imediato dos apóstolos.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para a identidade de Jesus como o Enviado do Pai. Ao vincular a recepção das crianças à recepção dele e do Pai, Jesus afirma sua divindade e sua relação única com Deus. A ordem de não proibir quem age em seu nome revela que o poder do Evangelho transcende as fronteiras institucionais dos discípulos. O evangelho aqui é apresentado como uma mudança de mentalidade: o Reino de Deus se manifesta através do serviço humilde e da acolhida, refletindo o caráter de Cristo, que veio servir e dar a vida.",
+  "selo": true
+ },
+ "viver": "Talvez você esteja medindo seu valor pela sua produtividade ou pelo reconhecimento que recebe de outros. O texto nos convida a olhar para aqueles ao nosso redor que são ignorados ou marginalizados. Praticar o serviço humilde pode significar dedicar tempo a alguém que não lhe trará nenhum benefício social ou espiritual. Ao servir ao 'menino' na sua vida — seja um colega de trabalho novo, um vizinho isolado ou alguém com necessidades especiais —, você está exercitando a fé de Cristo. Pergunte-se: estou tentando ser 'o maior' no meu círculo, ou estou disposto a ocupar o último lugar para servir melhor?",
+ "guarde": "Quem não é contra nós, é por nós: a unidade de Deus se manifesta no serviço e na acolhida.",
+ "ore": "Em Cafarnaum, Senhor, eu me calo diante da Tua grandeza. Perdoa-me quando busco posição em vez de serviço. Ensina-me a ver a Tua face em cada pessoa que a sociedade despreza, para que eu possa recebê-las como Te receberia. Que meu coração seja moldado pela humildade de quem sabe que o maior é o servo.",
+ "quiz": {
+  "pergunta": "Por que Jesus colocou um menino no meio dos discípulos?",
+  "opcoes": [
+   "Para ensinar que a grandeza no Reino é ser servo e acolher os pequenos.",
+   "Para testar se eles gostavam de crianças.",
+   "Para mostrar que crianças têm poder espiritual maior."
+  ],
+  "certa": 0,
+  "explicacao": "Jesus usou a criança, que não tinha status social, para inverter a lógica da disputa sobre quem seria o maior, ensinando que a verdadeira grandeza está em servir."
+ },
+ "refs": [
+  "Mateus 18:1-5",
+  "Lucas 22:24-27",
+  "Marcos 10:42-45"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-21T12:51:47.624Z",
+  "rounds": 1
+ }
+}

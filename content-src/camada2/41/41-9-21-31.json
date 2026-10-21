@@ -1,0 +1,141 @@
+{
+ "id": "41-9-21-31",
+ "ref": "Marcos 9:21-31",
+ "book": "41",
+ "chapter": 9,
+ "verses": [
+  {
+   "n": 21,
+   "t": "E perguntou ao seu pai: Quanto tempo há que isto lhe sobreveio? E ele lhe disse: Desde a infância."
+  },
+  {
+   "n": 22,
+   "t": "E muitas vezes o lançou também no fogo e na água para o destruir. Mas, se podes algo, tem compaixão de nós, e ajuda-nos."
+  },
+  {
+   "n": 23,
+   "t": "E Jesus lhe disse: Se podes crer, tudo é possível ao que crê."
+  },
+  {
+   "n": 24,
+   "t": "Logo o pai do menino, clamando, com lágrimas, disse: Creio, Senhor! Ajuda-me na minha incredulidade."
+  },
+  {
+   "n": 25,
+   "t": "Quando Jesus viu que a multidão corria e se ajuntava, repreendeu o espírito imundo, dizendo-lhe: Espírito mudo e surdo, eu te ordeno, sai dele, e nunca mais entres nele!"
+  },
+  {
+   "n": 26,
+   "t": "Então o espírito , gritando, e fazendo-o ter muita convulsão, saiu. E o menino ficou como morto, de maneira que muitos diziam que estava morto."
+  },
+  {
+   "n": 27,
+   "t": "Então Jesus o tomou pela mão, e o ergueu; e ele se levantou."
+  },
+  {
+   "n": 28,
+   "t": "E quando entrou em casa, seus discípulos lhe perguntaram à parte: Por que nós não conseguimos o expulsar?"
+  },
+  {
+   "n": 29,
+   "t": "E lhes respondeu: Este tipo não pode sair por coisa alguma, a não ser com oração e jejum."
+  },
+  {
+   "n": 30,
+   "t": "Depois partiram dali, e caminharam pela Galileia. Mas Jesus não queria que ninguém soubesse,"
+  },
+  {
+   "n": 31,
+   "t": "Porque ensinava a seus discípulos, e lhes dizia: O Filho do homem será entregue em mãos de homens, e o matarão; e estando ele morto, ressuscitará ao terceiro dia."
+  }
+ ],
+ "titulo": "Quando a fé vacila, como buscar força?",
+ "temas": [
+  "fé",
+  "oração",
+  "incredulidade",
+  "cura"
+ ],
+ "pergunta": "Você já tentou confiar em Jesus mesmo quando sua fé parece fraca?",
+ "entender": "Neste trecho, um pai traz seu filho possuído a Jesus e relata que o demônio o atormenta \"desde a infância\" (Marcos 9.21). Ele suplica: \"Mas, se podes algo, tem compaixão de nós, e ajuda‑nos\" (9.22). Jesus responde: \"Se podes crer, tudo é possível ao que crê\" (9.23). O pai, reconhecendo sua fraqueza, clama: \"Creio, Senhor! Ajuda‑me na minha incredulidade\" (9.24). Jesus então repreende o espírito, o expulsa e o menino se levanta (9.26‑27). Quando os discípulos perguntam por que não o expulsaram, Jesus explica que \"este tipo não pode sair por coisa alguma, a não ser com oração e jejum\" (9.29). O capítulo termina com Jesus anunciando sua entrega, morte e ressurreição ao terceiro dia (9.31).\n\nO contexto imediato mostra a multidão reunida e o sofrimento do menino, enquanto o contexto posterior indica que os discípulos ainda não compreendiam plenamente o significado da missão de Jesus.",
+ "ligar": {
+  "texto": "O poder de Jesus sobre o demônio revela sua autoridade divina, apontando para a vitória final sobre o pecado que seria consumada na cruz. Sua exortação à oração e ao jejum indica que a luta espiritual continua e que dependemos do Pai, não apenas do poder imediato de Cristo. Assim, o milagre aponta ao evangelho: Cristo vence o mal, e nos convida a confiar nele mediante fé e prática de oração.",
+  "selo": true
+ },
+ "viver": "O pai do menino reconheceu sua própria incredulidade e ainda assim pediu ajuda. Hoje, quando nos sentimos fracos, podemos admitir nossa dúvida a Jesus e buscar momentos de oração profunda, inclusive jejum, para fortalecer nossa fé. Essa prática nos lembra que a confiança não depende de nossa força, mas da graça que Cristo oferece.",
+ "guarde": "Mesmo na dúvida, clame a Jesus; Ele responde à fé que persiste.",
+ "ore": "Jesus, ao ver o menino sofrendo, eu clamo por compaixão. Dá-me fé para crer que, com oração e jejum, o teu poder pode agir em minha vida.",
+ "quiz": {
+  "pergunta": "Por que Jesus disse que o demônio só poderia sair com oração e jejum?",
+  "opcoes": [
+   "Porque o demônio era mais forte que Jesus",
+   "Porque certas opressões espirituais exigem disciplina e dependência de Deus",
+   "Porque os discípulos não tinham coragem suficiente"
+  ],
+  "certa": 1,
+  "explicacao": "Jesus explicou que alguns tipos de opressão exigem prática espiritual profunda, como oração e jejum, para que o poder de Deus possa agir."
+ },
+ "refs": [
+  "Mateus 17:21",
+  "Lucas 9:23",
+  "Tiago 5:16"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-21T12:47:51.374Z",
+  "rounds": 2
+ }
+}

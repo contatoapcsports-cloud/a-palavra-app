@@ -1,0 +1,138 @@
+{
+ "id": "41-10-22-31",
+ "ref": "Marcos 10:22-31",
+ "book": "41",
+ "chapter": 10,
+ "verses": [
+  {
+   "n": 22,
+   "t": "Mas ele, pesaroso desta palavra, foi-se triste; porque tinha muitas propriedades."
+  },
+  {
+   "n": 23,
+   "t": "Então Jesus olhando ao redor, disse a seus discípulos: Como é difícil aos que têm riquezas entrar no Reino de Deus!"
+  },
+  {
+   "n": 24,
+   "t": "E os discípulos se espantaram destas suas palavras; mas Jesus, voltando a responder, disse-lhes: Filhos, como é difícil aos que confiam em riquezas entrar no Reino de Deus!"
+  },
+  {
+   "n": 25,
+   "t": "Mais fácil é passar um camelo pelo olho de uma agulha, do que entrar um rico no Reino de Deus."
+  },
+  {
+   "n": 26,
+   "t": "E eles se espantavam ainda mais, dizendo uns para os outros: Quem, pois, poderá se salvar?"
+  },
+  {
+   "n": 27,
+   "t": "Porém, olhando Jesus para eles, disse: Para os seres humanos, é impossível; mas para Deus, não; porque para Deus tudo é possível."
+  },
+  {
+   "n": 28,
+   "t": "E Pedro começou a lhe dizer: Eis que nós deixamos tudo, e te seguimos."
+  },
+  {
+   "n": 29,
+   "t": "Jesus respondeu: Em verdade vos digo, que não há ninguém que tenha deixado casa, ou irmãos, ou irmãs, ou pai, ou mãe, ou esposa, ou filhos, ou campos, por amor de mim e do Evangelho,"
+  },
+  {
+   "n": 30,
+   "t": "que não receba cem vezes tanto, agora neste tempo, casas, e irmãos, e irmãs, e mães, e filhos, e campos, com perseguições; e a vida eterna, no tempo que virá."
+  },
+  {
+   "n": 31,
+   "t": "Porém muitos primeiros serão últimos, e últimos, primeiros."
+  }
+ ],
+ "titulo": "O peso invisível que afasta do Reino",
+ "temas": [
+  "riquezas",
+  "confiança",
+  "grace",
+  "discipulado",
+  "reino de deus"
+ ],
+ "pergunta": "O que você considera seu maior tesouro hoje?",
+ "entender": "Jesus amava o jovem rico, mas viu que ele tinha muitas propriedades. Ao pedir que vendesse tudo e o seguisse, o homem se afastou triste. Jesus então alertou os discípulos: é difícil para quem confia em riquezas entrar no Reino de Deus.\n\nA comparação com o camelo e a agulha mostra a impossibilidade humana de se salvar por mérito ou segurança material. Pedro lembra que eles deixaram tudo para seguir Jesus. Ele responde que quem renuncia por causa do Evangelho recebe cem vezes mais, incluindo perseguições, e a vida eterna.\n\nO trecho revela que o problema não é a posse, mas a confiança depositada nela. A salvação vem de Deus, pois 'para Deus tudo é possível', e a ordem do Reino é invertida: os últimos serão primeiros.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a suficiência de Cristo. O jovem rico falhou porque tentou segurar em si mesmo e em seus bens. Jesus oferece uma troca: a segurança frágil das riquezas pela segurança eterna da comunhão com Ele. A promessa de 'cem vezes tanto' não é material, mas relacional e espiritual, garantida pela ressurreição de Jesus, que garante a vida eterna.",
+  "selo": true
+ },
+ "viver": "Identifique o que funciona como sua 'propriedade' principal: status, conforto ou controle. Pergunte-se: se eu tivesse que entregar isso a Deus, eu conseguiria? Não se trata de pobreza extrema, mas de disponibilidade. Comece a confiar menos no que você acumula e mais no caráter de Jesus, que é fiel mesmo quando as circunstâncias mudam.",
+ "guarde": "A segurança que vem de Deus é maior que qualquer possessão que possamos ter.",
+ "ore": "Jesus, ao ver o jovem rico partir triste, Tu me mostraste onde está meu coração. Ajuda-me a não confiar em minhas propriedades ou conquistas. Dá-me a coragem de seguir-Te com tudo o que tenho, confiando que Tu és suficiente para minha vida.",
+ "quiz": {
+  "pergunta": "Por que Jesus disse que é difícil para os ricos entrarem no Reino?",
+  "opcoes": [
+   "Porque têm menos tempo para orar",
+   "Porque são moralmente piores",
+   "Porque confiam em suas riquezas"
+  ],
+  "certa": 2,
+  "explicacao": "O texto especifica que a dificuldade está naqueles que 'confiam em riquezas', indicando que o problema é a confiança depositada no dinheiro, não necessariamente a moral ou a agenda."
+ },
+ "refs": [
+  "Mateus 19:16-26",
+  "Lucas 18:18-30",
+  "Tito 3:5"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-21T12:57:40.444Z",
+  "rounds": 1
+ }
+}

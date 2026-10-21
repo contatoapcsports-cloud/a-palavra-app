@@ -1,0 +1,137 @@
+{
+ "id": "41-9-41-50",
+ "ref": "Marcos 9:41-50",
+ "book": "41",
+ "chapter": 9,
+ "verses": [
+  {
+   "n": 41,
+   "t": "Porque qualquer que vos der um copo d'água para beber em meu nome, porque sois de Cristo, em verdade vos digo, que não perderá sua recompensa."
+  },
+  {
+   "n": 42,
+   "t": "E qualquer que conduzir ao pecado um destes pequenos que creem em mim, melhor lhe fora que lhe pusesse ao pescoço uma grande pedra de moinho, e que fosse lançado no mar."
+  },
+  {
+   "n": 43,
+   "t": "E se a tua mão te faz pecar, corta-a; melhor te é entrar na vida mutilado, do que, tendo duas mãos, ir ao inferno, ao fogo que nunca se apaga."
+  },
+  {
+   "n": 44,
+   "t": "Onde seu verme não morre, e o fogo nunca se apaga."
+  },
+  {
+   "n": 45,
+   "t": "E se teu pé te faz pecar, corta-o; melhor te é entrar na vida manco, do que, tendo dois pés, ser lançado no inferno, no fogo que nunca se apaga."
+  },
+  {
+   "n": 46,
+   "t": "Onde seu verme não morre, e o fogo nunca se apaga."
+  },
+  {
+   "n": 47,
+   "t": "E se teu olho te faz pecar, lança-o fora; melhor te é entrar no Reino de Deus com um olho, do que, tendo dois olhos, ser lançado no fogo do inferno,"
+  },
+  {
+   "n": 48,
+   "t": "onde seu verme não morre, e o fogo nunca se apaga."
+  },
+  {
+   "n": 49,
+   "t": "Porque cada um será salgado com fogo, e cada sacrifício será salgado com sal."
+  },
+  {
+   "n": 50,
+   "t": "O sal é bom; mas se o sal se tornar insípido, com que o temperareis? Tende sal em vós mesmos, e paz uns com os outros."
+  }
+ ],
+ "titulo": "O sal que evita a corrupção da alma",
+ "temas": [
+  "discipulado",
+  "salvação",
+  "alerta",
+  "comunhão"
+ ],
+ "pergunta": "O que significa ser 'salgado com fogo' para a sua vida cristã?",
+ "entender": "Em Marcos 9, Jesus fala com seus discípulos sobre a seriedade de seguir a Deus. Ele começa lembrando que até um gesto simples, como dar água a alguém em seu nome, tem valor diante de Deus. Mas logo adverte contra quem leva 'estes pequenos que creem' ao pecado. A expressão 'melhor lhe fora que lhe pusesse ao pescoço uma grande pedra de moinho' mostra a gravidade de destruir a fé de outro.\n\nDepois, Jesus usa imagens fortes: cortar a mão, o pé ou arrancar o olho que leva ao pecado. Não é um convite para auto-mutilação, mas uma hipérbole hebraica para dizer que a salvação da alma vale mais do que qualquer conforto físico. O 'fogo que nunca se apaga' e o 'verme que não morre' descrevem o julgamento final, um estado de separação eterna de Deus.\n\nPor fim, Jesus diz que cada um será 'salgado com fogo' e que o sal é bom, mas se ficar insípido, perde o propósito. O sal conserva e dá sabor. Aqui, ele convida a ter 'paz uns com os outros', lembrando que a vida cristã é comunitária e exige pureza de intenção.",
+ "ligar": {
+  "texto": "Este trecho aponta para a exclusividade e a suficiência de Jesus como o único caminho para a vida eterna. O contraste entre a 'vida' e o 'inferno' mostra que a decisão de seguir a Cristo é definitiva e urgente. A metáfora do sal reforça que o cristão deve refletir a natureza de Deus no mundo, preservando a sociedade da corrupção moral, algo que só é possível através da transformação feita pelo Espírito Santo em quem crê em Jesus.",
+  "selo": true
+ },
+ "viver": "Pense em uma situação onde você sentiu tentação de ignorar um pecado pequeno por comodidade. Jesus nos chama a examinar o que realmente está 'podre' dentro de nós, seja um hábito, uma relação ou uma obsessão. Não se trata de punir o corpo, mas de alinhar o coração com a prioridade de Deus. Peça a Deus para mostrar qual 'fermento' precisa ser removido para que sua fé não perca o sabor. Além disso, busque a paz com aqueles com quem você convive, pois a amargura é o contrário do sal: ela corrói a comunhão.",
+ "guarde": "A salvação da alma vale mais do que qualquer conforto mundano; seja sal que dá sabor e conservam a paz.",
+ "ore": "Jesus, Tu que advertes sobre o fogo e o sal, examina meu coração. Mostra-me o que me leva ao pecado e dá-me força para removê-lo. Ajuda-me a ser sal na minha casa e no trabalho, promovendo paz e não contenda. Que minha vida tenha sabor para o Teu Reino.",
+ "quiz": {
+  "pergunta": "Qual é a intenção de Jesus ao falar em cortar a mão ou o olho?",
+  "opcoes": [
+   "Afirmar que o corpo é mais importante que a alma.",
+   "Ensinar a prática de auto-mutilação física.",
+   "Mostrar a urgência de eliminar o pecado para salvar a alma."
+  ],
+  "certa": 2,
+  "explicacao": "Trata-se de uma hipérbole (exagero intencional) comum na linguagem bíblica para enfatizar a gravidade do pecado e o valor supremo da vida eterna em Cristo."
+ },
+ "refs": [
+  "Mateus 5:13",
+  "Marcos 3:29",
+  "1 Pedro 2:9"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-21T12:53:53.114Z",
+  "rounds": 1
+ }
+}

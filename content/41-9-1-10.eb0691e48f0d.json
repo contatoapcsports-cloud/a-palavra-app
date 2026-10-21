@@ -1,0 +1,138 @@
+{
+ "id": "41-9-1-10",
+ "ref": "Marcos 9:1-10",
+ "book": "41",
+ "chapter": 9,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E disse-lhes também: Em verdade vos digo, que há alguns dos que aqui estão, que não experimentarão a morte, até que vejam o reino de Deus vindo com poder."
+  },
+  {
+   "n": 2,
+   "t": "Seis dias depois, Jesus tomou consigo Pedro, Tiago, e João, e os levou à parte, sozinhos, para um alto monte ; e transfigurou-se diante deles."
+  },
+  {
+   "n": 3,
+   "t": "E suas roupas ficaram resplandescentes, muito brancas como a neve , como nenhum lavadeiro na terra seria capaz de branquear."
+  },
+  {
+   "n": 4,
+   "t": "E apareceu-lhes Elias com Moisés, e falavam com Jesus."
+  },
+  {
+   "n": 5,
+   "t": "Então Pedro disse a Jesus: Mestre, é bom para nós estarmos aqui; façamos três tendas: uma para ti, uma para Moisés, e uma para Elias."
+  },
+  {
+   "n": 6,
+   "t": "Pois ele não sabia o que dizia, pois estavam assombrados."
+  },
+  {
+   "n": 7,
+   "t": "Então desceu uma nuvem, que os cobriu com a sua sombra, e veio uma voz da nuvem, que dizia: Este é meu Filho amado; a ele ouvi."
+  },
+  {
+   "n": 8,
+   "t": "De repente, quando olharam em redor, não viram mais ninguém, a não ser só Jesus com eles."
+  },
+  {
+   "n": 9,
+   "t": "Enquanto desciam do monte, Jesus lhes mandou que a ninguém contassem o que haviam visto, até que o Filho do homem ressuscitasse dos mortos."
+  },
+  {
+   "n": 10,
+   "t": "E eles guardaram o caso entre si, perguntando uns aos outros o que seria aquilo de “ressuscitar dos mortos”."
+  }
+ ],
+ "titulo": "A nuvem que revela quem é Jesus",
+ "temas": [
+  "transfiguração",
+  "identidade",
+  "glória",
+  "sofrimento",
+  "fé"
+ ],
+ "pergunta": "Por que a voz do Pai interrompe a confusão de Pedro no alto do monte?",
+ "entender": "Jesus leva Pedro, Tiago e João a um alto monte, onde sua aparência muda: suas roupas ficam resplandecentes. Nesse momento, Moisés e Elias aparecem e falam com ele. Pedro, assombrado, sugere construir três tendas, uma para cada figura, o que colocaria Jesus no mesmo nível dos profetas. Mas a voz de Deus, vinda de uma nuvem, corrige essa visão: \"Este é meu Filho amado; a ele ouvi\".\n\nA presença de Moisés e Elias mostra que Jesus cumpre a Lei e os Profetas, mas a voz do Pai estabelece a hierarquia: Jesus é o Filho, autoridade final. O texto continua com a descida do monte, onde Jesus ordena silêncio até que ele ressuscite. Os discípulos ficam intrigados com a ideia de \"ressuscitar dos mortos\", pois a glória vista no monte não negava o sofrimento, mas o confirmava como parte do plano de Deus.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para a identidade de Cristo. A voz do céu não o chama de profeta, mas de Filho amado. Isso revela que Jesus é Deus encarnado. A transfiguração prepara os discípulos para a cruz: a glória não é um fim em si mesma, mas a garantia de que Jesus vencerá a morte. O evangelho está aqui: o mesmo que brilhou no monte é o que vai morrer e ressuscitar para nos salvar.",
+  "selo": true
+ },
+ "viver": "Pedro tentou criar três tendas, talvez por não saber o que fazer com a grandeza de Jesus. Às vezes, tentamos \"encaixar\" Deus em nossas expectativas ou rotinas. A aplicação concreta é reconhecer que Jesus é maior que nossas ideias. Quando a vida traz confusão, pare e ouça a voz do Pai, que aponta para Jesus como a autoridade final. Não tente construir tendas para Deus; siga-o, mesmo quando o caminho inclui sofrimento e silêncio.",
+ "guarde": "A voz do Pai confirma a identidade de Jesus: Ele é o Filho amado, e a ele devemos ouvir.",
+ "ore": "Jesus, no alto monte, tu mostraste tua glória. Perdoa-me quando tento te encaixar em minhas expectativas. Ensina-me a ouvir tua voz acima do ruído do mundo. Dá-me fé para seguir-te, mesmo quando o caminho parece levar à cruz, confiando em tua ressurreição.",
+ "quiz": {
+  "pergunta": "O que a voz da nuvem disse sobre Jesus em Marcos 9?",
+  "opcoes": [
+   "Este é meu profeta fiel",
+   "Este é meu Filho amado",
+   "Este é meu servo obediente"
+  ],
+  "certa": 1,
+  "explicacao": "O texto diz explicitamente que a voz dizia: \"Este é meu Filho amado; a ele ouvi\" (v. 7), estabelecendo sua identidade divina."
+ },
+ "refs": [
+  "Mateus 17:1-8",
+  "Lucas 9:28-36",
+  "2 Pedro 1:16-18"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-21T12:58:50.598Z",
+  "rounds": 3
+ }
+}

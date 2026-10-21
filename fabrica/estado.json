@@ -670,9 +670,9 @@
   },
   "41-9-1-10": {
    "execucoes": 1,
-   "ultimo": "automático: refs:quantidade",
+   "ultimo": "automático: ligar:citacao_fora_do_texto",
    "estado": "pronto",
-   "titulo": "A nuvem que revelou a identidade de Jesus"
+   "titulo": "A nuvem que revela quem é Jesus"
   },
   "41-9-11-20": {
    "execucoes": 0,
@@ -682,25 +682,27 @@
   },
   "41-9-21-31": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "ultimo": "gemini: SPEAKER_AUDIENCE_CONSISTENCY: A redação em 'Entender' atribui a Jesus a frase dita pelo pai do menino ('lhe concede: Creio, Senhor! Ajuda-me na minha incredulidade'). | QUOTATION_BOUNDARY: A citação do versículo 24 é atribuída incorretamente como fala de Jesus em vez de clamor do pai da criança. | P",
    "estado": "pronto",
-   "titulo": "O grito sincero de quem não consegue crer sozinho"
+   "titulo": "Quando a fé vacila, como buscar força?"
   },
   "41-9-32-40": {
    "execucoes": 0,
-   "ultimo": "automático: refs:quantidade",
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração dirige-se à cidade de Cafarnaum em vez de se dirigir a Deus.",
    "estado": "pronto",
    "titulo": "Por que Jesus colocou uma criança no meio?"
   },
   "41-9-41-50": {
    "execucoes": 0,
-   "ultimo": "automático: entender:citacao_fora_do_texto",
+   "ultimo": "automático: entender:citacao_longa, abertura_repetida:entender:43-15-10-18",
    "estado": "pronto",
-   "titulo": "O peso de uma pedra de moinho"
+   "titulo": "O sal que evita a corrupção da alma"
   },
   "41-10-1-10": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O que Deus uniu não se separa"
   },
   "41-10-11-21": {
    "execucoes": 0,
@@ -710,7 +712,9 @@
   },
   "41-10-22-31": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O peso invisível que afasta do Reino"
   },
   "41-10-32-42": {
    "execucoes": 0,
@@ -739,28 +743,36 @@
   "41-12-13-22": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-12-23-33": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-12-34-44": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 274,
-   "entrada": 626560,
-   "saida": 247996
+   "chamadas": 282,
+   "entrada": 648470,
+   "saida": 255318
   },
   "groq-qwen": {
-   "chamadas": 270,
-   "entrada": 587627,
-   "saida": 213319
+   "chamadas": 278,
+   "entrada": 608051,
+   "saida": 220102
   },
   "gemini": {
-   "chamadas": 213,
-   "entrada": 682924,
-   "saida": 289992
+   "chamadas": 222,
+   "entrada": 712085,
+   "saida": 301978
   },
   "cloudflare": {
-   "chamadas": 123,
-   "entrada": 424412,
-   "saida": 45633
+   "chamadas": 129,
+   "entrada": 445279,
+   "saida": 47859
   },
   "mistral": {
    "chamadas": 0,

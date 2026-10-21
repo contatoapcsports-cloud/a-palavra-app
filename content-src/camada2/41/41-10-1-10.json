@@ -1,0 +1,137 @@
+{
+ "id": "41-10-1-10",
+ "ref": "Marcos 10:1-10",
+ "book": "41",
+ "chapter": 10,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E levantando-se dali, Jesus se foi aos limites da Judeia, por dalém do Jordão; e as multidões voltaram a se juntar a ele, e voltou a lhes ensinar, como tinha costume."
+  },
+  {
+   "n": 2,
+   "t": "E vindo a ele os fariseus, perguntaram-lhe se era lícito ao homem deixar a sua mulher, testando-o."
+  },
+  {
+   "n": 3,
+   "t": "Mas ele lhes respondeu: O que Moisés vos mandou?"
+  },
+  {
+   "n": 4,
+   "t": "E eles disseram: Moisés permitiu escrever carta de divórcio, e deixá-la."
+  },
+  {
+   "n": 5,
+   "t": "E Jesus lhes respondeu: Foi pela dureza dos vossos corações que ele vos escreveu este mandamento."
+  },
+  {
+   "n": 6,
+   "t": "Porém, desde o princípio da criação, macho e fêmea Deus os fez. Gênesis 1:27"
+  },
+  {
+   "n": 7,
+   "t": "Por isso, deixará o homem a seu pai e a sua mãe, e se unirá à sua mulher."
+  },
+  {
+   "n": 8,
+   "t": "E os dois serão uma só carne; assim, já não são dois, mas sim uma só carne."
+  },
+  {
+   "n": 9,
+   "t": "Portanto, o que Deus juntou, não separe o homem."
+  },
+  {
+   "n": 10,
+   "t": "E em casa seus discípulos voltaram a lhe perguntar sobre isto mesmo."
+  }
+ ],
+ "titulo": "O que Deus uniu não se separa",
+ "temas": [
+  "casamento",
+  "divórcio",
+  "intenção de deus",
+  "unidade"
+ ],
+ "pergunta": "Por que Jesus respondeu a uma pergunta sobre divórcio voltando ao início da criação?",
+ "entender": "Jesus estava na região da Judeia, além do Jordão, quando fariseus se aproximaram. Eles tentaram testá-lo perguntando se era permitido ao homem deixar sua mulher. Em vez de responder diretamente, Jesus perguntou o que Moisés tinha mandado. Os fariseus citaram a permissão para escrever carta de divórcio. Jesus explicou que essa permissão foi dada por causa da dureza dos corações humanos, não porque fosse o ideal original de Deus.\n\nPara mostrar o padrão divino, Jesus levou a conversa de volta ao princípio: Deus criou o homem e a mulher para serem uma só carne. Ele citou a ideia de que o homem deixaria pai e mãe para se unir à mulher, formando uma unidade indissolúvel. A conclusão de Jesus é clara: o que Deus juntou, o homem não deve separar.",
+ "ligar": {
+  "texto": "Neste texto, Jesus revela sua autoridade sobre a Lei Mosaica. Ele não anula a Torá, mas mostra a intenção original de Deus por trás das regras. Ao apontar para a criação, Jesus demonstra que ele é o autor do plano de Deus para a família. Isso nos lembra que Jesus é o Senhor da vida relacional e que sua palavra define o valor do casamento, refletindo a fidelidade de Deus ao seu povo, um aspecto central do evangelho.",
+  "selo": true
+ },
+ "viver": "O texto nos convida a olhar para o casamento não como um contrato que pode ser rompido com facilidade, mas como uma aliança sagrada que reflete a permanência de Deus. Em momentos de conflito ou tentação de desistir, podemos lembrar que a dificuldade não anula o valor da união. Isso nos leva a buscar paciência, perdão e a ajuda da comunidade cristã para fortalecer o relacionamento, em vez de buscar soluções rápidas que contradizem o propósito de Deus.",
+ "guarde": "A dureza do coração pode tentar justificar a separação, mas o coração de Deus busca a unidade.",
+ "ore": "Senhor Jesus, quando minha mente se endurece e busco saídas fáceis para os conflitos, ajuda-me a lembrar do Teu plano original de unidade. Que eu valorize o que Tu uniste e busque a sabedoria para amar com paciência, assim como Tu amas a Tua Igreja.",
+ "quiz": {
+  "pergunta": "Segundo Jesus, por que Moisés permitiu a carta de divórcio?",
+  "opcoes": [
+   "Por causa da dureza dos corações",
+   "Porque Deus aprovou o divórcio",
+   "Para facilitar a vida dos fariseus"
+  ],
+  "certa": 0,
+  "explicacao": "Jesus explica em Marcos 10:5 que a permissão foi dada devido à dureza dos corações, indicando que não era a vontade original de Deus."
+ },
+ "refs": [
+  "Gênesis 1:27",
+  "Gênesis 2:24",
+  "Mateus 19:3-9"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-21T12:55:02.830Z",
+  "rounds": 1
+ }
+}
