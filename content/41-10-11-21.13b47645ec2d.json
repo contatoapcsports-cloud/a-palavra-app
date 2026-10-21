@@ -1,0 +1,142 @@
+{
+ "id": "41-10-11-21",
+ "ref": "Marcos 10:11-21",
+ "book": "41",
+ "chapter": 10,
+ "verses": [
+  {
+   "n": 11,
+   "t": "E disse-lhes: Qualquer um que deixar a sua mulher, e se casar com outra, adultera contra ela."
+  },
+  {
+   "n": 12,
+   "t": "E se a mulher deixar o seu marido, e se casar com outro, adultera."
+  },
+  {
+   "n": 13,
+   "t": "E lhe traziam crianças para que ele as tocasse, mas os discípulos repreendiam aos que as traziam."
+  },
+  {
+   "n": 14,
+   "t": "Porém Jesus, vendo, indignou-se, e lhe disse: Deixai vir as crianças a mim, e não as impeçais; porque delas é o Reino de Deus."
+  },
+  {
+   "n": 15,
+   "t": "Em verdade vos digo, que qualquer um que não receber o Reino de Deus como criança, em maneira nenhuma nele entrará."
+  },
+  {
+   "n": 16,
+   "t": "Então, tomando-as entre seus braços, e pondo as mãos sobre elas, ele as abençoou."
+  },
+  {
+   "n": 17,
+   "t": "E quando ele saiu para caminhar, um homem correu até ele; e pondo-se de joelhos diante dele, perguntou-lhe: Bom Mestre, que farei para herdar a vida eterna?"
+  },
+  {
+   "n": 18,
+   "t": "E Jesus lhe disse: Por que me chamas bom? Ninguém é bom, a não ser um: Deus."
+  },
+  {
+   "n": 19,
+   "t": "Sabes os mandamentos: Não adulterarás; não matarás; não furtarás; não darás falso testemunho; não serás enganador; honra o teu pai e a tua mãe."
+  },
+  {
+   "n": 20,
+   "t": "Porém ele lhe respondeu: Mestre, tudo isto guardei desde a minha juventude."
+  },
+  {
+   "n": 21,
+   "t": "E olhando Jesus para ele, amou-o, e disse-lhe: Uma coisa te falta: vai, vende tudo quanto tens, e dá aos pobres; e terás um tesouro no céu; e vem, segue-me, toma tua cruz."
+  }
+ ],
+ "titulo": "O amor que expõe o coração",
+ "temas": [
+  "discipulado",
+  "riqueza",
+  "amor",
+  "cruz",
+  "tesouro"
+ ],
+ "pergunta": "Por que Jesus, que amou o jovem rico, lhe deu a ordem mais difícil?",
+ "entender": "Depois de abençoar as crianças, Jesus encontra um homem que corre até Ele, ajoelha-se e pergunta: \"Bom Mestre, que farei para herdar a vida eterna?\" (Marcos 10:17). O jovem parece ter feito o que era certo: obedeceu aos mandamentos desde a juventude. Mas Jesus não responde com mais regras. Ele o olha, o ama e aponta para o que realmente importa: \"Uma coisa te falta\" (Marcos 10:21). \n\nJesus vê o coração, não apenas as ações externas. Ele percebe que o jovem confia nas suas propriedades mais do que em Deus. A ordem de vender tudo e seguir a Jesus não é um método de salvação, mas um diagnóstico: o que prende o coração precisa ser solto para que Cristo entre no trono. O jovem vai embora triste, mostrando que, por mais boa vontade que tenha, não pode se libertar sozinho.",
+ "ligar": {
+  "texto": "Este trecho revela a natureza de Jesus: Ele não é apenas um mestre moral que dá conselhos, mas o único que pode dar a vida eterna. Quando Jesus diz \"ninguém é bom, a não ser um: Deus\", Ele afirma Sua divindade. O evangelho aparece aqui porque o jovem, apesar de suas boas obras, está preso. Só a graça de Jesus, que morreu e ressuscitou, pode quebrar as correntes da riqueza e do ego, permitindo que o discípulo tome sua cruz e siga a Cristo com liberdade.",
+  "selo": true
+ },
+ "viver": "O jovem rico tinha tudo certo por fora, mas seu coração estava ocupado demais para seguir Jesus. Olhe para a sua vida: existe algo que você protege mais que a vontade de Deus? Pode ser uma conta bancária, uma reputação ou um hábito. Jesus não pede que você seja perfeito, mas que seja livre. Pergunte-se: o que eu preciso soltar hoje para que meu coração tenha espaço para amar a Cristo de verdade?",
+ "guarde": "Jesus olha para o seu coração e vê exatamente o que te impede de segui-Lo com liberdade.",
+ "ore": "Jesus, ao veres o jovem rico, amaste-o mesmo sabendo o que o prendia. Hoje, eu te apresento aquilo que ainda me segura. Não me deixes confiar nas minhas forças ou nas minhas posses. Mostra-me, com amor, o que preciso soltar para que eu possa te seguir de verdade, com meu coração inteiro.",
+ "quiz": {
+  "pergunta": "Por que Jesus mandou o jovem vender tudo e dar aos pobres?",
+  "opcoes": [
+   "Para revelar que suas riquezas eram a maior barreira para segui-Lo.",
+   "Porque ele não sabia que o jovem era pobre.",
+   "Para ensinar que a caridade compra a salvação."
+  ],
+  "certa": 0,
+  "explicacao": "Jesus viu que o jovem confiava nas propriedades. A ordem era um teste de prioridade: se ele não podia abrir mão do que amava mais que Jesus, não estava pronto para discipulado verdadeiro."
+ },
+ "refs": [
+  "Mateus 19:16-30",
+  "Lucas 18:18-30",
+  "Mateus 19:24-26"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-21T18:51:43.730Z",
+  "rounds": 2
+ }
+}

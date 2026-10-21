@@ -1,0 +1,146 @@
+{
+ "id": "41-12-1-12",
+ "ref": "Marcos 12:1-12",
+ "book": "41",
+ "chapter": 12,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Então Jesus começou a lhes dizer por parábolas: Um homem plantou uma vinha, cercou-a, fundou nela uma prensa de uvas, edificou uma torre, e a arrendou a uns lavradores; e partiu-se daquela terra."
+  },
+  {
+   "n": 2,
+   "t": "E, quando chegou o tempo, mandou um servo aos lavradores, para que recebesse dos lavradores do fruto da vinha."
+  },
+  {
+   "n": 3,
+   "t": "Mas eles, tomando-o à força, feriram-no, e mandaram-no vazio."
+  },
+  {
+   "n": 4,
+   "t": "E voltou a lhes mandar outro servo; e eles, apedrejando-o, feriram-no na cabeça e voltaram a mandá-lo maltratado."
+  },
+  {
+   "n": 5,
+   "t": "E voltou a mandar outro, ao qual mataram, e mandou muitos outros, e a uns feriram, e a outros mataram."
+  },
+  {
+   "n": 6,
+   "t": "Tendo ele, pois, ainda um, o seu filho amado, mandou-lhes também por último a este, dizendo: Pelo menos respeitarão o meu filho."
+  },
+  {
+   "n": 7,
+   "t": "Mas aqueles lavradores disseram entre si: Este é o herdeiro; vinde, e o matemos; então a herança será nossa."
+  },
+  {
+   "n": 8,
+   "t": "E pegando dele, mataram -no , e lançaram -no fora da vinha."
+  },
+  {
+   "n": 9,
+   "t": "Que, pois, o senhor da vinha fará? Ele virá, destruirá aos lavradores, e dará a vinha a outros."
+  },
+  {
+   "n": 10,
+   "t": "Acaso ainda não lestes esta escritura: “A pedra que os edificadores rejeitaram, esta foi feita por cabeça de esquina."
+  },
+  {
+   "n": 11,
+   "t": "Pelo Senhor foi feito isto, e é maravilhoso em nossos olhos”? Salmos 118:22-23"
+  },
+  {
+   "n": 12,
+   "t": "E buscavam prendê-lo, mas temiam a multidão; porque entendiam que era contra eles que dizia aquela parábola; então o deixaram e se retiraram."
+  }
+ ],
+ "titulo": "O herdeiro rejeitado e a pedra escolhida",
+ "temas": [
+  "justiça",
+  "rejeição",
+  "herança",
+  "cristo"
+ ],
+ "pergunta": "O que acontece quando quem recebe uma responsabilidade decide tomar o lugar do dono?",
+ "entender": "Jesus conta uma parábola para os líderes religiosos. Um homem planta uma vinha, cuida dela e a entrega a lavradores para que trabalhem nela. Quando o tempo da colheita chega, ele manda um servo para receber o fruto, mas os lavradores o ferem e o mandam embora vazio. Ele manda outros servos, e sofrem o mesmo destino: são apedrejados, maltratados e até mortos.\n\nPor fim, o dono manda seu filho amado, confiando que o respeitarão. Mas os lavradores, vendo que ele é o herdeiro, conspiram para matá-lo e ficar com a herança. Jesus pergunta o que o senhor fará: ele destruirá os lavradores e dará a vinha a outros. Ele cita um salmo antigo: \"A pedra que os edificadores rejeitaram, esta foi feita por cabeça de esquina\". Os líderes entendem que Jesus falava deles, mas têm medo da multidão e não O prendem ali.\n\nO texto mostra a injustiça extrema de quem abusa da confiança e a resposta final do dono da vinha. A \"pedra rejeitada\" aponta para Jesus, que foi rejeitado por muitos, mas confirmado por Deus como o fundamento da salvação.",
+ "ligar": {
+  "texto": "Esta parábola é uma clara predição da morte de Jesus. Os lavradores representam os líderes religiosos que rejeitaram o Filho de Deus, pensando que assim manteriam seu poder. A \"pedra rejeitada\" feita \"cabeça de esquina\" é Jesus: Ele foi morto por eles, mas Deus O ressuscitou, fazendo-O a base da fé. O evangelho está aqui: o herdeiro foi morto, mas a herança (o Reino) é dada a outros, os que O aceitam pela fé.",
+  "selo": true
+ },
+ "viver": "Os lavradores agiram por ganância e medo de perder o controle. Talvez você esteja segurando algo que não lhe pertence: seu orgulho, um pecado secreto ou a necessidade de ter a última palavra. Reconheça que Deus é o dono da sua vida. Entregue a Ele as áreas onde você tenta ser o \"herdeiro\" em vez de servo. A liberdade vem quando paramos de lutar pela herança e começamos a receber a graça.",
+ "guarde": "Aquele que foi rejeitado pelos homens é a pedra angular escolhida por Deus para sustentar tudo.",
+ "ore": "Pai, assim como o dono da vinha confiou seu filho, confia também minha vida a Ti. Perdoa-me quando tento controlar o que é Teu. Ensina-me a receber a herança da graça com humildade, reconhecendo Jesus como a pedra que sustenta minha fé. Amém.",
+ "quiz": {
+  "pergunta": "Quem representa a \"pedra rejeitada\" na parábola de Jesus?",
+  "opcoes": [
+   "O servo enviado primeiro",
+   "Jesus",
+   "Os lavradores"
+  ],
+  "certa": 1,
+  "explicacao": "Jesus cita o Salmo 118:22-23 logo após a parábola, indicando que Ele é a pedra rejeitada pelos edificadores (líderes religiosos) que Deus tornou a cabeça da esquina."
+ },
+ "refs": [
+  "Mateus 21:33-46",
+  "Lucas 20:9-19",
+  "Salmos 118:22-23",
+  "Atos 4:11"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-21T18:54:01.087Z",
+  "rounds": 1
+ }
+}

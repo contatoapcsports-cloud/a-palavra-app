@@ -706,9 +706,9 @@
   },
   "41-10-11-21": {
    "execucoes": 0,
-   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } ",
+   "ultimo": "automático: abertura_repetida:viver:43-9-32-41",
    "estado": "pronto",
-   "titulo": "O olhar de Jesus que muda tudo"
+   "titulo": "O amor que expõe o coração"
   },
   "41-10-22-31": {
    "execucoes": 0,
@@ -730,7 +730,9 @@
   },
   "41-11-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "A entrada que muda tudo"
   },
   "41-11-12-22": {
    "execucoes": 0,
@@ -738,11 +740,15 @@
   },
   "41-11-23-33": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Fé, perdão e a autoridade de Jesus"
   },
   "41-12-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O herdeiro rejeitado e a pedra escolhida"
   },
   "41-12-13-22": {
    "execucoes": 0,
@@ -763,28 +769,48 @@
   "41-13-10-19": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-13-20-28": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-13-29-37": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-14-1-12": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-14-13-24": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-14-25-36": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 288,
-   "entrada": 665079,
-   "saida": 260543
+   "chamadas": 295,
+   "entrada": 684566,
+   "saida": 266284
   },
   "groq-qwen": {
-   "chamadas": 284,
-   "entrada": 623059,
-   "saida": 224855
+   "chamadas": 291,
+   "entrada": 640658,
+   "saida": 230993
   },
   "gemini": {
-   "chamadas": 224,
-   "entrada": 718837,
-   "saida": 304840
+   "chamadas": 230,
+   "entrada": 738765,
+   "saida": 311109
   },
   "cloudflare": {
-   "chamadas": 131,
-   "entrada": 452512,
-   "saida": 48601
+   "chamadas": 135,
+   "entrada": 466637,
+   "saida": 50085
   },
   "mistral": {
    "chamadas": 0,

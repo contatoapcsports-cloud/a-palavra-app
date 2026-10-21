@@ -1,0 +1,142 @@
+{
+ "id": "41-11-23-33",
+ "ref": "Marcos 11:23-33",
+ "book": "41",
+ "chapter": 11,
+ "verses": [
+  {
+   "n": 23,
+   "t": "Porque em verdade vos digo que qualquer um que disser a este monte: Levanta-te, e lança-te no mar; e não duvidar em seu coração, mas crer que se fará o que diz, tudo o que disser lhe será feito."
+  },
+  {
+   "n": 24,
+   "t": "Portanto eu vos digo que tudo o que pedirdes orando, crede que recebereis, e vós o tereis."
+  },
+  {
+   "n": 25,
+   "t": "E quando estiverdes orando, perdoai, se tendes algo contra alguém, para que o vosso Pai, que está nos céus, vos perdoe vossas ofensas."
+  },
+  {
+   "n": 26,
+   "t": "Mas se vós não perdoardes, também o vosso Pai, que está nos céus, não vos perdoará vossas ofensas."
+  },
+  {
+   "n": 27,
+   "t": "Depois voltaram a Jerusalém; e, enquanto ele andava pelo Templo, vieram a ele os chefes dos sacerdotes, os escribas, e os anciãos."
+  },
+  {
+   "n": 28,
+   "t": "E disseram-lhe: Com que autoridade fazes estas coisas? E quem te deu esta autoridade, para fazerdes estas coisas?"
+  },
+  {
+   "n": 29,
+   "t": "Jesus lhes respondeu: Também eu vos farei uma pergunta, e respondei-me; então vos direi com que autoridade faço estas coisas."
+  },
+  {
+   "n": 30,
+   "t": "O batismo de João era do céu ou dos homens? Respondei-me."
+  },
+  {
+   "n": 31,
+   "t": "E eles argumentavam entre si, dizendo: Se dissermos do céu, ele dirá: Por que, pois, não crestes nele?"
+  },
+  {
+   "n": 32,
+   "t": "Porém, se dissermos dos homens, tememos ao povo, porque todos consideravam que João era verdadeiramente profeta."
+  },
+  {
+   "n": 33,
+   "t": "Então responderam a Jesus: Não sabemos. E Jesus lhes replicou: Também eu não vos direi com que autoridade faço estas coisas."
+  }
+ ],
+ "titulo": "Fé, perdão e a autoridade de Jesus",
+ "temas": [
+  "fé",
+  "perdão",
+  "autoridade",
+  "oração",
+  "humildade"
+ ],
+ "pergunta": "Existe uma ligação direta entre o que pedimos em oração e como tratamos as ofensas que recebemos?",
+ "entender": "Depois de amaldiçoar a figueira, Jesus ensina que a fé em Deus é poderosa. Ele usa a imagem de mover um monte para o mar para ilustrar que a dúvida no coração enfraquece a oração. O foco não é em realizar milagres físicos, mas em confiar totalmente na palavra de Deus.\n\nEm seguida, Jesus conecta a oração ao perdão. Ele avisa que se não perdoarmos as ofensas de outras pessoas, o Pai celestial também não perdoará as nossas. Isso mostra que o coração reconciliado é essencial para uma vida de comunhão com Deus.\n\nO cenário muda quando Jesus está no Templo. Os líderes religiosos questionam sua autoridade, mas Jesus responde com uma pergunta sobre o batismo de João. Eles ficam presos em sua própria lógica e admitem não saber. Jesus recusa responder, mostrando que a verdadeira autoridade vem de Deus e não de imposições humanas.",
+ "ligar": {
+  "texto": "Este trecho aponta para Jesus como o centro da fé e do perdão. A autoridade que os líderes questionam é a mesma de Cristo, que tem poder sobre a natureza e sobre o pecado. O evangelho é revelado aqui porque a fé que move montanhas é a fé em Deus, e o perdão que desbloqueia a oração é o mesmo que Jesus oferece a nós. Ele é o mediador entre nós e o Pai, ensinando que a relação com Deus é restaurada através do perdão mútuo e da confiança na Sua palavra.",
+  "selo": true
+ },
+ "viver": "Pense em alguém com quem você está brigado ou de quem guarda rancor. O texto de Marcos 11.25-26 sugere que esse ressentimento pode estar bloqueando sua paz e sua oração. Hoje, tente dar um passo concreto: envie uma mensagem de desculpa ou peça perdão. Não espere a outra pessoa agir primeiro. A fé verdadeira se manifesta também na disposição de perdoar, assim como Jesus nos perdoou.",
+ "guarde": "O perdão que negamos aos outros é a chave que trancamos na mão de Deus.",
+ "ore": "Jesus, no Templo, Tu mostraste Tua autoridade sobre os homens e sobre a natureza. Ensina-me a ter fé sem dúvida e a perdoar como Tu me perdoaste. Remove de meu coração qualquer ressentimento que me afaste do Teu Pai. Que minha oração seja livre e minha vida refletia a Tua paz.",
+ "quiz": {
+  "pergunta": "O que Jesus ensina sobre a relação entre perdão e oração em Marcos 11.25-26?",
+  "opcoes": [
+   "Se não perdoarmos, o Pai também não nos perdoará.",
+   "O perdão é opcional para a oração.",
+   "Somente os líderes religiosos precisam perdoar."
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente que a recusa em perdoar as ofensas de outros impede que o Pai perdoe as nossas ofensas, criando um vínculo direto entre a atitude do coração e a comunhão com Deus."
+ },
+ "refs": [
+  "Mateus 6:14-15",
+  "Efésios 4:32",
+  "Marcos 10:51"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-21T18:52:34.195Z",
+  "rounds": 1
+ }
+}
