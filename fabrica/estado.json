@@ -670,9 +670,9 @@
   },
   "41-9-1-10": {
    "execucoes": 1,
-   "ultimo": "automático: entender:menos_de_2_paragrafos, entender:citacao_fora_do_texto, ligar:citacao_fora_do_texto, quiz.explicacao:citacao_fora_do_texto",
+   "ultimo": "automático: refs:quantidade",
    "estado": "pronto",
-   "titulo": "A nuvem que silenciou o medo dos apóstolos"
+   "titulo": "A nuvem que revelou a identidade de Jesus"
   },
   "41-9-11-20": {
    "execucoes": 0,
@@ -682,19 +682,21 @@
   },
   "41-9-21-31": {
    "execucoes": 0,
-   "ultimo": "automático: abertura_repetida:viver:41-4-32-41",
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
    "estado": "pronto",
    "titulo": "O grito sincero de quem não consegue crer sozinho"
   },
   "41-9-32-40": {
    "execucoes": 0,
-   "ultimo": "automático: entender:citacao_fora_do_texto",
+   "ultimo": "automático: refs:quantidade",
    "estado": "pronto",
-   "titulo": "O menino no centro da grandeza de Jesus"
+   "titulo": "Por que Jesus colocou uma criança no meio?"
   },
   "41-9-41-50": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "O peso de uma pedra de moinho"
   },
   "41-10-1-10": {
    "execucoes": 0,
@@ -741,24 +743,24 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 268,
-   "entrada": 609969,
-   "saida": 242603
+   "chamadas": 274,
+   "entrada": 626560,
+   "saida": 247996
   },
   "groq-qwen": {
-   "chamadas": 264,
-   "entrada": 571911,
-   "saida": 208430
+   "chamadas": 270,
+   "entrada": 587627,
+   "saida": 213319
   },
   "gemini": {
-   "chamadas": 207,
-   "entrada": 663080,
-   "saida": 282000
+   "chamadas": 213,
+   "entrada": 682924,
+   "saida": 289992
   },
   "cloudflare": {
-   "chamadas": 120,
-   "entrada": 414048,
-   "saida": 44520
+   "chamadas": 123,
+   "entrada": 424412,
+   "saida": 45633
   },
   "mistral": {
    "chamadas": 0,
