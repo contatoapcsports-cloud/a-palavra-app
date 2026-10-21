@@ -670,9 +670,9 @@
   },
   "41-9-1-10": {
    "execucoes": 1,
-   "ultimo": "gemini: PRAYER_FIDELITY: A oração inicia dirigindo-se ao 'Monte da Transfiguração' antes de 'Senhor', resultando em uma invocação confusa e incompatível com a oração bíblica.",
+   "ultimo": "automático: entender:menos_de_2_paragrafos, entender:citacao_fora_do_texto, ligar:citacao_fora_do_texto, quiz.explicacao:citacao_fora_do_texto",
    "estado": "pronto",
-   "titulo": "Vislumbres da glória que antecedem a ressurreição"
+   "titulo": "A nuvem que silenciou o medo dos apóstolos"
   },
   "41-9-11-20": {
    "execucoes": 0,
@@ -682,13 +682,15 @@
   },
   "41-9-21-31": {
    "execucoes": 0,
-   "ultimo": "gemini: NARRATIVE_EVENT_CONSISTENCY: O texto bíblico afirma que o espírito lançava o menino no fogo e na água para o destruir, e não na tentativa de salvá-lo.",
+   "ultimo": "automático: abertura_repetida:viver:41-4-32-41",
    "estado": "pronto",
-   "titulo": "A fé honesta que move o céu"
+   "titulo": "O grito sincero de quem não consegue crer sozinho"
   },
   "41-9-32-40": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "O menino no centro da grandeza de Jesus"
   },
   "41-9-41-50": {
    "execucoes": 0,
@@ -700,7 +702,9 @@
   },
   "41-10-11-21": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O olhar de Jesus que muda tudo"
   },
   "41-10-22-31": {
    "execucoes": 0,
@@ -725,28 +729,36 @@
   "41-11-23-33": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-12-1-12": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-12-13-22": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 261,
-   "entrada": 590546,
-   "saida": 236280
+   "chamadas": 268,
+   "entrada": 609969,
+   "saida": 242603
   },
   "groq-qwen": {
-   "chamadas": 257,
-   "entrada": 553463,
-   "saida": 202243
+   "chamadas": 264,
+   "entrada": 571911,
+   "saida": 208430
   },
   "gemini": {
-   "chamadas": 203,
-   "entrada": 649880,
-   "saida": 278550
+   "chamadas": 207,
+   "entrada": 663080,
+   "saida": 282000
   },
   "cloudflare": {
-   "chamadas": 116,
-   "entrada": 399795,
-   "saida": 43036
+   "chamadas": 120,
+   "entrada": 414048,
+   "saida": 44520
   },
   "mistral": {
    "chamadas": 0,
