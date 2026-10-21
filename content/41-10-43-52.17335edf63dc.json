@@ -1,0 +1,137 @@
+{
+ "id": "41-10-43-52",
+ "ref": "Marcos 10:43-52",
+ "book": "41",
+ "chapter": 10,
+ "verses": [
+  {
+   "n": 43,
+   "t": "Mas entre vós não será assim; antes qualquer que entre vós quiser ser grande, será vosso servidor."
+  },
+  {
+   "n": 44,
+   "t": "E qualquer que de vós quiser ser o primeiro, será servo de todos."
+  },
+  {
+   "n": 45,
+   "t": "Porque também não veio o Filho do homem para ser servido, mas para servir, e dar sua vida em resgate por muitos."
+  },
+  {
+   "n": 46,
+   "t": "E vieram a Jericó. E saindo ele, e seus discípulos, e uma grande multidão de Jericó, estava Bartimeu, um cego, filho de Timeu, sentado junto ao caminho."
+  },
+  {
+   "n": 47,
+   "t": "E ouvindo que era Jesus o nazareno, começou a clamar, e a dizer: Jesus, Filho de Davi! Tem misericórdia de mim!"
+  },
+  {
+   "n": 48,
+   "t": "E muitos o repreendiam, para que se calasse; mas ele clamava ainda mais: Filho de Davi! Tem misericórdia de mim!"
+  },
+  {
+   "n": 49,
+   "t": "Jesus parou, e disse que o chamassem. Então chamaram ao cego, dizendo-lhe: Tem bom ânimo, levanta-te, ele está te chamando."
+  },
+  {
+   "n": 50,
+   "t": "Então ele lançou sua capa, levantou-se, e veio a Jesus."
+  },
+  {
+   "n": 51,
+   "t": "Jesus, lhe perguntou: Que queres que eu te faça? E o cego lhe disse: Mestre, que eu veja."
+  },
+  {
+   "n": 52,
+   "t": "Jesus lhe disse: Vai; a tua fé te salvou. E logo consegiu ver. Então seguiu Jesus pelo caminho."
+  }
+ ],
+ "titulo": "O pedido simples que mudou a história",
+ "temas": [
+  "fé",
+  "serviço",
+  "cura",
+  "misericórdia",
+  "identidade"
+ ],
+ "pergunta": "O que você faria se todos ao seu redor tentassem te calar na hora de pedir ajuda?",
+ "entender": "Em Jericó, Jesus e seus discípulos saíam com uma grande multidão. No caminho, havia Bartimeu, um cego filho de Timeu, sentado. Ao saber que era Jesus o Nazareno, ele começou a clamar: \"Jesus, Filho de Davi! Tem misericórdia de mim!\". Muitos o repreendiam para que se calasse, mas ele clamava ainda mais.\n\nJesus parou e mandou chamá-lo. Quando perguntou o que queria, Bartimeu foi direto: \"Mestre, que eu veja\". A resposta de Jesus foi imediata: \"Vai; a tua fé te salvou\". Ele recuperou a visão e seguiu Jesus pelo caminho. Antes disso, Jesus tinha ensinado que entre os discípulos, quem quiser ser grande deve ser servidor, pois o Filho do Homem veio para servir e dar a vida em resgate por muitos.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a identidade de Jesus como \"Filho de Davi\", título messiânico, e para o propósito da sua vinda: servir e dar sua vida em resgate. A cura de Bartimeu é um ato concreto dessa misericórdia. A fé do cego não era apenas uma esperança vaga, mas uma confiança ativa em quem podia e queria ajudar. O evangelho é revelado aqui não apenas na cura física, mas na disponibilidade de Jesus para se deter e atender ao clamor de quem o busca, mostrando que a salvação começa quando nos aproximamos dEle com sinceridade.",
+  "selo": true
+ },
+ "viver": "Bartimeu não esperou que o silêncio fosse a melhor estratégia. Mesmo quando a multidão tentou calá-lo, ele persistiu no seu pedido. Isso nos ensina que a fé verdadeira muitas vezes precisa ser vocalizada, especialmente quando a pressão social ou o medo nos dizem para ficar quietos. Pense em uma área da sua vida onde você tem medo de pedir ajuda ou de confessar sua necessidade. Assim como Bartimeu, que lançou a capa e foi a Jesus, talvez seja hora de você remover as barreiras que o separam de Deus e fazer o seu pedido, sabendo que Ele se detém para ouvir.",
+ "guarde": "A fé que salva é aquela que, mesmo impedida, continua clamando pela misericórdia de Jesus.",
+ "ore": "Jesus, em Jericó, Tu paraste para ouvir Bartimeu. Hoje, eu também me sento ao lado do caminho da minha vida, com as necessidades e limitações expostas. Não me deixo calar pela vergonha ou pelo medo dos outros. Clamo a Ti, Filho de Davi, com a mesma insistência: tem misericórdia de mim. Ajuda-me a lançar fora tudo o que me impede de chegar a Ti e a pedir aquilo que só o Senhor pode fazer por mim.",
+ "quiz": {
+  "pergunta": "Qual era o título que Bartimeu usou ao clamar por Jesus?",
+  "opcoes": [
+   "Mestre da lei",
+   "Profeta de Nazaré",
+   "Filho de Davi"
+  ],
+  "certa": 2,
+  "explicacao": "O texto em Marcos 10:47 diz explicitamente que ele clamava: \"Jesus, Filho de Davi! Tem misericórdia de mim!\"."
+ },
+ "refs": [
+  "Mateus 20:29-34",
+  "Lucas 18:35-43"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-21T15:48:07.130Z",
+  "rounds": 1
+ }
+}

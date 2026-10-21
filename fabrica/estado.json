@@ -706,7 +706,7 @@
   },
   "41-10-11-21": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } ",
    "estado": "pronto",
    "titulo": "O olhar de Jesus que muda tudo"
   },
@@ -718,11 +718,15 @@
   },
   "41-10-32-42": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:menos_de_2_paragrafos",
+   "estado": "pronto",
+   "titulo": "O preço do trono e o segredo da servidão"
   },
   "41-10-43-52": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_fora_do_texto, ligar:citacao_fora_do_texto, ore:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "O pedido simples que mudou a história"
   },
   "41-11-1-11": {
    "execucoes": 0,
@@ -730,7 +734,7 @@
   },
   "41-11-12-22": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
   },
   "41-11-23-33": {
    "execucoes": 0,
@@ -751,28 +755,36 @@
   "41-12-34-44": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-13-1-9": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "41-13-10-19": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 282,
-   "entrada": 648470,
-   "saida": 255318
+   "chamadas": 288,
+   "entrada": 665079,
+   "saida": 260543
   },
   "groq-qwen": {
-   "chamadas": 278,
-   "entrada": 608051,
-   "saida": 220102
+   "chamadas": 284,
+   "entrada": 623059,
+   "saida": 224855
   },
   "gemini": {
-   "chamadas": 222,
-   "entrada": 712085,
-   "saida": 301978
+   "chamadas": 224,
+   "entrada": 718837,
+   "saida": 304840
   },
   "cloudflare": {
-   "chamadas": 129,
-   "entrada": 445279,
-   "saida": 47859
+   "chamadas": 131,
+   "entrada": 452512,
+   "saida": 48601
   },
   "mistral": {
    "chamadas": 0,
