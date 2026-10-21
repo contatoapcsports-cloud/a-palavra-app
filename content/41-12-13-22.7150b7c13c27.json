@@ -1,0 +1,137 @@
+{
+ "id": "41-12-13-22",
+ "ref": "Marcos 12:13-22",
+ "book": "41",
+ "chapter": 12,
+ "verses": [
+  {
+   "n": 13,
+   "t": "E mandaram-lhe alguns dos fariseus e dos herodianos, para que o apanhassem em alguma palavra."
+  },
+  {
+   "n": 14,
+   "t": "Eles se aproximaram e lhe disseram: Mestre, sabemos que és homem de verdade, e não te interessa agradar a ninguém, porque não te importas com a aparência humana, mas com verdade ensinas o caminho de Deus. É lícito pagar tributo a César, ou não? Devemos pagar, ou não devemos?"
+  },
+  {
+   "n": 15,
+   "t": "E ele, entendendo a hipocrisia deles, disse-lhes: Por que estais me tentando? Trazei-me uma moeda, para que eu a veja."
+  },
+  {
+   "n": 16,
+   "t": "E trouxeram. E perguntou-lhes: De quem é esta imagem, e a inscrição? E eles lhe disseram: De César."
+  },
+  {
+   "n": 17,
+   "t": "Então Jesus, lhes respondeu: Dai, pois, a César o que é de César, e a Deus o que é de Deus. E admiram-se dele."
+  },
+  {
+   "n": 18,
+   "t": "E vieram a ele os saduceus, que dizem não haver ressurreição, e perguntaram-lhe:"
+  },
+  {
+   "n": 19,
+   "t": "Mestre, Moisés nos escreveu que, se o irmão de alguém morresse, e deixasse mulher, mas não filhos, que seu irmão se casasse com a viúva , e gerasse descendência ao seu irmão."
+  },
+  {
+   "n": 20,
+   "t": "Houve, pois, sete irmãos, e o primeiro casou-se com a mulher, e morrendo, não deixou descendente."
+  },
+  {
+   "n": 21,
+   "t": "Casou-se com ela também o segundo, e morreu; e nem este deixou descendente; e o terceiro da mesma maneira."
+  },
+  {
+   "n": 22,
+   "t": "Os sete casaram-se com ela, mas não deixaram descendente. Finalmente, depois de todos, morreu também a mulher."
+  }
+ ],
+ "titulo": "A moeda que revela seu dono",
+ "temas": [
+  "soberania",
+  "identidade",
+  "dever",
+  "fidelidade"
+ ],
+ "pergunta": "O que a imagem gravada em uma moeda diz sobre quem realmente a controla?",
+ "entender": "Em Marcos 12, Jesus é cercado por fariseus e herodianos que tentam encurralá-lo com uma pergunta política: se era lícito pagar tributo a César. Eles esperavam que, se Jesus dissesse que sim, perderia o apoio do povo; se dissesse que não, seria preso por sedição. Jesus, conhecendo a hipocrisia deles, pede uma moeda e pergunta de quem é a imagem nela gravada. Ao ouvirem a resposta de César, ele conclui com a frase que ficou famosa: Dai, pois, a César o que é de César, e a Deus o que é de Deus.\n\nA resposta de Jesus é genial porque desloca o debate. Ele não nega a autoridade civil, mas a limita. A moeda carrega a imagem de César, portanto, pertence a ele. Mas, e nós? Em quem está gravada a nossa imagem? O texto implica que, se somos criados à imagem de Deus, nossa lealdade final, nosso caráter e nossa vida pertencem a Ele, não a nenhum governo terreno. Jesus ensina que a fidelidade a Deus não anula o dever cívico, mas coloca Deus acima de todas as outras lealdades.",
+ "ligar": {
+  "texto": "Este encontro revela a autoridade de Jesus sobre as estruturas de poder. Enquanto os líderes religiosos tentavam usar a lei para prendê-lo, Jesus demonstra que a verdadeira lealdade dele é a Deus. O evangelho nos chama a reconhecer que, embora vivamos em sociedades humanas, nossa identidade última vem de Cristo. Ele nos resgatou para sermos de Deus, o que nos dá liberdade para servir ao próximo e à sociedade sem sermos escravizados pelo medo ou pela pressão política.",
+  "selo": false
+ },
+ "viver": "Pense em como você divide sua lealdade. Assim como a moeda trazia a imagem de César, nossas atitudes, valores e prioridades mostram a quem servimos de fato. Talvez você sinta que precisa agradar a todos para ser aceito, como os fariseus tentavam fazer com Jesus. Mas a pergunta de Jesus nos convida a examinar: o que eu considero mais importante que a vontade de Deus? Identifique uma área da sua vida onde você tem cedido espaço para pressões externas e devolva a soberania a Deus, agindo com integridade mesmo quando não for popular.",
+ "guarde": "A imagem que carrega em si revela a quem você pertence de verdade.",
+ "ore": "Jesus, diante da moeda que trazia a imagem de César, Tu nos ensinaste a dar a Deus o que é dEle. Examina meu coração e mostra-me onde eu tenho gravado a imagem do mundo em vez da Tua. Ajuda-me a viver com lealdade a Ti, sem medo das consequências, confiando que Tu és o meu único Senhor.",
+ "quiz": {
+  "pergunta": "Por que Jesus pediu que lhe trouxessem uma moeda?",
+  "opcoes": [
+   "Para prová-los de que a moeda estava falsa.",
+   "Para demonstrar que não tinha dinheiro consigo.",
+   "Para usar a imagem nela gravada como base para sua resposta sobre a lealdade."
+  ],
+  "certa": 2,
+  "explicacao": "Jesus usou a moeda como ferramenta pedagógica. A imagem de César nela serviu de argumento lógico para dizer que o tributo pertencia a César, enquanto a imagem de Deus em nós pertence a Ele."
+ },
+ "refs": [
+  "Mateus 22:15-22",
+  "Lucas 20:20-26",
+  "Romanos 13:1-7"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-21T21:49:15.991Z",
+  "rounds": 3
+ }
+}

@@ -1,0 +1,142 @@
+{
+ "id": "41-12-23-33",
+ "ref": "Marcos 12:23-33",
+ "book": "41",
+ "chapter": 12,
+ "verses": [
+  {
+   "n": 23,
+   "t": "Na ressurreição, pois, quando ressuscitarem, ela será a mulher de qual deles? Porque os sete a tiveram por mulher."
+  },
+  {
+   "n": 24,
+   "t": "E Jesus lhes respondeu: Acaso não é por isso que errais, por não conhecerdes as Escrituras, nem o poder de Deus?"
+  },
+  {
+   "n": 25,
+   "t": "Pois, quando ressuscitarem dos mortos, nem se casarão, nem se darão em casamento; mas serão como os anjos que estão nos céus."
+  },
+  {
+   "n": 26,
+   "t": "E quanto aos mortos que ressuscitarão, não lestes no livro de Moisés, como Deus lhe falou com a sarça, dizendo: Eu sou o Deus de Abraão, o Deus de Isaque, e o Deus de Jacó? Êxodo 3:6"
+  },
+  {
+   "n": 27,
+   "t": "Deus não é Deus de mortos, mas de vivos. Portanto errais muito."
+  },
+  {
+   "n": 28,
+   "t": "Então aproximou-se dele um dos escribas, que os havia ouvido discutir. Como ele sabia que Jesus havia lhes respondido bem, perguntou-lhe: Qual é o primeiro mandamento de todos?"
+  },
+  {
+   "n": 29,
+   "t": "E Jesus lhe respondeu: O primeiro de todos os mandamentos é: “Ouve Israel, o Senhor nosso Deus é o único Senhor;"
+  },
+  {
+   "n": 30,
+   "t": "amarás, pois, ao Senhor teu Deus com todo o teu coração, com toda a tua alma, com todo o teu entendimento, e com todas as tuas forças.” Deuteronômio 6:4-5 Este é o primeiro mandamento."
+  },
+  {
+   "n": 31,
+   "t": "E o segundo é semelhante: “Amarás ao teu próximo como a ti mesmo”. Levítico 19:18 Não há outro mandamento maior que estes."
+  },
+  {
+   "n": 32,
+   "t": "E o escriba lhe disse: Muito bem, Mestre, com verdade disseste que há um só Deus, e não há outro além dele."
+  },
+  {
+   "n": 33,
+   "t": "E que amá-lo com todo o coração, com todo o entendimento, com toda a alma, e com todas as forças; e amar ao próximo como a si mesmo, é mais de que todos os holocaustos e sacrifícios."
+  }
+ ],
+ "titulo": "Deus de vivos e o amor total",
+ "temas": [
+  "ressurreição",
+  "amor",
+  "mandamentos",
+  "deus vivo"
+ ],
+ "pergunta": "O que Jesus revela sobre a vida após a morte e sobre onde devemos colocar nosso amor?",
+ "entender": "Os saduceus, que não acreditavam na ressurreição, tentaram encurralar Jesus com uma história sobre uma mulher que teria sete maridos na eternidade. Jesus respondeu que eles erravam por não conhecerem as Escrituras nem o poder de Deus. Ele explicou que, na ressurreição, as pessoas não se casarão, mas serão como os anjos nos céus.\n\nPara provar que os mortos ressuscitam, Jesus citou a sarça ardente, onde Deus se apresentou como \"o Deus de Abraão, o Deus de Isaque, e o Deus de Jacó\". Como Deus é fiel, Ele não é Deus de mortos, mas de vivos. Em seguida, um escriba perguntou qual era o primeiro mandamento. Jesus respondeu que devemos amar a Deus com todo o nosso coração e ao próximo como a nós mesmos, destacando que isso vale mais que todos os sacrifícios.",
+ "ligar": {
+  "texto": "Este texto aponta para Jesus como aquele que conhece a mente de Deus e revela a verdade sobre a vida eterna. Ao afirmar que Deus é \"Deus de vivos\", Jesus confirma a esperança cristã de que a morte não é o fim. A ênfase no amor a Deus e ao próximo resume o caráter de Cristo, que amou a Deus com obediência total e amou a humanidade até dar a vida por ela. O evangelho é a resposta definitiva a essa busca por um Deus vivo e por um amor que transforma.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, nossa fé parece estar presa em regras religiosas ou em medos sobre o que acontece após a morte. Este texto nos convida a descansar na certeza de que Deus está vivo e ativo. Ao invés de nos preocuparmos com detalhes que não entendemos sobre o futuro, podemos focar no que Jesus pediu: amar a Deus com tudo o que somos e tratar as pessoas ao nosso redor com o mesmo cuidado que temos por nós mesmos. Isso muda nossa prioridade diária, tornando o amor a prática central da nossa vida cristã.",
+ "guarde": "Deus não é o Deus dos mortos, mas dos vivos, e o amor é a essência da sua lei.",
+ "ore": "Jesus, que ensinou sobre a ressurreição e o amor, ajuda-me a confiar em Ti como Deus vivo. Remove meus medos sobre o futuro e renova meu coração para amar a Ti e ao próximo com toda a minha força e entendimento hoje.",
+ "quiz": {
+  "pergunta": "Segundo Jesus, como as pessoas serão na ressurreição?",
+  "opcoes": [
+   "Serão como os anjos que estão nos céus.",
+   "Continuarão casando-se como na terra.",
+   "Serão apenas espíritos sem corpo."
+  ],
+  "certa": 0,
+  "explicacao": "Jesus explicou em Marcos 12:25 que, na ressurreição, as pessoas não se casarão, mas terão uma existência semelhante à dos anjos nos céus."
+ },
+ "refs": [
+  "Êxodo 3:6",
+  "Deuteronômio 6:5",
+  "Levítico 19:18",
+  "1 Coríntios 15:53"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-21T21:48:03.682Z",
+  "rounds": 2
+ }
+}

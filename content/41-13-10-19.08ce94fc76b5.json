@@ -1,0 +1,138 @@
+{
+ "id": "41-13-10-19",
+ "ref": "Marcos 13:10-19",
+ "book": "41",
+ "chapter": 13,
+ "verses": [
+  {
+   "n": 10,
+   "t": "Mas antes o Evangelho deve ser pregado entre todas as nações."
+  },
+  {
+   "n": 11,
+   "t": "Porém, quando vos levarem para vos entregar, não estejais ansiosos antecipadamente do que deveis dizer, nem o planejeis; mas o que naquela hora for dado, isso falai. Porque não sois vós os que falais, mas o Espírito Santo."
+  },
+  {
+   "n": 12,
+   "t": "E o irmão entregará ao irmão à morte, e o pai ao filho; e os filhos se levantarão contra os pais, e os matarão."
+  },
+  {
+   "n": 13,
+   "t": "E sereis odiados por todos por causa do meu nome; mas quem perseverar até o fim, esse será salvo."
+  },
+  {
+   "n": 14,
+   "t": "E quando virdes a abominação da desolação, que foi dita pelo profeta Daniel, estar onde não deve, (quem lê, entenda), então os que estiverem na Judeia, fujam para os montes."
+  },
+  {
+   "n": 15,
+   "t": "E quem estiver sobre telhado, não desça para a casa, nem entre para tomar alguma coisa de sua casa."
+  },
+  {
+   "n": 16,
+   "t": "E quem estiver no campo, não volte atrás, para tomar sua roupa."
+  },
+  {
+   "n": 17,
+   "t": "Mas ai das grávidas, e das que amamentarem naqueles dias!"
+  },
+  {
+   "n": 18,
+   "t": "Orai, porém, para que a vossa fuga não aconteça no inverno."
+  },
+  {
+   "n": 19,
+   "t": "Porque aqueles dias serão de tal aflição, qual nunca foi desde o princípio da criação das coisas, que Deus criou, até agora, nem jamais será."
+  }
+ ],
+ "titulo": "A missão antes da crise: o Evangelho primeiro",
+ "temas": [
+  "missão",
+  "perseguição",
+  "esperança",
+  "evangelho",
+  "perseverança"
+ ],
+ "pergunta": "O que Jesus disse que precisava acontecer antes da grande tribulação?",
+ "entender": "Neste trecho, Jesus avisa os discípulos sobre tempos difíceis, mas estabelece uma ordem importante: antes de tudo, o Evangelho deve ser pregado a todas as nações. Ele ensina que, quando os seguidores forem perseguidos e não souberem o que dizer, o Espírito Santo falará por eles. \n\nJesus também descreve uma divisão profunda, onde familiares podem se opor uns aos outros por causa do nome de Cristo. Apesar do ódio e da aflição, a promessa é clara: quem perseverar até o fim será salvo. Ele instrui a fugir quando vir a \"abominação da desolação\", sem voltar para pegar pertences, indicando a urgência e a gravidade dos dias.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a centralidade da mensagem de Jesus. A salvação prometida aqui não vem de ações humanas, mas da fé perseverante em Cristo, que é o motivo da perseguição. O fato de o Evangelho precisar ser pregado antes do fim mostra que a obra de Jesus é a chave para a história e para a vida eterna. A promessa de que \"quem perseverar até o fim, esse será salvo\" reforça que a segurança do cristão está no caráter fiel de Deus e no poder do Espírito, que sustenta o crente na tribulação.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, diante de conflitos familiares ou sociais por causa da fé, sentimos que estamos sozinhos. Jesus nos lembra que o Espírito Santo está conosco, guiando nossas palavras. Em vez de planejar respostas defensivas, podemos depender do Espírito para falar com coragem e amor. Além disso, a instrução de não voltar para pegar pertences nos ensina a priorizar a vida e a missão acima das posses materiais, confiando que Deus cuidará das necessidades básicas mesmo em tempos de fuga e incerteza.",
+ "guarde": "Antes da tribulação, o Evangelho precisa chegar a todos; quem se mantém firme em Cristo será salvo.",
+ "ore": "Espírito Santo, assim como Jesus te enviou para guiar meus passos, peço que guies minhas palavras quando eu for perseguido ou questionado. Dá-me coragem para pregar o Evangelho e força para perseverar até o fim, confiando no teu cuidado.",
+ "quiz": {
+  "pergunta": "O que Jesus disse que deveria acontecer antes da grande tribulação?",
+  "opcoes": [
+   "O Evangelho ser pregado entre todas as nações.",
+   "O fim do mundo começar imediatamente.",
+   "Os discípulos fugirem para os montes."
+  ],
+  "certa": 0,
+  "explicacao": "O versículo 10 afirma claramente que o Evangelho deve ser pregado a todas as nações antes que os eventos de tribulação descritos nos versículos seguintes ocorram."
+ },
+ "refs": [
+  "Mateus 24:14",
+  "Atos 1:8",
+  "Romanos 8:26"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-21T21:47:14.996Z",
+  "rounds": 1
+ }
+}

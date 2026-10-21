@@ -1,0 +1,140 @@
+{
+ "id": "41-12-34-44",
+ "ref": "Marcos 12:34-44",
+ "book": "41",
+ "chapter": 12,
+ "verses": [
+  {
+   "n": 34,
+   "t": "Jesus viu que ele havia respondido sabiamente, e disse-lhe: Não estás longe do Reino de Deus. E ninguém mais ousou lhe perguntar."
+  },
+  {
+   "n": 35,
+   "t": "E Jesus respondia e dizia, enquanto ensinava no templo: Como os escribas dizem que o Cristo é filho de Davi?"
+  },
+  {
+   "n": 36,
+   "t": "Porque o mesmo Davi disse pelo Espírito Santo: Disse o Senhor ao meu Senhor, senta-te à minha direita, até que eu ponha os teus inimigos debaixo dos teus pés. Salmos 110:1"
+  },
+  {
+   "n": 37,
+   "t": "Ora, se o próprio Davi o chama de Senhor, como, pois, é so eu filho?E a grande multidão o ouvia de boa vontade."
+  },
+  {
+   "n": 38,
+   "t": "E dizia-lhes em seu ensino: Cuidado com os escribas, que gostam de andar com roupas compridas, das saudações nas praças,"
+  },
+  {
+   "n": 39,
+   "t": "das primeiras cadeiras nas sinagogas, e dos primeiros assentos nas ceias."
+  },
+  {
+   "n": 40,
+   "t": "que devoram as casas das viúvas, com pretexto de longas orações. Esses receberão mais grave condenação."
+  },
+  {
+   "n": 41,
+   "t": "Quando Jesus estava sentado de frente à arca do tesouro, observava como a multidão lançava dinheiro na arca do tesouro; e muitos ricos lançavam muito."
+  },
+  {
+   "n": 42,
+   "t": "E uma pobre viúva veio, e lançou duas pequenas moedas, de pouco valor."
+  },
+  {
+   "n": 43,
+   "t": "Então Jesus chamou a si os seus discípulos, e disse-lhes: Em verdade vos digo que esta pobre viúva lançou mais que todos os que lançaram na arca do tesouro;"
+  },
+  {
+   "n": 44,
+   "t": "Porque todos lançaram daquilo que lhes sobra; mas esta, da sua pobreza lançou tudo o que tinha, todo o seu sustento."
+  }
+ ],
+ "titulo": "A viúva que deu tudo o que tinha",
+ "temas": [
+  "generosidade",
+  "fé",
+  "reino"
+ ],
+ "pergunta": "O que realmente importa ao oferecer a Deus?",
+ "entender": "Jesus observa a multidão que coloca dinheiro na arca do tesouro. Muitos ricos dão grandes quantias, mas uma pobre viúva coloca duas pequenas moedas. Ele então declara que ela deu mais que todos, pois deu tudo o que tinha, \"todo o seu sustento\" (Marcos 12.42-44). O contexto mostra Jesus ensinando no templo e alertando contra a hipocrisia dos escribas que se exibem e exploram as viúvas. Ao comparar as ofertas, Ele destaca que o valor da entrega não está no tamanho da quantia, mas na disposição do coração que oferece o que tem de mais precioso.\n\nEssa cena revela que o Reino de Deus não se mede por aparências externas ou por abundância material, mas pela confiança total em Deus. A viúva, embora pobre, demonstra fé profunda ao sacrificar seu sustento diário, reconhecendo que tudo o que possui pertence a Deus. O ensino de Jesus aqui confronta a prática religiosa vazia e nos convida a refletir sobre o que realmente entregamos ao Senhor.",
+ "ligar": {
+  "texto": "A atitude da viúva aponta para a entrega total que Cristo exigiu de nós. Assim como ela deu tudo o que tinha, Jesus deu Sua vida inteira por nós, oferecendo o maior sacrifício para que pudéssemos receber a vida eterna. O Evangelho nos mostra que a salvação não depende de quanto possuímos, mas da confiança e entrega completa a Cristo, que morreu na cruz e ressuscitou para nos reconciliar com Deus.",
+  "selo": true
+ },
+ "viver": "A viúva nos ensina que, ao ofertar a Deus, devemos considerar o coração por trás da ação, não o valor monetário. Hoje, isso pode significar dedicar nosso tempo, talentos ou recursos de forma sacrificial, mesmo que pareçam pequenos aos olhos humanos. Quando colocamos em prática a generosidade que nasce da confiança em Deus, experimentamos a alegria de participar do Seu Reino, reconhecendo que Ele provê o que precisamos.\n\nPortanto, ao decidir como contribuir para a obra de Deus ou ajudar alguém, pergunte-se: estou oferecendo o que realmente tenho, ou estou guardando o melhor para mim? A resposta revela onde está a nossa fé.",
+ "guarde": "A verdadeira oferta é a que vem do coração, mesmo que seja pequena.",
+ "ore": "Viúva, ao colocar suas duas moedas, ajude-me a confiar que o que entrego, por menor que seja, é valioso aos olhos de Deus.",
+ "quiz": {
+  "pergunta": "Por que Jesus disse que a viúva deu mais que os ricos?",
+  "opcoes": [
+   "Porque ela era a única mulher presente",
+   "Porque suas moedas eram de ouro",
+   "Porque deu tudo o que tinha"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus destaca que a viúva deu tudo o que possuía, demonstrando fé e sacrifício total, ao contrário dos ricos que deram apenas o excedente."
+ },
+ "refs": [
+  "2 Coríntios 9:7",
+  "Mateus 6:21",
+  "Lucas 21:1-4"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-21T21:39:57.011Z",
+  "rounds": 1
+ }
+}

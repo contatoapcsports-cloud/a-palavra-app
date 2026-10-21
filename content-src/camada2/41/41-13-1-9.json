@@ -1,0 +1,134 @@
+{
+ "id": "41-13-1-9",
+ "ref": "Marcos 13:1-9",
+ "book": "41",
+ "chapter": 13,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Quando ele estava saindo do templo, um de seus discípulos lhe disse: Mestre, olha que pedras, e que edifícios!"
+  },
+  {
+   "n": 2,
+   "t": "Jesus respondeu, dizendo-lhe: Vês estes grandes edifícios? Não será deixada pedra sobre pedra, que não seja derrubada."
+  },
+  {
+   "n": 3,
+   "t": "Depois, sentando-se ele no monte das Oliveiras, de frente ao templo, Pedro, Tiago, João, e André perguntaram-lhe à parte:"
+  },
+  {
+   "n": 4,
+   "t": "Dize-nos, quando serão essas coisas? E que sinal haverá de quando todas essas coisas se cumprirão?"
+  },
+  {
+   "n": 5,
+   "t": "E Jesus, respondendo-lhes, começou a dizer: Cuidado! ninguém vos engane;"
+  },
+  {
+   "n": 6,
+   "t": "porque muitos virão em meu nome, dizendo: “Sou eu”, e enganarão a muitos."
+  },
+  {
+   "n": 7,
+   "t": "E quando ouvirdes de guerras e de rumores de guerras, não vos perturbeis; porque assim deve acontecer; mas ainda não será o fim."
+  },
+  {
+   "n": 8,
+   "t": "Porque nação se levantará contra nação, e reino contra reino, e haverá terremotos em muitos lugares, e haverá fomes e tumultos. Estes serão os princípios das dores."
+  },
+  {
+   "n": 9,
+   "t": "Mas cuidai de vós mesmos; porque vos entregarão em tribunais e em sinagogas; sereis açoitados, e sereis levados diante de governadores e reis, por causa de mim, para que lhes haja testemunho."
+  }
+ ],
+ "titulo": "Por que Jesus previu a destruição do templo",
+ "temas": [
+  "alerta",
+  "falsos profetas",
+  "sofrimento",
+  "testemunho",
+  "fé"
+ ],
+ "pergunta": "O que Jesus quis dizer quando avisou que ninguém deveria se perturbar com guerras?",
+ "entender": "Jesus saiu do templo e, ao ver a grandiosidade dos edifícios, disse que não ficaria pedra sobre pedra. Seus discípulos, impressionados, perguntaram quando isso aconteceria e qual seria o sinal. Jesus respondeu com um alerta sério: cuidado para não serem enganados. Ele avisou que muitos viriam em seu nome, dizendo \"Sou eu\", e que haveria guerras, terremotos e fomes.\n\nEsses eventos, segundo Jesus, seriam apenas o \"princípio das dores\". Ele não estava pedindo pânico, mas discernimento. O foco não estava apenas no fim dos tempos, mas na fidelidade dos discípulos. Jesus previu que eles seriam perseguidos, açoitados e levados diante de governadores por causa dele. Isso mostra que a vida cristã envolve desafios reais e que a fé permanece firme mesmo sob pressão.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a autoridade de Jesus sobre a história e para o custo de segui-lo. Ele não apenas prevê eventos, mas identifica quem é o verdadeiro centro da história. A perseguição mencionada ocorre \"por causa de mim\", mostrando que a lealdade a Cristo é o que define a identidade do crente. O evangelho é o testemunho que deve prevalecer, mesmo quando as circunstâncias parecem caóticas ou quando falsos líderes surgem para desviar a atenção de Jesus.",
+  "selo": true
+ },
+ "viver": "Assim como Jesus alertou sobre falsos profetas, hoje também precisamos discernir mensagens que parecem espirituais, mas não apontam para Cristo. Pense em uma fonte de informação ou conselho que você costuma seguir. Ela o ajuda a confiar mais em Jesus ou o deixa ansioso e dividido? A paz que Jesus oferece não depende da ausência de guerras ou problemas, mas da confiança em que Ele está no controle. Cultive essa confiança orando e lendo as Escrituras, em vez de se deixar levar pelo medo das notícias.",
+ "guarde": "Não se perturbe com o ruído do mundo; mantenha os olhos em Jesus, que é a rocha firme.",
+ "ore": "Jesus, ao sair do templo, Tu nos ensinaste a discernir. Ajuda-me a não me deixar enganar por vozes falsas. Dá-me paz no meio das incertezas e coragem para testemunhar de Ti, mesmo quando houver oposição. Que minha vida reflita a verdade do Teu evangelho.",
+ "quiz": {
+  "pergunta": "Segundo Jesus em Marcos 13.7-8, o que guerras e terremotos representam?",
+  "opcoes": [
+   "Punição direta por pecados específicos",
+   "O sinal imediato do fim do mundo",
+   "O princípio das dores"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus classifica esses eventos como \"princípio das dores\", indicando que são parte de um processo maior, e não o fim imediato (Marcos 13.8)."
+ },
+ "refs": [
+  "Mateus 24:4-8",
+  "Lucas 21:8-12",
+  "João 16:33"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-21T21:46:30.302Z",
+  "rounds": 1
+ }
+}

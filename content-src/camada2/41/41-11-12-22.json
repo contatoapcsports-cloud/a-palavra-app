@@ -1,0 +1,139 @@
+{
+ "id": "41-11-12-22",
+ "ref": "Marcos 11:12-22",
+ "book": "41",
+ "chapter": 11,
+ "verses": [
+  {
+   "n": 12,
+   "t": "E no dia seguinte, quando saíram de Betânia, ele teve fome."
+  },
+  {
+   "n": 13,
+   "t": "E vendo de longe uma figueira que tinha folhas, veio ver se acharia alguma coisa nela; mas ao chegar perto dela, nada achou, a não ser folhas, pois não era o tempo de figos."
+  },
+  {
+   "n": 14,
+   "t": "Então Jesus lhe disse: Nunca mais ninguém coma fruto de ti! E seus discípulos ouviram isso."
+  },
+  {
+   "n": 15,
+   "t": "Depois vieram a Jerusalém. E entrando Jesus no Templo, começou a expulsar os que vendiam e compravam no Templo; e revirou as mesas dos cambiadores, e as cadeiras dos que vendiam pombas."
+  },
+  {
+   "n": 16,
+   "t": "E não consentia que ninguém levasse vaso algum pelo Templo."
+  },
+  {
+   "n": 17,
+   "t": "E ensinava, dizendo-lhes: Não está escrito: Minha casa será chamada casa de oração de todas as nações? Isaías 56:7 Mas vós fizestes dela esconderijo de ladrões!"
+  },
+  {
+   "n": 18,
+   "t": "Os escribas e os chefes dos sacerdotes ouviram isso, e buscavam uma maneira de o matar; pois o temiam, porque toda a multidão estava admirada do ensino dele."
+  },
+  {
+   "n": 19,
+   "t": "E como já era tarde, Jesus saiu fora da cidade."
+  },
+  {
+   "n": 20,
+   "t": "E passando pela manhã, viram que a figueira estava seca desde as raízes."
+  },
+  {
+   "n": 21,
+   "t": "Pedro se lembrou disso, e disse-lhe: Mestre, eis que a figueira que amaldiçoaste, se secou."
+  },
+  {
+   "n": 22,
+   "t": "E respondendo Jesus, disse-lhes: Tende fé em Deus."
+  }
+ ],
+ "titulo": "A figueira que não deu fruto",
+ "temas": [
+  "fé",
+  "autoridade",
+  "templo"
+ ],
+ "pergunta": "Você já percebeu que às vezes a aparência não revela a verdade interior?",
+ "entender": "Jesus, ao sair de Betânia, sentiu fome e se aproximou de uma figueira cheia de folhas, mas não encontrou frutos, pois “não era o tempo de figos”. Insatisfeito, Ele pronunciou: “Nunca mais ninguém coma fruto de ti!” (Marcos 11.13‑14). Em seguida, entrou no templo e expulsou os vendedores, lembrando a profecia: “Minha casa será chamada casa de oração”. Os líderes religiosos ficaram alarmados e procuraram matá‑Lo. Na manhã seguinte, a figueira estava seca desde as raízes, e Pedro comentou a mudança, ao que Jesus respondeu: “Tende fé em Deus”.\n\nEsse episódio ocorre logo antes da última semana de Jesus em Jerusalém, quando Ele confronta a corrupção no templo e demonstra poder sobre a criação. A figueira simboliza Israel: aparenta vida com folhas, mas falta o fruto da justiça. A reação de Jesus revela Sua autoridade divina para julgar e purificar, ao mesmo tempo que chama a confiança total no Pai.",
+ "ligar": {
+  "texto": "A figueira seca aponta para o juízo de Deus sobre a falta de frutos espirituais, preparando o caminho para o evangelho da salvação. Quando Jesus demonstra poder sobre a natureza, Ele confirma Sua identidade divina, preparando o coração para crer que Ele mesmo é o fruto que salva. A chamada à fé – “Tende fé em Deus” – ecoa a necessidade de confiar no Cristo ressuscitado, que oferece vida verdadeira ao que crê.",
+  "selo": true
+ },
+ "viver": "Assim como a figueira aparentava vida, mas não produzia fruto, podemos estar ocupados com aparências externas – boas obras, religiões ou rotinas – sem produzir o fruto do amor e da justiça. Avalie se sua vida gera frutos que glorifiquem a Deus. Se não, peça a Deus que, como fez com a figueira, revele e elimine o que impede o crescimento, e confie que Ele pode transformar seu coração para produzir boas obras que vêm do Espírito.\n\nColoque em prática uma atitude de fé concreta: escolha um dia para orar, pedindo a Deus que lhe dê confiança para obedecer ao que Ele revela, mesmo que pareça difícil, lembrando que “tende fé em Deus”.",
+ "guarde": "A verdadeira fé produz frutos que revelam a presença de Deus.",
+ "ore": "Betânia, quando vi a figueira sem fruto, eu clamo: Senhor, ajuda-me a não ser só aparência, mas a produzir frutos que honrem Seu nome.",
+ "quiz": {
+  "pergunta": "Por que Jesus amaldiçoou a figueira?",
+  "opcoes": [
+   "Porque os discípulos pediram para que fosse cortada.",
+   "Porque era fora da época de figos.",
+   "Porque ela não tinha frutos, apesar de estar cheia de folhas."
+  ],
+  "certa": 2,
+  "explicacao": "Jesus a amaldiçoou porque, embora parecesse saudável, não produzia fruto, simbolizando a falta de justiça de Israel."
+ },
+ "refs": [
+  "Isaías 56:7",
+  "Hebreus 11:6"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-21T21:37:46.069Z",
+  "rounds": 1
+ }
+}
