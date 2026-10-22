@@ -1,61 +1,42 @@
-Fábrica de ensinos — execução de 2026-10-22T07:02:00.750Z
-Fila: 3058 trechos; prontos: 142; limite desta execução: 150 ensinos / 170 min; 3 em paralelo.
-> Marcos 15:25-35 (41-15-25-35)
-  [41-15-25-35] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-> Marcos 15:36-47 (41-15-36-47)
-  [41-15-36-47] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-> Marcos 16:1-10 (41-16-1-10)
-  [41-16-1-10] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-  [41-15-25-35] rodada 1: verificação automática recusou: refs:quantidade
-  [41-15-36-47] rodada 1: verificação automática recusou: entender:menos_de_2_paragrafos
-  [41-16-1-10] rodada 1: verificação automática recusou: entender:citacao_fora_do_texto, ore:citacao_longa, refs:quantidade
-  [41-15-25-35] rodada 2: verificação automática recusou: refs:quantidade
-  [41-15-36-47] rodada 2: gemini recusou: PRAYER_FIDELITY: A oração se dirige ao centurião, o que é teologicamente inadequado, pois a oração deve ser dirigida a Deus.
-  [41-16-1-10] rodada 2: verificação automática recusou: entender:citacao_fora_do_texto, ore:citacao_longa, refs:quantidade
-  [41-15-25-35] rodada 3: verificação automática recusou: refs:quantidade
-  LIMITE DIÁRIO [41-15-36-47]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198698, Requested 3409. Please try again in 15m10.223999999s. Need more toke — troca de modelo, se houver outro permitido.
-  [41-15-36-47] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  PRONTO [41-15-36-47]: "O grito final que abriu o céu" (aprovado pelos dois auditores em 1 rodada(s))
-> Marcos 16:11-20 (41-16-11-20)
-  [41-16-11-20] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  LIMITE DIÁRIO [41-16-1-10]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198698, Requested 3409. Please try again in 15m10.223999999s. Need more toke — troca de modelo, se houver outro permitido.
-  [41-16-1-10] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  PRONTO [41-16-1-10]: "A pedra rolada e o vazio que muda tudo" (aprovado pelos dois auditores em 1 rodada(s))
-> Lucas 1:1-11 (42-1-1-11)
-  [42-1-1-11] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  LIMITE DIÁRIO [41-15-25-35]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198698, Requested 3409. Please try again in 15m10.223999999s. Need more toke — troca de modelo, se houver outro permitido.
-  [41-15-25-35] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  [41-15-25-35] rodada 1: verificação automática recusou: abertura_repetida:viver:43-1-42-51
-  PRONTO [41-15-25-35]: "Trevas sobre a terra e o grito de abandono" (aprovado pelos dois auditores em 2 rodada(s))
-> Lucas 1:12-23 (42-1-12-23)
-  [42-1-12-23] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  PRONTO [41-16-11-20]: "O mandato que transforma o medo em missão" (aprovado pelos dois auditores em 1 rodada(s))
-> Lucas 1:24-34 (42-1-24-34)
-  [42-1-24-34] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  PRONTO [42-1-1-11]: "A história que você pode confiar" (aprovado pelos dois auditores em 1 rodada(s))
+Fábrica de ensinos — execução de 2026-10-22T09:52:00.878Z
+Fila: 3058 trechos; prontos: 149; limite desta execução: 150 ensinos / 170 min; 3 em paralelo.
 > Lucas 1:35-47 (42-1-35-47)
-  [42-1-35-47] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  PRONTO [42-1-12-23]: "O silêncio que confirmou a promessa" (aprovado pelos dois auditores em 1 rodada(s))
+  [42-1-35-47] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
 > Lucas 1:48-57 (42-1-48-57)
-  [42-1-48-57] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  PRONTO [42-1-24-34]: "O anúncio que mudou a história da salvação" (aprovado pelos dois auditores em 1 rodada(s))
+  [42-1-48-57] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
 > Lucas 1:58-70 (42-1-58-70)
+  [42-1-58-70] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  [42-1-35-47] rodada 1: verificação automática recusou: entender:citacao_longa, entender:citacao_fora_do_texto, ore:citacao_fora_do_texto
+  [42-1-48-57] rodada 1: verificação automática recusou: ore:citacao_longa
+  [42-1-58-70] rodada 1: verificação automática recusou: ligar:citacao_fora_do_texto
+  [42-1-35-47] rodada 2: verificação automática recusou: entender:menos_de_2_paragrafos, ore:citacao_fora_do_texto
+  [42-1-35-47] rodada 3: verificação automática recusou: viver:citacao_fora_do_texto, ore:citacao_fora_do_texto
+  [42-1-48-57] rodada 2: verificação automática recusou: entender:menos_de_2_paragrafos, ore:citacao_longa
+  LIMITE DIÁRIO [42-1-58-70]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 196244, Requested 3868. Please try again in 48.383999999s. Need more tokens? — troca de modelo, se houver outro permitido.
   [42-1-58-70] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  [42-1-35-47] rodada 1: verificação automática recusou: entender:citacao_longa
-  LIMITE DIÁRIO [42-1-48-57]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199866, Requested 3090. Please try again in 21m16.992s. Need more tokens? Upgr — troca de modelo, se houver outro permitido.
-  [42-1-48-57] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [42-1-48-57]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+  LIMITE DIÁRIO [42-1-35-47]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 196244, Requested 3868. Please try again in 48.383999999s. Need more tokens? — troca de modelo, se houver outro permitido.
+  [42-1-35-47] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [42-1-35-47] rodada 1: verificação automática recusou: abertura_repetida:viver:42-1-24-34
+  [42-1-58-70] rodada 1: gemini recusou: NARRATIVE_EVENT_CONSISTENCY: O texto afirma no 'Entender' que Zacarias recuperou a fala e depois escreveu na tábua, contrariando o relato de que ele escreveu enquanto ainda mudo e só então voltou a falar. | TEMPORAL_SEQUENCE: Inverteu a ordem dos fatos ao dizer que Zacarias recuperou a fala antes de escrever o nome na tábua. | PRAYER_FIDELITY: A oração é incorretamente endereçada ao personagem hum
+  LIMITE DIÁRIO [42-1-48-57]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 196244, Requested 3868. Please try again in 48.383999999s. Need more tokens? — troca de modelo, se houver outro permitido.
+  [42-1-48-57] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [42-1-48-57] rodada 1: gemini recusou: PERSON_ENTITY_CONSISTENCY: A oração confunde Maria com Deus ao tratá-la como a pessoa que fez a promessa a Abraão e a cumpriu em Jesus. | PRAYER_FIDELITY: A oração é endereçada a Maria em vez de a Deus e atribui a ela prerrogativas e promessas divinas.
+  [42-1-35-47] rodada 2: verificação automática recusou: abertura_repetida:guarde:41-7-20-28
+  LIMITE DIÁRIO [42-1-58-70]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199853, Requested 4061. Please try again in 28m10.848s. Need more tokens? Upgr — troca de modelo, se houver outro permitido.
+  [42-1-58-70] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  [42-1-35-47] rodada 3: gemini recusou: DOCTRINAL_OVERREACH: O ensino direciona a oração a Maria e afirma que a salvação começa com a obediência dela, ultrapassando a linha doutrinária bíblica centrada unicamente em Deus e em Cristo. | CHRISTOLOGICAL_FORCE: Afirma erroneamente que a salvação começa com a obediência de Maria, obscurecendo a iniciativa da graça de Deus e a centralidade exclusiva de Cristo na salvação. | PRAYER_FIDELITY: A
+  ERRO [42-1-58-70]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 > Lucas 1:71-80 (42-1-71-80)
   [42-1-71-80] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
   ERRO [42-1-71-80]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 > Lucas 2:1-10 (42-2-1-10)
   [42-2-1-10] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  LIMITE DIÁRIO [42-1-58-70]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199866, Requested 3090. Please try again in 21m16.992s. Need more tokens? Upgr — troca de modelo, se houver outro permitido.
-  [42-1-58-70] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  LIMITE DIÁRIO [42-1-48-57]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199853, Requested 4061. Please try again in 28m10.848s. Need more tokens? Upgr — troca de modelo, se houver outro permitido.
+  [42-1-48-57] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
   ERRO [42-2-1-10]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 > Lucas 2:11-21 (42-2-11-21)
   [42-2-11-21] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [42-1-58-70]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+  ERRO [42-1-48-57]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 > Lucas 2:22-31 (42-2-22-31)
   [42-2-22-31] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
   ERRO [42-2-11-21]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
@@ -64,7 +45,7 @@ Fila: 3058 trechos; prontos: 142; limite desta execução: 150 ensinos / 170 min
   ERRO [42-2-22-31]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 > Lucas 2:43-52 (42-2-43-52)
   [42-2-43-52] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  LIMITE DIÁRIO [42-1-35-47]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199866, Requested 3090. Please try again in 21m16.992s. Need more tokens? Upgr — troca de modelo, se houver outro permitido.
+  LIMITE DIÁRIO [42-1-35-47]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199853, Requested 4061. Please try again in 28m10.848s. Need more tokens? Upgr — troca de modelo, se houver outro permitido.
   [42-1-35-47] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
   ERRO [42-2-32-42]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 > Lucas 3:1-10 (42-3-1-10)
@@ -75,10 +56,10 @@ Oito erros seguidos; parando para não gastar à toa.
 Oito erros seguidos; parando para não gastar à toa.
   ERRO [42-3-1-10]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 Oito erros seguidos; parando para não gastar à toa.
-Resumo: 7 novos ensinos, 0 não aprovados, 2 travados ignorados. Total pronto: 149 de 3058 trechos.
+Resumo: 0 novos ensinos, 0 não aprovados, 2 travados ignorados. Total pronto: 149 de 3058 trechos.
 
-groq-gpt (openai/gpt-oss-120b): 7 chamadas, 19300 tokens entrada, 6076 saída [LIMITE DIÁRIO ATINGIDO]
-groq-qwen (qwen/qwen3.8-27b): 9 chamadas, 21912 tokens entrada, 7252 saída [LIMITE DIÁRIO ATINGIDO]
+groq-gpt (openai/gpt-oss-120b): 6 chamadas, 16324 tokens entrada, 5385 saída [LIMITE DIÁRIO ATINGIDO]
+groq-qwen (qwen/qwen3.8-27b): 5 chamadas, 13203 tokens entrada, 4003 saída [LIMITE DIÁRIO ATINGIDO]
 mistral (mistral-medium-latest): 0 chamadas, 0 tokens entrada, 0 saída
-gemini (gemini-3.1-flash-lite): 8 chamadas, 25495 tokens entrada, 3743 saída
-cloudflare (@cf/meta/llama-3.3-70b-instruct-fp8-fast): 7 chamadas, 23979 tokens entrada, 2597 saída
+gemini (gemini-3.8-flash): 3 chamadas, 9564 tokens entrada, 5637 saída
+cloudflare (@cf/meta/llama-3.3-70b-instruct-fp8-fast): 0 chamadas, 0 tokens entrada, 0 saída

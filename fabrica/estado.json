@@ -927,19 +927,19 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 324,
-   "entrada": 762407,
-   "saida": 290810
+   "chamadas": 330,
+   "entrada": 778731,
+   "saida": 296195
   },
   "groq-qwen": {
-   "chamadas": 321,
-   "entrada": 717554,
-   "saida": 255685
+   "chamadas": 326,
+   "entrada": 730757,
+   "saida": 259688
   },
   "gemini": {
-   "chamadas": 257,
-   "entrada": 826578,
-   "saida": 325014
+   "chamadas": 260,
+   "entrada": 836142,
+   "saida": 330651
   },
   "cloudflare": {
    "chamadas": 158,
