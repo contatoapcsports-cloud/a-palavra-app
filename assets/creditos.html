@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#06201a">
+<meta name="robots" content="noindex">
+<title>Créditos e colaboradores – Palavra Viva</title>
+<style>
+:root{--bg:#f6f2e9;--fg:#1d2a26;--soft:#5d6b66;--accent:#1f4d43;--card:#fffdf8;--line:rgba(31,77,67,.16);--gold:#d9b45b}
+@media (prefers-color-scheme:dark){:root{--bg:#0d1514;--fg:#e8efec;--soft:#9fb0aa;--accent:#8fe0b8;--card:#14201e;--line:rgba(143,224,184,.18)}}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 Georgia,serif}
+main{max-width:720px;margin:0 auto;padding:18px 16px 56px}
+.back{display:inline-block;font:600 14px sans-serif;color:var(--accent);text-decoration:none;padding:8px 0}
+h1{font-size:26px;line-height:1.2;color:var(--accent);margin:8px 0 6px}
+.lead{color:var(--soft);font-size:15px;margin:0 0 20px}
+ol{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:16px;display:flex;gap:14px;align-items:flex-start}
+.ico{flex:none;width:44px;height:44px;border-radius:14px;background:rgba(31,77,67,.1);color:var(--accent);display:flex;align-items:center;justify-content:center}
+@media (prefers-color-scheme:dark){.ico{background:rgba(143,224,184,.12)}}
+.ico svg{width:24px;height:24px}
+.t strong{display:block;font-size:18px;color:var(--fg)}
+.org{display:block;font:600 11px sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--soft);margin:2px 0 4px}
+.fn{display:block;font:600 14px sans-serif;color:var(--accent);margin-bottom:4px}
+.t p{margin:0;font-size:15px}
+/* responsável: primeiro, maior destaque */
+.owner{flex-direction:column;align-items:center;text-align:center;padding:24px 18px;border:2px solid var(--gold)}
+.photo{width:128px;height:128px;border-radius:50%;overflow:hidden;background:rgba(31,77,67,.1);color:var(--accent);display:flex;align-items:center;justify-content:center;border:3px solid var(--gold)}
+.photo img{width:100%;height:100%;object-fit:cover;display:none}
+.photo svg{width:64px;height:64px}
+.owner strong{font-size:22px}
+.owner .fn{font-size:15px}
+/* Claude: segundo, destaque especial */
+.claude{border:2px solid var(--accent)}
+.claude .ico{width:52px;height:52px;background:var(--accent);color:var(--card)}
+.claude strong{font-size:19px}
+.sec{margin-top:26px}
+h2{font-size:17px;color:var(--accent);margin:0 0 6px}
+.sec p{margin:0 0 8px;font-size:14.5px}
+.sec a{color:var(--accent);font-weight:700}
+.note{margin-top:26px;padding:14px 16px;border-radius:16px;border:1px dashed var(--line);font-size:13px;line-height:1.5;color:var(--soft)}
+</style>
+</head>
+<body>
+<main>
+<a class="back" href="../">&larr; Voltar ao app</a>
+<h1>Créditos e colaboradores</h1>
+<p class="lead">Conheça as pessoas, inteligências artificiais e ferramentas que contribuíram para o projeto.</p>
+
+<ol>
+  <li class="card owner" data-colab="Anderson Pereira Cabral">
+    <div class="photo" id="photo" role="img" aria-label="Fotografia de Anderson Pereira Cabral">
+      <img id="foto" alt="Fotografia de Anderson Pereira Cabral" width="128" height="128">
+      <svg id="avatar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></svg>
+    </div>
+    <div class="t">
+      <span class="org">Responsável pelo projeto</span>
+      <strong>Anderson Pereira Cabral</strong>
+      <span class="fn">Idealizador e responsável pelo projeto</span>
+      <p>Idealizador e responsável pelo aplicativo A Palavra — Aprendendo as Escrituras. Responsável pela direção geral do projeto, pelas decisões de organização, pelas orientações de desenvolvimento e pela definição das funcionalidades e dos objetivos do aplicativo.</p>
+    </div>
+  </li>
+
+  <li class="card claude" data-colab="Claude">
+    <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M18 6l-2.5 2.5M8.5 15.5 6 18"/></svg></div>
+    <div class="t">
+      <strong>Claude</strong>
+      <span class="org">Anthropic</span>
+      <span class="fn">Principal ferramenta de inteligência artificial utilizada no desenvolvimento</span>
+      <p>Contribuiu significativamente para o desenvolvimento, a construção, a organização e o aprimoramento do aplicativo, participando de diversas etapas do projeto sob a orientação do responsável humano.</p>
+    </div>
+  </li>
+
+  <li class="card" data-colab="ChatGPT">
+    <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12Z"/></svg></div>
+    <div class="t">
+      <strong>ChatGPT</strong>
+      <span class="org">OpenAI</span>
+      <span class="fn">Apoio em análise e aprimoramento</span>
+      <p>Contribuiu com análises, planejamento, revisões, esclarecimentos, avaliações e sugestões para o aperfeiçoamento do projeto.</p>
+    </div>
+  </li>
+
+  <li class="card" data-colab="Manus">
+    <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="12" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+    <div class="t">
+      <strong>Manus</strong>
+      <span class="fn">Apoio no desenvolvimento e na organização</span>
+      <p>Contribuiu com atividades de planejamento, desenvolvimento e organização de funcionalidades do aplicativo.</p>
+    </div>
+  </li>
+
+  <li class="card" data-colab="GitHub">
+    <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="8" r="2.5"/><path d="M6 8.5v7M18 10.5c0 4-6 3-11 5"/></svg></div>
+    <div class="t">
+      <strong>GitHub</strong>
+      <span class="fn">Plataforma de organização do código-fonte</span>
+      <p>Plataforma utilizada para armazenar, organizar e acompanhar o código-fonte e as alterações do projeto.</p>
+    </div>
+  </li>
+
+  <li class="card" data-colab="Meta">
+    <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l2 2 4-4"/><rect x="4" y="4" width="16" height="16" rx="3"/></svg></div>
+    <div class="t">
+      <strong>Meta</strong>
+      <span class="fn">Modelo de linguagem Llama, usado na verificação dos estudos</span>
+      <p>Modelos da família Llama, da Meta, foram usados como um dos verificadores automáticos dos estudos antes da publicação, por meio de uma plataforma de terceiros.</p>
+    </div>
+  </li>
+</ol>
+
+<div class="sec">
+  <h2>Texto bíblico, materiais e licenças</h2>
+  <p>Texto bíblico: Bíblia Livre (BLIVRE), 2018, de Diego Santos, Mario Sérgio e Marco Teles, licenciada sob Creative Commons Atribuição 4.0 (CC BY 4.0), sem alterações.</p>
+  <p>Os créditos detalhados dos materiais e as condições de uso constam nos <a href="termos.html">Termos de Uso e Privacidade</a> e no registro de créditos do projeto.</p>
+</div>
+
+<p class="note">Esta seção reconhece as contribuições humanas e as ferramentas utilizadas no desenvolvimento do projeto. A menção às empresas e plataformas não implica parceria oficial, patrocínio ou aprovação institucional por parte delas.</p>
+</main>
+<script>
+/* fotografia do responsável: se o arquivo assets/responsavel.jpg existir, aparece no lugar do avatar */
+(function () {
+  var im = new Image();
+  im.onload = function () {
+    var f = document.getElementById('foto'), a = document.getElementById('avatar');
+    f.src = 'responsavel.jpg'; f.style.display = 'block'; a.style.display = 'none';
+  };
+  im.src = 'responsavel.jpg';
+})();
+</script>
+</body>
+</html>
