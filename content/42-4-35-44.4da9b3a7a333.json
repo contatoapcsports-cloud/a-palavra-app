@@ -1,0 +1,136 @@
+{
+ "id": "42-4-35-44",
+ "ref": "Lucas 4:35-44",
+ "book": "42",
+ "chapter": 4,
+ "verses": [
+  {
+   "n": 35,
+   "t": "E Jesus o repreendeu, dizendo: Cala-te, e, sai dele. E o demônio o derrubou no meio do povo , e saiu dele sem lhe fazer dano algum."
+  },
+  {
+   "n": 36,
+   "t": "E espanto veio sobre todos; e falavam entre si uns aos outros, dizendo: Que palavra é esta, que até aos espíritos imundos ele manda com autoridade e poder, e eles saem?"
+  },
+  {
+   "n": 37,
+   "t": "E sua fama era divulgada em todos os lugares em redor daquela região."
+  },
+  {
+   "n": 38,
+   "t": "Jesus levantou-se da sinagoga, e entrou na casa de Simão. A sogra de Simão estava doente de uma grande febre, e rogaram-lhe por ela."
+  },
+  {
+   "n": 39,
+   "t": "Ele se inclinou a ela, e repreendeu a febre, que a deixou. Ela imediatamente se levantou e começou a lhes servir."
+  },
+  {
+   "n": 40,
+   "t": "Quando o sol estava se pondo, troxeram-lhe todos os que estavam enfermos de varias doenças. Ele punha as mãos sobre cada um deles e os curava."
+  },
+  {
+   "n": 41,
+   "t": "E também de muitos saíam demônios, gritando, e dizendo: Tu és o Cristo, o Filho de Deus. Ele os repreendia, e não os deixava falar, porque sabiam que ele era o Cristo."
+  },
+  {
+   "n": 42,
+   "t": "E sendo já dia, ele saiu, e foi a um lugar deserto. As multidões o buscavam; então vieram a ele, e queriam detê-lo, para que não os deixasse."
+  },
+  {
+   "n": 43,
+   "t": "Porém ele lhes disse: Também é necessário que eu anuncie a outras cidades o evangelho do Reino de Deus; pois para isso sou enviado."
+  },
+  {
+   "n": 44,
+   "t": "E ele pregava nas sinagogas da Galileia."
+  }
+ ],
+ "titulo": "A pressa de Jesus para salvar outros",
+ "temas": [
+  "autoridade",
+  "missão",
+  "serviço",
+  "evangelho"
+ ],
+ "pergunta": "Por que Jesus deixou a multidão que queria detê-lo?",
+ "entender": "No texto, Jesus demonstra autoridade sobre o sobrenatural e o físico. Ele repreende o demônio que o derruba sem causar dano e cura a sogra de Simão, que imediatamente se levanta para servir. A fama de Jesus se espalha, e quando o sol se põe, a cidade inteira traz os enfermos e possuídos. Jesus cura todos, impondo as mãos sobre cada um, e os demônios o reconhecem como o Cristo, mas Ele os repreende para que não o divulguem.\n\nA cena mais reveladora ocorre na manhã seguinte. As multidões o buscam e querem detê-lo, provavelmente para que continue curando ou ensinando. Todavia, Jesus decide sair para um lugar deserto. Ele explica o motivo com clareza: é necessário anunciar o evangelho do Reino em outras cidades, pois para isso foi enviado. Ele não se detém no sucesso local, mas avança na missão de Deus.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para a identidade e a missão de Jesus. Ele é reconhecido pelos próprios demônios como o Filho de Deus, confirmando sua divindade. Mais importante ainda, a resposta de Jesus revela o coração do evangelho: Ele não veio apenas para curar corpos ou expulsar espíritos, mas para proclamar o Reino de Deus. Sua urgência em ir a outras cidades mostra que a salvação não é um privilégio local, mas uma mensagem universal que precisa alcançar todos os lugares.",
+  "selo": true
+ },
+ "viver": "Às vezes, o sucesso imediato pode nos prender onde Deus quer que avancemos. Assim como Jesus deixou a multidão que o queria deter, podemos precisar de coragem para dizer \"não\" a oportunidades que parecem boas, mas que nos afastam da missão principal. Pergunte-se: o que estou segurando com medo de soltar? Deus não te chamou para ser popular em um único lugar, mas para levar a esperança a quem ainda não a conhece. Liberte-se da comodidade e siga o chamado, confiando que Ele abrirá novos caminhos.",
+ "guarde": "A urgência do evangelho supera a satisfação momentânea de ser aplaudido.",
+ "ore": "Jesus em Cafarnaum, tu que curaste a sogra de Simão e repreendeste os espíritos, ensina-me a priorizar tua missão. Que eu não seja detido pelo medo ou pela aprovação humana, mas tenha coragem de levar o evangelho a outros lugares, conforme a tua vontade.",
+ "quiz": {
+  "pergunta": "Qual foi o motivo dado por Jesus para não ficar com a multidão?",
+  "opcoes": [
+   "Anunciar o evangelho em outras cidades",
+   "Descansar do cansaço físico",
+   "Evitar que os demônios o perturbassem"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente que Jesus disse ser necessário anunciar o evangelho do Reino em outras cidades, pois para isso foi enviado."
+ },
+ "refs": [
+  "Marcos 1:38",
+  "Mateus 4:23"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T18:52:48.404Z",
+  "rounds": 1
+ }
+}

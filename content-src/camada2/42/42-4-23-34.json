@@ -1,0 +1,145 @@
+{
+ "id": "42-4-23-34",
+ "ref": "Lucas 4:23-34",
+ "book": "42",
+ "chapter": 4,
+ "verses": [
+  {
+   "n": 23,
+   "t": "E ele lhes disse: Sem dúvida me direis este provérbio: Médico, cura a ti mesmo; faz também aqui na tua terra natal todas as coisas que ouvimos terem sido feitas em Cafarnaum."
+  },
+  {
+   "n": 24,
+   "t": "E disse: Em verdade vos digo que nenhum profeta é bem recebido na sua terra natal."
+  },
+  {
+   "n": 25,
+   "t": "Porém em verdade vos digo que hava muitas viúvas em Israel nos dias de Elias, quando o céu se fechou por três anos e seis meses, de modo que em toda aquela terra houve grande fome."
+  },
+  {
+   "n": 26,
+   "t": "Mas a nenhuma delas Elias foi enviado, a não ser a uma mulher viúva de Sarepta de Sidom."
+  },
+  {
+   "n": 27,
+   "t": "E havia muitos leprosos em Israel no tempo do profeta Eliseu; mas nenhum deles foi limpo, a não ser Naamã, o sírio."
+  },
+  {
+   "n": 28,
+   "t": "E todos na sinagoga, quando ouviram essas coisas, encheram-se de ira."
+  },
+  {
+   "n": 29,
+   "t": "Então se levantaram, expulsaram-no da cidade, e o levaram até o topo do monte em que sua cidade era construída, para dali o lançarem abaixo."
+  },
+  {
+   "n": 30,
+   "t": "Porém ele passou por meio deles, e se retirou."
+  },
+  {
+   "n": 31,
+   "t": "Ele desceu a Cafarnaum, cidade de Galileia; e ali os ensinava nos sábados."
+  },
+  {
+   "n": 32,
+   "t": "E admiravam o seu ensino, pois a sua palavra era com autoridade."
+  },
+  {
+   "n": 33,
+   "t": "E estava na sinagoga um homem que tinha um espírito de um demônio imundo, e gritou com alta voz,"
+  },
+  {
+   "n": 34,
+   "t": "dizendo: Ah, que temos contigo, Jesus Nazareno? Vieste para nos destruir? Sei quem és: o Santo de Deus."
+  }
+ ],
+ "titulo": "O estranho que viu o que os vizinhos ignoraram",
+ "temas": [
+  "rejeição",
+  "autoridade",
+  "fé",
+  "identidade"
+ ],
+ "pergunta": "Por que quem conhece bem uma pessoa pode ter mais dificuldade em aceitar sua verdadeira identidade?",
+ "entender": "Em Nazaré, a fama de Jesus como o carpinteiro local impedia que o povo o visse como profeta. Ele alertou que \"nenhum profeta é bem recebido na sua terra natal\" (Lucas 4:24). Ao citar exemplos de Elias e Eliseu servindo a estrangeiros, a multidão ficou irritada e tentou lançá-lo de um penhasco, mas Jesus passou por entre eles e partiu.\n\nAo chegar a Cafarnaum, o ambiente mudou. Ali, Jesus ensinava com autoridade, e um homem possuído por um demônio imundo o reconheceu imediatamente, gritando: \"Sei quem és: o Santo de Deus\" (Lucas 4:34). A reação violenta em Nazaré e o reconhecimento sobrenatural em Cafarnaum mostram como a familiaridade pode cegar, enquanto a verdade de Cristo revela Seu poder real.",
+ "ligar": {
+  "texto": "Este texto expõe a identidade de Jesus como o Santo de Deus, uma verdade que os espíritos imundos reconhecem com medo, mas que os homens podem rejeitar por conforto. O evangelho nos convida a olhar além das aparências e das expectativas humanas para crer em Quem Jesus realmente é. A autoridade que Ele exerce sobre o mal confirma Sua divindade e oferece a base para a nossa salvação, independentemente de nossa familiaridade com Ele.",
+  "selo": true
+ },
+ "viver": "A familiaridade pode nos fazer subestimar a presença de Deus em nossa vida cotidiana. Assim como os nazarenos limitaram Jesus a \"filho de José\", talvez você esteja acostumado demais com a presença de Cristo, tratando-O como um amigo comum em vez de reconhecê-Lo como Senhor. Esta semana, tente se afastar do automático: reserve um momento para admirar Sua autoridade e santidade, lembrando que Ele é o Santo de Deus, capaz de vencer todo mal e toda dúvida.",
+ "guarde": "A verdade de Cristo brilha mais forte quando olhamos para além das expectativas humanas.",
+ "ore": "Em Cafarnaum, o demônio Te reconheceu como o Santo de Deus. Ajuda-me a não Te reduzir aos meus conceitos limitados. Abre meus olhos para ver Tua autoridade real e minha necessidade de Ti, não como um vizinho, mas como meu Salvador.",
+ "quiz": {
+  "pergunta": "Quem reconheceu Jesus como o Santo de Deus em Cafarnaum?",
+  "opcoes": [
+   "Um homem possuído por um demônio imundo.",
+   "Os anciãos da sinagoga.",
+   "Um dos discípulos de Jesus."
+  ],
+  "certa": 0,
+  "explicacao": "O texto relata que o homem com o espírito imundo gritou reconhecendo a identidade de Jesus, enquanto os moradores de Nazaré o rejeitaram."
+ },
+ "refs": [
+  "Marcos 6:1-6",
+  "João 4:44",
+  "Mateus 13:54-58"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T18:51:41.986Z",
+  "rounds": 2
+ }
+}

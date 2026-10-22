@@ -1,0 +1,150 @@
+{
+ "id": "42-4-1-13",
+ "ref": "Lucas 4:1-13",
+ "book": "42",
+ "chapter": 4,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E Jesus, cheio do Espírito Santo, voltou do Jordão, e foi levado pelo Espírito ao deserto."
+  },
+  {
+   "n": 2,
+   "t": "E por quarenta dias foi tentado pelo diabo; e não comeu coisa alguma naqueles dias; e terminados eles, depois teve fome."
+  },
+  {
+   "n": 3,
+   "t": "Então o diabo lhe disse: Se tu és Filho de Deus, diz a esta pedra que se transforme em pão."
+  },
+  {
+   "n": 4,
+   "t": "Jesus lhe respondeu: Está escrito que não só de pão viverá o ser humano, mas de toda palavra de Deus. Deuteronômio 8:3"
+  },
+  {
+   "n": 5,
+   "t": "E o diabo o levou a um alto monte, e lhe mostrou todos os reinos do mundo num instante."
+  },
+  {
+   "n": 6,
+   "t": "E o diabo lhe disse: Darei a ti todo este poder e sua glória; pois a mim foram entregues, e os dou a quem quero."
+  },
+  {
+   "n": 7,
+   "t": "Portanto, se tu me adorares, tudo será teu."
+  },
+  {
+   "n": 8,
+   "t": "E Jesus lhe respondeu: Para trás de mim, Satanás!Porque está escrito: Adorarás ao Senhor teu Deus, e só a ele servirás. Deuteronômio 6:13"
+  },
+  {
+   "n": 9,
+   "t": "Então o levou a Jerusalém, e o pôs sobre a parte mais alta do templo, e disse-lhe: Se tu és o Filho de Deus, lança-te daqui abaixo."
+  },
+  {
+   "n": 10,
+   "t": "Porque está escrito que: Mandará aos seus acerca de ti que te guardem. Salmos 91:11"
+  },
+  {
+   "n": 11,
+   "t": "E que: te sustentarão pelas mãos, para que nunca tropeces com o teu pé em alguma pedra. Salmos 91:12"
+  },
+  {
+   "n": 12,
+   "t": "Jesus lhe respondeu: Dito está: Não tentes ao Senhor teu Deus. Deuteronômio 6:16"
+  },
+  {
+   "n": 13,
+   "t": "E quando o diabo acabou toda a tentação, ausentou-se dele por algum tempo."
+  }
+ ],
+ "titulo": "Quarenta dias de fome e resistência",
+ "temas": [
+  "tentação",
+  "espirito",
+  "palavra",
+  "obediência",
+  "jejum"
+ ],
+ "pergunta": "Por que Jesus precisou passar fome para vencer o diabo?",
+ "entender": "Logo após ser batizado, Jesus foi levado pelo Espírito Santo ao deserto. Lá, ele jejuou por quarenta dias e noites. Ao final desse período, sentiu fome. Foi nesse momento de vulnerabilidade física que o diabo apareceu para testá-lo.\n\nO adversário apresentou três propostas. Primeiro, sugeriu que Jesus transformasse pedras em pão usando seu poder divino. Segundo, ofereceu todo o poder e glória dos reinos do mundo, mas exigia adoração. Terceiro, incentivou Jesus a se jogar do templo para provar que Deus o protegeria. Em cada caso, Jesus respondeu com a Escritura, recusando-se a usar o poder de Deus para benefício próprio ou para forçar a mão de Deus.\n\nO texto mostra que a vitória de Jesus não veio de força bruta, mas da obediência à Palavra. Ele não negou ser o Filho de Deus, mas rejeitou a lógica do diabo, que tentava distorcer a verdade para alcançar seus fins. Ao fim da tentação, o diabo se afastou, e Jesus voltou à Galileia cheio do Espírito para começar seu ministério público.",
+ "ligar": {
+  "texto": "Este trecho revela Jesus como o verdadeiro Filho de Deus, que obedece ao Pai mesmo em condições extremas. Ele vence a tentação exatamente onde Adão falhou no Éden, restaurando a humanidade. Ao resistir ao diabo com a Palavra, Jesus se apresenta como o Caminho seguro. Ele não apenas ensina sobre a tentação, mas vive a obediência perfeita que nos redime, mostrando que a vitória sobre o pecado é possível através da fé nele.",
+  "selo": true
+ },
+ "viver": "Assim como Jesus enfrentou a fome no deserto, nós também enfrentamos momentos de escassez e dúvida. A tentação muitas vezes surge quando estamos mais fracos. Em vez de buscar atalhos ou confiar apenas nas próprias forças, podemos responder com a Palavra de Deus. Identifique uma área da sua vida onde você sente 'fome' de aprovação ou segurança, e pergunte-se: o que a Bíblia diz sobre isso? Levar a Escritura para o centro da decisão, como Jesus fez, fortalece sua fé e alinha sua vontade com a de Deus, mesmo quando as circunstâncias parecem difíceis.",
+ "guarde": "A obediência à Palavra de Deus é a arma mais forte contra as armadilhas do inimigo.",
+ "ore": "Jesus, no deserto Tu jejuaste e resististe à tentação. Ajuda-me a não ceder às pressões do mundo, mas a buscar primeiro a Tua vontade. Que a Tua Palavra seja luz para o meu caminho e força para a minha alma, para que eu viva em obediência e confiança em Ti.",
+ "quiz": {
+  "pergunta": "Como Jesus respondeu às tentações do diabo no deserto?",
+  "opcoes": [
+   "Citando a Escritura",
+   "Usando seu poder para criar pão",
+   "Aceitando a oferta de glória"
+  ],
+  "certa": 0,
+  "explicacao": "O texto mostra que Jesus respondeu a cada uma das três tentações citando versículos da Bíblia, recusando-se a agir contra a vontade de Deus."
+ },
+ "refs": [
+  "Mateus 4:1-11",
+  "Marcos 1:12-13",
+  "Deuteronômio 8:3"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T18:50:40.680Z",
+  "rounds": 1
+ }
+}

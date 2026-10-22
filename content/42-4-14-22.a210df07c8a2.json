@@ -1,0 +1,133 @@
+{
+ "id": "42-4-14-22",
+ "ref": "Lucas 4:14-22",
+ "book": "42",
+ "chapter": 4,
+ "verses": [
+  {
+   "n": 14,
+   "t": "Então Jesus, no poder do Espírito, voltou para a Galileia, e sua fama se espalhou por toda a região ao redor."
+  },
+  {
+   "n": 15,
+   "t": "Ele ensinava em suas sinagogas, e era recebido com honra por todos."
+  },
+  {
+   "n": 16,
+   "t": "Ele foi a Nazaré, onde havia sido criado, e entrou, conforme o seu costume, num dia de Sábado, na sinagoga; e levantou-se para ler."
+  },
+  {
+   "n": 17,
+   "t": "Foi-lhe dado o livro do profeta Isaías; e quando abriu o livro, achou o lugar onde estava escrito:"
+  },
+  {
+   "n": 18,
+   "t": "O Espírito do Senhor está sobre mim, porque ele me ungiu para evangelizar os pobres, me enviou para curar os contritos de coração;"
+  },
+  {
+   "n": 19,
+   "t": "para proclamar liberdade aos cativos e dar vista aos cegos, para pôr em liberdade os oprimidos, para proclamar o ano agradável do Senhor. Isaías 61:1-2"
+  },
+  {
+   "n": 20,
+   "t": "Ele fechou o livro, e devolveu-o ao assistente, e se sentou. Os olhos de todos na sinagoga estavam fixos nele."
+  },
+  {
+   "n": 21,
+   "t": "Então ele começou a lhes dizer: Hoje esta escritura se cumpriu em vossos ouvidos."
+  },
+  {
+   "n": 22,
+   "t": "E todos davam testemunho dele, e se admiravam das palavras graciosas que saíam da sua boca; e diziam: Não é este o filho de José?"
+  }
+ ],
+ "titulo": "A missão que Jesus leu em Isaías",
+ "temas": [
+  "missão",
+  "liberdade",
+  "espírito",
+  "identidade"
+ ],
+ "pergunta": "O que Jesus declarou ao dizer que a escritura se cumpriu?",
+ "entender": "Depois das tentações no deserto, Jesus volta à Galileia. Em Nazaré, sua cidade natal, ele segue o costume e vai à sinagoga no sábado. Ao receber o livro de Isaías, ele não escolhe um texto aleatório: abre exatamente onde está escrito: \"O Espírito do Senhor está sobre mim\". Essa escolha revela que Jesus se identifica com o profeta, mas vai além: Ele é o próprio Messias anunciado.\n\nO texto que Jesus lê descreve uma missão específica: evangelizar os pobres, curar os contritos, proclamar liberdade aos cativos e dar vista aos cegos. Não é uma lista genérica de boas ações, mas um anúncio de que o Reino de Deus chegou para restaurar o que foi quebrado pelo pecado. Ao dizer: \"Hoje esta escritura se cumpriu em vossos ouvidos\", Jesus declara que Ele é a resposta final das promessas antigas.\n\nA reação da multidão é impressionante. Todos o admiram pelas palavras graciosas, mas a pergunta final revela a dificuldade em aceitar a verdade: \"Não é este o filho de José?\". Eles conheciam a origem humana de Jesus, mas ainda estavam cegos para a sua identidade divina. O texto mostra que o conhecimento intelectual não substitui a fé; é preciso reconhecer Jesus como o cumprimento da Escritura.",
+ "ligar": {
+  "texto": "Este trecho é central para o evangelho porque Jesus se apresenta publicamente como o Messias. Ele não apenas cita Isaías, mas se aplica a si mesmo, mostrando que sua obra cumpre as promessas de libertação. A \"liberdade aos cativos\" aponta para a libertação do pecado, e a \"cura dos contritos\" para a restauração do coração. Jesus é o único que pode cumprir esse plano, pois é Deus e homem, ungido pelo Espírito para salvar os que estão presos à escravidão do mal. A recusa inicial dos moradores de Nazaré nos lembra que o evangelho pode ser rejeitado por aqueles que conhecem a história, mas não a verdade. Com Jesus, as promessas se tornam realidade presente.",
+  "selo": true
+ },
+ "viver": "Assim como Jesus leu a missão de libertar os oprimidos, você pode identificar uma área da sua vida onde se sente preso: vícios, mágoas ou medo. Jesus veio para trazer liberdade nesses lugares. Não espere sentir-se \"pronto\"; confie que o Espírito que ungiu Jesus habita em você para começar a transformação. Compartilhe essa esperança com alguém que esteja sofrendo, mostrando que a cura e a liberdade são reais para quem crê.",
+ "guarde": "Jesus é o cumprimento das promessas de Deus para a sua libertação e cura.",
+ "ore": "Nazaré, lugar onde Jesus começou sua missão, ensina-me a reconhecer a tua autoridade. Abre os meus olhos para ver que tu cumpres as Escrituras na minha vida hoje. Liberta-me das correntes que me prendem e cura meu coração contrito, conforme a tua palavra.",
+ "quiz": {
+  "pergunta": "O que Jesus disse ao terminar de ler o texto de Isaías?",
+  "opcoes": [
+   "Hoje esta escritura se cumpriu em vossos ouvidos.",
+   "Eu vim para trazer paz ao mundo.",
+   "Aqui está a prova de que sou o Messias."
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz explicitamente que Jesus declarou que aquela escritura se cumpria naquele momento, nos ouvidos da audiência."
+ },
+ "refs": [
+  "Isaías 61:1-2",
+  "Marcos 1:2-11",
+  "Atos 10:38"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T18:52:46.806Z",
+  "rounds": 2
+ }
+}
