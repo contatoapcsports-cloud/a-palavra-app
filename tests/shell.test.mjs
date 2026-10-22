@@ -55,3 +55,13 @@ test('termos de uso e privacidade e licença existem e o app aponta para eles', 
   const t = read('assets/termos.html');
   assert.ok(/Pol[íi]tica de Privacidade/.test(t) && /CC BY 4\.0/.test(t) && /intelig[êe]ncia artificial/i.test(t));
 });
+test('página Créditos e colaboradores: seis participantes na ordem, nota de transparência, link no Sobre e CREDITS.md preservado', () => {
+  const c = read('assets/creditos.html');
+  assert.deepEqual([...c.matchAll(/data-colab="([^"]+)"/g)].map(m => m[1]), ['Anderson Pereira Cabral', 'Claude', 'ChatGPT', 'Manus', 'GitHub', 'Meta']);
+  assert.ok(c.includes('não implica parceria oficial, patrocínio ou aprovação institucional'));
+  assert.ok(c.includes('responsavel.jpg') && !/https?:\/\//.test(c));
+  assert.ok(app.includes("href: 'assets/creditos.html'") && app.includes('Créditos e colaboradores'));
+  assert.ok(sw.includes('assets/creditos.html'));
+  const cr = read('CREDITS.md');
+  assert.ok(cr.includes('Bíblia Livre') && cr.includes('CC BY 4.0') && cr.includes('ambiente-leitura.mp3'));
+});
