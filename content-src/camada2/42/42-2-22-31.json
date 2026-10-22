@@ -1,0 +1,136 @@
+{
+ "id": "42-2-22-31",
+ "ref": "Lucas 2:22-31",
+ "book": "42",
+ "chapter": 2,
+ "verses": [
+  {
+   "n": 22,
+   "t": "E quando se completaram os dias da purificação dela, segundo a Lei de Moisés, o levaram a Jerusalém, para o apresentarem ao Senhor,"
+  },
+  {
+   "n": 23,
+   "t": "conforme o que está escrito na Lei do Senhor: Todo macho primogênito será consagrado ao Senhor. Êxodo 13:2,12"
+  },
+  {
+   "n": 24,
+   "t": "E para darem a oferta segundo o que se diz na Lei do Senhor: um par de rolinhas ou dois pombinhos."
+  },
+  {
+   "n": 25,
+   "t": "E eis que havia em Jerusalém um homem de nome Simeão; e esse homem era justo e devoto, e esperava a consolação de Israel; e o Espírito Santo estava sobre ele."
+  },
+  {
+   "n": 26,
+   "t": "E havia lhe sido revelado pelo Espírito Santo que ele não veria a morte antes de ter visto o Cristo do Senhor."
+  },
+  {
+   "n": 27,
+   "t": "E pelo Espírito foi ao Templo; e quando os pais trouxeram o menino Jesus, para fazerem com ele conforme o costume da Lei,"
+  },
+  {
+   "n": 28,
+   "t": "Então ele o tomou em seus braços, louvou a Deus, e disse:"
+  },
+  {
+   "n": 29,
+   "t": "Agora, Senhor, despedes o teu servo em paz, conforme a tua palavra,"
+  },
+  {
+   "n": 30,
+   "t": "pois os meus olhos viram a tua salvação,"
+  },
+  {
+   "n": 31,
+   "t": "a qual preparaste diante de todos os povos;"
+  }
+ ],
+ "titulo": "O encontro que muda tudo",
+ "temas": [
+  "esperança",
+  "salvação",
+  "fé",
+  "temple"
+ ],
+ "pergunta": "O que acontece quando a nossa longa espera encontra a resposta de Deus?",
+ "entender": "Maria e José levaram o menino Jesus a Jerusalém para cumprir a Lei. No Templo, eles se depararam com Simeão, um homem justo que esperava a consolação de Israel. O Espírito Santo havia lhe garantido que ele não morreria antes de ver o Cristo do Senhor.\n\nAo tomar Jesus nos braços, Simeão reconheceu ali a salvação prometida. Ele podia finalmente descansar, pois seus olhos haviam visto o que a fé buscava. Aquele bebê era a resposta concreta para a vida inteira de espera do velho profeta.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para Jesus como a salvação definitiva. Simeão não vê apenas uma criança, mas a promessa de Deus cumprida. O evangelho nos mostra que em Cristo encontramos a paz e a certeza de que Deus não nos deixa esperando em vão, mas traz a vida eterna.",
+  "selo": true
+ },
+ "viver": "A espera pode ser cansativa, mas Simeão nos ensina a perseverar. Quando você sentir que suas orações não têm resposta, lembre-se da fidelidade de Deus. Confie que Ele está agindo, mesmo no silêncio, e que a promessa em Jesus se cumprirá no tempo certo, trazendo paz ao seu coração.",
+ "guarde": "A paz verdadeira chega quando enxergamos a promessa de Deus cumprida em Jesus.",
+ "ore": "Jerusalém, lugar do encontro, ensina-me a esperar com fé. Que eu reconheça em Jesus a salvação que minha alma busca, para viver em paz.",
+ "quiz": {
+  "pergunta": "O que Simeão disse ter visto ao tomar Jesus nos braços?",
+  "opcoes": [
+   "Um sinal de milagre físico.",
+   "A rejeição do povo.",
+   "A salvação de Deus."
+  ],
+  "certa": 2,
+  "explicacao": "O texto afirma que Simeão disse: 'pois os meus olhos viram a tua salvação', indicando que reconheceu em Jesus a obra redentora de Deus."
+ },
+ "refs": [
+  "Isaías 9:6",
+  "Lucas 1:68"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T21:48:26.846Z",
+  "rounds": 2
+ }
+}

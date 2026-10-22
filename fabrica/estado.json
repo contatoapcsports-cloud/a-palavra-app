@@ -922,7 +922,9 @@
   },
   "42-2-22-31": {
    "execucoes": 0,
-   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
+   "ultimo": "automático: abertura_repetida:ore:42-2-32-42",
+   "estado": "pronto",
+   "titulo": "O encontro que muda tudo"
   },
   "42-2-32-42": {
    "execucoes": 0,
@@ -944,15 +946,21 @@
   },
   "42-3-11-20": {
    "execucoes": 0,
-   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração foi dirigida a João Batista em vez de a Deus, o que viola o ensino bíblico de direcionar orações exclusivamente a Deus.",
+   "estado": "pronto",
+   "titulo": "A verdade que incomoda os poderosos"
   },
   "42-3-21-29": {
    "execucoes": 1,
-   "ultimo": "automático: ore:citacao_longa"
+   "ultimo": "automático: entender:citacao_longa",
+   "estado": "pronto",
+   "titulo": "O céu se abriu para quem?"
   },
   "42-3-30-38": {
    "execucoes": 0,
-   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
+   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } ",
+   "estado": "pronto",
+   "titulo": "A linha do tempo que une você a Deus"
   },
   "42-4-1-13": {
    "execucoes": 0,
@@ -1021,24 +1029,24 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 352,
-   "entrada": 838866,
-   "saida": 315017
+   "chamadas": 359,
+   "entrada": 857958,
+   "saida": 320790
   },
   "groq-qwen": {
-   "chamadas": 347,
-   "entrada": 783930,
-   "saida": 277194
+   "chamadas": 355,
+   "entrada": 804316,
+   "saida": 283604
   },
   "gemini": {
-   "chamadas": 283,
-   "entrada": 910087,
-   "saida": 360673
+   "chamadas": 290,
+   "entrada": 932652,
+   "saida": 365950
   },
   "cloudflare": {
-   "chamadas": 171,
-   "entrada": 592386,
-   "saida": 63441
+   "chamadas": 175,
+   "entrada": 605919,
+   "saida": 64925
   },
   "mistral": {
    "chamadas": 0,

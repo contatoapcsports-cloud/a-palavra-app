@@ -1,0 +1,137 @@
+{
+ "id": "42-3-11-20",
+ "ref": "Lucas 3:11-20",
+ "book": "42",
+ "chapter": 3,
+ "verses": [
+  {
+   "n": 11,
+   "t": "E ele lhes respondeu: Quem tiver duas túnicas, reparta com o não tem; e quem tiver comida, faça da mesma maneira."
+  },
+  {
+   "n": 12,
+   "t": "E chegaram também uns publicanos, para serem batizados; e disseram-lhe: Mestre, que devemos fazer?"
+  },
+  {
+   "n": 13,
+   "t": "E ele lhes disse: Não exijais mais do que vos está ordenado."
+  },
+  {
+   "n": 14,
+   "t": "E uns soldados também lhe perguntaram: E nós, que devemos fazer? E ele lhes disse: Não maltrateis nem defraudeis a ninguém; e contentai-vos com vossos salários."
+  },
+  {
+   "n": 15,
+   "t": "E, enquanto o povo estava em expectativa, e todos pensando em seus corações se talvez João seria o Cristo,"
+  },
+  {
+   "n": 16,
+   "t": "João respondeu a todos: De fato, eu vos batizo com água, mas vem um que é mais poderoso do que eu, de quem eu não sou digno de desatar a tira das sandálias; ele vos batizará com o Espírito Santo e com fogo."
+  },
+  {
+   "n": 17,
+   "t": "Sua pá está na sua mão, e limpará sua eira, e juntará o trigo no seu celeiro; porém queimará a palha com fogo que nunca se apaga."
+  },
+  {
+   "n": 18,
+   "t": "Assim, exortando com muitas outras coisas, João anunciava a boa notícia ao povo."
+  },
+  {
+   "n": 19,
+   "t": "Porém, quando Herodes, o tetrarca, foi repreendido por ele por causa de Herodias, mulher do seu irmão Filipe, e por todas as maldades que Herodes havia feito,"
+  },
+  {
+   "n": 20,
+   "t": "acrescentou a todas ainda esta: encarcerou João na prisão."
+  }
+ ],
+ "titulo": "A verdade que incomoda os poderosos",
+ "temas": [
+  "justiça",
+  "arrependimento",
+  "verdade",
+  "esperança"
+ ],
+ "pergunta": "O que acontece quando a verdade confronta o poder político?",
+ "entender": "João Batista não limitava sua pregação a conceitos abstratos. Ele dava orientações práticas para cada grupo que se aproximava dele. Aos publicanos, cobradores de impostos, ele disse: \"Não exijais mais do que vos está ordenado\". Aos soldados, recomendou: \"Não maltrateis nem defraudeis a ninguém\". A mensagem era clara: a fé se mostra na integridade do dia a dia, no trabalho e nas relações, e não apenas em rituais religiosos.\n\nEnquanto o povo especulava se João seria o Messias, ele foi direto ao ponto: ele batizava com água, mas viria alguém mais poderoso, que batizaria com o Espírito Santo e com fogo. Essa imagem de fogo e palha fala sobre a separação final entre o que é verdadeiro e o que é falso. Era uma mensagem de urgência: preparem-se, pois o Reino está chegando.\n\nA reação de Herodes mostra o custo da verdade. Ele repreendeu Herodes por causa de Herodias e de outras maldades. Ao invés de se arrepender, Herodes encarcerou João. A história nos lembra que a justiça divina não depende da vontade dos líderes humanos. A verdade pode incomodar e gerar perseguição, mas ela permanece firme, apontando para o julgamento final de Deus.",
+ "ligar": {
+  "texto": "João Batista é a voz que prepara o caminho, mas ele mesmo aponta para Jesus como o centro de tudo. Ao dizer que alguém mais poderoso viria, João reconhece a soberania de Cristo. O \"fogo\" mencionado não é apenas destruição, mas o julgamento justo e a purificação que só Jesus, o Rei, pode executar. O evangelho aqui é a antecipação do Reino: Jesus veio para separar o trigo da palha e oferecer salvação através do Espírito. A integridade exigida por João é a preparação do coração para receber esse Reino através da fé em Cristo.",
+  "selo": true
+ },
+ "viver": "João não pediu que os soldados largassem suas espadas, mas que usassem sua posição com justiça. Da mesma forma, sua fé não precisa mudar sua profissão, mas deve mudar como você exerce seu trabalho. Pense em uma área onde você tem poder de decisão, seja no dinheiro, na equipe ou em casa. Onde você pode ser mais honesto, menos explorador e mais generoso? O arrependimento bíblico não é apenas sentir culpa, mas agir de forma diferente. Se você tem mais do que precisa, reparta. Se você tem autoridade, use-a para proteger, não para oprimir. Sua vida prática é a evidência visível de que você está esperando por Jesus.",
+ "guarde": "A integridade no trabalho é a preparação do coração para o Reino de Deus.",
+ "ore": "Deus, assim como João Batista no Jordão, ensina-me que a fé age na prática. Ajuda-me, pelo Espírito Santo, a não exigir mais do que é justo no meu trabalho. Dá-me coragem para tratar os outros com dignidade, mesmo quando tenho poder sobre eles. Que minha vida reflita a justiça do teu Reino, enquanto espero por Cristo.",
+ "quiz": {
+  "pergunta": "O que João Batista instruiu os soldados a fazerem?",
+  "opcoes": [
+   "Não maltratar nem defraudar ninguém e contentar-se com o salário",
+   "Vender suas armas e virar agricultores",
+   "Jejuar por 40 dias no deserto"
+  ],
+  "certa": 0,
+  "explicacao": "O texto em Lucas 3:14 diz explicitamente que João mandou os soldados não maltratarem nem defraudarem e se contentarem com seus salários, focando na ética profissional e não em mudanças de carreira."
+ },
+ "refs": [
+  "Mateus 3:11-12",
+  "Atos 2:38",
+  "Tiago 2:17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T21:45:06.222Z",
+  "rounds": 2
+ }
+}

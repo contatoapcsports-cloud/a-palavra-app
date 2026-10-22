@@ -1,0 +1,134 @@
+{
+ "id": "42-3-30-38",
+ "ref": "Lucas 3:30-38",
+ "book": "42",
+ "chapter": 3,
+ "verses": [
+  {
+   "n": 30,
+   "t": "filho de Simeão, filho de Judá, filho de José, filho de Jonã, filho de Eliaquim."
+  },
+  {
+   "n": 31,
+   "t": "filho de Meleá, filho de Mainã, filho de Matatá, filho de Natã, filho de Davi."
+  },
+  {
+   "n": 32,
+   "t": "Filho de Jessé, filho de Obede, filho de Boaz, filho de Salmom, filho de Naassom."
+  },
+  {
+   "n": 33,
+   "t": "Filho de Aminadabe, filho de Arão, filho de Esrom, filho de Peres, filho de Judá."
+  },
+  {
+   "n": 34,
+   "t": "filho de Jacó, filho de Isaque, filho de Abraão, filho de Terá, filho de Naor."
+  },
+  {
+   "n": 35,
+   "t": "filho de Serugue, filho de Ragaú, filho de Faleque, filho de Éber, filho de Salá."
+  },
+  {
+   "n": 36,
+   "t": "Filho de Cainã, filho de Arfaxade, filho de Sem, filho de Noé, filho de Lameque."
+  },
+  {
+   "n": 37,
+   "t": "Filho de Matusalém, filho de Enoque, filho de Jarede, filho de Maleleel, filho de Cainã."
+  },
+  {
+   "n": 38,
+   "t": "filho de Enos, filho de Sete, filho de Adão, e Adão de Deus."
+  }
+ ],
+ "titulo": "A linha do tempo que une você a Deus",
+ "temas": [
+  "genealogia",
+  "história",
+  "identidade",
+  "adão",
+  "deus"
+ ],
+ "pergunta": "O que significa saber de onde viemos para entender quem somos hoje?",
+ "entender": "Lucas encerra seu Evangelho mostrando a linhagem de Jesus não apenas até José, mas até Adão e, finalmente, até Deus. Diferente de Mateus, que foca na descendência real de Davi, Lucas traça uma linha universal. Ele lista nomes como Simeão, Judá, José, até chegar a Abraão, Isaque e, crucialmente, a Adão.\n\nO ponto final é poderoso: \"Adão de Deus\". Isso nos lembra que toda a humanidade descende de um só homem, mas a relação com Deus foi rompida. Ao listar toda essa história, Lucas mostra que Jesus não é apenas um rei judeu, mas o último Adão, aquele que restaura a conexão quebrada.\n\nEssa genealogia serve para mostrar que a história da salvação não é um acidente, mas um plano contínuo que abrange todas as nações e tempos, culminando em Cristo.",
+ "ligar": {
+  "texto": "Este texto aponta para Jesus como o centro da história humana. Ao dizer que Adão era \"de Deus\", Lucas estabelece o padrão original de relacionamento. Jesus é apresentado como o descendente que cumpre essa promessa. O evangelho aqui é a ideia de que, através de Jesus, a humanidade pode ser reconciliada com Deus, voltando à origem perdida em Adão. Ele é o elo que conecta o passado ao futuro da salvação.",
+  "selo": false
+ },
+ "viver": "Muitas vezes, vivemos desconectados de nossa história espiritual, sentindo que nossa vida é um acaso ou definida apenas por nossas escolhas recentes. Ao ler a genealogia de Jesus, somos convidados a ver nossa vida dentro de um contexto maior. Não estamos sozinhos na nossa jornada; fazemos parte de uma história que Deus está conduzindo. Isso traz paz e propósito, pois nossa identidade não é definida apenas pelo que falhamos, mas pela linhagem de graça que nos leva a Cristo.",
+ "guarde": "Nossa história não termina no erro de Adão, mas na promessa cumprida em Jesus.",
+ "ore": "Adão, primeiro homem, e Jesus, último Adão, eu confio na linhagem que me traz a Ti. Que eu entenda que minha vida faz parte do Teu plano eterno e não sou um acidente. Ajuda-me a viver com propósito, sabendo que fui criado para estar em comunhão contigo, como Adão foi, mas agora de forma plena através de Cristo. Amém.",
+ "quiz": {
+  "pergunta": "Qual é o último nome mencionado na genealogia de Jesus em Lucas 3:38?",
+  "opcoes": [
+   "Davi",
+   "Abraão",
+   "Deus"
+  ],
+  "certa": 2,
+  "explicacao": "O versículo 38 termina dizendo que Adão era de Deus, mostrando a origem divina de toda a humanidade e a conexão final com o Criador."
+ },
+ "refs": [
+  "Romanos 5:12-19",
+  "1 Coríntios 15:22",
+  "Gênesis 5:1-5"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T21:44:21.526Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,133 @@
+{
+ "id": "42-3-21-29",
+ "ref": "Lucas 3:21-29",
+ "book": "42",
+ "chapter": 3,
+ "verses": [
+  {
+   "n": 21,
+   "t": "E aconteceu que, quando todo o povo era batizado, Jesus também foi batizado, e enquanto orava, o céu se abriu,"
+  },
+  {
+   "n": 22,
+   "t": "e o Espírito Santo desceu sobre ele em forma corpórea, como pomba; e veio do céu uma voz que dizia: Tu és o meu Filho amado, em ti me agrado."
+  },
+  {
+   "n": 23,
+   "t": "E o mesmo Jesus começou quando tinha cerca de trinta anos, sendo (como se pensava) filho de José, filho de Eli,"
+  },
+  {
+   "n": 24,
+   "t": "filho de Matate, filho de Levi, filho de Melqui, filho de Janai, filho de José."
+  },
+  {
+   "n": 25,
+   "t": "filho de Matatias, filho de Amós, filho de Naum, filho de Esli, filho de Nagai."
+  },
+  {
+   "n": 26,
+   "t": "filho de Maate, filho de Matatias, filho de Semei, filho de José, filho de Judá."
+  },
+  {
+   "n": 27,
+   "t": "filho de Joaná, filho de Resa, filho de Zorobabel, e filho de Salatiel, filho de Neri."
+  },
+  {
+   "n": 28,
+   "t": "filho de Melqui, filho de Adi, e filho de Cosã, filho de Elmodã, filho de Er."
+  },
+  {
+   "n": 29,
+   "t": "filho de José, filho de Eliézer, filho de Jorim, filho de Matate, filho de Levi."
+  }
+ ],
+ "titulo": "O céu se abriu para quem?",
+ "temas": [
+  "batismo",
+  "identidade",
+  "espirito santo",
+  "genealogia"
+ ],
+ "pergunta": "Por que a voz do céu confirmou a identidade de Jesus justamente no batismo?",
+ "entender": "Lucas 3:21-22 descreve um momento único: enquanto Jesus orava após ser batizado, o céu se abriu e o Espírito Santo desceu sobre ele. Foi então que uma voz declarou: \"Tu és o meu Filho amado, em ti me agrado\". Essa cena marca o início público do ministério de Jesus, mostrando que Ele é o Filho de Deus em um nível diferente de qualquer outra pessoa.\n\nImediatamente depois, Lucas apresenta uma lista longa de nomes (versículos 23-29), a genealogia de Jesus. Diferente de Mateus, que foca na linhagem real até Abraão, Lucas traça a origem de Jesus até Adão, o \"filho de Deus\" (v. 38, fora do trecho, mas no contexto). Isso nos lembra que, embora Jesus tenha uma relação especial com o Pai, Ele também se identifica plenamente com a humanidade, herdando a condição humana através de José e da linhagem de Davi.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para a divindade de Jesus. A voz do céu não apenas aprova, mas identifica Jesus como o Filho amado, confirmando a promessa messiânica. A descida do Espírito Santo em forma corpórea sugere uma unção especial para a missão redentora. A genealogia que segue reforça que Jesus é o cumprimento das Escrituras, o descendente de Davi que viria salvar o povo. É a interseção entre a humanidade (genealogia) e a divindade (voz do céu) que prepara o terreno para a cruz e a ressurreição.",
+  "selo": true
+ },
+ "viver": "A voz do céu disse a Jesus: \"em ti me agrado\". Isso mostra que o valor de Jesus não dependia do que Ele fez até aquele momento, mas de quem Ele era. Da mesma forma, nossa identidade não deve depender de nossos sucessos ou fracassos, mas do amor do Pai. Quando você se sente insuficiente ou questiona seu valor, lembre-se de que você é aceito em Cristo. A aprovação de Deus é um presente, não uma conquista. Permita que essa verdade segure você nos dias difíceis, assim como a voz do céu sustentou Jesus no início de seu caminho.",
+ "guarde": "A aprovação de Deus não depende de seus feitos, mas do amor eterno que Ele tem por você em Cristo.",
+ "ore": "Pai, assim como o céu se abriu para Jesus no batismo, abre meus olhos para ver Tua aprovação em minha vida. Ajuda-me a parar de buscar validação nas pessoas e a descansar no fato de que sou Teu filho amado. Enche-me do Teu Espírito para viver conforme Tua vontade.",
+ "quiz": {
+  "pergunta": "O que a voz do céu declarou sobre Jesus durante o batismo?",
+  "opcoes": [
+   "Que Ele era o Filho amado e nele Deus se agradava",
+   "Que Ele era o profeta prometido por Elias",
+   "Que Ele deveria começar a pregar imediatamente"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz explicitamente: \"Tu és o meu Filho amado, em ti me agrado\". As outras opções não estão no versículo 22."
+ },
+ "refs": [
+  "Mateus 3:16-17",
+  "Marcos 1:9-11",
+  "João 1:29-34"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T21:42:40.446Z",
+  "rounds": 1
+ }
+}
