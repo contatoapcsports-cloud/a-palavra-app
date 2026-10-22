@@ -1,0 +1,134 @@
+{
+ "id": "41-13-20-28",
+ "ref": "Marcos 13:20-28",
+ "book": "41",
+ "chapter": 13,
+ "verses": [
+  {
+   "n": 20,
+   "t": "E se o Senhor não encurtasse aqueles dias, ninguém se salvaria; mas por causa dos escolhidos, que escolheu, ele encurtou aqueles dias."
+  },
+  {
+   "n": 21,
+   "t": "Então se alguém vos disser: “Eis aqui o Cristo”; ou “ei-lo ali”, não creiais nele."
+  },
+  {
+   "n": 22,
+   "t": "Porque se levantarão falsos cristos, e falsos profetas, que farão sinais e prodígios, para enganar, se possível, até os escolhidos."
+  },
+  {
+   "n": 23,
+   "t": "Vós, porém, tende cuidado; eis que tenho vos dito tudo com antecedência."
+  },
+  {
+   "n": 24,
+   "t": "Mas naqueles dias, depois daquela aflição, o sol se escurecerá, e a lua não dará seu brilho;"
+  },
+  {
+   "n": 25,
+   "t": "as estrelas do céu cairão, e as forças que estão nos céus se abalarão."
+  },
+  {
+   "n": 26,
+   "t": "Então verão o Filho do homem vir nas nuvens, com grande poder e glória."
+  },
+  {
+   "n": 27,
+   "t": "Ele então enviará os seus anjos, e ajuntará os seus escolhidos dos quatro ventos, desde a extremidade da terra, até a extremidade do céu."
+  },
+  {
+   "n": 28,
+   "t": "E aprendei a parábola da figueira: Quando o seu ramo já vai ficando tenro, e brota folhas, bem sabeis que o verão já está perto."
+  }
+ ],
+ "titulo": "O sinal da figueira e o retorno glorioso",
+ "temas": [
+  "segunda vinda",
+  "vigilância",
+  "falsos profetas",
+  "esperança",
+  "encurtamento dos dias"
+ ],
+ "pergunta": "O que Jesus nos ensina sobre como reconhecer o tempo da Sua volta?",
+ "entender": "Neste trecho, Jesus continua falando sobre os sinais dos últimos dias. Ele avisa que haverá muita aflição, mas que o Senhor encurtará aqueles dias por causa dos escolhidos. A ideia aqui não é que a aflição não será real, mas que a misericórdia de Deus intervém para que a humanidade não pereça completamente.\n\nJesus também dá um alerta forte contra falsos cristos e profetas que farão sinais para enganar. Ele pede cuidado e lembra que já avisou tudo com antecedência. Então descreve sinais cósmicos: o sol escurecendo, estrelas caindo e forças celestes se abalando. Nesse momento, o Filho do Homem virá nas nuvens com poder e glória, enviando anjos para reunir seus escolhidos.\n\nFinalmente, usa a parábola da figueira: quando o ramo fica tenro e brotam folhas, sabe-se que o verão está perto. Da mesma forma, quando virmos essas coisas acontecerem, saberemos que o retorno de Jesus está próximo, às portas.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a pessoa e a obra de Jesus como o Filho do Homem que voltará em glória. A salvação mencionada (dias encurtados) e a reunião dos escolhidos dependem exclusivamente da ação de Cristo. O evangelho aqui é a certeza de que, apesar do caos e das enganações, Jesus tem controle sobre a história e cumprirá Sua promessa de voltar para salvar os seus. A esperança do cristão não é vaga, mas ancorada em quem virá nas nuvens.",
+  "selo": true
+ },
+ "viver": "Assim como a figueira nos dá um sinal claro da temporada, a Bíblia nos dá sinais para estarmos atentos. Isso não significa que devemos tentar calcular datas, mas sim viver em prontidão. Na prática, isso significa não ser enganado por promessas de paz falsa ou líderes que se exaltam, mantendo os olhos em Jesus e a vida alinhada com a Palavra. Cada dia, pergunte-se: estou vivendo de forma que, se Jesus voltasse hoje, eu estaria preparado?",
+ "guarde": "Quando virdes suceder estas coisas, sabei que já está perto, às portas.",
+ "ore": "Jesus, Tu que avisaste sobre os falsos cristos e prometeste voltar com glória, dá-me discernimento para não ser enganado. Ensina-me a viver em vigilância, como quem observa a figueira, esperando o Teu retorno com esperança firme e coração pronto.",
+ "quiz": {
+  "pergunta": "Segundo Marcos 13:28, qual é o sinal que a parábola da figueira indica?",
+  "opcoes": [
+   "Que o verão (ou o retorno) está perto",
+   "Que a colheita já foi feita",
+   "Que a árvore está morrendo"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que quando o ramo fica tenro e brota folhas, sabe-se que o verão está perto, servindo de analogia para a proximidade do evento final."
+ },
+ "refs": [
+  "Mateus 24:32-33",
+  "Lucas 21:27-28",
+  "João 14:1-3"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T00:53:09.562Z",
+  "rounds": 1
+ }
+}

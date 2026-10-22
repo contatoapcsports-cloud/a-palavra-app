@@ -1,0 +1,145 @@
+{
+ "id": "41-14-13-24",
+ "ref": "Marcos 14:13-24",
+ "book": "41",
+ "chapter": 14,
+ "verses": [
+  {
+   "n": 13,
+   "t": "E mandou dois de seus discípulos, e disse-lhes: “Ide à cidade, e um homem que leva um cântaro de água vos encontrará, a ele segui."
+  },
+  {
+   "n": 14,
+   "t": "E onde quer que ele entrar, dizei ao senhor da casa: O Mestre diz: Onde está o cômodo onde comerei Páscoa com meus discípulos?"
+  },
+  {
+   "n": 15,
+   "t": "E ele vos mostrará um grande salão, ornado e preparado; ali fazei os preparativos para nós.”"
+  },
+  {
+   "n": 16,
+   "t": "E seusdiscípulos saíram, e vieram à cidade, e acharam como havia lhes dito, e prepararam a Páscoa."
+  },
+  {
+   "n": 17,
+   "t": "E chegada a tarde, veio com os doze."
+  },
+  {
+   "n": 18,
+   "t": "E quando se sentaram à mesa , e comeram, Jesus disse: “Em verdade vos digo, que um de vós, que está comendo comigo, me trairá.”"
+  },
+  {
+   "n": 19,
+   "t": "E eles começaram a se entristecer, e a lhe dizer um após outro: “Por acaso sou eu?” E outro: “Por acaso sou eu?”"
+  },
+  {
+   "n": 20,
+   "t": "Porém ele lhes respondeu: “ É um dos doze, o que está molhando a mão comigo no prato."
+  },
+  {
+   "n": 21,
+   "t": "Em verdade o Filho do homem vai, como está escrito sobre ele; mas ai daquele homem por quem o Filho do homem é traído; bom lhe fosse ao tal homem não haver nascido.”"
+  },
+  {
+   "n": 22,
+   "t": "E enquanto eles comiam, Jesus tomou o pão; e bendizendo, partiu-o, deu-lhes, e disse: “Tomai, comei, isto é o meu corpo.”"
+  },
+  {
+   "n": 23,
+   "t": "E tomando o copo, e dando graças, deu-lhes; e todos beberam dele."
+  },
+  {
+   "n": 24,
+   "t": "E disse-lhes: “Isto é o meu sangue, o do novo testamento, que é derramado por muitos."
+  }
+ ],
+ "titulo": "A Páscoa que preparou o sacrifício",
+ "temas": [
+  "páscoa",
+  "traição",
+  "celebração",
+  "sacrifício"
+ ],
+ "pergunta": "O que o preparo da Páscoa revela sobre o que Jesus estava prestes a fazer?",
+ "entender": "Jesus envia dois discípulos para encontrar um homem com um cântaro de água e preparar a ceia da Páscoa. A cena é concreta: eles obedecem, encontram o local, e Jesus se senta com os doze. É um momento de intimidade, mas a atmosfera muda quando Jesus declara: \"um de vós, que está comendo comigo, me trairá\" (Marcos 14.20). A tristeza toma conta da mesa, e Jesus identifica o traidor como aquele que molha o pão com ele no prato.\n\nEnquanto comiam, Jesus toma o pão, abençoa e o parte, dizendo: \"isto é o meu corpo\". Depois, toma o cálice e diz: \"isto é o meu sangue, o do novo testamento, que é derramado por muitos\" (Marcos 14.24). Jesus está reinterpretando a Páscoa judaica: o cordeiro que livrou os israelitas do Egito aponta agora para Ele mesmo, que será entregue para salvar muitos da condenação.",
+ "ligar": {
+  "texto": "Este texto é o coração do evangelho. Jesus não apenas celebra a Páscoa; Ele Se torna o Cordeiro. Ao afirmar que o sangue do \"novo testamento\" é derramado por muitos, Ele declara que Sua morte é o sacrifício definitivo. A traição de Judas e a entrega voluntária de Jesus mostram que a salvação não veio por acaso, mas foi planejada por Deus para nos reconciliar com Ele.",
+  "selo": true
+ },
+ "viver": "A mesa da Páscoa era lugar de comunhão, mas Jesus a transformou em lugar de sacrifício. Isso nos ensina a olhar para a Ceia do Senhor não como um ritual vazio, mas como a memória do preço pago por nós. Pense em como sua vida reflete essa gratidão: você vive agradecido pelo perdão recebido, ou apenas cumpre formas religiosas? A traição de Judas também nos alerta sobre a covardia: muitas vezes, preferimos a segurança do dinheiro ou do conforto a seguir Jesus até o fim.",
+ "guarde": "O sangue do novo testamento foi derramado para que muitos fossem salvos.",
+ "ore": "Jesus, na mesa daquela Páscoa, Tu transformaste um ritual em sacrifício. Ajuda-me a lembrar sempre que meu perdão vem do Teu sangue, e que minha vida deve ser de gratidão e fidelidade a Ti.",
+ "quiz": {
+  "pergunta": "O que Jesus disse sobre o cálice durante a ceia?",
+  "opcoes": [
+   "Que era uma bebida especial para os apóstolos.",
+   "Que era o sangue do novo testamento, derramado por muitos.",
+   "Que representava a libertação do Egito apenas."
+  ],
+  "certa": 1,
+  "explicacao": "Em Marcos 14.24, Jesus explicita que o cálice simboliza o Seu sangue, estabelecendo o novo testamento através do Seu sacrifício."
+ },
+ "refs": [
+  "Lucas 22:14-20",
+  "1 Coríntios 11:23-26",
+  "Êxodo 12:13"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T00:55:32.742Z",
+  "rounds": 1
+ }
+}

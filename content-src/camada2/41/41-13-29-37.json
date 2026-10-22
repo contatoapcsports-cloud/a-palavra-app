@@ -1,0 +1,133 @@
+{
+ "id": "41-13-29-37",
+ "ref": "Marcos 13:29-37",
+ "book": "41",
+ "chapter": 13,
+ "verses": [
+  {
+   "n": 29,
+   "t": "Assim também vós, quando virdes suceder estas coisas, sabei que já está perto, às portas."
+  },
+  {
+   "n": 30,
+   "t": "Em verdade vos digo que não passará esta geração, até que todas estas coisas aconteçam."
+  },
+  {
+   "n": 31,
+   "t": "O céu e a terra passarão, mas as minhas palavras em maneira nenhuma passarão."
+  },
+  {
+   "n": 32,
+   "t": "Porém daquele dia e hora ninguém sabe, nem os anjos que estão no céu, nem o Filho, a não ser somente o Pai."
+  },
+  {
+   "n": 33,
+   "t": "Olhai, vigiai, e orai; porque não sabeis quando será o tempo."
+  },
+  {
+   "n": 34,
+   "t": "Assim como o homem que, partindo-se para fora de sua terra, deixou sua casa, e deu autoridade aos seus servos, e a cada um o seu trabalho, e mandou ao porteiro que vigiasse,"
+  },
+  {
+   "n": 35,
+   "t": "assim também vigiai, porque não sabeis quando virá o Senhor da casa; se à tarde, se à meia-noite, se ao cantar do galo, se pela manhã,"
+  },
+  {
+   "n": 36,
+   "t": "para que ele não venha de repente, e vos ache dormindo."
+  },
+  {
+   "n": 37,
+   "t": "E as coisas que vos digo, digo a todos: Vigiai."
+  }
+ ],
+ "titulo": "A hora que só o Pai conhece",
+ "temas": [
+  "vigilância",
+  "espera",
+  "segurança",
+  "serviço"
+ ],
+ "pergunta": "Se você não sabe a hora exata da visita do dono da casa, como prepararia sua rotina?",
+ "entender": "Jesus está falando sobre o fim dos tempos. Ele avisa que, quando certos sinais acontecerem, o retorno dele estará \"perto, às portas\" (Marcos 13:29). Há uma tensão interessante aqui: de um lado, Jesus diz que a geração daquela época veria o cumprimento das profecias; de outro, ele afirma que \"ninguém sabe\" o dia e a hora exatos, nem mesmo os anjos ou o próprio Filho, a não ser o Pai (Marcos 13:32). Isso nos ensina humildade: não podemos calcular datas, mas podemos confiar na fidelidade de Deus.\n\nPara ilustrar a necessidade de atenção, Jesus usa a imagem de um homem que viaja e deixa seus servos com tarefas específicas, ordenando ao porteiro que vigie (Marcos 13:34). O ponto central não é o medo de ser pego dormindo, mas a prontidão para servir. Assim como o porteiro mantém a casa segura enquanto o dono está fora, nós devemos manter nosso coração ativo na fé, orando e fazendo o bem, sem saber exatamente quando o Senhor voltará.",
+ "ligar": {
+  "texto": "Este trecho aponta para a soberania de Jesus sobre o tempo e a história. Embora Ele diga que não sabe a hora (como homem), Ele é o \"Senhor da casa\" que vem. O evangelho nos dá segurança: não vivemos na ansiedade de adivinhar o futuro, mas na certeza de que Jesus volta. Nossa vigilância não é para ganhar a salvação, mas para responder ao amor de quem morreu e ressuscitou por nós, mantendo-nos fiéis até o fim.",
+  "selo": true
+ },
+ "viver": "A imagem do homem que partiu para fora da terra nos convida a olhar para o nosso dia a dia. Quem são os \"servos\" confiados a você? São suas responsabilidades no trabalho, em casa ou na igreja? Vigiar significa cumprir bem essas tarefas específicas, sem negligência. Não se trata de ficar ansioso olhando o relógio, mas de agir com integridade no presente, sabendo que o Senhor pode chegar em qualquer momento, seja à tarde ou pela manhã. Use seu tempo para servir com excelência, mantendo o coração desperto para a presença de Deus.",
+ "guarde": "Não calcule o dia, mas viva cada hora como se o Senhor estivesse à porta.",
+ "ore": "Jesus, Senhor da casa, eu não sei a hora da tua volta, mas sei que és fiel. Ensina-me a vigiar não com medo, mas com amor. Dá-me clareza para cumprir bem as tarefas de hoje, mantendo meu coração pronto para te encontrar, seja à tarde, à meia-noite ou pela manhã. Amém.",
+ "quiz": {
+  "pergunta": "Quem, segundo Jesus em Marcos 13:32, conhece o dia e a hora do retorno?",
+  "opcoes": [
+   "Os profetas e apóstolos",
+   "Os anjos e o Filho",
+   "Somente o Pai"
+  ],
+  "certa": 2,
+  "explicacao": "O texto afirma explicitamente que nem os anjos nem o Filho sabem, a não ser somente o Pai, destacando a soberania divina sobre o tempo."
+ },
+ "refs": [
+  "Mateus 24:36-44",
+  "Lucas 12:35-40",
+  "1 Pedro 4:7-8"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T00:58:11.823Z",
+  "rounds": 2
+ }
+}

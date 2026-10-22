@@ -1,0 +1,144 @@
+{
+ "id": "41-14-1-12",
+ "ref": "Marcos 14:1-12",
+ "book": "41",
+ "chapter": 14,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E dali a dois dias era a Páscoa, e a festa dos pães sem fermento; e os chefes dos sacerdotes, e os escribas buscavam um meio de prendê-lo através de um engano, e o matarem."
+  },
+  {
+   "n": 2,
+   "t": "Diziam, porém: “Não na festa, para que não aconteça tumulto entre o povo.”"
+  },
+  {
+   "n": 3,
+   "t": "E estando ele em Betânia, na casa de Simão o Leproso, sentado à mesa , veio uma mulher, que tinha um vaso de alabastro, de óleo perfumado de nardo puro, de muito preço, e quebrando o vaso de alabastro, derramou-o sobre a cabeça dele."
+  },
+  {
+   "n": 4,
+   "t": "E houve alguns que em si mesmos se indignaram, e disseram: “Para que foi feito este desperdício do óleo perfumado?"
+  },
+  {
+   "n": 5,
+   "t": "Porque isto podia ter sido vendido por mais de trezentos denários, e seria dado aos pobres.” E reclamavam contra ela."
+  },
+  {
+   "n": 6,
+   "t": "Porém Jesus disse: “Deixai-a; por que a incomodais? Ela me fez boa obra."
+  },
+  {
+   "n": 7,
+   "t": "Porque pobres sempre tendes convosco; e quando quiserdes, podeis lhes fazer bem; porém a mim, nem sempre me tendes."
+  },
+  {
+   "n": 8,
+   "t": "Esta fez o que podia; adiantou-se para ungir o meu corpo, para a sepultura."
+  },
+  {
+   "n": 9,
+   "t": "Em verdade vos digo, que onde quer que em todo o mundo este Evangelho for pregado, também o que esta fez será dito em sua memória.”"
+  },
+  {
+   "n": 10,
+   "t": "E Judas Iscariotes, um dos doze, foi aos chefes dos sacerdotes, para o entregar a eles."
+  },
+  {
+   "n": 11,
+   "t": "E eles ouvindo, alegraram-se; e prometeram lhe dar dinheiro; e buscava como o entregaria em tempo oportuno."
+  },
+  {
+   "n": 12,
+   "t": "E o primeiro dia dos pães sem fermento, quando sacrificavam o cordeiro da Páscoa, seus discípulos lhe disseram: “Onde queres que vamos preparar para comerdes a Páscoa?”"
+  }
+ ],
+ "titulo": "A mulher que honrou a Jesus",
+ "temas": [
+  "adoração",
+  "generosidade",
+  "juízo"
+ ],
+ "pergunta": "Já pensou que um gesto simples pode mudar a história da fé?",
+ "entender": "Em Betânia, enquanto os chefes dos sacerdotes tramavam prender Jesus, uma mulher entrou na casa de Simão, o leproso, trazendo um vaso de alabastro cheio de óleo de nardo puro. Ela quebrou o vaso e derramou o perfume sobre a cabeça de Jesus. Alguns dos presentes se indignaram, dizendo que o óleo poderia ser vendido por \"mais de trezentos denários\" e o dinheiro dado aos pobres. Jesus, porém, defendeu a mulher, dizendo que ela fez uma boa obra ao ungir seu corpo para a sepultura. Ele explicou que os pobres sempre estarão presentes, mas que Ele não estará sempre entre eles, e que o ato dela seria lembrado onde o Evangelho for pregado.\n\nEsse episódio ocorre poucos dias antes da Páscoa, quando os líderes religiosos buscavam um meio de matar Jesus sem causar tumulto. O gesto da mulher contrasta com a conspiração dos chefes dos sacerdotes, mostrando que, mesmo em meio à traição, há quem reconheça e honre a identidade de Jesus. O texto enfatiza a importância de valorizar o momento presente e não adiar a adoração ao Cristo que vem.",
+ "ligar": {
+  "texto": "Ao ungir Jesus, a mulher reconheceu que Ele era o Messias que seria entregue e crucificado. Seu ato antecipou o sacrifício que seria consumado na cruz, preparando o corpo de Cristo para a sepultura. Jesus declara que onde o Evangelho for anunciado, a lembrança desse gesto será proclamada, mostrando que a adoração ao Salvador tem repercussão eterna. Assim, o texto aponta para o evangelho: Cristo vem para morrer pelos pecados, e aqueles que o honram são lembrados na proclamação da Boa Nova.",
+  "selo": true
+ },
+ "viver": "A atitude da mulher nos desafia a valorizar o que realmente importa, mesmo que isso signifique gastar recursos que outros considerariam úteis. Em vez de criticar quem demonstra generosidade, devemos reconhecer que atos de adoração ao Senhor têm impacto duradouro. Hoje, podemos aplicar isso oferecendo nosso tempo, talentos ou recursos para servir a Cristo, sem medo de críticas, sabendo que tais ofertas são lembradas por Deus e pelos que compartilham o Evangelho.\n\nQuando alguém nos acusa de desperdiçar, lembremo‑nos das palavras de Jesus: os pobres sempre estarão conosco, mas Ele não estará sempre. Portanto, priorizar a honra a Cristo pode exigir sacrifício, mas traz recompensa eterna.",
+ "guarde": "Um gesto de amor a Cristo vale mais que mil ofertas para os pobres.",
+ "ore": "Betânia, eu agradeço a coragem da mulher que ungiu Jesus; ajuda-me a reconhecer momentos de adoração e a oferecer o que tenho, sem hesitar.",
+ "quiz": {
+  "pergunta": "Por que Jesus defendeu a mulher que derramou o perfume?",
+  "opcoes": [
+   "Ela queria vender o perfume para os pobres",
+   "Ela tentou impedir a prisão de Jesus",
+   "Ela ungiu seu corpo para a sepultura"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus disse que ela fez uma boa obra ao ungir seu corpo para a sepultura, indicando que o gesto tinha significado profético."
+ },
+ "refs": [
+  "João 12:3-8",
+  "Mateus 26:6-13",
+  "Hebreus 9:12"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T00:49:10.969Z",
+  "rounds": 1
+ }
+}

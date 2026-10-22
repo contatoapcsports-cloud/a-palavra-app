@@ -1,0 +1,145 @@
+{
+ "id": "41-14-37-48",
+ "ref": "Marcos 14:37-48",
+ "book": "41",
+ "chapter": 14,
+ "verses": [
+  {
+   "n": 37,
+   "t": "Depois veio de volta, e os achou dormindo; e disse a Pedro: “Simão, estás dormindo? Não podes vigiar uma hora?"
+  },
+  {
+   "n": 38,
+   "t": "Vigiai, e orai, para que não entreis em tentação; o espírito em verdade está pronto, mas a carne é fraca.”"
+  },
+  {
+   "n": 39,
+   "t": "E depois que se foi novamente, orou, dizendo as mesmas palavras."
+  },
+  {
+   "n": 40,
+   "t": "Quando voltou, achou-os outra vez dormindo; porque os olhos deles estavam pesados, e não sabiam o que lhe responder."
+  },
+  {
+   "n": 41,
+   "t": "E veio a terceira vez, e disse-lhes: “Ainda estais dormindo e descansando? Basta, chegada é a hora. Eis que o Filho do homem é entregue em mãos dos pecadores."
+  },
+  {
+   "n": 42,
+   "t": "Levantai-vos, vamos; eis que o que me trai está perto."
+  },
+  {
+   "n": 43,
+   "t": "E logo, enquanto ele ainda estava falando, veio Judas, que era um dos doze, e com ele uma grande multidão, com espadas e bastões, da parte dos chefes dos sacerdotes, dos escribas, dos anciãos."
+  },
+  {
+   "n": 44,
+   "t": "E o que o traía lhes tinha dado um sinal comum, dizendo: “Ao que eu beijar, é esse; prendei-o, e levai-o em segurança.”"
+  },
+  {
+   "n": 45,
+   "t": "E quando veio, logo foi-se a ele, e disse-lhe: “Rabi, Rabi”, e o beijou."
+  },
+  {
+   "n": 46,
+   "t": "Então o agarraram, e o prenderam."
+  },
+  {
+   "n": 47,
+   "t": "E um dos que estavam ali presentes puxou a espada, feriu o servo do sumo sacerdote, e cortou-lhe a orelha."
+  },
+  {
+   "n": 48,
+   "t": "Jesus começou a lhes dizer: “Viestes me prender com espadas e bastões, como se eu fosse um bandido?"
+  }
+ ],
+ "titulo": "O beijo que entregou o Filho",
+ "temas": [
+  "traição",
+  "vigilância",
+  "entrega",
+  "oração"
+ ],
+ "pergunta": "Por que Jesus não impediu que Judas o beijasse e o entregasse?",
+ "entender": "Em Getsemani, Jesus pede aos discípulos que vigiem e orem, alertando que \"o espírito em verdade está pronto, mas a carne é fraca\". Ele retorna três vezes e encontra Pedro, Tiago e João dormindo. A tristeza de Jesus é profunda, mas sua oração submete sua vontade à do Pai, aceitando o \"copo\" da hora.\n\nA cena culmina com a chegada de Judas, um dos doze, acompanhado de uma multidão armada. O sinal combinado é um beijo, gesto de afeto que se torna a ferramenta da prisão. Um dos presentes corta a orelha do servo do sumo sacerdote, mas Jesus responde com uma pergunta retórica, lembrando que ele estava no templo todo dia sem que o prendessem, pois era preciso que as Escrituras se cumprissem.",
+ "ligar": {
+  "texto": "Este trecho mostra o coração do evangelho: Jesus não foi vítima de um golpe de força, mas entregou-se voluntariamente. O beijo de Judas revela a hipocrisia, mas a resposta de Jesus revela seu soberano propósito. Ele é o Filho do Homem que é entregue em mãos dos pecadores para salvar os pecadores. Sua obediência até a morte é o caminho da nossa reconciliação com Deus.",
+  "selo": true
+ },
+ "viver": "Jesus convidou seus amigos para vigiar com ele, mas eles falharam por fraqueza humana. Isso nos ensina que a vigilância espiritual não é sobre força de vontade, mas sobre dependência da oração. Hoje, identifique uma área onde você está \"dormindo\" espiritualmente, talvez por rotina ou cansaço. Em vez de culpar-se pela fraqueza da carne, busque a graça de Cristo, que nos fortalece quando nós falhamos. A oração honesta, mesmo com lágrimas, é a resposta que Jesus valoriza.",
+ "guarde": "A entrega voluntária de Cristo transforma a traição em redenção.",
+ "ore": "Jesus, no jardim de Getsemani, Tu aceitaste o copo da dor por mim. Ensina-me a não dormir na fé, mas a orar com sinceridade quando a carne falhar. Ajuda-me a confiar na Tua soberania, mesmo quando não entendo o sofrimento, sabendo que Tu cumpres Teu propósito.",
+ "quiz": {
+  "pergunta": "Qual foi o sinal que Judas usou para identificar Jesus?",
+  "opcoes": [
+   "Um beijo",
+   "Um grito de alerta",
+   "A entrega das chaves"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que Judas deu o sinal dizendo: 'Ao que eu beijar, é esse'. Ele aproximou-se e beijou Jesus para que a multidão o prendesse."
+ },
+ "refs": [
+  "Mateus 26:36-50",
+  "Lucas 22:39-53",
+  "João 18:1-12"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T00:59:08.228Z",
+  "rounds": 2
+ }
+}
