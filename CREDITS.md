@@ -2,13 +2,13 @@
 
 Responsável pelo projeto: Anderson Pereira Cabral · contato.palavravivabr@gmail.com
 
-Registro mantido para fins de transparência e comprovação de origem. Atualizado em 21/10/2026.
+Registro mantido para fins de transparência e comprovação de origem. Atualizado em 22/10/2026.
 
 ## Texto bíblico
-- **Bíblia Livre (BLIVRE), 2018**, de Diego Santos, Mario Sérgio e Marco Teles.
+- **Bíblia Livre (BLIVRE), versão de fevereiro de 2018**, Copyright © Diego Santos, Mario Sérgio e Marco Teles (http://sites.google.com/site/biblialivre/).
 - Fonte: eBible.org – https://ebible.org/porbr2018/copyright.htm
 - Licença: Creative Commons Atribuição 4.0 Internacional (CC BY 4.0) – https://creativecommons.org/licenses/by/4.0/deed.pt-br
-- O aplicativo não altera o texto. Os autores não endossam este aplicativo.
+- O conteúdo do texto não foi alterado; houve apenas conversão técnica de formato para uso no aplicativo. Os autores não endossam este aplicativo.
 
 ## Música de fundo
 - Arquivo: `assets/ambiente-leitura.mp3` (música instrumental ambiente, sem título oficial).
