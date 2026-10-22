@@ -708,6 +708,13 @@
     ]);
     var nodes = [mtag(APP_NAME, true), h('h2', { text: 'Sobre' }), dl];
     if (lic.url) nodes.push(h('p', {}, [h('a', { href: lic.url, rel: 'noopener', target: '_blank', text: 'Ver a licença do texto' })]));
+    var USERS = '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>';
+    var ic = h('span', { 'aria-hidden': 'true', style: 'flex:none;display:flex;color:var(--accent)' }); ic.innerHTML = USERS; /* SVG fixo do próprio app */
+    nodes.push(h('a', { href: 'assets/creditos.html', target: '_blank', rel: 'noopener', style: 'display:flex;align-items:center;gap:12px;margin:14px 0 0;padding:12px 14px;border-radius:16px;background:var(--paper);color:inherit;font-weight:400;text-decoration:none;word-break:normal' }, [
+      ic,
+      h('span', { style: 'flex:1;min-width:0' }, [h('strong', { style: 'display:block;font-size:15px;color:var(--accent)', text: 'Créditos e colaboradores' }), h('span', { style: 'display:block;font-size:12.5px;line-height:1.4;color:var(--soft)', text: 'Conheça as pessoas, inteligências artificiais e ferramentas que contribuíram para o projeto.' })]),
+      h('span', { 'aria-hidden': 'true', style: 'flex:none;font-size:22px;color:var(--soft)', text: '›' })
+    ]));
     nodes.push(h('p', { style: 'font-size:10.5px;line-height:1.45;color:var(--soft);text-align:center;margin:14px 0 0;opacity:.9' }, [
       '© ' + yr + ' ' + owner + '. Aplicativo, código e organização dos estudos: todos os direitos reservados. Texto bíblico: Bíblia Livre, licença CC BY 4.0, sem alterações. Os estudos são elaborados com apoio de inteligência artificial e não substituem a Bíblia. ',
       h('a', { href: 'assets/termos.html', target: '_blank', rel: 'noopener', style: 'font-size:10.5px;font-weight:600;word-break:normal;text-decoration:underline', text: 'Termos de Uso e Privacidade' })
