@@ -1,0 +1,142 @@
+{
+ "id": "41-15-25-35",
+ "ref": "Marcos 15:25-35",
+ "book": "41",
+ "chapter": 15,
+ "verses": [
+  {
+   "n": 25,
+   "t": "Era a hora terceira, e o crucificaram."
+  },
+  {
+   "n": 26,
+   "t": "E a descrição de sua acusação estava acima escrita: O REI DOS JUDEUS."
+  },
+  {
+   "n": 27,
+   "t": "E crucificaram com ele dois ladrões, um à sua direita, e outro à esquerda."
+  },
+  {
+   "n": 28,
+   "t": "E cumpriu-se a Escritura que diz: E foi contado com os malfeitores."
+  },
+  {
+   "n": 29,
+   "t": "E os que passavam blasfemavam dele, balançando suas cabeças, e dizendo: Ah! tu que derrubas o templo, e em três dias o edificas,"
+  },
+  {
+   "n": 30,
+   "t": "salva a ti mesmo, e desce da cruz!"
+  },
+  {
+   "n": 31,
+   "t": "E da mesma maneira também os chefes dos sacerdotes, com os escribas, diziam aos outros, escarnecendo: Ele salvou a outros, a si mesmo não pode salvar!"
+  },
+  {
+   "n": 32,
+   "t": "Que o Cristo, o Rei de Israel, desça agora da cruz, para que o vejamos, e creiamos! Os que estavam crucificados com ele também o insultavam."
+  },
+  {
+   "n": 33,
+   "t": "E vinda a hora sexta, vieram trevas sobre toda a terra, até a hora nona."
+  },
+  {
+   "n": 34,
+   "t": "E na hora nona, Jesus exclamou em alta voz: ELOÍ, ELOÍ, LAMÁ SABACTÂNI, que traduzido é: Deus meu, Deus meu, por que me desamparaste?"
+  },
+  {
+   "n": 35,
+   "t": "E alguns dos que ali estavam, quando ouviram, disseram: Eis que ele está chamando Elias."
+  }
+ ],
+ "titulo": "Trevas sobre a terra e o grito de abandono",
+ "temas": [
+  "cruz",
+  "sofrimento",
+  "escuridão",
+  "abandono",
+  "crucificação"
+ ],
+ "pergunta": "O que significam as trevas que cobriram a terra durante a crucificação?",
+ "entender": "O texto narra os momentos finais na cruz. Jesus foi crucificado na hora terceira, com a inscrição \"O REI DOS JUDEUS\" acima de sua cabeça. Ele foi contado com os malfeitores, junto a dois ladrões. Passantes, líderes religiosos e até os criminosos ao lado dele zombavam, exigindo que ele descendo da cruz para provar seu poder. Havia uma expectativa de que ele se salvasse a si mesmo.\n\nNa hora sexta, trevas cobriram toda a terra até a hora nona. Nesse momento de escuridão total, Jesus gritou: \"Deus meu, Deus meu, por que me desamparaste?\". Alguns pensaram que ele estava chamando Elias. A cena mostra o auge da humilhação e da dor, onde a aparência é de derrota e abandono, mas que culmina na morte que traria a vida.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para o coração do evangelho: Jesus suportou a separação de Deus pelos nossos pecados. O grito de abandono não é fraqueza, mas a expressão do custo da nossa reconciliação com o Pai. As trevas representam o peso do pecado que ele carregou. A inscrição \"Rei dos Judeus\" é irônica para os zombadores, mas verdadeira para a fé: o Rei venceu a morte, não fugindo dela, mas atravessando-a. É nisto que cremos: Cristo sofreu para que possamos ter comunhão com Deus.",
+  "selo": true
+ },
+ "viver": "As trevas sobre a terra no capítulo 15 de Marcos nos lembram que a dor real existe e não é ignorada por Deus. Jesus não fugiu da escuridão; Ele a atravessou. Quando você enfrentar momentos de solidão ou aflição profunda, lembre-se de que o Rei está com você. A esperança não vem da ausência de problemas, mas da certeza de que Ele já venceu a última palavra da história.",
+ "guarde": "O grito de Cristo na cruz é a porta para a nossa paz eterna.",
+ "ore": "Jesus, no Gólgota, Tu carregaste minha culpa. Quando eu sentir o peso do abandono ou da dor, lembra-me de que Tu já enfrentaste a escuridão por mim. Dá-me a fé para confiar no Teu amor, mesmo quando não compreendo o silêncio. Ensina-me a descansar na Tua suficiência, não apenas na minha força.",
+ "quiz": {
+  "pergunta": "O que estava escrito acima da cabeça de Jesus na cruz?",
+  "opcoes": [
+   "O REI DOS JUDEUS",
+   "O CRISTO DE DEUS",
+   "O SALVADOR DO MUNDO"
+  ],
+  "certa": 0,
+  "explicacao": "O texto de Marcos 15:26 afirma claramente que a descrição da acusação escrita acima dele era: \"O REI DOS JUDEUS\"."
+ },
+ "refs": [
+  "Isaías 53:12",
+  "Mateus 27:45-46",
+  "Lucas 23:44-46"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T06:53:32.627Z",
+  "rounds": 2
+ }
+}

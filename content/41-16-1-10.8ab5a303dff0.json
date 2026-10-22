@@ -1,0 +1,138 @@
+{
+ "id": "41-16-1-10",
+ "ref": "Marcos 16:1-10",
+ "book": "41",
+ "chapter": 16,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Havendo passado o sábado, Maria Madalena, e Maria mãe de Tiago, e Salomé, compraram especiarias, para irem o ungir."
+  },
+  {
+   "n": 2,
+   "t": "E de manhã muito cedo, o primeiro dia da semana, vieram ao sepulcro, ao nascer do sol."
+  },
+  {
+   "n": 3,
+   "t": "E diziam umas às outras: Quem rolará para nós a pedra da porta do sepulcro?"
+  },
+  {
+   "n": 4,
+   "t": "Pois era muito grande. E quando observaram, viram que já a pedra estava havia sido rolada;"
+  },
+  {
+   "n": 5,
+   "t": "e entrando no sepulcro, viram um rapaz sentado à direita, vestido com uma roupa comprida branca; e elas se espantaram."
+  },
+  {
+   "n": 6,
+   "t": "Mas ele lhes disse: Não vos espanteis. Vós buscais a Jesus Nazareno crucificado. Ele já ressuscitou, não está aqui. Eis aqui o lugar onde o puseram."
+  },
+  {
+   "n": 7,
+   "t": "Porém ide, dizei a seus discípulos e a Pedro, que ele vai adiante de para a Galileia; ali o vereis, como ele vos disse."
+  },
+  {
+   "n": 8,
+   "t": "Então elas, saindo apressadamente, fugiram do sepulcro, porque temor e espanto as haviam tomado; e não disseram nada a ninguém, porque tinham medo."
+  },
+  {
+   "n": 9,
+   "t": "E havendo ressuscitado pela manhã, no primeiro dia da semana, Jesus apareceu primeiramente a Maria Madalena, da qual havia expulsado sete demônios."
+  },
+  {
+   "n": 10,
+   "t": "Ela se foi, e anunciou aos que estiveram com ele, que estavam tristes e chorando."
+  }
+ ],
+ "titulo": "A pedra rolada e o vazio que muda tudo",
+ "temas": [
+  "ressurreição",
+  "medo",
+  "esperança",
+  "fé",
+  "missão"
+ ],
+ "pergunta": "Por que as mulheres foram ao túmulo e o que encontraram lá mudou a história?",
+ "entender": "Depois do sábado, Maria Madalena, Maria mãe de Tiago e Salomé foram ao sepulcro com especiarias para ungir o corpo de Jesus. Elas se perguntavam: \"Quem rolará para nós a pedra da porta do sepulcro?\". Ao chegarem cedo, viram que a pedra já estava rolada e o túmulo vazio.\n\nDentro, um jovem vestido de branco as tranquilizou: \"Não vos espanteis. Vós buscais a Jesus Nazareno crucificado. Ele já ressuscitou, não está aqui.\" Ele mandou que avisassem os discípulos e Pedro de que Jesus iria adiante para a Galileia. Assustidas, elas saíram sem contar a ninguém por medo, mas Jesus apareceu primeiro a Maria Madalena, que então foi anunciar a notícia aos outros.\n\nEsse momento marca a virada da narrativa: a morte não teve a última palavra. O vazio do túmulo é a prova física de que Jesus venceu a morte, transformando o medo das mulheres em uma missão de anúncio.",
+ "ligar": {
+  "texto": "Este texto é o coração do evangelho: Jesus morreu, foi sepultado e ressuscitou. A ressurreição confirma que Ele é o Messias e que a morte foi vencida. A mensagem dada às mulheres aponta para a Galileia, lugar de início do ministério, mostrando que a vida nova começa onde Jesus está. A fé nasce ao ver que Ele venceu a morte, oferecendo esperança eterna a todos que creem.",
+  "selo": true
+ },
+ "viver": "As mulheres foram ao túmulo com o coração pesado, mas encontraram vida. Muitas vezes, vamos às \"tumbas\" da nossa vida — situações de derrota, luto ou medo — esperando apenas encerramento. Mas Deus pode estar preparando uma surpresa de vida. Como Maria Madalena, somos chamados a compartilhar o que vimos e ouvimos, mesmo com medo. A ressurreição nos dá a coragem de ser portadores de esperança para quem está triste e chorando.",
+ "guarde": "O túmulo vazio é a prova de que a morte não tem a última palavra; a vida de Jesus venceu.",
+ "ore": "Senhor Jesus, ao lembrar do túmulo vazio, meu coração se enche de esperança. Ajuda-me a vencer o medo de compartilhar a boa notícia da Tua ressurreição, assim como Maria Madalena fez. Que minha vida reflita a vida que Tu me dás.",
+ "quiz": {
+  "pergunta": "Quem apareceu primeiro a Jesus após a ressurreição, segundo Marcos 16?",
+  "opcoes": [
+   "Maria Madalena",
+   "Pedro",
+   "Os dois discípulos no caminho"
+  ],
+  "certa": 0,
+  "explicacao": "O versículo 9 diz explicitamente que Jesus apareceu primeiramente a Maria Madalena, da qual havia expulsado sete demônios."
+ },
+ "refs": [
+  "Lucas 24:1-12",
+  "João 20:1-18",
+  "1 Coríntios 15:3-4"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T06:51:34.995Z",
+  "rounds": 1
+ }
+}

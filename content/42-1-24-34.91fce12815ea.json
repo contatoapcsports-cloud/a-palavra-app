@@ -1,0 +1,142 @@
+{
+ "id": "42-1-24-34",
+ "ref": "Lucas 1:24-34",
+ "book": "42",
+ "chapter": 1,
+ "verses": [
+  {
+   "n": 24,
+   "t": "E depois daqueles dias Isabel, sua mulher, Isabel, engravidou-se, e por cinco meses se escondeu, dizendo:"
+  },
+  {
+   "n": 25,
+   "t": "Pois isto o Senhor me fez nos dias em que ele me observou, para acabar a minha humilhação entre as pessoas."
+  },
+  {
+   "n": 26,
+   "t": "E no sexto mês o anjo Gabriel foi enviado por Deus a uma cidade da Galileia, chamada Nazaré,"
+  },
+  {
+   "n": 27,
+   "t": "a uma virgem prometida em casamento com um homem chamado José, da descendência de Davi; e o nome da virgem era Maria."
+  },
+  {
+   "n": 28,
+   "t": "O anjo entrou onde ela estava, e disse: Alegra-te, agraciada; o Senhor é contigo, bendita és tu entre as mulheres."
+  },
+  {
+   "n": 29,
+   "t": "Quando ela o viu, perturbou-se muito por suas palavras, e se perguntava que saudação seria esta."
+  },
+  {
+   "n": 30,
+   "t": "Então o anjo lhe disse: Maria, não temas, porque encontraste graça diante de Deus."
+  },
+  {
+   "n": 31,
+   "t": "E eis que em teu ventre conceberás, darás à luz um filho, e chamarás o seu nome de Jesus."
+  },
+  {
+   "n": 32,
+   "t": "Ele será grande, e será chamado Filho do Altíssimo; e o Senhor Deus lhe dará o trono de Davi, seu ancestral."
+  },
+  {
+   "n": 33,
+   "t": "E reinará eternamente na casa de Jacó; o seu reino não terá fim."
+  },
+  {
+   "n": 34,
+   "t": "Maria disse ao anjo: Como será isso? Pois não conheço intimamente homem algum."
+  }
+ ],
+ "titulo": "O anúncio que mudou a história da salvação",
+ "temas": [
+  "anúncio",
+  "gratidão",
+  "cristo",
+  "esperança"
+ ],
+ "pergunta": "Por que a notícia para Maria foi tão diferente de qualquer outra boas-novas que você já recebeu?",
+ "entender": "Depois de cinco meses de silêncio e recolhimento, Isabel reconhece que Deus agiu nela para acabar sua humilhação. Isso prepara o cenário para o próximo grande evento: no sexto mês, o anjo Gabriel visita Maria em Nazaré. Ela é descrita como uma jovem prometida a José, da linhagem de Davi. A saudação do anjo é extraordinária: \"Alegra-te, agraciada; o Senhor é contigo\". Maria fica perturbada, mas o anjo a tranquiliza, dizendo que ela encontrou graça diante de Deus.\n\nA mensagem central é que Maria conceberá um filho chamado Jesus. Ele será grande, chamado Filho do Altíssimo, e receberá o trono de Davi. Seu reinado será eterno na casa de Jacó. Quando Maria pergunta como isso é possível, já que não conhece homem algum, o texto mostra a confiança dela na palavra do anjo, mesmo antes de entender completamente o mistério.",
+ "ligar": {
+  "texto": "Este trecho é o coração do evangelho, pois anuncia a vinda do Messia prometido. Jesus não é apenas um homem comum; Ele é o Filho do Altíssimo e o herdeiro legítimo do trono de Davi. A salvação começa aqui, com a encarnação de Deus em carne, para reinar sobre um povo que precisava de redenção. A graça que Maria encontrou é a mesma graça que nos é oferecida hoje, através da fé em Cristo.",
+  "selo": true
+ },
+ "viver": "Assim como Maria, podemos nos sentir pequenos diante de planos que Deus tem para nós. A aplicação prática é confiar na fidelidade de Deus mesmo quando não entendemos o \"como\". Maria aceitou seu papel, e nós podemos aceitar a nossa, confiando que o Senhor está conosco. Isso nos liberta da ansiedade de controlar tudo e nos permite descansar na certeza de que Ele cumpre suas promessas.",
+ "guarde": "Deus escolhe os simples para realizar grandes coisas, e seu Reino não tem fim.",
+ "ore": "Nazaré, lugar da tua visita, eu me lembro que tu vieste a mim como anjo. Dame a mesma humildade de Maria para receber tua palavra e confiar no teu tempo, mesmo quando não compreendo o caminho.",
+ "quiz": {
+  "pergunta": "Qual era o nome da cidade onde o anjo visitou Maria?",
+  "opcoes": [
+   "Nazaré",
+   "Belém",
+   "Jerusalém"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz explicitamente que o anjo foi enviado a uma cidade da Galileia, chamada Nazaré (Lucas 1:26)."
+ },
+ "refs": [
+  "Mateus 1:18-23",
+  "Isaías 7:14",
+  "Lucas 2:1-7",
+  "João 1:14"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T06:57:43.419Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "id": "42-1-1-11",
+ "ref": "Lucas 1:1-11",
+ "book": "42",
+ "chapter": 1,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Como muitos empreenderam pôr em ordem o relato das coisas que entre nós se cumpriram,"
+  },
+  {
+   "n": 2,
+   "t": "conforme os que as viram que desde o princípio, e foram servidores das palavra, nos transmitiram,"
+  },
+  {
+   "n": 3,
+   "t": "pareceu-me bom que também eu, que tenho me informado com exatidão desde o princípio, escrevesse-as em ordem a ti, caríssimo Teófilo,"
+  },
+  {
+   "n": 4,
+   "t": "para que conheças a certeza das coisas de que foste ensinado."
+  },
+  {
+   "n": 5,
+   "t": "Houve nos dias de Herodes, rei da Judeia, um sacerdote chamado Zacarias, da ordem de Abias; sua mulher das filhas de Arão, e o seu nome era Isabel."
+  },
+  {
+   "n": 6,
+   "t": "E ambos eram justos diante de Deus; andavam sem repreensão em todos os mandamentos e preceitos do Senhor."
+  },
+  {
+   "n": 7,
+   "t": "Mas não tinham filho, porque Isabel era estéril, e ambos tinham idade avançada."
+  },
+  {
+   "n": 8,
+   "t": "E aconteceu que, quando ele fazia o trabalho sacerdotal diante de Deus, na ordem da sua turma,"
+  },
+  {
+   "n": 9,
+   "t": "conforme o costume do sacerdócio, foi sorteado a entrar no santuário do Senhor para oferecer o incenso."
+  },
+  {
+   "n": 10,
+   "t": "E toda a multidão do povo estava fora orando, à hora do incenso."
+  },
+  {
+   "n": 11,
+   "t": "Então um anjo do Senhor lhe apareceu em pé, à direita do altar do incenso."
+  }
+ ],
+ "titulo": "A história que você pode confiar",
+ "temas": [
+  "verdade",
+  "promessa",
+  "fé",
+  "história"
+ ],
+ "pergunta": "Por que Lucas se preocupou tanto em verificar os fatos antes de escrever?",
+ "entender": "Lucas começa seu Evangelho explicando seu método. Ele não inventa nada; ele investigou com cuidado \"desde o princípio\" para garantir que Teófilo soubesse a \"certeza das coisas\". Isso mostra que a fé cristã não se baseia em lendas vagas, mas em eventos reais que aconteceram na história.\n\nO texto então nos leva aos dias de Herodes, apresentando Zacarias e Isabel. Eles eram pessoas justas, que viviam conforme os mandamentos de Deus, mas enfrentavam um problema humano comum: a falta de filhos e a idade avançada. Enquanto Zacarias fazia seu serviço no templo, um anjo do Senhor aparece. Esse momento prepara o cenário para a promessa de um menino que terá um propósito especial.",
+ "ligar": {
+  "texto": "Lucas escreve para que conheçamos a certeza do que nos foi ensinado sobre Jesus. A precisão histórica do Evangelho serve para fundamentar a esperança: o que Deus prometeu em Jesus é real. A história de Zacarias e Isabel mostra que Deus age na realidade humana, mesmo nas situações onde a esperança parece ter acabado, apontando para o nascimento de João e, posteriormente, de Jesus, o Salvador.",
+  "selo": false
+ },
+ "viver": "Lucas nos ensina que a fé cristã é confiável porque está ancorada em fatos verificados. Assim como ele investigou, podemos confiar na Palavra de Deus não por tradição cega, mas porque ela se cumpre na história. Na sua vida, isso significa que você pode descansar na promessa de Deus, sabendo que Ele é fiel e que as verdades do Evangelho são sólidas como rocha, mesmo quando as circunstâncias ao redor parecem instáveis ou incertas.",
+ "guarde": "Sua fé pode descansar na certeza de que Deus cumpre o que promete na história real.",
+ "ore": "Zacarias, no santuário, viu o anjo e a promessa. Senhor, assim como Lucas buscou a verdade, ajuda-me a confiar na certeza das Tuas promessas. Que minha fé não seja vacilante, mas firme na realidade do Teu amor e no cumprimento da Tua Palavra em Jesus.",
+ "quiz": {
+  "pergunta": "Qual foi o objetivo declarado por Lucas ao escrever seu relato?",
+  "opcoes": [
+   "Para impressionar os leitores com sua erudição.",
+   "Que Teófilo conhecesse a certeza das coisas.",
+   "Para criticar os outros evangelistas."
+  ],
+  "certa": 1,
+  "explicacao": "No versículo 4, Lucas afirma que escreveu para que o leitor conhecesse a certeza das coisas de que foi ensinado, garantindo a confiabilidade histórica do relato."
+ },
+ "refs": [
+  "Lucas 24:19-21",
+  "Atos 1:1",
+  "Mateus 1:1-17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T06:55:38.748Z",
+  "rounds": 1
+ }
+}

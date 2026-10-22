@@ -1,0 +1,145 @@
+{
+ "id": "42-1-12-23",
+ "ref": "Lucas 1:12-23",
+ "book": "42",
+ "chapter": 1,
+ "verses": [
+  {
+   "n": 12,
+   "t": "Quando Zacarias o viu, perturbou-se, e o medo o tomou."
+  },
+  {
+   "n": 13,
+   "t": "Mas o anjo lhe disse: Zacarias, não temas, pois a tua oração foi ouvida. E Isabel, tua mulher, dará à luz um filho, e lhe porás o nome de João."
+  },
+  {
+   "n": 14,
+   "t": "E terás prazer e alegria, e muitos se alegrarão do seu nascimento;"
+  },
+  {
+   "n": 15,
+   "t": "pois ele será grande diante do Senhor, e não beberá vinho nem bebida alcoólica, e será cheio do Espírito Santo, já desde o ventre da sua mãe."
+  },
+  {
+   "n": 16,
+   "t": "E converterá muitos dos filhos de Israel ao Senhor seu Deus."
+  },
+  {
+   "n": 17,
+   "t": "E irá adiante dele no espírito e virtude de Elias, para converter os corações dos pais aos filhos, e os rebeldes à prudência dos justos; a fim de preparar um povo pronto ao Senhor."
+  },
+  {
+   "n": 18,
+   "t": "Então Zacarias disse ao anjo: Como terei certeza disso? Pois sou velho, e a minha mulher de idade avançada."
+  },
+  {
+   "n": 19,
+   "t": "O anjo lhe respondeu: Eu sou Gabriel, que fico presente diante de Deus, e fui enviado para te falar e te dar estas boas notícias."
+  },
+  {
+   "n": 20,
+   "t": "Eis que ficarás mudo, e não poderás falar até o dia em que essas coisas aconteçam, porque não creste nas minhas palavras, que se cumprirão no devido tempo."
+  },
+  {
+   "n": 21,
+   "t": "E o povo estava esperando Zacarias, e se surpreenderam de que ele demorava no santuário."
+  },
+  {
+   "n": 22,
+   "t": "Quando ele saiu, não conseguia lhes falar; e entenderam que havia tido alguma visão no santuário. Ele lhes fazia gestos, e continuou mudo."
+  },
+  {
+   "n": 23,
+   "t": "E sucedeu que, terminados os dias do seu serviço, voltou à sua casa."
+  }
+ ],
+ "titulo": "O silêncio que confirmou a promessa",
+ "temas": [
+  "fé",
+  "promessa",
+  "anjo",
+  "silêncio"
+ ],
+ "pergunta": "Por que Deus usou o silêncio de Zacarias como sinal e não apenas uma resposta verbal?",
+ "entender": "Zacarias, um sacerdote idoso, estava no santuário quando o anjo Gabriel apareceu. A mensagem era surpreendente: sua esposa Isabel, também de idade avançada, daria à luz um filho chamado João. O anjo descreveu o papel de João: ele seria cheio do Espírito Santo, não beberia álcool e prepararia o caminho para o Senhor, convertendo corações e preparando um povo pronto.\n\nZacarias, chocados com a idade avançada de ambos, perguntou como poderia ter certeza disso. O anjo respondeu que ficaria mudo até que as coisas acontecessem, porque Zacarias não creu nas palavras que se cumpririam no devido tempo. Ao sair, ele não conseguia falar, e o povo entendeu que havia tido uma visão. Ele voltou para casa mudo, mas a promessa estava viva.\n\nEste trecho mostra que a fé não depende das circunstâncias humanas, mas da fidelidade de Deus. O silêncio de Zacarias não era um castigo, mas um sinal visível de que algo sobrenatural estava em andamento. A oração de Zacarias, feita talvez em segredo ao longo dos anos, foi ouvida e respondida de uma maneira que ninguém esperava.",
+ "ligar": {
+  "texto": "João, anunciado aqui, é o precursor de Jesus. O texto diz que ele iria adiante de Jesus no espírito de Elias para preparar um povo pronto ao Senhor. Essa preparação aponta diretamente para a vinda de Cristo, mostrando que a história da salvação caminha para a chegada do Messias. A promessa feita a Zacarias é parte do plano maior de Deus para trazer a salvação ao mundo através de Jesus.",
+  "selo": true
+ },
+ "viver": "Talvez você esteja esperando uma resposta de Deus para uma oração antiga, e a demora está testando sua confiança. Assim como Zacarias, você pode sentir que as circunstâncias (idade, situação financeira, saúde) tornam a promessa improvável. O texto nos convida a confiar no 'devido tempo' de Deus. Em vez de buscar sinais externos ou pressões, pratique a fé silenciosa: continue orando, creia que Deus está trabalhando mesmo quando não há evidências imediatas, e deixe que Sua fidelidade, e não as suas condições, defina sua esperança.",
+ "guarde": "A fé se fortalece quando confiamos no tempo de Deus, mesmo no silêncio e na dúvida.",
+ "ore": "Zacarias, em seu silêncio no santuário, ensina-me a confiar. Senhor, quando minhas dúvidas falarem mais alto que Tua promessa, ajuda-me a crer que Tu cumpres tudo no devido tempo. Dá-me a mesma fé que transforma o impossível em realidade, e prepara meu coração para receber o que Tu tens para mim, mesmo antes de eu ver os sinais.",
+ "quiz": {
+  "pergunta": "Por que Zacarias ficou mudo?",
+  "opcoes": [
+   "Porque não creu nas palavras do anjo que se cumpririam no devido tempo.",
+   "Porque ele cometeu um pecado grave no santuário.",
+   "Porque o anjo o amaldiçoou por duvidar da idade de Isabel."
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente que o mutismo seria até o dia em que as coisas acontecessem, porque ele não creu nas palavras do anjo."
+ },
+ "refs": [
+  "Lucas 1:57-66",
+  "Isaías 40:3-5",
+  "Mateus 11:14"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T06:56:42.138Z",
+  "rounds": 1
+ }
+}

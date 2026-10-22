@@ -1,0 +1,138 @@
+{
+ "id": "41-16-11-20",
+ "ref": "Marcos 16:11-20",
+ "book": "41",
+ "chapter": 16,
+ "verses": [
+  {
+   "n": 11,
+   "t": "Quando ouviram que ele estava vivo, e que havia sido visto por ela, eles não creram."
+  },
+  {
+   "n": 12,
+   "t": "E depois ele apareceu em outra forma a dois deles, que estavam indo pelo caminho ao campo."
+  },
+  {
+   "n": 13,
+   "t": "E estes foram anunciar aos outros; mas também não creram neles."
+  },
+  {
+   "n": 14,
+   "t": "Finalmente ele apareceu aos onze, estando eles sentados juntos; e repreendeu pela incredulidade e dureza de coração deles, por não terem crido nos que já o haviam visto ressuscitado."
+  },
+  {
+   "n": 15,
+   "t": "E disse-lhes: Ide por todo o mundo, pregai o Evangelho a toda criatura."
+  },
+  {
+   "n": 16,
+   "t": "Quem crer e for batizado será salvo; mas quem não crer será condenado."
+  },
+  {
+   "n": 17,
+   "t": "E estes sinais seguirão aos que crerem: em meu nome expulsarão demônios; falarão novas línguas;"
+  },
+  {
+   "n": 18,
+   "t": "pegarão serpentes com as mãos; e se beberem algo mortífero, não lhes fará dano algum; porão as mãos sobre os enfermos, e sararão."
+  },
+  {
+   "n": 19,
+   "t": "Então o Senhor, depois de haver lhes falado, foi recebido acima no céu, e sentou-se à direita de Deus."
+  },
+  {
+   "n": 20,
+   "t": "E eles saíram e pregaram por todas as partes, com o Senhor operando com eles, e confirmando a palavra com os sinais que se seguiam. Amém."
+  }
+ ],
+ "titulo": "O mandato que transforma o medo em missão",
+ "temas": [
+  "ressurreição",
+  "grandezade",
+  "missão",
+  "fé",
+  "sinais"
+ ],
+ "pergunta": "Por que os discípulos precisaram ver Jesus pessoalmente para finalmente crer na ressurreição?",
+ "entender": "Depois de Maria Madalena, dois discípulos no campo e os onze reunidos, Jesus aparece repetidamente. O texto mostra uma progressão: eles não creram nas notícias, mas quando Jesus se fez presente, repreendeu a \"incredulidade e dureza de coração\" (Marcos 16.14). Essa repreensão não é um castigo, mas um toque de misericórdia que quebra a paralisia do medo.\n\nEm seguida, Jesus dá a Grande Comissão: \"Ide por todo o mundo\" (Marcos 16.15). A salvação é prometida a quem crê e é batizado, e sinais acompanham essa fé. O capítulo termina com a ascensão de Jesus à direita de Deus e os discípulos pregando, com o Senhor confirmando a palavra por meio de sinais. A história de Jesus não termina na cruz nem no túmulo, mas na vida e na expansão do Reino.",
+ "ligar": {
+  "texto": "Este trecho é o coração do evangelho: Jesus venceu a morte e agora envia seus seguidores. A ressurreição é a garantia de que a mensagem é verdadeira. A ordem de pregar mostra que o amor de Deus não se mantém em segredo, mas se estende a toda criatura. A ascensão de Jesus à direita de Deus confirma sua autoridade divina e seu papel como mediador. Nossa fé não é baseada em teorias, mas nesse Cristo vivo que age através de nós.",
+  "selo": true
+ },
+ "viver": "Talvez você sinta que sua fé é pequena ou que suas palavras não têm poder. Jesus não exigiu perfeição dos discípulos, mas obediência. Ele disse: \"Ide\". Hoje, isso significa compartilhar o que você sabe sobre o amor de Deus, mesmo com tremor. Não espere ter todas as respostas ou ser perfeito para falar de Jesus. Comece com o que você viu e viveu. A confirmação de Deus vem no processo, não antes de você dar o primeiro passo.",
+ "guarde": "A ressurreição de Jesus transforma o medo em coragem para anunciar o evangelho.",
+ "ore": "Senhor Jesus, que subiste à direita do Pai, eu confesso minha incredulidade e meu medo. Toca meu coração duro. Dá-me coragem para ir e pregar o Evangelho, confiando que Tu operas comigo e confirmas Tua palavra em minha vida.",
+ "quiz": {
+  "pergunta": "O que Jesus fez imediatamente após falar com os discípulos, segundo Marcos 16.19?",
+  "opcoes": [
+   "Foi recebido acima no céu",
+   "Mandou os discípulos embora sem dizer mais nada",
+   "Se escondeu em uma caverna"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma claramente que, depois de haver-lhes falado, o Senhor foi recebido acima no céu e sentou-se à direita de Deus."
+ },
+ "refs": [
+  "Lucas 24:44-49",
+  "Atos 1:8",
+  "João 20:26-29"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T06:54:39.922Z",
+  "rounds": 1
+ }
+}

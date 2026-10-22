@@ -1,0 +1,146 @@
+{
+ "id": "41-15-36-47",
+ "ref": "Marcos 15:36-47",
+ "book": "41",
+ "chapter": 15,
+ "verses": [
+  {
+   "n": 36,
+   "t": "E um correu, encheu de vinagre uma esponja; e pondo-a em uma cana, dava-lhe de beber, dizendo: Deixai, vejamos se Elias virá tirá-lo."
+  },
+  {
+   "n": 37,
+   "t": "E Jesus bradou em grande voz, então expirou."
+  },
+  {
+   "n": 38,
+   "t": "E o véu do Templo se rasgou em dois do alto abaixo."
+  },
+  {
+   "n": 39,
+   "t": "E o centurião que estava ali diante dele, vendo que havia expirado bradando assim, disse: Verdadeiramente este homem era Filho de Deus."
+  },
+  {
+   "n": 40,
+   "t": "E também estavam ali algumas mulheres olhando de longe, entre as quais estava também Maria Madalena, e Maria (mãe de Tiago o menor e de José), e Salomé;"
+  },
+  {
+   "n": 41,
+   "t": "as quais também, quando ele estava na Galileia, o seguiam, e o serviam; e outras muitas, que haviam subido com ele a Jerusalém."
+  },
+  {
+   "n": 42,
+   "t": "E quando já vinha o final da tarde, porque era a preparação, que é o dia antes de sábado,"
+  },
+  {
+   "n": 43,
+   "t": "Veio José de Arimateia, honrado membro do conselho, que também esperava o Reino de Deus, e com ousadia foi a Pilatos, e pediu o corpo de Jesus."
+  },
+  {
+   "n": 44,
+   "t": "Pilatos se surpreendeu de que já fosse morto. E chamou a si o centurião, e perguntou-lhe se já era morto já havia muito tempo."
+  },
+  {
+   "n": 45,
+   "t": "Quando ele recebeu a explicação do centurião, deu o corpo a José,"
+  },
+  {
+   "n": 46,
+   "t": "o qual comprou um lençol fino, e tirando-o da cruz , envolveu-o no lençol fino. Em seguida, ele o pôs num sepulcro escavado em uma rocha, e rolouuma pedra à porta do sepulcro."
+  },
+  {
+   "n": 47,
+   "t": "Maria Madalena e Maria mãe de José olharam onde o puseram."
+  }
+ ],
+ "titulo": "O grito final que abriu o céu",
+ "temas": [
+  "morte",
+  "verdade",
+  "esperança",
+  "enterro",
+  "fé"
+ ],
+ "pergunta": "Por que o soldado romano, que não conhecia a Bíblia, reconheceu a divindade de Jesus?",
+ "entender": "No momento da morte de Jesus, o texto relata um evento sobrenatural: o véu do Templo se rasgou de alto a baixo. Esse véu separava o lugar santo do lugar santíssimo, onde só o sumo sacerdote entrava uma vez por ano. A ruptura indica que o acesso a Deus foi aberto para todos através da morte de Cristo.\n\nMesmo entre os que zombavam, houve um reconhecimento inesperado. O centurião romano, vendo a maneira como Jesus expirou, declarou que Ele era verdadeiramente o Filho de Deus. Enquanto as autoridades religiosas rejeitavam Jesus, um soldado pagão, movido pelo que viu, confessou sua identidade divina.\n\nA cena termina com a preparação para o enterro. José de Arimateia, um membro honrado do conselho que esperava o Reino de Deus, pediu o corpo a Pilatos. Ele preparou um lençol fino e um túmulo novo em rocha. As mulheres que seguiam Jesus observaram onde o corpo foi colocado, preservando a memória do local para os dias seguintes.",
+ "ligar": {
+  "texto": "Este trecho é o coração do evangelho: Jesus morreu para que pudéssemos ter acesso a Deus. O véu rasgado simboliza que não precisamos mais de intermediários humanos; a própria morte de Cristo nos traz à presença do Pai. A confissão do centurião mostra que a verdade de quem Jesus é não depende de nossa educação religiosa, mas da evidência do seu sacrifício. Ele é o caminho, a verdade e a vida; sem sua morte na cruz, não haveria reconciliação entre nós e Deus.",
+  "selo": true
+ },
+ "viver": "A coragem de José de Arimateia nos desafia. Ele era um homem respeitado, mas arriscou sua reputação para honrar Jesus publicamente, mesmo em sua morte. Hoje, muitas vezes escondemos nossa fé por medo do que os outros pensam. Este texto nos convida a ter a mesma ousadia: não apenas crer em Jesus em segredo, mas estar dispostos a demonstrar esse amor por Ele em atos concretos, mesmo quando isso custe algo. A fé verdadeira se revela na coragem de declarar quem Ele é, não apenas com palavras, mas com a vida.",
+ "guarde": "O véu se rasgou para que a distância entre você e Deus fosse removida de vez.",
+ "ore": "Centurião, tu vieste a reconhecer Jesus como Filho de Deus ao ver sua morte. Ajuda-me a enxergar a grandeza do sacrifício de Cristo em minha vida. Que eu não tenha medo de confessar a verdade do evangelho, assim como tu, mesmo diante de zombarias ou riscos. Que meu coração seja sensível à obra da cruz, abrindo-me para o acesso livre a Deus que Jesus nos deu.",
+ "quiz": {
+  "pergunta": "Quem fez a confissão de que Jesus era o Filho de Deus ao ver sua morte?",
+  "opcoes": [
+   "O sumo sacerdote",
+   "José de Arimateia",
+   "O centurião romano"
+  ],
+  "certa": 2,
+  "explicacao": "O texto em Marcos 15.39 afirma explicitamente que o centurião que estava ali diante dele, vendo que havia expirado, disse que Jesus era verdadeiramente o Filho de Deus."
+ },
+ "refs": [
+  "Mateus 27:45-54",
+  "Lucas 23:44-49",
+  "Hebreus 10:19-22"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T06:50:35.029Z",
+  "rounds": 1
+ }
+}
