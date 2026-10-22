@@ -1,0 +1,142 @@
+{
+ "id": "42-2-32-42",
+ "ref": "Lucas 2:32-42",
+ "book": "42",
+ "chapter": 2,
+ "verses": [
+  {
+   "n": 32,
+   "t": "Luz para iluminar as gentios, e para a glória do teu povo Israel."
+  },
+  {
+   "n": 33,
+   "t": "E José e sua mãe se admiraram das coisas que se diziam sobre ele."
+  },
+  {
+   "n": 34,
+   "t": "Simeão os abençoou, e disse a Maria, sua mãe: Eis que este é posto para queda e levantamento de muitos em Israel; e para sinal que terá oposição,"
+  },
+  {
+   "n": 35,
+   "t": "(também uma espada atravessará a tua própria alma) para que os pensamentos de muitos corações se manifestem."
+  },
+  {
+   "n": 36,
+   "t": "E estava ali a profetiza Ana, filha de Fanuel, da tribo de Aser. Ela já tinha idade avançada, e havia vivido com o marido sete anos desde sua virgindade."
+  },
+  {
+   "n": 37,
+   "t": "E era viúva de cerca de oitenta e quatro anos, e não se afastava do Templo, servindo a Deus com jejuns e orações, de noite e de dia."
+  },
+  {
+   "n": 38,
+   "t": "E ela veio na mesma hora; ela agradeci ao Senhor, e falava dele a todos os que esperavam a redenção em Jerusalém."
+  },
+  {
+   "n": 39,
+   "t": "E quando acabaram de cumprir tudo, segundo a Lei do Senhor, voltaram à Galileia, para a sua cidade de Nazaré."
+  },
+  {
+   "n": 40,
+   "t": "E o menino crescia e se fortalecia em espírito, e cheio de sabedoria; e a graça de Deus estava sobre ele."
+  },
+  {
+   "n": 41,
+   "t": "Todos os anos, seus pais iam a Jerusalém, para a festa da Páscoa."
+  },
+  {
+   "n": 42,
+   "t": "E quando Jesus tinha doze anos, subiram a Jerusalém, conforme o costume do festival;"
+  }
+ ],
+ "titulo": "A luz que divide e une",
+ "temas": [
+  "luz",
+  "oposição",
+  "fé",
+  "família",
+  "crescimento"
+ ],
+ "pergunta": "Por que a chegada de Jesus causou tanto espanto quanto divisão?",
+ "entender": "Simeão, guiado pelo Espírito, reconhece o bebê no Templo e declara que ele é \"luz para iluminar as gentios\". Essa luz não é apenas para Israel, mas para o mundo inteiro, trazendo glória a Deus. José e Maria ficam admirados com o que ouvem, pois o que parecia simples se revela misterioso e profundo.\n\nSimeão avisa que o menino será \"sinal que terá oposição\" e que uma espada atravessará a alma de Maria. Isso indica que a mensagem de Jesus dividiria as pessoas: alguns aceitariam, outros rejeitariam. A profetiza Ana, velha e devota, também reconhece o Messias e fala dele a quem esperava redenção, mostrando que a fé é transmitida por testemunhos pessoais.\n\nApós as cerimônias, a família volta para Nazaré. O texto destaca que Jesus crescia em sabedoria e graça, e que a família mantinha o costume de ir a Jerusalém para a Páscoa, preparando o cenário para os eventos futuros.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para a identidade de Jesus como Salvador universal. A \"luz\" que ilumina as gentios é o evangelho que rompe barreiras étnicas e culturais, oferecendo salvação a todos que creem. A oposição prevista por Simeão cumpre-se na história, pois a verdade de Cristo confronta o pecado e divide opiniões. A presença de Maria e José mostra que a fé é vivida em família e comunidade, e o crescimento de Jesus em graça nos lembra que a vida cristã é um processo contínuo de dependência de Deus.",
+  "selo": true
+ },
+ "viver": "A divisão anunciada por Simeão nos lembra que seguir Jesus pode gerar conflitos, nem sempre com estranhos, mas às vezes dentro da própria família ou círculo social. Isso não significa procurar problemas, mas estar preparado para que a verdade de Cristo seja questionada. Assim como Ana, que falava de Jesus a todos, podemos compartilhar nossa fé com simplicidade e constância, permitindo que a luz de Cristo brilhe através de nossas palavras e atitudes no dia a dia.",
+ "guarde": "A luz de Jesus ilumina o mundo, mas também revela as sombras do coração, dividindo quem aceita e quem rejeita.",
+ "ore": "Simeão, que esperaste a salvação, ensina-me a reconhecer Jesus como a luz do mundo. Ajuda-me a aceitar a divisão que a verdade traz, sem medo, e a crescer em graça como Jesus cresceu em Nazaré, confiando em Teu cuidado diário.",
+ "quiz": {
+  "pergunta": "O que Simeão disse que aconteceria com a alma de Maria?",
+  "opcoes": [
+   "Uma espada a atravessaria",
+   "Ela ficaria em silêncio eterno",
+   "Ela receberia uma grande riqueza"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz explicitamente que 'uma espada atravessará a tua própria alma', simbolizando a dor e a divisão causadas pela missão de Jesus."
+ },
+ "refs": [
+  "Isaías 9:2",
+  "João 1:9",
+  "Atos 4:12"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T15:49:48.210Z",
+  "rounds": 1
+ }
+}

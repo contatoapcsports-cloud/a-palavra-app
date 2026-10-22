@@ -1,0 +1,137 @@
+{
+ "id": "42-3-1-10",
+ "ref": "Lucas 3:1-10",
+ "book": "42",
+ "chapter": 3,
+ "verses": [
+  {
+   "n": 1,
+   "t": "No ano quinze do império de Tibério César, sendo Pôncio Pilatos o governador da Judeia, Herodes tetraca da Galileia, e seu irmão Filipe o tetrarca da Itureia e da província de Traconites, e Lisânias o tetrarca de Abilene;"
+  },
+  {
+   "n": 2,
+   "t": "sendo Anás e Caifás os sumos sacerdotes, a palavra de Deus veio a João, filho de Zacarias, no deserto."
+  },
+  {
+   "n": 3,
+   "t": "Ele percorreu toda a região ao redor do Jordão, pregando o batismo de arrependimento, para o perdão dos pecados;"
+  },
+  {
+   "n": 4,
+   "t": "conforme o que está escrito no livro das palavras do profeta Isaías, que diz: “Voz do que clama no deserto: Preparai o caminho do Senhor, endireitai as suas veredas."
+  },
+  {
+   "n": 5,
+   "t": "Todo vale se encherá, e todo monte e colina se abaixará; os tortos serão endireitados, e os caminhos ásperos se suavizarão;"
+  },
+  {
+   "n": 6,
+   "t": "e todos verão a salvação de Deus.”"
+  },
+  {
+   "n": 7,
+   "t": "João dizia às multidões que vinham ser batizadas por ele: “Raça de víboras, quem vos ensinou a fugir da ira que está para chegar?"
+  },
+  {
+   "n": 8,
+   "t": "Dai, pois, frutos condizentes com o arrependimento, e não comeceis a dizer em vós mesmos: ‘Temos Abraão por pai’; pois eu vos digo que até destas pedras Deus pode produzir filhos a Abraão."
+  },
+  {
+   "n": 9,
+   "t": "E também o machado já está posto à raiz das árvores; portanto, toda árvore que não dá bom fruto é cortada e lançada ao fogo."
+  },
+  {
+   "n": 10,
+   "t": "E as multidões lhe perguntavam: Então o que devemos fazer?"
+  }
+ ],
+ "titulo": "O caminho preparada para a chegada do Rei",
+ "temas": [
+  "arrependimento",
+  "preparação",
+  "justiça",
+  "salvação"
+ ],
+ "pergunta": "O que significa 'preparar o caminho' para Deus em sua vida diária?",
+ "entender": "Lucas começa com uma lista de governantes romanos e líderes religiosos para situar o leitor no ano quinze do império de Tibério César. É um momento de tensão política, mas o texto destaca que a palavra de Deus veio a João no deserto, fora dos centros de poder.\n\nJoão pregava o batismo de arrependimento para o perdão dos pecados. Ele cita Isaías, anunciando que o caminho do Senhor seria preparado e que todos verão a salvação de Deus. A mensagem era urgente: não bastava ter a linhagem de Abraão; era preciso dar frutos condizentes com o arrependimento, pois o machado já estava posto à raiz das árvores.",
+ "ligar": {
+  "texto": "João Batista é o precursor que aponta diretamente para Jesus. Ao anunciar a salvação de Deus e a necessidade de arrependimento, ele prepara o coração das pessoas para receberem o Messias. O 'Senhor' cuja vereda é endireitada é Jesus Cristo. A salvação anunciada não é uma mudança política, mas a intervenção divina que só Jesus trouxe, ao morrer e ressuscitar pelos pecados.",
+  "selo": true
+ },
+ "viver": "João alertou que a origem familiar ou religiosa não garante segurança diante de Deus. Para nós, isso significa examinar se nossa fé produz frutos reais, como generosidade e honestidade. Em vez de confiar apenas em tradições, devemos buscar um arrependimento genuíno que transforme nossas atitudes. A pergunta 'o que devemos fazer?' deve ecoar em nós, levando a ações concretas de amor e justiça.",
+ "guarde": "O verdadeiro arrependimento não é apenas sentir culpa, mas produzir frutos que mudem o modo como tratamos os outros.",
+ "ore": "João no deserto, tu anunciaste a chegada do Rei. Ajuda-me a preparar meu coração, removendo os obstáculos do orgulho e da indiferença, para que eu receba a salvação de Deus em Jesus.",
+ "quiz": {
+  "pergunta": "Quem pregava o batismo de arrependimento no deserto?",
+  "opcoes": [
+   "Isaías",
+   "João Batista",
+   "Pôncio Pilatos"
+  ],
+  "certa": 1,
+  "explicacao": "O texto identifica claramente João, filho de Zacarias, como aquele a quem a palavra de Deus veio no deserto para pregar o batismo."
+ },
+ "refs": [
+  "Isaías 40:3-5",
+  "Mateus 3:1-12",
+  "Marcos 1:1-8"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T15:55:25.538Z",
+  "rounds": 1
+ }
+}

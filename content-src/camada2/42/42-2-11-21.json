@@ -1,0 +1,141 @@
+{
+ "id": "42-2-11-21",
+ "ref": "Lucas 2:11-21",
+ "book": "42",
+ "chapter": 2,
+ "verses": [
+  {
+   "n": 11,
+   "t": "que hoje na cidade de Davi vos nasceu o Salvador, que é Cristo, o Senhor."
+  },
+  {
+   "n": 12,
+   "t": "E isto vos será por sinal: achareis o menino envolto em panos, deitado numa manjedoura."
+  },
+  {
+   "n": 13,
+   "t": "E no mesmo instante apareceu com o anjo uma multidão de exércitos celestiais, louvando a Deus, e dizendo:"
+  },
+  {
+   "n": 14,
+   "t": "Glória nas alturas a Deus, paz na terra, e aos seres humanos boa vontade."
+  },
+  {
+   "n": 15,
+   "t": "E aconteceu que, quando os anjos se ausentaram deles para o céu, os pastores disseram uns aos outros: Vamos, pois, até Belém, e vejamos isso que aconteceu, e o Senhor nos informou."
+  },
+  {
+   "n": 16,
+   "t": "Então foram apressadamente, e acharam Maria, e José, e o menino deitado na manjedoura."
+  },
+  {
+   "n": 17,
+   "t": "Quando o viram, contaram o que lhes havia sido dito sobre o menino."
+  },
+  {
+   "n": 18,
+   "t": "E todos os que ouviram se admiraram com o que os pastores lhes diziam."
+  },
+  {
+   "n": 19,
+   "t": "Mas Maria guardava todas essas palavras, considerando -as no seu coração."
+  },
+  {
+   "n": 20,
+   "t": "Os pastores voltaram glorificando e louvando a Deus por tudo o que haviam ouvido e visto, como lhes havia sido dito."
+  },
+  {
+   "n": 21,
+   "t": "Quando se completaram os oito dias para circuncidar o menino, foi chamado o seu nome Jesus, o qual havia sido posto pelo anjo antes que fosse concebido."
+  }
+ ],
+ "titulo": "O sinal mais simples para o maior Rei",
+ "temas": [
+  "humildade",
+  "fé",
+  "nascimento",
+  "glória"
+ ],
+ "pergunta": "Por que Deus escolheu uma manjedoura, e não um palácio, para apresentar seu Salvador?",
+ "entender": "Lucas descreve o momento exato em que a notícia do nascimento de Jesus chega aos pastores. O anjo dá um sinal muito específico: \"achareis o menino envolto em panos, deitado numa manjedoura\". Não havia luxo, conforto ou status social naquela cena. Havia apenas um bebê recém-nascido, pobre e vulnerável.\n\nOs pastores, pessoas simples e desprezadas pela sociedade da época, agiram com pressa. Eles foram até Belém, encontraram Maria, José e o bebê, e confirmaram que tudo era como o anjo havia dito. Ao verem o menino, eles não ficaram apenas admirados; eles voltaram glorificando a Deus. Maria, por sua vez, guardava todas essas palavras no coração, refletindo sobre o significado profundo daquele nascimento humilde.\n\nO nome Jesus foi dado conforme a ordem do anjo, lembrando que esse bebê não era apenas um homem comum, mas o Salvador prometido. A cena contrasta a grandeza espiritual presente naquela manjedoura com a aparência física simples e frágil do recém-nascido.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para o evangelho ao mostrar que o Salvador veio não para ser servido, mas para se identificar com os humildes e os necessitados. O sinal da manjedoura revela a natureza de Cristo: Ele é o Senhor, mas escolheu nascer em pobreza para que ninguém fosse excluído da graça. A resposta dos pastores, que foram e acreditaram, nos ensina que a fé vem ao vermos a simplicidade de Deus em ação. Jesus é o centro de toda a história, e seu nascimento humilde é o início de seu trabalho de redenção para toda a humanidade.",
+  "selo": true
+ },
+ "viver": "Assim como os pastores foram apressadamente para ver o que Deus havia prometido, nossa fé também precisa de ação. Muitas vezes esperamos por sinais grandiosos ou experiências emocionantes, mas Deus frequentemente fala através da simplicidade e da quietude. Pense em uma área da sua vida onde você está esperando por uma mudança dramática. Deus pode estar trabalhando em detalhes pequenos e invisíveis, como Maria guardava as palavras no coração. Invista tempo em meditar nas Escrituras e observe como Deus age no cotidiano, mesmo quando as circunstâncias parecem comuns ou até difíceis.",
+ "guarde": "Deus não se esconde na grandeza, mas se revela na simplicidade de uma manjedoura.",
+ "ore": "Jesus, que nasceu em uma manjedoura, ensina-me a valorizar os pequenos sinais de tua presença. Ajuda-me a ter a mesma pressa e adoração dos pastores, buscando-te não apenas nas grandes emoções, mas no silêncio do meu coração e nas circunstâncias simples da minha vida diária.",
+ "quiz": {
+  "pergunta": "Qual era o sinal que os pastores deveriam encontrar para confirmar o nascimento do Salvador?",
+  "opcoes": [
+   "O menino envolto em panos, deitado numa manjedoura",
+   "Um anjo segurando o bebê no colo",
+   "Uma luz brilhante saindo do chuveiro"
+  ],
+  "certa": 0,
+  "explicacao": "O texto de Lucas 2.12 especifica claramente que o sinal seria o bebê envolto em panos e deitado numa manjedoura, indicando sua condição humilde."
+ },
+ "refs": [
+  "Mateus 1:21",
+  "João 1:14",
+  "Filipenses 2:7"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T15:53:39.031Z",
+  "rounds": 3
+ }
+}

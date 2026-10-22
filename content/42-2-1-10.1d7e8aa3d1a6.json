@@ -1,0 +1,137 @@
+{
+ "id": "42-2-1-10",
+ "ref": "Lucas 2:1-10",
+ "book": "42",
+ "chapter": 2,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E aconteceu naqueles dias que saiu um decreto da parte de César Augusto, para que todo a terra se registrasse."
+  },
+  {
+   "n": 2,
+   "t": "(Esse primeiro censo foi feito quando Quirino era o governador da Síria.)"
+  },
+  {
+   "n": 3,
+   "t": "E todos foram se registrar, cada um à sua própria cidade."
+  },
+  {
+   "n": 4,
+   "t": "E José também subiu da Galileia, da cidade de Nazaré à Judeia, à cidade de Davi, que se chama Belém; (porque ele era da casa e família de Davi.)"
+  },
+  {
+   "n": 5,
+   "t": "Para se registrar com Maria, sua mulher, com ele prometida em casamento, que estava grávida."
+  },
+  {
+   "n": 6,
+   "t": "E aconteceu que, enquanto eles ali, completaram-se os dias em que ela havia de dar à luz."
+  },
+  {
+   "n": 7,
+   "t": "E deu à luz seu filho primogênito, e o envolveu em panos, e o deitou numa manjedoura; porque não havia lugar para eles na hospedaria."
+  },
+  {
+   "n": 8,
+   "t": "E naquela mesma localidade havia pastores que estavam no campo, e vigiavam o seu rebanho durante as vigílias da noite."
+  },
+  {
+   "n": 9,
+   "t": "E eis que um anjo do Senhor lhe apareceu, e a glória do Senhor os cercou de resplendor. Então tiveram grande temor."
+  },
+  {
+   "n": 10,
+   "t": "E o anjo lhes disse: Não temais; pois eis que vos dou notícias de grande alegria, que será para todo o povo:"
+  }
+ ],
+ "titulo": "A notícia que mudou o mundo",
+ "temas": [
+  "nascimento",
+  "humildade",
+  "esperança"
+ ],
+ "pergunta": "Que mensagem de alegria os pastores ouviram naquela noite em Belém?",
+ "entender": "Lucas relata que, por ordem de César Augusto, José e Maria foram a Belém para se registrar. Enquanto esperavam, \"completaram‑se os dias em que ela havia de dar à luz\" (Lc 2.6). O bebê nasceu, foi envolto em panos e colocado numa manjedoura porque \"não havia lugar para eles na hospedaria\" (Lc 2.7). Na mesma noite, pastores que guardavam o rebanho foram surpreendidos por um anjo que lhes trouxe \"notícias de grande alegria\" (Lc 2.9‑10) e lhes disse para não temer. \n\nO cenário é simples: um estábulo, um bebê vulnerável e pastores humildes. O decreto do censo mostra que o nascimento aconteceu dentro do plano de Deus, mesmo em meio a imposições humanas. O anjo, como mensageiro divino, revela que a boa nova não depende de poder terreno, mas da graça que se manifesta a todos, inclusive aos que vivem à margem da sociedade.",
+ "ligar": {
+  "texto": "O anjo anuncia \"notícias de grande alegria\" que apontam para o Salvador que nasceu em Belém. Essa primeira proclamação do Messias prepara o coração para a vinda de Jesus, que trará reconciliação entre Deus e a humanidade, cumprindo as profecias do Antigo Testamento e inaugurando a história da salvação.",
+  "selo": false
+ },
+ "viver": "Os pastores, ocupados com seu trabalho, ainda assim foram interrompidos por uma mensagem divina que mudaria a história. Hoje, mesmo nas rotinas correntes, podemos estar atentos ao modo como Deus fala através de situações inesperadas – um sorriso, uma palavra, um gesto – e responder compartilhando a esperança que recebemos. Cada oportunidade de anunciar a boa nova, por menor que pareça, tem valor eterno.",
+ "guarde": "Deus usa os mais simples para anunciar a maior alegria.",
+ "ore": "Senhor, assim como os pastores ouviram a boa nova na noite escura, ajuda-me a reconhecer e a responder ao teu chamado nas tarefas do dia a dia.",
+ "quiz": {
+  "pergunta": "Qual foi a mensagem que o anjo deu aos pastores?",
+  "opcoes": [
+   "Um aviso de guerra",
+   "Notícias de grande alegria",
+   "Instruções para o censo"
+  ],
+  "certa": 1,
+  "explicacao": "O texto registra que o anjo disse aos pastores: \"não temais; pois eis que vos dou notícias de grande alegria\" (Lc 2.10)."
+ },
+ "refs": [
+  "Isaías 9:6",
+  "Mateus 1:23",
+  "João 1:14",
+  "1 Coríntios 1:27-29"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T15:43:24.092Z",
+  "rounds": 3
+ }
+}

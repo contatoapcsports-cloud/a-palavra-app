@@ -1,0 +1,137 @@
+{
+ "id": "42-2-43-52",
+ "ref": "Lucas 2:43-52",
+ "book": "42",
+ "chapter": 2,
+ "verses": [
+  {
+   "n": 43,
+   "t": "E quando aqueles dias terminaram, eles partiram de volta, mas o menino Jesus ficou em Jerusalém sem que José e sua mãe soubessem."
+  },
+  {
+   "n": 44,
+   "t": "Porém, como pensavam que ele vinha pelo caminho entre os companheiros de viagem, eles andaram o caminho de um dia; e o procuraram entre os parentes e conhecidos."
+  },
+  {
+   "n": 45,
+   "t": "E como não o acharam, voltaram a Jerusalém em busca dele."
+  },
+  {
+   "n": 46,
+   "t": "E aconteceu que, três dias depois, o acharam no templo, sentado no meio dos mestres, ouvindo-os, e perguntando-lhes."
+  },
+  {
+   "n": 47,
+   "t": "E todos os que o ouviam admiravam a sua inteligência e respostas;"
+  },
+  {
+   "n": 48,
+   "t": "Quando eles o viram, ficarm surpresos. E sua mãe lhe disse: Filho, por que fizeste assim conosco? Eis que teu pai e eu com ansiedade te procurávamos."
+  },
+  {
+   "n": 49,
+   "t": "Ele lhes disse: Por que me procuráveis? Não sabeis que devo estar nos negócios de meu Pai?"
+  },
+  {
+   "n": 50,
+   "t": "E eles não entenderam as palavras que lhes dizia."
+  },
+  {
+   "n": 51,
+   "t": "Então desceu com eles, e veio a Nazaré, e os obedecia. E a sua mãe guardava todas essas coisas no seu coração."
+  },
+  {
+   "n": 52,
+   "t": "Jesus crescia em sabedoria, em estatura, e em graça para com Deus e as pessoas."
+  }
+ ],
+ "titulo": "O menino que conhecia os negócios do Pai",
+ "temas": [
+  "obediência",
+  "sabedoria",
+  "identidade",
+  "crescimento"
+ ],
+ "pergunta": "Por que Jesus parecia mais preocupado com o Pai do que com o alívio dos pais?",
+ "entender": "Lucas narra um episódio único na vida de Jesus: aos doze anos, Ele permaneceu em Jerusalém após a festa. José e Maria, achando que Ele estava no grupo de viagem, só perceberam a ausência após um dia de caminhada. O texto diz que o procuraram com ansiedade e, ao encontrá-Lo no templo, ficaram surpresos ao vê-Lo entre os mestres, ouvindo e perguntando.\n\nA reação de Maria reflete o amor humano e a preocupação legítima: \"por que fizeste assim conosco?\". A resposta de Jesus, \"devo estar nos negócios de meu Pai\", revela uma consciência precoce de Sua missão divina. Embora os pais não entendessem a profundidade daquela frase, o relato destaca a submissão de Jesus à autoridade deles, que \"o obedecia\", enquanto Maria guardava esses eventos em seu coração.\n\nO capítulo encerra com uma descrição do crescimento integral de Jesus: em sabedoria, estatura e graça. Isso mostra que, mesmo sendo divino, Ele viveu a experiência humana do desenvolvimento físico e intelectual, equilibrando Sua natureza divina com a vida cotidiana em Nazaré.",
+ "ligar": {
+  "texto": "Este texto aponta para a identidade única de Jesus. Ele não era apenas uma criança obediente, mas o Filho que conhecia a vontade do Pai antes mesmo de iniciar Seu ministério público. A menção aos \"negócios de meu Pai\" antecipa a obediência total que levaria à cruz. O evangelho aqui é apresentado no cotidiano: a graça de Deus operando em um menino normal, preparando o caminho para a redenção através de uma vida humana plena e dedicada a Deus.",
+  "selo": true
+ },
+ "viver": "Às vezes, sentimos que nossos planos entram em conflito com a vontade de Deus, assim como a confusão de José e Maria. Jesus nos ensina que a verdadeira liberdade está em alinhar nossos corações aos \"negócios do Pai\", mesmo quando isso exige paciência ou compreensão gradual. Observe onde você está buscando aprovação ou sabedoria: está no \"templo\" (a casa de Deus) ou apenas seguindo a multidão? Busque um momento de silêncio para discernir a vontade de Deus em suas decisões diárias, confiando que Ele está trabalhando em você, mesmo quando você não entende tudo imediatamente.",
+ "guarde": "A verdadeira sabedoria nasce quando nossos planos se alinham aos negócios do Pai.",
+ "ore": "Nazaré, lugar onde Jesus crescia, eu te peço que me ensines a obedecer com alegria. Como o menino Jesus, quero buscar primeiro os negócios do Teu Pai em cada decisão. Aumenta minha sabedoria e graça para que minha vida reflita Teu caráter, mesmo nos dias de dúvida e ansiedade.",
+ "quiz": {
+  "pergunta": "O que Jesus disse aos seus pais quando foi encontrado no templo?",
+  "opcoes": [
+   "Que preferia ficar com os mestres.",
+   "Que estava perdido e com medo.",
+   "Que devia estar nos negócios de seu Pai."
+  ],
+  "certa": 2,
+  "explicacao": "O texto afirma explicitamente que Jesus respondeu: \"Por que me procuráveis? Não sabeis que devo estar nos negócios de meu Pai?\" (v. 49)."
+ },
+ "refs": [
+  "Marcos 12:29-30",
+  "Hebreus 5:8",
+  "Filipenses 2:5-8"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T15:53:09.928Z",
+  "rounds": 1
+ }
+}
