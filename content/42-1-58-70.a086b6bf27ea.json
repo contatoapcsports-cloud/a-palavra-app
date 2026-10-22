@@ -1,0 +1,150 @@
+{
+ "id": "42-1-58-70",
+ "ref": "Lucas 1:58-70",
+ "book": "42",
+ "chapter": 1,
+ "verses": [
+  {
+   "n": 58,
+   "t": "Os seus vizinhos e parentes ouviram que o Senhor havia feito a ela grande misericórdia, e alegraram-se com ela."
+  },
+  {
+   "n": 59,
+   "t": "E aconteceu que ao oitavo dia vieram circuncidar o menino, e o chamavam Zacarias, do nome do seu pai."
+  },
+  {
+   "n": 60,
+   "t": "E sua mãe respondeu: Não, porém será chamado João."
+  },
+  {
+   "n": 61,
+   "t": "E disseram-lhe: Ninguém há entre os teus parentes que se chame deste nome."
+  },
+  {
+   "n": 62,
+   "t": "E perguntaram por gestos ao seu pai como queria que lhe chamassem."
+  },
+  {
+   "n": 63,
+   "t": "Ele pediu uma tábua, e escreveu: O seu nome é João. E todos se surpeenderam."
+  },
+  {
+   "n": 64,
+   "t": "E logo a sua boca se abriu, e a sua língua se soltou ; e voltou a falar, louvando a Deus."
+  },
+  {
+   "n": 65,
+   "t": "E veio temor sobre todos os seus vizinhos; e em toda a região montanhosa da Judeia todas essas coisas foram divulgadas."
+  },
+  {
+   "n": 66,
+   "t": "E todos os que ouviam, guardavam em seus corações, dizendo: Quem será este menino? E a mão do Senhor estava com ele."
+  },
+  {
+   "n": 67,
+   "t": "E Zacarias, seu pai, foi cheio do Espírito Santo, e profetizou, dizendo:"
+  },
+  {
+   "n": 68,
+   "t": "Bendito seja o Senhor Deus de Israel, porque visitou e redimiu o seu povo."
+  },
+  {
+   "n": 69,
+   "t": "E nos levantou uma poderosa salvação na casa de seu servo Davi,"
+  },
+  {
+   "n": 70,
+   "t": "como falou pela boca dos seus santos profetas, desde o princípio do mundo;"
+  }
+ ],
+ "titulo": "O nome que mudou o silêncio de Zacarias",
+ "temas": [
+  "fé",
+  "profecia",
+  "salvação",
+  "alegria",
+  "deus"
+ ],
+ "pergunta": "Por que a escolha do nome João causou tanta surpresa entre os parentes de Zacarias?",
+ "entender": "O trecho descreve o nascimento de João Batista. No oitavo dia, conforme a tradição, o menino deveria receber o nome do pai, Zacarias. No entanto, a mãe, Isabel, corrigiu a todos: o nome seria João. Os parentes ficaram intrigados, pois não havia ninguém na família com esse nome. Quando perguntaram a Zacarias, que estava mudo devido ao seu ceticismo anterior, ele escreveu numa tábua: \"O seu nome é João\". Imediatamente, sua fala se restaurou e ele começou a louvar a Deus.\n\nA reação dos vizinhos foi de temor e espanto, pois perceberam que a mão do Senhor estava sobre a criança. Zacarias, cheio do Espírito Santo, profetizou que Deus visitou e redimiu o seu povo, levantando uma poderosa salvação na casa de Davi. Ele reconheceu que essa promessa era cumprida exatamente como os santos profetas haviam anunciado desde o princípio do mundo. O evento não foi apenas sobre um nascimento, mas sobre a chegada do tempo esperado por Israel.",
+ "ligar": {
+  "texto": "Zacarias anuncia que Deus levantou uma poderosa salvação na casa de Davi. Essa salvação aponta diretamente para Jesus, o Messias prometido. João Batista é descrito como aquele que prepararia o caminho para o Senhor. A fala de Zacarias conecta o nascimento de João à promessa messiânica, mostrando que a vinda de Jesus é o cumprimento das profecias antigas e a redenção definitiva do povo de Deus.",
+  "selo": true
+ },
+ "viver": "Às vezes, nossa vida segue um padrão previsível, como se o nome do pai tivesse que ser repetido no filho. Deus, porém, pode nos chamar para um caminho diferente, surpreendente e cheio de propósito. Assim como Isabel teve a coragem de afirmar o nome que Deus havia dado, somos convidados a confiar na direção divina, mesmo quando ela difere das expectativas sociais ou familiares. A fé se fortalece quando aceitamos que o plano de Deus pode ser mais extraordinário do que o que imaginamos.",
+ "guarde": "Deus cumpre suas promessas no tempo exato, mesmo quando o mundo não entende o plano.",
+ "ore": "Zacarias, ao escrever o nome João, viu o poder de Deus. Senhor, assim como ele, quero que meu silêncio termine e minha boca se abra para louvar Tua fidelidade. Ajuda-me a confiar no Teu tempo e a anunciar a salvação que Tu levantas em Cristo.",
+ "quiz": {
+  "pergunta": "O que aconteceu imediatamente após Zacarias escrever o nome do bebê na tábua?",
+  "opcoes": [
+   "Sua boca se abriu e ele voltou a falar, louvando a Deus.",
+   "Ele caiu no chão desmaiado de susto.",
+   "Os vizinhos o levaram para o templo imediatamente."
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma que logo após ele escrever, sua boca se abriu, sua língua se soltou e ele voltou a falar, louvando a Deus."
+ },
+ "refs": [
+  "Isaías 40:3",
+  "Mateus 3:3",
+  "Lucas 2:26"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T12:51:41.359Z",
+  "rounds": 1
+ }
+}

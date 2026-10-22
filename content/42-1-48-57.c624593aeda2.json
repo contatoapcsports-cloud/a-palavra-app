@@ -1,0 +1,137 @@
+{
+ "id": "42-1-48-57",
+ "ref": "Lucas 1:48-57",
+ "book": "42",
+ "chapter": 1,
+ "verses": [
+  {
+   "n": 48,
+   "t": "Porque ele observou a humilde condição da sua serva; pois eis que desde agora todas as gerações me chamarão bendita."
+  },
+  {
+   "n": 49,
+   "t": "Pois o Poderoso me fez grandes coisas; e santo é o seu nome."
+  },
+  {
+   "n": 50,
+   "t": "E a sua misericórdia é de geração em geração sobre os que o temem."
+  },
+  {
+   "n": 51,
+   "t": "Com o seu braço manifestou poder; dispersou os soberbos no pensamento dos seus corações."
+  },
+  {
+   "n": 52,
+   "t": "Derrubou os poderosos dos tronos, e elevou os humildes."
+  },
+  {
+   "n": 53,
+   "t": "Encheu de bens aos famintos, e despediu vazios os ricos."
+  },
+  {
+   "n": 54,
+   "t": "Auxiliou ao seu servo Israel, lembrando-se da sua misericórdia,"
+  },
+  {
+   "n": 55,
+   "t": "como falou aos nossos ancestrais, a Abraão, e à sua descendência, para sempre."
+  },
+  {
+   "n": 56,
+   "t": "Maria esteve com ela por quase três meses; então voltou para sua casa."
+  },
+  {
+   "n": 57,
+   "t": "E completou-se à Isabel o tempo de dar à luz, e teve um filho."
+  }
+ ],
+ "titulo": "A virada que Deus faz nos tronos",
+ "temas": [
+  "humildade",
+  "misericórdia",
+  "soberba",
+  "promessa"
+ ],
+ "pergunta": "O que significa para você ser 'humilde' diante de Deus?",
+ "entender": "Maria, grávida e jovem, canta um hino de louvor que chama de 'Magnificat'. Ela não fala apenas de si, mas do caráter de Deus. O texto mostra um Deus que 'observou a humilde condição da sua serva'. Isso significa que Ele não ignora os pequenos, os esquecidos ou os que se sentem indignos. Ele vê a posição social baixa de Maria e a transforma em palco para grandes coisas.\n\nMaria descreve a ação de Deus como uma inversão de valores humanos. Ele 'derrubou os poderosos dos tronos' e 'elevou os humildes'. Não é uma política de vingança, mas uma demonstração de que o poder real vem da dependência de Deus, não da força própria. Ela também lembra que a 'misericórdia é de geração em geração', ligando a promessa a Abraão. Isso mostra que Deus é fiel ao que prometeu e age na história humana para cumprir seu plano de salvação.",
+ "ligar": {
+  "texto": "Este cântico aponta para Jesus de uma forma profunda. A 'misericórdia' de que Maria fala é o mesmo atributo que culmina na cruz, onde Deus se abaixa para salvar os pecadores. Jesus é o 'humilde' que foi elevado ao trono da glória após a ressurreição, invertendo a lógica do mundo. Além disso, a promessa feita a Abraão de abençoar todas as nações se cumpre em Cristo. Maria, sendo a serva escolhida, aponta para o Servo por excelência, Jesus, que se fez pobre para que nós nos tornássemos ricos em graça. O hino de Maria é, na verdade, uma profecia do que Jesus faria: dispensar os soberbos e encher de bens os famintos espiritualmente.",
+  "selo": true
+ },
+ "viver": "Vivemos em uma sociedade que valoriza a auto-suficiência e o sucesso visível. Maria nos ensina que a verdadeira segurança não está em nossa posição social ou em nossos feitos, mas em reconhecer nossa 'humilde condição' diante de Deus. Isso não é se diminuir, mas se posicionar corretamente: como dependentes da graça. Quando paramos de tentar provar nosso valor e aceitamos que Deus nos vê e nos ama mesmo em nossa fragilidade, encontramos a liberdade que Ele oferece. A prática disso é orar com honestidade, admitindo que precisamos dEle, e confiar que Sua misericórdia é constante, mesmo quando não entendemos as circunstâncias.",
+ "guarde": "Deus não ignora os pequenos; Ele eleva os humildes e cumpre Suas promessas com fidelidade.",
+ "ore": "Maria, ao cantar, ensinou que Deus vê a humilde condição de Seus servos. Pai, assim como Ele observou Maria, peço que olhes para a minha vida com misericórdia. Reconheço que sou fraco e dependente de Ti. Ajuda-me a abandonar a soberba de achar que posso me sustentar sozinho e a confiar no Teu poder que derruba tronos de orgulho e eleva o coração quebrantado. Graças pela Tua fidelidade a Abraão e a mim.",
+ "quiz": {
+  "pergunta": "O que Maria diz que o Poderoso fez por ela em Lucas 1:49?",
+  "opcoes": [
+   "Fez grandes coisas",
+   "Derrubou os poderosos",
+   "Encheu de bens aos famintos"
+  ],
+  "certa": 0,
+  "explicacao": "No versículo 49, Maria declara especificamente que 'o Poderoso me fez grandes coisas'. As outras opções, embora estejam no texto, referem-se a ações de Deus sobre outros grupos nos versículos 51 e 53."
+ },
+ "refs": [
+  "Salmos 147:6",
+  "Isaías 57:15",
+  "Filipenses 2:8-11"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T12:54:48.991Z",
+  "rounds": 1
+ }
+}

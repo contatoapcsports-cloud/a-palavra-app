@@ -1,0 +1,137 @@
+{
+ "id": "42-1-71-80",
+ "ref": "Lucas 1:71-80",
+ "book": "42",
+ "chapter": 1,
+ "verses": [
+  {
+   "n": 71,
+   "t": "Que nos livraria dos nossos inimigos e da mão de todos os que nos odeiam,"
+  },
+  {
+   "n": 72,
+   "t": "para manifestar misericórdia aos nossos ancestrais, e se lembrar do seu santo pacto,"
+  },
+  {
+   "n": 73,
+   "t": "do juramento que fez a Abraão, nosso ancestral;"
+  },
+  {
+   "n": 74,
+   "t": "de nos conceder que, libertos da mão dos nossos inimigos, o serviríamos sem temor,"
+  },
+  {
+   "n": 75,
+   "t": "em santidade e justiça diante dele, todos os dias da nossa vida."
+  },
+  {
+   "n": 76,
+   "t": "E tu, menino, serás chamado profeta do Altíssimo; porque irás adiante da face do Senhor, para preparar os seus caminhos,"
+  },
+  {
+   "n": 77,
+   "t": "para dar a seu povo conhecimento da salvação, na remissão de seus pecados;"
+  },
+  {
+   "n": 78,
+   "t": "por causa da profunda misericórdia do nosso Deus, pela qual o raiar da manhã nos visitou;"
+  },
+  {
+   "n": 79,
+   "t": "para iluminar os que estão sentados nas trevas e sombra de morte; a fim de guiar os nossos pés pelo caminho da paz."
+  },
+  {
+   "n": 80,
+   "t": "E o menino crescia e se fortalecia em espírito. E esteve nos desertos até o dia em que se mostrou a Israel."
+  }
+ ],
+ "titulo": "O amanhecer que quebra as correntes",
+ "temas": [
+  "misericórdia",
+  "libertação",
+  "luz",
+  "paz"
+ ],
+ "pergunta": "Como a misericórdia de Deus muda a forma como você enxerga seus medos e pecados?",
+ "entender": "Zacarias, ao recuperar a fala, profetiza sobre a missão de seu filho, João Batista. Ele descreve a obra de Deus como uma libertação: \"nos livraria dos nossos inimigos\". Essa vitória não é apenas política, mas espiritual, permitindo ao povo servir a Deus \"sem temor\" e em santidade, cumprindo o pacto feito com Abraão.\n\nO texto usa a imagem do \"raiar da manhã\" para descrever a visita de Deus. Essa luz tem um propósito concreto: \"iluminar os que estão sentados nas trevas e sombra de morte\". A \"sombra de morte\" representa o peso do pecado e o medo da separação de Deus. A luz não apenas espanta o escuro, mas guia os passos para o \"caminho da paz\".\n\nJoão é chamado de \"profeta do Altíssimo\" para preparar os caminhos e dar \"conhecimento da salvação, na remissão de seus pecados\". Isso aponta para a obra de Jesus, que cumpre a promessa divina e traz a reconciliação definitiva, transformando a escuridão da culpa em clareza e paz.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para o evangelho. A \"misericórdia\" que \"visita\" o povo cumpre-se plenamente em Jesus, a verdadeira Luz do mundo. A \"remissão de pecados\" mencionada só é possível pela cruz de Cristo, onde o medo da morte foi quebrado. A paz prometida não é apenas ausência de conflito, mas a certeza de estar reconciliado com Deus através de Jesus. Ele é o amanhecer que guia nossos pés.",
+  "selo": true
+ },
+ "viver": "Identifique uma área de sua vida que funciona como uma \"sombra de morte\": pode ser uma culpa antiga, um vício ou um medo paralisante. Reconheça que a luz já veio. Assim como a manhã dissipa a noite, a verdade de Cristo dissolve a mentira do pecado. Dê um passo prático hoje para sair dessa escuridão, confiando que a paz de Deus guia seus pés, mesmo quando o caminho ainda parece difícil.",
+ "guarde": "A misericórdia de Deus é a luz que guia nossos passos da sombra da morte para o caminho da paz.",
+ "ore": "Zacarias, ao profetizar sobre a luz, me ensina a confiar. Senhor, assim como o sol nasce inevitavelmente, eu creio que Tua misericórdia visita minha vida. Ilumina as áreas escuras do meu coração, tira o medo que me paralisa e guia meus pés pela paz que só Tu podes dar. Ajuda-me a viver em santidade e justiça, servindo-Te sem temor.",
+ "quiz": {
+  "pergunta": "O que João Batista fará, segundo a profecia de Zacarias em Lucas 1:76-77?",
+  "opcoes": [
+   "Preparar os caminhos e dar conhecimento da salvação",
+   "Construir um templo físico para Deus",
+   "Governar Israel como rei político"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que João irá \"adiante da face do Senhor, para preparar os seus caminhos\" e dar \"conhecimento da salvação\". Ele é um profeta e precurador, não um governante político ou arquiteto."
+ },
+ "refs": [
+  "Malaquias 3:1",
+  "Isaías 9:2",
+  "João 1:9"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T12:54:22.847Z",
+  "rounds": 2
+ }
+}

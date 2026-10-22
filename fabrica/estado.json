@@ -886,19 +886,27 @@
   },
   "42-1-35-47": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: REFERENCE_BOUNDARY: A explicação do teste indica o versículo 1.42 para a afirmação de que a criança saltou de alegria, quando essa informação está nos versículos 41 e 44.",
+   "estado": "pronto",
+   "titulo": "O que o salto da criança revela sobre a fé"
   },
   "42-1-48-57": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: viver:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "A virada que Deus faz nos tronos"
   },
   "42-1-58-70": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_longa, quiz.explicacao:citacao_longa",
+   "estado": "pronto",
+   "titulo": "O nome que mudou o silêncio de Zacarias"
   },
   "42-1-71-80": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:viver:43-4-12-22",
+   "estado": "pronto",
+   "titulo": "O amanhecer que quebra as correntes"
   },
   "42-2-1-10": {
    "execucoes": 0,
@@ -923,28 +931,44 @@
   "42-3-1-10": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-3-11-20": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-3-21-29": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-3-30-38": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-4-1-13": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 330,
-   "entrada": 778731,
-   "saida": 296195
+   "chamadas": 337,
+   "entrada": 798187,
+   "saida": 302496
   },
   "groq-qwen": {
-   "chamadas": 326,
-   "entrada": 730757,
-   "saida": 259688
+   "chamadas": 333,
+   "entrada": 747531,
+   "saida": 265554
   },
   "gemini": {
-   "chamadas": 260,
-   "entrada": 836142,
-   "saida": 330651
+   "chamadas": 269,
+   "entrada": 864968,
+   "saida": 344790
   },
   "cloudflare": {
-   "chamadas": 158,
-   "entrada": 547368,
-   "saida": 58618
+   "chamadas": 162,
+   "entrada": 561251,
+   "saida": 60102
   },
   "mistral": {
    "chamadas": 0,
