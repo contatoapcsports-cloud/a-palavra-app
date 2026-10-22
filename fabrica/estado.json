@@ -820,19 +820,27 @@
   },
   "41-14-49-60": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "O silêncio que desmascara a mentira"
   },
   "41-14-61-72": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Quando a coragem se torna silêncio"
   },
   "41-15-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:menos_de_2_paragrafos",
+   "estado": "pronto",
+   "titulo": "O silêncio que desafiou o poder"
   },
   "41-15-13-24": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: REFERENCE_BOUNDARY: A afirmação de que Jesus recusou o vinho com mirra porque 'não beberia do cálice da ira' (citando Mateus 26:39) é uma interpretação teológica que não encontra suporte direto no texto bíblico, que apenas menciona a recusa do vinho misturado com mirra como um analgésico comum da ép",
+   "estado": "pronto",
+   "titulo": "O Rei que foi coroado com espinhos"
   },
   "41-15-25-35": {
    "execucoes": 0,
@@ -857,28 +865,44 @@
   "42-1-12-23": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-1-24-34": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-1-35-47": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-1-48-57": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-1-58-70": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 310,
-   "entrada": 724728,
-   "saida": 278983
+   "chamadas": 317,
+   "entrada": 743107,
+   "saida": 284734
   },
   "groq-qwen": {
-   "chamadas": 305,
-   "entrada": 678423,
-   "saida": 242770
+   "chamadas": 312,
+   "entrada": 695642,
+   "saida": 248433
   },
   "gemini": {
-   "chamadas": 242,
-   "entrada": 778346,
-   "saida": 316573
+   "chamadas": 249,
+   "entrada": 801083,
+   "saida": 321271
   },
   "cloudflare": {
-   "chamadas": 147,
-   "entrada": 509240,
-   "saida": 54537
+   "chamadas": 151,
+   "entrada": 523389,
+   "saida": 56021
   },
   "mistral": {
    "chamadas": 0,

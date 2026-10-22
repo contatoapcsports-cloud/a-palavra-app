@@ -1,0 +1,146 @@
+{
+ "id": "41-15-13-24",
+ "ref": "Marcos 15:13-24",
+ "book": "41",
+ "chapter": 15,
+ "verses": [
+  {
+   "n": 13,
+   "t": "E eles voltaram a clamar: Crucifica-o!"
+  },
+  {
+   "n": 14,
+   "t": "Mas Pilatos lhes disse: Por quê? Que mal ele fez? E eles gritavam ainda mais: Crucifica-o!"
+  },
+  {
+   "n": 15,
+   "t": "Então Pilatos, querendo satisfazer à multidão, soltou-lhes Barrabás; e entregou Jesus açoitado, para que fosse crucificado."
+  },
+  {
+   "n": 16,
+   "t": "E os soldados o levaram para o pátio, que é o pretório; e convocaram toda a tropa."
+  },
+  {
+   "n": 17,
+   "t": "E o vestiram de púrpura; teceram uma coroa de espinhos, e puseram nele."
+  },
+  {
+   "n": 18,
+   "t": "E começaram a saudá-lo: Viva! Ó Rei dos Judeus!"
+  },
+  {
+   "n": 19,
+   "t": "E feriram a sua cabeça com uma cana, cuspiram nele, e, ajoelhados, o adoraram."
+  },
+  {
+   "n": 20,
+   "t": "Quando o escarneceram, despiram-lhe a púrpura, vestiram-no com as suas próprias roupas, e o levaram afora, para o crucificarem."
+  },
+  {
+   "n": 21,
+   "t": "E forçaram um Simão cireneu, que estava passando, vindo do campo, o pai de Alexandre e de Rufo, para que levasse sua cruz."
+  },
+  {
+   "n": 22,
+   "t": "E o levaram ao lugar de Gólgota, que traduzido é: o lugar da caveira."
+  },
+  {
+   "n": 23,
+   "t": "E ofereceram-lhe a beber vinho misturado com mirra; mas ele não o tomou."
+  },
+  {
+   "n": 24,
+   "t": "E havendo o crucificado, repartiram a roupas dele, lançando-lhes sortes, para o que cada um levaria."
+  }
+ ],
+ "titulo": "O Rei que foi coroado com espinhos",
+ "temas": [
+  "sofrimento",
+  "humilhação",
+  "soberania",
+  "evangelho",
+  "justiça"
+ ],
+ "pergunta": "Por que os soldados zombaram de Jesus chamando-o de rei?",
+ "entender": "Após ser condenado, Jesus é levado ao pátio do pretório. Os soldados, em um ato de brutalidade e deboche, vestem-no com uma túnica de púrpura e colocam em sua cabeça uma coroa feita de espinhos. Eles o tratam como um rei falso, dizendo: \"Viva! Ó Rei dos Judeus!\".\n\nEnquanto isso, a multidão, instigada pelos líderes religiosos, gritava por sua crucificação, ignorando as perguntas de Pilatos sobre qual mal Jesus tinha cometido. A cena mostra o contraste chocante entre a realeza divina de Cristo e a humilhação extrema que ele aceita sofrer. Ele não se defende nem usa seu poder para escapar, mas permite que o processo aconteça.\n\nO texto descreve a violência física: feridas na cabeça, cusparadas e a carga da cruz sendo forçada sobre Simão, um passante. Jesus é levado ao Gólgota, o lugar da caveira, onde é oferecido vinho com mirra, mas ele recusa, mantendo a clareza de mente para o que viria a seguir.",
+ "ligar": {
+  "texto": "Este trecho revela o coração do evangelho: Jesus, o verdadeiro Rei, aceita a humilhação e a morte em nosso lugar. A coroa de espinhos simboliza o peso do pecado e da maldição que ele carrega, enquanto a púrpura aponta para sua realeza divina. Ele não é uma vítima passiva, mas o sacrifício voluntário que satisfaz a justiça de Deus. Ao ser coroado com espinhos, Jesus nos mostra que o caminho para o trono do céu passa pela cruz. É através dessa humilhação que ele nos oferece a coroa da vida eterna.",
+  "selo": true
+ },
+ "viver": "A cena da coroa de espinhos nos convida a olhar para a cruz não como um evento distante, mas como o centro de nossa identidade. Quando enfrentamos críticas, rejeição ou situações onde somos menosprezados, podemos lembrar que o Rei do Universo suportou tal humilhação por amor a nós. Isso não nos dá permissão para passividade, mas nos dá força para perdoar e para servir com humildade, sabendo que nosso valor não depende da aprovação dos outros, mas da aprovação de Deus em Cristo.",
+ "guarde": "O Rei que aceitou a coroa de espinhos para nos dar a coroa da glória.",
+ "ore": "Gólgota, lugar da caveira, eu contemplo tua dor. Obrigado por aceitar a coroa de espinhos e a humilhação em meu lugar. Ajuda-me a entender o preço do meu perdão e a viver com humildade, reconhecendo tua realeza sobre minha vida e sobre todas as circunstâncias difíceis que enfrento.",
+ "quiz": {
+  "pergunta": "O que os soldados colocaram na cabeça de Jesus para zombá-lo?",
+  "opcoes": [
+   "Uma faixa de tecido branco",
+   "Uma coroa de espinhos",
+   "Uma coroa de ouro"
+  ],
+  "certa": 1,
+  "explicacao": "O texto em Marcos 15:17 diz explicitamente que eles \"teceram uma coroa de espinhos, e puseram nele\" para escarnecer de sua realeza."
+ },
+ "refs": [
+  "Isaías 53:4-5",
+  "João 19:2-3",
+  "1 Pedro 2:24"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T03:43:48.220Z",
+  "rounds": 1
+ }
+}

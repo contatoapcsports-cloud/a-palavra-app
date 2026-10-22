@@ -1,0 +1,145 @@
+{
+ "id": "41-14-49-60",
+ "ref": "Marcos 14:49-60",
+ "book": "41",
+ "chapter": 14,
+ "verses": [
+  {
+   "n": 49,
+   "t": "Todo dia eu estava convosco no templo, ensinando, e não me prendestes; mas assim se faz para que as Escrituras se cumpram.”"
+  },
+  {
+   "n": 50,
+   "t": "Então todos o deixaram, e fugiram."
+  },
+  {
+   "n": 51,
+   "t": "E certo rapaz o seguia, envolto num lençol sobre o corpo nu. E os rapazes o agarraram."
+  },
+  {
+   "n": 52,
+   "t": "Mas ele largou o lençol, e fugiu deles nu."
+  },
+  {
+   "n": 53,
+   "t": "E levaram Jesus ao sumo sacerdote; e ajuntaram-se a ele todos os chefes dos sacerdotes, os anciãos, e os escribas."
+  },
+  {
+   "n": 54,
+   "t": "E Pedro o seguiu de longe até dentro do pátio do sumo sacerdote, e ficou sentado com os oficiais, esquentando-se ao fogo."
+  },
+  {
+   "n": 55,
+   "t": "E os chefes dos sacerdotes, e todo o supremo conselho buscavam algum testemunho contra Jesus, para o matarem, e não o achavam."
+  },
+  {
+   "n": 56,
+   "t": "Porque muitos davam falso testemunho contra ele, mas os testemunhos não concordavam entre si."
+  },
+  {
+   "n": 57,
+   "t": "E alguns se levantavam e davam falso testemunho contra ele, dizendo:"
+  },
+  {
+   "n": 58,
+   "t": "“Nós o ouvimos dizer: Eu derrubarei este templo feito por mãos, e em três dias construirei outro feito não por mãos."
+  },
+  {
+   "n": 59,
+   "t": "E nem assim o testemunho deles era concordante."
+  },
+  {
+   "n": 60,
+   "t": "Então o sumo sacerdote levantou-se no meio, e perguntou a Jesus: “Não respondes nada? O que estes testemunham contra ti?”"
+  }
+ ],
+ "titulo": "O silêncio que desmascara a mentira",
+ "temas": [
+  "justiça",
+  "testemunho",
+  "silêncio",
+  "verdade"
+ ],
+ "pergunta": "O que você faria se perguntassem coisas que você sabe que são falsas, mas calar significasse risco?",
+ "entender": "Depois de ser preso no Getsêmani, Jesus é levado ao sumo sacerdote. Os líderes religiosos se reúnem, mas enfrentam um problema: não encontram provas reais contra Ele. O texto diz que \"muitos davam falso testemunho contra ele, mas os testemunhos não concordavam entre si\" (Marcos 14.56). Eles tentam forjar uma acusação sobre o templo, mas as versões dos falsos acusadores não batem, o que torna a acusação frágil.\n\nDiante disso, o sumo sacerdote pergunta a Jesus: \"Não respondes nada? O que estes testemunham contra ti?\" (Marcos 14.60). Jesus permanece em silêncio. Esse silêncio não é fraqueza ou medo; é uma postura de dignidade diante de um tribunal injusto. Ele sabe que a verdade não depende da validação humana, mas do cumprimento das Escrituras, como Ele mesmo disse antes de ser preso.",
+ "ligar": {
+  "texto": "Este trecho revela a inocência de Jesus diante da injustiça. Enquanto os homens tentam construir uma mentira para condená-Lo, Jesus confia no plano de Deus. Isso aponta para o evangelho: Cristo é o justo que foi entregue no lugar dos injustos. O silêncio de Jesus diante da falsidade mostra que a autoridade final não está nos tribunais humanos, mas no trono de Deus, onde a verdade reina. Nossa salvação vem do fato de que Ele, sendo perfeito, aceitou o processo humano para nos resgatar.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, somos pressionados a concordar com mentiras ou a defender posições que não sustentam a verdade, seja no trabalho ou nas redes sociais. O texto nos ensina que o silêncio pode ser uma resposta poderosa quando as perguntas são baseadas em falsidades. Não precisamos nos explicar diante de quem busca apenas te condenar. Em vez de reagir com raiva ou tentar provar seu valor com argumentos fracos, confie na sua integridade e no caráter de Deus. Deixe que sua vida fale mais alto do que as acusações vazias.",
+ "guarde": "A verdade não precisa se defender quando a justiça de Deus está por trás dela.",
+ "ore": "Jesus, no tribunal do sumo sacerdote, Tu ficaste calado diante das mentiras. Ensina-me a não me desesperar quando me acusam sem razão. Dá-me a serenidade de confiar na Tua justiça e a sabedoria de saber quando falar e quando calar, para que minha vida Te glorifique.",
+ "quiz": {
+  "pergunta": "Por que os testemunhos contra Jesus não foram aceitos pelos líderes religiosos inicialmente?",
+  "opcoes": [
+   "Porque o povo intercedeu por Ele.",
+   "Porque os falsos testemunhos não concordavam entre si.",
+   "Porque Jesus se defendeu com sucesso."
+  ],
+  "certa": 1,
+  "explicacao": "O texto afirma explicitamente que \"os testemunhos não concordavam entre si\", o que impedia que a acusação fosse considerada válida segundo as leis judaicas da época."
+ },
+ "refs": [
+  "Isaías 53:7",
+  "Atos 4:19",
+  "Mateus 26:62"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T03:42:42.551Z",
+  "rounds": 1
+ }
+}

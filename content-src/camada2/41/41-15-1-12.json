@@ -1,0 +1,145 @@
+{
+ "id": "41-15-1-12",
+ "ref": "Marcos 15:1-12",
+ "book": "41",
+ "chapter": 15,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E logo ao amanhecer, os chefes dos sacerdotes tiveram uma reunião com os anciãos, com os escribas, e com todo o supremo conselho; e, amarrando Jesus, levaram -no e o entregaram a Pilatos."
+  },
+  {
+   "n": 2,
+   "t": "E Pilatos lhe perguntou: És tu o Rei dos Judeus? E ele lhe respondeu: Tu o dizes."
+  },
+  {
+   "n": 3,
+   "t": "E os chefes dos sacerdotes o acusavam de muitas coisas, porém ele nada respondia."
+  },
+  {
+   "n": 4,
+   "t": "E outra vez Pilatos lhe perguntou: Não respondes nada? Olha quantas coisas testemunham contra ti!"
+  },
+  {
+   "n": 5,
+   "t": "Mas Jesus nada mais respondeu, de maneira que Pilatos ficou surpreso."
+  },
+  {
+   "n": 6,
+   "t": "Na festa, Pilatos lhes soltava um preso, qualquer um que pedissem."
+  },
+  {
+   "n": 7,
+   "t": "E havia um chamado Barrabás, preso com outros revoltosos, que numa rebelião havia cometido uma morte."
+  },
+  {
+   "n": 8,
+   "t": "E a multidão, gritando, começou a pedir, como sempre lhes havia feito."
+  },
+  {
+   "n": 9,
+   "t": "E Pilatos lhes respondeu: Quereis que eu vos solte o Rei dos Judeus?"
+  },
+  {
+   "n": 10,
+   "t": "(Porque ele sabia que os chefes dos sacerdotes haviam o entregue por inveja)."
+  },
+  {
+   "n": 11,
+   "t": "Mas os chefes dos sacerdotes incitaram a multidão, para que, em vez disso, lhes soltasse Barrabás."
+  },
+  {
+   "n": 12,
+   "t": "E Pilatos, respondendo, disse-lhes outra vez: Que, pois, quereis que eu faça com aquele a quem chamais Rei dos Judeus?"
+  }
+ ],
+ "titulo": "O silêncio que desafiou o poder",
+ "temas": [
+  "justiça",
+  "silêncio",
+  "injustiça",
+  "realeza"
+ ],
+ "pergunta": "Por que Jesus se manteve calado diante de tantas acusações falsas?",
+ "entender": "A cena começa no amanhecer, quando os líderes religiosos entregam Jesus a Pilatos, o governador romano. Pilatos pergunta diretamente: “És tu o Rei dos Judeus?”. A resposta de Jesus é curta e provocativa: “Tu o dizes”. Ele não nega, mas também não explica; apenas devolve a pergunta à autoridade que a fez.\n\nEnquanto os sacerdotes o acusam de muitas coisas, Jesus permanece em silêncio. O texto destaca que Pilatos ficou “surpreso” com essa falta de resposta. Era comum que réus se defendessem com argumentos ou gritos, mas Jesus quebrou esse padrão. Seu silêncio não era de fraqueza, mas de uma soberania que não precisava da validação humana para existir.\n\nO contraste é forte: de um lado, a agitação dos líderes e a multidão manipulada; do outro, a calma de Jesus. Pilatos sabia que a entrega foi feita por inveja, mas a pressão social o empurrava para uma decisão política, não justa.",
+ "ligar": {
+  "texto": "Este trecho mostra Jesus como o verdadeiro Rei, mas um Rei que não usa o poder político para se defender. Ele aceita o julgamento humano sabendo que seu destino está nas mãos do Pai. O silêncio de Jesus aponta para a cruz: Ele não veio para salvar sua própria vida, mas para entregar a vida por nós. A injustiça sofrida por Ele é o preço da nossa redenção. Aquele que era inocente foi condenado para que nós, culpados, pudéssemos ser absolvidos. É o coração do evangelho: a troca entre o justo e os injustos.",
+  "selo": true
+ },
+ "viver": "Vivemos em uma cultura que exige resposta imediata a qualquer crítica. Quando somos acusados ou mal interpretados, nosso instinto é se defender, gritar ou explicar. O exemplo de Jesus nos convida a examinar nosso coração: estamos prontos para ser mal entendidos por causa da verdade? O silêncio pode ser uma forma de confiança em Deus. Em vez de reagir com raiva a cada injustiça, podemos escolher a paz, confiando que a justiça final pertence a Deus, não às opiniões da multidão.",
+ "guarde": "O silêncio de Jesus não era fraqueza, mas a confiança de quem sabe que a justiça final vem de Deus.",
+ "ore": "Pilatos, diante da tua surpresa com o silêncio de Jesus, ensina-me a não me defender com raiva quando sou mal entendido. Dá-me a coragem de confiar na Tua justiça, mesmo quando os homens gritam contra mim. Que meu silêncio seja uma testemunha da minha fé, e não do meu medo. Em nome de Jesus.",
+ "quiz": {
+  "pergunta": "Por que Pilatos ficou surpreso com a atitude de Jesus?",
+  "opcoes": [
+   "Porque Jesus gritou palavras de profecia.",
+   "Porque Jesus nada respondeu às acusações.",
+   "Porque Jesus apresentou provas de sua inocência."
+  ],
+  "certa": 1,
+  "explicacao": "O texto afirma que, embora os sacerdotes o acusassem de muitas coisas, Jesus nada respondia, o que causou surpresa em Pilatos."
+ },
+ "refs": [
+  "Isaías 53:7",
+  "Mateus 26:62-63",
+  "Lucas 23:9"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T03:44:50.373Z",
+  "rounds": 1
+ }
+}

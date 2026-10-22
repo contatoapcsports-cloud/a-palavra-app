@@ -1,0 +1,145 @@
+{
+ "id": "41-14-61-72",
+ "ref": "Marcos 14:61-72",
+ "book": "41",
+ "chapter": 14,
+ "verses": [
+  {
+   "n": 61,
+   "t": "Mas ele ficou calado, e nada respondeu. O sumo sacerdote voltou a lhe perguntar: “És tu o Cristo, o Filho daquele que é Bendito?”"
+  },
+  {
+   "n": 62,
+   "t": "Jesus respondeu: “Eu sou. E vereis o Filho do homem sentado à direita do Poderoso , e vindo com as nuvens do céu.”"
+  },
+  {
+   "n": 63,
+   "t": "E o sumo sacerdote, rasgando suas roupas, disse: “Para que mais necessitamos de testemunhas?"
+  },
+  {
+   "n": 64,
+   "t": "Vós ouvistes a blasfêmia. Que vos parece?” E todos o condenaram como culpado de morte."
+  },
+  {
+   "n": 65,
+   "t": "E alguns começaram a cuspir nele, e a cobrir o rosto dele; e a dar-lhe de socos, e dizer-lhe: “Profetiza”. E os oficiais lhe davam bofetadas."
+  },
+  {
+   "n": 66,
+   "t": "E, enquanto Pedro estava no pátio abaixo, veio uma das servas do sumo sacerdote."
+  },
+  {
+   "n": 67,
+   "t": "Quando ela viu Pedro, que estava sentado esquentando-se, olhou para ele, e disse: “Também tu estavas com Jesus, o Nazareno.”"
+  },
+  {
+   "n": 68,
+   "t": "Mas ele negou, dizendo: “Não o conheço, nem sei o que dizes.”; e saiu para o alpendre. Então o galo cantou."
+  },
+  {
+   "n": 69,
+   "t": "A serva o viu outra vez, e começou a dizer aos que ali estavam: “Este é um deles”."
+  },
+  {
+   "n": 70,
+   "t": "Mas ele o negou de novo. E pouco depois, outra vez os que ali estavam disseram a Pedro: “Verdadeiramente tu és um deles; pois também és galileu”, e a tua fala é semelhante”."
+  },
+  {
+   "n": 71,
+   "t": "Então ele começou a amaldiçoar e a jurar, dizendo : “Não conheço esse homem de quem dizeis.”"
+  },
+  {
+   "n": 72,
+   "t": "O galo cantou a segunda vez. E Pedro se lembrou da palavra que Jesus havia lhe dito: “Antes que o galo cante duas vezes, tu me negarás três vezes.” Então ele retirou-se dali e chorou."
+  }
+ ],
+ "titulo": "Quando a coragem se torna silêncio",
+ "temas": [
+  "negação",
+  "culpa",
+  "perdão"
+ ],
+ "pergunta": "Você já negou alguém que ama por medo de ser rejeitado?",
+ "entender": "Neste trecho, Jesus está diante do sumo sacerdote, que lhe pergunta: “És tu o Cristo, o Filho daquele que é Bendito?” (Marcos 14.61). Jesus responde com firmeza: “Eu sou” e anuncia que o Filho do homem será “sentado à direita do Poderoso, e vindo com as nuvens do céu” (v.62). Depois disso, a multidão o condena à morte, e Pedro, que estava no pátio, é confrontado por uma serva do sumo sacerdote que o reconhece como seguidor de Jesus. Pedro, temendo as consequências, nega três vezes conhecer Jesus, exatamente como Jesus havia predito: “Antes que o galo cante duas vezes, tu me negarás três vezes” (v.72). Cada negação é seguida pelo canto do galo, lembrando a palavra de Jesus.\n\nO contexto mostra que Jesus já havia sido preso e levado ao Sinédrio. O interrogatório visa provar sua identidade messiânica, mas a reação humana – medo, vergonha, desejo de autopreservação – leva Pedro a trair o compromisso que fez com Cristo. O texto revela a fraqueza humana, mas também a fidelidade de Jesus ao cumprir o que havia anunciado, mesmo quando seus seguidores falham.",
+ "ligar": {
+  "texto": "A declaração de Jesus de ser o Cristo e o Filho do Homem sentado à direita de Deus aponta diretamente para sua identidade divina e seu futuro retorno em glória (cf. Daniel 7.13‑14). Quando Pedro nega a Jesus, ele vivencia a queda que todo ser humano pode experimentar ao confiar mais em si mesmo que em Cristo. O Evangelho mostra que, apesar das falhas, Jesus oferece perdão e restauração – Pedro será reabilitado (João 21.15‑17) e a igreja recebe a promessa de que o mesmo poder que o salvou o capacitará a viver firme.",
+  "selo": true
+ },
+ "viver": "A negação de Pedro nos alerta para o perigo de deixar o medo decidir nossas ações. Quando somos confrontados com situações que exigem coragem – defender a fé, proteger um amigo, ou admitir um erro – podemos escolher o silêncio que protege a nós mesmos, mas fere o outro. Em vez disso, podemos seguir o exemplo de quem, mesmo depois de cair, aceita o perdão de Jesus e se levanta para servir novamente. Cada dia traz pequenas oportunidades de dizer a verdade, mesmo que isso custe reputação ou conforto.",
+ "guarde": "Mesmo quando falhamos, o perdão de Cristo nos restaura e nos chama a recomeçar.",
+ "ore": "Senhor, ao lembrar da serva que reconheceu Pedro, peço que me dê coragem para não negar a quem confia em mim, mesmo quando o medo me assalta.",
+ "quiz": {
+  "pergunta": "Quantas vezes Pedro negou a Jesus antes do galo cantar?",
+  "opcoes": [
+   "Duas vezes",
+   "Três vezes",
+   "Quatro vezes"
+  ],
+  "certa": 1,
+  "explicacao": "O texto registra que Pedro negou três vezes (versículos 68, 70 e 71) e que o galo cantou duas vezes, confirmando a profecia de Jesus (Marcos 14.72)."
+ },
+ "refs": [
+  "Mateus 26:69-75",
+  "Lucas 22:54-62",
+  "João 21:15-17",
+  "Daniel 7:13-14"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-22T03:38:08.277Z",
+  "rounds": 1
+ }
+}
