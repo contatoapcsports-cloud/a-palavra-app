@@ -1,0 +1,67 @@
+name: importar-versoes
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: importar-versoes
+  cancel-in-progress: false
+jobs:
+  importar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Aplicar os patches do app (seletor de traduções, créditos, testes), se ainda existirem
+        run: |
+          set -e
+          if [ -f patches/SHA256SUMS ]; then
+            (cd patches && sha256sum -c SHA256SUMS)
+            for p in patches/*.patch; do git apply --index "$p"; echo "aplicado: $p"; done
+            git rm -q -rf patches
+          else echo "sem patches pendentes"; fi
+      - name: Baixar ONBV, BLT e TfT (eBible.org) e conferir integridade e licença
+        run: |
+          set -e
+          for v in onbv blt tft; do
+            mkdir -p /tmp/usfm/$v
+            curl -fL --retry 3 -o /tmp/$v.zip https://ebible.org/Scriptures/por${v}_usfm.zip
+            unzip -tq /tmp/$v.zip
+            unzip -q /tmp/$v.zip -d /tmp/usfm/$v
+            # integridade: SHA-256 de cada arquivo contra a lista assinada que vem no próprio ZIP
+            (cd /tmp/usfm/$v && grep -E '^[0-9a-f]{64}  ' signature.txt.asc | sha256sum -c --quiet)
+            # licença: a nota de direitos do arquivo precisa continuar sendo CC BY-SA 4.0
+            grep -qiE 'Share-?Alike' /tmp/usfm/$v/copr.htm || { echo "licença de $v mudou ou não foi encontrada: NÃO importar"; exit 1; }
+            grep -qE 'by-sa/4\.0' /tmp/usfm/$v/copr.htm || { echo "licença de $v não é CC BY-SA 4.0: NÃO importar"; exit 1; }
+            echo "== $v: arquivos íntegros e licença CC BY-SA 4.0 confirmada em copr.htm"
+            sha256sum /tmp/$v.zip
+          done
+      - name: Baixar Almeida 1911 (Project Gutenberg 62383) e conferir o SHA-256
+        run: |
+          set -e
+          curl -fL --retry 3 -o /tmp/pg62383.raw https://www.gutenberg.org/cache/epub/62383/pg62383.txt
+          sha256sum /tmp/pg62383.raw
+          # o arquivo usado na conversão tem SHA-256 bf9c6053...0215; se for outro, NÃO importar sem revisão
+          echo "bf9c6053bfb441d117a2a128d4edec9fbe935f415bc8f7bf4e1f3f9121790215  /tmp/pg62383.raw" | sha256sum -c - || { echo "arquivo do Gutenberg mudou: revisar antes de importar"; exit 1; }
+      - name: Converter, montar o manifesto, validar e testar
+        run: |
+          for v in onbv blt tft; do python3 -I scripts/import-versao.py $v /tmp/usfm/$v; done
+          python3 -I scripts/import-gutenberg-almeida.py /tmp/pg62383.raw
+          node scripts/build-manifest.mjs
+          node scripts/validate-content.mjs
+          node --test tests/*.test.mjs
+      - name: Gravar no repositório e publicar
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && { echo "nada mudou"; exit 0; }
+          git commit -m "conteúdo: traduções ONBV, BLT e TfT (CC BY-SA 4.0) e Almeida 1911"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          gh workflow run pages.yml --ref main
