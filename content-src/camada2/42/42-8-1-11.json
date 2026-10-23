@@ -1,0 +1,142 @@
+{
+ "id": "42-8-1-11",
+ "ref": "Lucas 8:1-11",
+ "book": "42",
+ "chapter": 8,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E aconteceu depois disso, que Jesus andava de cidade em cidade, e de aldeia em aldeia, pregando e anunciando o evangelho do reino de Deus; e com ele os doze,"
+  },
+  {
+   "n": 2,
+   "t": "e algumas mulheres que haviam sido curadas de espíritos malignos e de enfermidades: Maria, chamada Madalena, da qual saíram sete demônios;"
+  },
+  {
+   "n": 3,
+   "t": "e Joana, a mulher de Cuza, mordomo de Herodes; e Susana, e muitas outras, que o serviam com seus bens."
+  },
+  {
+   "n": 4,
+   "t": "E quando se ajuntou uma multidão, e vindo a ele de todas as cidades, disse por parábola:"
+  },
+  {
+   "n": 5,
+   "t": "Saiu um semeador a semear sua semente; e quando semeava, caiu uma parte junto ao caminho, e foi pisada, e as aves do céu a comeram."
+  },
+  {
+   "n": 6,
+   "t": "E outra parte caiu sobre a pedra; e nascida, secou-se, porque não tinha umidade."
+  },
+  {
+   "n": 7,
+   "t": "E outra parte caiu entre espinhos, e nascendo com ela, os espinhos a sufocaram."
+  },
+  {
+   "n": 8,
+   "t": "E outra parte caiu em boa terra, e nascida, produziu fruto a cem por um. Depois que disse coisas, exclamava: Quem tem ouvidos para ouvir, ouça."
+  },
+  {
+   "n": 9,
+   "t": "E os seus discípulos lhe perguntaram: Que parábola é esta?"
+  },
+  {
+   "n": 10,
+   "t": "Ele disse: A vós é dado conhecer os mistérios do reino de Deus; mas aos outros por parábolas, para que vendo, não vejam; e ouvindo, não entendam."
+  },
+  {
+   "n": 11,
+   "t": "Esta é, pois, a parábola: a semente é a palavra de Deus."
+  }
+ ],
+ "titulo": "Onde a palavra de Deus pode cair",
+ "temas": [
+  "palavra",
+  "oração",
+  "serviço",
+  "reino",
+  "atenção"
+ ],
+ "pergunta": "O que impede que a mensagem de Jesus tome raiz em você?",
+ "entender": "Lucas 8 começa mostrando Jesus em movimento. Ele não ficava parado em um lugar confortável; andava de cidade em cidade, pregando o evangelho do reino de Deus. Quem o acompanhava não eram apenas os doze apóstolos, mas também mulheres que haviam sido curadas de espíritos malignos e enfermidades, como Maria Madalena e Joana. Elas serviam a Jesus com seus próprios bens, mostrando que o Reino atrai pessoas de diferentes origens para um serviço ativo.\n\nDiante de uma multidão, Jesus conta a parábola do semeador. A semente cai em quatro tipos de solo: caminho, pedra, espinhos e boa terra. Jesus explica que a semente representa a palavra de Deus. Ele deixa claro que os discípulos recebem a explicação dos mistérios do Reino, enquanto aos outros a mensagem é dada em parábolas. O foco aqui não é a qualidade da semente, que é sempre boa, mas a condição da terra onde ela cai. Isso nos convida a refletir sobre como estamos recebendo a mensagem que chega até nós.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para Jesus como o anunciador do Reino. Ele é o semeador da palavra. A presença de mulheres curadas e servindo com seus bens mostra que o evangelho liberta e transforma a vida prática. A parábola revela que, embora a palavra seja poderosa, sua eficácia depende da resposta do coração. Jesus convida: \"Quem tem ouvidos para ouvir, ouça\". Isso nos leva a buscar a Cristo não apenas como uma ideia, mas como o Senhor que transforma quem O recebe com um coração preparado.",
+  "selo": true
+ },
+ "viver": "Assim como o semeador lança a semente sem escolher o terreno, nós somos convidados a preparar nosso coração para receber a palavra. Pergunte-se: há algo em sua rotina, como preocupações ou prazeres, que está agindo como espinhos e sufocando o crescimento da fé? Identifique uma área específica onde você tem se distraído e busque, em oração, remover esses obstáculos. Servir a Deus com seus recursos, como fizeram as mulheres no texto, é uma forma concreta de demonstrar que a palavra tomou raiz e está produzindo fruto em sua vida diária.",
+ "guarde": "A qualidade da terra determina o fruto, não a semente que é lançada.",
+ "ore": "Jesus, que andaste de cidade em cidade, ensina-me a ouvir tua palavra com atenção. Remove de meu coração as pedras da impaciência e os espinhos das distrações. Que eu seja boa terra, onde tua mensagem tome raiz e produza fruto para tua glória.",
+ "quiz": {
+  "pergunta": "Segundo Lucas 8:11, o que a semente representa na parábola do semeador?",
+  "opcoes": [
+   "O evangelho do reino",
+   "A palavra de Deus",
+   "Os discípulos de Jesus"
+  ],
+  "certa": 1,
+  "explicacao": "O texto afirma explicitamente no versículo 11 que \"a semente é a palavra de Deus\". As outras opções, embora relacionadas ao contexto, não são a definição direta dada por Jesus para a semente."
+ },
+ "refs": [
+  "Mateus 13:1-9",
+  "Marcos 4:1-20",
+  "João 12:37-40"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T06:51:53.328Z",
+  "rounds": 1
+ }
+}

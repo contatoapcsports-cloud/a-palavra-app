@@ -1,0 +1,137 @@
+{
+ "id": "42-7-41-50",
+ "ref": "Lucas 7:41-50",
+ "book": "42",
+ "chapter": 7,
+ "verses": [
+  {
+   "n": 41,
+   "t": "Jesus disse: “Certo credor tinha dois devedores. Um lhe devia quinhentas moedas de prata, e o outro cinquenta."
+  },
+  {
+   "n": 42,
+   "t": "Como não tinham com que pagar, perdoou-lhes a dívida de ambos. Dize, pois, qual deles o amará mais?”"
+  },
+  {
+   "n": 43,
+   "t": "Simão respondeu: Tenho para mim que aquele a quem mais perdoou. E ele lhe disse: Julgaste corretamente."
+  },
+  {
+   "n": 44,
+   "t": "Ele se voltou à mulher, e disse a Simão: Vês tu esta mulher? Entrei na tua casa, e não me deste água para os pés; porém esta molhou os meus pés com lágrimas, e os enxugou com os seus cabelos da cabeça."
+  },
+  {
+   "n": 45,
+   "t": "Tu não me beijaste; porém esta, desde que entrou, não parou de me beijar os pés."
+  },
+  {
+   "n": 46,
+   "t": "Não ungiste a minha cabeça com óleo, porém esta ungiu os meus pés com óleo perfumado."
+  },
+  {
+   "n": 47,
+   "t": "Por isso te digo, os muitos pecados dela são perdoados, porque muito amou; mas ao que pouco se perdoa, pouco ama."
+  },
+  {
+   "n": 48,
+   "t": "E disse a ela: Os teus pecados são perdoados."
+  },
+  {
+   "n": 49,
+   "t": "E os que estavam sentados começaram a dizer entre si: Quem é este, que até perdoa pecados?"
+  },
+  {
+   "n": 50,
+   "t": "E disse à mulher: A tua fé te salvou; vai em paz."
+  }
+ ],
+ "titulo": "A matemática do amor e do perdão",
+ "temas": [
+  "perdão",
+  "graça",
+  "humildade",
+  "fé"
+ ],
+ "pergunta": "Por que a mulher que chorou mais foi a que amou mais?",
+ "entender": "Jesus conta uma parábola a Simão, um fariseu que o convidara para jantar. Dois devedores não tinham como pagar suas dívidas: um devia quinhentas moedas, o outro cinquenta. O credor perdoou a ambos. Jesus pergunta qual deles amaria mais o credor. Simão responde corretamente: aquele a quem mais se perdoou.\n\nJesus usa essa lógica para comparar o comportamento de Simão com o da mulher. Simão não ofereceu água para os pés, não o beijou e não ungiu sua cabeça. A mulher, porém, molhou os pés de Jesus com lágrimas, os enxugou com seus cabelos, beijou-os e ungiu-os com óleo perfumado. Jesus conclui que os muitos pecados dela foram perdoados porque muito amou, enquanto ao que pouco se perdoa, pouco ama.\n\nAo dizer à mulher que seus pecados são perdoados, os convidados ficam chocados, perguntando-se quem é Ele para perdoar pecados. Jesus responde que a fé dela a salvou e manda que ela vá em paz. O contraste não é para humilhar Simão, mas para mostrar que a consciência profunda da graça recebida gera uma resposta de amor e adoração genuínos.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a autoridade de Jesus sobre o pecado. Na cultura judaica, apenas Deus podia perdoar pecados ao declarar isso publicamente. Ao afirmar que a fé da mulher a salvou, Jesus revela sua identidade divina e o coração do evangelho: a salvação não vem da nossa capacidade de ser bons ou de pagar dívidas espirituais, mas da graça recebida pela fé. A reação da mulher demonstra o fruto natural dessa salvação: um amor que se expressa em gratidão e serviço.",
+  "selo": true
+ },
+ "viver": "A parábola nos ensina que a intensidade do nosso amor a Deus não depende do quão 'perfeitos' somos, mas do quão profundamente entendemos o perdão que recebemos. Se você sente que seu amor a Deus é frio, talvez não seja falta de esforço, mas falta de contemplação da graça. Pense na dívida que Jesus pagou por você: ela é infinita. Ao reconhecer essa imensidão, seu coração se abre para amar mais, não por obrigação, mas por gratidão. Não se compare com os 'quinhentas moedas' dos outros; foque na fidelidade de Deus em perdoá-lo.",
+ "guarde": "Aquele que reconhece o tamanho do perdão recebido, ama com mais intensidade e liberdade.",
+ "ore": "Jesus, que perdoou a mulher diante de Simão, ensina-me a ver minha dívida como ela viu a dela. Que a consciência da Tua graça transforme meu coração em gratidão, removendo o medo e a frieza. Ajuda-me a amar-Te não pelo que eu faço, mas pelo que Tu fizeste por mim.",
+ "quiz": {
+  "pergunta": "Qual era a lógica de Jesus na parábola dos dois devedores?",
+  "opcoes": [
+   "O credor decide quem perdoar.",
+   "Quem deve menos, ama menos.",
+   "Quem foi mais perdoado amaria mais."
+  ],
+  "certa": 2,
+  "explicacao": "Jesus usou a parábola para mostrar que a magnitude do perdão recebido é a base para a profundidade do amor e da gratidão que a pessoa demonstra."
+ },
+ "refs": [
+  "Lucas 5:17-26",
+  "João 20:23",
+  "Efésios 2:4-8"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T06:53:41.318Z",
+  "rounds": 2
+ }
+}

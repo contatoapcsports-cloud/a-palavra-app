@@ -1,0 +1,137 @@
+{
+ "id": "42-7-31-40",
+ "ref": "Lucas 7:31-40",
+ "book": "42",
+ "chapter": 7,
+ "verses": [
+  {
+   "n": 31,
+   "t": "E o Senhor disse: “A quem, pois, compararei as pessoas desta geração? E a quem são semelhantes?"
+  },
+  {
+   "n": 32,
+   "t": "São semelhantes às crianças sentadas na praça, que gritam umas às outras: 'Nós vos tocamos flautas, mas não dançastes; nós vos cantamos lamentações, mas não chorastes'."
+  },
+  {
+   "n": 33,
+   "t": "Porque veio João Batista, que não comia pão, nem bebia vinho, e dizeis: 'Ele tem demônio';"
+  },
+  {
+   "n": 34,
+   "t": "Veio o Filho do homem, que come e bebe, e dizeis: 'Eis um homem comilão e bebedor de vinho, amigo dos publicanos e dos pecadores'."
+  },
+  {
+   "n": 35,
+   "t": "Mas a sabedoria foi considerada justa por todos os seus filhos”."
+  },
+  {
+   "n": 36,
+   "t": "E um dos fariseus lhe pediu que comesse com ele; então entrou na casa do fariseu, e sentou-se à mesa ."
+  },
+  {
+   "n": 37,
+   "t": "E eis que uma mulher da cidade, que era pecadora, quando soube que ele estava na casa do fariseu, trouxe um vaso de alabastro de óleo perfumado."
+  },
+  {
+   "n": 38,
+   "t": "E estando atrás, aos seus pés, chorando, começou a molhar-lhe os pés com lágrimas; e os enxugava com os cabelos da sua cabeça; e beijava-lhe os pés, e os ungia com o óleo perfumado."
+  },
+  {
+   "n": 39,
+   "t": "E quando o fariseu que o havia convidado viu isso , falou consigo mesmo: Se ele fosse profeta, saberia quem e qual é a mulher que o toca; porque ela é pecadora."
+  },
+  {
+   "n": 40,
+   "t": "E Jesus lhe respondeu: “Simão, tenho uma coisa a te dizer”; e ele disse: “Dize-a, Mestre”."
+  }
+ ],
+ "titulo": "Por que a sabedoria foi rejeitada?",
+ "temas": [
+  "rejeição",
+  "sabedoria",
+  "perdão",
+  "humildade"
+ ],
+ "pergunta": "O que acontece quando tentamos encaixar Deus no nosso molde de expectativas?",
+ "entender": "Em Lucas 7:31-35, Jesus compara a geração de sua época a crianças na praça que gritam umas para as outras. Elas tocam flautas, mas as outras não dançam; cantam lamentações, mas ninguém chora. É uma geração insatisfeita que sempre encontra um motivo para rejeitar o que Deus envia. Primeiro veio João Batista, que vivia no deserto, não comia nem bebia vinho, e os críticos disseram que ele tinha demônio. Depois veio Jesus, que comia e bebia, e o acusaram de ser comilão, bebedor e amigo de pecadores.\n\nA ironia é que, no fundo, a sabedoria de Deus foi considerada justa por todos os seus filhos. O problema não era a mensagem, mas a rigidez dos ouvintes. Eles queriam um Messias que se encaixasse nas suas expectativas políticas ou religiosas, e quando Jesus não se encaixou, o rejeitaram. Jesus não se deixou prender pelas regras humanas; Ele veio para salvar, e isso ofendeu a lógica de quem se achava justo.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para a pessoa de Jesus. Ele é o 'Filho do homem' que veio não para ser servido, mas para servir e dar a sua vida. A rejeição de Jesus por parte dos líderes religiosos é o prelúdio da cruz, onde a sabedoria de Deus se revelou de forma suprema: Deus justifica o pecador pela graça. A mulher pecadora que aparece logo após (v. 37-38) é a resposta prática ao evangelho: ao ver a graça de Jesus, ela se entrega a Ele com amor e gratidão, algo que o fariseu, confiado em sua própria justiça, não consegue fazer.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, rejeitamos a direção de Deus porque ela não bate com o nosso plano ou com a nossa ideia de como as coisas deveriam ser. Talvez você esteja esperando que Deus resolva sua vida de uma forma específica, e quando Ele age de um jeito diferente, você se frustra ou duvida. O texto nos convida a soltar o controle. Em vez de questionar o método de Deus, observe o resultado: a salvação. Se a sua fé depende de previsibilidade, ela pode ser frágil. A verdadeira fé se ancora na pessoa de Jesus, não nas circunstâncias. Pergunte-se: estou aceitando o jeito de Deus, ou estou tentando impor o meu?",
+ "guarde": "A sabedoria de Deus é rejeitada por quem prefere a sua própria razão à graça.",
+ "ore": "Jesus, Tu que foste rejeitado por não seres como esperávamos, ensina-me a aceitar a Tua vontade. Ajuda-me a parar de questionar o Teu método e a confiar no Teu caráter. Que eu não seja como as crianças da praça, sempre insatisfeitas, mas como a mulher que, ao conhecer a graça, se rendeu a Ti.",
+ "quiz": {
+  "pergunta": "Segundo Lucas 7:33-34, quais eram as acusações feitas contra João Batista e contra Jesus, respectivamente?",
+  "opcoes": [
+   "João era pobre; Jesus era rico.",
+   "João era preguiçoso; Jesus era arrogante.",
+   "João tinha demônio; Jesus era comilão e bebedor."
+  ],
+  "certa": 2,
+  "explicacao": "O texto diz explicitamente que, por João não comer nem beber, disseram que ele tinha demônio; e por Jesus comer e beber, disseram que ele era comilão e bebedor."
+ },
+ "refs": [
+  "Mateus 11:18-19",
+  "Marcos 2:17",
+  "Lucas 15:1-2"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T06:51:50.653Z",
+  "rounds": 1
+ }
+}

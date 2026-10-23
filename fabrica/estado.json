@@ -1053,24 +1053,32 @@
    "titulo": "O toque que devolveu a vida"
   },
   "42-7-21-30": {
-   "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "execucoes": 1,
+   "ultimo": "automático: entender:citacao_longa, entender:citacao_fora_do_texto, quiz.explicacao:citacao_longa"
   },
   "42-7-31-40": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Por que a sabedoria foi rejeitada?"
   },
   "42-7-41-50": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: LANGUAGE_CLARITY: O texto comete erro de concordância pronominal ao afirmar que Simão 'não a beijou', referindo-se incorretamente a Jesus no feminino em vez de 'não o beijou'.",
+   "estado": "pronto",
+   "titulo": "A matemática do amor e do perdão"
   },
   "42-8-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:menos_de_2_paragrafos, refs:quantidade",
+   "estado": "pronto",
+   "titulo": "Onde a palavra de Deus pode cair"
   },
   "42-8-12-22": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:guarde:41-3-24-35",
+   "estado": "pronto",
+   "titulo": "Quatro terrenos para a mesma semente"
   },
   "42-8-23-34": {
    "execucoes": 0,
@@ -1091,28 +1099,48 @@
   "42-9-11-22": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-9-23-31": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-9-32-41": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-9-42-52": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-9-53-62": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-10-1-11": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 373,
-   "entrada": 895180,
-   "saida": 332770
+   "chamadas": 380,
+   "entrada": 915930,
+   "saida": 339347
   },
   "groq-qwen": {
-   "chamadas": 369,
-   "entrada": 841763,
-   "saida": 294797
+   "chamadas": 376,
+   "entrada": 860685,
+   "saida": 301259
   },
   "gemini": {
-   "chamadas": 303,
-   "entrada": 975144,
-   "saida": 377947
+   "chamadas": 308,
+   "entrada": 991937,
+   "saida": 384441
   },
   "cloudflare": {
-   "chamadas": 186,
-   "entrada": 644528,
-   "saida": 69006
+   "chamadas": 190,
+   "entrada": 659107,
+   "saida": 70490
   },
   "mistral": {
    "chamadas": 0,
