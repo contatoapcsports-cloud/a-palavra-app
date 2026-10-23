@@ -1054,7 +1054,9 @@
   },
   "42-7-21-30": {
    "execucoes": 1,
-   "ultimo": "automático: entender:citacao_longa, entender:citacao_fora_do_texto, quiz.explicacao:citacao_longa"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração inicia-se invocando João Batista como destinatário em vez de ser dirigida a Deus.",
+   "estado": "pronto",
+   "titulo": "A resposta que não precisa de palavras"
   },
   "42-7-31-40": {
    "execucoes": 0,
@@ -1085,16 +1087,20 @@
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   },
   "42-8-35-45": {
-   "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "execucoes": 1,
+   "ultimo": "gemini: MIRACLE_SCOPE: A seção Viver garante que Jesus 'responde com cura' diante de problemas difíceis, prometendo milagre sob demanda. | MEDICAL_SAFETY: A afirmação de que Jesus responde a problemas com cura constitui uma promessa indevida de cura física. | LANGUAGE_CLARITY: A frase de início da oração ('"
   },
   "42-8-46-56": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Do toque à ressurreição: a fé que move"
   },
   "42-9-1-10": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O envio que não depende de bagagem"
   },
   "42-9-11-22": {
    "execucoes": 0,
@@ -1119,28 +1125,56 @@
   "42-10-1-11": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-10-12-21": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-10-22-33": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-10-34-42": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-11-1-11": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-11-12-22": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-11-23-32": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-11-33-43": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 380,
-   "entrada": 915930,
-   "saida": 339347
+   "chamadas": 386,
+   "entrada": 933308,
+   "saida": 344895
   },
   "groq-qwen": {
-   "chamadas": 376,
-   "entrada": 860685,
-   "saida": 301259
+   "chamadas": 383,
+   "entrada": 879831,
+   "saida": 307230
   },
   "gemini": {
-   "chamadas": 308,
-   "entrada": 991937,
-   "saida": 384441
+   "chamadas": 317,
+   "entrada": 1022857,
+   "saida": 400181
   },
   "cloudflare": {
-   "chamadas": 190,
-   "entrada": 659107,
-   "saida": 70490
+   "chamadas": 193,
+   "entrada": 669881,
+   "saida": 71603
   },
   "mistral": {
    "chamadas": 0,

@@ -1,0 +1,137 @@
+{
+ "id": "42-9-1-10",
+ "ref": "Lucas 9:1-10",
+ "book": "42",
+ "chapter": 9,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Jesus convocou seus doze discípulos, e lhes deu poder e autoridade sobre todos os demônios, e para curarem enfermidades."
+  },
+  {
+   "n": 2,
+   "t": "E os enviou para pregar o reino de Deus e para curar os enfermos."
+  },
+  {
+   "n": 3,
+   "t": "E disse-lhes: “Não tomeis nada convosco para o caminho: nem vara, nem bolsa, nem pão, nem dinheiro, nem tenhais duas túnicas cada um."
+  },
+  {
+   "n": 4,
+   "t": "E em qualquer casa que entrardes, ficai ali, e dali saí."
+  },
+  {
+   "n": 5,
+   "t": "E a todo os que não vos receberem, quando sairdes daquela cidade, sacudi até o pó dos vossos pés, em testemunho contra eles”."
+  },
+  {
+   "n": 6,
+   "t": "Então eles partiram, e percorreram todas as aldeias, anunciando o Evangelho, e curando em todos os lugares."
+  },
+  {
+   "n": 7,
+   "t": "E o tetrarca Herodes ouvia falar todas as coisas que ele fazia; e estava perplexo, porque alguns diziam que João tinha ressuscitado dos mortos;"
+  },
+  {
+   "n": 8,
+   "t": "e outros, que Elias havia aparecido; e outros, que algum profeta dos antigos havia ressuscitado."
+  },
+  {
+   "n": 9,
+   "t": "E Herodes disse: “A João mandei degolar; quem, pois, é este, de quem tais coisas ouço?” E procurava vê-lo."
+  },
+  {
+   "n": 10,
+   "t": "E quando os apóstolos, voltaram, contaram a Jesus todas as coisas que tinham feito. Então ele os tomou consigo, e retirou-se à parte a um lugar deserto de uma cidade chamada Betsaida."
+  }
+ ],
+ "titulo": "O envio que não depende de bagagem",
+ "temas": [
+  "confiança",
+  "missão",
+  "simplicidade",
+  "dependência de deus"
+ ],
+ "pergunta": "O que você leva consigo quando precisa confiar no cuidado de Deus para o amanhã?",
+ "entender": "Em Lucas 9, Jesus prepara seus doze discípulos para uma missão clara: pregar o Reino de Deus e curar os enfermos. Para isso, Ele lhes dá poder e autoridade, mas impõe uma condição radical de desapego. Jesus instrui: “Não tomeis nada convosco para o caminho: nem vara, nem bolsa, nem pão, nem dinheiro”. Essa ordem não é sobre pobreza extrema, mas sobre dependência total. Ao viajar sem reservas, os discípulos precisariam confiar na provisão de Deus e na receptividade das pessoas. A missão era urgente e pessoal: entrar nas casas, permanecer ali e partir quando não fossem mais bem-vindos.\n\nO texto mostra que a mensagem do Evangelho não depende de recursos humanos ou segurança material. Os discípulos percorreram as aldeias anunciando e curando, provando que o poder vinha de Jesus, não de suas próprias capacidades. Herodes, ouvindo falar dessas obras, fica perplexo, tentando entender quem Jesus era. A reação do tetrarca contrasta com a certeza dos discípulos: eles sabiam de onde vinha o poder. Ao retornarem, contaram tudo a Jesus, que os levou a um lugar deserto para descansar, mostrando que a missão exige também tempo de intimidade com o Mestre.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para a autoridade de Jesus sobre o mal e a doença, demonstrando que Ele é o Senhor do Reino. Ao enviar os discípulos com poder para curar, Jesus revela que o Evangelho é uma boa notícia que traz libertação real, não apenas moral. A confiança que Ele exige dos apóstolos reflete a natureza do Reino: viver à vista de Deus, sem ansiedade pelo futuro. Essa dependência de Cristo é o coração do evangelho: somos salvos pela graça e vivemos pela fé, confiando que Ele sustenta nossa vida diária e nossa missão.",
+  "selo": true
+ },
+ "viver": "Imagine uma situação em que você precisa tomar uma decisão importante, mas não tem todas as respostas ou garantias. Em vez de tentar controlar tudo ou acumular segurança própria, pratique a confiança ativa. Ore pedindo direção e depois aja com simplicidade, confiando que Deus proverá o necessário. Assim como os discípulos deixaram suas reservas para confiar nas casas que visitariam, você pode soltar o medo do amanhã e focar no passo de hoje, sabendo que o mesmo Jesus que enviou os doze continua cuidando de você.",
+ "guarde": "A verdadeira segurança não está no que carregamos, mas em Quem nos enviou.",
+ "ore": "Jesus, que enviaste os doze sem bagagem, ensina-me a confiar em Ti para hoje. Tira de mim a ansiedade pelo futuro e dá-me coragem para pregar e servir, sabendo que Tu cuidas de cada detalhe da minha vida. Amém.",
+ "quiz": {
+  "pergunta": "O que Jesus proibiu os discípulos de levar consigo durante a viagem?",
+  "opcoes": [
+   "Instrumentos musicais e mapas das aldeias",
+   "Livros de oração e vestes de festa",
+   "Vara, bolsa, pão, dinheiro e segunda túnica"
+  ],
+  "certa": 2,
+  "explicacao": "O texto lista especificamente itens de conforto, segurança e sustento para enfatizar a dependência de Deus e a simplicidade da missão."
+ },
+ "refs": [
+  "Mateus 10:9-10",
+  "Marcos 6:8-9",
+  "2 Coríntios 12:9"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T09:54:39.004Z",
+  "rounds": 1
+ }
+}

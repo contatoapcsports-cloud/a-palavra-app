@@ -1,0 +1,137 @@
+{
+ "id": "42-7-21-30",
+ "ref": "Lucas 7:21-30",
+ "book": "42",
+ "chapter": 7,
+ "verses": [
+  {
+   "n": 21,
+   "t": "E naquela mesma hora ele curou a muitos de enfermidades, males, e espíritos maus, e a deu vista a muitos cegos."
+  },
+  {
+   "n": 22,
+   "t": "E Jesus lhes respondeu: Ide, e anunciai a João as coisas que tendes visto e ouvido: que os cegos veem, os mancos andam, os leprosos são purificados, os surdos ouvem, os mortos ressuscitam, e aos pobres é anunciado o Evangelho."
+  },
+  {
+   "n": 23,
+   "t": "E bendito é aquele que não se ofender em mim."
+  },
+  {
+   "n": 24,
+   "t": "E quando os mensageiros de João se foram, Jesus começou a dizer às multidões acerca de João: Que saístes para ver no deserto? Alguma cana sacudida pelo vento?"
+  },
+  {
+   "n": 25,
+   "t": "Mas que saístes para ver? Um homem vestido de roupas delicadas? Eis que os que vestem roupas delicadas e vivem no luxo estão nos palácios reais."
+  },
+  {
+   "n": 26,
+   "t": "Mas que saístes para ver? Um profeta? Sim, vos digo, e muito mais que profeta."
+  },
+  {
+   "n": 27,
+   "t": "Este é aquele de quem está escrito: Eis que envio o meu mensageiro adiante de tua face, o qual preparará o teu caminho diante de ti."
+  },
+  {
+   "n": 28,
+   "t": "Pois eu vos digo, que dentre os nascidos de mulheres, não há profeta maior que João, o Batista; mas o menor no reino dos céus é maior que ele."
+  },
+  {
+   "n": 29,
+   "t": "E todo o povo e os publicanos ouviram, concordaram que Deus era justo, e foram batizados com o batismo de João."
+  },
+  {
+   "n": 30,
+   "t": "Mas os fariseus e os estudiosos da Lei rejeitaram o conselho de Deus contra si mesmos, e não foram batizados por ele."
+  }
+ ],
+ "titulo": "A resposta que não precisa de palavras",
+ "temas": [
+  "fé",
+  "evidência",
+  "testemunho",
+  "justiça"
+ ],
+ "pergunta": "Por que Jesus respondeu a João com fatos e não com uma afirmação direta?",
+ "entender": "João estava na prisão, cheio de dúvidas sobre se Jesus era realmente o Messias prometido. Em vez de enviar uma carta explicando sua identidade, Jesus mandou os mensageiros de volta com uma instrução prática: \"Ide, e anunciai a João as coisas que tendes visto e ouvido\". Ele listou milagres concretos: cegos vendo, leprosos sendo purificados e o Evangelho sendo anunciado aos pobres. A resposta de Jesus era: observe o que estou fazendo. O Messias não se define apenas por títulos, mas pelo poder que liberta e cura.\n\nImediatamente após, Jesus elogiou João Batista diante das multidões. Ele descreveu João não como um político ou um filósofo, mas como o mensageiro que prepararia o caminho. O povo, incluindo publicanos, aceitou essa mensagem e foi batizado, reconhecendo a justiça de Deus. Em contraste, os fariseus rejeitaram o conselho de Deus. O texto mostra que a mesma ação de Deus gera duas reações opostas: quem aceita a justiça se torna justo, e quem rejeita a verdade se condena.\n\nA grande lição é que a fé bíblica não é baseada em sentimentos vagos, mas em fatos históricos e na experiência de transformação. Jesus validou o ministério de João mostrando que seu próprio trabalho cumpria as profecias. E, ao mesmo tempo, advertiu que a dureza de coração leva à rejeição da verdade, mesmo quando ela está diante de nós.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para o evangelho porque Jesus usa suas obras para provar que é o Cristo. A cura dos doentes e a mensagem aos pobres são sinais do Reino. A resposta a João nos ensina que a fé vem pelo ouvir e ver as ações de Cristo. Além disso, a reação do povo versus a dos fariseus ilustra o coração humano: a graça de Deus oferece perdão e vida nova, mas exige uma resposta de arrependimento. Quem rejeita Jesus, rejeita a única fonte de salvação.",
+  "selo": true
+ },
+ "viver": "Talvez você esteja esperando um sinal grandioso ou uma resposta verbal para suas dúvidas, mas Deus muitas vezes fala através de mudanças concretas na sua vida e na dos que te cercam. Observe: onde você tem visto cura, paz ou justiça em ação? Em vez de duvidar por falta de uma resposta mística, confie nos fatos que você conhece sobre o caráter de Jesus. Como os publicanos, deixe que a verdade de Deus gere em você uma resposta honesta, mesmo que isso signifique mudar de atitude.",
+ "guarde": "A fé se sustenta nos fatos que vemos e ouvimos sobre Jesus, não apenas nas sensações do momento.",
+ "ore": "Jesus, que curaste os cegos e purificaste os leprosos, ensina-me a enxergar a tua obra. Como os mensageiros de João, quero trazer-te minhas dúvidas, mas mais do que isso, quero confiar nas evidências do teu amor. Ajuda-me a não rejeitar a tua justiça como os fariseus, mas a abraçá-la com gratidão, assim como o povo que foi batizado. Amém.",
+ "quiz": {
+  "pergunta": "O que Jesus mandou os mensageiros de João anunciar?",
+  "opcoes": [
+   "Uma promessa de libertação da prisão",
+   "Uma explicação teológica detalhada",
+   "As coisas que haviam visto e ouvido"
+  ],
+  "certa": 2,
+  "explicacao": "No versículo 22, Jesus instrui: \"Ide, e anunciai a João as coisas que tendes visto e ouvido\", focando nas obras realizadas em vez de uma resposta verbal direta."
+ },
+ "refs": [
+  "Mateus 11:2-6",
+  "Isaías 35:5-6",
+  "Marcos 6:17-20"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T09:45:34.835Z",
+  "rounds": 1
+ }
+}
