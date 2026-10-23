@@ -8,7 +8,7 @@ const VERSION = '__SHELL_HASH__';
 const SHELL = 'pv4-shell-' + VERSION;
 const CONTENT = 'pv4-content';
 const MEDIA = 'pv4-media';
-const SHELL_FILES = ['./', 'index.html', 'app.js', 'styles.css', 'src/core.js', 'src/books.js', 'manifest.json', 'reset.html', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable-192.png', 'icons/icon-maskable-512.png'];
+const SHELL_FILES = ['./', 'index.html', 'app.js', 'styles.css', 'src/core.js', 'src/books.js', 'src/palavra-dia.js', 'manifest.json', 'reset.html', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable-192.png', 'icons/icon-maskable-512.png'];
 /* opcionais: se faltarem no servidor, a instalação NÃO falha */
 const OPTIONAL_FILES = ['config.json', 'assets/termos.html', 'assets/creditos.html', 'assets/responsavel.jpg', 'assets/hero-bible.jpg', 'assets/hero-dawn.jpg', 'assets/hero-reading.jpg', 'assets/abencoe.jpg'];
 
