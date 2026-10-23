@@ -1,0 +1,137 @@
+{
+ "id": "42-6-30-39",
+ "ref": "Lucas 6:30-39",
+ "book": "42",
+ "chapter": 6,
+ "verses": [
+  {
+   "n": 30,
+   "t": "Dá a quem te pedir; e ao que te tomar o que é teu, não o peças de volta."
+  },
+  {
+   "n": 31,
+   "t": "E como vós quereis que as pessoas vos façam, fazei-lhes vós também da mesma maneira."
+  },
+  {
+   "n": 32,
+   "t": "E se amardes aos que vos amam, que mérito tereis? Pois também os pecadores amam os que os amam."
+  },
+  {
+   "n": 33,
+   "t": "E se fizerdes bem aos que vos fazem bem, que mérito tereis? Pois também os pecadores fazem o mesmo."
+  },
+  {
+   "n": 34,
+   "t": "E se emprestardes àqueles de quem esperais receber de volta, que mérito tereis? Pois também os pecadores emprestam aos pecadores, para receberam de volta o tanto equivalente."
+  },
+  {
+   "n": 35,
+   "t": "Em vez disso, amai aos vossos inimigos, fazei o bem, e emprestai, sem nada esperar disso; e grande será a vossa recompensa, e sereis filhos do Altíssimo; porque é benigno até para com os ingratos e maus."
+  },
+  {
+   "n": 36,
+   "t": "Portanto, sede misericordiosos, como também o vosso Pai é misericordioso."
+  },
+  {
+   "n": 37,
+   "t": "Não julgueis, e não sereis julgados; não condeneis, e não sereis condenados; liberai, e vos liberarão."
+  },
+  {
+   "n": 38,
+   "t": "Dai, e será vos dado; medida boa, comprimida, sacudida e transbordante vos darão no vosso colo; pois com a mesma medida que medirdes vos medirão de volta."
+  },
+  {
+   "n": 39,
+   "t": "E disse-lhesuma parábola: Acaso pode o cego guiar outro cego? Não cairão ambos no buraco?"
+  }
+ ],
+ "titulo": "O mérito de amar quem não ama",
+ "temas": [
+  "misericórdia",
+  "amor aos inimigos",
+  "recompensa",
+  "exemplo de deus"
+ ],
+ "pergunta": "O que acontece quando agimos de forma diferente da maioria?",
+ "entender": "Jesus continua seu discurso no monte, desafiando a lógica da troca. Ele pergunta: qual é o mérito de amar apenas quem te ama ou de fazer bem a quem te faz bem? A resposta é direta: nenhum, pois até quem não segue a Deus faz isso. O valor não está na reciprocidade, mas na origem do amor.\n\nEm vez disso, Jesus instrui: \"amai aos vossos inimigos, fazei o bem, e emprestai, sem nada esperar disso\". Essa atitude reflete o caráter de Deus, que é benigno até para com os ingratos. Ser filho do Altíssimo significa imitá-lo, sendo misericordioso como Ele é, rompendo o ciclo de julgamento e condenação.",
+ "ligar": {
+  "texto": "Este trecho revela o coração do evangelho: a graça de Deus não é baseada no nosso mérito, mas na Sua natureza. Jesus nos chama a viver essa mesma graça, mostrando que o amor verdadeiro não é reativo, mas originário. Ao amarmos como Deus ama, participamos da família de Deus e antecipamos o Reino onde a misericórdia reina.",
+  "selo": false
+ },
+ "viver": "A lógica do mundo diz que você só recebe o que dá. No entanto, Jesus propõe o contrário: dar sem esperar retorno. Escolha uma pessoa que te feriu ou com quem você tem uma relação difícil. Nesta semana, faça um pequeno gesto de bondade para ela, sem mencionar o passado e sem anotar a dívida. Esse ato concreto quebra a armadura do ressentimento e te aproxima do caráter do Pai.",
+ "guarde": "Sua recompensa é grande e você é filho do Altíssimo porque ama como o Pai é misericordioso.",
+ "ore": "Pai, que é benigno até para com os maus, perdoa minha tendência a retribuir o mal com mal. Ensina-me a amar meus inimigos e a ser misericordioso, refletindo Teu caráter em minha vida diária.",
+ "quiz": {
+  "pergunta": "Segundo Lucas 6:32-34, qual é o 'mérito' de amar apenas quem nos ama?",
+  "opcoes": [
+   "Nenhum, pois até os pecadores fazem isso.",
+   "É grande, pois mostra caráter espiritual.",
+   "É médio, pois depende da intensidade do amor."
+  ],
+  "certa": 0,
+  "explicacao": "Jesus argumenta que amar apenas quem nos ama é um comportamento comum a todos, inclusive a quem não segue a Deus, portanto não gera mérito espiritual especial."
+ },
+ "refs": [
+  "Mateus 5:43-48",
+  "Romanos 12:14-21",
+  "Tiago 1:17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T03:47:40.650Z",
+  "rounds": 2
+ }
+}

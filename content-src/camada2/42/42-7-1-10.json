@@ -1,0 +1,137 @@
+{
+ "id": "42-7-1-10",
+ "ref": "Lucas 7:1-10",
+ "book": "42",
+ "chapter": 7,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E depois de acabar todos os seus discursos aos ouvidos do povo, ele entrou em Cafarnaum."
+  },
+  {
+   "n": 2,
+   "t": "E o servo de um certo centurião, a quem muito estimava, que estava doente, e a ponto de morrer."
+  },
+  {
+   "n": 3,
+   "t": "E quando o centurião ouviu falar sobre Jesus, enviou-lhe uns anciãos dos judeus, rogando-lhe que viesse curar o seu servo."
+  },
+  {
+   "n": 4,
+   "t": "Eles vieram a Jesus, e rogaram-lhe com urgência, dizendo: Ele é digno de lhe concederes isto,"
+  },
+  {
+   "n": 5,
+   "t": "porque ele ama a nossa nação, e ele mesmo construiu a nossa sinagoga."
+  },
+  {
+   "n": 6,
+   "t": "Jesus foi com eles; mas quando já não estava longe da casa, o centurião enviou-lhe uns amigos, dizendo-lhe: “Senhor, não te incomodes, porque não sou digno que entres abaixo do meu telhado."
+  },
+  {
+   "n": 7,
+   "t": "Por isso que nem mesmo me considerei digno de vir a ti; mas diz uma palavra, e o meu servo sarará."
+  },
+  {
+   "n": 8,
+   "t": "Porque também eu sou homem subordinado à autoridade, e tenho soldados sob o meu comando, e digo a este: 'Vai', e ele vai; e a outro: 'Vem', e ele vem; e a meu servo: 'Faz isto', e ele faz”."
+  },
+  {
+   "n": 9,
+   "t": "Quando Jesus ouviu isso, admirou-se dele; então se virou, e disse à multidão que o seguia: Digo-vos que nem mesmo em Israel achei tanta fé."
+  },
+  {
+   "n": 10,
+   "t": "E quando os que foram enviados voltaram para casa, acharam com boa saúde o servo antes doente."
+  }
+ ],
+ "titulo": "A fé que não precisa ver Jesus",
+ "temas": [
+  "fé",
+  "humildade",
+  "autoridade",
+  "servo"
+ ],
+ "pergunta": "O que seria mais difícil para você: ir até Jesus ou confiar apenas na sua palavra?",
+ "entender": "Em Cafarnaum, um centurião romano, que comandava soldados, enviou anciãos judeus para pedir a Jesus que curasse seu servo. O homem valorizava muito o servo, que estava doente e perto da morte. Os anciãos insistiram, dizendo que ele era digno de ajuda porque amava o povo judeu e havia construído a sinagoga.\n\nJesus estava a caminho da casa, mas o centurião enviou amigos para dizer: “Senhor, não te incomodes, porque não sou digno que entres abaixo do meu telhado”. Ele reconheceu sua posição inferior diante de Jesus e declarou que bastava Jesus dizer uma palavra para o servo sarar. O centurião usou uma analogia militar: seus soldados obedeciam imediatamente às suas ordens, pois ele tinha autoridade sobre eles. Da mesma forma, ele acreditava que Jesus tinha autoridade sobre a doença.\n\nJesus se admirou com essa declaração, pois reconheceu que nem mesmo em Israel havia encontrado tamanha fé. Quando os enviados voltaram, o servo estava com boa saúde.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a autoridade de Jesus sobre a criação e a doença. O centurião não apenas pediu um milagre, mas reconheceu que Jesus tinha poder soberano através da palavra. Isso prepara o terreno para entendermos que Jesus é o Senhor que cria e sustenta todas as coisas. A fé do centurião destaca que a salvação e a cura vêm pela graça e pela autoridade de Cristo, não por mérito humano. A resposta de Jesus confirma que Ele é digno de adoração e que sua palavra tem poder final sobre a vida e a morte.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, sentimos que precisamos fazer muito esforço para agradar a Deus ou alcançar suas promessas. O centurião nos ensina que a fé verdadeira é descansar na autoridade de Jesus, mesmo quando não entendemos como Ele agirá. Em vez de insistir que Jesus deve vir até nós nos nossos termos, aprendamos a humilhar-nos diante de sua soberania. Confie na palavra de Jesus para a sua situação atual, sabendo que Ele tem poder sobre todos os problemas, da saúde às relações, e que sua resposta é sempre perfeita.",
+ "guarde": "A verdadeira fé é saber que a palavra de Jesus tem poder suficiente para transformar sua realidade.",
+ "ore": "Centurião de Cafarnaum, ensina-me a humildade. Ajuda-me a confiar na autoridade de Jesus, mesmo quando não vejo a solução imediata. Que minha fé cresça ao reconhecer que só uma palavra sua basta para curar e restaurar minha vida. Amém.",
+ "quiz": {
+  "pergunta": "Por que o centurião enviou amigos para encontrar Jesus antes que Ele chegasse à sua casa?",
+  "opcoes": [
+   "Para expressar que não se sentia digno de receber Jesus em sua casa.",
+   "Para pedir mais tempo para preparar uma oferta.",
+   "Para explicar que o servo já tinha melhorado."
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que ele enviou amigos dizendo que não era digno de Jesus entrar sob seu telhado, mostrando sua humildade e reconhecimento da grandeza de Cristo."
+ },
+ "refs": [
+  "Mateus 8:5-13",
+  "Marcos 1:27",
+  "João 1:1"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T03:46:43.029Z",
+  "rounds": 2
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "id": "42-6-21-29",
+ "ref": "Lucas 6:21-29",
+ "book": "42",
+ "chapter": 6,
+ "verses": [
+  {
+   "n": 21,
+   "t": "Benditos sois vós que agora tendes fome, porque sereis saciados. Benditos sois vós que agora chorais, porque rireis."
+  },
+  {
+   "n": 22,
+   "t": "Benditos sereis quando as pessoas vos odiarem, quando vos separarem, vos insultarem, e rejeitarem o vosso nome como mau, por causa do Filho do homem."
+  },
+  {
+   "n": 23,
+   "t": "Contentai-vos nesse dia, e saltai de alegria, porque eis que grande é a vossa recompensa nos céus; pois assim os pais deles faziam aos profetas."
+  },
+  {
+   "n": 24,
+   "t": "Mas ai de vós, ricos, porque já tendes a vossa consolação."
+  },
+  {
+   "n": 25,
+   "t": "Ai de vós que estais saciados, porque tereis fome. Ai de vós que agora rides, porque lamentareis, e chorareis."
+  },
+  {
+   "n": 26,
+   "t": "Ai de vós quando todas as pessoas falarem bem de vós; porque assim os pais deles faziam aos falsos profetas."
+  },
+  {
+   "n": 27,
+   "t": "Mas a vós, que estais ouvindo, digo: amai os vossos inimigos; fazei bem aos que vos odeiam;"
+  },
+  {
+   "n": 28,
+   "t": "bendizei aos que vos maldizem, e orai pelos que vos maltratam."
+  },
+  {
+   "n": 29,
+   "t": "Ao que te ferir numa face, oferece-lhe também a outra; e ao que te tirar a capa, não recuses a túnica."
+  }
+ ],
+ "titulo": "A promessa que desafia a riqueza e o conforto",
+ "temas": [
+  "recompensa",
+  "inveja",
+  "amor",
+  "justiça"
+ ],
+ "pergunta": "Você já sentiu que o mundo valoriza o que lhe dá prazer?",
+ "entender": "Jesus, ao observar a multidão, anuncia bênçãos inesperadas: “Benditos sois vós que agora tendes fome, porque sereis saciados” (Lc 6.21). Ele volta a dizer que os que choram também rirão. Em seguida, adverte: “Ai de vós, ricos, porque já tendes a vossa consolação” (Lc 6.24‑25). O mestre inverte o padrão humano, que costuma premiar o poderoso e condenar o pobre. Por fim, ensina atitudes radicalmente contrárias ao instinto: “amai os vossos inimigos; fazei bem aos que vos odeiam” (Lc 6.27‑28) e “Ao que te ferir numa face, oferece-lhe também a outra” (Lc 6.29). O discurso ocorre logo após Jesus ter curado muitos e ter proclamado que o Reino pertence aos pobres (Lc 6.20‑21). Ele fala a um povo faminto de justiça, mostrando que o Reino de Deus opera à margem das expectativas sociais.\n\nO contexto mostra que Jesus está ensinando seus discípulos e a multidão sobre o caráter do Reino: não se mede por posses ou status, mas por humildade, fome espiritual e disposição de amar sem esperar retorno. As “ais” dirigidas aos que se acham satisfeitos revelam que a complacência traz perda espiritual, enquanto a pobreza de espírito abre caminho para a plenitude que vem de Deus.",
+ "ligar": {
+  "texto": "Embora o texto não mencione Jesus pelo nome, ele fala do Filho do homem (Lc 6.22) e revela o coração do Reino que Ele veio inaugurar. A promessa de ser saciado e a recompensa nos céus apontam para a salvação que só Cristo oferece: quem reconhece sua necessidade (fome espiritual) encontra o pão da vida (João 6.35). O mandamento de amar inimigos ecoa o próprio exemplo de Cristo, que perdoou até os que o crucificaram (Mateus 5.44‑45). Assim, o ensino prepara o coração para receber o evangelho de graça e fé em Jesus, que cumpre a justiça que o mundo não pode dar.",
+  "selo": false
+ },
+ "viver": "A realidade hoje nos oferece conforto fácil: bons empregos, redes sociais que reforçam a aprovação e a segurança material. O texto nos desafia a reconhecer que, quando nos acomodamos, corremos o risco de perder a verdadeira satisfação. Podemos praticar a “segunda face” oferecendo perdão a quem nos magoou, mesmo que isso nos custe reputação ou tempo. Ao escolher amar quem nos ofende, demonstramos que nossa esperança não está nas circunstâncias, mas na graça que nos transforma.\n\nAlém disso, ao observar quem realmente tem fome – não só de comida, mas de sentido – podemos ser canais de ajuda concreta: visitar quem está só, compartilhar o que temos, ouvir sem julgar. Essa atitude cria um círculo de graça que reflete o Reino que Jesus anuncia.",
+ "guarde": "A verdadeira riqueza está em ser faminto de Deus, não em ter tudo preenchido.",
+ "ore": "Jesus, ao chamar os famintos, me ajuda a reconhecer minha própria necessidade e a confiar que Tu me saciarás.",
+ "quiz": {
+  "pergunta": "O que Jesus promete aos que hoje têm fome?",
+  "opcoes": [
+   "Serão ignorados",
+   "Serão ricos",
+   "Serão saciados"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus diz: “Benditos sois vós que agora tendes fome, porque sereis saciados” (Lc 6.21). Ele promete satisfação espiritual àqueles que reconhecem sua necessidade."
+ },
+ "refs": [
+  "Mateus 5:6",
+  "João 6:35",
+  "1 Coríntios 13:13",
+  "Tiago 2:15-16"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T03:38:18.259Z",
+  "rounds": 1
+ }
+}

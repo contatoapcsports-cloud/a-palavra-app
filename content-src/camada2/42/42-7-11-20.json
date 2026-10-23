@@ -1,0 +1,138 @@
+{
+ "id": "42-7-11-20",
+ "ref": "Lucas 7:11-20",
+ "book": "42",
+ "chapter": 7,
+ "verses": [
+  {
+   "n": 11,
+   "t": "E aconteceu no dia seguinte, que Jesus ia a uma cidade chamada Naim, e com ele iam muitos de seus discípulos e uma grande multidão."
+  },
+  {
+   "n": 12,
+   "t": "E quando chegou perto da porta da cidade, eis que levavam um defunto, filho único de sua mãe, que era viúva; e com ela ia grande multidão da cidade."
+  },
+  {
+   "n": 13,
+   "t": "Quando o Senhor a viu, comoveu-se de intima compaixão por ela, e disse-lhe: Não chores."
+  },
+  {
+   "n": 14,
+   "t": "Então se aproximou, tocou o caixão (e os que a levavam, pararam), e disse: Jovem, a ti eu digo: levanta-te."
+  },
+  {
+   "n": 15,
+   "t": "E o defunto se sentou e começou a falar; e ele o entregou à sua mãe."
+  },
+  {
+   "n": 16,
+   "t": "Todos se encheram de temor, e glorificavam a Deus, dizendo: “Um grande profeta se levantou entre nós, e Deus visitou o seu povo!”"
+  },
+  {
+   "n": 17,
+   "t": "E essa sua fama correu por toda a Judeia, e por toda a região em redor."
+  },
+  {
+   "n": 18,
+   "t": "E os discípulos de João lhe anunciaram essas coisas."
+  },
+  {
+   "n": 19,
+   "t": "Então João chamou dois de seus discípulos, e os enviou a Jesus, dizendo: “És tu aquele que havia de vir, ou esperamos outro?”"
+  },
+  {
+   "n": 20,
+   "t": "E quando aqueles homens vieram a ele, disseram: “João Batista nos enviou a ti, dizendo: 'És tu aquele que havia de vir, ou esperamos outro?'”"
+  }
+ ],
+ "titulo": "O toque que devolveu a vida",
+ "temas": [
+  "compaixão",
+  "poder de jesus",
+  "ressurreição",
+  "fé",
+  "luto"
+ ],
+ "pergunta": "O que significa para você quando Jesus olha diretamente para a sua dor e diz: não chores?",
+ "entender": "Lucas 7 nos mostra Jesus chegando à cidade de Naim. Lá, ele encontra uma multidão levando o corpo de um jovem, filho único de uma viúva. A cena é de luto profundo: a mãe perdeu seu único apoio, e a cidade inteira acompanha o cortejo. Jesus, ao ver a viúva, sente uma compaixão intensa e a consola com as palavras: \"Não chores\".\n\nEm seguida, Jesus faz algo extraordinário. Ele se aproxima, toca o caixão e ordena: \"Jovem, a ti eu digo: levanta-te\". O morto se senta e começa a falar. Jesus o entrega à sua mãe. A reação da multidão é de temor e adoração: eles reconhecem que um grande profeta se levantou e que Deus visitou o seu povo. Esse evento fortalece a fama de Jesus, a ponto de João Batista, preso na prisão, enviar discípulos para perguntar se Jesus era mesmo aquele que havia de vir.",
+ "ligar": {
+  "texto": "Este episódio é uma demonstração clara do poder de Jesus sobre a morte, confirmando sua identidade como o Messias. Ao restaurar a vida, Jesus mostra que seu Reino traz vida onde havia morte. A pergunta de João Batista revela que, mesmo entre os que conheciam as profecias, havia dúvida. A resposta de Jesus, dada logo depois (curando os cegos, leprosos etc.), aponta para o evangelho: ele é o cumprimento das promessas, trazendo salvação e vida eterna. A compaixão de Jesus pela viúva mostra que seu amor precede seu poder; ele se importa com o sofrimento humano antes de agir.",
+  "selo": true
+ },
+ "viver": "A viúva em Naim estava cercada por um luto que parecia definitivo. Jesus não passou por ela sem ver. Talvez você esteja carregando uma dor que parece isolar, ou uma situação que parece sem saída. Jesus se aproxima do seu \"caixão\" emocional ou circunstancial. Ele não oferece apenas consolo vazio, mas intervenção real. A aplicação concreta é confiar que, assim como ele tocou o morto, ele pode tocar sua situação hoje. Não espere estar pronto; permita que a compaixão dele encontre você no meio do seu luto, trazendo esperança de renovação.",
+ "guarde": "Jesus vê sua dor com compaixão e tem poder para trazer vida onde ela parece ter terminado.",
+ "ore": "Jesus, que em Naim tocou o caixão do jovem, olha para a minha dor com a mesma compaixão. Eu preciso que a tua voz me alcance no meio do meu luto. Mostra-me que tu és o Messias e traz vida nova à minha situação, assim como fizeste com o filho da viúva.",
+ "quiz": {
+  "pergunta": "O que a multidão disse ao ver o jovem ressuscitado?",
+  "opcoes": [
+   "Que um grande profeta se levantou e Deus visitou o seu povo.",
+   "Que o jovem era um anjo disfarçado.",
+   "Que Jesus era o rei do mundo."
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz explicitamente que eles glorificavam a Deus dizendo: \"Um grande profeta se levantou entre nós, e Deus visitou o seu povo!\"."
+ },
+ "refs": [
+  "João 11:1-44",
+  "Mateus 14:2-12",
+  "Isaías 61:1-2"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T03:48:46.498Z",
+  "rounds": 1
+ }
+}

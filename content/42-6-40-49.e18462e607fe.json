@@ -1,0 +1,137 @@
+{
+ "id": "42-6-40-49",
+ "ref": "Lucas 6:40-49",
+ "book": "42",
+ "chapter": 6,
+ "verses": [
+  {
+   "n": 40,
+   "t": "O discípulo não está acima do seu mestre; mas todo aquele que estiver completamente capacitado será como o seu mestre."
+  },
+  {
+   "n": 41,
+   "t": "E por que tu prestas atenção no cisco que está no olho do teu irmão, e não enxergas a trave que está no teu próprio olho?"
+  },
+  {
+   "n": 42,
+   "t": "Ou como podes dizer a teu irmão: “Irmão, deixa-me tirar o cisco que está no teu olho”, se tu mesmo não prestas atenção na trave que está no teu olho? Hipócrita, tira primeiro a trave de teu olho, e então verás bem para tirar o cisco que está no olho do teu irmão."
+  },
+  {
+   "n": 43,
+   "t": "Pois não há boa árvore que dê mau fruto, nem árvore má que dê bom fruto."
+  },
+  {
+   "n": 44,
+   "t": "Porque cada árvore se conhece pelo seu próprio fruto; pois não se colhem figos dos espinheiros, nem se tiram uvas dos cardos."
+  },
+  {
+   "n": 45,
+   "t": "A boa pessoa tira o bem do bom tesouro do seu coração, e a pessoa má tira o mal do mau tesouro do seu coração; pois a sua boca fala daquilo que o coração tem em abundância."
+  },
+  {
+   "n": 46,
+   "t": "E por que me chamais: “Senhor!”, “Senhor!”, e não fazeis o que eu digo?"
+  },
+  {
+   "n": 47,
+   "t": "Todo aquele que vem a mim, ouve as minhas palavras, e as pratica, eu vos mostrarei a quem é semelhante:"
+  },
+  {
+   "n": 48,
+   "t": "Semelhante é ao homem que construiu uma casa, cavou, abriu bem fundo, e pôs o fundamento sobre a rocha; e quando veio a enchente, a corrente bateu com ímpeto naquela casa, e não a pôde abalar, porque estava fundada sobre a rocha."
+  },
+  {
+   "n": 49,
+   "t": "Mas aquele que ouve e não pratica é semelhante ao homem que construiu uma casa sobre a terra, sem fundamento, na qual a corrente bateu com ímpeto, e logo caiu; e foi grande a queda daquela casa."
+  }
+ ],
+ "titulo": "A diferença entre ouvir e construir",
+ "temas": [
+  "obediência",
+  "fundamento",
+  "caráter",
+  "hipocrisia"
+ ],
+ "pergunta": "O que acontece com uma casa quando a tempestade chega e ela não tem alicerce?",
+ "entender": "Neste trecho, Jesus confronta a hipocrisia humana. Ele usa a imagem de ver o cisco no olho do irmão, mas ignorar a trave no seu próprio. A lição é prática: antes de corrigir os outros, precisamos de honestidade para lidar com nossas próprias falhas. Essa clareza interna é o que permite agir com verdade.\n\nJesus continua explicando que o comportamento externo reflete o estado interno. Assim como a árvore é conhecida pelo fruto, a boca fala do que o coração tem em abundância. Não se trata de fingir bondade, mas de deixar que a natureza transformada produza ações boas de forma natural.\n\nPor fim, Ele faz uma pergunta crítica: por que chamamos de 'Senhor' quem não obedece? A resposta está na parábola das duas casas. Ouvir sem praticar é construir sobre a terra, sem alicerce. Aquele que ouve e faz o que Jesus diz constrói sobre a rocha. Quando a enchente vier, a diferença entre as duas casas será evidente: uma resiste, a outra cai.",
+ "ligar": {
+  "texto": "Jesus se apresenta aqui como o Senhor cuja palavra é o único fundamento seguro. A salvação não é apenas intelectual, mas implica uma submissão ativa à sua autoridade. A rocha sobre a qual a casa é construída aponta para Cristo e suas instruções. O evangelho é oferecido não como uma sugestão, mas como a base que sustenta a vida diante das crises. Sem essa obediência prática, a fé permanece frágil e incapaz de suportar os desafios reais da existência.",
+  "selo": true
+ },
+ "viver": "A casa construída sobre a terra parece sólida até que a corrente bate. Em nossa rotina, muitas vezes acumulamos decisões e atitudes que parecem inofensivas, mas que, na verdade, minam nossa estabilidade espiritual. Identifique uma área onde você tem apenas ouvido as orientações de Deus, mas não as colocado em prática. Talvez seja no perdão a alguém, na generosidade ou na honestidade. Escolha uma ação concreta para essa semana que alinhe seu comportamento às palavras de Jesus. Não espere a tempestade para testar seu alicerce; fortaleça-o agora, com atos diários de obediência.",
+ "guarde": "Ouvir sem praticar é como construir sem alicerce: a queda será inevitável quando a tempestade chegar.",
+ "ore": "Senhor Jesus, Tu que dizes que a rocha é o fundamento, ajuda-me a não ser apenas ouvinte. Mostra-me onde há 'traves' no meu coração que preciso remover. Que minha vida não seja uma casa sobre a terra, mas uma estrutura firme sobre Ti, capaz de resistir a qualquer enchente que vier.",
+ "quiz": {
+  "pergunta": "Segundo Lucas 6.49, qual é o resultado final para aquele que ouve as palavras de Jesus, mas não as pratica?",
+  "opcoes": [
+   "Sua casa caiu e a queda foi grande.",
+   "Ele foi punido imediatamente por Deus.",
+   "Sua casa resistiu, mas ficou danificada."
+  ],
+  "certa": 0,
+  "explicacao": "O texto compara essa pessoa a quem construiu sobre a terra sem fundamento. Quando a corrente bateu, a casa caiu logo e a queda foi grande."
+ },
+ "refs": [
+  "Mateus 7:24-27",
+  "Tiago 1:22",
+  "Provérbios 4:23"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T03:46:13.139Z",
+  "rounds": 2
+ }
+}
