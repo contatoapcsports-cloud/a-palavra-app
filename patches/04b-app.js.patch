@@ -43,7 +43,7 @@ index 0f396e1..44a8d7c 100644
 +    var busca = h('input', { type: 'search', class: 'vsearch', placeholder: 'Buscar tradução pelo nome ou sigla', 'aria-label': 'Buscar tradução' });
 +    var lista = h('div', { class: 'vlist' });
 +    nodes.push(busca, lista);
-+    function norm(t) { return String(t || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, ''); }
++    function norm(t) { return String(t || '').toLowerCase().normalize('NFD').replace(new RegExp('[' + String.fromCharCode(768) + '-' + String.fromCharCode(879) + ']', 'g'), ''); }
 +    function item(v) {
 +      var on = v.id === activeVersion().id, box = h('div', { class: 'vitem' });
 +      box.appendChild(h('button', { class: 'vopt', type: 'button', 'aria-pressed': on ? 'true' : 'false', onclick: function () { setVersion(v.id); } }, [
