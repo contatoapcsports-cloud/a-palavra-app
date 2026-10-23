@@ -1,0 +1,141 @@
+{
+ "id": "42-8-35-45",
+ "ref": "Lucas 8:35-45",
+ "book": "42",
+ "chapter": 8,
+ "verses": [
+  {
+   "n": 35,
+   "t": "E saíram para ver o acontecido, e vieram até Jesus; e acharam ao homem de quem os demônios tinham saído, vestido e em pleno juízo, sentado aos pés de Jesus; e temeram."
+  },
+  {
+   "n": 36,
+   "t": "E os que tinham visto contaram-lhes também como aquele endemoninhado havia sido liberto."
+  },
+  {
+   "n": 37,
+   "t": "E toda o povo da terra dos gadarenos ao redor lhe rogou que se retirasse deles; porque foram tomados por grande temor. Então ele entrou no barco e voltou."
+  },
+  {
+   "n": 38,
+   "t": "E aquele homem, de quem os demônios tinham saído, rogou-lhe para que lhe permitisse estar com ele; mas Jesus o despediu, dizendo:"
+  },
+  {
+   "n": 39,
+   "t": "“Volta para tua casa, e conta como foram grandes as coisas que Deus te fez”. Ele se foi, e pregou por toda a cidade, como foram grandes as coisas que Jesus lhe tinha feito."
+  },
+  {
+   "n": 40,
+   "t": "E aconteceu que, quando Jesus voltou, a multidão o recebeu; porque todos o estavam esperando."
+  },
+  {
+   "n": 41,
+   "t": "E eis que chegou um homem, cujo nome era Jairo, e era chefe da sinagoga. Então ele se prostrou aos pés de Jesus e rogou-lhe que entrasse em sua casa;"
+  },
+  {
+   "n": 42,
+   "t": "porque tinha uma filha única, com doze anos de idade, que estava a ponto de morrer. E enquanto ele ia, as multidões o apertavam."
+  },
+  {
+   "n": 43,
+   "t": "E uma mulher que tinha um fluxo de sangue, havia doze anos, e já tinha gastado todos os seus pertences com médicos, e não pôde ser curada por nenhum."
+  },
+  {
+   "n": 44,
+   "t": "Ela se aproximou de Jesus por detrás, e tocou a borda de sua roupa; e logo o fluxo de seu sangue parou."
+  },
+  {
+   "n": 45,
+   "t": "E Jesus disse: “Quem me tocou?” Enquanto todos negavam, disse Pedro e os que com ele estavam: Mestre, as multidões te apertam e empurram, e dizes: Quem me tocou?"
+  }
+ ],
+ "titulo": "O toque que parou o sangue",
+ "temas": [
+  "fé",
+  "cura",
+  "humildade",
+  "poder"
+ ],
+ "pergunta": "O que acontece quando tocamos Jesus com fé, mesmo escondido?",
+ "entender": "Depois de expulsar os demônios de um homem e ser pedido para ir embora por causa do medo, Jesus atravessa o lago. Do outro lado, a multidão o espera. É nesse momento que Jairo, chefe da sinagoga, se prostra aos pés de Jesus, pedindo ajuda para sua filha de doze anos, que está morrendo. Enquanto Jesus vai até a casa de Jairo, uma mulher que sofria com hemorragia há doze anos se aproxima por trás e toca a borda da roupa de Jesus. Imediatamente, seu fluxo de sangue para.\n\nJesus percebe que saiu poder dele e pergunta: \"Quem me tocou?\". Os discípulos acham a pergunta estranha, pois a multidão o apertava, mas Jesus insiste porque sabe que foi um toque de fé específico. O texto destaca a coragem da mulher e a sensibilidade de Jesus, que não se deixou abafar pela multidão para encontrar quem realmente precisava dele.",
+ "ligar": {
+  "texto": "Este trecho mostra Jesus como o centro da atenção e da cura. Ele tem o poder para curar Jairo da perda da filha e a mulher da doença crônica. A fé da mulher, mesmo que tímida, alcançou o poder de Cristo. Isso aponta para o evangelho: Jesus não se afasta de quem tem fé, mesmo que essa pessoa se sinta indigna ou escondida. Ele busca ativamente os que se aproximam dele.",
+  "selo": true
+ },
+ "viver": "Às vezes, temos medo de nos aproximar de Deus por nos sentirmos pecadores ou insignificantes diante da multidão. A mulher do fluxo de sangue nos ensina que a fé não precisa de um palco; ela precisa de um toque. Se você sente que não tem o que oferecer a Deus, lembre-se: Ele não está procurando perfeição, mas fé. Dê um passo, mesmo que pequeno, e experimente o poder que sai dele para curar as áreas da sua vida que estão sangrando.",
+ "guarde": "O poder de Jesus se manifesta quando a fé, mesmo tímida, ousa tocá-lo.",
+ "ore": "Ao lado do lago, onde a multidão esperava, eu me aproximo de Ti, Jesus. Assim como a mulher tocou a borda da Tua roupa, eu toco a Tua graça hoje. Cura minha vida e renova minha esperança.",
+ "quiz": {
+  "pergunta": "Por que Jesus perguntou \"Quem me tocou?\" quando a multidão o apertava?",
+  "opcoes": [
+   "Porque Ele sabia que poder saiu dEle para curar a mulher.",
+   "Porque Ele estava confuso com o movimento da multidão.",
+   "Porque Ele queria repreender os discípulos por estarem apressados."
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que Jesus sabia que poder saiu dEle, indicando que um toque específico de fé havia ocorrido, diferente do contato físico da multidão."
+ },
+ "refs": [
+  "Marcos 5:25-34",
+  "Mateus 9:20-22",
+  "Hebreus 11:1"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T12:55:11.993Z",
+  "rounds": 2
+ }
+}

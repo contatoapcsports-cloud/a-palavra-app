@@ -1,0 +1,145 @@
+{
+ "id": "42-8-23-34",
+ "ref": "Lucas 8:23-34",
+ "book": "42",
+ "chapter": 8,
+ "verses": [
+  {
+   "n": 23,
+   "t": "E enquanto navegavam, Jesus adormeceu; então desceu uma tempestade de vento no lago, e enchiam-se de água , e estavam em perigo."
+  },
+  {
+   "n": 24,
+   "t": "Então se aproximaram dele e o despertaram, dizendo: “Mestre, Mestre, estamos perecendo!” E ele se levantou, repreendeu o vento e as ondas da água; e pararam, e fez-se bonança."
+  },
+  {
+   "n": 25,
+   "t": "E disse-lhes: “Onde está a vossa fé?” Mas eles, temendo, admiravam-se, e diziam uns aos outros: “Quem é este, que manda até aos ventos, e à água, e lhe obedecem?”"
+  },
+  {
+   "n": 26,
+   "t": "E navegaram para a terra dos gadarenos, que é do lado oposto à Galileia."
+  },
+  {
+   "n": 27,
+   "t": "E quando ele desceu à terra, veio da cidade ao seu encontro um homem, que havia muito tempo que tinha demônios, e não andava vestido, nem habitava em casa nenhuma, mas sim, nos sepulcros."
+  },
+  {
+   "n": 28,
+   "t": "Ele viu Jesus, então exclamou, prostrou-se diante dele, e disse com grande voz: “O que eu tenho contigo, Jesus, Filho do Deus Altíssimo? Rogo-te que não me atormentes.”"
+  },
+  {
+   "n": 29,
+   "t": "Porque ele havia mandado ao espírito imundo que saísse daquele homem; pois muitas vezes apoderava-se dele. E o mantinham preso com cadeias e grilhões; porém ele quebrava o que lhe prendia, e era conduzido pelo demônio aos desertos."
+  },
+  {
+   "n": 30,
+   "t": "E Jesus lhe perguntou: “Qual é teu nome?” E ele disse: “Legião” (porque muitos demônios tinham entrado nele)."
+  },
+  {
+   "n": 31,
+   "t": "E rogavam-lhe que não os mandasse ir para o abismo."
+  },
+  {
+   "n": 32,
+   "t": "E havia ali uma manada de muitos porcos, que pastavam no monte; e rogaram-lhe que lhes concedesse entrar neles; e ele lhes concedeu."
+  },
+  {
+   "n": 33,
+   "t": "Os demônios saíram daquele homem e entraram nos porcos; e a manada se lançou de um precipício no lago e se afogou."
+  },
+  {
+   "n": 34,
+   "t": "Quando os que cuidavam dos porcos viram o que havia acontecido, fugiram; então foram anunciar na cidade e nos campos."
+  }
+ ],
+ "titulo": "A tempestade que revela a fé que falta",
+ "temas": [
+  "fé",
+  "autoridade",
+  "livramento"
+ ],
+ "pergunta": "Você já sentiu que a sua confiança em Jesus desaparece nas tempestades da vida?",
+ "entender": "Jesus e os discípulos cruzavam o lago quando \"enquanto navegavam, Jesus adormeceu; então desceu uma tempestade de vento no lago\" (Lc 8.23). O medo tomou conta dos discípulos, que o despertaram clamando: \"Mestre, Mestre, estamos perecendo!\" (8.24). Ao se levantar, Jesus repreendeu o vento e as ondas, trazendo bonança, e então perguntou: \"Onde está a vossa fé?\" (8.25). Chegando à terra dos gadarenos, encontraram um homem possuído por muitos demônios. O homem, ao ver Jesus, prostrou‑se e pediu: \"O que eu tenho contigo, Jesus, Filho do Deus Altíssimo?\" (8.28). Jesus expulsou a legião de demônios, que entraram numa manada de porcos que se lançaram ao lago e se afogaram (8.33‑34). O relato mostra duas situações de poder de Jesus: sobre a natureza e sobre o reino espiritual, ambas sob sua autoridade.\n\nO contexto anterior indica que Jesus decidiu atravessar o lago (8.20‑22), preparando o cenário para o milagre. Depois do milagre, o povo da região reage com medo e pede que Jesus se retire (8.37‑38), mostrando que a presença de Cristo pode gerar esperança ou temor, conforme o coração que o recebe.",
+ "ligar": {
+  "texto": "A autoridade de Jesus sobre o vento e as ondas aponta para o seu poder divino, como o Criador que controla a natureza (Isaías 40:12‑14). Essa mesma autoridade liberta o homem endemoninhado, revelando que o Cristo que acalma a tempestade tem poder para quebrar as cadeias do pecado. Assim, o convite à fé que Jesus faz aos discípulos abre caminho ao evangelho: confiar naquele que pode salvar tanto o barco quanto a alma.",
+  "selo": true
+ },
+ "viver": "Quando a vida parece uma tempestade fora de controle – seja um problema financeiro, de saúde ou familiar – lembre‑se de que Jesus ainda tem autoridade sobre as ondas que agitam o seu coração. Assim como os discípulos despertaram Jesus, procure a presença dEle em oração, reconhecendo a necessidade de fé e pedindo que Ele traga a calmaria interior. Da mesma forma, se alguém ao seu redor vive preso a hábitos destrutivos ou pensamentos sombrios, ofereça a mesma compaixão que o homem endemoninhado recebeu, apontando para o poder de Cristo que liberta e transforma.",
+ "guarde": "A fé que confia em Jesus traz calmaria mesmo nas maiores tempestades.",
+ "ore": "Jesus, que acalmou a tempestade no lago de Genesaré, eu clamo por tua paz que domina o medo e traz confiança ao meu coração.",
+ "quiz": {
+  "pergunta": "O que Jesus perguntou aos discípulos depois de acalmar a tempestade?",
+  "opcoes": [
+   "Onde está a vossa fé?",
+   "Por que vocês temem?",
+   "Quem é o Senhor dos ventos?"
+  ],
+  "certa": 0,
+  "explicacao": "Após repreender o vento e as ondas, Jesus questionou a confiança dos discípulos: \"Onde está a vossa fé?\" (Lc 8.25)."
+ },
+ "refs": [
+  "Marcos 4:35-41",
+  "Mateus 8:23-27",
+  "Isaías 43:2",
+  "Lucas 4:18-19"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T12:48:18.462Z",
+  "rounds": 3
+ }
+}

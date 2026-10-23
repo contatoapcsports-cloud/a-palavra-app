@@ -1,57 +1,46 @@
-Fábrica de ensinos — execução de 2026-10-23T09:56:33.360Z
-Fila: 3058 trechos; prontos: 181; limite desta execução: 150 ensinos / 170 min; 3 em paralelo.
-> Lucas 7:21-30 (42-7-21-30)
-  [42-7-21-30] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+Fábrica de ensinos — execução de 2026-10-23T12:57:15.308Z
+Fila: 3058 trechos; prontos: 184; limite desta execução: 150 ensinos / 170 min; 3 em paralelo.
 > Lucas 8:23-34 (42-8-23-34)
   [42-8-23-34] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
 > Lucas 8:35-45 (42-8-35-45)
   [42-8-35-45] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-  [42-8-35-45] rodada 1: verificação automática recusou: ligar:citacao_fora_do_texto
-  [42-8-35-45] rodada 2: verificação automática recusou: ligar:citacao_fora_do_texto
-  [42-7-21-30] rodada 1: gemini recusou: PRAYER_FIDELITY: A oração inicia-se invocando João Batista como destinatário em vez de ser dirigida a Deus.
-  [42-8-35-45] rodada 3: verificação automática recusou: entender:menos_de_2_paragrafos
-  LIMITE DIÁRIO [42-7-21-30]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198730, Requested 3691. Please try again in 17m25.871999999s. Need more toke — troca de modelo, se houver outro permitido.
-  [42-7-21-30] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  [42-8-23-34] rodada 1: gemini recusou: REFERENCE_BOUNDARY: Atribui a frase a Lucas 8.29 em vez do versículo 28 e incorpora o detalhe do homem sentado aos pés de Jesus (v. 35) sem indicar que está fora do trecho-alvo delimitado. | PERSON_ENTITY_CONSISTENCY: Afirma que o povo fugiu para anunciar o ocorrido, quando o versículo 34 especifica que foram os que cuidavam dos porcos.
-  LIMITE DIÁRIO [42-8-23-34]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198730, Requested 3691. Please try again in 17m25.871999999s. Need more toke — troca de modelo, se houver outro permitido.
-  [42-8-23-34] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  PRONTO [42-7-21-30]: "A resposta que não precisa de palavras" (aprovado pelos dois auditores em 1 rodada(s))
-> Lucas 8:46-56 (42-8-46-56)
-  [42-8-46-56] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  [42-8-23-34] rodada 1: gemini recusou: NARRATIVE_EVENT_CONSISTENCY: O texto não relata que os demônios deram um nome ao homem possuído, mas que a resposta 'Legião' foi dada à pergunta de Jesus porque muitos demônios haviam entrado nele. | CROSS_SECTION_CONSISTENCY: A pergunta do teste formula uma premissa incorreta em relação ao relato bíblico ao questionar o suposto nome que os demônios teriam dado ao homem. | LANGUAGE_CLARITY: Há err
-  [42-8-35-45] rodada 4: gemini recusou: MIRACLE_SCOPE: A seção Viver garante que Jesus 'responde com cura' diante de problemas difíceis, prometendo milagre sob demanda. | MEDICAL_SAFETY: A afirmação de que Jesus responde a problemas com cura constitui uma promessa indevida de cura física. | LANGUAGE_CLARITY: A frase de início da oração ('Jairo, ao ver sua filha à beira da morte, eu venho a Ti, Senhor...') apresenta grave truncamento sin
-  [42-8-35-45] não aprovado nesta execução (1/3); tenta de novo depois
-> Lucas 9:1-10 (42-9-1-10)
-  [42-9-1-10] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  PRONTO [42-8-46-56]: "Do toque à ressurreição: a fé que move" (aprovado pelos dois auditores em 1 rodada(s))
 > Lucas 9:11-22 (42-9-11-22)
+  [42-9-11-22] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  [42-8-23-34] rodada 1: verificação automática recusou: entender:citacao_longa
+  [42-8-35-45] rodada 1: verificação automática recusou: entender:citacao_fora_do_texto, ligar:citacao_fora_do_texto
+  [42-9-11-22] rodada 1: verificação automática recusou: entender:citacao_fora_do_texto
+  [42-8-23-34] rodada 2: gemini recusou: REFERENCE_BOUNDARY: A fala 'O que eu tenho contigo, Jesus, Filho do Deus Altíssimo?' encontra-se no versículo 28, mas foi incorretamente referenciada como versículo 29.
+  [42-9-11-22] rodada 2: verificação automática recusou: entender:citacao_fora_do_texto
+  [42-8-35-45] rodada 2: gemini recusou: REFERENCE_BOUNDARY: O ensino afirma que a mulher confessa e é elogiada por Jesus, fatos que ocorrem apenas nos versículos 47 e 48, além do limite do trecho-alvo (v. 35-45), sem qualquer aviso. | PRAYER_FIDELITY: A seção 'ORE' não apresenta uma oração dirigida a Deus, consistindo apenas em uma reflexão pessoal.
+  LIMITE DIÁRIO [42-9-11-22]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198563, Requested 3581. Please try again in 15m26.208s. Need more tokens? Up — troca de modelo, se houver outro permitido.
   [42-9-11-22] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  [42-9-11-22] rodada 1: verificação automática recusou: abertura_repetida:viver:43-3-13-24
-  [42-8-23-34] rodada 2: gemini recusou: REFERENCE_BOUNDARY: O texto afirma no 'Entender' que o homem foi encontrado vestido e em pleno juízo aos pés de Jesus, detalhe narrado apenas no versículo 35, fora do trecho-alvo (vv. 23-34). | LANGUAGE_CLARITY: Apresenta erro de conjugação verbal no 'Entender' ao grafar 'encheia' em vez de 'enchia'.
-  LIMITE DIÁRIO [42-8-23-34]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198438, Requested 3697. Please try again in 15m22.32s. Need more tokens? Upgra — troca de modelo, se houver outro permitido.
-  [42-8-23-34] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [42-8-23-34]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+  [42-9-11-22] rodada 1: gemini recusou: LANGUAGE_CLARITY: A seção ORE contém erro gramatical que prejudica o sentido no trecho 'reconhecer Tuas como o Messias'.
+  PRONTO [42-8-23-34]: "A tempestade que revela a fé que falta" (aprovado pelos dois auditores em 3 rodada(s))
 > Lucas 9:23-31 (42-9-23-31)
-  [42-9-23-31] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [42-9-23-31]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+  [42-9-23-31] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  LIMITE DIÁRIO [42-8-35-45]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198563, Requested 3581. Please try again in 15m26.208s. Need more tokens? Up — troca de modelo, se houver outro permitido.
+  [42-8-35-45] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [42-8-35-45] rodada 1: verificação automática recusou: abertura_repetida:ore:41-9-11-20
+  [42-9-23-31] rodada 1: verificação automática recusou: entender:citacao_fora_do_texto, viver:citacao_fora_do_texto
+  PRONTO [42-9-11-22]: "Cinco pães e a identidade de Jesus" (aprovado pelos dois auditores em 2 rodada(s))
 > Lucas 9:32-41 (42-9-32-41)
-  [42-9-32-41] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [42-9-32-41]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+  [42-9-32-41] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [42-9-23-31] rodada 2: verificação automática recusou: entender:citacao_fora_do_texto
+  LIMITE DIÁRIO [42-9-23-31]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198423, Requested 4057. Please try again in 17m51.359999999s. Need more tokens — troca de modelo, se houver outro permitido.
+  [42-9-23-31] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  PRONTO [42-9-32-41]: "A voz que confirma a identidade de Jesus" (aprovado pelos dois auditores em 1 rodada(s))
 > Lucas 9:42-52 (42-9-42-52)
   [42-9-42-52] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [42-9-42-52]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+  ERRO [42-9-23-31]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 > Lucas 9:53-62 (42-9-53-62)
   [42-9-53-62] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  [42-9-11-22] rodada 2: gemini recusou: PERSON_ENTITY_CONSISTENCY: A oração confunde as pessoas da Trindade ao se dirigir ao Pai chamando-o de 'o Cristo' e falando da 'Tua ressurreição'. | DOCTRINAL_OVERREACH: Fere a doutrina trinitária e cristológica histórica descrita nas diretrizes ao atribuir a Deus Pai a condição de Cristo e a ressurreição. | PRAYER_FIDELITY: A oração é teologicamente incoerente com a Escritura ao pedir ao Pai que 
-  LIMITE DIÁRIO [42-9-11-22]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198438, Requested 3697. Please try again in 15m22.32s. Need more tokens? Upgra — troca de modelo, se houver outro permitido.
-  [42-9-11-22] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  PRONTO [42-9-1-10]: "O envio que não depende de bagagem" (aprovado pelos dois auditores em 1 rodada(s))
+  PRONTO [42-8-35-45]: "O toque que parou o sangue" (aprovado pelos dois auditores em 2 rodada(s))
 > Lucas 10:1-11 (42-10-1-11)
   [42-10-1-11] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [42-9-53-62]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+  ERRO [42-9-42-52]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 > Lucas 10:12-21 (42-10-12-21)
   [42-10-12-21] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [42-9-11-22]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+  ERRO [42-9-53-62]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 > Lucas 10:22-33 (42-10-22-33)
   [42-10-22-33] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
   ERRO [42-10-1-11]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
@@ -75,10 +64,10 @@ Oito erros seguidos; parando para não gastar à toa.
 Oito erros seguidos; parando para não gastar à toa.
   ERRO [42-11-33-43]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 Oito erros seguidos; parando para não gastar à toa.
-Resumo: 3 novos ensinos, 1 não aprovados, 2 travados ignorados. Total pronto: 184 de 3058 trechos.
+Resumo: 4 novos ensinos, 0 não aprovados, 2 travados ignorados. Total pronto: 188 de 3058 trechos.
 
-groq-gpt (openai/gpt-oss-120b): 6 chamadas, 17378 tokens entrada, 5548 saída [LIMITE DIÁRIO ATINGIDO]
-groq-qwen (qwen/qwen3.8-27b): 7 chamadas, 19146 tokens entrada, 5971 saída [LIMITE DIÁRIO ATINGIDO]
+groq-gpt (openai/gpt-oss-120b): 7 chamadas, 21258 tokens entrada, 6583 saída [LIMITE DIÁRIO ATINGIDO]
+groq-qwen (qwen/qwen3.8-27b): 7 chamadas, 19698 tokens entrada, 5561 saída [LIMITE DIÁRIO ATINGIDO]
 mistral (mistral-medium-latest): 0 chamadas, 0 tokens entrada, 0 saída
-gemini (gemini-3.8-flash): 9 chamadas, 30920 tokens entrada, 15740 saída
-cloudflare (@cf/meta/llama-3.3-70b-instruct-fp8-fast): 3 chamadas, 10774 tokens entrada, 1113 saída
+gemini (gemini-3.5-flash): 7 chamadas, 23823 tokens entrada, 13512 saída
+cloudflare (@cf/meta/llama-3.3-70b-instruct-fp8-fast): 4 chamadas, 14578 tokens entrada, 1484 saída

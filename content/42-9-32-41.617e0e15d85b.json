@@ -1,0 +1,139 @@
+{
+ "id": "42-9-32-41",
+ "ref": "Lucas 9:32-41",
+ "book": "42",
+ "chapter": 9,
+ "verses": [
+  {
+   "n": 32,
+   "t": "Pedro e os que estavam com ele estavam cheios de sono; e quando despertaram, viram a glória dele, e aqueles dois homens que estavam com ele."
+  },
+  {
+   "n": 33,
+   "t": "E aconteceu que, quando eles estavam saíndo da presença dele, Pedro disse a Jesus: “Mestre, é bom estarmos nós aqui. Façamos três tendas, uma para ti, uma para Moisés, e uma para Elias”, não sabendo o que dizia."
+  },
+  {
+   "n": 34,
+   "t": "E enquanto ele dizia isso, veio uma nuvem que os cobriu com a sua sombra; e, quando entraram na nuvem, temeram."
+  },
+  {
+   "n": 35,
+   "t": "E veio uma voz da nuvem, que dizia: “Este é o meu Filho amado; a ele ouvi”."
+  },
+  {
+   "n": 36,
+   "t": "E, depois de terminada aquela voz, Jesus se encontrava só; e eles se calaram, e por aqueles dias não contaram a ninguém nada do que tinham visto."
+  },
+  {
+   "n": 37,
+   "t": "E aconteceu no dia seguinte que, descendo eles do monte, uma grande multidão lhe saiu ao encontro."
+  },
+  {
+   "n": 38,
+   "t": "E eis que um homem da multidão clamou: “Mestre, rogo-te que vejas a meu filho, que é o único que tenho,"
+  },
+  {
+   "n": 39,
+   "t": "e eis que um espírito o toma, e de repente grita, e o convulsiona até espumar, e somente sai dele quando o maltrata severamente."
+  },
+  {
+   "n": 40,
+   "t": "E roguei aos teus discípulos que o exupulsassem, mas não conseguiram”."
+  },
+  {
+   "n": 41,
+   "t": "E Jesus respondeu: “Ó geração incrédula e perversa! Até quando estarei ainda convosco, e vos suportarei? Traze aqui teu filho”."
+  }
+ ],
+ "titulo": "A voz que confirma a identidade de Jesus",
+ "temas": [
+  "glória",
+  "filho de deus",
+  "obediência",
+  "milagre",
+  "fé"
+ ],
+ "pergunta": "Por que Pedro quis construir tendas no monte e o que a voz da nuvem revelou sobre Jesus?",
+ "entender": "Em Lucas 9.32-41, Pedro e os discípulos acordam sonolentos e veem a glória de Jesus ao lado de Moisés e Elias. Pedro, impressionado, sugere fazer três tendas, uma para cada, sem entender o peso do que via. Então, uma nuvem os cobre e uma voz do céu declara: “Este é o meu Filho amado; a ele ouvi”. Essa declaração confirma que Jesus não é apenas um grande profeta, mas o Filho de Deus a quem devemos obedecer.\n\nAo descerem do monte, encontram uma multidão e um pai desesperado cujo filho é atormentado por um espírito maligno. Os discípulos tentaram ajudar, mas falharam. Jesus, ao ver a falta de fé, chama a geração de “incrédula e perversa”, mas ainda assim convida o pai a trazer o menino, mostrando que a autoridade dele supera qualquer obstáculo.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a divindade de Jesus. A voz de Deus o identifica como “Filho amado”, ecoando o batismo e confirmando sua singularidade. A falha dos discípulos em expulsar o demônio contrasta com a autoridade total de Jesus, que cura o menino. O evangelho está aqui: Jesus é o Filho de Deus que tem poder sobre o mal e chama para a fé, mesmo quando a nossa confiança é fraca.",
+  "selo": true
+ },
+ "viver": "Às vezes, queremos “construir tendas” com Jesus, ou seja, criar uma religião confortável que nos permita ignorar o chamado à obediência. A voz da nuvem nos lembra que a prioridade é ouvir e seguir a Jesus, não apenas admirá-lo. Quando enfrentamos problemas que nossos próprios esforços não resolvem, como o pai do menino, devemos levar a situação a Jesus com fé, confiando que sua autoridade é maior que qualquer dificuldade.",
+ "guarde": "A voz de Deus não aponta para Moisés ou Elias, mas para Jesus: “Este é o meu Filho amado; a ele ouvi”.",
+ "ore": "No monte da transfiguração, ensina-me a ouvir tua voz acima das minhas ideias. Ajuda-me a não criar “tendas” de conforto que me afastem da obediência. Dá-me fé para trazer meus problemas a ti, confiando que tua autoridade é maior que qualquer mal.",
+ "quiz": {
+  "pergunta": "O que a voz da nuvem disse sobre Jesus?",
+  "opcoes": [
+   "Que deviam construir três tendas",
+   "Que ele era igual a Moisés e Elias",
+   "Que ele é o Filho amado de Deus"
+  ],
+  "certa": 2,
+  "explicacao": "A voz celestial declara explicitamente: “Este é o meu Filho amado; a ele ouvi”, confirmando a identidade divina de Jesus e a necessidade de obedecê-lo."
+ },
+ "refs": [
+  "Marcos 9:7-8",
+  "Mateus 17:5",
+  "Atos 3:22",
+  "Lucas 1:35"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T12:55:02.679Z",
+  "rounds": 1
+ }
+}

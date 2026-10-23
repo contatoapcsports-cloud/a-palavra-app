@@ -1084,11 +1084,15 @@
   },
   "42-8-23-34": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: REFERENCE_BOUNDARY: A fala 'O que eu tenho contigo, Jesus, Filho do Deus Altíssimo?' encontra-se no versículo 28, mas foi incorretamente referenciada como versículo 29.",
+   "estado": "pronto",
+   "titulo": "A tempestade que revela a fé que falta"
   },
   "42-8-35-45": {
    "execucoes": 1,
-   "ultimo": "gemini: MIRACLE_SCOPE: A seção Viver garante que Jesus 'responde com cura' diante de problemas difíceis, prometendo milagre sob demanda. | MEDICAL_SAFETY: A afirmação de que Jesus responde a problemas com cura constitui uma promessa indevida de cura física. | LANGUAGE_CLARITY: A frase de início da oração ('"
+   "ultimo": "automático: abertura_repetida:ore:41-9-11-20",
+   "estado": "pronto",
+   "titulo": "O toque que parou o sangue"
   },
   "42-8-46-56": {
    "execucoes": 0,
@@ -1104,7 +1108,9 @@
   },
   "42-9-11-22": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: LANGUAGE_CLARITY: A seção ORE contém erro gramatical que prejudica o sentido no trecho 'reconhecer Tuas como o Messias'.",
+   "estado": "pronto",
+   "titulo": "Cinco pães e a identidade de Jesus"
   },
   "42-9-23-31": {
    "execucoes": 0,
@@ -1112,7 +1118,9 @@
   },
   "42-9-32-41": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "A voz que confirma a identidade de Jesus"
   },
   "42-9-42-52": {
    "execucoes": 0,
@@ -1157,24 +1165,24 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 386,
-   "entrada": 933308,
-   "saida": 344895
+   "chamadas": 393,
+   "entrada": 954566,
+   "saida": 351478
   },
   "groq-qwen": {
-   "chamadas": 383,
-   "entrada": 879831,
-   "saida": 307230
+   "chamadas": 390,
+   "entrada": 899529,
+   "saida": 312791
   },
   "gemini": {
-   "chamadas": 317,
-   "entrada": 1022857,
-   "saida": 400181
+   "chamadas": 324,
+   "entrada": 1046680,
+   "saida": 413693
   },
   "cloudflare": {
-   "chamadas": 193,
-   "entrada": 669881,
-   "saida": 71603
+   "chamadas": 197,
+   "entrada": 684459,
+   "saida": 73087
   },
   "mistral": {
    "chamadas": 0,

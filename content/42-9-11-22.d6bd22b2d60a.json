@@ -1,0 +1,146 @@
+{
+ "id": "42-9-11-22",
+ "ref": "Lucas 9:11-22",
+ "book": "42",
+ "chapter": 9,
+ "verses": [
+  {
+   "n": 11,
+   "t": "E quando as multidões souberam, seguiram-no. Ele as recebeu, e lhes falava do Reino de Deus, e curava aos que precisavam de cura."
+  },
+  {
+   "n": 12,
+   "t": "E o dia já começava a declinar. Então os doze se aproximaram dele, e lhe disseram: “Despede a multidão, para irem aos lugares e aldeias ao redor, se agasalhem, e achem o que comer; porque aqui estamos em lugar deserto”."
+  },
+  {
+   "n": 13,
+   "t": "Mas ele lhes disse: “Dai-lhes vós de comer”. E eles disseram: “Não temos mais que cinco pães e dois peixes; a não ser se formos nós mesmos comprar de comer para todo este povo”."
+  },
+  {
+   "n": 14,
+   "t": "Porque havia ali quase cinco mil homens. Então disse aos seus discípulos: “Fazei-os se sentarem em grupos de cinquenta em cinquenta”."
+  },
+  {
+   "n": 15,
+   "t": "E assim procederam, fazendo todos se sentarem."
+  },
+  {
+   "n": 16,
+   "t": "Então ele tomou os cinco pães e os dois peixes e, olhando para o céu, abençoou-os e partiu-os, e os deu a seus discípulos, para os porem diante da multidão."
+  },
+  {
+   "n": 17,
+   "t": "E todos comeram, e saciaram-se; e levantaram doze cestos de pedaços que sobraram."
+  },
+  {
+   "n": 18,
+   "t": "E aconteceu que, quando ele estava orando só, e seus discípulos estavam com ele, que ele lhes perguntou: “Quem as multidões dizem que eu sou?”"
+  },
+  {
+   "n": 19,
+   "t": "E eles responderam: “ Uns , João Batista; outros, Elias; e outros, que algum dos profetas antigos ressuscitou”."
+  },
+  {
+   "n": 20,
+   "t": "E disse-lhes: “E vós, quem dizeis que eu sou?” E Pedro respondeu: “O Cristo de Deus”."
+  },
+  {
+   "n": 21,
+   "t": "Então ele os alertou, e mandou-lhes que não dissessem a ninguém,"
+  },
+  {
+   "n": 22,
+   "t": "dizendo: “É necessário que o Filho do homem sofra muitas coisas; que seja rejeitado pelos anciãos, pelos chefes dos sacerdotes, e pelos escribas; que seja morto, e que seja ressuscitado ao terceiro dia”."
+  }
+ ],
+ "titulo": "Cinco pães e a identidade de Jesus",
+ "temas": [
+  "milagre",
+  "identidade",
+  "sofrimento",
+  "fé",
+  "serviço"
+ ],
+ "pergunta": "O que a multidão achava que Jesus era e o que Pedro entendeu sobre Ele?",
+ "entender": "Lucas 9:11-22 mostra Jesus recebendo as multidões, curando doentes e falando do Reino. Quando o dia declinava, os discípulos sugeriram enviar as pessoas para que buscassem comida, pois estavam num lugar deserto. Jesus, porém, mandou que eles mesmos dessem de comer ao povo. Com apenas cinco pães e dois peixes, Jesus abençoou, partiu e distribuiu, saciando quase cinco mil homens.\n\nDepois de um momento de oração, Jesus perguntou aos discípulos quem as multidões diziam que Ele era. As respostas variavam: João Batista, Elias ou algum profeta ressuscitado. Então Jesus perguntou a Pedro: “E vós, quem dizeis que eu sou?”. Pedro respondeu: “O Cristo de Deus”. Jesus alertou os discípulos a não contarem isso a ninguém, explicando que o Filho do homem precisava sofrer, ser rejeitado e morto, mas ressuscitaria ao terceiro dia.",
+ "ligar": {
+  "texto": "Este trecho revela o núcleo do evangelho: Jesus não é apenas um curador ou profeta, mas o Cristo, o Messias prometido. A multiplicação dos pães demonstra Seu poder sobre a criação e Sua compaixão real. A confissão de Pedro aponta para a divindade de Jesus, mas a adição de Jesus sobre o sofrimento e a ressurreição mostra que o trono do Messias foi alcançado através da cruz. A salvação vem pela graça, pois Jesus sofreu por nós e venceu a morte.",
+  "selo": true
+ },
+ "viver": "Às vezes, olhamos para nossos recursos limitados e achamos que não podemos ajudar ninguém. Jesus nos convida a dar o pouco que temos, confiando que Ele multiplica. Na prática, isso significa oferecer tempo, atenção ou ajuda concreta a quem precisa, sem esperar ter tudo resolvido primeiro. A fé não é ter todas as respostas, mas confiar que Jesus transforma o insignificante em suficiente para abençoar outros.",
+ "guarde": "Jesus é o Cristo de Deus, que venceu a morte para nos dar vida eterna.",
+ "ore": "Jesus, em Betsaida, Tu me ensinaste que o pouco nas minhas mãos pode ser muito nas Tuas. Ajuda-me a confiar no Teu poder de multiplicar e a reconhecer-Te como o Messias que sofre e ressuscita por mim.",
+ "quiz": {
+  "pergunta": "Qual foi a resposta de Pedro quando Jesus perguntou quem Ele era?",
+  "opcoes": [
+   "O Cristo de Deus",
+   "João Batista",
+   "Elias"
+  ],
+  "certa": 0,
+  "explicacao": "No versículo 20, Pedro responde diretamente a Jesus com a confissão de que Ele é o Cristo de Deus, diferenciando-se das opiniões da multidão."
+ },
+ "refs": [
+  "Marcos 6:30-44",
+  "João 6:1-14",
+  "Mateus 16:13-20"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T12:51:02.478Z",
+  "rounds": 2
+ }
+}
