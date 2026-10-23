@@ -67,4 +67,4 @@ index 462ee10..b0ad0e1 100644
 -const manifest = { generation: Math.max((prev?.generation || 0) + 1, meta.minGeneration || 1), contentVersion: meta.contentVersion, production: meta.production, license: meta.license, bible: [...books.values()], passages, ...(buscaPath ? { busca: buscaPath } : {}), packages, revoked: prev?.revoked || [], history };
 +const manifest = { generation: Math.max((prev?.generation || 0) + 1, meta.minGeneration || 1), contentVersion: meta.contentVersion, production: meta.production, license: meta.license, versions, bible: [...books.values()], passages, ...(buscaPath ? { busca: buscaPath } : {}), packages, revoked: prev?.revoked || [], history };
  writeFileSync(mpath, JSON.stringify(manifest, null, 2) + '\n');
- console.log('manifesto geraĂ§ĂŁo', manifest.generation, '-', packages.length, 'pacotes');
+ console.log('manifesto geração', manifest.generation, '-', packages.length, 'pacotes');
