@@ -1,0 +1,135 @@
+{
+ "id": "42-5-1-10",
+ "ref": "Lucas 5:1-10",
+ "book": "42",
+ "chapter": 5,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E aconteceu que as multidões o comprimiam para ouvir a palavra de Deus, quando ele estava junto ao lago de Genesaré."
+  },
+  {
+   "n": 2,
+   "t": "Então ele viu dois barcos que estavam próximos da margem do lago, e os pescadores haviam descido deles, e estavam lavando as redes."
+  },
+  {
+   "n": 3,
+   "t": "Ele entrou num daqueles barcos, que era o de Simão, e lhe pediu que o afastasse um pouco da terra. Depois se sentou, e do barco ensinou às multidões."
+  },
+  {
+   "n": 4,
+   "t": "Quando acabou de falar, disse a Simão: Vai à água profunda, e lançai as vossas redes para pescar."
+  },
+  {
+   "n": 5,
+   "t": "Simão lhe respondeu: Mestre, trabalhamos toda a noite, mas nada pegamos; mas pela tua palavra lançarei a rede."
+  },
+  {
+   "n": 6,
+   "t": "Eles fizeram assim, e recolheram grande quantidade de peixes, e sua rede estava se rompendo."
+  },
+  {
+   "n": 7,
+   "t": "Então acenaram aos companheiros que estavam no outro barco, para que viessem os ajudar. Vieram, e encheram ambos os barcos, de tal maneira que quase afundavam."
+  },
+  {
+   "n": 8,
+   "t": "Quando Simão Pedro viu isso , prostrou-se aos pés de Jesus, dizendo: Afasta-te de mim, Senhor, porque sou um homem pecador."
+  },
+  {
+   "n": 9,
+   "t": "Pois ele estava cheio de espanto, como todos os que estavam com ele, por causa da coleta de peixes que haviam feito."
+  },
+  {
+   "n": 10,
+   "t": "E semelhantemente, também, Tiago e João, filhos de Zebedeu, que eram colegas de Simão. E Jesus disse a Simão: Não temas, de agora em diante pescarás gente."
+  }
+ ],
+ "titulo": "A pesca que mudou a vida de Pedro",
+ "temas": [
+  "fé",
+  "obediência",
+  "chamado"
+ ],
+ "pergunta": "Você já confiou em uma palavra que mudasse tudo?",
+ "entender": "Jesus estava ensinando à beira do lago de Genesaré, onde as multidões o cercavam. Ele entrou no barco de Simão Pedro e, depois de falar, lhe disse: \"Vai à água profunda, e lançai as vossas redes para pescar\" (Lc 5.4). Pedro, cansado de uma noite sem peixe, respondeu: \"Mestre, trabalhamos toda a noite, mas nada pegamos; mas pela tua palavra lançarei a rede\" (Lc 5.5). Ao obedecer, a rede ficou cheia de peixes, a ponto de quase romper, e os companheiros ajudaram a encher os dois barcos. O milagre deixou Pedro atônito, levando-o a prostrar-se aos pés de Jesus, reconhecendo sua pecaminosidade.\n\nEsse episódio mostra como Jesus usou uma situação cotidiana – a pesca – para revelar seu poder e chamar Pedro. O contexto imediato era a necessidade de alimento e o ofício dos pescadores; o sentido maior é a demonstração de que a palavra de Jesus tem autoridade para produzir resultados além da capacidade humana.",
+ "ligar": {
+  "texto": "A palavra de Jesus trouxe o milagre, e Pedro respondeu reconhecendo que sem Ele nada poderia alcançar. Esse reconhecimento o conduziu a deixar tudo e seguir Jesus (Lc 5.11). O convite de Jesus a lançar a rede \"pela tua palavra\" aponta para a fé que produz vida eterna: crer nas promessas de Cristo traz uma colheita abundante que vai além do que vemos. Assim como a pesca se tornou o sinal do chamado, a fé em Cristo nos chama a ser pescadores de pessoas, anunciando o Reino de Deus.",
+  "selo": true
+ },
+ "viver": "Ao ver que a obediência à palavra de Jesus trouxe um resultado extraordinário, podemos aprender que confiar nas instruções de Cristo, mesmo quando tudo parece falhar, gera frutos inesperados. Hoje, ao enfrentar desafios no trabalho ou na família, lembre‑se de lançar a rede da fé, pedindo a direção de Jesus antes de agir. Essa atitude transforma tarefas rotineiras em oportunidades de testemunho e de bênção para os que nos rodeiam.",
+ "guarde": "Quando obedecemos à palavra de Jesus, Ele nos faz colher além do que imaginamos.",
+ "ore": "Senhor Jesus, assim como no lago de Genesaré, ajuda‑me a confiar na Tua palavra e lançar a rede da fé, mesmo quando tudo parece perdido.",
+ "quiz": {
+  "pergunta": "Por que Pedro decidiu lançar a rede novamente?",
+  "opcoes": [
+   "Porque viu um sinal no céu",
+   "Porque os pescadores estavam com fome",
+   "Porque Jesus lhe disse para fazê‑lo"
+  ],
+  "certa": 2,
+  "explicacao": "Pedro obedeceu porque Jesus lhe ordenou: \"pela tua palavra lançarei a rede\" (Lc 5.5). A decisão foi baseada na autoridade de Jesus, não em necessidade ou sinal."
+ },
+ "refs": [
+  "João 21:1-14",
+  "Mateus 4:18-20"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T00:47:22.344Z",
+  "rounds": 1
+ }
+}

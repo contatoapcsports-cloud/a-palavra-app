@@ -1,0 +1,137 @@
+{
+ "id": "42-5-11-20",
+ "ref": "Lucas 5:11-20",
+ "book": "42",
+ "chapter": 5,
+ "verses": [
+  {
+   "n": 11,
+   "t": "Eles levaram os barcos para a terra, deixaram tudo, e o seguiram."
+  },
+  {
+   "n": 12,
+   "t": "E aconteceu que, quando ele estava numa daquelas cidades, eis que um homem cheio de lepra viu Jesus; então prostrou-se sobre o rosto, e lhe rogou, dizendo: Senhor, se quiseres, podes me tornar limpo."
+  },
+  {
+   "n": 13,
+   "t": "Ele estendeu a mão, e o tocou, dizendo: Quero; sê limpo. E logo a lepra desapareceu dele."
+  },
+  {
+   "n": 14,
+   "t": "E mandou-lhe que não o dissesse a ninguém: Mas vai, mostra-te ao sacerdote, e oferece por tua purificação, como Moisés mandou, para lhes dar testemunho."
+  },
+  {
+   "n": 15,
+   "t": "Porém a sua fama se espalhava ainda mais; e ajuntavam-se muitas multidões para o ouvir, e para serem por ele curadas de suas enfermidades."
+  },
+  {
+   "n": 16,
+   "t": "Porém ele se retirava para os desertos, e ali orava."
+  },
+  {
+   "n": 17,
+   "t": "E aconteceu num daqueles dias que estava ensinando, e estavam ali sentados fariseus e instrutores da lei, que tinham vindo de todas as aldeias da Galileia, da Judeia, e de Jerusalém; e o poder do Senhor estava ali para os curar."
+  },
+  {
+   "n": 18,
+   "t": "E eis que uns homens traziam numa cama um homem que estava paralítico; e procuravam levá-lo para dentro, a fim de o porem diante dele."
+  },
+  {
+   "n": 19,
+   "t": "Como não acharam por onde pudessem levá-lo para dentro, por causa da multidão, subiram ao telhado, e pelas telhas o baixaram com o leito para o meio do povo , diante de Jesus."
+  },
+  {
+   "n": 20,
+   "t": "Ele viu a fé deles, e disse-lhe: Homem, teus pecados são perdoados."
+  }
+ ],
+ "titulo": "Quatro amigos e um telhado furado",
+ "temas": [
+  "fé",
+  "perdão",
+  "amizade",
+  "curagem"
+ ],
+ "pergunta": "Você já fez algo inesperado por alguém que precisava de ajuda?",
+ "entender": "O texto descreve uma cena caótica: Jesus ensina cercado por multidões, fariseus e mestres da lei. Quatro homens trazem um paralítico numa cama, mas a aglomeração impede a entrada. Em vez de desistirem, eles sobem ao telhado, quebram as telhas e baixam o leito no meio do povo, diante de Jesus.\n\nA reação de Jesus não é sobre a estrutura danificada, mas sobre a atitude dos amigos. Ele vê a fé deles e diz ao homem: \"teus pecados são perdoados\". Essa declaração é impactante porque, na cultura judaica, perdoar pecados era visto como prerrogativa exclusiva de Deus. Jesus toca a raiz do problema do homem: a separação espiritual.",
+ "ligar": {
+  "texto": "Aqui vemos a autoridade divina de Jesus em ação. Ao perdoar pecados, Ele demonstra ser o único mediador entre Deus e a humanidade. O evangelho é revelado porque mostra que a maior necessidade humana não é apenas a saúde física, mas a reconciliação com Deus. A fé dos amigos serviu como meio para que o paralítico encontrasse o Salvador, indicando que a comunidade de fé importa no caminho rumo a Cristo.",
+  "selo": true
+ },
+ "viver": "Às vezes, a rotina e o medo criam uma \"multidão\" que nos impede de nos aproximar de Deus. Este texto nos convida a ser criativos na fé: não espere as condições perfeitas para buscar a Jesus. Se você tem um amigo que precisa de ajuda espiritual, não desista. Sua oração e seu esforço podem ser o \"telhado\" que abre espaço para a graça de Deus agir na vida dele. A fé não é passiva; ela age para remover obstáculos.",
+ "guarde": "A fé dos amigos abriu caminho para o perdão que só Jesus pode dar.",
+ "ore": "Ao lembrar dos quatro amigos que subiram ao telhado, eu peço que meu coração tenha essa mesma ousadia. Remove as barreiras que me afastam de Ti e ajuda-me a levar outros a Jesus, mesmo quando o caminho parece bloqueado.",
+ "quiz": {
+  "pergunta": "O que Jesus disse ao ver a fé dos amigos do paralítico?",
+  "opcoes": [
+   "Que a multidão estava atrapalhando a aula",
+   "Que o homem deveria levantar e andar",
+   "Que os pecados do homem eram perdoados"
+  ],
+  "certa": 2,
+  "explicacao": "Lucas 5:20 registra que Jesus viu a fé deles e disse: \"Homem, teus pecados são perdoados\". A cura física é consequência dessa declaração de autoridade espiritual."
+ },
+ "refs": [
+  "Mateus 9:1-8",
+  "Marcos 2:1-12",
+  "Hebreus 11:1"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T00:56:52.645Z",
+  "rounds": 2
+ }
+}

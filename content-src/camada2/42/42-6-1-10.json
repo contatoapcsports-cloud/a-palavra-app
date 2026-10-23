@@ -1,0 +1,137 @@
+{
+ "id": "42-6-1-10",
+ "ref": "Lucas 6:1-10",
+ "book": "42",
+ "chapter": 6,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E aconteceu que, no segundo sábadodepois do primeiro, Jesus passou pelas plantações, e seus discípulos iam arrancando espigas, e comiam, debulhando-as com as mãos."
+  },
+  {
+   "n": 2,
+   "t": "E alguns dos fariseus lhes disseram: Por que fazeis o que não é lícito fazer nos sábados?"
+  },
+  {
+   "n": 3,
+   "t": "E Jesus lhes respondeu: Nunca lestes isto, o que Davi fez quando teve fome, ele e os que com ele estavam?"
+  },
+  {
+   "n": 4,
+   "t": "Como entrou na casa de Deus, tomou, e comeu os pães da apresentação, e deu também aos que estavam com ele, pães que não é lícito comer, a não ser só os sacerdotes?"
+  },
+  {
+   "n": 5,
+   "t": "E dizia-lhes: O Filho do homem é Senhor até do sábado."
+  },
+  {
+   "n": 6,
+   "t": "E aconteceu também em outro sábado que entrou na sinagoga, e estava ensinado; e ali estava um homem que tinha a mão direita definhada."
+  },
+  {
+   "n": 7,
+   "t": "E os escribas e fariseus o observavam, se o curaria no sábado; para acharem de que o acusar."
+  },
+  {
+   "n": 8,
+   "t": "Mas ele bem sabia dos seus pensamentos; e disse ao homem que tinha a mão definhada: Levanta-te, e põe-te em pé no meio. E ele se levantou e se pôs de pé."
+  },
+  {
+   "n": 9,
+   "t": "Então Jesus lhes disse: Uma coisa vos perguntarei: É lícito nos sábados fazer bem, ou fazer mal? Salvar uma pessoa, ou matá-la?"
+  },
+  {
+   "n": 10,
+   "t": "E ele, olhando para todos em redor, disse ao homem: Estende a tua mão. E ele assim o fez; e a mão foi lhe restituída sã como a outra."
+  }
+ ],
+ "titulo": "Quem tem autoridade sobre o dia de descanso?",
+ "temas": [
+  "sábado",
+  "misericórdia",
+  "autoridade",
+  "cura"
+ ],
+ "pergunta": "Por que Jesus usou a fome de Davi para responder aos fariseus?",
+ "entender": "Os discípulos de Jesus colhiam espigas num sábado, o que os fariseus consideravam proibido. Jesus respondeu lembrando de Davi, que comeu pães sagrados quando teve fome. Ele mostrou que a lei foi feita para o bem da pessoa, não para ser um fardo.\n\nEm seguida, Jesus encontrou um homem com a mão definhada na sinagoga. Os religiosos o observavam para acusá-lo. Jesus perguntou se era lícito fazer bem ou mal no sábado. Ao curar o homem, Ele provou que o descanso não é para paralisar a bondade, mas para celebrar a vida.\n\nJesus declarou: \"O Filho do homem é Senhor até do sábado\". Isso significa que Ele está acima das regras religiosas. O sábado existe para servir ao homem, e Jesus é o centro dessa realidade.",
+ "ligar": {
+  "texto": "Este texto revela a autoridade de Jesus sobre a Lei. Ele não descarta a lei, mas mostra que a misericórdia e a vida estão acima dos rituais. Jesus é o Senhor do sábado, pois Ele é o verdadeiro descanso para a alma. A cura da mão definhada aponta para a restauração total que Cristo oferece, libertando o ser humano de toda forma de opressão e pecado.",
+  "selo": true
+ },
+ "viver": "Talvez você sinta que seus dias estão cheios de regras rígidas que te afastam da alegria. Assim como Jesus curou a mão paralisada, Ele quer restaurar as áreas da sua vida que estão travadas por medo ou culpa. Não deixe que tradições vazias impeçam você de fazer o bem. Busque a liberdade em Cristo, que veio para dar vida em abundância, não para te prender a rituais que não transformam o coração.",
+ "guarde": "A misericórdia é mais importante do que o sacrifício, e a vida está acima das regras.",
+ "ore": "Jesus, Senhor do sábado, eu Te agradeço por curar a mão daquele homem. Liberta-me de qualquer peso que me afaste da Tua bondade. Ensina-me a viver na Tua liberdade, fazendo o bem com alegria e sem medo de julgamento. Em Teu nome, amém.",
+ "quiz": {
+  "pergunta": "O que Jesus disse para demonstrar Sua autoridade sobre o sábado?",
+  "opcoes": [
+   "O Filho do homem é Senhor até do sábado",
+   "O sábado deve ser totalmente abandonado",
+   "Só os sacerdotes podem trabalhar no sábado"
+  ],
+  "certa": 0,
+  "explicacao": "No versículo 5, Jesus declara explicitamente que Ele é o Senhor do sábado, estabelecendo Sua autoridade sobre a lei do descanso."
+ },
+ "refs": [
+  "Mateus 12:7",
+  "Marcos 2:27",
+  "João 5:17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T00:55:07.494Z",
+  "rounds": 1
+ }
+}

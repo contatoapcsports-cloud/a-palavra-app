@@ -1,0 +1,137 @@
+{
+ "id": "42-5-30-39",
+ "ref": "Lucas 5:30-39",
+ "book": "42",
+ "chapter": 5,
+ "verses": [
+  {
+   "n": 30,
+   "t": "E seus escribas e fariseus murmuravam contra os seus discípulos, dizendo: Por que comeis e bebeis com publicanos e pecadores?"
+  },
+  {
+   "n": 31,
+   "t": "Jesus lhes respondeu: Os que estão sãos não precisam de médico, mas sim os que estão doentes."
+  },
+  {
+   "n": 32,
+   "t": "Eu não vim para chamar os justos, mas sim, os pecadores, ao arrependimento."
+  },
+  {
+   "n": 33,
+   "t": "Então eles lhe disseram: Por que os discípulos de João jejuam muitas vezes, e fazem orações, como também os dos fariseus, mas os teus comem e bebem?"
+  },
+  {
+   "n": 34,
+   "t": "Mas ele lhes disse: Podeis vós fazer jejuar os convidados do casamento, enquanto o noivo está com eles?"
+  },
+  {
+   "n": 35,
+   "t": "Porém virão dias em que o esposo lhes será tirado; então naqueles dias jejuarão."
+  },
+  {
+   "n": 36,
+   "t": "E dizia-lhes também uma parábola: Ninguém põe remendo de pano novo em roupa velha; de outra maneira, o novo rompe, e o remendo do novo não será adequado ao velho."
+  },
+  {
+   "n": 37,
+   "t": "E ninguém põe vinho novo em odres velhos; de outra maneira, o vinho novo romperá os odres, e se derramará, e os odres são destruídos."
+  },
+  {
+   "n": 38,
+   "t": "Mas o vinho novo deve ser posto em odres novos, e ambos se conservam."
+  },
+  {
+   "n": 39,
+   "t": "E ninguém que beber do velho quer logo o novo; porque diz: O velho é melhor."
+  }
+ ],
+ "titulo": "O médico que chama os doentes",
+ "temas": [
+  "graça",
+  "arrependimento",
+  "inclusão",
+  "nova aliança"
+ ],
+ "pergunta": "O que faria você se aproximar de alguém que o mundo rejeita?",
+ "entender": "Após chamar Levi, Jesus é criticado por comer com publicanos e pecadores. Ele responde com uma imagem prática: médicos são procurados por doentes, não por quem se acha saudável. Jesus deixa claro que sua missão é chamar os pecadores ao arrependimento, não os que se consideram justos.\n\nSobre o jejum, Jesus usa a metáfora da festa de casamento: enquanto o noivo está presente, é tempo de alegria, não de luto. Ele também conta a parábola do vinho novo em odres velhos, mostrando que a mensagem que ele traz não cabe nas estruturas religiosas antigas, exigindo um coração renovado.",
+ "ligar": {
+  "texto": "Este texto revela o coração do evangelho: Jesus não veio para os perfeitos, mas para os que reconhecem sua necessidade. A mesa com Levi é um ato de reconciliação. A graça de Deus quebra barreiras para alcançar o ser humano em sua fragilidade. O 'vinho novo' aponta para a nova aliança, oferecendo vida onde havia apenas lei.",
+  "selo": true
+ },
+ "viver": "A comparação do médico convida a olhar para as pessoas com compaixão, não com julgamento. Se você evita alguém por causa de seu passado ou estilo de vida, tente ver em quem precisa de cura. Ofereça um gesto simples de respeito ou escuta. Lembre-se: todos dependemos da misericórdia divina, inclusive nós. A graça nos capacita a ser canais de acolhimento, quebrando as barreiras que nos isolam dos outros.",
+ "guarde": "A mesa de Jesus é onde a graça encontra a fragilidade humana.",
+ "ore": "Levi, que deixou sua cobrança para seguir Jesus, ensina-me a abandonar minhas barreiras. Ajuda-me a ver meus irmãos não pelo que o mundo diz deles, mas pela necessidade de cura que eles têm. Que eu não tenha vergonha da mesa de comunhão onde a graça se encontra com a fragilidade humana. Amém.",
+ "quiz": {
+  "pergunta": "Por que Jesus disse que seus discípulos não jejuavam enquanto ele estava com eles?",
+  "opcoes": [
+   "Porque o jejum era proibido durante o dia.",
+   "Porque eles não sabiam como jejuar corretamente.",
+   "Porque era tempo de alegria, como convidados na festa do noivo."
+  ],
+  "certa": 2,
+  "explicacao": "Lucas 5.34 usa a metáfora da festa de casamento para explicar que a presença de Jesus traz alegria, tornando o jejum (prática de luto ou penitência) inadequado naquele momento."
+ },
+ "refs": [
+  "Mateus 9:12-13",
+  "Marcos 2:17-22",
+  "Lucas 7:36-50"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T00:59:06.061Z",
+  "rounds": 2
+ }
+}

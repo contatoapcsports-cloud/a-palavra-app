@@ -1,0 +1,133 @@
+{
+ "id": "42-5-21-29",
+ "ref": "Lucas 5:21-29",
+ "book": "42",
+ "chapter": 5,
+ "verses": [
+  {
+   "n": 21,
+   "t": "E os escribas e os fariseus começaram a questionar, dizendo: Quem é este que fala blasfêmias? Quem pode perdoar pecados, senão só Deus?"
+  },
+  {
+   "n": 22,
+   "t": "Porém Jesus, conhecendo os seus pensamentos, respondeu-lhes: O que pensais em vossos corações?"
+  },
+  {
+   "n": 23,
+   "t": "O que é mais fácil? Dizer: Teus pecados são perdoados? Ou dizer: Levanta-te, e anda?"
+  },
+  {
+   "n": 24,
+   "t": "Para que saibais que o Filho do homem tem poder sobre a terra para perdoar pecados, (disse ao paralítico:) Eu te digo, levanta-te, toma o teu leito, e vai para a tua casa."
+  },
+  {
+   "n": 25,
+   "t": "E ele levantou-se imediatamente diante deles, tomou o leito em que estava deitado, e foi para a sua casa, glorificando a Deus."
+  },
+  {
+   "n": 26,
+   "t": "E todos ficaram admirados, e glorificaram a Deus; e ficaram cheios de temor, dizendo: Hoje vimos maravilhas!"
+  },
+  {
+   "n": 27,
+   "t": "Depois destas coisas, ele saiu; e viu um publicano, chamado Levi, sentado na coletoria de tributos, e disse-lhe: Segue-me."
+  },
+  {
+   "n": 28,
+   "t": "Ele deixou tudo, levantou-se, e o seguiu."
+  },
+  {
+   "n": 29,
+   "t": "E Levi lhe fez um grande banquete em sua casa; e havia ali uma grande multidão de publicanos e de outros que estavam sentados com eles à mesa ."
+  }
+ ],
+ "titulo": "O poder de perdoar e curar",
+ "temas": [
+  "perdão",
+  "fé",
+  "chamado"
+ ],
+ "pergunta": "Você já pensou que perdoar pode ser tão transformador quanto curar um corpo?",
+ "entender": "Nesta passagem, os fariseus questionam Jesus: “Quem pode perdoar pecados, senão só Deus?” (Lucas 5.21). Jesus, percebendo o coração deles, propõe um teste: “O que é mais fácil? Dizer: Teus pecados são perdoados? Ou dizer: Levanta-te, e anda?” (5.23). Ele então declara que o paralítico está perdoado e o manda levantar‑se, o que o homem faz imediatamente, gerando admiração da multidão. Depois, Jesus chama Levi, um publicano, dizendo: “Segue‑me.” (5.27). Levi abandona tudo e oferece um banquete, mostrando que o convite de Jesus atrai até os considerados pecadores.\n\nO contexto anterior mostra a fé dos amigos que trouxeram o paralítico (5.18‑20). O relato posterior revela a reação dos escribas que criticam o convívio de Jesus com publicanos (5.30‑32). Assim, o texto destaca duas dimensões do ministério de Jesus: autoridade para perdoar pecados e convite ao arrependimento, alcançando tanto os doentes físicos quanto os espirituais.",
+ "ligar": {
+  "texto": "Jesus demonstra que o perdão dos pecados vem do mesmo poder que cura o corpo, apontando para Ele como o Filho de Deus que tem autoridade sobre a vida e a morte. O convite a Levi mostra que o evangelho não exclui os que a sociedade rejeita; ao seguir Jesus, até um publicano encontra nova identidade. Essa combinação de perdão e chamada ao seguimento prepara o caminho para a boa nova da salvação em Cristo, que perdoa, restaura e convida a viver sob sua graça.",
+  "selo": true
+ },
+ "viver": "Ao ver que Jesus perdoa antes de curar, percebemos que nossas feridas espirituais precisam de perdão antes de qualquer mudança externa. Quando alguém reconhece que pecou, pode buscar o perdão de Deus e, assim, experimentar libertação interior que se reflete em atitudes práticas, como ajudar o próximo ou mudar hábitos. Como Levi, que deixou tudo para seguir a Cristo, somos chamados a avaliar o que realmente nos prende e a dar passos de fé que transformem nossa vida cotidiana.",
+ "guarde": "Perdoar abre caminho para a verdadeira cura que vem de Cristo.",
+ "ore": "Levi, ao ouvir o convite de Jesus, eu peço coragem para largar o que me impede de seguir a Cristo e viver plenamente sob seu perdão.",
+ "quiz": {
+  "pergunta": "Qual foi a pergunta que Jesus fez aos fariseus para demonstrar seu poder?",
+  "opcoes": [
+   "Qual é a tua fé?",
+   "O que é mais fácil? Dizer: Teus pecados são perdoados? Ou dizer: Levanta‑te, e anda?",
+   "Por que não curas o paralítico?"
+  ],
+  "certa": 1,
+  "explicacao": "Jesus usou essa comparação (Lucas 5.23) para mostrar que perdoar pecados e curar são atos do mesmo poder divino, provando sua autoridade."
+ },
+ "refs": [
+  "Mateus 9:2-8",
+  "Marcos 2:5-12",
+  "João 5:14",
+  "Atos 10:38"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T00:49:10.857Z",
+  "rounds": 1
+ }
+}
