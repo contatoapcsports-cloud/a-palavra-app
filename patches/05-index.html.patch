@@ -1,0 +1,39 @@
+diff --git a/index.html b/index.html
+index a51e749..0d4f063 100644
+--- a/index.html
++++ b/index.html
+@@ -63,8 +63,9 @@
+       <div class="vers"><label for="ver">Versão bíblica</label><select id="ver" aria-label="Versão bíblica"><option>Bíblia Livre</option></select></div>
+       <button class="search" type="button" id="goSearch"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>Buscar livro ou palavra</button>
+       <div class="tt" role="group" aria-label="Testamento"><button type="button" aria-pressed="true" data-t="at">Antigo Testamento</button><button type="button" aria-pressed="false" data-t="nt">Novo Testamento</button></div>
++      <p class="hint" id="bkNote" hidden></p>
+       <div class="bgrid" id="bgrid"></div>
+-      <p class="rights vnote">Texto bíblico: Bíblia Livre</p>
++      <p class="rights vnote" id="bkVer">Texto bíblico: Bíblia Livre</p>
+       <p class="rights" id="rightsHome" hidden></p>
+     </div>
+   </section>
+@@ -78,6 +79,7 @@
+     <div class="topbar"><button class="back" type="button" data-back><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>Voltar</button><h2 id="readTitle"></h2></div>
+     <div class="pad">
+       <span class="tag">Texto bíblico</span>
++      <div class="verbar" id="verBar"></div>
+       <div class="listen" id="listen" hidden>
+         <button type="button" class="btn" id="lsPlay" aria-label="Ouvir o capítulo">&#9654; Ouvir capítulo</button>
+         <button type="button" class="ghost" id="lsStop" aria-label="Parar" hidden>&#9632; Parar</button>
+@@ -86,6 +88,7 @@
+         <small id="lsInfo"></small>
+       </div>
+       <div class="text" id="rtext"></div>
++      <p class="vcred" id="verCred"></p>
+       <div class="row2"><button type="button" id="chPrev">&#8592; Anterior</button><button type="button" id="chNext">Próximo &#8594;</button></div>
+       <div id="studyList" style="display:flex;flex-direction:column;gap:12px"></div>
+     </div>
+@@ -122,6 +125,7 @@
+       <p class="hint" id="instHint">No Android, se o Chrome não oferecer a instalação, abra o menu e escolha Instalar aplicativo ou Adicionar à tela inicial.</p>
+       <div class="srow hid"><span>Tamanho do texto</span><span class="seg" id="fsz"><button type="button" aria-label="Menor" data-s="1">A</button><button type="button" aria-pressed="true" aria-label="Médio" data-s="1.125" style="font-size:1.1rem">A</button><button type="button" aria-label="Maior" data-s="1.35" style="font-size:1.3rem">A</button></span></div>
+       <div class="srow"><span>Tema</span><span class="seg" id="thm"><button type="button" data-m="auto" aria-pressed="true">Auto</button><button type="button" data-m="light">Claro</button><button type="button" data-m="dark">Escuro</button></span></div>
++      <button class="srow" type="button" id="verbtn"><span>Tradução bíblica</span><small id="verSmall"></small></button>
+       <button class="srow" type="button" id="dlbtn"><span>Baixar para ler sem internet</span><small id="dlSmall"></small></button>
+       <button class="srow hid" type="button" id="persist"><span>Proteger meus dados no aparelho</span><small id="persistSmall"></small></button>
+       <p class="hint hid" id="storeInfo"></p>
