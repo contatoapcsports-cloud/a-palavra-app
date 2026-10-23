@@ -147,14 +147,22 @@
     var c = await caches.open(CONTENT);
     var stored = null, s = await c.match('content-manifest.json');
     if (s) { try { stored = await s.json(); } catch (e) { stored = null; } }
-    var incoming = null;
-    try { var r = await fetch('content-manifest.json', { cache: 'no-store' }); if (r.ok) incoming = await r.json(); } catch (e) { /* offline */ }
+    var incoming = null, etag = '';
+    try {
+      var r = await fetch('content-manifest.json', { cache: 'no-store' });
+      if (r.ok) {
+        etag = r.headers.get('etag') || '';
+        /* mesma versão do que já está guardado: não lê nem interpreta o arquivo grande de novo */
+        if (etag && stored && s && s.headers.get('x-etag') === etag) { try { if (r.body) r.body.cancel(); } catch (x) { /* ok */ } return stored; }
+        incoming = await r.json();
+      }
+    } catch (e) { /* offline */ }
     if (!incoming) return stored;
     var cached = (await c.keys()).map(function (rq) { return relPath(rq.url); }).filter(function (p) { return p.indexOf('content/') === 0; });
     var plan = core.planUpdate(stored, incoming, cached);
     if (plan.accept) {
       for (var i = 0; i < plan.remove.length; i++) await c.delete(plan.remove[i]);
-      await c.put('content-manifest.json', new Response(JSON.stringify(incoming), { headers: { 'content-type': 'application/json' } }));
+      await c.put('content-manifest.json', new Response(JSON.stringify(incoming), { headers: { 'content-type': 'application/json', 'x-etag': etag } }));
       return incoming;
     }
     return stored || incoming;
@@ -244,6 +252,8 @@
   }
   function mtag(t, first) { return h('div', { class: 'mtag', style: first ? 'margin-top:30px' : null, text: t }); }
 
+  window.PVApp = { h: h, modal: modal, mtag: mtag, toast: toast, closeOverlay: closeOverlay };
+
   /* ---------- início ---------- */
   var testament = 'at';
   function drawBooks() {
@@ -293,7 +303,7 @@
   /* ---------- leitura ---------- */
 
   /* ---------- leitura em voz alta (voz sintetizada do aparelho, preferindo masculina) ---------- */
-  var TTS = { on: false, i: 0, itens: [], voz: null };
+  var TTS = { on: false, i: 0, itens: [], voz: null, tk: 0 };
   function ttsOk() { return 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window; }
   function vozesPt() {
     return speechSynthesis.getVoices().filter(function (v) { return /^pt/i.test(v.lang); }).sort(function (x, y) { return (/^pt[-_]?br/i.test(y.lang) ? 1 : 0) - (/^pt[-_]?br/i.test(x.lang) ? 1 : 0); });
@@ -321,11 +331,21 @@
     });
     sel.hidden = false; rt.hidden = false;
     try { var r = localStorage.getItem('pv_rate'); if (r) rt.value = r; } catch (x) { /* ok */ }
-    sel.onchange = function () { try { localStorage.setItem('pv_voz', sel.value); } catch (x) { /* ok */ } if (TTS.on) { TTS.voz = escolherVoz(); try { speechSynthesis.cancel(); } catch (x) { /* ok */ } } };
+    sel.onchange = function () { try { localStorage.setItem('pv_voz', sel.value); } catch (x) { /* ok */ } ttsTrocar(); };
     rt.onchange = function () { try { localStorage.setItem('pv_rate', rt.value); } catch (x) { /* ok */ } };
   }
+  /* troca de voz no meio da leitura: ignora os avisos da voz antiga, para a fala e recomeça no versículo atual com a voz nova */
+  function ttsTrocar() {
+    if (!TTS.on) return;
+    TTS.voz = escolherVoz(); TTS.tk++;
+    try { speechSynthesis.cancel(); } catch (x) { /* ok */ }
+    var pl = $('#lsPlay'), inf = $('#lsInfo');
+    if (pl) pl.textContent = '❚❚ Pausar';
+    if (inf && TTS.voz) inf.textContent = 'Voz: ' + TTS.voz.v.name + (TTS.voz.grave ? ' (tom grave)' : '');
+    setTimeout(function () { if (!TTS.on) return; try { speechSynthesis.resume(); } catch (x) { /* ok */ } ttsFalar(); }, 250);
+  }
   function ttsStop() {
-    TTS.on = false; try { speechSynthesis.cancel(); } catch (x) { /* sem voz */ }
+    TTS.on = false; TTS.tk++; try { speechSynthesis.cancel(); } catch (x) { /* sem voz */ }
     $$('.v.lendo').forEach(function (e) { e.classList.remove('lendo'); });
     var p = $('#lsPlay'), st = $('#lsStop'); if (p) { p.textContent = '▶ Ouvir capítulo'; } if (st) st.hidden = true;
   }
@@ -335,11 +355,12 @@
     $$('.v.lendo').forEach(function (e) { e.classList.remove('lendo'); });
     if (!el) { ttsStop(); var nx = $('#chNext'); if (nx && !nx.hidden) { toast('Fim do capítulo'); } return; }
     el.classList.add('lendo'); el.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    var tk = TTS.tk;
     var u = new SpeechSynthesisUtterance($('span', el).textContent); // lê só o texto, sem dizer o número do versículo
     u.lang = 'pt-BR'; u.rate = parseFloat(($('#lsRate') || {}).value) || 0.92; u.pitch = TTS.voz && TTS.voz.grave ? 0.7 : 0.9;
     if (TTS.voz && TTS.voz.v) { u.voice = TTS.voz.v; u.lang = TTS.voz.v.lang || 'pt-BR'; }
-    u.onend = function () { if (TTS.on) { TTS.i++; ttsFalar(); } };
-    u.onerror = function (e) { if (e && (e.error === 'canceled' || e.error === 'interrupted')) return; ttsStop(); toast('Não foi possível ler em voz alta neste aparelho.'); };
+    u.onend = function () { if (tk !== TTS.tk) return; if (TTS.on) { TTS.i++; ttsFalar(); } };
+    u.onerror = function (e) { if (tk !== TTS.tk) return; if (e && (e.error === 'canceled' || e.error === 'interrupted')) return; ttsStop(); toast('Não foi possível ler em voz alta neste aparelho.'); };
     speechSynthesis.speak(u);
   }
   function bindListen() {
@@ -357,7 +378,7 @@
       TTS.voz = escolherVoz();
       if (!TTS.voz) { info.textContent = 'Este aparelho não tem voz em português instalada. Em Configurações > Idioma > Saída de texto para fala, instale o português do Brasil.'; return; }
       info.textContent = 'Voz: ' + TTS.voz.v.name + (TTS.voz.grave ? ' (tom grave)' : '');
-      TTS.i = 0; TTS.on = true; $('#lsPlay').textContent = '❚❚ Pausar'; $('#lsStop').hidden = false;
+      TTS.tk++; TTS.i = 0; TTS.on = true; $('#lsPlay').textContent = '❚❚ Pausar'; $('#lsStop').hidden = false;
       try { speechSynthesis.cancel(); } catch (x) { /* ok */ }
       ttsFalar();
     };
