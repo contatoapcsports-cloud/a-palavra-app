@@ -1,0 +1,134 @@
+{
+ "id": "42-10-34-42",
+ "ref": "Lucas 10:34-42",
+ "book": "42",
+ "chapter": 10,
+ "verses": [
+  {
+   "n": 34,
+   "t": "E chegando-se, amarrou-lhe um curativo nas feridas, pondo-lhe nelas azeite e vinho; e pondo-o sobre o animal que o transportava, levou-o para uma hospedaria, e cuidou dele."
+  },
+  {
+   "n": 35,
+   "t": "E partindo-se no outro dia, tirou dois dinheiros, e os deu para o hospedeiro; e disse-lhe: Cuide dele; e tudo o que gastares a mais, eu te pagarei quando voltar."
+  },
+  {
+   "n": 36,
+   "t": "Quem, pois, destes três te parece que foi o próximo daquele que foi atacado por assaltantes?"
+  },
+  {
+   "n": 37,
+   "t": "Ele disse: Aquele que agiu tendo misericórdia com ele.Então Jesus lhe disse: Vai, e faze da mesma maneira."
+  },
+  {
+   "n": 38,
+   "t": "E aconteceu que eles, enquanto eles caminhavam, ele entrou em uma aldeia; e uma certa mulher, de nome Marta, o recebeu em sua casa."
+  },
+  {
+   "n": 39,
+   "t": "E esta tinha uma irmã, chamada Maria, a qual, sentando-se também aos pés de Jesus, ouvia sua palavra."
+  },
+  {
+   "n": 40,
+   "t": "Marta, porém, ficava muito ocupada com muitos serviços; e ela, vindo, disse: Senhor, não te importas que minha irmã me deixe sozinha para servir? Dize a ela, pois, que me ajude."
+  },
+  {
+   "n": 41,
+   "t": "E respondendo Jesus, disse-lhe: Marta, Marta, tu és preocupada com muitas coisas, e perturbada por elas;"
+  },
+  {
+   "n": 42,
+   "t": "Mas somente uma coisa é necessária. E Maria escolheu a parte boa, a qual não lhe será tirada."
+  }
+ ],
+ "titulo": "O que realmente importa quando a pressa aperta",
+ "temas": [
+  "misericórdia",
+  "prioridades",
+  "escuta",
+  "serviço"
+ ],
+ "pergunta": "Você já sentiu que estava fazendo tudo certo, mas ainda assim algo essencial faltava na sua vida?",
+ "entender": "Neste trecho, vemos duas cenas que parecem separadas, mas que Jesus usa para ensinar sobre o coração. Primeiro, o samaritano cuida do homem ferido com ações concretas: ele amarrou as feridas, usou azeite e vinho, e ainda garantiu o cuidado futuro na hospedaria. A pergunta de Jesus não é sobre quem é o próximo, mas sobre quem agiu com misericórdia.\n\nLogo depois, Jesus vai à casa de Marta e Maria. Marta está ocupada com muitos serviços e se preocupa com a irmã não ouvindo a Jesus. Maria, porém, senta-se aos pés de Jesus e ouve sua palavra. Jesus reconhece que, apesar da ocupação de Marta, havia apenas uma coisa necessária: estar com Ele e ouvir o que Ele dizia.",
+ "ligar": {
+  "texto": "Jesus é o centro de ambas as cenas. No homem ferido, vemos a necessidade de um Salvador que cuida de nossas feridas, como o samaritano fez. Na casa de Marta e Maria, Jesus se apresenta como Aquele cuja palavra é a única coisa necessária. O evangelho nos chama a deixar que Cristo cure nossas feridas e a sentar aos pés dEle para ouvir sua voz, acima das nossas agendas.",
+  "selo": true
+ },
+ "viver": "Muitas vezes vivemos como Marta, tão ocupados com tarefas e preocupações que esquecemos de parar e ouvir a Deus. Isso não significa que servir é errado, mas que o serviço deve nascer de um coração alimentado pela Palavra. Tente hoje reservar um momento específico, sem distrações, apenas para ler a Bíblia e orar, deixando as preocupações de lado. Perceba como a paz de Maria, que escolheu a parte boa, pode transformar sua rotina agitada.",
+ "guarde": "A pressa nos afasta de Deus, mas a escuta nos conecta à fonte da vida.",
+ "ore": "Jesus, assim como o samaritano cuidou do ferido, eu preciso do Teu cuidado. Ajuda-me a parar de correr atrás de muitas coisas e a sentar aos Teus pés como Maria, ouvindo Tua palavra com atenção e gratidão.",
+ "quiz": {
+  "pergunta": "O que Jesus disse a Marta sobre o que era necessário?",
+  "opcoes": [
+   "Somente uma coisa é necessária.",
+   "Que ela parasse de servir imediatamente.",
+   "Que Maria precisava ajudar nas tarefas."
+  ],
+  "certa": 0,
+  "explicacao": "Jesus não condenou o serviço de Marta, mas apontou que a prioridade máxima era estar com Ele e ouvir sua palavra, que é a única coisa verdadeiramente necessária."
+ },
+ "refs": [
+  "Lucas 10:25-37",
+  "Mateus 11:28-30",
+  "João 5:39",
+  "Tiago 1:22"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T21:41:57.146Z",
+  "rounds": 1
+ }
+}

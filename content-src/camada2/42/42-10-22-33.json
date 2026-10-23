@@ -1,0 +1,145 @@
+{
+ "id": "42-10-22-33",
+ "ref": "Lucas 10:22-33",
+ "book": "42",
+ "chapter": 10,
+ "verses": [
+  {
+   "n": 22,
+   "t": "Todas as coisas me foram entregues pelo meu Pai; e ninguém sabe quem é o Filho, a não ser o Pai; nem quem é o Pai, a não ser o Filho, e a quem o Filho o quiser revelar."
+  },
+  {
+   "n": 23,
+   "t": "E virando-se para seus discípulos, disse -lhes à parte: Bem-aventurados os olhos que veem o que vós vedes."
+  },
+  {
+   "n": 24,
+   "t": "Porque vos digo, que muitos profetas e reis desejaram ver o que vós vedes, e não o viram; o ouvir o que vós ouvis, e não o ouviram."
+  },
+  {
+   "n": 25,
+   "t": "E eis que um certo estudioso da Lei se levantou, tentando-o, e dizendo: Mestre, o que devo fazer para ter para herdar a vida eterna?"
+  },
+  {
+   "n": 26,
+   "t": "E ele lhe disse: O que está escrito na Lei? Como tu a lês?"
+  },
+  {
+   "n": 27,
+   "t": "E respondendo ele, disse: Amarás ao Senhor teu Deus de todo teu coração, e de toda tua alma, e de todas tuas forças, e de todo teu entendimento; e amarás a teu próximo como a ti mesmo."
+  },
+  {
+   "n": 28,
+   "t": "E disse-lhe: Respondeste bem; faze isso, e viverás."
+  },
+  {
+   "n": 29,
+   "t": "Mas ele, querendo se justificar, disse a Jesus: E quem é o meu próximo?"
+  },
+  {
+   "n": 30,
+   "t": "E respondendo Jesus, disse: Um homem descia de Jerusalém a Jericó, e foi atacado por assaltantes, que também tiraram suas roupas, espancaram-no, e se foram, deixando-o meio morto."
+  },
+  {
+   "n": 31,
+   "t": "E por acaso descia um certo sacerdote pelo mesmo caminho, e vendo-o, passou longe dele ."
+  },
+  {
+   "n": 32,
+   "t": "E semelhantemente também um levita, chegando junto a aquele lugar, veio, e vendo-o, passou longe dele"
+  },
+  {
+   "n": 33,
+   "t": "Porém um certo samaritano, que ia pelo caminho, veio junto a ele, e vendo-o, teve compaixão dele ."
+  }
+ ],
+ "titulo": "Quem merece a sua ajuda hoje?",
+ "temas": [
+  "amor",
+  "compaixão",
+  "próximo"
+ ],
+ "pergunta": "Você consegue identificar quem é o seu próximo quando alguém sofre?",
+ "entender": "Jesus responde ao estudioso da Lei que pergunta como herdar a vida eterna. Ele o leva a ler a Lei, que resume o amor a Deus e ao próximo (v.27). O estudioso aceita, mas quer saber quem é o seu próximo (v.29). Jesus conta a história de um homem que descia de Jerusalém a Jericó e foi assaltado. Um sacerdote e um levita, ao vê‑lo, passam longe (v.31‑32). Só um samaritano, inimigo dos judeus, tem compaixão, cuida das feridas e o leva a uma hospedaria (v.33). O contexto anterior fala da revelação divina aos que têm olhos para ver (v.22‑25) e da alegria de Deus ao revelar coisas escondidas aos sábios (v.21). Assim, a parábola mostra o que realmente significa amar o próximo, indo além de aparências religiosas.\n\nA passagem enfatiza que o amor ao próximo não se restringe a quem consideramos “parecido” ou “merecedor”. O sacerdote e o levita representam a religiosidade vazia, enquanto o samaritano demonstra que o verdadeiro próximo é quem demonstra misericórdia, independentemente de diferenças culturais ou religiosas.",
+ "ligar": {
+  "texto": "A lição do samaritano aponta para o coração de Cristo, que se fez próximo ao sofrer e morrer por nós (cf. João 13:34‑35). O mandamento de amar ao próximo, confirmado por Jesus, encontra seu cumprimento máximo no amor sacrificial de Cristo na cruz. Quando seguimos o exemplo do samaritano, somos chamados a refletir esse amor que vem de Cristo, tornando‑nos testemunhas vivas do evangelho.",
+  "selo": false
+ },
+ "viver": "Quando alguém ao seu redor está ferido ou em necessidade, não espere que outra pessoa intervenha. Assim como o samaritano agiu imediatamente, você pode oferecer ajuda prática: ouvir sem julgar, levar alimento, ou simplesmente estar presente. Cada gesto de compaixão demonstra que o amor de Deus está vivo em nós e pode transformar vidas ao nosso redor.",
+ "guarde": "O próximo é quem precisa de sua compaixão, não quem você conhece melhor.",
+ "ore": "Samaritano, Senhor, ajuda-me a ter um coração aberto como o teu, para que eu veja a necessidade ao meu redor e aja com amor, sem esperar reconhecimento.",
+ "quiz": {
+  "pergunta": "Quem foi o primeiro a passar pelo homem ferido sem ajudá‑lo?",
+  "opcoes": [
+   "O sacerdote",
+   "O levita",
+   "O samaritano"
+  ],
+  "certa": 0,
+  "explicacao": "O texto registra que o sacerdote viu o homem e passou longe dele (v.31). O levita também o ignorou (v.32), enquanto o samaritano foi quem prestou socorro."
+ },
+ "refs": [
+  "Mateus 22:37-40",
+  "1 João 4:20-21",
+  "Lucas 6:27-36",
+  "Romanos 12:9-13"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T21:41:01.140Z",
+  "rounds": 2
+ }
+}

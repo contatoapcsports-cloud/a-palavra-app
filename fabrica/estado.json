@@ -1144,27 +1144,39 @@
   },
   "42-10-12-21": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:viver:41-9-32-40",
+   "estado": "pronto",
+   "titulo": "O nome que garante sua segurança"
   },
   "42-10-22-33": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: REFERENCE_BOUNDARY: Atribui ao versículo 33 o cuidado das feridas e a garantia de sustento do homem, fatos narrados apenas nos versículos 34 e 35. | PRAYER_FIDELITY: A oração é direcionada ao samaritano, um personagem da parábola, em vez de ser dirigida a Deus.",
+   "estado": "pronto",
+   "titulo": "Quem merece a sua ajuda hoje?"
   },
   "42-10-34-42": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração é erroneamente dirigida à personagem humana Marta em vez de a Deus ou Jesus, pedindo para 'ouvir a tua palavra'.",
+   "estado": "pronto",
+   "titulo": "O que realmente importa quando a pressa aperta"
   },
   "42-11-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:viver:43-3-13-24",
+   "estado": "pronto",
+   "titulo": "O segredo da oração que Jesus ensinou"
   },
   "42-11-12-22": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O dedo de Deus liberta"
   },
   "42-11-23-32": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O perigo de deixar o vazio ocupar seu coração"
   },
   "42-11-33-43": {
    "execucoes": 0,
@@ -1172,7 +1184,9 @@
   },
   "42-11-44-54": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "A chave que você não deveria trancar"
   },
   "42-12-1-12": {
    "execucoes": 0,
@@ -1201,28 +1215,36 @@
   "42-13-13-23": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-13-24-35": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-14-1-12": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 406,
-   "entrada": 991317,
-   "saida": 363072
+   "chamadas": 413,
+   "entrada": 1011529,
+   "saida": 369234
   },
   "groq-qwen": {
-   "chamadas": 403,
-   "entrada": 936188,
-   "saida": 323618
+   "chamadas": 411,
+   "entrada": 957146,
+   "saida": 330239
   },
   "gemini": {
-   "chamadas": 333,
-   "entrada": 1076484,
-   "saida": 429390
+   "chamadas": 342,
+   "entrada": 1106105,
+   "saida": 435366
   },
   "cloudflare": {
-   "chamadas": 201,
-   "entrada": 698354,
-   "saida": 74571
+   "chamadas": 208,
+   "entrada": 723138,
+   "saida": 77168
   },
   "mistral": {
    "chamadas": 0,

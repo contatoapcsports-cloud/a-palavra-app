@@ -1,0 +1,138 @@
+{
+ "id": "42-10-12-21",
+ "ref": "Lucas 10:12-21",
+ "book": "42",
+ "chapter": 10,
+ "verses": [
+  {
+   "n": 12,
+   "t": "E eu vos digo, que mais tolerável será naquele dia para Sodoma, do que para aquela cidade."
+  },
+  {
+   "n": 13,
+   "t": "Ai de ti, Corazim! Ai de ti, Betsaida! Porque se em Tiro e em Sidom tivessem sido feitas as maravilhas que foram feitas entre vós, há muito tempo que teriam se arrependido em saco e em cinza."
+  },
+  {
+   "n": 14,
+   "t": "Portanto, para Tiro e Sidom será mais tolerável no juízo, do que para vós."
+  },
+  {
+   "n": 15,
+   "t": "E tu, Cafarnaum, que pensas estar elevada ao céu, até o Xeol serás derrubada!"
+  },
+  {
+   "n": 16,
+   "t": "Quem vos ouve, ouve a mim; e quem vos rejeita, rejeita a mim; e quem me rejeita, rejeita aquele que me enviou."
+  },
+  {
+   "n": 17,
+   "t": "E os setenta voltaram com alegria, dizendo: Senhor, até os demônios se sujeitam a nós por teu nome."
+  },
+  {
+   "n": 18,
+   "t": "E disse-lhes: Eu vi a Satanás, que caía do céu como um raio."
+  },
+  {
+   "n": 19,
+   "t": "Eis que vos dou poder para pisar sobre serpentes e escorpiões, e sobre toda a força do inimigo, e nada vos fará dano nenhum."
+  },
+  {
+   "n": 20,
+   "t": "Mas não vos alegreis de que os espíritos se sujeitem a vós; em vez disso, alegrai-vos por vossos nomes estarem escritos nos céus."
+  },
+  {
+   "n": 21,
+   "t": "Naquela hora Jesus se alegrou em espírito, e disse: Graças te dou, o Pai, Senhor do céu e da terra; porque tu escondeste estas coisas aos sábios e instruídos, e as revelaste às crianças. Sim, Pai, porque assim lhe agradou diante de ti."
+  }
+ ],
+ "titulo": "O nome que garante sua segurança",
+ "temas": [
+  "segurança",
+  "graça",
+  "humildade",
+  "alegria"
+ ],
+ "pergunta": "Por que Jesus preferiu que os discípulos se alegrassem com seu destino eterno e não com suas vitórias espirituais?",
+ "entender": "Os setenta discípulos voltaram animados porque os demônios os obedeceram. Para eles, aquilo era a maior prova do poder de Jesus. Mas Jesus redireciona o olhar: ele viu Satanás cair como um raio, mostrando que a guerra espiritual já tem um desfecho definido.\n\nEm seguida, Jesus dá uma instrução contra-intuitiva: não se alegrem com o poder sobre espíritos, mas com o fato de seus nomes estarem escritos nos céus. Isso significa que a salvação não depende do seu desempenho ou de milagres que você faça, mas da escolha soberana de Deus em salvar você.\n\nFinalmente, Jesus agradece ao Pai por esconder a verdade dos sábios e revelá-la às crianças. Isso mostra que o evangelho é um presente da graça, acessível a quem se humilha para recebê-lo, independentemente de sua inteligência ou status social.",
+ "ligar": {
+  "texto": "Jesus se apresenta aqui como o mediador que revela quem é o Pai e garante a segurança dos seus. A alegria dos discípulos é transferida da sua capacidade de agir para a certeza de que pertencem a Cristo. O evangelho, portanto, não é sobre o que você pode fazer por Deus, mas sobre o que Deus já fez por você, registrando seu nome no céu e garantindo sua salvação pela fé.",
+  "selo": true
+ },
+ "viver": "Muitas vezes nossa autoestima espiritual flutua conforme os resultados. Se a oração é respondida, nos sentimos próximos de Deus; se há dificuldades, duvidamos do cuidado divino. Jesus nos convida a ancorar nossa alegria em algo inabalável: o registro do nosso nome nos céus. Isso não significa passividade, mas uma paz profunda que nos permite servir sem ansiedade, sabendo que nossa identidade não é definida pelo que fazemos, mas por quem nos amou primeiro e nos escolheu.",
+ "guarde": "Sua identidade não está no seu desempenho, mas no fato de seu nome estar escrito nos céus.",
+ "ore": "Pai, Senhor do céu e da terra, assim como revelaste as coisas às crianças, abre meus olhos para a graça. Ensina-me a me alegrar não pelos meus feitos, mas pela segurança de que meu nome está escrito em Teu livro. Amém.",
+ "quiz": {
+  "pergunta": "Segundo Lucas 10:20, o que Jesus disse ser mais importante do que a sujeição dos espíritos?",
+  "opcoes": [
+   "Que os nomes dos discípulos estavam escritos nos céus",
+   "Que eles tinham autoridade para pisar em serpentes",
+   "Que os demônios se submetiam ao nome de Jesus"
+  ],
+  "certa": 0,
+  "explicacao": "Jesus instrui os discípulos a focar na segurança da salvação (nomes escritos nos céus) em vez de se orgulharem do poder espiritual exercido."
+ },
+ "refs": [
+  "João 1:12-13",
+  "Filipenses 3:3",
+  "Apocalipse 20:15",
+  "Lucas 9:1-2"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T21:43:00.145Z",
+  "rounds": 2
+ }
+}

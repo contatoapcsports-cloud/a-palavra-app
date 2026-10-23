@@ -1,0 +1,141 @@
+{
+ "id": "42-11-1-11",
+ "ref": "Lucas 11:1-11",
+ "book": "42",
+ "chapter": 11,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E aconteceu que ele estava orando em um certo lugar. Quando terminou, lhe disse um de seus discípulos: Senhor, ensina-nos a orar, como João também ensinou a seus discípulos."
+  },
+  {
+   "n": 2,
+   "t": "E ele lhes disse: Quando orardes, dizei: Pai nosso, que estás nos céus, santificado seja o teu nome; venha o teu Reino; seja feita a tua vontade, assim na terra como no céu."
+  },
+  {
+   "n": 3,
+   "t": "Dá-nos cada dia nosso pão diário."
+  },
+  {
+   "n": 4,
+   "t": "E perdoa-nos nossos pecados, pois também perdoamos a todo aquele que nos deve. E não nos ponhas em tentação, mas livra-nos do mal."
+  },
+  {
+   "n": 5,
+   "t": "Disse-lhes também: Qual de vós que, tendo um amigo, se for a ele à meia-noite, e lhe disser: Amigo, empresta-me três pães."
+  },
+  {
+   "n": 6,
+   "t": "Porque um amigo meu veio de viagem até mim, e nada tenho para lhe apresentar."
+  },
+  {
+   "n": 7,
+   "t": "E ele de dentro, respondendo, disser: Não me perturbe! A porta já está fechada, e meus filhos estão comigo na cama; não posso me levantar para te dar."
+  },
+  {
+   "n": 8,
+   "t": "Digo-vos, que ainda que ele não se levante para lhe dar por seu seu amigo, contudo, por sua teimosia ele se levantará, e lhe dará tudo quanto ele precisar."
+  },
+  {
+   "n": 9,
+   "t": "E eu vos digo: pedi, e será vos dado; buscai, e achareis; batei, e vos será aberto."
+  },
+  {
+   "n": 10,
+   "t": "Porque todo o que pede, recebe; e quem busca, acha; e quem bate, lhe será aberto."
+  },
+  {
+   "n": 11,
+   "t": "E que pai, dentre vós, a quem o filho pedir pão, lhe dará uma pedra? Ou, se também lhe pedir peixe, no lugar do peixe lhe dará uma serpente?"
+  }
+ ],
+ "titulo": "O segredo da oração que Jesus ensinou",
+ "temas": [
+  "oração",
+  "confiança",
+  "pão diário",
+  "perdão"
+ ],
+ "pergunta": "O que os discípulos notaram de diferente ao ver Jesus orar?",
+ "entender": "Em Lucas 11, Jesus termina de orar e um discípulo pede: \"Senhor, ensina-nos a orar\". Jesus responde com um modelo que começa chamando Deus de \"Pai nosso\". Ele ensina a pedir que o nome de Deus seja santificado, que o Reino dele venha e que a vontade dele seja feita na terra como no céu.\n\nDepois, Jesus fala do \"pão diário\", dos pecados perdoados e do livramento do mal. Para explicar a confiança na oração, ele conta a história de um homem que vai a um amigo à meia-noite pedindo três pães. O amigo reclama, mas acaba cedendo pela insistência do vizinho.\n\nJesus usa essa comparação para mostrar que, se um humano comum cede à insistência, muito mais o Pai celestial dará o que é bom aos seus filhos. Ele conclui com a promessa: \"pedi, e será vos dado; buscai, e achareis\".",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para Jesus, que é o intermediário perfeito entre Deus e a humanidade. Ao ensinar a orar a Deus como \"Pai\", Jesus revela o acesso íntimo que ele conquistou através de sua morte e ressurreição. A oração que ele ensina não é um ritual, mas uma conversa de filhos com o Pai, possível porque Jesus nos reconciliou com Deus. O \"pão diário\" que pedimos reflete a provisão constante que Jesus oferece, sendo ele o Pão da Vida que sustenta nossa alma.",
+  "selo": true
+ },
+ "viver": "Ao ver Jesus orar, os discípulos perceberam uma intimidade que eles próprios não tinham. Talvez sua oração seja apenas uma lista de pedidos ou um hábito automático. Experimente hoje parar para observar sua própria relação com Deus: você fala com Ele como um filho que confia no pai, ou como um estranho que pede favores?\n\nComece a oração chamando Deus de Pai, reconhecendo que você tem acesso a ele. Peça o \"pão diário\" não apenas como comida, mas como a graça necessária para o dia de hoje. Essa mudança de postura, de medo para confiança, transforma a oração de uma obrigação em um encontro real com o Criador.",
+ "guarde": "Pedir com a confiança de um filho que sabe que seu Pai é bom.",
+ "ore": "Pai, assim como os discípulos pediram a Jesus, ensina-me a orar com confiança. Não me deixes buscar apenas o pão material, mas a Tua vontade e o perdão. Dá-me a persistência de quem sabe que Tu ouves e agiras no tempo certo, fortalecendo minha fé em cada pedido.",
+ "quiz": {
+  "pergunta": "Qual é a atitude principal que Jesus ensina na oração?",
+  "opcoes": [
+   "Incomodar Deus até ele ceder por teimosia.",
+   "Confiança filial e persistência na busca.",
+   "Recitação mecânica de palavras fixas."
+  ],
+  "certa": 1,
+  "explicacao": "Jesus usa a parábola do vizinho para ilustrar a persistência humana, mas o foco é a bondade do Pai, que responde com amor, diferentemente do vizinho relutante."
+ },
+ "refs": [
+  "Mateus 6:9-13",
+  "Filipenses 4:6-7",
+  "1 João 5:14"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T21:47:58.823Z",
+  "rounds": 2
+ }
+}

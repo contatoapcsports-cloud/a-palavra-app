@@ -1,0 +1,141 @@
+{
+ "id": "42-11-44-54",
+ "ref": "Lucas 11:44-54",
+ "book": "42",
+ "chapter": 11,
+ "verses": [
+  {
+   "n": 44,
+   "t": "Ai de vós, escribas e fariseus, hipócritas, que sois como as sepulturas disfarçadas, e as pessoas que andam sobre elas não sabem."
+  },
+  {
+   "n": 45,
+   "t": "E respondendo um dos estudiosos da Lei, disse-lhe: Mestre, quando dizes isto também afrontas a nós."
+  },
+  {
+   "n": 46,
+   "t": "Porém ele disse: Ai de vós também, estudiosos da Lei, que carregais as pessoas com cargas pesadas para levar, e vós mesmos nem ainda com um de vossos dedos tais cargas tocais."
+  },
+  {
+   "n": 47,
+   "t": "Ai de vós, que construís os sepulcros dos profetas, e vossos pais os mataram."
+  },
+  {
+   "n": 48,
+   "t": "Bem testemunhais pois, que também consentis nas obras de vossos pais; porque eles os mataram, e vós edificais seus sepulcros."
+  },
+  {
+   "n": 49,
+   "t": "Portanto também diz a sabedoria de Deus: Profetas e apóstolos lhes mandarei; e deles a uns matarão, e a outros lançarão fora;"
+  },
+  {
+   "n": 50,
+   "t": "Para que desta geração seja requerido o sangue de todos os profetas, que foi derramado desde a fundação do mundo;"
+  },
+  {
+   "n": 51,
+   "t": "Desde o sangue de Abel, até o sangue de Zacarias, que foi morto entre o altar e a casa de Deus ; assim vos digo, será requerido desta geração."
+  },
+  {
+   "n": 52,
+   "t": "Ai de vós, estudiosos da Lei, que tomastes a chave do conhecimento; vós mesmos não entrastes, e impedistes aos que estavam entrando."
+  },
+  {
+   "n": 53,
+   "t": "E dizendo-lhes estas coisas, os escribas e os fariseus começaram a apertá-lo fortemente, e tentar lhe fazer falar de muitas coisas,"
+  },
+  {
+   "n": 54,
+   "t": "armando-lhe ciladas, e procurando caçar alguma coisa de sua boca, para o poderem acusar."
+  }
+ ],
+ "titulo": "A chave que você não deveria trancar",
+ "temas": [
+  "verdade",
+  "responsabilidade",
+  "conhecimento",
+  "hipocrisia"
+ ],
+ "pergunta": "Você já viu alguém bloquear o caminho de outra pessoa para a verdade?",
+ "entender": "Neste trecho, Jesus confronta os líderes religiosos da época. Ele os acusa de serem como \"sepulturas disfarçadas\": por fora parecem limpos e piedosos, mas por dentro escondem morte e hipocrisia. Em Lucas 11.46, Jesus diz que eles carregam as pessoas com regras pesadas, mas eles mesmos nem com o dedo tocam essas cargas.\n\nA crítica vai além da aparência. Jesus aponta que esses líderes mataram os profetas no passado (ou consentiram com isso) e agora constroem seus túmulos, fingindo luto. O ponto mais duro está em Lucas 11.52: eles tomaram a \"chave do conhecimento\", mas não entraram no Reino e ainda impedem que outros entrem. É uma acusação séria: ter acesso à verdade e usá-lo para excluir, em vez de incluir.",
+ "ligar": {
+  "texto": "Jesus se coloca como o verdadeiro dono da chave do conhecimento. Ele não apenas interpreta a Lei, mas revela o coração de Deus. Enquanto os líderes fechavam portas com regras humanas, Jesus abria caminho para a salvação. O evangelho é a chave que destranca o que estava trancado pela tradição e pelo orgulho. Jesus veio para que todos pudessem entrar, não para criar uma nova classe de guardiões exclusivistas.",
+  "selo": true
+ },
+ "viver": "Pense na última vez que você ouviu uma explicação religiosa que serviu mais para impressionar do que para ajudar. Às vezes, usamos termos difíceis ou regras rígidas para nos sentir superiores, quando a mensagem deveria ser simples e libertadora. A aplicação prática é verificar se o que você compartilha abre portas ou as fecha. Se sua fé serve para te isolar dos outros, ela pode estar virando uma carga pesada, como a que Jesus criticou. Seja uma ponte, não uma barreira.",
+ "guarde": "A verdade de Deus é uma chave para abrir caminhos, nunca uma arma para excluir pessoas.",
+ "ore": "Jesus, que acusou os líderes de trancarem o Reino, abre meus olhos para ver a verdade com simplicidade. Ensina-me a compartilhar a fé sem criar barreiras, removendo de mim qualquer orgulho religioso que possa afastar os outros de Ti.",
+ "quiz": {
+  "pergunta": "O que Jesus acusou os estudiosos da Lei de fazerem com a \"chave do conhecimento\"?",
+  "opcoes": [
+   "Impediram que outros entrassem.",
+   "Perderam a chave no deserto.",
+   "Usaram a chave para abrir tesouros."
+  ],
+  "certa": 0,
+  "explicacao": "Em Lucas 11.52, Jesus diz que eles tomaram a chave do conhecimento, não entraram e impediram aos que estavam entrando, mostrando seu papel bloqueante."
+ },
+ "refs": [
+  "Mateus 23:13",
+  "João 10:9",
+  "Atos 4:12"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T21:46:58.409Z",
+  "rounds": 1
+ }
+}

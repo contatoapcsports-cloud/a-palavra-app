@@ -1,0 +1,141 @@
+{
+ "id": "42-11-12-22",
+ "ref": "Lucas 11:12-22",
+ "book": "42",
+ "chapter": 11,
+ "verses": [
+  {
+   "n": 12,
+   "t": "Ou se também pedir um ovo, lhe dará um escorpião?"
+  },
+  {
+   "n": 13,
+   "t": "Pois se vós, sendo maus, sabeis dar bons presentes para vossos filhos, quanto mais dará vosso Pai celestial, o Espírito Santo, a aqueles que lhe pedirem?"
+  },
+  {
+   "n": 14,
+   "t": "E Jesus estava expulsando um demônio, e este era mudo. E aconteceu que, saindo o demônio, o mudo falou, e as multidões se maravilharam."
+  },
+  {
+   "n": 15,
+   "t": "Porém alguns deles diziam: Ele expulsa aos demônios por Belzebu, príncipe dos demônios!"
+  },
+  {
+   "n": 16,
+   "t": "E outros, tentando -o ,pediam-lhe um sinal do céu."
+  },
+  {
+   "n": 17,
+   "t": "Mas ele, conhecendo seus pensamentos, disse-lhes: Todo reino dividido contra si mesmo é transformado num vazio, e a casa contra casa cai."
+  },
+  {
+   "n": 18,
+   "t": "E se também Satanás está dividido contra si mesmo, como durará o seu reino? Porque dizeis: Por Belzebu ele expulsa aos demônios."
+  },
+  {
+   "n": 19,
+   "t": "E se eu expulso aos demônios por Belzebu, por quem os seus filhos expulsam? Portanto eles serão vossos juízes."
+  },
+  {
+   "n": 20,
+   "t": "Mas se eu expulso aos demônios pelo dedo de Deus, portanto o Reino de Deus chegou a vós."
+  },
+  {
+   "n": 21,
+   "t": "Quando o valente, armado, guarda seu palácio, seus bens estão em paz."
+  },
+  {
+   "n": 22,
+   "t": "Mas vindo outro mais valente que ele, e vencendo-o, toma -lhe toda sua armadura, em que confiava, e reparte seus despojos."
+  }
+ ],
+ "titulo": "O dedo de Deus liberta",
+ "temas": [
+  "libertação",
+  "reino de deus",
+  "fé",
+  "oração"
+ ],
+ "pergunta": "Se um rei divide seu próprio exército, o que acontece com seu poder?",
+ "entender": "Jesus estava curando um homem que era mudo por causa de um demônio. Quando o espírito saiu, o homem começou a falar e a multidão se maravilhou. Porém, alguns líderes religiosos acusaram Jesus de usar o poder de Belzebu, o príncipe dos demônios, para expulsar espíritos. Eles também pediram um sinal do céu para testá-lo.\n\nJesus respondeu com uma lógica simples: um reino dividido contra si mesmo cai. Se Satanás estivesse dividido, seu reino não duraria. Jesus afirmou que expulsava demônios \"pelo dedo de Deus\", provando que o Reino de Deus havia chegado. Ele comparou a situação a um valente armado que guarda seu palácio, mas que é vencido por outro mais forte, que toma sua armadura e reparte seus despojos.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a autoridade de Jesus sobre o mal. A frase \"o Reino de Deus chegou a vós\" é a chave: Jesus não apenas cura, Ele anuncia a vinda do reinado de Deus na terra. A acusação de usar poderes demoníacos é refutada pela própria ação de libertação. O evangelho é claro aqui: Jesus é o \"mais valente\" que vence o poder da escuridão, quebrando as correntes que prendem as pessoas e oferecendo liberdade e vida plena.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, tentamos resolver problemas espirituais ou emocionais com nossas próprias forças, como quem tenta guardar um palácio sozinho. Mas o texto nos lembra que existe um poder maior que Jesus trouxe. Quando você se sente preso por vícios, medos ou opressões, não tente lutar sozinho. Entregue essa situação a Deus em oração, confiando que Ele é mais forte que qualquer adversário espiritual. A libertação não vem da sua força, mas da presença do Reino de Deus em sua vida.",
+ "guarde": "O Reino de Deus chegou para vencer o mal e trazer liberdade.",
+ "ore": "Jesus, Tu que expulsaste o demônio pelo dedo de Deus, eu Te peço hoje libertação. Vence qualquer opressão em minha vida e mostra-me a realidade do Teu Reino. Que eu pare de duvidar da Tua autoridade e confie no Teu poder sobre o mal. Em Teu nome, amém.",
+ "quiz": {
+  "pergunta": "Segundo o texto, por quem Jesus afirmava expulsar os demônios?",
+  "opcoes": [
+   "Pelo poder dos apóstolos",
+   "Por Belzebu, príncipe dos demônios",
+   "Pelo dedo de Deus"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus refutou a acusação de usar Belzebu dizendo que se ele expulsava demônios pelo dedo de Deus, então o Reino de Deus havia chegado."
+ },
+ "refs": [
+  "Mateus 12:28",
+  "Marcos 3:27",
+  "Lucas 10:17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T21:44:58.466Z",
+  "rounds": 1
+ }
+}
