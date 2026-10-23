@@ -77,6 +77,23 @@
     return ['Palavra do dia.', e.ref + '.', e.texto, 'Reflexão.', e.reflexao, 'Oração.', e.oracao, 'Amém.'].join(' ');
   }
 
+  var IMGS = ['assets/hero-dawn.jpg', 'assets/hero-reading.jpg', 'assets/hero-bible.jpg'];
+  var CHAVE = 'pv_pdia_salvas';
+  function imagemDoDia(data) { return IMGS[indiceDoDia(data, DADOS.length) % IMGS.length]; }
+  function hoje() { var d = new Date(); return d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2); }
+  function lerSalvas() { try { var a = JSON.parse(localStorage.getItem(CHAVE) || '[]'); return Array.isArray(a) ? a : []; } catch (x) { return []; } }
+  function gravarSalvas(a) { try { localStorage.setItem(CHAVE, JSON.stringify(a)); return true; } catch (x) { return false; } }
+  function estaSalva(ref) { return lerSalvas().some(function (s) { return s.ref === ref; }); }
+  function alternarSalva(ref) {
+    var a = lerSalvas(), i = -1; a.forEach(function (s, k) { if (s.ref === ref) i = k; });
+    if (i >= 0) a.splice(i, 1); else a.unshift({ ref: ref, dia: hoje() });
+    return gravarSalvas(a);
+  }
+  function textoParaCompartilhar(e, link) {
+    var N = String.fromCharCode(10), NN = N + N;
+    return '“' + e.texto + '”' + N + e.ref + ' (Bíblia Livre, BLIVRE)' + NN + 'Reflexão: ' + e.reflexao + NN + 'Oração: ' + e.oracao + NN + 'Palavra Viva – Aprendendo as Escrituras' + (link ? N + link : '');
+  }
+
   var falando = false;
   function vozPt() {
     var vs = speechSynthesis.getVoices().filter(function (v) { return /^pt/i.test(v.lang); });
@@ -98,35 +115,72 @@
   }
 
   function el(tag, cls, txt) { var n = document.createElement(tag); if (cls) n.className = cls; if (txt != null) n.textContent = txt; return n; }
-  function montar() {
-    if (typeof document === 'undefined' || document.getElementById('pdia')) return;
-    var antes = document.getElementById('railSec'), pai = antes && antes.parentNode;
-    if (!pai) return;
-    var e = doDia();
-    var st = el('style'); st.textContent =
-      '#pdia{margin:18px 16px 4px;padding:18px 16px;border-radius:20px;background:var(--paper,#fbf7ee);color:inherit}' +
-      '#pdia .eyebrow{display:block}#pdia h2{margin:4px 0 8px;font-size:20px}' +
-      '#pdia blockquote{margin:0 0 12px;padding:0 0 0 12px;border-left:3px solid var(--accent,#2f5d50);font-size:17px;line-height:1.55}' +
-      '#pdia h3{margin:12px 0 4px;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--soft,#6b6b5f)}' +
-      '#pdia p{margin:0;line-height:1.55}#pdia .cr{margin-top:12px;font-size:11px;color:var(--soft,#6b6b5f)}' +
-      '#pdia .bt{margin-top:12px;padding:10px 16px;border:0;border-radius:14px;font:inherit;font-weight:600;background:var(--accent,#2f5d50);color:#fff}';
-    document.head.appendChild(st);
-    var s = el('section', 'sec'); s.id = 'pdia'; s.setAttribute('aria-label', 'Palavra do Dia');
-    s.appendChild(el('span', 'eyebrow', 'Palavra do Dia'));
-    s.appendChild(el('h2', null, e.ref));
-    s.appendChild(el('blockquote', null, e.texto));
-    s.appendChild(el('h3', null, 'Reflexão')); s.appendChild(el('p', null, e.reflexao));
-    s.appendChild(el('h3', null, 'Oração')); s.appendChild(el('p', null, e.oracao));
-    if (typeof speechSynthesis !== 'undefined' && 'SpeechSynthesisUtterance' in window) {
-      var b = el('button', 'bt', 'Ouvir'); b.type = 'button'; b.setAttribute('aria-label', 'Ouvir a Palavra do Dia com a voz do aparelho');
-      b.addEventListener('click', function () { ouvir(e, b); }); s.appendChild(b);
-      window.addEventListener('pagehide', function () { parar(b); });
+  function botao(txt, fn, cls) { var b = el('button', cls || 'pdbt', txt); b.type = 'button'; b.addEventListener('click', fn); return b; }
+  var CSS = '.pdimg{height:170px;border-radius:16px;background:#1f4d43 center/cover no-repeat;margin:0 0 14px}' +
+    '.pdw h2{margin:0 0 8px;font-size:21px}.pdw blockquote{margin:0 0 6px;padding:0 0 0 12px;border-left:3px solid var(--accent,#2f5d50);font-size:17px;line-height:1.55}' +
+    '.pdw .tr{margin:0 0 10px;font-size:12px;color:var(--soft,#6b6b5f)}.pdw h3{margin:12px 0 4px;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--soft,#6b6b5f)}' +
+    '.pdw p{margin:0;line-height:1.55}.pdw .row{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}' +
+    '.pdbt{padding:10px 14px;border:0;border-radius:14px;font:inherit;font-weight:600;background:var(--accent,#2f5d50);color:#fff}.pdbt.alt{background:rgba(128,128,128,.18);color:inherit}' +
+    '.pdw .cr{margin-top:14px;font-size:11px;color:var(--soft,#6b6b5f)}.pdw .sv{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:8px 0;border-top:1px solid rgba(128,128,128,.25)}';
+
+  function abrir(e) {
+    var A = window.PVApp; if (!A) return;
+    e = e || doDia();
+    var w = el('div', 'pdw'), idx = DADOS.indexOf(e);
+    var img = el('div', 'pdimg'); img.style.backgroundImage = 'url(' + IMGS[(idx < 0 ? 0 : idx) % IMGS.length] + ')'; img.setAttribute('role', 'img'); img.setAttribute('aria-label', 'Imagem de paz e esperança');
+    w.appendChild(img);
+    w.appendChild(el('h2', null, e.ref));
+    w.appendChild(el('blockquote', null, e.texto));
+    w.appendChild(el('p', 'tr', 'Tradução: Bíblia Livre (BLIVRE), CC BY 4.0'));
+    w.appendChild(el('h3', null, 'Reflexão')); w.appendChild(el('p', null, e.reflexao));
+    w.appendChild(el('h3', null, 'Oração')); w.appendChild(el('p', null, e.oracao));
+    var row = el('div', 'row');
+    if (typeof speechSynthesis !== 'undefined' && 'SpeechSynthesisUtterance' in window) { var ob = botao('Ouvir', function () { ouvir(e, ob); }); ob.setAttribute('aria-label', 'Ouvir a Palavra do Dia com a voz do aparelho'); row.appendChild(ob); }
+    var sb = botao(estaSalva(e.ref) ? 'Salva ✓' : 'Salvar', function () {
+      if (!alternarSalva(e.ref)) A.toast('Não foi possível salvar neste aparelho.'); else A.toast(estaSalva(e.ref) ? 'Mensagem salva' : 'Removida das salvas');
+      sb.textContent = estaSalva(e.ref) ? 'Salva ✓' : 'Salvar'; listar();
+    }, 'pdbt alt');
+    row.appendChild(sb);
+    var link = location.origin + location.pathname, txt = textoParaCompartilhar(e, link);
+    if (navigator.share) row.appendChild(botao('Compartilhar', function () { navigator.share({ title: 'Palavra do Dia', text: txt }).catch(function () { /* cancelado */ }); }, 'pdbt alt'));
+    row.appendChild(botao('Copiar', function () {
+      var ok = function () { A.toast('Copiado'); }, no = function () { A.toast('Não foi possível copiar neste aparelho.'); };
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(ok, no); else no();
+    }, 'pdbt alt'));
+    w.appendChild(row);
+    var lst = el('div', 'lst'); w.appendChild(lst);
+    function listar() {
+      lst.textContent = ''; var a = lerSalvas(); if (!a.length) return;
+      lst.appendChild(el('h3', null, 'Mensagens salvas (' + a.length + ')'));
+      a.forEach(function (s) {
+        var d = DADOS.filter(function (x) { return x.ref === s.ref; })[0]; if (!d) return;
+        var li = el('div', 'sv'), ab = botao(s.ref, function () { abrir(d); }, 'pdbt alt'), rm = botao('Remover', function () { alternarSalva(s.ref); sb.textContent = estaSalva(e.ref) ? 'Salva ✓' : 'Salvar'; listar(); }, 'pdbt alt');
+        li.appendChild(ab); li.appendChild(rm); lst.appendChild(li);
+      });
     }
-    s.appendChild(el('p', 'cr', CREDITO));
-    pai.insertBefore(s, antes);
+    listar();
+    w.appendChild(el('p', 'cr', CREDITO));
+    parar(); A.modal([A.mtag('Palavra do Dia', true), w]);
+  }
+
+  /* o cartão entra no carrossel de estudos que já existe; o conteúdo completo só abre ao tocar */
+  function montar() {
+    if (typeof document === 'undefined' || document.getElementById('cardPdia')) return;
+    if (!window.PVApp) return; /* sem os ganchos do app, a Home fica exatamente como era */
+    var rail = document.querySelector('#railSec .rail'); if (!rail) return;
+    var st = el('style'); st.textContent = CSS; document.head.appendChild(st);
+    var c = el('button', 'pcard'); c.type = 'button'; c.id = 'cardPdia'; c.style.setProperty('--img', 'url(' + imagemDoDia() + ')');
+    var ic = el('span', 'st'); ic.setAttribute('aria-hidden', 'true');
+    ic.innerHTML = `<svg viewBox='0 0 24 24' fill='currentColor'><path d='M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.8 6.8 19.6l1-5.8L3.5 9.7l5.9-.9L12 3.5Z'/></svg>`;
+    c.appendChild(ic); c.appendChild(el('span', 'eb', 'Palavra do Dia'));
+    c.appendChild(el('strong', null, 'Uma mensagem para fortalecer sua fé')); c.appendChild(el('small', null, 'Toque para abrir'));
+    c.addEventListener('click', function () { abrir(); });
+    rail.insertBefore(c, rail.firstChild);
+    window.addEventListener('popstate', function () { parar(); });
+    window.addEventListener('pagehide', function () { parar(); });
   }
   if (typeof document !== 'undefined') {
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', montar); else montar();
   }
-  return { dados: DADOS, indiceDoDia: indiceDoDia, doDia: doDia, roteiro: roteiro };
+  return { dados: DADOS, indiceDoDia: indiceDoDia, doDia: doDia, roteiro: roteiro, textoParaCompartilhar: textoParaCompartilhar };
 });

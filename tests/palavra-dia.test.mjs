@@ -29,3 +29,7 @@ test('o roteiro de narração segue a ordem da tela e termina em Amém', () => {
   assert.ok(r.indexOf(e.texto) < r.indexOf(e.reflexao) && r.indexOf(e.reflexao) < r.indexOf(e.oracao));
   assert.ok(r.endsWith('Amém.'));
 });
+test('o texto de compartilhamento traz versículo, referência, tradução, reflexão, oração e a identificação do app', () => {
+  const e = PD.dados[1], t = PD.textoParaCompartilhar(e, 'https://exemplo.test/app/');
+  for (const parte of [e.texto, e.ref, 'BLIVRE', e.reflexao, e.oracao, 'Palavra Viva', 'https://exemplo.test/app/']) assert.ok(t.includes(parte), parte);
+});
