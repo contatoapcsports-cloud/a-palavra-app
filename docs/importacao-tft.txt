@@ -1,0 +1,88 @@
+Versão: Tradução para Tradutores (tft)
+Livros: 27 · capítulos gravados: 260 de 260
+SHA-256 dos arquivos USFM de origem:
+  b36df6a27d584603d88ab9c320c6a231797e4ed158b597db834fc6c172ab7736  46-MATportft.usfm
+  4e330a752d82c59a1bc7180f7cb862ec40a212a8c2059e83255c350792089867  47-MRKportft.usfm
+  a19091c1e0530afdddfb4794fe529d9fece98a752826d4e867b8628e495e1a71  48-LUKportft.usfm
+  1e10a3394bc192d39716913e35c3f96ffa82f426065f4e974749ef1b2cfb5c1d  49-JHNportft.usfm
+  92da69c2a5767c980062a07a61543a134b3b241bea72d4c1524d8ce0fa747bae  50-ACTportft.usfm
+  e802173988e2b2efae04b7cfc190307354d89786aca867bf0ae3f9e24cb1fd79  51-ROMportft.usfm
+  39718a4ac7bcc256936488a5a24fbf29980e5f55d6297e1ec518728872f3124c  52-1COportft.usfm
+  3c2295e3e3ffa466af30554eef6beb1f0bc4fa0584533a137ce6ef8382d82cf9  53-2COportft.usfm
+  31665f60213250b1d57dc955b507714ca6c091f5dcce801b4a17bd3fd1df629b  54-GALportft.usfm
+  3cdf718ee6f88a1143f78061defb6858ac82af21f12f84c6d1c81bd301f2c7e6  55-EPHportft.usfm
+  595d8690d0b68cbf56afdc739b16b427696a65061868d54e3d62cd799a9221d5  56-PHPportft.usfm
+  62503348f49badc767d8f2100f7ca93e33758886d6163b200803d92c1f47db7d  57-COLportft.usfm
+  564ed6fa275f485054fbfa960c59c53482ddfbf62cc21ca7d1b21e42c3944c8c  58-1THportft.usfm
+  3a22e7a1100961caa83707ac8b15b006a90c2792de782c9c47f7cae6334cc9f1  59-2THportft.usfm
+  a158468a9a263fce789fd150dc942c9f0989ca5207d1c771e35ef4a2f3de46db  60-1TIportft.usfm
+  adae4f68a4d8d6fd1ca6fc1ec4dd965652f34371b08185df5e37c29ed0ec4fe2  61-2TIportft.usfm
+  56a473271cabac964566a3bd9f3fe9a67a4e8b67d030c4ecfedbacf1fa1485f5  62-TITportft.usfm
+  3a8d94bd5a7da8db489d00611a74a2e7c9a2aac8404b21f84e1977d2a5bbe8d2  63-PHMportft.usfm
+  5c1721e89e757af64abb374188d6ada287764b21174e31eec55002b3d53b7b0e  64-HEBportft.usfm
+  8ccfbe9eb8024df737c5f7bf4df8619f8af4968c41ab5a52e56d34d570f6fb12  65-JASportft.usfm
+  a723e96f5187052dbbd9e800aa5775bc8a2860fbe3c143e565c36c453480bf92  66-1PEportft.usfm
+  57e38e3cfc8b5024b30c8a8737daeca3ed6f4079c592d4aae5bc9a57c8a9b8cd  67-2PEportft.usfm
+  84f07e494346455ebe256f96846af913191faf74c286157cec85b93cd1c30f27  68-1JNportft.usfm
+  6239b2e9c43dcfc54ff6016f53fad9de244ba6ae3b13d426f924b7a6dd50a480  69-2JNportft.usfm
+  8ad8b958d330eedcaec916a4a9bfbfe66047a7750e19f522ed9c2985d33b893a  70-3JNportft.usfm
+  63dfbf50e4108caf9d869c4407f91bc929ece5c8c423da4fa1070beee9f1e814  71-JUDportft.usfm
+  cc4509e6cfa032e7e2b7a8d634211e888fd80bce256365bea0d51c462fdf53cb  72-REVportft.usfm
+ERROS (0):
+AVISOS (56):
+Mateus 7:13-14: versículos agrupados no texto de origem (gravado como 13-14)
+Mateus 9:20-21: versículos agrupados no texto de origem (gravado como 20-21)
+Mateus 10:9-10: versículos agrupados no texto de origem (gravado como 9-10)
+Mateus 10:11-12: versículos agrupados no texto de origem (gravado como 11-12)
+Mateus 11:29-30: versículos agrupados no texto de origem (gravado como 29-30)
+Mateus 13:20-21: versículos agrupados no texto de origem (gravado como 20-21)
+Mateus 14:3-4: versículos agrupados no texto de origem (gravado como 3-4)
+Mateus 14:21: marca "\v 000" na origem unida ao versículo anterior (texto: "homens. Nem contamos")
+Mateus 15:37-38: versículos agrupados no texto de origem (gravado como 37-38)
+Mateus 23:13-14: versículos agrupados no texto de origem (gravado como 13-14)
+Mateus 24:37-39: versículos agrupados no texto de origem (gravado como 37-39)
+Marcos 1:1-2: versículos agrupados no texto de origem (gravado como 1-2)
+Marcos 2:1-2: versículos agrupados no texto de origem (gravado como 1-2)
+Marcos 9: faltam versículos [44, 46]
+Marcos 11: faltam versículos [26]
+Marcos 15:42-43: versículos agrupados no texto de origem (gravado como 42-43)
+Marcos 15: faltam versículos [28]
+Lucas 1:1-2: versículos agrupados no texto de origem (gravado como 1-2)
+Lucas 1:54-55: versículos agrupados no texto de origem (gravado como 54-55)
+Lucas 2:6-7: versículos agrupados no texto de origem (gravado como 6-7)
+Lucas 2:22-23: versículos agrupados no texto de origem (gravado como 22-23)
+Lucas 2:29-32: versículos agrupados no texto de origem (gravado como 29-32)
+Lucas 5:8-9: versículos agrupados no texto de origem (gravado como 8-9)
+Lucas 8:28-29: versículos agrupados no texto de origem (gravado como 28-29)
+Lucas 17:35-36: versículos agrupados no texto de origem (gravado como 35-36)
+Lucas 21:3-4: versículos agrupados no texto de origem (gravado como 3-4)
+João 4:1-2: versículos agrupados no texto de origem (gravado como 1-2)
+João 4:6-8: versículos agrupados no texto de origem (gravado como 6-8)
+João 4:43-44: versículos agrupados no texto de origem (gravado como 43-44)
+João 5:3-4: versículos agrupados no texto de origem (gravado como 3-4)
+João 11:56-57: versículos agrupados no texto de origem (gravado como 56-57)
+Atos 1:24-25: versículos agrupados no texto de origem (gravado como 24-25)
+Atos 4:21-22: versículos agrupados no texto de origem (gravado como 21-22)
+Atos 7:49-50: versículos agrupados no texto de origem (gravado como 49-50)
+Atos 8:1-2: versículos agrupados no texto de origem (gravado como 1-2)
+Atos 8:36-37: versículos agrupados no texto de origem (gravado como 36-37)
+Atos 13:38-39: versículos agrupados no texto de origem (gravado como 38-39)
+Atos 15:33-34: versículos agrupados no texto de origem (gravado como 33-34)
+Atos 21:27-29: versículos agrupados no texto de origem (gravado como 27-29)
+Atos 28:28-29: versículos agrupados no texto de origem (gravado como 28-29)
+Romanos 9:11-12: versículos agrupados no texto de origem (gravado como 11-12)
+Romanos 16:23-24: versículos agrupados no texto de origem (gravado como 23-24)
+1 Coríntios 11:11-12: versículos agrupados no texto de origem (gravado como 11-12)
+2 Coríntios 1:15-16: versículos agrupados no texto de origem (gravado como 15-16)
+2 Coríntios 12:3-4: versículos agrupados no texto de origem (gravado como 3-4)
+Efésios 5:22-23: versículos agrupados no texto de origem (gravado como 22-23)
+Efésios 5:29-30: versículos agrupados no texto de origem (gravado como 29-30)
+Filipenses 1:15-16: versículos agrupados no texto de origem (gravado como 15-16)
+Filipenses 2:29-30: versículos agrupados no texto de origem (gravado como 29-30)
+Tito 3:4-5: versículos agrupados no texto de origem (gravado como 4-5)
+Hebreus 3:3-4: versículos agrupados no texto de origem (gravado como 3-4)
+1 João 2:12-13: versículos agrupados no texto de origem (gravado como 12-13)
+Apocalipse 4:7-8: versículos agrupados no texto de origem (gravado como 7-8)
+Apocalipse 4:9-10: versículos agrupados no texto de origem (gravado como 9-10)
+Apocalipse 16:15-16: versículos agrupados no texto de origem (gravado como 15-16)
+Apocalipse 18:12-13: versículos agrupados no texto de origem (gravado como 12-13)

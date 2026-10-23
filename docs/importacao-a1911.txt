@@ -1,0 +1,18 @@
+Versão: Almeida Revista e Corrigida — edição histórica (reimpressão de 1911) (a1911)
+Fonte: Project Gutenberg eBook 62383, arquivo pg62383.txt (UTF-8)
+SHA-256 da fonte: bf9c6053bfb441d117a2a128d4edec9fbe935f415bc8f7bf4e1f3f9121790215
+Capítulos gravados: 1189 de 1189 · versículos: 31105
+Títulos de Salmos guardados no campo titulo (fora dos versículos): 114
+Parágrafos editoriais separados do texto (referências paralelas, legendas em itálico): 2164
+Material editorial recortado do fim de livros (não entra no app): Malaquias: 32 linhas (FIM DO VELHO TESTAMENTO....); Apocalipse: 1084 linhas (NOTAS...)
+ERROS (0):
+AVISOS DE ESTRUTURA (3):
+Oseias 11:4: número impresso 6 fora de sequência (tratado como versículo 6)
+Oseias 11:5: versículo impresso no meio do parágrafo, separado do anterior
+CORREÇÃO DE NUMERAÇÃO: Marcos 4:34 está impresso como "31" na fonte (sequência 33, 31, 35); numerado 34.
+DIFERENÇAS DE CONTAGEM DE VERSÍCULOS EM RELAÇÃO À BLIVRE (5 capítulos; esperadas em parte, pois as edições dividem versículos de modo diferente):
+Juízes 5: a1911=32 versículos, BLIVRE=31
+1 Samuel 20: a1911=43 versículos, BLIVRE=42
+1 Reis 22: a1911=54 versículos, BLIVRE=53
+2 Coríntios 13: a1911=13 versículos, BLIVRE=14
+3 João 1: a1911=15 versículos, BLIVRE=14

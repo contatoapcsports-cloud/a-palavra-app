@@ -1,7 +1,7 @@
 /* Lê content-src/, grava content/<nome>.<hash12>.json e escreve content-manifest.json com geração+1. */
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, rmSync, statSync } from 'node:fs';
 import { createHash } from 'node:crypto';
-import { join, dirname, basename, resolve } from 'node:path';
+import { join, dirname, basename, resolve, relative, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 const root = process.argv[2] ? resolve(process.argv[2]) : join(dirname(fileURLToPath(import.meta.url)), '..');
 const src = join(root, 'content-src'), out = join(root, 'content');
@@ -12,6 +12,9 @@ const prev = existsSync(mpath) ? JSON.parse(readFileSync(mpath, 'utf8')) : null;
 mkdirSync(out, { recursive: true });
 const packages = [], books = new Map(meta.books.map(b => [b.id, { id: b.id, name: b.name, chapters: [] }]));
 const passages = [], searchRows = [];
+/* traduções adicionais: content-src/versoes/<id>/<livro>/<livro>-<cap>.json (metadados em meta.versions; BLIVRE = padrão, em content-src/biblia) */
+const versMeta = meta.versions || [];
+const extra = new Map(versMeta.filter(v => !v.padrao).map(v => [v.id, { meta: v, books: new Map(meta.books.map(b => [b.id, { id: b.id, name: b.name, chapters: [] }])), rows: [] }]));
 let searchTest = false;
 const order = new Map(meta.books.map((x, i) => [x.id, i]));
 for (const f of walk(src)) {
@@ -20,6 +23,17 @@ for (const f of walk(src)) {
   const name = basename(f, '.json') + '.' + hash.slice(0, 12) + '.json';
   writeFileSync(join(out, name), bytes);
   const data = JSON.parse(bytes.toString('utf8'));
+  const rel = relative(src, f).split(sep);
+  if (rel[0] === 'versoes') {
+    const E = extra.get(rel[1]);
+    if (!E) throw new Error('versão não declarada em meta.versions: ' + rel[1]);
+    if (data.version !== rel[1]) throw new Error('capítulo com versão diferente da pasta: ' + f);
+    const vpath = 'content/' + name;
+    packages.push({ path: vpath, sha256: hash, size: bytes.length, precache: false, kind: 'biblia-v', version: rel[1] });
+    E.books.get(data.book).chapters.push({ n: data.chapter, path: vpath });
+    for (const v of data.verses) E.rows.push([data.book, data.chapter, v.n, v.t]);
+    continue;
+  }
   const isChapter = f.includes(join(src, 'biblia'));
   const path = 'content/' + name;
   packages.push({ path, sha256: hash, size: bytes.length, precache: isChapter, kind: isChapter ? 'biblia' : 'camada2', ...(data._teste ? { teste: true } : {}) });
@@ -41,10 +55,27 @@ if (searchRows.length) {
   buscaPath = 'content/' + name;
   packages.push({ path: buscaPath, sha256: hash, size: bytes.length, precache: true, kind: 'busca', ...(searchTest ? { teste: true } : {}) });
 }
+/* uma versão adicional = capítulos próprios + índice de busca próprio (baixados sob demanda, não entram no pré-cache da instalação) */
+const versions = [];
+for (const v of versMeta) {
+  const { livros, ...info } = v;
+  if (v.padrao) { versions.push(info); continue; }
+  const E = extra.get(v.id);
+  const bible = [...E.books.values()].filter(b => b.chapters.length);
+  bible.forEach(b => b.chapters.sort((a, c) => a.n - c.n));
+  if (!bible.length) continue; // versão declarada, mas ainda sem capítulos: não aparece no app
+  E.rows.sort((a, c) => ((order.get(a[0]) ?? -1) - (order.get(c[0]) ?? -1)) || (a[1] - c[1]) || (a[2] - c[2]));
+  const bytes = Buffer.from(JSON.stringify({ v: 1, version: v.id, rows: E.rows }), 'utf8');
+  const hash = createHash('sha256').update(bytes).digest('hex');
+  const name = 'busca-' + v.id + '.' + hash.slice(0, 12) + '.json';
+  writeFileSync(join(out, name), bytes);
+  packages.push({ path: 'content/' + name, sha256: hash, size: bytes.length, precache: false, kind: 'busca', version: v.id });
+  versions.push({ ...info, bible, busca: 'content/' + name });
+}
 const keep = new Set(packages.map(p => basename(p.path)));
 const history = [...(prev?.history || []), ...(prev ? [{ generation: prev.generation, contentVersion: prev.contentVersion, packages: prev.packages.map(p => p.path) }] : [])].slice(-3);
 for (const h of history) h.packages.forEach(p => keep.add(basename(p)));
 for (const f of readdirSync(out)) if (!keep.has(f)) rmSync(join(out, f));
-const manifest = { generation: Math.max((prev?.generation || 0) + 1, meta.minGeneration || 1), contentVersion: meta.contentVersion, production: meta.production, license: meta.license, bible: [...books.values()], passages, ...(buscaPath ? { busca: buscaPath } : {}), packages, revoked: prev?.revoked || [], history };
+const manifest = { generation: Math.max((prev?.generation || 0) + 1, meta.minGeneration || 1), contentVersion: meta.contentVersion, production: meta.production, license: meta.license, versions, bible: [...books.values()], passages, ...(buscaPath ? { busca: buscaPath } : {}), packages, revoked: prev?.revoked || [], history };
 writeFileSync(mpath, JSON.stringify(manifest, null, 2) + '\n');
 console.log('manifesto geração', manifest.generation, '-', packages.length, 'pacotes');

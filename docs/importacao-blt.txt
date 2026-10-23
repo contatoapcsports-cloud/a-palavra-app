@@ -1,0 +1,47 @@
+Versão: Bíblia Livre Para Todos (blt)
+Livros: 27 · capítulos gravados: 260 de 260
+SHA-256 dos arquivos USFM de origem:
+  de7ff358aee25d3277947deb156e41f82967d9f2a7b891bec2e6c9a317efec16  46-MATporblt.usfm
+  084f87fec3375455e53ae6d16b6856bac89f367861e20f271421950e971d5359  47-MRKporblt.usfm
+  aa04f1c84840f54629d1bf6b2da6ab54c446784abdaa9c1af4881db520e9ce5c  48-LUKporblt.usfm
+  048f38d53d0143a954f31a57127c8b864f215bae578988d8d606814c8442a989  49-JHNporblt.usfm
+  3178af21552d75338cef510bd29510201006942b26339dc282f4a146f9cf68ba  50-ACTporblt.usfm
+  17422c245bd4bfdd601a27dc8cf5d810579d2862ad0e5577edd49ed08c003340  51-ROMporblt.usfm
+  d733b44ad126660f4f50b2bbab06d6a77e60ed6813488cdd3fd09326d0b5ff7d  52-1COporblt.usfm
+  ddaed20eec993c43525ebea43e8dd79566c98731093c32c522465c2d438e78d1  53-2COporblt.usfm
+  cee2363be2ff31fcb702e1e1bdd268a2517c9898a21ba4a921ab02f21ff0d62c  54-GALporblt.usfm
+  128af7d0a97e979ca9257a3e3d84f924ee267ee6edf34c441a50d2340937057a  55-EPHporblt.usfm
+  e590f11dbcb7fb59b0a3a93522d480824d06a33c35ea117bd2fb385de54147bb  56-PHPporblt.usfm
+  42fa3c152d5028e4c404778489b1530b44cfcaef5f935e6111d6d8997d87e136  57-COLporblt.usfm
+  5fb7496666cdbbfa0bd8491b54868824fdee408afc59ae8e2441a37047efd9dc  58-1THporblt.usfm
+  db71566b4d74bdd2fe3110c7699326c655722381b6d37db5f68b1b42c5b74a1e  59-2THporblt.usfm
+  32c4f9650cf4458b254db63de234aaa56af50ef78768ebecdd102796424b9e7b  60-1TIporblt.usfm
+  24d9784093a5915516a6a34807ca3a29a16d678e90bfb4084d638ea0982f8c6b  61-2TIporblt.usfm
+  65b1dc5f755e000bf0356be9102993bd2310ea6b8b3f34d6c31ee5c2af90523a  62-TITporblt.usfm
+  ba2d9ce80b1c47c8c893c24c2641a009d24e9fabf834528203d5ab5be2046847  63-PHMporblt.usfm
+  923cd485e57290a6261326237c97495da1b7cabd515e23f569aa3a09a992590b  64-HEBporblt.usfm
+  f5474ca43cfb3146719fd1da619d3b9c4959838a6a0150aa226f159f7527ce24  65-JASporblt.usfm
+  fa4f75e26433f8d51019c9ddbb58da789e468df9b87d4464a9703cec07cd9cb0  66-1PEporblt.usfm
+  c228c6f5ad310290d407c016eea63d9fa62b860ee0711b3ab6fd12d9bd48b0a8  67-2PEporblt.usfm
+  a5e19b617bba4671a47204d9d908986eb1177844ea77f68037eb94263e7fa5d4  68-1JNporblt.usfm
+  4090bfe9350bfc6bfeac85fcbea7408e01f85a2f6c5ca0ec93625e7e067c4ba9  69-2JNporblt.usfm
+  8ee47325a94d483c8882aa5192dd40f46f868be5719a4a08b667bdefcc1d6f2b  70-3JNporblt.usfm
+  3b02443448c7b780b4b73e2ae6bced94420649d80fca0fe2b69966352c6a7c66  71-JUDporblt.usfm
+  0f8144c9067083b04c8a770826e8113039f4ee41f14c6411bfc0058459f57da6  72-REVporblt.usfm
+ERROS (0):
+AVISOS (15):
+Mateus 17: faltam versículos [21]
+Mateus 18: faltam versículos [11]
+Mateus 23: faltam versículos [14]
+Marcos 7: faltam versículos [16]
+Marcos 9: faltam versículos [44, 46]
+Marcos 11: faltam versículos [26]
+Marcos 15: faltam versículos [28]
+Lucas 17: faltam versículos [36]
+Lucas 23: faltam versículos [17]
+João 5: faltam versículos [4]
+Atos 8: faltam versículos [37]
+Atos 15: faltam versículos [34]
+Atos 24: faltam versículos [7]
+Atos 28: faltam versículos [29]
+Romanos 16: faltam versículos [24]
