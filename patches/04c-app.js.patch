@@ -1,0 +1,103 @@
+diff --git a/app.js b/app.js
+index 0f396e1..44a8d7c 100644
+--- a/app.js
++++ b/app.js
+@@ -567,7 +667,7 @@
+     var list = h('div', { class: 'list' }); body.appendChild(list);
+     for (var i = 0; i < items.length; i++) {
+       var it = items[i], bk = bookOf(it.b), text = '';
+-      try { var e = chapterEntry(bk, it.c); if (e) { var pkg = await loadPackage(e, true); var vv = pkg.verses.filter(function (x) { return x.n === it.v; })[0]; if (vv) text = vv.t; } } catch (x) { /* sem o texto neste aparelho */ }
++      try { var e = chapterEntry(bk, it.c); if (!e) { var bk0 = bookOf(it.b, 'blivre'); e = bk0 && chapterEntry(bk0, it.c); } if (e) { var pkg = await loadPackage(e, true); var vv = pkg.verses.filter(function (x) { return x.n === it.v; })[0]; if (vv) text = vv.t; } } catch (x) { /* sem o texto neste aparelho */ }
+       (function (it, bk, text) {
+         list.appendChild(h('button', { class: 'hit', type: 'button', onclick: function () { go({ v: 'read', b: it.b, c: it.c, verse: it.v }); } }, [h('strong', { text: bk.name + ' ' + it.c + ':' + it.v }), text ? h('span', { text: text }) : null]));
+       })(it, bk, text);
+@@ -579,7 +679,8 @@
+   async function refreshMenuInfo() {
+     try {
+       var c = await caches.open(CONTENT), have = (await c.keys()).map(function (r) { return relPath(r.url); });
+-      var need = core.missingPackages(manifest, have).length, total = manifest.packages.length;
++      var base = { packages: manifest.packages.filter(function (p) { return !p.version; }) };
++      var need = core.missingPackages(base, have).length, total = base.packages.length;
+       dlState = need === 0 ? 'Tudo baixado' : (total - need) + ' de ' + total;
+       $('#dlSmall').textContent = dlState;
+     } catch (e) { $('#dlSmall').textContent = ''; }
+@@ -590,7 +691,7 @@
+     try { if (navigator.storage && navigator.storage.persisted) pst = (await navigator.storage.persisted()) ? 'Protegido' : 'Não protegido'; } catch (x) { pst = ''; }
+     $('#persistSmall').textContent = pst;
+   }
+-  function viewMenu() { showScreen('menu'); refreshInstall(); refreshMenuInfo(); }
++  function viewMenu() { showScreen('menu'); refreshInstall(); refreshMenuInfo(); refreshVerSmall(); }
+ 
+   /* ---------- instalar e compartilhar ---------- */
+   var deferred = null;
+@@ -654,10 +755,12 @@
+   }
+ 
+   /* ---------- baixar tudo ---------- */
+-  async function downloadAll(cb) {
++  async function downloadAll(cb, only) {
+     var c = await caches.open(CONTENT);
+     var have = (await c.keys()).map(function (r) { return relPath(r.url); });
+-    var need = core.missingPackages(manifest, have), total = manifest.packages.length, done = total - need.length, fails = 0, i = 0;
++    /* sem filtro: o essencial (sem traduções extras, que se baixam uma a uma no seletor); com filtro: só aqueles pacotes */
++    var scope = { packages: manifest.packages.filter(only || function (p) { return !p.version; }) };
++    var need = core.missingPackages(scope, have), total = scope.packages.length, done = total - need.length, fails = 0, i = 0;
+     cb(done, total);
+     async function worker() {
+       while (i < need.length) {
+@@ -672,8 +775,8 @@
+       }
+     }
+     await Promise.all([worker(), worker(), worker(), worker()]);
+-    for (var m = 0; m < (cfg.audio || []).length; m++) { try { await mediaResponse(cfg.audio[m]); } catch (x) { /* áudio é opcional */ } }
+-    if (!fails) { kvSet('baixado', { generation: manifest.generation, at: Date.now() }); try { if (navigator.storage && navigator.storage.persist) navigator.storage.persist(); } catch (x) { /* ignora */ } }
++    if (!only) for (var m = 0; m < (cfg.audio || []).length; m++) { try { await mediaResponse(cfg.audio[m]); } catch (x) { /* áudio é opcional */ } }
++    if (!fails && !only) { kvSet('baixado', { generation: manifest.generation, at: Date.now() }); try { if (navigator.storage && navigator.storage.persist) navigator.storage.persist(); } catch (x) { /* ignora */ } }
+     return { done: done, total: total, fails: fails };
+   }
+   function downloadModal() {
+@@ -682,7 +785,8 @@
+     modal([mtag('Leitura sem internet', true), h('h2', { text: 'Baixar tudo' }), h('p', { style: 'text-align:center', text: 'O texto bíblico e o ensino ficam guardados no aparelho. Você poderá ler no modo avião.' }), h('div', { class: 'prog' }, [bar]), txt, go1]);
+     var show = function (d, t) { bar.style.width = (t ? d / t * 100 : 0) + '%'; txt.textContent = d + ' de ' + t + ' partes guardadas'; };
+     caches.open(CONTENT).then(function (c) { return c.keys(); }).then(function (ks) {
+-      var have = ks.map(function (r) { return relPath(r.url); }), t = manifest.packages.length, n = t - core.missingPackages(manifest, have).length;
++      var base = { packages: manifest.packages.filter(function (p) { return !p.version; }) };
++      var have = ks.map(function (r) { return relPath(r.url); }), t = base.packages.length, n = t - core.missingPackages(base, have).length;
+       show(n, t); if (n === t) { go1.textContent = 'Tudo já está no aparelho'; go1.disabled = true; go1.style.opacity = '.7'; }
+     });
+     go1.onclick = function () {
+@@ -703,11 +807,14 @@
+     var dl = h('dl', {}, [
+       row('Projeto', 'Palavra Viva – Aprendendo as Escrituras. Gratuito, sem anúncios e sem coleta de dados.'),
+       cfg.ownerName ? row('Responsável', cfg.ownerName) : null,
+-      row('Texto bíblico e referências', lic.text || ''),
++      row('Texto bíblico', versionsList().length > 1 ? 'Traduções disponíveis: ' + versionsList().map(function (v) { return v.sigla; }).join(', ') + '. O crédito e a licença de cada uma estão abaixo e na tela de leitura.' : (lic.text || '')),
+       row('Versão', 'App ' + APP_VERSION + ' · conteúdo ' + manifest.contentVersion + ' (geração ' + manifest.generation + ')')
+     ]);
+     var nodes = [mtag(APP_NAME, true), h('h2', { text: 'Sobre' }), dl];
+-    if (lic.url) nodes.push(h('p', {}, [h('a', { href: lic.url, rel: 'noopener', target: '_blank', text: 'Ver a licença do texto' })]));
++    versionsList().forEach(function (v) {
++      nodes.push(h('p', { style: 'font-size:13px;line-height:1.5;margin:10px 0 4px' }, [h('b', { text: v.sigla + ' · ' + covLabel(v) }), h('br'), v.credito || '']));
++      if (v.licencaUrl) nodes.push(h('p', { style: 'margin:0' }, [h('a', { href: v.licencaUrl, rel: 'noopener', target: '_blank', text: 'Licença de ' + v.sigla + ' (' + (v.licenca || '') + ')' })]));
++    });
+     var USERS = '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>';
+     var ic = h('span', { 'aria-hidden': 'true', style: 'flex:none;display:flex;color:var(--accent)' }); ic.innerHTML = USERS; /* SVG fixo do próprio app */
+     nodes.push(h('a', { href: 'assets/creditos.html', target: '_blank', rel: 'noopener', style: 'display:flex;align-items:center;gap:12px;margin:14px 0 0;padding:12px 14px;border-radius:16px;background:var(--paper);color:inherit;font-weight:400;text-decoration:none;word-break:normal' }, [
+@@ -716,7 +823,7 @@
+       h('span', { 'aria-hidden': 'true', style: 'flex:none;font-size:22px;color:var(--soft)', text: '›' })
+     ]));
+     nodes.push(h('p', { style: 'font-size:10.5px;line-height:1.45;color:var(--soft);text-align:center;margin:14px 0 0;opacity:.9' }, [
+-      '© ' + yr + ' ' + owner + '. Aplicativo, código e organização dos estudos: todos os direitos reservados. Texto bíblico: Bíblia Livre, licença CC BY 4.0, sem alterações. Os estudos são elaborados com apoio de inteligência artificial e não substituem a Bíblia. ',
++      '© ' + yr + ' ' + owner + '. Aplicativo, código e organização dos estudos: todos os direitos reservados. Textos bíblicos: cada tradução segue a licença indicada nos créditos dela (' + versionsList().map(function (v) { return v.sigla + ', ' + v.licenca; }).join('; ') + '). Os estudos são elaborados com apoio de inteligência artificial e não substituem a Bíblia. ',
+       h('a', { href: 'assets/termos.html', target: '_blank', rel: 'noopener', style: 'font-size:10.5px;font-weight:600;word-break:normal;text-decoration:underline', text: 'Termos de Uso e Privacidade' })
+     ]));
+     modal(nodes);
+@@ -845,7 +952,7 @@
+     matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyAppearance);
+     $('#inst').addEventListener('click', install); $('#shr').addEventListener('click', share);
+     $('#shHomeStudy').addEventListener('click', function () { var f = featured(); if (f) shareStudy(f.id); else share(); }); $('#shHomeApp').addEventListener('click', share);
+-    $('#dlbtn').addEventListener('click', downloadModal);
++    $('#dlbtn').addEventListener('click', downloadModal); $('#verbtn').addEventListener('click', versionModal);
+     $('#expbtn').addEventListener('click', function () {
+       exportAll().then(function (o) {
+         var a = h('a', { href: URL.createObjectURL(new Blob([JSON.stringify(o)], { type: 'application/json' })), download: 'palavra-viva-backup.json' });
