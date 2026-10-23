@@ -1,0 +1,137 @@
+{
+ "id": "42-9-53-62",
+ "ref": "Lucas 9:53-62",
+ "book": "42",
+ "chapter": 9,
+ "verses": [
+  {
+   "n": 53,
+   "t": "Mas não o receberam, porque seu rosto demonstrava que ele ia para Jerusalém."
+  },
+  {
+   "n": 54,
+   "t": "Quando seus discípulos, Tiago e João, viram isso , disseram: “Senhor, queres que digamos que desça fogo do céu e os consuma, como Elias também fez?”"
+  },
+  {
+   "n": 55,
+   "t": "Porém ele se virou, repreendeu-os, e disse: Vós não sabeis de que espírito sois."
+  },
+  {
+   "n": 56,
+   "t": "Porque o Filho do homem não veio para destruir as almas dos seres humanos, mas sim para salvá-las.E foram para outra aldeia."
+  },
+  {
+   "n": 57,
+   "t": "E aconteceu que, enquanto eles iam pelo caminho, alguém lhe disse: “Senhor, eu te seguirei para onde quer que fores”."
+  },
+  {
+   "n": 58,
+   "t": "E Jesus lhe disse: “As raposas têm tocas, e as aves do céu, ninhos; mas o Filho do homem não tem onde deitar a cabeça”."
+  },
+  {
+   "n": 59,
+   "t": "E disse a outro: “Segue-me”. Porém ele disse: “Senhor, deixa-me que primeiro eu vá, e eu enterre meu pai”."
+  },
+  {
+   "n": 60,
+   "t": "Mas Jesus lhe disse: “Deixa os mortos enterrarem os seus próprios mortos; tu, porém, vai, e anuncia o reino de Deus”."
+  },
+  {
+   "n": 61,
+   "t": "E outro também disse: “Senhor, eu te seguirei; mas deixa-me primeiro despedir dos que estão em minha casa”."
+  },
+  {
+   "n": 62,
+   "t": "E Jesus lhe disse: “Ninguém que colocar a sua mão no arado e olhar para trás é apto para o reino de Deus”."
+  }
+ ],
+ "titulo": "Fogo, tocas e arados: o custo de seguir Jesus",
+ "temas": [
+  "discipulado",
+  "decisão",
+  "misericórdia",
+  "compromisso"
+ ],
+ "pergunta": "O que você está disposto a deixar para trás para seguir o Reino de Deus?",
+ "entender": "Neste trecho, vemos Jesus determinado a ir para Jerusalém, mas uma aldeia samaritana o rejeita. Tiago e João, indignados, pedem para descer fogo do céu. Jesus repreende essa atitude violenta, lembrando que veio para salvar, não para destruir. O contraste é forte: o desejo dos discípulos era punir; o propósito de Jesus era redimir.\n\nEm seguida, três homens expressam desejo de seguir Jesus, mas cada um impõe uma condição ou hesitação. Um quer seguir sem restrição; outro pede tempo para enterrar seu pai; o terceiro quer se despedir da família. Jesus responde com imagens concretas: raposas têm tocas, mas Ele não tem onde deitar a cabeça. Ele chama o primeiro para a realidade da renúncia. Aos outros, Ele diz que é hora de anunciar o Reino, usando a imagem do arador que não pode olhar para trás.\n\nO texto não é sobre rigidez, mas sobre prioridade. Jesus não está proibindo o amor familiar ou o luto, mas mostrando que o Reino exige uma dedicação total que não pode ser dividida com outras lealdades. A urgência de proclamar as boas novas supera os compromissos humanos, por mais legítimos que sejam.",
+ "ligar": {
+  "texto": "Este trecho revela o coração de Jesus: Ele rejeita a vingança e oferece salvação. Ao dizer que veio salvar, Ele aponta para Sua missão redentora. A exigência de seguir sem olhar para trás reflete o custo da graça: receber a salvação exige uma entrega que transforma nossa ordem de prioridades, colocando Cristo no centro, acima de nossos próprios planos e apegos.",
+  "selo": true
+ },
+ "viver": "Talvez você sinta que não pode seguir Jesus porque tem responsabilidades familiares ou tarefas pendentes. Este texto nos desafia a examinar o que estamos usando como desculpa para adiar nossa entrega a Deus. Não se trata de abandonar o amor, mas de alinhar nossa agenda com a urgência do Reino. Pergunte-se: estou segurando algo no passado ou no presente que impede meu progresso espiritual?",
+ "guarde": "O Reino de Deus exige um arado que não olha para trás, mas para frente, com os olhos fixos em Cristo.",
+ "ore": "Jesus, que não tinha onde deitar a cabeça, ensina-me a priorizar o Reino acima de meus apegos. Perdoa minha hesitação e dá-me coragem para seguir sem olhar para trás.",
+ "quiz": {
+  "pergunta": "Por que Jesus repreendeu Tiago e João quando pediram para descer fogo do céu?",
+  "opcoes": [
+   "Porque Ele veio para salvar, não para destruir.",
+   "Porque o fogo era uma punição excessiva.",
+   "Porque os samaritanos eram inocentes."
+  ],
+  "certa": 0,
+  "explicacao": "Jesus corrigiu a atitude violenta dos discípulos, lembrando que Sua missão é salvadora, conforme Lucas 9:56."
+ },
+ "refs": [
+  "Mateus 8:20",
+  "Marcos 10:38-39",
+  "Lucas 14:26-33"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T15:50:12.873Z",
+  "rounds": 1
+ }
+}

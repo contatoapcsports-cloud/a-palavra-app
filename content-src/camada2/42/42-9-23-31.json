@@ -1,0 +1,134 @@
+{
+ "id": "42-9-23-31",
+ "ref": "Lucas 9:23-31",
+ "book": "42",
+ "chapter": 9,
+ "verses": [
+  {
+   "n": 23,
+   "t": "E dizia a todos: “Se alguém quer vir após mim, negue-se a si mesmo, tome cada dia sua cruz, e siga- me."
+  },
+  {
+   "n": 24,
+   "t": "Pois quem quiser salvar sua vida a perderá; porém quem, por minha causa, perder a sua vida, esse a salvará."
+  },
+  {
+   "n": 25,
+   "t": "Porque, que aproveita para alguém ganhar o mundo todo, e perder ou prejudicar a si mesmo?"
+  },
+  {
+   "n": 26,
+   "t": "Pois quem se envergonhar de mim e das minhas palavras, dele o Filho do homem se envergonhará, quando vier na sua glória, e na do Pai, e dos santos anjos."
+  },
+  {
+   "n": 27,
+   "t": "E em verdade vos digo que, dentre os que aqui estão, há alguns que não experimentarão a morte, até que vejam o Reino de Deus”."
+  },
+  {
+   "n": 28,
+   "t": "E aconteceu que, quase oito dias depois dessas palavras, ele tomou consigo a Pedro, João, e a Jacó, e subiu ao monte para orar."
+  },
+  {
+   "n": 29,
+   "t": "E ele, enquanto estava orando, a aparência do seu rosto se transfigurou, e sua roupa ficou branca e brilhante."
+  },
+  {
+   "n": 30,
+   "t": "E eis que estavam falando com ele dois homens, que eram Moisés e Elias,"
+  },
+  {
+   "n": 31,
+   "t": "os quais apareceram com glória, e falavam de sua partida, que estava para se cumprir em Jerusalém."
+  }
+ ],
+ "titulo": "A glória que caminha com a cruz",
+ "temas": [
+  "discipulado",
+  "transfiguração",
+  "sofrimento",
+  "glória",
+  "fé"
+ ],
+ "pergunta": "Por que Jesus fala sobre carregar a cruz logo antes de revelar Sua glória no monte?",
+ "entender": "Imediatamente após Pedro declarar que Jesus é o Cristo de Deus, o Mestre muda o foco. Ele não fala mais de títulos, mas de compromisso. Diz a todos que quem quer segui-lo deve negar-se a si mesmo e tomar cada dia sua cruz. Naquela época, a cruz era o instrumento de execução mais vergonhoso. Jesus é direto: seguir a Ele não é apenas uma ideia bonita, mas uma entrega diária da própria vontade.\n\nJesus apresenta uma lógica que parece contraditória para o mundo: quem tenta salvar a própria vida a perderá, mas quem a perde por causa d'Ele a salvará. O valor da vida não está em preservá-la a qualquer custo, mas em dar-lhe o destino certo. Ele adverte que se envergonhar d'Ele terá consequência futura, mas também dá uma esperança imediata: alguns dos presentes verão o Reino de Deus antes de morrer.\n\nQuase oito dias depois, essa promessa se cumpre. Jesus leva Pedro, Tiago e João ao monte para orar. Durante a oração, a aparência do rosto de Jesus se transfigura e Sua roupa fica branca e brilhante. Moisés e Elias aparecem com glória, conversando sobre a partida de Jesus em Jerusalém. A transfiguração revela que o mesmo Jesus que carregará a cruz é o Filho de Deus glorificado. A glória e o sofrimento caminham juntos no plano de Deus.",
+ "ligar": {
+  "texto": "Este texto é central para entender quem é Jesus. A transfiguração confirma que Ele não é apenas um professor, mas o Filho de Deus, pois Moisés e Elias, figuras do Antigo Testamento, o reconhecem e gloriam. A 'partida' mencionada pelos dois profetas aponta para a morte e ressurreição em Jerusalém. O evangelho é revelado aqui: a cruz não é um acidente, mas o caminho da glória. Jesus se entrega voluntariamente para nos salvar, nós que éramos perdidos. A glória que os discípulos viram no monte é a mesma que nos é oferecida através da fé n'Ele.",
+  "selo": true
+ },
+ "viver": "Tomar a cruz não significa buscar sofrimento, mas aceitar que nossos planos nem sempre serão realizados. Pense em uma situação atual onde você está insistindo em ter o controle total, talvez no trabalho ou nas relações. O convite de Jesus é soltar esse controle e confiar que Ele sabe o caminho. Assim como os discípulos subiram ao monte com Jesus, você pode buscar a oração para ver além da dificuldade e perceber a glória que vem pela obediência.",
+ "guarde": "A verdadeira glória de Deus se revela no caminho da entrega, não na preservação do ego.",
+ "ore": "No monte da transfiguração, vi a glória de Jesus e entendi que a cruz é o caminho. Pai, ajuda-me a negar minha vontade e seguir Teu Filho, mesmo quando o caminho parece difícil. Ensina-me a perder minha vida para encontrá-la em Ti.",
+ "quiz": {
+  "pergunta": "O que Moisés e Elias estavam falando com Jesus no monte?",
+  "opcoes": [
+   "Sobre a construção do templo",
+   "Sobre a lei do Antigo Testamento",
+   "Sobre a partida de Jesus em Jerusalém"
+  ],
+  "certa": 2,
+  "explicacao": "O texto diz que eles falavam de sua 'partida', que estava para se cumprir em Jerusalém, referindo-se à morte e ressurreição de Jesus."
+ },
+ "refs": [
+  "Marcos 8:34-38",
+  "Mateus 16:24-28",
+  "Lucas 24:26"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T15:55:23.848Z",
+  "rounds": 4
+ }
+}

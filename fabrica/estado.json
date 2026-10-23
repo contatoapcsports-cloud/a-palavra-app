@@ -1114,7 +1114,9 @@
   },
   "42-9-23-31": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: LANGUAGE_CLARITY: O texto apresenta erro gramatical na construção 'para salvar nós' na seção Ligar ao Evangelho, devendo ser 'para nos salvar'.",
+   "estado": "pronto",
+   "titulo": "A glória que caminha com a cruz"
   },
   "42-9-32-41": {
    "execucoes": 0,
@@ -1128,7 +1130,9 @@
   },
   "42-9-53-62": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:menos_de_2_paragrafos, entender:citacao_fora_do_texto, entender:citacao_longa, quiz.explicacao:citacao_longa",
+   "estado": "pronto",
+   "titulo": "Fogo, tocas e arados: o custo de seguir Jesus"
   },
   "42-10-1-11": {
    "execucoes": 0,
@@ -1161,28 +1165,60 @@
   "42-11-33-43": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-11-44-54": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-12-1-12": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-12-13-24": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-12-25-35": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-12-36-47": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-12-48-59": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-13-1-12": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-13-13-23": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 393,
-   "entrada": 954566,
-   "saida": 351478
+   "chamadas": 400,
+   "entrada": 974257,
+   "saida": 357641
   },
   "groq-qwen": {
-   "chamadas": 390,
-   "entrada": 899529,
-   "saida": 312791
+   "chamadas": 397,
+   "entrada": 919793,
+   "saida": 318879
   },
   "gemini": {
-   "chamadas": 324,
-   "entrada": 1046680,
-   "saida": 413693
+   "chamadas": 329,
+   "entrada": 1063350,
+   "saida": 422878
   },
   "cloudflare": {
-   "chamadas": 197,
-   "entrada": 684459,
-   "saida": 73087
+   "chamadas": 199,
+   "entrada": 691519,
+   "saida": 73829
   },
   "mistral": {
    "chamadas": 0,
