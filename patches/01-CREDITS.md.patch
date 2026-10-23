@@ -1,22 +1,11 @@
 diff --git a/CREDITS.md b/CREDITS.md
-index d4be8ad..154585c 100644
+index f8a80ed..154585c 100644
 --- a/CREDITS.md
 +++ b/CREDITS.md
-@@ -2,13 +2,33 @@
- 
- Responsável pelo projeto: Anderson Pereira Cabral · contato.palavravivabr@gmail.com
- 
--Registro mantido para fins de transparência e comprovação de origem. Atualizado em 21/10/2026.
-+Registro mantido para fins de transparência e comprovação de origem. Atualizado em 22/10/2026.
- 
- ## Texto bíblico
--- **Bíblia Livre (BLIVRE), 2018**, de Diego Santos, Mario Sérgio e Marco Teles.
-+- **Bíblia Livre (BLIVRE), versão de fevereiro de 2018**, Copyright © Diego Santos, Mario Sérgio e Marco Teles (http://sites.google.com/site/biblialivre/).
- - Fonte: eBible.org – https://ebible.org/porbr2018/copyright.htm
+@@ -10,6 +10,26 @@ Registro mantido para fins de transparência e comprovação de origem. Atualiza
  - Licença: Creative Commons Atribuição 4.0 Internacional (CC BY 4.0) – https://creativecommons.org/licenses/by/4.0/deed.pt-br
--- O aplicativo não altera o texto. Os autores não endossam este aplicativo.
-+- O conteúdo do texto não foi alterado; houve apenas conversão técnica de formato para uso no aplicativo. Os autores não endossam este aplicativo.
-+
+ - O conteúdo do texto não foi alterado; houve apenas conversão técnica de formato para uso no aplicativo. Os autores não endossam este aplicativo.
+ 
 +## Traduções adicionais (CC BY-SA 4.0)
 +Obtidas em eBible.org (arquivos USFM assinados em 20/10/2026) e obtidas em 22/10/2026. Cada tradução é mantida em arquivos próprios, sem mistura de versículos. O SHA-256 de cada arquivo de origem está em `docs/importacao-<sigla>.txt`.
 +
@@ -36,9 +25,10 @@ index d4be8ad..154585c 100644
 +- Licença: https://creativecommons.org/licenses/by-sa/4.0/ · Página de direitos: https://ebible.org/portft/copyright.htm
 +
 +A licença CC BY-SA 4.0 vale para o texto dessas traduções e para a adaptação do texto feita para o aplicativo (conversão de formato). Ela não se estende ao código do aplicativo, à identidade visual nem aos estudos, que seguem a seção Direitos.
- 
++
  ## Música de fundo
  - Arquivo: `assets/ambiente-leitura.mp3` (música instrumental ambiente, sem título oficial).
+ - Origem declarada pelo autor do projeto: criada com apauxílio de inteligência artificial, a pedido dele, sem uso de música de terceiros e sem custo.
 @@ -30,4 +50,12 @@ Arquivos em `assets/`: `hero-bible.jpg`, `hero-dawn.jpg`, `hero-reading.jpg`, `a
  - Código do aplicativo desenvolvido com apoio de inteligência artificial sob direção do responsável. Sem bibliotecas de terceiros embutidas.
  
