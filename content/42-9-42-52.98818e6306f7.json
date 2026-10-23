@@ -1,0 +1,141 @@
+{
+ "id": "42-9-42-52",
+ "ref": "Lucas 9:42-52",
+ "book": "42",
+ "chapter": 9,
+ "verses": [
+  {
+   "n": 42,
+   "t": "E quando ainda vinha chegando, o demônio o derrubou, e o convulsionou. Porém Jesus repreendeu o espírito imundo, curou ao menino, e o devolveu ao seu pai."
+  },
+  {
+   "n": 43,
+   "t": "E todos ficaram perplexos com a grandeza de Deus. E enquanto todos se maravilhavam de tudo o que Jesus fazia, disse aos seus discípulos:"
+  },
+  {
+   "n": 44,
+   "t": "“Ponde vós em vossos ouvidos estas palavras: que o Filho do homem será entregue nas mãos dos homens”."
+  },
+  {
+   "n": 45,
+   "t": "Mas eles não entendiam essa palavra, e era-lhes encoberta, para que não a compreendessem; e temiam perguntar-lhe sobre essa palavra."
+  },
+  {
+   "n": 46,
+   "t": "E levantou-se entre eles uma discussão sobre qual deles seria o maior."
+  },
+  {
+   "n": 47,
+   "t": "Mas Jesus, conhecendo o pensamento de seus corações, pegou uma criança, e a pôs junto a si."
+  },
+  {
+   "n": 48,
+   "t": "Então disse-lhes: “Quem receber esta criança em meu nome, a mim me recebe; e quem receber a mim, recebe o que me enviou; porque aquele que entre todos vós for o menor, esse será grande”."
+  },
+  {
+   "n": 49,
+   "t": "João respondeu: “Mestre, vimos um que em teu nome expulsava os demônios, e nós o proibimos, porque não segue conosco”."
+  },
+  {
+   "n": 50,
+   "t": "E Jesus lhe disse: “Não o proibais, porque quem não é contra nós, é por nós”."
+  },
+  {
+   "n": 51,
+   "t": "E aconteceu que, quando completaram-se os dias em que ele viria a ser recebido no alto, ele se determinou a ir para Jerusalém."
+  },
+  {
+   "n": 52,
+   "t": "E mandou mensageiros adiante de si; e eles se foram, e entraram numa aldeia de samaritanos, para lhe fazerem os preparativos."
+  }
+ ],
+ "titulo": "A criança que redefiniu a grandeza",
+ "temas": [
+  "humildade",
+  "serviço",
+  "cruz",
+  "fé"
+ ],
+ "pergunta": "O que uma criança pode ensinar sobre o poder real no Reino de Deus?",
+ "entender": "Logo após curar um menino que sofria de convulsões, Jesus percebe uma discussão entre os discípulos sobre qual deles seria o maior. Em vez de discutir títulos, Ele toma uma criança e a coloca diante deles. Naquela época, crianças não tinham status social; eram invisíveis aos olhos da sociedade. Jesus usa essa imagem para mostrar que a verdadeira grandeza não vem de autoridade ou prestígio, mas de servir aos pequenos.\n\nO texto revela um contraste agudo: enquanto os discípulos pensam em hierarquia, Jesus anuncia que o “Filho do homem será entregue nas mãos dos homens”. Eles não entendem e têm medo de perguntar. A cura do menino demonstra o poder de Deus, mas a lição da criança revela o caráter de Jesus: um Deus que se faz servo. A grandeza no Reino é medida pela disposição de se abaixar, não pela altura do cargo.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para Jesus como o exemplo supremo de humildade. Ele não busca ser o maior, mas se entrega à cruz para salvar a humanidade. A grandeza que Ele oferece é baseada na graça, não em conquistas pessoais. Ao nos convidar a receber os pequenos, Jesus nos convida a receber a Ele mesmo, que se fez servo e morreu por nós. O evangelho é a notícia de que o Rei do universo escolheu a via da cruz para nos exaltar.",
+  "selo": true
+ },
+ "viver": "Observe quem está ao seu redor e parece invisível ou ignorado: uma criança, um idoso, alguém em situação de vulnerabilidade. Jesus nos desafia a ver nessas pessoas um reflexo Dele. Em vez de buscar reconhecimento no trabalho ou nas redes sociais, pratique um ato de serviço concreto e anônimo esta semana. A verdadeira grandeza cristã se mede pela disposição de se abaixar para servir, não pela altura do cargo que ocupamos.",
+ "guarde": "Quem se faz menor entre todos, esse será o grande no Reino de Deus.",
+ "ore": "Jesus, que colocou uma criança diante dos discípulos, ensina-me a humildade. Ajuda-me a parar de buscar títulos e a servir aos pequenos com amor, pois sei que em Ti encontro minha verdadeira identidade e grandeza.",
+ "quiz": {
+  "pergunta": "O que Jesus fez para responder à discussão dos discípulos sobre quem seria o maior?",
+  "opcoes": [
+   "Subiu ao monte para orar sozinho",
+   "Ordenou que os discípulos jejuassem",
+   "Pegou uma criança e a pôs junto a si"
+  ],
+  "certa": 2,
+  "explicacao": "O texto em Lucas 9:47 diz claramente que Jesus, conhecendo o pensamento deles, pegou uma criança e a colocou ao seu lado para ilustrar a verdadeira grandeza."
+ },
+ "refs": [
+  "Marcos 9:35",
+  "Mateus 18:4",
+  "Filipenses 2:5-8"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T18:51:00.251Z",
+  "rounds": 2
+ }
+}

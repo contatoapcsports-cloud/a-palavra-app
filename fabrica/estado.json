@@ -1126,7 +1126,9 @@
   },
   "42-9-42-52": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:viver:43-13-11-19",
+   "estado": "pronto",
+   "titulo": "A criança que redefiniu a grandeza"
   },
   "42-9-53-62": {
    "execucoes": 0,
@@ -1136,7 +1138,9 @@
   },
   "42-10-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: COMMAND_SCOPE: A instrução específica dada por Jesus aos setenta de não levar bolsa nem sandálias foi generalizada indevidamente na aplicação diária do leitor. | PRAYER_FIDELITY: A oração dirige-se aos 'Setenta enviados' em vez de ser dirigida a Deus ou a Jesus.",
+   "estado": "pronto",
+   "titulo": "Setenta enviados: a missão urgente da colheita"
   },
   "42-10-12-21": {
    "execucoes": 0,
@@ -1201,24 +1205,24 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 400,
-   "entrada": 974257,
-   "saida": 357641
+   "chamadas": 406,
+   "entrada": 991317,
+   "saida": 363072
   },
   "groq-qwen": {
-   "chamadas": 397,
-   "entrada": 919793,
-   "saida": 318879
+   "chamadas": 403,
+   "entrada": 936188,
+   "saida": 323618
   },
   "gemini": {
-   "chamadas": 329,
-   "entrada": 1063350,
-   "saida": 422878
+   "chamadas": 333,
+   "entrada": 1076484,
+   "saida": 429390
   },
   "cloudflare": {
-   "chamadas": 199,
-   "entrada": 691519,
-   "saida": 73829
+   "chamadas": 201,
+   "entrada": 698354,
+   "saida": 74571
   },
   "mistral": {
    "chamadas": 0,

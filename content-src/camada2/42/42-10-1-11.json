@@ -1,0 +1,141 @@
+{
+ "id": "42-10-1-11",
+ "ref": "Lucas 10:1-11",
+ "book": "42",
+ "chapter": 10,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E depois disso, o Senhor ordenou ainda outros setenta, e os mandou de dois em dois adiante de sua face, para toda cidade e lugar aonde ele havia de vir."
+  },
+  {
+   "n": 2,
+   "t": "E lhes dizia: “A colheita verdadeiramente é grande, mas os trabalhadores são poucos; portanto rogai ao Senhor da colheita para que ele envie trabalhadores para a sua colheita."
+  },
+  {
+   "n": 3,
+   "t": "Ide; eis que eu vos mando como cordeiros no meio dos lobos."
+  },
+  {
+   "n": 4,
+   "t": "Não leveis bolsa, nem sacola, nem sandálias; e a ninguém saudeis pelo caminho."
+  },
+  {
+   "n": 5,
+   "t": "E em qualquer casa que entrardes, dizei primeiro: Paz seja nesta casa."
+  },
+  {
+   "n": 6,
+   "t": "E se ali houver algum filho da paz, a vossa paz repousará sobre ele; e se não, ela voltará para vós mesmos."
+  },
+  {
+   "n": 7,
+   "t": "E ficai na mesma casa, comendo e bebendo do que eles vos derem; pois o trabalhador é digno do seu salário. Não vos mudeis de casa em casa."
+  },
+  {
+   "n": 8,
+   "t": "E em qualquer cidade que entrardes, e vos receberem, comei do que puserem diante de vós."
+  },
+  {
+   "n": 9,
+   "t": "E curai os enfermos que nela houver, e dizei-lhes: Chegado é para vós o reino de Deus."
+  },
+  {
+   "n": 10,
+   "t": "Mas em qualquer cidade em que entrardes e não vos receberem, saí pelas ruas, e dizei:"
+  },
+  {
+   "n": 11,
+   "t": "Até o pó da vossa cidade que ficou em nós, sacudimos sobre vós; porém disto sabeis, que o reino de Deus é chegado até vós."
+  }
+ ],
+ "titulo": "Setenta enviados: a missão urgente da colheita",
+ "temas": [
+  "missão",
+  "urgência",
+  "confiança",
+  "reino"
+ ],
+ "pergunta": "Por que Jesus mandou sair sem provisões e o que isso revela sobre a confiança?",
+ "entender": "Depois de ensinar os doze, Jesus comissiona mais setenta discípulos. Ele os envia de dois em dois, adiante de Si, para as cidades que Ele ainda visitaria. A imagem central é agrícola: a colheita é grande, mas faltam trabalhadores. Jesus pede que orem ao Senhor da colheita para que envie mais pessoas.\n\nHá uma tensão na ordem: eles vão como cordeiros no meio dos lobos, mas devem ir sem bolsa, sacola ou sandálias. Isso não é descuido, mas um teste de dependência. Eles devem confiar na hospitalidade das casas e no provimento de Deus. A mensagem que levam é clara: o Reino de Deus chegou. Se forem recebidos, fiquem; se não, sacudam o pó dos pés, sinal de que a responsabilidade da rejeição fica com os que não acolheram a mensagem.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para Jesus como o Senhor que envia e sustenta. Ele é o “Senhor da colheita” a quem devemos orar. A missão dos setenta é um ensaio da missão da Igreja: anunciar que o Reino chegou em Cristo. A confiança na provisão de Deus reflete a segurança de estar com Jesus, que cuida dos Seus na missão.",
+  "selo": true
+ },
+ "viver": "A ordem de ir sem provisões nos convida a examinar nossas dependências. Onde estamos confiando mais em nossos recursos do que na fidelidade de Deus? A missão não é sobre nosso sucesso, mas sobre a mensagem. Podemos orar especificamente por pessoas que ainda não conhecem Jesus, reconhecendo que a colheita é grande e que só Deus pode enviar os trabalhadores.",
+ "guarde": "A colheita é grande, mas os trabalhadores são poucos; confie no que Deus envia.",
+ "ore": "Senhor da colheita, em Lucas 10, Tu nos envias. Ajuda-me a confiar em Ti como os setenta confiaram, indo sem medo, anunciando que o Reino chegou, e dependendo da Tua provisão.",
+ "quiz": {
+  "pergunta": "O que Jesus ordenou aos setenta em relação aos seus pertences?",
+  "opcoes": [
+   "Não levar bolsa, sacola nem sandálias",
+   "Levar dinheiro suficiente para a viagem",
+   "Trazer apenas o necessário para uma semana"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz explicitamente: “Não leveis bolsa, nem sacola, nem sandálias”, indicando total dependência de Deus e da hospitalidade."
+ },
+ "refs": [
+  "Mateus 10:9-10",
+  "Marcos 6:7-13",
+  "Atos 1:8"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-23T18:46:07.696Z",
+  "rounds": 1
+ }
+}
