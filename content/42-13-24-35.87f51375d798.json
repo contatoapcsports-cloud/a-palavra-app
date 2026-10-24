@@ -1,0 +1,145 @@
+{
+ "id": "42-13-24-35",
+ "ref": "Lucas 13:24-35",
+ "book": "42",
+ "chapter": 13,
+ "verses": [
+  {
+   "n": 24,
+   "t": "Trabalhai para entrar pela porta estreita; porque eu vos digo, que muitos procuraram entrar, e não puderam."
+  },
+  {
+   "n": 25,
+   "t": "Porque quando o chefe da casa se levantar, e fechar a porta, e se estiverdes de fora, e começardes a bater à porta, dizendo: Senhor, senhor, abre-nos! E respondendo ele, vos disser: Não vos conheço, nem sei de onde vós sois."
+  },
+  {
+   "n": 26,
+   "t": "Então começareis a dizer: Em tua presença temos comido e bebido, e tens ensinado em nossas ruas."
+  },
+  {
+   "n": 27,
+   "t": "E ele dirá: Digo-vos que não vos conheço, nem sei de onde vós sois; afastai-vos de mim, vós todos praticantes de injustiça."
+  },
+  {
+   "n": 28,
+   "t": "Ali haverá choro e ranger de dentes, quando virdes a Abraão, a Isaque, a Jacó, e a todos os profetas no Reino de Deus; mas vós sendo lançados fora."
+  },
+  {
+   "n": 29,
+   "t": "E virão pessoas do oriente, e do ocidente, e do norte, e do sul, e se sentarão à mesa no Reino de Deus."
+  },
+  {
+   "n": 30,
+   "t": "E eis que há alguns dos últimos que serão primeiros, e há alguns dos primeiros que serão últimos."
+  },
+  {
+   "n": 31,
+   "t": "Naquele mesmo dia, chegaram uns fariseus, dizendo-lhe: Sai, e vai-te daqui, porque Herodes quer te matar."
+  },
+  {
+   "n": 32,
+   "t": "E disse-lhes: Ide, e dizei a aquela raposa: eis que expulso demônios, e faço curas hoje e amanhã, e ao terceiro dia eu terei completado."
+  },
+  {
+   "n": 33,
+   "t": "Porém é necessário que hoje, e amanhã, e no dia seguinte eu caminhe; porque um profeta não pode morrer fora de Jerusalém."
+  },
+  {
+   "n": 34,
+   "t": "Jerusalém, Jerusalém, que matas aos profetas, e apedrejas aos que te são enviados: quantas vezes eu quis juntar teus filhos, como a galinha junta seus pintos debaixo de suas asas, e não quisestes?"
+  },
+  {
+   "n": 35,
+   "t": "Eis que vossa casa é deixada deserta para vós. E em verdade vos digo, que não me vereis até que venha o tempo em que digais: Bendito aquele que vem no nome do Senhor."
+  }
+ ],
+ "titulo": "A porta fechada e o coração aberto",
+ "temas": [
+  "urgência",
+  "conhecimento",
+  "arrependimento",
+  "rejeição"
+ ],
+ "pergunta": "O que significa realmente 'conhecer' Jesus para entrar no Reino?",
+ "entender": "Jesus responde a uma pergunta sobre quantos se salvam dizendo: 'Trabalhai para entrar pela porta estreita'. Ele usa a imagem de uma festa onde o anfitrião fecha a porta. Quem está fora e bate, dizendo: 'Senhor, senhor, abre-nos!', será respondido com 'Não vos conheço'. O problema não é a falta de conhecimento intelectual, mas a falta de uma relação verdadeira.\n\nJesus também pronuncia um lamento sobre Jerusalém, a cidade que matou os profetas e o rejeitou. Ele expressa o desejo profundo de reuni-los, comparando-se a uma galinha protegendo os pintos. A rejeição leva à separação: 'vossa casa é deixada deserta para vós'.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a necessidade de reconhecer Jesus como Senhor e Salvador. A 'porta estreita' é a fé em Cristo. O alerta contra o 'Não vos conheço' reforça que a salvação não vem de rituais ou proximidade religiosa superficial, mas de uma relação pessoal e transformadora com Jesus.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, achamos que basta frequentar a igreja ou conhecer a Bíblia para estar seguros. Mas este texto nos convida a examinar a qualidade da nossa relação com Jesus. Não é sobre quantas vezes você fala com Ele, mas se você obedece, ama e se deixa moldar por Ele. A porta pode fechar; a certeza do Reino vem de um coração que realmente se rendeu a Cristo.",
+ "guarde": "A proximidade religiosa não substitui o conhecimento pessoal de Cristo; a porta do Reino se abre pela fé, não por tradição.",
+ "ore": "Jesus, que disseste 'não vos conheço' aos que apenas participavam, ensina-me a te buscar com sinceridade. Ajuda-me a não me contentar com rituais, mas a ter uma relação viva e verdadeira contigo, para que eu entre pela porta estreita.",
+ "quiz": {
+  "pergunta": "Quem é a figura usada por Jesus para descrever seu desejo de proteger os filhos de Jerusalém?",
+  "opcoes": [
+   "Uma ovelha",
+   "Uma galinha",
+   "Uma pomba"
+  ],
+  "certa": 1,
+  "explicacao": "No versículo 34, Jesus compara seu desejo de reunir os filhos de Jerusalém à ação de uma galinha que junta os pintos debaixo de suas asas."
+ },
+ "refs": [
+  "Mateus 7:13-14",
+  "Atos 4:12",
+  "João 10:9"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-24T03:41:52.255Z",
+  "rounds": 1
+ }
+}

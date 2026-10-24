@@ -1,0 +1,146 @@
+{
+ "id": "42-13-1-12",
+ "ref": "Lucas 13:1-12",
+ "book": "42",
+ "chapter": 13,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E naquele mesmo tempo estavam ali presentes alguns, que lhe contavam dos galileus cujo sangue Pilatos tinha misturado com seus sacrifícios."
+  },
+  {
+   "n": 2,
+   "t": "E respondendo Jesus, disse-lhes: Vós pensais que estes galileus foram mais pecadores, por terem sofrido estas coisas?"
+  },
+  {
+   "n": 3,
+   "t": "Não, eu vos digo; antes, se vós não vos arrependerdes, todos de modo semelhante perecereis."
+  },
+  {
+   "n": 4,
+   "t": "Ou aqueles dezoito, sobre os quais a torre em Siloé caiu, matando-os; pensais que eram mais culpados dos que todos as pessoas que moravam em Jerusalém?"
+  },
+  {
+   "n": 5,
+   "t": "Não, eu vos digo; antes, se vós não vos arrependerdes, todos de modo semelhante perecereis."
+  },
+  {
+   "n": 6,
+   "t": "E dizia esta parábola: Um certo homem tinha uma figueira plantada em sua vinha, e veio até ela para buscar fruto, e não achou."
+  },
+  {
+   "n": 7,
+   "t": "E disse ao que cuidava da vinha: Eis que há três anos, que venho para buscar fruto nesta figueira, e não o acho; corta-a; por que ainda ocupa inutilmente a terra?"
+  },
+  {
+   "n": 8,
+   "t": "E respondendo ele, disse-lhe: Senhor, deixa-a ainda este ano, até que eu a escave ao redor, e a adube;"
+  },
+  {
+   "n": 9,
+   "t": "E se der fruto, deixa-a ficar ; se não, tu a cortarás depois."
+  },
+  {
+   "n": 10,
+   "t": "E ensinava em uma das sinagogas num sábado."
+  },
+  {
+   "n": 11,
+   "t": "E eis que estava ali uma mulher, que havia dezoito anos que tinha um espírito de enfermidade; e andava encurvada, e de maneira nenhuma ela podia se endireitar."
+  },
+  {
+   "n": 12,
+   "t": "E Jesus vendo-a, chamou-a para si, e disse-lhe: Mulher, livre estás de tua enfermidade."
+  }
+ ],
+ "titulo": "Três anos sem fruto: o tempo de Deus",
+ "temas": [
+  "arrependimento",
+  "paciência",
+  "misericórdia",
+  "figueira",
+  "judgmento"
+ ],
+ "pergunta": "O que significa que Deus ainda nos dá tempo para dar frutos?",
+ "entender": "Em Lucas 13, Jesus responde a quem pergunta sobre tragédias. Ele não explica a causa do sofrimento, mas aponta para a resposta humana: o arrependimento. Afigueira sem fruto serve de parábola para a paciência de Deus. O dono quer cortá-la, mas o cuidador pede mais tempo para adubar. Isso mostra que Deus é justo, mas também misericordioso, dando chances para mudança.\n\nNo fim do trecho, Jesus cura uma mulher encurvada há dezoito anos no sábado. Ele a chama e declara livre. A ação de Jesus desafia as regras rígidas dos líderes religiosos, mostrando que a vida e a libertação valem mais que a observância legalista do dia de descanso.",
+ "ligar": {
+  "texto": "Jesus é o centro porque Ele define o valor da vida e a urgência do arrependimento. Na parábola, Ele se revela como o Deus que oferece tempo extra para o pecador. Na cura, Ele demonstra autoridade sobre a doença e o tempo, provando ser o Senhor do sábado. O evangelho aparece aqui como a oportunidade de ser restaurado antes que seja tarde.",
+  "selo": true
+ },
+ "viver": "Assim como a figueira recebeu mais tempo, você também está em um período de graça. Não use esse tempo para justificar sua paralisia espiritual. A mulher encurvada só se endireitou quando Jesus a chamou. Hoje, ouça o chamado de Cristo. Ele não trata sua dor ou pecado como detalhe irrelevante, mas como algo que Ele deseja resolver com poder e compaixão.",
+ "guarde": "Deus é paciente, mas o tempo não é infinito; a misericórdia pede resposta de arrependimento.",
+ "ore": "Jesus, que curaste a mulher encurvada em Lucas 13, eu Te peço: liberta-me de tudo que me impede de me endireitar. Dá-me o coração arrependido que a Tua graça exige, para que eu traga fruto no tempo que me resta.",
+ "quiz": {
+  "pergunta": "O que Jesus disse aos que perguntaram sobre os galileus que morreram?",
+  "opcoes": [
+   "Que a morte era um castigo direto de Deus.",
+   "Que eles eram os piores pecadores da região.",
+   "Que se não se arrependessem, também pereceriam."
+  ],
+  "certa": 2,
+  "explicacao": "Jesus redireciona a pergunta da culpa das vítimas para a necessidade de arrependimento dos ouvintes, enfatizando a urgência espiritual."
+ },
+ "refs": [
+  "Mateus 21:18-19",
+  "Marcos 2:5-12",
+  "Romanos 2:4"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-24T03:40:55.091Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,142 @@
+{
+ "id": "42-14-13-23",
+ "ref": "Lucas 14:13-23",
+ "book": "42",
+ "chapter": 14,
+ "verses": [
+  {
+   "n": 13,
+   "t": "Mas quando fizeres convite, chama aos pobres, aleijados, mancos e cegos."
+  },
+  {
+   "n": 14,
+   "t": "E serás bem-aventurado, porque não eles não têm como te recompensar; pois tu serás recompensado na ressurreição dos justos."
+  },
+  {
+   "n": 15,
+   "t": "E um dos que juntamente estavam sentados à mesa , ouvindo isto, disse-lhe: Bem-aventurado aquele que comer pão no Reino de Deus."
+  },
+  {
+   "n": 16,
+   "t": "Porém ele lhe disse: Um certo homem fez um grande jantar, e convidou a muitos."
+  },
+  {
+   "n": 17,
+   "t": "E na hora do jantar, mandou seu servo para dizer aos convidados: Vinde, que tudo já está preparado."
+  },
+  {
+   "n": 18,
+   "t": "E cada um deles todos começou a dar desculpas. O primeiro lhe disse: Comprei um campo, e tenho que ir vê-lo; peço-te desculpas."
+  },
+  {
+   "n": 19,
+   "t": "E outro disse: Comprei cinco pares de bois, e vou testá-los; peço-te desculpas."
+  },
+  {
+   "n": 20,
+   "t": "E outro disse: Casei-me com uma mulher, e portanto não posso vir."
+  },
+  {
+   "n": 21,
+   "t": "E aquele servo, ao voltar, anunciou estas coisas a seu senhor. Então o chefe da casa, irritado, disse a seu servo: Sai depressa pelas ruas e praças da cidade, e traze aqui aos pobres, e aleijados, e mancos e cegos."
+  },
+  {
+   "n": 22,
+   "t": "E o servo disse: Senhor, está feito como mandaste, e ainda há lugar."
+  },
+  {
+   "n": 23,
+   "t": "E o senhor disse ao servo: Sai pelos caminhos, e trilhas, e força-os a entrar, para que minha casa se encha."
+  }
+ ],
+ "titulo": "A mesa posta e as desculpas inventadas",
+ "temas": [
+  "convidado",
+  "desculpa",
+  "reino",
+  "graça",
+  "urgência"
+ ],
+ "pergunta": "O que você está usando como desculpa para não entrar no Reino de Deus?",
+ "entender": "Em Lucas 14, Jesus responde a um convidado que se alegra por estar na mesa, dizendo que a verdadeira bênção está em chamar os excluídos. Ele conta a parábola de um homem que preparou um grande jantar. Na hora certa, os convidados inventam desculpas: um comprou um campo, outro testou bois, outro casou-se.\n\nO anfitrião, irritado, manda buscar pobres, aleijados e cegos. Quando o servo diz que ainda há lugar, o senhor ordena: \"Sai pelos caminhos, e trilhas, e força-os a entrar, para que minha casa se encha\". A cena mostra que a oferta é real, mas muitas vezes é recusada por interesses terrenos que parecem mais urgentes.\n\nO texto revela que o Reino de Deus não é para quem se sente merecedor ou ocupado demais, mas para quem aceita o convite com gratidão. A recusa dos primeiros convidados não é apenas descortesia, mas uma escolha por prioridades que excluem a presença do anfitrião.",
+ "ligar": {
+  "texto": "Jesus usa essa história para ensinar que o Reino de Deus é uma festa preparada por Ele. Os convidados que recusam representam aqueles que preferem as coisas deste mundo ao convite de Cristo. A ordem de buscar os que estavam nos caminhos mostra a iniciativa de Deus em buscar os perdidos, não por mérito deles, mas pela graça. O evangelho é esse convite aberto a todos, especialmente aos que se sentem indignos.",
+  "selo": true
+ },
+ "viver": "Talvez você esteja adiando a decisão de seguir Jesus com desculpas parecidas: trabalho, família, projetos. Pense no que você comprou ou em que se casou que está te impedindo de estar à mesa. A mesa está posta. Não espere estar \"pronto\" ou \"livre\" de tudo. Aceite o convite hoje, mesmo com suas limitações, pois a graça é suficiente para o seu lugar.",
+ "guarde": "O Reino não espera você estar pronto; ele convida você a entrar como está.",
+ "ore": "Anfitrião do grande jantar, eu reconheço que muitas vezes inventei desculpas para não estar com você. Perdoa minha hesitação. Eu aceito seu convite agora, na mesa do seu Reino. Enche meu coração com a alegria de quem foi chamado e não recusou.",
+ "quiz": {
+  "pergunta": "O que o senhor da parábola manda fazer quando ainda há lugar na casa?",
+  "opcoes": [
+   "Chamar apenas os convidados originais de volta",
+   "Cancelar o jantar e distribuir o alimento",
+   "Sair pelos caminhos e forçá-los a entrar"
+  ],
+  "certa": 2,
+  "explicacao": "O texto diz explicitamente que o senhor manda o servo sair pelos caminhos e trilhas para forçar a entrada dos demais, enchendo a casa."
+ },
+ "refs": [
+  "Mateus 22:1-14",
+  "Lucas 15:16-24",
+  "João 1:29"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-24T03:47:04.095Z",
+  "rounds": 2
+ }
+}

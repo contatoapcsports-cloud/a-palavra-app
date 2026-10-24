@@ -1222,7 +1222,9 @@
   },
   "42-13-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:menos_de_2_paragrafos",
+   "estado": "pronto",
+   "titulo": "Três anos sem fruto: o tempo de Deus"
   },
   "42-13-13-23": {
    "execucoes": 0,
@@ -1230,7 +1232,9 @@
   },
   "42-13-24-35": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "A porta fechada e o coração aberto"
   },
   "42-14-1-12": {
    "execucoes": 0,
@@ -1238,7 +1242,9 @@
   },
   "42-14-13-23": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: ligar:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "A mesa posta e as desculpas inventadas"
   },
   "42-14-24-35": {
    "execucoes": 0,
@@ -1263,28 +1269,36 @@
   "42-16-11-21": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-16-22-31": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-17-1-9": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 420,
-   "entrada": 1030220,
-   "saida": 375306
+   "chamadas": 427,
+   "entrada": 1050322,
+   "saida": 381543
   },
   "groq-qwen": {
-   "chamadas": 418,
-   "entrada": 976645,
-   "saida": 335751
+   "chamadas": 425,
+   "entrada": 995395,
+   "saida": 341386
   },
   "gemini": {
-   "chamadas": 349,
-   "entrada": 1129350,
-   "saida": 439940
+   "chamadas": 354,
+   "entrada": 1145830,
+   "saida": 446383
   },
   "cloudflare": {
-   "chamadas": 214,
-   "entrada": 744523,
-   "saida": 79394
+   "chamadas": 217,
+   "entrada": 754879,
+   "saida": 80507
   },
   "mistral": {
    "chamadas": 0,
