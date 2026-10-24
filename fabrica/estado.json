@@ -1228,7 +1228,9 @@
   },
   "42-13-13-23": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: viver:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "A liberdade que Jesus trouxe à mulher"
   },
   "42-13-24-35": {
    "execucoes": 0,
@@ -1256,19 +1258,27 @@
   },
   "42-15-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "A Busca que Transforma o Coração"
   },
   "42-15-12-21": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Quando o filho pródigo volta para casa"
   },
   "42-15-22-32": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_longa",
+   "estado": "pronto",
+   "titulo": "A raiva do filho que ficou em casa"
   },
   "42-16-1-10": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração é dirigida ao personagem do mordomo injusto e o chama de 'meu verdadeiro Senhor', o que é inadmissível na oração bíblica e cristã. | CROSS_SECTION_CONSISTENCY: A oração contradiz a seção Ligar ao Evangelho ao invocar o mordomo injusto da parábola como verdadeiro Senhor em v",
+   "estado": "pronto",
+   "titulo": "A Sabedoria Astuta do Mordomo Desonesto"
   },
   "42-16-11-21": {
    "execucoes": 0,
@@ -1289,28 +1299,68 @@
   "42-17-20-28": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-17-29-37": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-18-1-11": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-18-12-22": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-18-23-32": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-18-33-43": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-19-1-12": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-19-13-24": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-19-25-36": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-19-37-48": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-20-1-12": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 434,
-   "entrada": 1070309,
-   "saida": 387706
+   "chamadas": 441,
+   "entrada": 1088556,
+   "saida": 394102
   },
   "groq-qwen": {
-   "chamadas": 432,
-   "entrada": 1014643,
-   "saida": 347618
+   "chamadas": 439,
+   "entrada": 1033959,
+   "saida": 353239
   },
   "gemini": {
-   "chamadas": 357,
-   "entrada": 1155902,
-   "saida": 451636
+   "chamadas": 364,
+   "entrada": 1178847,
+   "saida": 461742
   },
   "cloudflare": {
-   "chamadas": 219,
-   "entrada": 762069,
-   "saida": 81249
+   "chamadas": 224,
+   "entrada": 779842,
+   "saida": 83104
   },
   "mistral": {
    "chamadas": 0,

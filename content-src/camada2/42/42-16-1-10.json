@@ -1,0 +1,137 @@
+{
+ "id": "42-16-1-10",
+ "ref": "Lucas 16:1-10",
+ "book": "42",
+ "chapter": 16,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E dizia também a seus discípulos: Havia um certo homem rico, o qual tinha um mordomo; e este lhe foi acusado de fazer perder seus bens."
+  },
+  {
+   "n": 2,
+   "t": "E ele, chamando-o, disse-lhe: Como ouço isto sobre ti? Presta contas de teu trabalho, porque não poderás mais ser meu mordomo."
+  },
+  {
+   "n": 3,
+   "t": "E disse o mordomo para si mesmo: O que farei, agora que meu senhor está me tirando o trabalho de mordomo? Cavar eu não posso; mendigar eu tenho vergonha."
+  },
+  {
+   "n": 4,
+   "t": "Eu sei o que farei, para que, quando eu for expulso do meu trabalho de mordomo, me recebam em suas casas."
+  },
+  {
+   "n": 5,
+   "t": "E chamando a si a cada um dos devedores de seu senhor, disse ao primeiro: Quanto deves a meu senhor?"
+  },
+  {
+   "n": 6,
+   "t": "E ele disse: Cem medidas de azeite. E disse-lhe: Pega a tua conta, senta, e escreve logo cinquenta."
+  },
+  {
+   "n": 7,
+   "t": "Depois disse a outro: E tu, quanto deves? E ele disse: Cem volumes de trigo. E disse-lhe: Toma tua conta, e escreve oitenta."
+  },
+  {
+   "n": 8,
+   "t": "E aquele senhor elogiou o injusto mordomo, por ter feito prudentemente; porque os filhos deste mundo são mais prudentes do que os filhos da luz com esta geração."
+  },
+  {
+   "n": 9,
+   "t": "E eu vos digo: fazei amigos para vós com as riquezas da injustiça, para que quando vos faltar, vos recebam nos tabernáculos eternos."
+  },
+  {
+   "n": 10,
+   "t": "Quem é fiel no mínimo, também é fiel no muito; e quem é injusto no mínimo, também é injusto no muito."
+  }
+ ],
+ "titulo": "A Sabedoria Astuta do Mordomo Desonesto",
+ "temas": [
+  "prudência",
+  "riqueza",
+  "eternidade",
+  "fidelidade"
+ ],
+ "pergunta": "Por que Jesus usou um personagem injusto para ensinar sobre a importância do uso certo dos recursos?",
+ "entender": "Jesus contou esta parábola aos seus discípulos para ilustrar a urgência de usar bem o tempo e os recursos que temos aqui na terra. O texto apresenta um mordomo que, ao saber que seria demitido por desperdiçar os bens do patrão, agiu com astúcia: reduziu as dívidas dos devedores para ganhar a simpatia deles e garantir abrigo futuro. O patrão, surpreendentemente, elogiou a ação, não pela moralidade, mas pela \"prudência\" do servo em cuidar do seu interesse imediato.\n\nA lição central não é aprovar a fraude, mas destacar um contraste: \"os filhos deste mundo são mais prudentes\" em usar seus recursos temporais para vantagem própria do que os \"filhos da luz\". Jesus nos desafia a ser igualmente estratégicos, mas com um objetivo eterno: usar as \"riquezas da injustiça\" (bens materiais) para fazer amigos e preparar nosso caminho para os \"tabernáculos eternos\", onde a fidelidade no pouco determina a confiança no muito.",
+ "ligar": {
+  "texto": "Este trecho aponta para Jesus como o Mestre que redefine as prioridades da vida. Ele nos convida a ver a riqueza não como um fim em si mesma, mas como uma ferramenta passageira. A fidelidade mencionada no versículo 10 reflete a lealdade que Cristo exige e oferece: confiar em Deus com nossos recursos. Ao contrário do mordomo, que buscava segurança terrena, Jesus oferece segurança eterna, ensinando que nosso verdadeiro tesouro é a relação com Deus e o uso generoso do que Ele provê.",
+  "selo": false
+ },
+ "viver": "O mordomo agiu rápido porque sabia que seu tempo estava acabando. Da mesma forma, não devemos adiar decisões que impactam nossa alma e nossa comunidade. Identifique uma área onde você pode ser \"prudente\" de forma eterna: talvez seja perdoar alguém para liberar seu coração, ou doar com sabedoria para apoiar a obra de Deus. A pergunta não é apenas quanto você guarda, mas como você está usando o que tem hoje para construir laços que importam para a eternidade.",
+ "guarde": "Use a riqueza da injustiça para fazer amigos que te recebam nos tabernáculos eternos.",
+ "ore": "Senhor Jesus, Tu que és o verdadeiro Mestre, ensina-me a não desperdiçar o tempo presente. Ajuda-me a usar meus recursos com a mesma urgência e sabedoria que o mordomo da parábola, mas direcionando tudo para o Teu Reino e para a eternidade, sendo fiel no pouco que me confiaste.",
+ "quiz": {
+  "pergunta": "Por que o senhor elogiou o mordomo na parábola?",
+  "opcoes": [
+   "Porque o mordomo tratou os devedores com bondade moral.",
+   "Porque o mordomo devolveu o dinheiro roubado.",
+   "Por ter agido com prudência ao usar a situação a seu favor."
+  ],
+  "certa": 2,
+  "explicacao": "O texto diz que o senhor o elogiou por ter feito \"prudentemente\", referindo-se à astúcia do mordomo em garantir seu futuro, não à moralidade de suas ações."
+ },
+ "refs": [
+  "Mateus 25:14-30",
+  "Lucas 12:13-21",
+  "1 Timóteo 6:17-19"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-24T09:49:09.532Z",
+  "rounds": 2
+ }
+}

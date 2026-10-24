@@ -1,0 +1,137 @@
+{
+ "id": "42-15-12-21",
+ "ref": "Lucas 15:12-21",
+ "book": "42",
+ "chapter": 15,
+ "verses": [
+  {
+   "n": 12,
+   "t": "E disse o mais jovem deles ao pai: Pai, dá-me a parte dos bens que me pertencem. E ele lhe repartiu os bens."
+  },
+  {
+   "n": 13,
+   "t": "E depois de não muitos dias, o filho mais jovem, juntando tudo, partiu-se para uma terra distante, e ali desperdiçou seus bens, vivendo de forma irresponsável."
+  },
+  {
+   "n": 14,
+   "t": "E ele, tendo já gastado tudo, houve uma grande fome naquela terra, e ele começou a sofrer necessidade."
+  },
+  {
+   "n": 15,
+   "t": "E foi, se chegou a um dos cidadãos daquela terra; e este o mandou a seus campos para alimentar porcos."
+  },
+  {
+   "n": 16,
+   "t": "E ele ficava com vontade de encher seu estômago com os grãos que os porcos comiam, mas ninguém as dava para ele."
+  },
+  {
+   "n": 17,
+   "t": "E ele, pensando consigo mesmo, disse: Quantos empregados de meu pai tem pão em abundância, e eu aqui morro de fome!"
+  },
+  {
+   "n": 18,
+   "t": "Eu levantarei, e irei a meu pai, e lhe direi: Pai, pequei contra o céu, e diante de ti."
+  },
+  {
+   "n": 19,
+   "t": "E já não sou digno de ser chamado teu filho; faze-me como a um de teus empregados."
+  },
+  {
+   "n": 20,
+   "t": "E levantando-se, foi a seu pai. E quando ainda estava longe, o seu pai o viu, e teve compaixão dele; e correndo, caiu ao seu pescoço, e o beijou."
+  },
+  {
+   "n": 21,
+   "t": "E o filho lhe disse: Pai, pequei contra o céu, e diante de ti; e já não sou digno de ser chamado teu filho."
+  }
+ ],
+ "titulo": "Quando o filho pródigo volta para casa",
+ "temas": [
+  "arrependimento",
+  "graça",
+  "reconciliação"
+ ],
+ "pergunta": "Você já se sentiu tão distante de Deus que pensou não ser mais digno?",
+ "entender": "Nesta parte da parábola, o filho mais novo pede ao pai a sua parte da herança e parte para uma terra distante, onde desperdiça tudo e passa fome. Ele chega a trabalhar alimentando porcos e sente grande necessidade, chegando a dizer: \"Quantos empregados de meu pai tem pão em abundância, e eu aqui morro de fome!\" (v.17). Decidido a mudar, ele resolve voltar ao pai, confessando o pecado contra o céu e pedindo ser tratado como empregado (v.18‑19). Quando ainda está longe, o pai o vê, tem compaixão, corre ao seu encontro, o abraça e o beija. O filho repete sua confissão (v.21). O contexto imediato mostra Jesus falando sobre a alegria dos anjos quando um pecador se arrepende (v.9‑10) e a história de um homem com dois filhos (v.11). O sentido da passagem é mostrar a misericórdia do pai que representa Deus, pronto a receber de volta quem reconhece seu erro e volta ao lar.\n\nO relato destaca duas atitudes humanas: o afastamento por escolhas ruins e o retorno humilde. O pai, ao ver o filho, demonstra amor incondicional, não esperando punição, mas celebrando o reencontro. Essa reação contrasta com a atitude do irmão mais velho, que ainda não aparece, mas que nos leva a refletir sobre o orgulho e a justiça própria.",
+ "ligar": {
+  "texto": "O arrependimento do filho pródigo aponta para o convite de Cristo a todos que se sentem perdidos. Assim como o pai recebe o filho com graça, Jesus oferece perdão e restauração a quem reconhece seu pecado e volta a Ele (cf. João 3:16; 2 Coríntios 5:17). A confissão do filho – \"pequei contra o céu e diante de ti\" – ecoa a necessidade de reconhecer a culpa diante de Deus, algo que só Cristo pode remover ao morrer na cruz. O abraço do pai simboliza o abraço de Cristo ao crente arrependido, trazendo esperança de nova vida.",
+  "selo": false
+ },
+ "viver": "Ao perceber que a vida longe de Deus traz fome e vazio, o filho decide voltar ao lar. Da mesma forma, quando percebemos que nossas escolhas nos deixam sem paz, podemos escolher retornar ao amor de Deus, confessando nossos erros e aceitando Sua graça. Essa decisão traz reconciliação e nos liberta da culpa, permitindo que vivamos com gratidão e confiança na misericórdia divina.",
+ "guarde": "Mesmo quando nos afastamos, o amor de Deus nos espera de braços abertos.",
+ "ore": "Pai, ao ver minha vida longe de Ti, sinto o peso da fome espiritual. Ajuda-me a reconhecer meu erro, a voltar ao Teu coração e a experimentar o Teu abraço de perdão, como o filho pródigo fez.",
+ "quiz": {
+  "pergunta": "Qual foi a primeira reação do pai ao ver o filho que estava voltando?",
+  "opcoes": [
+   "Correu ao seu encontro e o abraçou",
+   "Ele o ignorou até que o filho chegasse ao lar",
+   "O repreendeu por ter desperdiçado a herança"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que, quando ainda estava longe, o pai o viu, teve compaixão e correu ao seu encontro, abraçando-o (v.20)."
+ },
+ "refs": [
+  "João 3:16",
+  "2 Coríntios 5:17",
+  "Efésios 2:8-9",
+  "1 João 1:9"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-24T09:36:25.198Z",
+  "rounds": 1
+ }
+}

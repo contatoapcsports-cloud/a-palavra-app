@@ -1,0 +1,142 @@
+{
+ "id": "42-13-13-23",
+ "ref": "Lucas 13:13-23",
+ "book": "42",
+ "chapter": 13,
+ "verses": [
+  {
+   "n": 13,
+   "t": "E pôs as mãos sobre ela, e logo ela se endireitou, e glorificava a Deus."
+  },
+  {
+   "n": 14,
+   "t": "E o chefe da sinagoga, irritado por Jesus ter curado no sábado, respondendo, disse à multidão: Há seis dias em que se deve trabalhar; nestes dias, pois, vinde para ser curados, e não no dia de sábado."
+  },
+  {
+   "n": 15,
+   "t": "Porém o Senhor lhe respondeu, e disse: Hipócrita, no sábado cada um de vós não desata seu boi ou jumento da manjedoura, e o leva para dar de beber?"
+  },
+  {
+   "n": 16,
+   "t": "E não convinha soltar desta ligadura no dia de sábado a esta mulher ,que é filha de Abraão, a qual, eis que Satanás já a havia ligado há dezoito anos?"
+  },
+  {
+   "n": 17,
+   "t": "E ele, dizendo estas coisas, todos seus adversários ficaram envergonhados; e todo o povo se alegrava de todas as coisas gloriosas que eram feitas por ele."
+  },
+  {
+   "n": 18,
+   "t": "E dizia: A que o Reino de Deus é semelhante? E a que eu o compararei?"
+  },
+  {
+   "n": 19,
+   "t": "Semelhante é ao grão da mostarda, que um homem, tomando-o, lançou-o em sua horta; e cresceu, e fez-se uma grande árvore, e as aves dos céus fizeram ninhos em seus ramos."
+  },
+  {
+   "n": 20,
+   "t": "E disse outra vez: A que compararei o Reino de Deus?"
+  },
+  {
+   "n": 21,
+   "t": "Semelhante é ao fermento, que a mulher, tomando-o, o escondeu em três medidas de farinha, até tudo ficar levedado."
+  },
+  {
+   "n": 22,
+   "t": "E andava de cidade em cidade, e de aldeia em aldeia ensinando, e caminhando para Jerusalém."
+  },
+  {
+   "n": 23,
+   "t": "E disse-lhe um: Senhor, são também poucos os que se salvam? E ele lhes disse:"
+  }
+ ],
+ "titulo": "A liberdade que Jesus trouxe à mulher",
+ "temas": [
+  "liberdade",
+  "sábado",
+  "misericórdia",
+  "reino de deus",
+  "cura"
+ ],
+ "pergunta": "O que realmente importa: a regra religiosa ou a dor da pessoa?",
+ "entender": "Jesus cura uma mulher que estava encurvada há dezoito anos. O chefe da sinagoga fica irritado porque a cura aconteceu num sábado, dia sagrado. Jesus responde mostrando a hipocrisia deles: eles quebram as regras do dia de descanso para cuidar dos animais, mas não fazem o mesmo para uma pessoa em sofrimento. Ele a chama de \"filha de Abraão\", lembrando que ela pertence ao povo de Deus e merece cuidado.\n\nApós a cura, Jesus usa duas parábolas para explicar o Reino de Deus: o grão de mostarda que cresce até virar árvore e o fermento que transforma a massa. Isso mostra que o Reino começa pequeno, mas tem poder para transformar tudo. O texto termina com Jesus indo para Jerusalém e alguém perguntando se poucos serão salvos, preparando o terreno para o ensino sobre a porta estreita.",
+ "ligar": {
+  "texto": "Este trecho mostra Jesus como o Libertador. Ele não apenas cura o corpo, mas restaura a dignidade da mulher, que era vista como um caso impossível. Ao desafiar a rigidez religiosa, Jesus revela que o amor de Deus é maior que as tradições humanas. Ele aponta para si mesmo como a fonte de vida e liberdade, mostrando que o Reino de Deus traz restauração total, não apenas regras para seguir.",
+  "selo": true
+ },
+ "viver": "Alguém ao seu redor pode estar preso a uma situação difícil, mas você hesita em ajudar por medo do que os outros vão pensar. Jesus agiu no sábado para livrar a mulher da ligadura, priorizando o alívio dela. Identifique uma necessidade concreta de alguém próximo e ofereça ajuda prática, sem deixar que o julgamento social ou a conveniência impeçam seu gesto de amor.",
+ "guarde": "Deus se importa mais com a sua dor do que com a sua obediência cega.",
+ "ore": "Jesus, que tocou a mulher encurvada, eu te peço para tocar as áreas da minha vida onde eu me sinto preso. Ensina-me a priorizar a misericórdia sobre o julgamento, assim como o Senhor fez no sábado. Liberta-me de qualquer rigidez que me afaste do amor que você oferece.",
+ "quiz": {
+  "pergunta": "Por que o chefe da sinagoga ficou irritado com Jesus?",
+  "opcoes": [
+   "Porque Jesus curou no sábado.",
+   "Porque Jesus não usou as mãos para curar.",
+   "Porque a mulher não era filha de Abraão."
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz explicitamente que o chefe ficou irritado \"por Jesus ter curado no sábado\", considerando isso uma violação das tradições do dia de descanso."
+ },
+ "refs": [
+  "Marcos 2:27",
+  "Mateus 13:31-33",
+  "Lucas 4:39"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-24T09:45:21.628Z",
+  "rounds": 2
+ }
+}

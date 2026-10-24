@@ -1,0 +1,140 @@
+{
+ "id": "42-15-1-11",
+ "ref": "Lucas 15:1-11",
+ "book": "42",
+ "chapter": 15,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E chegavam-se a ele todos os publicanos e pecadores para o ouvirem."
+  },
+  {
+   "n": 2,
+   "t": "E os fariseus e escribas murmuravam, dizendo: Este recebe aos pecadores, e come com eles."
+  },
+  {
+   "n": 3,
+   "t": "E ele lhes propôs esta parábola, dizendo:"
+  },
+  {
+   "n": 4,
+   "t": "Quem de vós, tendo cem ovelhas, e perdendo uma delas, não deixa no deserto as noventa e nove, e vai em busca da perdida, até que a encontre?"
+  },
+  {
+   "n": 5,
+   "t": "E encontrando-a, não a ponha sobre seus ombros, com alegria?"
+  },
+  {
+   "n": 6,
+   "t": "E vindo para casa, não convoque aos amigos, e vizinhos, dizendo-lhes: Alegrai-vos comigo, porque já achei minha ovelha perdida?"
+  },
+  {
+   "n": 7,
+   "t": "Digo-vos, que assim haverá mais alegria no céu por um pecador que se arrepende, do que por noventa e nove justos que não precisam de arrependimento."
+  },
+  {
+   "n": 8,
+   "t": "Ou que mulher, tendo dez moedas de prata, se perder a uma moeda, não acende a lâmpada, e varre a casa, e busca cuidadosamente até a achar?"
+  },
+  {
+   "n": 9,
+   "t": "E achando -a , não chame as amigas e as vizinhas, dizendo: Alegrai-vos comigo, porque já achei a moeda perdida!"
+  },
+  {
+   "n": 10,
+   "t": "Assim vos digo, que há alegria diante dos anjos de Deus por um pecador que se arrepende."
+  },
+  {
+   "n": 11,
+   "t": "E disse: Um certo homem tinha dois filhos."
+  }
+ ],
+ "titulo": "A Busca que Transforma o Coração",
+ "temas": [
+  "arrependimento",
+  "graça",
+  "alegria"
+ ],
+ "pergunta": "Você já se sentiu tão valioso que vale a pena deixar tudo para encontrar alguém?",
+ "entender": "Jesus conta duas histórias curtas para responder aos fariseus que o criticavam por aceitar pecadores. Primeiro, fala de um pastor que tem cem ovelhas e deixa as noventa e nove no deserto para buscar a que se perdeu (v.4‑6). Quando a encontra, ele a coloca nos ombros e celebra com amigos. Depois, compara a situação a uma mulher que perde uma moeda de prata e procura até achá‑la, chamando vizinhas para comemorar (v.8‑9). Em ambas, o ponto central é a alegria que surge quando o que estava perdido é recuperado. O texto termina afirmando que há “mais alegria no céu por um pecador que se arrepende” (v.7) e que “há alegria diante dos anjos de Deus por um pecador que se arrepende” (v.10). O contexto mostra que Jesus responde a quem o acusava de se associar com pecadores, revelando o coração de Deus por quem se volta para Ele.\n\nA mensagem vai além da simples busca de objetos; ela revela o valor que Deus atribui a cada pessoa. Mesmo que a maioria esteja segura, Deus não ignora quem se afasta. Ele envia Seu Filho para procurar, restaurar e celebrar a volta dos que se arrependem. Essa atitude contrasta com a atitude dos fariseus, que preferem manter a distância dos que consideram impuros.",
+ "ligar": {
+  "texto": "A parábola aponta para o ministério de Jesus, que veio buscar os perdidos. Assim como o pastor deixa as noventa e nove para encontrar a ovelha, Cristo deixa a glória do céu para viver entre nós, alcançar os pecadores e oferecer perdão. Quando alguém crê e se arrepende, há celebração nos céus – “há alegria diante dos anjos de Deus” (v.10) – lembrando que a salvação é um ato de graça, não de mérito. O convite de Jesus à mudança de vida se cumpre na cruz, onde Ele paga o preço da perda e nos reconcilia com o Pai.",
+  "selo": false
+ },
+ "viver": "Quando perceber que alguém está distante, não espere que ele volte sozinho. Siga o exemplo do pastor: procure com dedicação, mostre o valor que a pessoa tem e celebre cada passo de volta. Isso pode ser um telefonema, uma visita ou um gesto de apoio que demonstra que a pessoa não está perdida aos olhos de Deus. Ao ver a mudança, compartilhe a alegria com a comunidade, lembrando que cada vida restaurada traz glória a Deus.\n\nAlém disso, reconheça que você também pode ser “a ovelha perdida”. Se sentir afastado da fé, procure a Deus com o mesmo zelo que o pastor procurou a sua ovelha. Confesse, arrependa‑se e experimente a alegria que o céu celebra quando um pecador volta ao Senhor.",
+ "guarde": "Deus celebra cada coração que volta ao Seu amor.",
+ "ore": "Pai, assim como o pastor que deixou as noventa e nove, ajuda‑me a buscar quem está distante e a celebrar cada retorno ao teu abraço.",
+ "quiz": {
+  "pergunta": "O que Jesus afirma sobre a alegria no céu quando um pecador se arrepende?",
+  "opcoes": [
+   "Só os justos têm alegria no céu.",
+   "A alegria é a mesma para todos, pecadores ou justos.",
+   "Há mais alegria por um pecador arrependido do que por noventa e nove justos."
+  ],
+  "certa": 2,
+  "explicacao": "Jesus diz explicitamente que há 'mais alegria no céu por um pecador que se arrepende' (v.7), mostrando o valor da conversão."
+ },
+ "refs": [
+  "2 Coríntios 5:20",
+  "1 Timóteo 2:4",
+  "Hebreus 13:2"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-24T09:34:50.761Z",
+  "rounds": 1
+ }
+}

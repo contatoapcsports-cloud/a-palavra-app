@@ -1,0 +1,141 @@
+{
+ "id": "42-15-22-32",
+ "ref": "Lucas 15:22-32",
+ "book": "42",
+ "chapter": 15,
+ "verses": [
+  {
+   "n": 22,
+   "t": "Mas o pai disse a seus servos: Trazei a melhor roupa, e o vesti; e ponde um anel em sua mão, e sandálias nos seus pés."
+  },
+  {
+   "n": 23,
+   "t": "E trazei o bezerro engordado, e o matai; e comamos, e nos alegremos."
+  },
+  {
+   "n": 24,
+   "t": "Porque este meu filho estava morto, e reviveu; tinha se perdido, e foi achado. E começaram a se alegrar."
+  },
+  {
+   "n": 25,
+   "t": "E seu filho mais velho estava no campo; e quando veio, chegou perto da casa, ouviu a música, e as danças."
+  },
+  {
+   "n": 26,
+   "t": "E chamando para si um dos servos, perguntou-lhe: O que era aquilo?"
+  },
+  {
+   "n": 27,
+   "t": "E ele lhe disse: Teu irmão chegou; e teu pai matou o bezerro engordado, porque ele voltou são."
+  },
+  {
+   "n": 28,
+   "t": "Porém ele se irritou, e não queria entrar. Então o seu pai, saindo, rogava-lhe que entrasse ."
+  },
+  {
+   "n": 29,
+   "t": "Mas o filho respondendo, disse ao pai: Eis que eu te sirvo há tantos anos, e nunca desobedeci tua ordem, e nunca me deste um cabrito, para que eu me alegrasse com meus amigos."
+  },
+  {
+   "n": 30,
+   "t": "Porém, vindo este teu filho, que gastou teus bens com prostitutas, tu lhe mataste o bezerro engordado."
+  },
+  {
+   "n": 31,
+   "t": "E ele lhe disse: Filho, tu sempre estás comigo, e todas as minhas coisas são tuas."
+  },
+  {
+   "n": 32,
+   "t": "Mas era necessário se alegrar e animar; porque este teu irmão estava morto, e reviveu; e tinha se perdido, e foi encontrado."
+  }
+ ],
+ "titulo": "A raiva do filho que ficou em casa",
+ "temas": [
+  "gratidão",
+  "justiça",
+  "graça",
+  "relações"
+ ],
+ "pergunta": "Por que a bondade do pai para com o irmão perdido gerou tanta raiva no filho que nunca partiu?",
+ "entender": "O pai celebra o retorno do filho mais novo com festa, roupa nova e um banquete. Para ele, o filho \"estava morto, e reviveu; tinha se perdido, e foi achado\". Essa alegria é intensa e pública.\n\nO filho mais velho, porém, reage com irritação. Ele se vê como um empregado fiel que nunca desobedeceu, mas que nunca recebeu um cabrito para se alegrar com os amigos. Para ele, a festa é uma injustiça: o irmão desperdiçou a herança e, ao voltar, recebe honras que ele, por sua lealdade, acredita merecer.\n\nA tensão não é apenas sobre a festa, mas sobre como cada um entende a relação com o pai. O mais novo entendeu que estava longe e precisava de misericórdia. O mais velho, embora estivesse fisicamente presente, vivia uma relação baseada em mérito e contabilidade, não em comunhão.",
+ "ligar": {
+  "texto": "Jesus conta esta parábola para mostrar o coração de Deus. O pai da história é uma imagem do próprio Deus: Ele não calcula méritos, mas celebra a vida restaurada. A raiva do filho mais velho espelha a atitude de muitos religiosos que, por se acharem justos, não se alegram quando pecadores recebem perdão. Jesus revela que o evangelho não é um prêmio para os perfeitos, mas um abraço para os perdidos, e que a verdadeira justiça divina é a graça que reconcilia.",
+  "selo": false
+ },
+ "viver": "A raiva do filho mais velho nasce de comparar seu esforço com o perdão recebido pelo outro. Talvez você já tenha sentido isso: ao ver alguém ser perdoado ou amado de forma que você não se sente merecedor, pode surgir amargura. A aplicação aqui é olhar para a sua própria relação com Deus. Você se alegra quando vê alguém ser restaurado, ou sente que a justiça exige que ele sofra? Deixe a lógica do mérito para trás e entre na festa da graça, entendendo que a presença de Deus não depende de pontuação, mas de relacionamento.",
+ "guarde": "A justiça baseada em mérito nos afasta do abraço do Pai; a graça nos convida a celebrar a vida recuperada.",
+ "ore": "Pai, assim como o filho mais velho da parábola, eu às vezes me prendo às minhas boas obras e fico ressentido quando vejo outros receberem graça. Ensina-me a ter o Teu coração, para que eu me alegre com a restauração de quem se arrepende, em vez de julgar. Ajuda-me a viver a comunhão, não a contabilidade, em nome de Jesus.",
+ "quiz": {
+  "pergunta": "Qual era a principal reclamação do filho mais velho ao seu pai?",
+  "opcoes": [
+   "Ele nunca recebeu um cabrito para se alegrar, apesar de sua fidelidade.",
+   "O pai não o vestiu com a melhor roupa.",
+   "O irmão mais novo roubou o anel do pai."
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz explicitamente que ele servia há muitos anos sem desobedecer, mas nunca havia recebido um cabrito para celebrar, o que contrastava com a festa dada ao irmão."
+ },
+ "refs": [
+  "Lucas 15:1-7",
+  "Mateus 18:23-35",
+  "Isaías 61:1-3"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-24T09:43:44.604Z",
+  "rounds": 1
+ }
+}
