@@ -1,0 +1,145 @@
+{
+ "id": "42-14-24-35",
+ "ref": "Lucas 14:24-35",
+ "book": "42",
+ "chapter": 14,
+ "verses": [
+  {
+   "n": 24,
+   "t": "Porque eu vos digo, que nenhum daqueles homens que foram convidados experimentará da minha ceia."
+  },
+  {
+   "n": 25,
+   "t": "E muitas multidões iam com ele; e virando-se, disse-lhes:"
+  },
+  {
+   "n": 26,
+   "t": "Se alguém vier a mim, e não odiar a seu pai, e mãe, e mulher, e filhos, e irmãos, e irmãs, e ainda também sua própria vida, não pode ser meu discípulo."
+  },
+  {
+   "n": 27,
+   "t": "E qualquer que não levar sua cruz, e vier após mim, não pode ser meu discípulo."
+  },
+  {
+   "n": 28,
+   "t": "Porque qual de vós, querendo edificar uma torre, não se senta primeiro para fazer as contas dos gastos, para ver se tem o suficiente para a completar?"
+  },
+  {
+   "n": 29,
+   "t": "Para que não aconteça que, depois de ter posto seu fundamento, e não podendo a completar, comecem a escarnecer dele todos os que o virem,"
+  },
+  {
+   "n": 30,
+   "t": "Dizendo: Este homem começou a construir, e não pôde terminar."
+  },
+  {
+   "n": 31,
+   "t": "Ou qual rei, indo a guerra para lutar contra outro rei, não se senta primeiro para consultar, se pode ir ao encontro com dez mil soldados , vindo contra ele vinte mil?"
+  },
+  {
+   "n": 32,
+   "t": "Se não puder , estando o outro ainda longe, manda -lhe representantes diplomáticos, e roga pela paz."
+  },
+  {
+   "n": 33,
+   "t": "Assim, portanto, qualquer de vós que não renuncia a tudo, não pode ser meu discípulo."
+  },
+  {
+   "n": 34,
+   "t": "Bom é o sal; porém se o sal perder o sabor, com o que ele será temperado?"
+  },
+  {
+   "n": 35,
+   "t": "Nem para a terra, nem para adubo serve; lançam-no fora. Quem tem ouvidos para ouvir, ouça."
+  }
+ ],
+ "titulo": "Quem tem coragem de terminar a obra?",
+ "temas": [
+  "discipulado",
+  "decisão",
+  "renúncia",
+  "autenticidade"
+ ],
+ "pergunta": "Você já parou para calcular o custo real de seguir a Jesus antes de dizer sim?",
+ "entender": "Jesus fala com as multidões que O seguiam, usando termos fortes. Quando diz que é preciso 'odiar' a família e a própria vida, Ele não está mandando odiar, mas usando uma linguagem hebraica para expressar que nada deve ter prioridade maior que Ele. Seguir a Jesus exige uma lealdade exclusiva, acima de qualquer outro vínculo ou desejo pessoal.\n\nPara ilustrar isso, Jesus usa duas imagens práticas: o construtor que calcula os custos antes de erguer a torre e o rei que avalia suas forças antes da guerra. A lição é clara: não se deve começar algo sem saber se tem condições de terminar. Ser discípulo não é um impulso momentâneo, é uma decisão consciente de renunciar a tudo para seguir a Cristo.\n\nO trecho termina com a metáfora do sal. Se o sal perder o sabor, é inútil e é descartado. Jesus convida a reflexão: uma fé que não produz transformação genuína e não impacta o ambiente ao redor perde sua função. Ele termina com um convite solene: 'Quem tem ouvidos para ouvir, ouça'.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a autoridade de Jesus. Ele não é apenas um conselheiro, mas o Senhor que exige lealdade total. A menção à 'cruz' (Lucas 14:27) nos lembra que o caminho de Jesus é o caminho do sacrifício, onde Ele se entregou por nós. O evangelho nos mostra que, embora a exigência seja alta, a graça de Cristo nos capacita a renunciar ao egoísmo. O sal, que perde o sabor, é uma imagem da vida cristã que deve ter sabor de Cristo; sem Ele, somos inúteis para o Reino.",
+  "selo": true
+ },
+ "viver": "A parábola do construtor nos chama a uma avaliação honesta. Antes de assumir novos compromissos na igreja ou no serviço a Deus, pergunte-se: tenho tempo, energia e disposição para levar isso até o fim? Não se trata de desistir, mas de não começar o que não podemos sustentar. Identifique uma área da sua vida onde você tem agido por impulso ou fadiga, e busque uma decisão mais ponderada e firme. Que sua fé seja como o sal: constante, saborosa e essencial para os que estão ao seu redor.",
+ "guarde": "Seguir Jesus exige a coragem de calcular o custo e a determinação de terminar o que Ele começou na sua vida.",
+ "ore": "Senhor Jesus, assim como o construtor que avalia os custos, eu quero avaliar minha vida à luz da Tua Palavra. Ajuda-me a renunciar ao que compete com o Teu primeiro lugar no meu coração. Dá-me a força para levar a minha cruz com perseverança e para que minha vida tenha o sabor do Tuo amor, impactando todos ao meu redor. Em Teu nome, amém.",
+ "quiz": {
+  "pergunta": "Qual é a principal lição das parábolas do construtor e do rei no texto?",
+  "opcoes": [
+   "Que seguir Jesus exige uma decisão consciente e total, sem reservas.",
+   "Que devemos planejar nossas vidas para evitar qualquer tipo de sacrifício.",
+   "Que a fé é uma decisão impensada que deve ser tomada no calor do momento."
+  ],
+  "certa": 0,
+  "explicacao": "As parábolas ilustram a necessidade de avaliar o custo e a capacidade de seguir até o fim, mostrando que o discipulado é um compromisso sério e total, não uma ação impulsiva."
+ },
+ "refs": [
+  "Mateus 16:24",
+  "Marcos 8:34",
+  "Lucas 9:23"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-24T06:50:20.178Z",
+  "rounds": 2
+ }
+}

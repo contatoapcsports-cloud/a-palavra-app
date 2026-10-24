@@ -1238,7 +1238,9 @@
   },
   "42-14-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_fora_do_texto, ligar:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "O assento que revela o coração"
   },
   "42-14-13-23": {
    "execucoes": 0,
@@ -1248,7 +1250,9 @@
   },
   "42-14-24-35": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:viver:42-11-44-54",
+   "estado": "pronto",
+   "titulo": "Quem tem coragem de terminar a obra?"
   },
   "42-15-1-11": {
    "execucoes": 0,
@@ -1277,28 +1281,36 @@
   "42-17-1-9": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-17-10-19": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-17-20-28": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 427,
-   "entrada": 1050322,
-   "saida": 381543
+   "chamadas": 434,
+   "entrada": 1070309,
+   "saida": 387706
   },
   "groq-qwen": {
-   "chamadas": 425,
-   "entrada": 995395,
-   "saida": 341386
+   "chamadas": 432,
+   "entrada": 1014643,
+   "saida": 347618
   },
   "gemini": {
-   "chamadas": 354,
-   "entrada": 1145830,
-   "saida": 446383
+   "chamadas": 357,
+   "entrada": 1155902,
+   "saida": 451636
   },
   "cloudflare": {
-   "chamadas": 217,
-   "entrada": 754879,
-   "saida": 80507
+   "chamadas": 219,
+   "entrada": 762069,
+   "saida": 81249
   },
   "mistral": {
    "chamadas": 0,

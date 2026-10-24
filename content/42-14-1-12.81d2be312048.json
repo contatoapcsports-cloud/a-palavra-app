@@ -1,0 +1,146 @@
+{
+ "id": "42-14-1-12",
+ "ref": "Lucas 14:1-12",
+ "book": "42",
+ "chapter": 14,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E aconteceu que, entrando ele num sábado para comer pão na casa de um dos chefes dos fariseus, eles estavam o observando."
+  },
+  {
+   "n": 2,
+   "t": "E eis que um certo homem com o corpo inchado estava ali diante dele."
+  },
+  {
+   "n": 3,
+   "t": "E respondendo Jesus, falou aos estudiosos da Lei, e aos fariseus, dizendo: É lícito curar no sábado?"
+  },
+  {
+   "n": 4,
+   "t": "Porém eles ficaram calados; e ele, tomando -o ,o curou, e o despediu."
+  },
+  {
+   "n": 5,
+   "t": "E ele, respondendo-lhes, disse: De qual que vós cairá o jumento, ou o boi em algum poço que, mesmo no sábado, não o tire logo?"
+  },
+  {
+   "n": 6,
+   "t": "E nada podiam lhe responder a estas coisas."
+  },
+  {
+   "n": 7,
+   "t": "E vendo como os convidados escolhiam os primeiros assentos, disse-lhes uma parábola:"
+  },
+  {
+   "n": 8,
+   "t": "Quando fores convidados para o casamento de alguém, não te sentes no primeiro assento, para que não aconteça de se outro convidado mais digno que tu estiver,"
+  },
+  {
+   "n": 9,
+   "t": "E venha o que convidou a ti e a ele, e te diga: Dá lugar a este; E então, com vergonha, tenhas que tomar o último lugar."
+  },
+  {
+   "n": 10,
+   "t": "Mas quando fores convidado, vai, e senta-te no último lugar; para que quando vier o que te convidou, te diga: Amigo, sobe para este assento melhor. Então terás honra diante dos que estiverem sentados contigo à mesa ."
+  },
+  {
+   "n": 11,
+   "t": "Porque qualquer que exaltar a si mesmo, e aquele que humilhar a si mesmo, será exaltado."
+  },
+  {
+   "n": 12,
+   "t": "E dizia também ao que tinha lhe convidado: Quando fizeres um jantar, ou uma ceia, não chames a teus amigos, nem a teus irmãos, nem a teus parentes, nem a teus vizinhos ricos, para que eles também em algum tempo não te convidem de volta, e tu sejas recompensado."
+  }
+ ],
+ "titulo": "O assento que revela o coração",
+ "temas": [
+  "humildade",
+  "sábado",
+  "hospitalidade",
+  "recompensa"
+ ],
+ "pergunta": "Por que Jesus curou um homem inchado num sábado, mesmo sendo observado pelos líderes religiosos?",
+ "entender": "Jesus entra na casa de um chefe dos fariseus num sábado. Lá, encontra um homem com o corpo inchado. Jesus pergunta se é lícito curar no sábado. Como eles ficam calados, Ele toma o homem, o cura e o despede. Usando a lógica simples de que ninguém hesitaria em tirar um animal de um poço num sábado, Jesus mostra que a vida humana tem prioridade sobre as regras religiosas.\n\nEm seguida, Jesus observa os convidados disputando os primeiros lugares. Ele conta uma parábola: se você é convidado para um casamento, não busque o lugar de honra, pois pode haver alguém mais digno e você ficará em vergonha. Em vez disso, sente-se no último lugar. Assim, se o anfitrião o convidar para subir, você terá honra diante dos demais. A lição é que quem se exalta será humilhado, e quem se humilha será exaltado.\n\nPor fim, Jesus orienta o anfitrião sobre a hospitalidade. Ele não deve convidar apenas amigos, parentes ou vizinhos ricos, esperando ser retribuído. A verdadeira generosidade não busca pagamento imediato, mas um coração livre da troca de favores.",
+ "ligar": {
+  "texto": "Jesus é o centro deste texto. Ele é quem define o verdadeiro sentido do sábado: não é um dia de restrição, mas de vida e misericórdia. Ao curar o homem inchado, Jesus demonstra que o Reino de Deus valoriza a pessoa acima das tradições humanas. Além disso, a parábola dos assentos reflete o caráter de Jesus, que, sendo Deus, se humilhou a si mesmo. Ele não buscou honra própria, mas serviu. O evangelho nos convida a seguir esse exemplo, trocando a busca por status pela confiança na graça de Deus.",
+  "selo": true
+ },
+ "viver": "Pense na última vez em que você se sentiu pressionado a se destacar ou a buscar reconhecimento. Jesus nos ensina que a verdadeira honra não vem da posição social, mas da atitude do coração. Em vez de tentar controlar como os outros veem você, pratique a humildade ativa. Isso pode significar servir sem esperar agradecimento ou ajudar alguém que não poderá retribuir nada. Quando agimos assim, refletimos o caráter de Jesus e encontramos paz, pois nossa segurança não depende mais da aprovação humana.",
+ "guarde": "A verdadeira honra não está no assento que você escolhe, mas na maneira como você serve.",
+ "ore": "Jesus, na casa do fariseu, Tu curaste o homem inchado e ensinaste a humildade. Ajuda-me a não buscar os primeiros lugares na vida. Que eu sirva com generosidade, sem esperar recompensa, confiando que Tu vês o meu coração e me honras de forma eterna.",
+ "quiz": {
+  "pergunta": "Qual era a lógica de Jesus ao curar o homem no sábado?",
+  "opcoes": [
+   "A vida humana é prioritária sobre as regras religiosas.",
+   "Para demonstrar poder sobre os fariseus.",
+   "Porque o sábado era o dia de descanso total."
+  ],
+  "certa": 0,
+  "explicacao": "Jesus usou a analogia de tirar um animal de um poço para mostrar que fazer o bem e salvar vidas não viola o sábado, mas cumpre seu propósito."
+ },
+ "refs": [
+  "Mateus 12:11-12",
+  "Marcos 2:27",
+  "Filipenses 2:5-8",
+  "Tiago 2:15-16"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-24T06:48:50.887Z",
+  "rounds": 2
+ }
+}
