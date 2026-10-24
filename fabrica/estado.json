@@ -1180,7 +1180,9 @@
   },
   "42-11-33-43": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PERSON_ENTITY_CONSISTENCY: A oração confunde Deus com o fariseu da narrativa, dirigindo a prece a esse personagem humano. | PRAYER_FIDELITY: A oração é dirigida ao 'Fariseu que me convidou para jantar' pedindo que ele purifique o coração, violando frontalmente a oração bíblica. | CROSS_SECTION_CONSI",
+   "estado": "pronto",
+   "titulo": "A luz que revela o que está dentro"
   },
   "42-11-44-54": {
    "execucoes": 0,
@@ -1190,23 +1192,33 @@
   },
   "42-12-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Quem você deve temer de verdade?"
   },
   "42-12-13-24": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: viver:citacao_fora_do_texto, abertura_repetida:ore:41-7-10-19, abertura_repetida:viver:42-11-44-54",
+   "estado": "pronto",
+   "titulo": "Celeiros cheios, mas alma vazia"
   },
   "42-12-25-35": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: ore:marcacao",
+   "estado": "pronto",
+   "titulo": "A tranquilidade do pequeno rebanho"
   },
   "42-12-36-47": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:ore:43-11-1-11, abertura_repetida:entender:43-15-1-9",
+   "estado": "pronto",
+   "titulo": "O ladrão, o mordomo e a surpresa do fim"
   },
   "42-12-48-59": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "A divisão que vem da verdade de Cristo"
   },
   "42-13-1-12": {
    "execucoes": 0,
@@ -1223,28 +1235,56 @@
   "42-14-1-12": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-14-13-23": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-14-24-35": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-15-1-11": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-15-12-21": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-15-22-32": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-16-1-10": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-16-11-21": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 413,
-   "entrada": 1011529,
-   "saida": 369234
+   "chamadas": 420,
+   "entrada": 1030220,
+   "saida": 375306
   },
   "groq-qwen": {
-   "chamadas": 411,
-   "entrada": 957146,
-   "saida": 330239
+   "chamadas": 418,
+   "entrada": 976645,
+   "saida": 335751
   },
   "gemini": {
-   "chamadas": 342,
-   "entrada": 1106105,
-   "saida": 435366
+   "chamadas": 349,
+   "entrada": 1129350,
+   "saida": 439940
   },
   "cloudflare": {
-   "chamadas": 208,
-   "entrada": 723138,
-   "saida": 77168
+   "chamadas": 214,
+   "entrada": 744523,
+   "saida": 79394
   },
   "mistral": {
    "chamadas": 0,

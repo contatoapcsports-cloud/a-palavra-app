@@ -1,0 +1,145 @@
+{
+ "id": "42-12-48-59",
+ "ref": "Lucas 12:48-59",
+ "book": "42",
+ "chapter": 12,
+ "verses": [
+  {
+   "n": 48,
+   "t": "Mas o que não sabia, e fez coisas dignas de pancadas, será pouco espancado. E a qualquer que muito for dado, muito se lhe pedirá, e ao que muito se confiou, muito mais lhe será exigido."
+  },
+  {
+   "n": 49,
+   "t": "Eu vim para lançar fogo na terra; e o que mais posso querer, se já está aceso?"
+  },
+  {
+   "n": 50,
+   "t": "Porém há um batismo que tenho que ser batizado; e como me angustio até que se venha a cumprir!"
+  },
+  {
+   "n": 51,
+   "t": "Vós pensais que vim para dar paz à terra? Não, eu vos digo; mas antes vim para trazer divisão."
+  },
+  {
+   "n": 52,
+   "t": "Porque daqui em diante cinco estarão divididos em uma casa; três contra dois, e dois contra três."
+  },
+  {
+   "n": 53,
+   "t": "O pai estará dividido contra o filho, e o filho contra o pai; a mãe contra a filha, e a filha contra a mãe; a sogra contra sua nora, e a nora contra sua sogra."
+  },
+  {
+   "n": 54,
+   "t": "E ele dizia também para as multidões: Quando vedes a nuvem que vem do ocidente, logo dizeis: Lá vem chuva; E assim acontece."
+  },
+  {
+   "n": 55,
+   "t": "E quando venta do sul, dizeis: Haverá calor; E assim acontece."
+  },
+  {
+   "n": 56,
+   "t": "Hipócritas! Sabeis entender a aparência da terra e do céu; e como não entendeis este tempo?"
+  },
+  {
+   "n": 57,
+   "t": "E por que também não julgais por vós mesmos o que é justo?"
+  },
+  {
+   "n": 58,
+   "t": "Pois quando fores com teu adversário à autoridade, procura te livrares dele no caminho, para que ele não venha a te levar ao juiz, e o juiz te entregue ao oficial de justiça, e o oficial de justiça te lance na prisão."
+  },
+  {
+   "n": 59,
+   "t": "Eu te digo que não sairás dali enquanto não pagares até a última moeda."
+  }
+ ],
+ "titulo": "A divisão que vem da verdade de Cristo",
+ "temas": [
+  "divisão",
+  "responsabilidade",
+  "justiça",
+  "discernimento"
+ ],
+ "pergunta": "Por que a chegada de Jesus pode causar tanta tensão até dentro da família?",
+ "entender": "Jesus usa a imagem do fogo e do batismo para descrever a intensidade de sua missão. Ele não veio para manter as aparências de paz, mas para revelar a verdade que separa o certo do errado. Isso gera conflito, pois a luz expõe o que estava oculto.\n\nEle alerta que sua mensagem dividirá as casas: filhos contra pais, sogras contra noras. Não é que Jesus queira destruir a família, mas que a lealdade à verdade divina pode ser mais forte que os laços de sangue quando há resistência ao evangelho.\n\nEm seguida, Jesus critica a hipocrisia dos que leem sinais meteorológicos, mas não entendem os sinais dos tempos. Ele usa a parábola do adversário para ensinar a importância de buscar a reconciliação e a justiça antes que seja tarde, lembrando que contas precisas serão exigidas.",
+ "ligar": {
+  "texto": "Este trecho mostra a seriedade da oferta de salvação. Jesus é o centro da divisão porque Ele é a verdade encarnada. Aqueles que O aceitam são justificados pela graça, mas aqueles que rejeitam a verdade enfrentam as consequências de seus atos. O evangelho é uma proposta de paz, mas exige uma decisão que pode reorganizar as prioridades da vida. A justiça de Deus é real, mas a misericórdia de Jesus oferece a saída para a dívida do pecado.",
+  "selo": true
+ },
+ "viver": "A verdade de Cristo pode criar momentos difíceis em relacionamentos familiares quando valores divergem. Em vez de reagir com raiva ou tentar controlar a outra pessoa, busque a paz interna e a reconciliação possível. Assim como Jesus ensina a resolver o conflito no caminho, procure tratar com gentileza e firmeza os assuntos pendentes em sua vida. Use o discernimento para entender o que é justo e necessário, evitando a hipocrisia de julgar os outros sem olhar para si mesmo.",
+ "guarde": "A verdade de Cristo pode dividir, mas a graça de Cristo une o coração que se rende a Ele.",
+ "ore": "Jesus, Tu que disseste vir para trazer divisão, ensina-me a discernir o tempo e a tratar os conflitos com justiça e amor, buscando a reconciliação antes que seja tarde.",
+ "quiz": {
+  "pergunta": "O que Jesus diz sobre o efeito de sua vinda na terra?",
+  "opcoes": [
+   "Vem para unir todas as famílias",
+   "Vem apenas para dar paz",
+   "Vem para trazer divisão"
+  ],
+  "certa": 2,
+  "explicacao": "Em Lucas 12:51, Jesus declara explicitamente: 'Não, eu vos digo; mas antes vim para trazer divisão', referindo-se ao conflito que a verdade gera."
+ },
+ "refs": [
+  "Mateus 10:34-36",
+  "João 7:7",
+  "Lucas 10:16"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-24T01:04:07.232Z",
+  "rounds": 1
+ }
+}

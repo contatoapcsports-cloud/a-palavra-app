@@ -1,0 +1,145 @@
+{
+ "id": "42-12-36-47",
+ "ref": "Lucas 12:36-47",
+ "book": "42",
+ "chapter": 12,
+ "verses": [
+  {
+   "n": 36,
+   "t": "E sede vós semelhantes às pessoas que esperam a seu senhor quando voltar do casamento; para que quando ele vier, e bater, logo possam lhe abrir."
+  },
+  {
+   "n": 37,
+   "t": "Bem-aventurados aqueles servos, os quais, quando o Senhor vier, os achar vigiando; em verdade vos digo que ele se vestirá, e os fará se sentarem à mesa ,e chegando-se, os servirá."
+  },
+  {
+   "n": 38,
+   "t": "E ainda que venha à segunda vigília; e que venha a terceira vigília, e assim os achar, bem-aventurados são tais servos."
+  },
+  {
+   "n": 39,
+   "t": "Isto, porém, sabei: que se o chefe da casa soubesse à que hora o ladrão viria, ele vigiaria, e não deixaria sua casa sofrer dano."
+  },
+  {
+   "n": 40,
+   "t": "Vós, pois, também estejais prontos; porque o Filho do homem virá à hora que não imaginais."
+  },
+  {
+   "n": 41,
+   "t": "E Pedro lhe disse: Senhor, dizes tu esta parábola para nós, ou também para todos?"
+  },
+  {
+   "n": 42,
+   "t": "E o Senhor disse: Qual é, pois, o mordomo fiel e prudente, a quem seu senhor puser sobre seus servos, para que lhes dê alimento no tempo certo?"
+  },
+  {
+   "n": 43,
+   "t": "Bem-aventurado aquele servo ao qual, quando seu senhor vier, o achar fazendo assim."
+  },
+  {
+   "n": 44,
+   "t": "Em verdade vos digo, que o porá sobre todos os seus bens."
+  },
+  {
+   "n": 45,
+   "t": "Mas se aquele servo disser em seu coração: Meu senhor está demorando para vir; e começar a espancar aos servos e servas, e a comer, e a beber, e a se embebedar,"
+  },
+  {
+   "n": 46,
+   "t": "Virá o senhor daquele servo, no dia em que ele não espera, e na hora que ele não sabe; e será partido em dois, e porá sua porção com os incrédulos."
+  },
+  {
+   "n": 47,
+   "t": "E o servo que sabia a vontade de seu senhor, e não se preparou, nem fez conforme a sua vontade, será muito espancado."
+  }
+ ],
+ "titulo": "O ladrão, o mordomo e a surpresa do fim",
+ "temas": [
+  "vigilância",
+  "serviço",
+  "retorno de cristo",
+  "responsabilidade"
+ ],
+ "pergunta": "Como a incerteza sobre a hora do retorno de Jesus muda a forma como você usa seu tempo hoje?",
+ "entender": "Jesus compara seus seguidores a servos esperando o patrão voltar de um casamento. A ordem é estar prontos para abrir a porta imediatamente. A bem-aventurança prometida é intimidade: ele se vestirá para servi-los à mesa. Isso contrasta com a atitude do servo malvado, que, achando que o senhor demora, começa a agredir outros e a se embriagar.\n\nO ponto central é a imprevisibilidade do retorno. Jesus usa a imagem de um ladrão: se o dono soubesse a hora exata, vigiaria. Portanto, a segurança não vem de prever o dia, mas de uma postura constante de prontidão. Pedro pergunta se a parábola é para todos, e Jesus amplia o foco para o \"mordomo fiel\", aquele com autoridade para cuidar da casa.\n\nA responsabilidade é proporcional ao conhecimento. O servo que sabia a vontade e não agiu será severamente corrigido. A demora do senhor não é licença para o egoísmo, mas o tempo de prova onde a fidelidade real é revelada. A vigilância aqui não é ansiedade, mas um amor ativo que cuida do que foi confiado.",
+ "ligar": {
+  "texto": "Este texto apresenta Jesus como o Senhor que voltará, identificando-o como o Filho do Homem. O evangelho aparece na promessa de que, para os que o esperam, Ele não virá apenas como juiz, mas como anfitrião que serve seus servos fiéis. A esperança da segunda vinda transforma a vida presente: em vez de relaxar na moralidade por causa da demora, o cristão serve com mais dedicação, sabendo que cada ato de fidelidade hoje será reconhecido pessoalmente por Cristo no futuro.",
+  "selo": true
+ },
+ "viver": "A parábola do mordomo nos convida a examinar nossa rotina com honestidade. Onde estamos tratando a demora de Deus como permissão para negligenciar o próximo ou para viver de forma egoísta? Escolha uma área específica onde você tem sido preguiçoso ou indiferente. Não espere por um sinal para agir; comece hoje a tratar essa tarefa com a excelência de quem sabe que o Dono da casa está observando. A vigilância prática é fazer o certo, com amor e dedicação, mesmo quando ninguém mais está olhando.",
+ "guarde": "A verdadeira prontidão não é ansiedade, mas a fidelidade constante no serviço enquanto o Senhor demora.",
+ "ore": "Mordomo fiel, eu confio que a Tua demora é tempo de graça, não de negligência. Ensina-me a tratar cada dia como se fosse o último, servindo aos meus semelhantes com a mesma dedicação que tenho para com o trabalho. Que eu não seja pego despreparado, mas encontrado cuidando da casa que me entregaste.",
+ "quiz": {
+  "pergunta": "Segundo o texto, qual é a atitude do servo que espera a volta do senhor?",
+  "opcoes": [
+   "Vender todos os seus bens",
+   "Dormir profundamente para descansar",
+   "Estar pronto para abrir a porta"
+  ],
+  "certa": 2,
+  "explicacao": "O versículo 36 instrui a ser semelhante a quem espera o senhor para que, quando ele vier e bater, possam logo abrir. A ênfase é na prontidão para receber o chefe, não no sono ou em ações financeiras específicas nesse contexto."
+ },
+ "refs": [
+  "Mateus 24:42-44",
+  "Marcos 13:33-37",
+  "1 Pedro 4:7-9"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-24T01:01:59.430Z",
+  "rounds": 2
+ }
+}

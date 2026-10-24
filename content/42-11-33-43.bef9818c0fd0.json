@@ -1,0 +1,140 @@
+{
+ "id": "42-11-33-43",
+ "ref": "Lucas 11:33-43",
+ "book": "42",
+ "chapter": 11,
+ "verses": [
+  {
+   "n": 33,
+   "t": "E ninguém, acendendo a lâmpada, a põe em lugar oculto, nem debaixo da caixa, mas na luminária, para que os que entrarem vejam a luz."
+  },
+  {
+   "n": 34,
+   "t": "A lâmpada do corpo é o olho. Sendo pois teu olho bom, também todo teu corpo será luminoso; porém se for mau, também todo teu corpo será tenebroso."
+  },
+  {
+   "n": 35,
+   "t": "Olha pois que a luz que em ti há não sejam trevas."
+  },
+  {
+   "n": 36,
+   "t": "Então se sendo teu corpo todo luminoso, não tendo parte alguma escura, ele todo será iluminado, como quando a lâmpada com seu brilho te ilumina."
+  },
+  {
+   "n": 37,
+   "t": "E estando ele ainda falando, um fariseu lhe rogou que viesse para jantar com ele; e entrando, sentou-se à mesa ;"
+  },
+  {
+   "n": 38,
+   "t": "E vendo -o o fariseu, maravilhou-se de que não tinha se lavado antes de jantar."
+  },
+  {
+   "n": 39,
+   "t": "E o Senhor lhe disse: Agora vós, os fariseus, limpais o exterior do copo e do prato; porém vosso interior está cheio de roubo e maldade."
+  },
+  {
+   "n": 40,
+   "t": "Loucos, o que fez o exterior não fez também o interior?"
+  },
+  {
+   "n": 41,
+   "t": "Porém daí de esmola o que tendes; e eis que tudo vos será limpo."
+  },
+  {
+   "n": 42,
+   "t": "Mais ai de vós, fariseus, que dizimais a hortelã, e a arruda, e toda hortaliça; e pelo juízo e amor de Deus passais longe. Estas coisas era necessário fazer, e não deixar as outras."
+  },
+  {
+   "n": 43,
+   "t": "Ai de vós, fariseus, que amais os primeiros assentos nas sinagogas, e as saudações nas praças."
+  }
+ ],
+ "titulo": "A luz que revela o que está dentro",
+ "temas": [
+  "luz",
+  "hipocrisia",
+  "coração"
+ ],
+ "pergunta": "Sua vida reflete a luz que vem dos olhos ou ainda guarda trevas internas?",
+ "entender": "Jesus usa a imagem da lâmpada para ensinar que os olhos são a fonte de luz do corpo: \"a lâmpada do corpo é o olho\" (Lc 11.34). Quando o olho é bom, todo o corpo se ilumina; se o olho é mau, o corpo permanece em trevas (Lc 11.33‑35). Ele então repreende os fariseus que se preocupam apenas com a limpeza externa, dizendo que \"vosso interior está cheio de roubo e maldade\" (Lc 11.39‑40). O contexto imediato mostra Jesus aceitando o convite de um fariseu para jantar, notando que ele não se lavou, e aproveita a situação para denunciar a prática religiosa vazia. A lição central é que a verdadeira pureza vem de dentro, não de rituais externos.\n\nA metáfora da lâmpada também aponta para a necessidade de que a luz interior – a verdade de Deus – seja completa, de modo que \"ele todo será iluminado\" (Lc 11.36). Assim, a advertência contra a hipocrisia chama à transformação interior, que faz todo o ser brilhar diante de Deus e das pessoas.",
+ "ligar": {
+  "texto": "A luz que Jesus menciona é a verdade de Deus revelada em Cristo, a verdadeira lâmpada que ilumina todo o ser. Quando recebemos a luz de Jesus, nossos olhos são renovados, permitindo que o interior se torne puro e que todo o corpo reflita a glória de Deus. A crítica à hipocrisia aponta para a necessidade de confiar na obra redentora de Cristo, que limpa o coração e faz brilhar a luz que vem dEle, não apenas as aparências externas.",
+  "selo": false
+ },
+ "viver": "Ao perceber que podemos ter uma aparência limpa enquanto o interior ainda guarda atitudes de orgulho, egoísmo ou injustiça, devemos buscar uma mudança que vem do coração. Confesse a Deus as áreas que ainda precisam de purificação e peça que Ele ilumine seus olhos para ver a verdade. Deixe que essa luz transforme suas atitudes diárias, tornando‑se alguém que reflete a graça recebida, não apenas por rituais, mas por um caráter renovado.\n\nPratique a honestidade consigo mesmo e com os outros, permitindo que a luz de Cristo revele e corrija as partes sombrias, e assim viva de maneira coerente entre o que se faz externamente e o que se sente interiormente.",
+ "guarde": "A verdadeira luz nasce no interior transformado, não nas aparências externas.",
+ "ore": "Senhor Jesus, que me convidaste à mesa, purifica meu coração; que meus olhos vejam a tua luz e que todo o meu ser reflita a tua verdade.",
+ "quiz": {
+  "pergunta": "O que Jesus compara ao olho no ensino de Lucas 11.33‑43?",
+  "opcoes": [
+   "O coração",
+   "A lâmpada do corpo",
+   "A mente"
+  ],
+  "certa": 1,
+  "explicacao": "Jesus declara explicitamente que \"a lâmpada do corpo é o olho\", usando a imagem para mostrar que o olho controla a luz que ilumina todo o corpo."
+ },
+ "refs": [
+  "Mateus 6:22-23",
+  "João 9:25",
+  "1 Coríntios 4:5"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-24T00:52:57.323Z",
+  "rounds": 2
+ }
+}

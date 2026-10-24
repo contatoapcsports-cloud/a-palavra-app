@@ -1,0 +1,145 @@
+{
+ "id": "42-12-13-24",
+ "ref": "Lucas 12:13-24",
+ "book": "42",
+ "chapter": 12,
+ "verses": [
+  {
+   "n": 13,
+   "t": "E um da multidão lhe disse: Mestre, dize a meu irmão que reparta a herança comigo."
+  },
+  {
+   "n": 14,
+   "t": "Mas ele lhe disse: Homem, quem me pôs por juiz, ou repartidor sobre vós?"
+  },
+  {
+   "n": 15,
+   "t": "E disse-lhes: Olhai, e tomai cuidado com a ganância; porque a vida de alguém não consiste na abundância dos bens que possui."
+  },
+  {
+   "n": 16,
+   "t": "E propôs-lhes uma parábola, dizendo: A terra de um homem rico tinha frutificado bem."
+  },
+  {
+   "n": 17,
+   "t": "E ele questionava a si mesmo, dizendo: Que farei? Porque não tenho onde juntar meus frutos."
+  },
+  {
+   "n": 18,
+   "t": "E disse: Farei isto: derrubarei meus celeiros, e construirei maiores, e ali juntarei toda esta minha colheita, e estes meus bens."
+  },
+  {
+   "n": 19,
+   "t": "E direi à minha alma: Alma, muitos bens tens guardados, para muitos anos; descansa, come, bebe, alegra-te!"
+  },
+  {
+   "n": 20,
+   "t": "Porém Deus lhe disse: Louco, esta noite te pedirão tua alma; e o que tens preparado, de quem será?"
+  },
+  {
+   "n": 21,
+   "t": "Assim é o que junta tesouros para si, mas não é rico em Deus."
+  },
+  {
+   "n": 22,
+   "t": "E disse a seus discípulos: Portanto vos digo, não estejais ansiosos por vossa vida, que comereis; nem pelo corpo, que vestireis."
+  },
+  {
+   "n": 23,
+   "t": "Mais é a vida que o alimento, e mais o corpo que o vestido."
+  },
+  {
+   "n": 24,
+   "t": "Considerai os corvos, que nem semeiam, nem ceifam; nem tem armazém, nem celeiro; e Deus os alimenta."
+  }
+ ],
+ "titulo": "Celeiros cheios, mas alma vazia",
+ "temas": [
+  "ganância",
+  "ansiedade",
+  "confiança",
+  "providência"
+ ],
+ "pergunta": "O que você considera essencial para sua felicidade neste ano?",
+ "entender": "Em Lucas 12, um homem pede a Jesus que resolva uma disputa de herança. Jesus recusa o papel de juiz terreno e alerta sobre a ganância, dizendo que a vida não consiste na abundância de bens. Ele conta a parábola de um rico que, tendo colhido muito, planeja construir celeiros maiores para guardar tudo e descansar.\n\nDeus chama esse homem de louco porque, naquela mesma noite, sua alma seria exigida. O que ele preparou não lhe pertencia mais. Jesus usa isso para ensinar que não devemos estar ansiosos com o que comer ou vestir, pois a vida é mais importante que o alimento e o corpo mais que o vestido. Assim como Deus alimenta os corvos, que não têm armazém, Ele cuida de nós de forma muito superior.",
+ "ligar": {
+  "texto": "Jesus é o verdadeiro juiz e o provedor da nossa vida. Ele nos convida a transferir a ansiedade para Ele, lembrando que Ele conhece nossas necessidades. O evangelho nos mostra que, em Cristo, somos ricos em Deus, não apenas em poss materiais, e que nossa segurança final está na ressurreição e no cuidado do Pai, não nos celeiros que construímos.",
+  "selo": false
+ },
+ "viver": "O homem da parábola disse à sua alma: 'descansa, come, bebe, alegra-te'. Ele buscava paz em coisas materiais, mas esqueceu que a vida pertence a Deus. Hoje, identifique onde você tenta encontrar segurança em bens ou status. Em vez de acumular, pratique a gratidão pelo que já tem. Pergunte-se: 'Se minha vida fosse tomada hoje, o que eu deixaria para trás?' Essa pergunta ajuda a alinhar suas prioridades com as de Deus, reduzindo a ansiedade e aumentando a confiança no Criador que sustenta a vida.",
+ "guarde": "A vida é mais importante que o alimento; confie no Deus que alimenta até os corvos.",
+ "ore": "Rico da parábola, ensina-me a não confiar no que acumulo. Ajuda-me a ver que minha vida está nas mãos de Deus, não nos meus celeiros. Livra-me da ganância e da ansiedade, para que eu viva rico em Ti.",
+ "quiz": {
+  "pergunta": "O que Deus chama o homem rico que planejava seus celeiros?",
+  "opcoes": [
+   "Louco",
+   "Sábio",
+   "Fiel"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz explicitamente que Deus lhe disse: \"Louco, esta noite te pedirão tua alma\". Ele é chamado de louco por focar na riqueza material e esquecer da eternidade."
+ },
+ "refs": [
+  "Mateus 6:25-34",
+  "Tiago 5:1-5",
+  "1 Timóteo 6:6-10"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-24T01:01:33.441Z",
+  "rounds": 2
+ }
+}

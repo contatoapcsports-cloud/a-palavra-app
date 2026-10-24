@@ -1,0 +1,141 @@
+{
+ "id": "42-12-25-35",
+ "ref": "Lucas 12:25-35",
+ "book": "42",
+ "chapter": 12,
+ "verses": [
+  {
+   "n": 25,
+   "t": "E quem de vós pode, com sua ansiedade, acrescentar um côvado à sua altura?"
+  },
+  {
+   "n": 26,
+   "t": "Pois, se não podeis nem mesmo com algo pequeno, por que estais ansiosos com o resto?"
+  },
+  {
+   "n": 27,
+   "t": "Considerai os lírios, como crescem; não trabalham, nem fiam; e digo-vos, que nem mesmo Salomão, em toda sua glória, chegou a se vestir como um deles."
+  },
+  {
+   "n": 28,
+   "t": "E se assim Deus veste a erva, que hoje está no campo, e amanhá é lançada no forno, quanto mais vestirá a vós, homens de pouca fé?"
+  },
+  {
+   "n": 29,
+   "t": "Vós, pois, não pergunteis que comereis, ou que bebereis; e não andeis preocupados."
+  },
+  {
+   "n": 30,
+   "t": "Porque todas estas coisas, os gentios do mundo as buscam; mas vosso Pai sabe que necessitais destas coisas."
+  },
+  {
+   "n": 31,
+   "t": "Mas buscai o Reino de Deus, e todas estas coisas vos serão acrescentadas."
+  },
+  {
+   "n": 32,
+   "t": "Não temas, ó pequeno rebanho; porque vosso Pai se agradou de dar a vós o Reino."
+  },
+  {
+   "n": 33,
+   "t": "Vendei o que tendes, e daí esmola. Fazei para vós bolsas que não se envelheçam; tesouro nos céus que nunca se deprecia; onde ladrão não chega, nem a traça destrói."
+  },
+  {
+   "n": 34,
+   "t": "Porque aonde estiver vosso tesouro, ali estará também vosso coração."
+  },
+  {
+   "n": 35,
+   "t": "Estejam devidamente vestidos vossos quadris, e acesas as lâmpadas."
+  }
+ ],
+ "titulo": "A tranquilidade do pequeno rebanho",
+ "temas": [
+  "ansiedade",
+  "confiança",
+  "reino",
+  "prioridades"
+ ],
+ "pergunta": "Como a forma como Deus veste os lírios nos ensina a lidar com o medo do amanhã?",
+ "entender": "Jesus responde à preocupação dos discípulos com uma pergunta retórica: a ansiedade pode aumentar a nossa estatura? A resposta é não. Ele usa a natureza para ilustrar o cuidado de Deus: os lírios crescem sem esforço humano, mas são mais gloriosos que Salomão. Se Deus cuida da erva que dura um dia, quanto mais cuidará daqueles a quem Ele chama de \"homens de pouca fé\".\n\nA instrução é mudar o foco. Não devemos viver buscando comida e bebida como os gentios, pois o Pai sabe do que precisamos. Em vez disso, a prioridade máxima é buscar o Reino de Deus. Jesus se dirige a eles como um \"pequeno rebanho\", lembrando que, apesar de serem poucos, o Pai se agradou de dar-lhes o Reino. Isso muda a perspectiva: não estamos sozinhos, estamos sob o cuidado ativo de um Rei que provê.",
+ "ligar": {
+  "texto": "Aqui, a segurança não vem de bens materiais, mas da relação com Jesus, que oferece o Reino. O evangelho é a entrada nesse Reino, onde o cuidado do Pai é garantido. Jesus, como o Filho que conhece o Pai, nos mostra que a confiança nEle é superior à preocupação com a sobrevivência. Ele nos convida a trocar o medo do futuro pela certeza de pertencer a um Rei que se agrada de nos abençoar.",
+  "selo": true
+ },
+ "viver": "Pare de tentar controlar o que está fora do seu alcance. Escolha uma preocupação que está consumindo sua energia hoje e entregue-a a Deus em oração, reconhecendo que Ele sabe do que você precisa. Em vez de acumular seguranças temporais, invista seu tempo em buscar a presença de Deus e em servir aos outros. Lembre-se: você é parte de um rebanho cuidado. A paz não vem da ausência de problemas, mas da certeza de que o Rei está no controle.",
+ "guarde": "Busque o Reino de Deus e confie que o Pai cuidará das suas necessidades reais.",
+ "ore": "Jesus, Tu que chamas os Teus de pequeno rebanho, ensina-me a buscar primeiro o Teu Reino. Quando a ansiedade tentar me controlar, lembra-me que o mesmo Deus que veste os lírios cuida de mim. Ajuda-me a confiar no Teu cuidado diário. Amém.",
+ "quiz": {
+  "pergunta": "O que Jesus diz que o Pai sabe a respeito das necessidades dos discípulos?",
+  "opcoes": [
+   "Que eles necessitam delas",
+   "Que eles devem trabalhar mais",
+   "Que eles devem acumular riquezas"
+  ],
+  "certa": 0,
+  "explicacao": "No versículo 30, o texto afirma claramente: \"mas vosso Pai sabe que necessitais destas coisas\"."
+ },
+ "refs": [
+  "Mateus 6:25-33",
+  "Filipenses 4:6-7",
+  "1 Pedro 5:7"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-24T01:00:05.830Z",
+  "rounds": 2
+ }
+}
