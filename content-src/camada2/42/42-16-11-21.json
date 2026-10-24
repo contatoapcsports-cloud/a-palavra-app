@@ -1,0 +1,141 @@
+{
+ "id": "42-16-11-21",
+ "ref": "Lucas 16:11-21",
+ "book": "42",
+ "chapter": 16,
+ "verses": [
+  {
+   "n": 11,
+   "t": "Pois se nas riquezas da injustiça não fostes fiéis, quem vos confiará as verdadeiras riquezas ?"
+  },
+  {
+   "n": 12,
+   "t": "E se nas coisas dos outros não fostes fiéis, quem vos dará o que é vosso?"
+  },
+  {
+   "n": 13,
+   "t": "Nenhum servo pode servir a dois senhores; porque ou irá odiar a um, e a amar ao outro; ou irá se achegar a um, e desprezar ao outro. Não podeis servir a Deus e às riquezas."
+  },
+  {
+   "n": 14,
+   "t": "E os fariseus também ouviram todas estas coisas, eles que eram avarentos. E zombaram dele."
+  },
+  {
+   "n": 15,
+   "t": "E disse-lhes: Vós sois os que justificais a vós mesmos diante dos seres humanos; mas Deus conhece vossos corações. Porque o que é excelente para os seres humanos é odiável diante de Deus."
+  },
+  {
+   "n": 16,
+   "t": "A Lei e os profetas foram até João; desde então, o Reino de Deus é anunciado, todo homem tenta entrar nele pela força."
+  },
+  {
+   "n": 17,
+   "t": "E é mais fácil passar o céu e a terra do que cair um traço de alguma letra da Lei."
+  },
+  {
+   "n": 18,
+   "t": "Qualquer que deixa sua mulher, e casa com outra, adultera; e qualquer que se casa com a deixada pelo marido, também adultera."
+  },
+  {
+   "n": 19,
+   "t": "Havia porém um certo homem rico, e vestia-se de púrpura, e de linho finíssimo, e festejava todo dia com luxo."
+  },
+  {
+   "n": 20,
+   "t": "Havia também um certo mendigo, de nome Lázaro, o qual ficava deitado à sua porta cheio de feridas."
+  },
+  {
+   "n": 21,
+   "t": "E desejava se satisfazer com as migalhas que caíam da mesa do rico; porém vinham também os cães, e lambiam suas feridas."
+  }
+ ],
+ "titulo": "A porta que separa o luxo da fome",
+ "temas": [
+  "justiça",
+  "misericórdia",
+  "riqueza",
+  "coração"
+ ],
+ "pergunta": "O que nos impede de ver a necessidade do outro que está bem diante de nós?",
+ "entender": "Jesus termina o ensino sobre o mordomo com uma advertência dura: não é possível servir a Deus e às riquezas ao mesmo tempo. Ele alerta que o coração humano tende a ser dividido, amando uma coisa e desprezando a outra. Os fariseus, que se consideravam justos e eram avarentos, zombaram dele, mas Jesus revelou que Deus vê o que está escondido no interior.\n\nEm seguida, o texto muda de assunto abruptamente, introduzindo a parábola do rico e Lázaro. O contraste é visual e chocante: o rico vestia púrpura e linho fino, festejando todo dia, enquanto Lázaro, cheio de feridas, ficava à sua porta, desejando apenas as migalhas que caíam da mesa. Essa cena prepara o terreno para a história da morte e do destino de ambos, mostrando como a indiferença diante do sofrimento alheio reflete um coração endurecido.\n\nA transição não é acidental. Jesus usa a situação prática da porta da casa do rico para ilustrar a separação espiritual que a avareza e a autojustiça criam. O que parece apenas uma falta de caridade humana é, na verdade, uma barreira que impede o encontro com a justiça de Deus.",
+ "ligar": {
+  "texto": "Este trecho aponta para Jesus como o Juiz final que conhece os corações. Ele confronta a autojustiça dos fariseus, mostrando que a aparência religiosa não substitui a transformação interior. A parábola que se inicia revela a gravidade da indiferença espiritual: quem ignora a necessidade do próximo, mesmo que seja apenas por conforto próprio, está separado da misericórdia que Cristo oferece. Jesus é a ponte que deveria ser construída, mas a avareza mantém a porta fechada.",
+  "selo": false
+ },
+ "viver": "Observe quem está à sua 'porta'. Não se trata apenas de doações, mas de atenção. A parábola mostra que o rico não proíbe Lázaro de estar lá; ele apenas não o vê. Hoje, isso pode ser o colega de trabalho estressado, o vizinho solitário ou a pessoa em situação de rua que passamos sem olhar. A fé genuína move os olhos e os pés. Pense em uma pessoa específica que você tem ignorado por conforto ou pressa. Que pequeno passo você pode dar esta semana para ver essa pessoa como Lázaro, com dignidade e necessidade real?\n\nA verdadeira fidelidade começa no mínimo: perceber a dor do outro. Se não somos fiéis nas pequenas oportunidades de compaixão, como reagiremos diante das grandes responsabilidades que Deus nos confiou? A avareza não é só ter muito; é ter olhos cegos para quem tem pouco.",
+ "guarde": "A indiferença diante da dor do outro é uma barreira invisível que nos separa da misericórdia de Deus.",
+ "ore": "Pai, diante da cena de Lázaro à porta do rico, abre meus olhos. Ensina-me a não ser cego ao sofrimento alheio pelo meu conforto. Que eu use meus recursos e meu tempo para servir com amor, reconhecendo que a verdadeira riqueza é a compaixão que reflete o Teu caráter.",
+ "quiz": {
+  "pergunta": "Qual era a condição de Lázaro na parábola iniciada no versículo 20?",
+  "opcoes": [
+   "Ele ficava deitado à porta do rico, cheio de feridas.",
+   "Ele morava em uma casa afastada da cidade.",
+   "Ele era um servo do rico e trabalhava muito."
+  ],
+  "certa": 0,
+  "explicacao": "O texto descreve explicitamente que Lázaro ficava à porta do homem rico, cheio de feridas, desejando as migalhas da mesa (Lucas 16.20-21)."
+ },
+ "refs": [
+  "Mateus 6:19-24",
+  "Tiago 2:16",
+  "1 João 3:17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-24T12:50:56.333Z",
+  "rounds": 2
+ }
+}

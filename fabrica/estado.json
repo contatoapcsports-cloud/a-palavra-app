@@ -1282,7 +1282,9 @@
   },
   "42-16-11-21": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração é dirigida a Lázaro, personagem da parábola, pedindo-lhe ensino e iluminação em vez de ser dirigida a Deus.",
+   "estado": "pronto",
+   "titulo": "A porta que separa o luxo da fome"
   },
   "42-16-22-31": {
    "execucoes": 0,
@@ -1343,24 +1345,24 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 441,
-   "entrada": 1088556,
-   "saida": 394102
+   "chamadas": 448,
+   "entrada": 1108244,
+   "saida": 400407
   },
   "groq-qwen": {
-   "chamadas": 439,
-   "entrada": 1033959,
-   "saida": 353239
+   "chamadas": 445,
+   "entrada": 1050842,
+   "saida": 358768
   },
   "gemini": {
-   "chamadas": 364,
-   "entrada": 1178847,
-   "saida": 461742
+   "chamadas": 369,
+   "entrada": 1195720,
+   "saida": 469508
   },
   "cloudflare": {
-   "chamadas": 224,
-   "entrada": 779842,
-   "saida": 83104
+   "chamadas": 225,
+   "entrada": 783632,
+   "saida": 83475
   },
   "mistral": {
    "chamadas": 0,
