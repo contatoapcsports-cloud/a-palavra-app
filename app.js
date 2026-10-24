@@ -707,6 +707,8 @@
     } catch (e) { $('#dlSmall').textContent = ''; }
     var est = '';
     try { if (navigator.storage && navigator.storage.estimate) { var e = await navigator.storage.estimate(); est = 'Armazenamento usado: ' + Math.round((e.usage || 0) / 1024 / 1024 * 10) / 10 + ' MB de ' + Math.round((e.quota || 0) / 1024 / 1024) + ' MB.'; } } catch (x) { est = ''; }
+    var bt = ''; try { bt = localStorage.getItem('pv_boot') || ''; } catch (x) { bt = ''; }
+    if (bt) est += (est ? ' · ' : '') + 'Última abertura até a tela inicial: ' + (Math.round(+bt / 100) / 10) + ' s.';
     $('#storeInfo').textContent = est;
     var pst = '';
     try { if (navigator.storage && navigator.storage.persisted) pst = (await navigator.storage.persisted()) ? 'Protegido' : 'Não protegido'; } catch (x) { pst = ''; }
@@ -836,12 +838,15 @@
       nodes.push(h('p', { style: 'font-size:13px;line-height:1.5;margin:10px 0 4px' }, [h('b', { text: v.sigla + ' · ' + covLabel(v) }), h('br'), v.credito || '']));
       if (v.licencaUrl) nodes.push(h('p', { style: 'margin:0' }, [h('a', { href: v.licencaUrl, rel: 'noopener', target: '_blank', text: 'Licença de ' + v.sigla + ' (' + (v.licenca || '') + ')' })]));
     });
-    var USERS = '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>';
-    var ic = h('span', { 'aria-hidden': 'true', style: 'flex:none;display:flex;color:var(--accent)' }); ic.innerHTML = USERS; /* SVG fixo do próprio app */
-    nodes.push(h('a', { href: 'assets/creditos.html', target: '_blank', rel: 'noopener', style: 'display:flex;align-items:center;gap:12px;margin:14px 0 0;padding:12px 14px;border-radius:16px;background:var(--paper);color:inherit;font-weight:400;text-decoration:none;word-break:normal' }, [
+    var USERS = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>';
+    var ic = h('span', { 'aria-hidden': 'true', style: 'flex:none;display:flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50%;overflow:hidden;color:var(--accent);background:var(--gold-soft)' }); ic.innerHTML = USERS; /* SVG fixo do próprio app */
+    var fo = new Image(); fo.alt = ''; fo.style.cssText = 'width:100%;height:100%;object-fit:cover;display:none'; /* miniatura do responsável, se a foto existir */
+    fo.onload = function () { ic.innerHTML = ''; fo.style.display = 'block'; ic.appendChild(fo); };
+    if (window.PV_FOTO) fo.src = window.PV_FOTO; else { var sc = document.createElement('script'); sc.src = 'assets/foto-responsavel.js'; sc.onload = function () { if (window.PV_FOTO) fo.src = window.PV_FOTO; }; document.head.appendChild(sc); }
+    nodes.push(h('a', { href: 'assets/creditos.html', target: '_blank', rel: 'noopener', style: 'display:flex;align-items:center;gap:10px;margin:10px 0 0;padding:8px 10px;border-radius:14px;background:var(--paper);color:inherit;font-weight:400;text-decoration:none;word-break:normal' }, [
       ic,
-      h('span', { style: 'flex:1;min-width:0' }, [h('strong', { style: 'display:block;font-size:15px;color:var(--accent)', text: 'Créditos e colaboradores' }), h('span', { style: 'display:block;font-size:12.5px;line-height:1.4;color:var(--soft)', text: 'Conheça as pessoas, inteligências artificiais e ferramentas que contribuíram para o projeto.' })]),
-      h('span', { 'aria-hidden': 'true', style: 'flex:none;font-size:22px;color:var(--soft)', text: '›' })
+      h('span', { style: 'flex:1;min-width:0' }, [h('strong', { style: 'display:block;font-size:13px;color:var(--accent)', text: 'Créditos e colaboradores' }), h('span', { style: 'display:block;font-size:11px;line-height:1.3;color:var(--soft)', text: 'Pessoas, inteligências artificiais e ferramentas do projeto.' })]),
+      h('span', { 'aria-hidden': 'true', style: 'flex:none;font-size:18px;color:var(--soft)', text: '›' })
     ]));
     nodes.push(h('p', { style: 'font-size:10.5px;line-height:1.45;color:var(--soft);text-align:center;margin:14px 0 0;opacity:.9' }, [
       '© ' + yr + ' ' + owner + '. Aplicativo, código e organização dos estudos: todos os direitos reservados. Textos bíblicos: cada tradução segue a licença indicada nos créditos dela (' + versionsList().map(function (v) { return v.sigla + ', ' + v.licenca; }).join('; ') + '). Os estudos são elaborados com apoio de inteligência artificial e não substituem a Bíblia. ',
@@ -947,8 +952,8 @@
   function bindStatic() {
     var splash = $('#splash'), t0 = Date.now();
     function hideSplash() { if (!splashOn) return; splashOn = false; splash.classList.add('off'); ssSet('pv4-splash', '1'); applyAppearance(); }
-    /* a abertura fica na tela, em verde-escuro, até o app terminar de carregar (mínimo 0,7 s) */
-    appReady = function () { setTimeout(hideSplash, Math.max(0, 700 - (Date.now() - t0))); };
+    /* a abertura fica na tela, em verde-escuro, até o app terminar de carregar (mínimo 0,3 s) */
+    appReady = function () { setTimeout(hideSplash, Math.max(0, 300 - (Date.now() - t0))); };
     if (ssGet('pv4-splash')) { splashOn = false; splash.classList.add('off'); applyAppearance(); }
     else { setTimeout(hideSplash, 8000); splash.addEventListener('click', hideSplash); splash.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') hideSplash(); }); }
 
@@ -1010,6 +1015,21 @@
   }
 
   /* ---------- partida ---------- */
+  /* carrossel de estudos: passa sozinho a cada 5 s; pausa ao tocar, em segundo plano, com janela aberta ou com "reduzir movimento" */
+  function autoRail() {
+    var rail = document.querySelector('#railSec .rail'); if (!rail) return;
+    var quiet = 0, still = true;
+    ['touchstart', 'pointerdown', 'wheel', 'keydown'].forEach(function (ev) { rail.addEventListener(ev, function () { still = false; quiet = Date.now() + 12000; }, { passive: true }); });
+    [300, 1200, 2500].forEach(function (ms) { setTimeout(function () { if (still && curState && curState.v === 'home') rail.scrollLeft = 0; }, ms); }); /* o primeiro cartão (Palavra do Dia) começa visível */
+    if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    setInterval(function () {
+      if (document.visibilityState !== 'visible' || splashOn || overlay || !curState || curState.v !== 'home' || Date.now() < quiet) return;
+      var cs = [].filter.call(rail.children, function (c) { return !c.hidden && c.offsetWidth; }); if (cs.length < 2) return;
+      var x = rail.scrollLeft, k = 0, base = cs[0].offsetLeft;
+      cs.forEach(function (c, i) { if (c.offsetLeft - base <= x + 8) k = i; });
+      rail.scrollTo({ left: cs[(k + 1) % cs.length].offsetLeft - base, behavior: 'smooth' });
+    }, 5000);
+  }
   (async function start() {
     applyAppearance(); bindStatic(); refreshInstall();
     setupSW();
@@ -1028,7 +1048,8 @@
     try {
       if (stored && stored.bible) {
         manifest = stored; showFirst();
-        syncManifest().then(function (m) { if (m && manifest && m.generation !== manifest.generation) { manifest = m; indexManifest(); if (curState && curState.v === 'home') render(curState); } }, function () { /* sem internet: segue com o guardado */ });
+        /* a verificação de novidades espera a tela abrir e o aparelho sossegar: não disputa a partida */
+        setTimeout(function () { syncManifest().then(function (m) { if (m && manifest && m.generation !== manifest.generation) { manifest = m; indexManifest(); if (curState && curState.v === 'home') render(curState); } }, function () { /* sem internet: segue com o guardado */ }); }, 4000);
       } else {
         await cfgDone;
         manifest = await syncManifest();
@@ -1036,6 +1057,7 @@
         showFirst();
       }
     } catch (e) { fail(e); }
-    appReady();
+    appReady(); autoRail();
+    try { localStorage.setItem('pv_boot', String(Math.round(performance.now()))); } catch (x) { /* ok */ }
   })();
 })();
